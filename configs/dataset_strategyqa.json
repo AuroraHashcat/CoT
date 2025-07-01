@@ -1,0 +1,6 @@
+{
+    "dataset_name": "StrategyQA",
+    "hf_id": "strategy_qa",
+    "split": "test",
+    "num_samples": 5
+}

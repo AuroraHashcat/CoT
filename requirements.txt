@@ -1,0 +1,13 @@
+# Core dependencies
+openai
+datasets
+tqdm
+pyyaml
+requests
+
+# For local model inference
+# Install these if you plan to use local models
+transformers
+torch
+accelerate
+bitsandbytes # for 4-bit/8-bit quantization

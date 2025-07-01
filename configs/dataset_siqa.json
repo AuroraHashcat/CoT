@@ -1,0 +1,6 @@
+{
+    "dataset_name": "SocialIQA",
+    "hf_id": "social_i_qa",
+    "split": "validation",
+    "num_samples": 5
+}

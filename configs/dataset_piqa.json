@@ -1,0 +1,6 @@
+{
+    "dataset_name": "PIQA",
+    "hf_id": "piqa",
+    "split": "validation",
+    "num_samples": 5
+}

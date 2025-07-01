@@ -1,0 +1,7 @@
+{
+    "dataset_name": "GSM8K",
+    "hf_id": "gsm8k",
+    "hf_config": "main",
+    "split": "test",
+    "num_samples": 5
+}

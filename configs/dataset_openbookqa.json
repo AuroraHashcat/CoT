@@ -1,0 +1,7 @@
+{
+    "dataset_name": "OpenBookQA",
+    "hf_id": "openbookqa",
+    "hf_config": "main",
+    "split": "test",
+    "num_samples": 5
+}
