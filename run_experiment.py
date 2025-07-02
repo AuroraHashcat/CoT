@@ -38,24 +38,30 @@ def main():
     for item in tqdm(dataset, desc=f"Processing {dataset_config['dataset_name']}"):
         result = pipeline.run(item['question'])
         
-        # Add metadata for evaluation
         result['id'] = item['id']
         result['question'] = item['question']
         result['ground_truth'] = item['answerKey']
         all_results.append(result)
         
-        # Verbose logging to console
+        # Verbose logging to console with new details
         tqdm.write("\n" + f"----- [ Sample ID: {result['id']} ] -----")
-        tqdm.write(f"Question: {item['question']}")
+        # ... (print question)
         tqdm.write("\n--- Causal Verification Trace ---")
         for i, probe_entry in enumerate(result['trace']['probe_history']):
             tqdm.write(f"\nStep {i+1}: {probe_entry['step']}")
-            tqdm.write("  [KG Evidence]:")
+            
+            # **新增输出: 打印提取的实体**
+            entities = probe_entry.get('extracted_entities', {})
+            tqdm.write(f"  [Extracted Entities]: Entity1='{entities.get('entity1')}', Entity2='{entities.get('entity2')}'")
+            
+            tqdm.write(f"  [KG Evidence (Random Walk)]:")
             for line in probe_entry.get('kg_evidence', []):
                 tqdm.write(f"    {line}")
+                
             probe_res = probe_entry.get('result', {})
             decision = "VALID" if probe_res.get('should_include') else "INVALID"
             tqdm.write(f"  [Causal Judgment]: {decision}")
+            tqdm.write(f"    Identified Claim: {probe_res.get('identified_claim', 'N/A')}")
             tqdm.write(f"    Structure: {probe_res.get('causal_structure', 'N/A')}")
             tqdm.write(f"    Reasoning: {probe_res.get('explanation', 'N/A')}")
         

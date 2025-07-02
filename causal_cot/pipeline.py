@@ -1,5 +1,6 @@
 # causal_cot/pipeline.py
 import re
+import json
 from .llm_handler import LLMHandler
 from .knowledge_prober import KnowledgeProber
 from . import prompts
@@ -14,6 +15,16 @@ class CausalCoTPipeline:
         conclusion_match = re.search(r"Conclusion: .*?([A-E])", text, re.IGNORECASE)
         conclusion = conclusion_match.group(1).upper() if conclusion_match else "N/A"
         return steps, conclusion
+
+    def _extract_entities_with_llm(self, sentence: str) -> dict:
+        """Uses an LLM call to extract core entities from a sentence."""
+        prompt = prompts.ENTITY_EXTRACTION_PROMPT.format(sentence=sentence)
+        response = self.llm.query(prompt)
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Warning: Failed to extract entities for sentence: '{sentence}'")
+            return {"entity1": "", "entity2": ""}
 
     def run(self, question: str) -> dict:
         cot_prompt = prompts.COT_GENERATION_PROMPT.format(question_and_choices=question)
@@ -32,10 +43,16 @@ class CausalCoTPipeline:
         i = 0
         while i < len(cot_queue):
             current_step = cot_queue[i].strip()
-            probe_result, kg_evidence = self.prober.probe(current_step, validated_facts)
+            
+            # **新增步骤: LLM驱动的实体提取**
+            entities = self._extract_entities_with_llm(current_step)
+            
+            # **修改步骤: 将实体传递给Prober**
+            probe_result, kg_evidence = self.prober.probe(current_step, validated_facts, entities)
             
             trace["probe_history"].append({
-                "step": current_step, 
+                "step": current_step,
+                "extracted_entities": entities, # <-- 记录提取的实体
                 "kg_evidence": kg_evidence,
                 "result": probe_result
             })
@@ -44,7 +61,7 @@ class CausalCoTPipeline:
                 trace["validated_steps"].append(current_step)
                 validated_facts += f"\n- {current_step}"
                 i += 1
-            else:
+            else: # Reflection & Regeneration
                 trace["interventions"] += 1
                 reflection_prompt = prompts.REFLECTION_AND_REGENERATION_PROMPT.format(
                     question_and_choices=question,
@@ -56,13 +73,11 @@ class CausalCoTPipeline:
                 regenerated_cot_raw = self.llm.query(reflection_prompt)
                 new_steps, new_conclusion = self._parse_cot(regenerated_cot_raw)
                 
-                # Replace the rest of the queue with the newly generated steps
                 cot_queue = trace["validated_steps"] + new_steps
                 final_conclusion = new_conclusion
-                # Reset 'i' to the beginning of the newly added steps
                 i = len(trace["validated_steps"])
                 
-                if not new_steps: break # Prevent infinite loop if regeneration fails
+                if not new_steps: break
 
         return {
             "final_answer_key": final_conclusion,
