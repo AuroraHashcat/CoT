@@ -1,0 +1,191 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 11,
+            "final_accuracy": "0.00%",
+            "total_successful_pipelines": 0
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/11",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.0
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "The Texans and Patriots faced ",
+            "question": "The Texans and Patriots faced off on Sunday Night Football in a game with playoff implications for both teams. Houston received the opening kickoff, going into a three-and-out on the drive. On New England's second drive, Tom Brady found tight end Rob Gronkowski for a 40-yard reception to set up first and goal. To end the drive, Brady found Keshawn Martin for a 2-yard touchdown pass. With Stephen Gostkowski making the extra point the Patriots took a 7-0 lead. On 3rd and 18, Brian Hoyer found Nate Washington for a 49-yard pass to put Houston at New England's 25 yard line. The Texans ended the drive with a 37-yard field goal from Nick Novak to trail 3-7 late in the 1st quarter. The Patriots extended their lead early in the 2nd quarter to 10-3 with a 43-yard field goal from Stephen Gostkowski. After struggling to find their run game after the loss of Arian Foster, Jonathan Grimes took off for 37 yards to put the Texans at the Patriots' 43 yard line. The drive ended with another Novak field goal, this time from 45 yards. With Novak's kick good, Houston trailed 6-10 with 9:26 left in the half. To close out the first half, Tom Brady found Gronkowski for a 1-yard touchdown pass. With Gostkowski making the extra point New England extended their lead to 17-6 going into halftime. The Texans failed to score in the 2nd half, falling to the Patriots 27-6. Hoyer left the game late in the 4th quarter due to a possible concussion, with T. J. Yates coming in as the starting quarterback.Who made the most field goals in the first half?",
+            "answerKey": "Nick Novak",
+            "cot_output": "Step 1: Identify the scoring events in the first half of the game. The Patriots scored a touchdown with an extra point, a field goal, and another touchdown with an extra point. The Texans scored two field goals.\n\nStep 2: Determine the number of field goals made by each team in the first half. The Patriots made one field goal, and the Texans made two field goals.\n\nStep 3: Compare the number of field goals made by each team. The Texans made two field goals, while the Patriots made one field goal.\n\nStep 4: Conclude which team made the most field goals in the first half based on the comparison in Step 3.\n\n===FINAL_ANSWER_START===\nConclusion: The Texans made the most field goals in the first half.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the scoring events in the first half of the game. The Patriots scored a touchdown with an extra point, a field goal, and another touchdown with an extra point. The Texans scored two field goals.",
+                "Determine the number of field goals made by each team in the first half. The Patriots made one field goal, and the Texans made two field goals.",
+                "Compare the number of field goals made by each team. The Texans made two field goals, while the Patriots made one field goal.",
+                "Conclude which team made the most field goals in the first half based on the comparison in Step 3."
+            ],
+            "pred": "The Texans made the most field goals in the first half.",
+            "is_correct": false,
+            "elapsed_time": 3.9648189544677734
+        },
+        {
+            "id": "Setu coins or Setu bull coins ",
+            "question": "Setu coins or Setu bull coins are found in large quantities in the northern part of Sri Lanka and in Southern India. Codrington in his book Ceylon Coins and Currency published in 1924 and Mitchiner in his book Oriental Coins published in 1978 have clearly pointed out that the traditional design of Sri Lanka standing King Type Copper Massa  of the Jaffna Kingdoms belongs to the Aryacakravarti dynasty from 1284 AD to 1410 AD. Setu coins were previously attributed to the Setupati Princes of Ramanathapuram in South India. There are two series one in the issued from the 13th to the 15th centuries and the other after the brief loss of sovereignty to the rival Kotte kingdom from 1450 to 1467 and reconstitution of the Kingdom. Even during the rule of Sapumal Kumaraya coins were issued in Jaffna that was distinct. Three types of this series are illustrated below. The obverse of these coins have a human figure flanked by lamps and the reverse has the Nandi  symbol, the legend Sethu in Tamil with a crescent moon above. There are number of categories of these coins. In type I  is closely aligned with the Chola copper coins of the 13th century although slightly larger in size. The Tamil Setu replaces the Nagari Rajaraja in the cola coins. In type I  the blank is even broader but a recumbent bull appera obverse in a vertical position. In the coin type II the seated figure is replaced with a Bull.How many years did the Aryacakravarti dynasty last?",
+            "answerKey": "126",
+            "cot_output": "Step 1: Identify the starting year of the Aryacakravarti dynasty's rule. According to the information provided, the Aryacakravarti dynasty began its rule in 1284 AD.\n\nStep 2: Identify the ending year of the Aryacakravarti dynasty's rule. The dynasty's rule ended in 1410 AD, as stated in the text.\n\nStep 3: Calculate the duration of the Aryacakravarti dynasty's rule by subtracting the starting year from the ending year. This calculation is 1410 AD - 1284 AD.\n\nStep 4: Perform the subtraction: 1410 - 1284 = 126.\n\n===FINAL_ANSWER_START===\nConclusion: The Aryacakravarti dynasty lasted for 126 years.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the starting year of the Aryacakravarti dynasty's rule. According to the information provided, the Aryacakravarti dynasty began its rule in 1284 AD.",
+                "Identify the ending year of the Aryacakravarti dynasty's rule. The dynasty's rule ended in 1410 AD, as stated in the text.",
+                "Calculate the duration of the Aryacakravarti dynasty's rule by subtracting the starting year from the ending year. This calculation is 1410 AD - 1284 AD.",
+                "Perform the subtraction: 1410 - 1284 = 126."
+            ],
+            "pred": "The Aryacakravarti dynasty lasted for 126 years.",
+            "is_correct": false,
+            "elapsed_time": 3.049011707305908
+        },
+        {
+            "id": "Coming off a defensively-stron",
+            "question": "Coming off a defensively-strong performance against the Cardinals, the Panthers flew to the Louisiana Superdome for a Week 9 NFC South duel with the undefeated New Orleans Saints.  Carolina got off to a fast start in the first quarter as running back DeAngelo Williams got a 66-yard and a 7-yard touchdown run.  The Saints would get on the board in the second quarter as kicker John Carney made a 23-yard field goal.  The Panthers came right back as kicker John Kasay nailed a 32-yard field goal, but New Orleans would close out the half as Carney booted a 25-yard field goal. In the third quarter, the Saints continued to hack away as running back Pierre Thomas got a 10-yard touchdown run.  Carolina answered with Kasay's 25-yard field goal, but New Orleans would tie the game to end the period as quarterback Drew Brees completed a 54-yard touchdown pass to wide receiver Robert Meachem.  Afterwards, the Saints would pull away in the fourth quarter with Carney's 40-yard field goal, followed by defensive tackle Anthony Hargrove forcing a fumble from Williams and returning it 1 yard for a touchdown.How many field goals were kicked in the second quarter?",
+            "answerKey": "3",
+            "cot_output": "Step 1: Identify the scoring events in the second quarter. The text states that the Saints scored with a 23-yard field goal by kicker John Carney, and the Panthers responded with a 32-yard field goal by kicker John Kasay.\n\nStep 2: Determine if there were any additional scoring events in the second quarter. The text further mentions that the Saints closed out the half with another field goal by John Carney, this time a 25-yard field goal.\n\nStep 3: Count the total number of field goals kicked in the second quarter. From Step 1 and Step 2, we identified three field goals: two by John Carney (23-yard and 25-yard) and one by John Kasay (32-yard).\n\n===FINAL_ANSWER_START===\nConclusion: 3 field goals were kicked in the second quarter.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the scoring events in the second quarter. The text states that the Saints scored with a 23-yard field goal by kicker John Carney, and the Panthers responded with a 32-yard field goal by kicker John Kasay.",
+                "Determine if there were any additional scoring events in the second quarter. The text further mentions that the Saints closed out the half with another field goal by John Carney, this time a 25-yard field goal.",
+                "Count the total number of field goals kicked in the second quarter. From Step 1 and Step 2, we identified three field goals: two by John Carney (23-yard and 25-yard) and one by John Kasay (32-yard)."
+            ],
+            "pred": "3 field goals were kicked in the second quarter.",
+            "is_correct": false,
+            "elapsed_time": 2.853280544281006
+        },
+        {
+            "id": "The Texans' ninth match was an",
+            "question": "The Texans' ninth match was an AFC South rivalry match against the Jaguars at EverBank Field. In the first quarter the Texans trailed early as kicker Josh Scobee hit a 38-yard field goal. They replied after kicker Neil Rackers made a 24-yard field goal. They trailed again in the 2nd quarter with RB Maurice Jones-Drew getting a 3 and a 9-yard TD run. However, the lead didn't last long after RB Arian Foster got a 1-yard TD run, and QB Matt Schaub threw a 9-yard TD pass to WR Andre Johnson. The Jaguars stayed in the lead when QB David Garrard completed a 52-yard TD pass to TE Zach Miller, but the Texans replied again with Schaub finding WR Kevin Walter on an 18-yard TD pass. Suddenly, the Texans' defense broke through with only a few seconds remaining after Garrard made a 50-yard TD pass to WR Mike Thomas. The ball was batted into his hands by Texans Defensive back Glover Quin, who made an attempt to bat the ball to the ground.How many total yards of TD passes were thrown by Garrard?",
+            "answerKey": "102",
+            "cot_output": "Step 1: Identify the relevant information from the problem statement regarding TD passes thrown by Garrard. The problem mentions two specific TD passes: a 52-yard TD pass to TE Zach Miller and a 50-yard TD pass to WR Mike Thomas.\n\nStep 2: Calculate the total yards of these TD passes. Since Garrard threw a 52-yard TD pass and a 50-yard TD pass, we need to add these two distances together to find the total yards of TD passes.\n\nStep 3: Perform the addition of the two TD pass distances. Adding 52 yards and 50 yards gives us a total of 102 yards.\n\nStep 4: Verify that no other TD passes by Garrard are mentioned in the problem statement. The problem only specifies these two TD passes, confirming that the total yards of TD passes thrown by Garrard are indeed 102 yards.\n\n===FINAL_ANSWER_START===\nConclusion: 102 yards\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the relevant information from the problem statement regarding TD passes thrown by Garrard. The problem mentions two specific TD passes: a 52-yard TD pass to TE Zach Miller and a 50-yard TD pass to WR Mike Thomas.",
+                "Calculate the total yards of these TD passes. Since Garrard threw a 52-yard TD pass and a 50-yard TD pass, we need to add these two distances together to find the total yards of TD passes.",
+                "Perform the addition of the two TD pass distances. Adding 52 yards and 50 yards gives us a total of 102 yards.",
+                "Verify that no other TD passes by Garrard are mentioned in the problem statement. The problem only specifies these two TD passes, confirming that the total yards of TD passes thrown by Garrard are indeed 102 yards."
+            ],
+            "pred": "102 yards",
+            "is_correct": false,
+            "elapsed_time": 4.389816999435425
+        },
+        {
+            "id": "Vlad Ţepeş asked the Hungarian",
+            "question": "Vlad Ţepeş asked the Hungarian king for assistance.  He received no support despite promises made by Corvinus and instead called for a mobilization that included \"not only men of military age, but also of women and of children from the age of twelve up; and included Gypsy slave contingents.\" Various sources mention the strength of his army to be between 22,000 and 30,900, with the most popular accepted number set at 30,000. The letter of Leonardo Tocco which put the numbers of the Turkish army at an exaggerated strength of 400,000, exaggerated also the Wallachian strength which was estimated at 200,000. The majority of the army consisted of peasants and shepherds, while the boyars on horseback—who were few in numbers—were armed with lances, swords, and daggers and wore chainmail as armour. Vlad's personal guard consisted of mercenaries from many countries and some Gypsies. Before battle, it is believed that Vlad told his men that \"it would be better that those who think of death should not follow me\".Which was the larger army, Vlad Ţepeş' or the Turkish Army?",
+            "answerKey": "Turkish army",
+            "cot_output": "Step 1: Analyze the numbers provided for Vlad Ţepeş' army. The text mentions various sources estimating Vlad's army strength between 22,000 and 30,900, with the most popular accepted number being 30,000.\n\nStep 2: Analyze the numbers provided for the Turkish army. The letter of Leonardo Tocco exaggerated the Turkish army's strength at 400,000.\n\nStep 3: Consider the reliability of the sources. The text explicitly states that the numbers provided by Leonardo Tocco were exaggerated, suggesting that the actual strength of the Turkish army was likely less than 400,000.\n\nStep 4: Compare the numbers. Even if the Turkish army's strength was exaggerated, the number given (400,000) is significantly larger than the highest estimate for Vlad's army (30,900).\n\nStep 5: Assess the likelihood of exaggeration affecting the comparison. While the Turkish army's numbers are exaggerated, there is no indication that Vlad's army numbers are exaggerated in the same way. Therefore, even if the Turkish army was smaller than 400,000, it is still likely larger than Vlad's army.\n\nStep 6: Conclude based on the comparison. Given the exaggerated number for the Turkish army and the lack of exaggeration for Vlad's army, it is reasonable to conclude that the Turkish army was larger than Vlad Ţepeş' army.\n\n===FINAL_ANSWER_START===\nConclusion: The Turkish Army was larger than Vlad Ţepeş' army.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the numbers provided for Vlad Ţepeş' army. The text mentions various sources estimating Vlad's army strength between 22,000 and 30,900, with the most popular accepted number being 30,000.",
+                "Analyze the numbers provided for the Turkish army. The letter of Leonardo Tocco exaggerated the Turkish army's strength at 400,000.",
+                "Consider the reliability of the sources. The text explicitly states that the numbers provided by Leonardo Tocco were exaggerated, suggesting that the actual strength of the Turkish army was likely less than 400,000.",
+                "Compare the numbers. Even if the Turkish army's strength was exaggerated, the number given (400,000) is significantly larger than the highest estimate for Vlad's army (30,900).",
+                "Assess the likelihood of exaggeration affecting the comparison. While the Turkish army's numbers are exaggerated, there is no indication that Vlad's army numbers are exaggerated in the same way. Therefore, even if the Turkish army was smaller than 400,000, it is still likely larger than Vlad's army.",
+                "Conclude based on the comparison. Given the exaggerated number for the Turkish army and the lack of exaggeration for Vlad's army, it is reasonable to conclude that the Turkish army was larger than Vlad Ţepeş' army."
+            ],
+            "pred": "The Turkish Army was larger than Vlad Ţepeş' army.",
+            "is_correct": false,
+            "elapsed_time": 8.831334352493286
+        },
+        {
+            "id": "Trying to snap a two-game losi",
+            "question": "Trying to snap a two-game losing streak, the Seahawks flew to Lucas Oil Stadium for a Week 4 inter-conference duel with the Indianapolis Colts. Seattle would trail as Colts running back Donald Brown got a 1-yard touchdown run in the first quarter, followed by quarterback Peyton Manning's 5-yard touchdown pass to wide receiver Reggie Wayne. The Seahawks would get on the board with a 38-yard field goal from kicker Olindo Mare, but Indianapolis would close out the half with Manning's 21-yard touchdown pass to wide receiver Austin Collie. Following running back Joseph Addai's 12-yard touchdown run in the third quarter, the Colts would seal the win with kicker Adam Vinatieri's 37-yard and 19-yard field goals. Seattle would end the game with quarterback Matt Hasselbeck getting a 1-yard touchdown run and completing a 1-yard touchdown pass to fullback Owen Schmitt.Which player kicked the second longest field goal?",
+            "answerKey": "Adam Vinatieri",
+            "cot_output": "Step 1: Identify the players involved in kicking field goals during the game. The text mentions two kickers: Olindo Mare from the Seahawks and Adam Vinatieri from the Colts.\n\nStep 2: Determine the field goals kicked by each player. Olindo Mare kicked a 38-yard field goal. Adam Vinatieri kicked two field goals, one from 37 yards and another from 19 yards.\n\nStep 3: Compare the distances of the field goals to identify the second longest. The field goals mentioned are 38 yards (Olindo Mare), 37 yards (Adam Vinatieri), and 19 yards (Adam Vinatieri).\n\nStep 4: Rank the field goals by distance. The longest field goal is 38 yards by Olindo Mare, followed by 37 yards by Adam Vinatieri, and the shortest is 19 yards by Adam Vinatieri.\n\nStep 5: Identify the player who kicked the second longest field goal. The second longest field goal is 37 yards, kicked by Adam Vinatieri.\n\n===FINAL_ANSWER_START===\nConclusion: Adam Vinatieri kicked the second longest field goal, which was 37 yards.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the players involved in kicking field goals during the game. The text mentions two kickers: Olindo Mare from the Seahawks and Adam Vinatieri from the Colts.",
+                "Determine the field goals kicked by each player. Olindo Mare kicked a 38-yard field goal. Adam Vinatieri kicked two field goals, one from 37 yards and another from 19 yards.",
+                "Compare the distances of the field goals to identify the second longest. The field goals mentioned are 38 yards (Olindo Mare), 37 yards (Adam Vinatieri), and 19 yards (Adam Vinatieri).",
+                "Rank the field goals by distance. The longest field goal is 38 yards by Olindo Mare, followed by 37 yards by Adam Vinatieri, and the shortest is 19 yards by Adam Vinatieri.",
+                "Identify the player who kicked the second longest field goal. The second longest field goal is 37 yards, kicked by Adam Vinatieri."
+            ],
+            "pred": "Adam Vinatieri kicked the second longest field goal, which was 37 yards.",
+            "is_correct": false,
+            "elapsed_time": 4.80760645866394
+        },
+        {
+            "id": "In an attempt to take the cast",
+            "question": "In an attempt to take the castle, Itakura Shigemasa was killed. More shogunate troops under Matsudaira Nobutsuna, Itakura's replacement, soon arrived. However, the rebels at Hara Castle resisted the siege for months and caused the shogunate heavy losses. Both sides had a hard time fighting in winter conditions. On February 3, 1638, a rebel raid killed 2,000 warriors from the Hizen Domain. However, despite this minor victory, the rebels slowly ran out of food, ammunition and other provisions. By April 1638, there were over 27,000 rebels facing about 125,000 shogunate soldiers. Desperate rebels mounted an assault against them on April 4 and were forced to withdraw. Captured survivors and the fortress' rumored sole traitor, Yamada Emosaku, revealed the fortress was out of food and gunpowder. On April 12, 1638, troops under the command of the Kuroda clan of Hizen stormed the fortress and captured the outer defenses. The rebels continued to hold out and caused heavy casualties until they were routed on April 15.How many more shogunate soldiers were there compared to rebels in April 1638?",
+            "answerKey": "98000",
+            "cot_output": "Step 1: Identify the number of rebels and shogunate soldiers in April 1638. According to the information provided, there were over 27,000 rebels and about 125,000 shogunate soldiers.\n\nStep 2: Calculate the difference in numbers between the shogunate soldiers and the rebels. This involves subtracting the number of rebels from the number of shogunate soldiers.\n\nStep 3: Perform the subtraction: 125,000 (shogunate soldiers) - 27,000 (rebels) = 98,000.\n\nStep 4: Interpret the result of the subtraction. The difference of 98,000 represents how many more shogunate soldiers there were compared to rebels.\n\n===FINAL_ANSWER_START===\nConclusion: There were 98,000 more shogunate soldiers compared to rebels in April 1638.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the number of rebels and shogunate soldiers in April 1638. According to the information provided, there were over 27,000 rebels and about 125,000 shogunate soldiers.",
+                "Calculate the difference in numbers between the shogunate soldiers and the rebels. This involves subtracting the number of rebels from the number of shogunate soldiers.",
+                "Perform the subtraction: 125,000 (shogunate soldiers) - 27,000 (rebels) = 98,000.",
+                "Interpret the result of the subtraction. The difference of 98,000 represents how many more shogunate soldiers there were compared to rebels."
+            ],
+            "pred": "There were 98,000 more shogunate soldiers compared to rebels in April 1638.",
+            "is_correct": false,
+            "elapsed_time": 3.946699380874634
+        },
+        {
+            "id": "As of the 2010 United States C",
+            "question": "As of the 2010 United States Census, there were 16,589 people, 6,548 households, and 4,643 families residing in the county. The population density was . There were 7,849 housing units at an average density of . The racial makeup of the county was 96.8% white, 0.7% black or African American, 0.6% American Indian, 0.2% Asian, 0.2% from other races, and 1.5% from two or more races. Those of Hispanic or Latino origin made up 0.6% of the population. In terms of ancestry, 23.4% were Germans, 22.3% were Americans, 13.6% were Irish people, and 11.0% were English people.How many percent were not english?",
+            "answerKey": "89",
+            "cot_output": "Step 1: Identify the percentage of the population that is English. According to the data, 11.0% of the population reported English ancestry.\n\nStep 2: To find the percentage of the population that is not English, we need to subtract the percentage of English people from 100%.\n\nStep 3: Perform the subtraction: 100% - 11.0% = 89.0%.\n\nStep 4: The result from Step 3 gives us the percentage of the population that is not English.\n\n===FINAL_ANSWER_START===\nConclusion: 89.0% of the population were not English.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the percentage of the population that is English. According to the data, 11.0% of the population reported English ancestry.",
+                "To find the percentage of the population that is not English, we need to subtract the percentage of English people from 100%.",
+                "Perform the subtraction: 100% - 11.0% = 89.0%.",
+                "The result from Step 3 gives us the percentage of the population that is not English."
+            ],
+            "pred": "89.0% of the population were not English.",
+            "is_correct": false,
+            "elapsed_time": 6.085657835006714
+        },
+        {
+            "id": "Peace was finally concluded in",
+            "question": "Peace was finally concluded in Edirne in 1568, and renewed in 1576, 1584, and 1591. War would not again break out between the Habsburgs and Ottomans until 1593, in the Long Turkish War. However, throughout this period of peace small-scale warfare continued, a conflict known as the \"Little War\" . No large armies or sustained campaigns were launched, but authorities on both sides continually struggled with hostile raiders and forays across the poorly-demarcated border. Both sides, however, desired that peace continue.How many years did these events span for?",
+            "answerKey": "25",
+            "cot_output": "Step 1: Identify the starting point of the events. Peace was concluded in Edirne in 1568, marking the beginning of the period of peace between the Habsburgs and Ottomans.\n\nStep 2: Identify the endpoint of the events. War broke out again in 1593, marking the end of the period of peace and the beginning of the Long Turkish War.\n\nStep 3: Calculate the span of years between the starting point and the endpoint. The period begins in 1568 and ends in 1593.\n\nStep 4: Subtract the starting year from the ending year to determine the total number of years. 1593 - 1568 = 25 years.\n\nStep 5: Consider the context of the \"Little War\" mentioned, which occurred during the period of peace. This does not affect the calculation of the span of years, as it is part of the same timeframe.\n\n===FINAL_ANSWER_START===\nConclusion: 25 years\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the starting point of the events. Peace was concluded in Edirne in 1568, marking the beginning of the period of peace between the Habsburgs and Ottomans.",
+                "Identify the endpoint of the events. War broke out again in 1593, marking the end of the period of peace and the beginning of the Long Turkish War.",
+                "Calculate the span of years between the starting point and the endpoint. The period begins in 1568 and ends in 1593.",
+                "Subtract the starting year from the ending year to determine the total number of years. 1593 - 1568 = 25 years.",
+                "Consider the context of the \"Little War\" mentioned, which occurred during the period of peace. This does not affect the calculation of the span of years, as it is part of the same timeframe."
+            ],
+            "pred": "25 years",
+            "is_correct": false,
+            "elapsed_time": 3.0820488929748535
+        },
+        {
+            "id": "In the city, the population wa",
+            "question": "In the city, the population was spread out with 28.1% under the age of 18, 9.2% from 18 to 24, 26.2% from 25 to 44, 21.4% from 45 to 64, and 15.1% who were 65 years of age or older.  The median age was 36 years. For every 100 females, there were 83.5 males.  For every 100 females age 18 and over, there were 77.7 males.How many percent were not from 45 to 64?",
+            "answerKey": "78.6",
+            "cot_output": "Step 1: Identify the percentage of the population that falls within the age group 45 to 64. According to the information provided, 21.4% of the population is within this age group.\n\nStep 2: Determine the total percentage of the population that is not within the age group 45 to 64. Since the total percentage of the population must add up to 100%, we can calculate the percentage not in the 45 to 64 age group by subtracting the percentage of the 45 to 64 age group from 100%.\n\nStep 3: Perform the subtraction: 100% - 21.4% = 78.6%.\n\nStep 4: Conclude that 78.6% of the population is not within the age group 45 to 64.\n\n===FINAL_ANSWER_START===\nConclusion: 78.6%\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the percentage of the population that falls within the age group 45 to 64. According to the information provided, 21.4% of the population is within this age group.",
+                "Determine the total percentage of the population that is not within the age group 45 to 64. Since the total percentage of the population must add up to 100%, we can calculate the percentage not in the 45 to 64 age group by subtracting the percentage of the 45 to 64 age group from 100%.",
+                "Perform the subtraction: 100% - 21.4% = 78.6%.",
+                "Conclude that 78.6% of the population is not within the age group 45 to 64."
+            ],
+            "pred": "78.6%",
+            "is_correct": false,
+            "elapsed_time": 3.7956321239471436
+        },
+        {
+            "id": "A global survey done by Pewglo",
+            "question": "A global survey done by Pewglobal indicated that at (as of 2014) least 33 surveyed countries have a positive view (50% or above) of the United States. With the top ten most positive countries being Philippines (92%), Israel (84%), South Korea (82%), Kenya (80%), El Salvador (80%), Italy (78%), Ghana (77%), Vietnam (76%), Bangladesh (76%), and Tanzania (75%). While 10 surveyed countries have the most negative view (Below 50%) of the United States. With the countries being Egypt (10%), Jordan (12%), Pakistan (14%), Turkey (19%), Russia (23%), Palestinian Territories (30%), Greece (34%), Argentina (36%), Lebanon (41%), Tunisia (42%). Americans own view of the United States was viewed at 84%. International opinion about the US has often changed with different executive administrations. For example in 2009, the French public favored the United States when President Barack Obama (75% favorable) replaced President George W. Bush (42%). After President Donald Trump took the helm in 2017, French public opinion about the US fell from 63% to 46%. These trends were also seen in other European countries.How many more people, in terms of percentage, viewed the United States positively in the Philippines compared to Egypt and Pakistan combined?",
+            "answerKey": "68",
+            "cot_output": "Step 1: Identify the percentage of people who viewed the United States positively in the Philippines. According to the survey, this percentage is 92%.\n\nStep 2: Identify the percentage of people who viewed the United States positively in Egypt. According to the survey, this percentage is 10%.\n\nStep 3: Identify the percentage of people who viewed the United States positively in Pakistan. According to the survey, this percentage is 14%.\n\nStep 4: Calculate the combined percentage of people who viewed the United States positively in Egypt and Pakistan. This is done by adding the percentages from Egypt and Pakistan: 10% + 14% = 24%.\n\nStep 5: Calculate the difference in percentage between the positive view in the Philippines and the combined positive view in Egypt and Pakistan. This is done by subtracting the combined percentage from the Philippines percentage: 92% - 24% = 68%.\n\nStep 6: Conclude that the percentage of people who viewed the United States positively in the Philippines is 68% more than the combined percentage of people who viewed the United States positively in Egypt and Pakistan.\n\n===FINAL_ANSWER_START===\nConclusion: 68%\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the percentage of people who viewed the United States positively in the Philippines. According to the survey, this percentage is 92%.",
+                "Identify the percentage of people who viewed the United States positively in Egypt. According to the survey, this percentage is 10%.",
+                "Identify the percentage of people who viewed the United States positively in Pakistan. According to the survey, this percentage is 14%.",
+                "Calculate the combined percentage of people who viewed the United States positively in Egypt and Pakistan. This is done by adding the percentages from Egypt and Pakistan: 10% + 14% = 24%.",
+                "Calculate the difference in percentage between the positive view in the Philippines and the combined positive view in Egypt and Pakistan. This is done by subtracting the combined percentage from the Philippines percentage: 92% - 24% = 68%.",
+                "Conclude that the percentage of people who viewed the United States positively in the Philippines is 68% more than the combined percentage of people who viewed the United States positively in Egypt and Pakistan."
+            ],
+            "pred": "68%",
+            "is_correct": false,
+            "elapsed_time": 3.1566483974456787
+        }
+    ]
+}

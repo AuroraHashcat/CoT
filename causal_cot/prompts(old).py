@@ -6,19 +6,17 @@ Enhanced with clearer causal analysis structure incorporating Pearl's causal the
 
 # Core pipeline prompts
 COT_GENERATION_PROMPT = """**Role:** You are a meticulous logical reasoner.
-**Task:** Solve the following question by creating a step-by-step Chain of Thought. Each step must be causally justified, not just correlated or associated.
+**Task:** Solve the following multiple-choice question by creating a step-by-step Chain of Thought. Your reasoning should start from the premises in the question and logically progress toward a conclusion that supports one of the choices.
 
-**Question:**
+**Question and Choices:**
 {question_and_choices}
 
 **Output Format:**
-Step 1: [First causal deduction or analysis]
+Step 1: [First logical deduction or analysis of the premise]
 Step 2: [Second deduction, building upon Step 1]
 ...
 Step N: [Final deduction that directly leads to the answer]
-===FINAL_ANSWER_START===
-Conclusion: The final answer is \box{{your final answer, based strictly on the above causal reasoning}}.
-===FINAL_ANSWER_END===
+Conclusion: Based on the reasoning, the correct answer is [A/B/C/D/E].
 """
 
 REFLECTION_AND_REGENERATION_PROMPT = """Role: You are a self-correcting reasoning agent.
@@ -35,30 +33,6 @@ Detailed Analysis of Failure: {failure_reason}
 
 **Your Task:**
 Acknowledge the error analysis. Then, starting from the last validated step, create a new, corrected reasoning path that addresses the identified causal and logical issues.
-
-**Output Format:**
-Step {step_index}: [A new, corrected reasoning step]
-Step {step_index_plus_1}: [Continue improved reasoning]
-...
-Conclusion: Based on the new reasoning, the correct answer is [A/B/C/D/E].
-"""
-
-REFLECTION_AND_REGENERATION_PROMPT_FORCE_FIX = """Role: You are a self-correcting reasoning agent.
-Context: Your previous attempt to solve a problem contained a logical or factual error.
-
-**Question:** {question_and_choices}
-
-**Validated Steps So Far:**
-{validated_facts}
-
-**Error Analysis:**
-Failed Step: "{failed_step}"
-Detailed Analysis of Failure: {failure_reason}
-
-**Your Task:**
-You MUST assume that the failed step and the current reasoning path are incorrect or causally invalid. You are REQUIRED to make a substantive correction. Do NOT simply repeat or rephrase the previous reasoning. Instead, generate a new, corrected reasoning path that addresses the identified causal/logical issues and leads to a potentially different answer if needed.
-
-**IMPORTANT:** If your new reasoning is essentially the same as the previous one, it will be considered INVALID. You must provide a reasoning path and conclusion that is clearly different from the original, and your answer must be causally justified.
 
 **Output Format:**
 Step {step_index}: [A new, corrected reasoning step]
@@ -164,7 +138,8 @@ KEYWORD_EXTRACTION_PROMPT = """Given the following sentence:
 
 "{sentence}"
 
-Extract 2-5 key concepts that are most central to the causal reasoning of the sentence. Only return concrete nouns or noun phrases (e.g., objects, entities, events, or specific actions), and avoid generic words like 'thing', 'purpose', 'goal', 'person', 'place', etc. Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"].
+Extract 2-5 key concepts that are central to the meaning and reasoning of the sentence. 
+Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"]
 """
 
 # Enhanced keyword extraction prompt
@@ -172,7 +147,7 @@ KEYWORD_EXTRACTION_PROMPT_ENHANCED = '''Given the following sentence:
 
 "{sentence}"
 
-Extract 2-5 key concepts that are most central to the causal reasoning of the sentence. Only return concrete nouns or noun phrases (e.g., objects, entities, events, or specific actions), and avoid generic words like 'thing', 'purpose', 'goal', 'person', 'place', etc. Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"].'''
+Extract 2-5 key concepts that are most central to the commonsense and causal reasoning of the sentence. Only return concrete nouns or noun phrases (e.g., objects, entities, events, or specific actions), and avoid generic words like 'thing', 'purpose', 'goal', 'person', 'place', etc. Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"].'''
 
 # Backup prompts for individual structure analysis (updated for our 4 structure types)
 CAUSAL_CHAIN_ANALYSIS_PROMPT = """Analyze this causal chain using Pearl's framework:
@@ -217,13 +192,6 @@ CAUSAL_COLLIDER_ANALYSIS_PROMPT = """Analyze this collider structure using Pearl
 Evaluate the collider bias potential and methodological implications.
 """
 
-CAUSAL_STRUCTURE_ANALYSIS_PROMPT = """You are an expert in causal inference. Analyze the following structure and provide a detailed causal reasoning. If you cannot find any meaningful causal relationship, state clearly: 'No meaningful causal structure found.' Otherwise, explain the causal logic in detail.
-
-Structure: {structure_desc}
-
-Your analysis must include explicit causal reasoning, not just associations or correlations. You must clearly state whether a genuine causal relationship exists, and justify your answer with reference to the structure and context.
-"""
-
 
 FOCUSED_REGENERATION_PROMPT = """**Role:** You are a self-correcting reasoning agent.
 **Context:** Your previous reasoning attempt contained a specific flaw.
@@ -248,7 +216,3 @@ Step {step_index_plus_1}: [Continue improved reasoning]
 ...
 Conclusion: Based on the new reasoning, the correct answer is [A/B/C/D/E].
 """
-
-STEP_VALIDATION_PROMPT = """You are an expert in causal reasoning. Given the question, a reasoning step, and knowledge graph context, judge if the step is causally and logically valid.\n\nQuestion:\n{question}\n\nReasoning Step:\n{step}\n\nKnowledge Graph Summary:\n{graph_summary}\n\nCausal Structures Summary:\n{structures_summary}\n\nYour task: Output one of the following as the first line: ACCEPT / REJECT_CAUSAL / REJECT_LOGICAL. Then briefly explain your reasoning.\n"""
-
-REFLECTION_PROMPT = """You are a self-correcting reasoning agent. The following reasoning step failed causal/logical validation.\n\nQuestion:\n{question}\n\nValidated Steps So Far:\n{validated_facts}\n\nFailed Step:\n{failed_step}\n\nFailure Reason:\n{failure_reason}\n\nYour task: Regenerate the reasoning chain from the failed step onward, correcting the error. Number each step as before and end with 'Conclusion:'.\nStep {step_index}: ...\nStep {step_index_plus_1}: ...\nConclusion: ...\n"""

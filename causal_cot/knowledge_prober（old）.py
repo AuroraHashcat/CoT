@@ -8,11 +8,10 @@ import json
 from typing import List, Tuple, Dict, Any, Optional, Union
 import re
 
-class Knowledge_Prober:
+class KnowledgeProber:
     def __init__(self, llm_handler: Any):
         self.llm = llm_handler
         self.api_url = "http://api.conceptnet.io"
-        self.step_cache: Dict[str, Tuple[List[str], nx.DiGraph, Dict[str, Any]]] = {}
 
     def get_concept_uri(self, keyword: str, lang: str = "en") -> str:
         """
@@ -47,10 +46,10 @@ class Knowledge_Prober:
         url = f"http://api.conceptnet.io{concept_uri}"
         params = {"limit": limit}
         try:
-            response = requests.get(url, params=params, timeout=10)
+            response = requests.get(url, params=params)
             response.raise_for_status()
             return response.json().get('edges', [])
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             print(f"Error fetching edges for {concept_uri}: {e}")
             return []
 
@@ -408,13 +407,15 @@ class Knowledge_Prober:
         Use LLM to extract key concepts or entities from a natural language sentence.
         """
         keyword_prompt = (
-            f'Given the following sentence:\n\n'
-            f'"{sentence}"\n\n'
-            'Extract 2-5 key concepts that are central to the meaning and reasoning of the sentence. '
-            'Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"]'
+        f'Given the following sentence:\n\n'
+        f'"{sentence}"\n\n'
+        'Extract 2-5 key concepts that are central to the meaning and reasoning of the sentence. '
+        'Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"]'
         )
+
+        response = self.llm.query(keyword_prompt)
+
         try:
-            response = self.llm.query(keyword_prompt)
             json_match = re.search(r'\[.*?\]', response, re.DOTALL)
             if json_match:
                 keyword_list = json.loads(json_match.group())
@@ -426,85 +427,84 @@ class Knowledge_Prober:
             print(f"Failed to parse keyword list: {e}")
             return []
 
-    def build_knowledge_graph(self, keywords: List[str], max_depth: int = 2, max_edges_per_hop: int = 6, min_weight: float = 1.0) -> nx.DiGraph:
-        graph = nx.DiGraph()
-        visited_concepts = set()
-        queue: List[Tuple[str, int, Union[str, None]]] = []
-        for keyword in keywords:
-            concept_uri = self.get_concept_uri(keyword)
-            if concept_uri not in visited_concepts:
-                graph.add_node(concept_uri, name=keyword, type='keyword')
-                queue.append((concept_uri, 0, None))
-                visited_concepts.add(concept_uri)
-        head = 0
-        while head < len(queue):
-            current_concept_uri, current_depth, prev_concept_uri = queue[head]
-            head += 1
-            if current_depth >= max_depth:
-                continue
-            raw_edges = self.get_edges_for_concept(current_concept_uri)
-            if not raw_edges:
-                continue
-            eligible_edges = []
-            for edge in raw_edges:
-                if not all(k in edge and isinstance(edge[k], dict) for k in ['start', 'end', 'rel']):
-                    continue
-                if not all(k in edge['start'] and k in edge['end'] for k in ['@id', 'label', 'language']):
-                    continue
-                if '@id' not in edge['rel']:
-                    continue
-                start_uri = edge['start']['@id']
-                end_uri = edge['end']['@id']
-                relation_full_uri = edge['rel']['@id']
-                relation_name = relation_full_uri.split('/')[-1]
-                weight = edge.get('weight', 0)
-                if edge['start']['language'] != 'en' or edge['end']['language'] != 'en':
-                    continue
-                if weight < min_weight:
-                    continue
-                target_uri = end_uri if start_uri == current_concept_uri else start_uri
-                if target_uri == prev_concept_uri:
-                    continue
-                if target_uri == current_concept_uri:
-                    continue
-                eligible_edges.append({
-                    'edge_data': edge,
-                    'start_uri': start_uri,
-                    'end_uri': end_uri,
-                    'relation_name': relation_name,
-                    'original_weight': weight,
-                    'target_uri': target_uri
-                })
-            num_to_select = min(max_edges_per_hop, len(eligible_edges))
-            for item in eligible_edges[:num_to_select]:
-                edge = item['edge_data']
-                start_uri = item['start_uri']
-                end_uri = item['end_uri']
-                relation_name = item['relation_name']
-                original_weight = item['original_weight']
-                target_uri = item['target_uri']
-                start_label = edge['start'].get('label', start_uri)
-                end_label = edge['end'].get('label', end_uri)
-                if start_uri not in graph:
-                    graph.add_node(start_uri, name=start_label, type='concept')
-                if end_uri not in graph:
-                    graph.add_node(end_uri, name=end_label, type='concept')
-                if not graph.has_edge(start_uri, end_uri):
-                    graph.add_edge(start_uri, end_uri, relation=relation_name, weight=original_weight)
-                if target_uri not in visited_concepts:
-                    queue.append((target_uri, current_depth + 1, current_concept_uri))
-                    visited_concepts.add(target_uri)
-        return graph
+    def probe_with_structure(
+        self,
+        sentence: str,
+        relation_type_weights: Optional[Dict[str, float]] = None,
+        verbose: bool = False
+    ) -> Dict[str, Any]:
+        """
+        1. Extract keywords from input sentence using LLM.
+        2. Build a ConceptNet-based semantic graph with weighted random walk.
+        3. Identify possible causal chains/forks/colliders.
+        4. Analyze each with LLM using Pearl's causal reasoning framework.
+        """
+        # 1. Keyword extraction
+        keywords = self.extract_keywords_from_sentence(sentence)
+        if verbose:
+            print(f"🔍 Extracted keywords: {keywords}")
+        if not keywords:
+            return {"error": "No keywords extracted"}
 
-    def probe_step(self, step: str) -> Tuple[List[str], nx.DiGraph, Dict[str, Any]]:
-        """
-        对单个step做关键词抽取、知识图谱检索、结构分析，自动缓存。
-        返回 (keywords, graph, structures)
-        """
-        if step in self.step_cache:
-            return self.step_cache[step]
-        keywords = self.extract_keywords_from_sentence(step)
-        graph = self.build_knowledge_graph(keywords)
+        # 2. Define default relation weights if none provided
+        if relation_type_weights is None:
+            relation_type_weights = {
+                "Causes": 4.0,
+                "HasSubevent": 2.0,
+                "IsA": 2.5,
+                "HasProperty": 2.0,
+                "UsedFor": 1.5,
+                "CapableOf": 1.0,
+                "PartOf": 1.2,
+                "RelatedTo": 0.1,
+                "HasContext": 0.1,
+                "Synonym": 0.5,
+            }
+
+        # 3. Build the concept graph
+        graph = self._perform_random_walk(
+            keywords=keywords,
+            max_depth=2,
+            max_edges_per_hop=6,
+            min_weight=1.0,
+            forward_only=False,
+            relation_type_weights=relation_type_weights,
+            avoid_backtracking=True,
+            verbose=verbose
+        )
+
+        if verbose:
+            print(f"Graph built: {graph.number_of_nodes()} nodes, {graph.number_of_edges()} edges")
+
+        # 4. Causal structure recognition
         structures = self.find_causal_structures(graph)
-        self.step_cache[step] = (keywords, graph, structures)
-        return keywords, graph, structures
+
+        # 5. For each structure, call LLM to analyze
+        all_results = []
+        for structure_type, structure_list in structures.items():
+            for triple_uris, edge_details in structure_list:
+                a_uri, b_uri, c_uri = triple_uris
+
+                # Get the display names for the LLM prompt from the graph nodes
+                A_name = graph.nodes[a_uri].get('name', a_uri.split('/')[-1].replace('_', ' '))
+                B_name = graph.nodes[b_uri].get('name', b_uri.split('/')[-1].replace('_', ' '))
+                C_name = graph.nodes[c_uri].get('name', c_uri.split('/')[-1].replace('_', ' '))
+
+                llm_node_names_tuple = (A_name, B_name, C_name)
+
+                result = self.analyze_causal_structure_with_llm(
+                    structure_type=structure_type,
+                    node_names_tuple=llm_node_names_tuple,
+                    edge_details=edge_details
+                )
+                all_results.append({
+                    "type": structure_type,
+                    "nodes": llm_node_names_tuple,
+                    "llm_analysis": result
+                })
+
+        return {
+            "sentence": sentence,
+            "keywords": keywords,
+            "structures_analyzed": all_results
+        }
