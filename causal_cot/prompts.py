@@ -43,6 +43,7 @@ Step {step_index_plus_1}: [Continue improved reasoning]
 Conclusion: Based on the new reasoning, the correct answer is [A/B/C/D/E].
 """
 
+<<<<<<< HEAD
 REFLECTION_AND_REGENERATION_PROMPT_FORCE_FIX = """Role: You are a self-correcting reasoning agent.
 Context: Your previous attempt to solve a problem contained a logical or factual error.
 
@@ -189,13 +190,108 @@ CAUSAL_CHAIN_ANALYSIS_PROMPT = """Analyze this causal chain using Pearl's framew
 Evaluate whether this represents a valid causal chain or statistical artifact.
 """
 
+=======
+# Enhanced integrated prompt with Pearl's causal theory and clearer structure
+INTEGRATED_CAUSAL_VALIDATION_PROMPT = """You are an expert in causal reasoning applying Pearl's causal framework to evaluate a reasoning step.
+
+**ORIGINAL QUESTION:**
+{original_question}
+
+**PREVIOUS VALIDATED REASONING:**
+{previous_context}
+
+**CURRENT STEP TO EVALUATE:**
+"{reasoning_step}"
+
+**CAUSAL KNOWLEDGE ANALYSIS:**
+Analysis of key concepts ({keywords}) revealed a knowledge graph with {num_nodes} concepts and {num_edges} relationships.
+
+{causal_context}
+
+**YOUR EXPERT CAUSAL-LOGICAL ASSESSMENT:**
+
+Apply Pearl's causal theory and logical reasoning principles to evaluate this step:
+
+**1. CAUSAL STRUCTURE ANALYSIS:**
+- What do the discovered structures suggest about the causal plausibility of this reasoning step?
+- Are there coherent causal pathways, or contradictions and confounds?
+- How do the identified direct links, chains, forks, and colliders contribute to or challenge the step's claims?
+
+For each structure type found:
+- **Direct Links (A → B)**: Do these represent genuine causation or mere association? Consider strength and biological/social plausibility.
+- **Chains (A → B → C)**: Does B plausibly mediate A's effect on C? Would A and C be independent given B (d-separation: A ⊥ C | B)?
+- **Forks (A → B, A → C)**: Does A genuinely cause both B and C? Would B and C be spuriously correlated without controlling for A (B ⊥ C | A)?
+- **Colliders (A → C, B → C)**: Are A and B independent causes of C? Would conditioning on C create spurious correlation between A and B (collider bias)?
+
+**2. MECHANISTIC COHERENCE:**
+- Are the implied mechanisms biologically, psychologically, or socially plausible given current knowledge?
+- Do the knowledge graph structures reveal missing causal links, redundant pathways, or unsupported jumps?
+- Does the reasoning step propose a justifiable causal sequence supported by the discovered structures?
+
+**3. LOGICAL CONSISTENCY CHECK:**
+- Does this step logically follow from the previously validated reasoning steps?
+- Are there hidden assumptions, logical leaps, or internal inconsistencies?
+- Does this step meaningfully advance the argument toward the conclusion?
+
+**4. CAUSAL VALIDITY ASSESSMENT:**
+- Would the causal claims imply plausible outcomes under intervention (if we manipulated the proposed cause)?
+- Does the reasoning step mistake correlation for causation?
+- Are key causal principles violated (d-separation, independence assumptions, confounding)?
+- Consider potential alternative explanations: reverse causation, common causes, selection bias.
+
+**5. INTEGRATION WITH PRIOR REASONING:**
+- Is this step consistent with previously validated causal claims in the reasoning chain?
+- Does it introduce contradictions or meaningfully reinforce earlier causal logic?
+- How does it fit into the overall causal narrative being constructed?
+
+**6. DECISION AND RATIONALE:**
+Based on your integrated causal-logical analysis:
+
+Provide your assessment in this exact format:
+
+DECISION: [ACCEPT/REJECT]
+CONFIDENCE: [HIGH/MEDIUM/LOW]
+KEY_REASONING: [Your primary reasoning in 2-3 sentences explaining why the step passes or fails causal and logical scrutiny]
+RECOMMENDED_ACTION: [accept/regenerate_with_causal_focus/regenerate_with_logical_focus/regenerate_completely]
+DETAILED_ANALYSIS: [Your complete reasoning process showing how causal structures and Pearl's principles inform your validation decision]
+"""
+
+# Simple keyword extraction prompt
+KEYWORD_EXTRACTION_PROMPT = """Given the following sentence:
+
+"{sentence}"
+
+Extract 2-5 key concepts that are central to the meaning and reasoning of the sentence. 
+Return only the concepts as a JSON list of strings, for example: ["alcohol", "sleep", "fatigue"]
+"""
+
+# Backup prompts for individual structure analysis (updated for our 4 structure types)
+CAUSAL_CHAIN_ANALYSIS_PROMPT = """Analyze this causal chain using Pearl's framework:
+
+**Chain:** {node1} --[{relation1}]--> {node2} --[{relation2}]--> {node3}
+**Evidence Strengths:** {weight1:.2f}, {weight2:.2f}
+
+**Causal Assessment:**
+1. **Mediation Analysis**: Does {node2} plausibly mediate {node1}'s effect on {node3}?
+2. **D-Separation**: If we control for {node2}, should {node1} and {node3} become independent?
+3. **Mechanistic Plausibility**: Are both causal steps biologically/socially reasonable?
+4. **Alternative Pathways**: Could {node1} affect {node3} through other routes?
+
+Evaluate whether this represents a valid causal chain or statistical artifact.
+"""
+
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
 CAUSAL_FORK_ANALYSIS_PROMPT = """Analyze this fork structure using Pearl's framework:
 
 **Common Cause Pattern:** {cause} → {effect1}, {cause} → {effect2}
 **Evidence Strengths:** {weight1:.2f}, {weight2:.2f}
 
 **Confounding Assessment:**
+<<<<<<< HEAD
 1. **Common Cause ValidQity**: Does {cause} genuinely influence both {effect1} and {effect2}?
+=======
+1. **Common Cause Validity**: Does {cause} genuinely influence both {effect1} and {effect2}?
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
 2. **Conditional Independence**: Should {effect1} and {effect2} be independent given {cause}?
 3. **Spurious Correlation**: Could correlation between {effect1} and {effect2} be due to {cause}?
 4. **Confounding Implications**: What would this mean for studies relating {effect1} and {effect2}?
@@ -216,6 +312,7 @@ CAUSAL_COLLIDER_ANALYSIS_PROMPT = """Analyze this collider structure using Pearl
 
 Evaluate the collider bias potential and methodological implications.
 """
+<<<<<<< HEAD
 
 CAUSAL_STRUCTURE_ANALYSIS_PROMPT = """You are an expert in causal inference. Analyze the following structure and provide a detailed causal reasoning. If you cannot find any meaningful causal relationship, state clearly: 'No meaningful causal structure found.' Otherwise, explain the causal logic in detail.
 
@@ -252,3 +349,5 @@ Conclusion: Based on the new reasoning, the correct answer is [A/B/C/D/E].
 STEP_VALIDATION_PROMPT = """You are an expert in causal reasoning. Given the question, a reasoning step, and knowledge graph context, judge if the step is causally and logically valid.\n\nQuestion:\n{question}\n\nReasoning Step:\n{step}\n\nKnowledge Graph Summary:\n{graph_summary}\n\nCausal Structures Summary:\n{structures_summary}\n\nYour task: Output one of the following as the first line: ACCEPT / REJECT_CAUSAL / REJECT_LOGICAL. Then briefly explain your reasoning.\n"""
 
 REFLECTION_PROMPT = """You are a self-correcting reasoning agent. The following reasoning step failed causal/logical validation.\n\nQuestion:\n{question}\n\nValidated Steps So Far:\n{validated_facts}\n\nFailed Step:\n{failed_step}\n\nFailure Reason:\n{failure_reason}\n\nYour task: Regenerate the reasoning chain from the failed step onward, correcting the error. Number each step as before and end with 'Conclusion:'.\nStep {step_index}: ...\nStep {step_index_plus_1}: ...\nConclusion: ...\n"""
+=======
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e

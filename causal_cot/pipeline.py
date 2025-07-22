@@ -47,6 +47,7 @@ class IntegratedCausalValidator:
             if "error" in probe_result:
                 return self._handle_probe_error(probe_result, reasoning_step)
             
+<<<<<<< HEAD
             # 新增：如果结构为 0，允许低置信度 accept
             structures_found = probe_result.get("structures_found", {})
             total_structures = sum(structures_found.values())
@@ -67,6 +68,8 @@ class IntegratedCausalValidator:
                     "recommended_action": "accept"
                 }
             
+=======
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             # Phase 2: Single unified causal analysis + validation
             integrated_analysis = self._unified_causal_validation(
                 reasoning_step=reasoning_step,
@@ -248,6 +251,7 @@ class EnhancedCausalCoTPipeline:
             print(f"Error parsing CoT: {e}")
             return [], "N/A"
 
+<<<<<<< HEAD
     def extract_cot_and_answer(self, text):
         import re
         steps = re.findall(r"Step \d+: (.*)", text)
@@ -268,11 +272,29 @@ class EnhancedCausalCoTPipeline:
             cot_queue, final_conclusion = self.extract_cot_and_answer(initial_cot_raw)
             if not cot_queue:
                 raise CausalCoTPipelineError("Failed to generate initial reasoning steps")
+=======
+    def run(self, question: str) -> dict:
+        """
+        Main pipeline execution using integrated causal analysis + validation.
+        """
+        try:
+            # Generate initial Chain of Thought
+            print("Generating initial Chain of Thought...")
+            cot_prompt = prompts.COT_GENERATION_PROMPT.format(question_and_choices=question)
+            initial_cot_raw = self.llm.query(cot_prompt)
+            cot_queue, final_conclusion = self._parse_cot(initial_cot_raw)
+            
+            if not cot_queue:
+                raise CausalCoTPipelineError("Failed to generate initial reasoning steps")
+            
+            # Initialize comprehensive tracking
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             trace = {
                 "initial_cot": cot_queue.copy(),
                 "initial_conclusion": final_conclusion,
                 "validated_steps": [],
                 "interventions": 0,
+<<<<<<< HEAD
                 "integrated_analyses": [],
                 "errors": [],
                 "reflection_history": []
@@ -351,12 +373,97 @@ class EnhancedCausalCoTPipeline:
             }
         except Exception as e:
             error_msg = f"Pipeline execution error: {str(e)}"
+=======
+                "integrated_analyses": [],  # New: store detailed analyses
+                "errors": []
+            }
+            
+            print(f"Processing {len(cot_queue)} reasoning steps...")
+            
+            # Process each step with integrated validation
+            i = 0
+            while i < len(cot_queue) and trace["interventions"] < self.max_interventions:
+                current_step = cot_queue[i].strip()
+                
+                if not current_step:  # Skip empty steps
+                    i += 1
+                    continue
+                
+                print(f"\nIntegrated Analysis of Step {i+1}/{len(cot_queue)}: '{current_step[:50]}...'")
+                
+                # NEW: Single integrated analysis call instead of fragmented pipeline
+                analysis_result = self.integrated_validator.integrated_step_analysis(
+                    reasoning_step=current_step,
+                    previous_validated_steps=trace["validated_steps"],
+                    original_question=question,
+                    verbose=True
+                )
+                
+                trace["integrated_analyses"].append(analysis_result)
+                
+                if analysis_result["is_valid"]:
+                    print(f"Step {i+1} ACCEPTED (confidence: {analysis_result['confidence']})")
+                    trace["validated_steps"].append(current_step)
+                    i += 1
+                else:
+                    print(f"Step {i+1} REJECTED")
+                    
+                    # Display rejection reasoning
+                    key_reasoning = analysis_result.get('key_reasoning', 'No specific reason provided')
+                    print(f"   Reason: {key_reasoning}")
+                    
+                    # Handle regeneration based on integrated analysis
+                    action = analysis_result.get("recommended_action", "regenerate_completely")
+                    if "regenerate" in action.lower():
+                        trace["interventions"] += 1
+                        print(f"Regenerating from Step {i+1} (intervention #{trace['interventions']})...")
+                        
+                        new_steps, new_conclusion = self._regenerate_from_step(
+                            question, 
+                            trace["validated_steps"], 
+                            current_step, 
+                            analysis_result,
+                            i
+                        )
+                        
+                        if new_steps:
+                            cot_queue = trace["validated_steps"] + new_steps
+                            final_conclusion = new_conclusion
+                            i = len(trace["validated_steps"])
+                            print(f"   Generated {len(new_steps)} new steps")
+                        else:
+                            print("   Regeneration failed - terminating")
+                            break
+                    else:
+                        print("   No regeneration recommended - terminating")
+                        break
+            
+            # Check termination conditions
+            if trace["interventions"] >= self.max_interventions:
+                print(f"Maximum interventions ({self.max_interventions}) reached")
+                trace["errors"].append("Maximum interventions reached")
+                
+            print(f"\nFinal answer: {final_conclusion}")
+            print(f"Pipeline stats: {len(trace['validated_steps'])} validated steps, {trace['interventions']} interventions")
+            
+            return {
+                "final_answer_key": final_conclusion,
+                "final_cot": trace["validated_steps"],
+                "trace": trace,
+                "success": len(trace["validated_steps"]) > 0 and final_conclusion != "N/A"
+            }
+            
+        except Exception as e:
+            error_msg = f"Pipeline execution error: {str(e)}"
+            print(f"Error: {error_msg}")
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             return {
                 "final_answer_key": "N/A",
                 "final_cot": [],
                 "trace": {"errors": [error_msg]},
                 "success": False
             }
+<<<<<<< HEAD
     def _regenerate_from_step(self, question, validated_steps, failed_step, analysis_result, step_index):
         """Generate new reasoning based on integrated analysis feedback."""
         
@@ -398,6 +505,31 @@ class EnhancedCausalCoTPipeline:
         print(f"Extracted steps: {steps}")
         print(f"Extracted conclusion: {conclusion}")
         return steps, conclusion
+=======
+
+    def _regenerate_from_step(self, question, validated_steps, failed_step, analysis_result, step_index):
+        """Generate new reasoning based on integrated analysis feedback."""
+        
+        validated_context = "\n".join([f"{i+1}. {step}" for i, step in enumerate(validated_steps)])
+        failure_reason = analysis_result.get("detailed_reasoning", "Step was rejected")
+        
+        regeneration_prompt = prompts.REFLECTION_AND_REGENERATION_PROMPT.format(
+            question_and_choices=question,
+            validated_facts=f"Previously validated reasoning:\n{validated_context}" if validated_context else "Based on the initial question premise.",
+            failed_step=failed_step,
+            failure_reason=failure_reason,
+            step_index=step_index + 1,
+            step_index_plus_1=step_index + 2
+        )
+        
+        try:
+            regenerated_response = self.llm.query(regeneration_prompt)
+            new_steps, new_conclusion = self._parse_cot(regenerated_response)
+            return new_steps, new_conclusion
+        except Exception as e:
+            print(f"Regeneration error: {e}")
+            return [], "N/A"
+>>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
 
 
 # Legacy support - maintain compatibility with existing code
