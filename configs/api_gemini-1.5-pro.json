@@ -1,0 +1,17 @@
+{
+    "model_info": {
+        "mode": "api",
+        "provider": "openai",
+        "name": "gemini-1.5-pro",
+        "model_method": "api"
+    },
+    "api_key_info": {
+        "api_key_env": "DEEPINFRA_API_KEY",
+        "api_url": "https://4.0.wokaai.com/v1/"
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "max_output_tokens": 1000
+    }
+}

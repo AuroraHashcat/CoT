@@ -3,5 +3,5 @@
     "hf_id": "ai2_arc",
     "hf_config": "ARC-Challenge",
     "split": "test",
-    "num_samples": 5
+    "num_samples": 100
 }

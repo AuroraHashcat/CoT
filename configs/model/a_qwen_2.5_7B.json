@@ -1,0 +1,10 @@
+{
+    "model_info": {
+        "mode": "local",
+        "path": "/mnt/zeli/Qwen2.5-Math-7B-Instruct"
+    },
+    "params": {
+        "temperature": 0.1,
+        "max_new_tokens": 800
+    }
+}
