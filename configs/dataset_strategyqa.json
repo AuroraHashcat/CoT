@@ -1,6 +1,7 @@
 {
     "dataset_name": "StrategyQA",
-    "hf_id": "strategy_qa",
-    "split": "test",
-    "num_samples": 5
+    "hf_id": "tasksource/bigbench",
+    "hf_config": "strategyqa",
+    "split": "train",
+    "num_samples": 50
 }

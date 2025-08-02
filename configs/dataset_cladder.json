@@ -1,0 +1,7 @@
+{
+    "dataset_name": "CLadder",
+    "hf_id": "causal-nlp/CLadder",
+    "hf_config": "default",
+    "split": "full_v1.5_default",
+    "num_samples": 100
+}

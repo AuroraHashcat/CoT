@@ -1,5 +1,5 @@
 {
     "dataset_name": "LOCAL_JSON",
     "hf_id": "configs/dataset/drop.json",
-    "num_samples": 11
+    "num_samples": 100
 }

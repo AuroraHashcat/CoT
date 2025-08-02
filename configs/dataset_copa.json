@@ -1,0 +1,6 @@
+{
+    "dataset_name": "LOCAL_JSON",
+    "hf_id": "/home/wuchenxi/projects/Causal-Cot2/CausalProbe-2024/benchmarks/copa.json",
+    "split": "local",
+    "num_samples": 100
+}

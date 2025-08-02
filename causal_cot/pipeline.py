@@ -47,29 +47,6 @@ class IntegratedCausalValidator:
             if "error" in probe_result:
                 return self._handle_probe_error(probe_result, reasoning_step)
             
-<<<<<<< HEAD
-            # 新增：如果结构为 0，允许低置信度 accept
-            structures_found = probe_result.get("structures_found", {})
-            total_structures = sum(structures_found.values())
-            if total_structures == 0:
-                return {
-                    "reasoning_step": reasoning_step,
-                    "probe_result": probe_result,
-                    "integrated_analysis": {
-                        "validation_decision": True,
-                        "confidence_level": "low",
-                        "key_reasoning": "No causal structures found, but step is accepted with low confidence due to lack of evidence.",
-                        "recommended_action": "accept",
-                        "detailed_analysis": "No meaningful causal structures were detected in the knowledge graph. This may be due to limitations in commonsense knowledge bases or overly generic step phrasing. Accepting the step with low confidence, but recommend human review."
-                    },
-                    "is_valid": True,
-                    "confidence": "low",
-                    "detailed_reasoning": "No causal structures found, accepted with low confidence.",
-                    "recommended_action": "accept"
-                }
-            
-=======
->>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             # Phase 2: Single unified causal analysis + validation
             integrated_analysis = self._unified_causal_validation(
                 reasoning_step=reasoning_step,
@@ -184,36 +161,65 @@ class IntegratedCausalValidator:
         }
         
         try:
-            # Extract decision
-            decision_match = re.search(r"DECISION:\s*(ACCEPT|REJECT)", llm_response, re.IGNORECASE)
-            if decision_match:
-                result["validation_decision"] = decision_match.group(1).upper() == "ACCEPT"
+            # Extract verdict
+            if "VALID" in llm_response.upper():
+                if "WEAKLY_VALID" in llm_response.upper():
+                    result["validation_decision"] = True
+                    result["confidence_level"] = "low"
+                elif "INVALID" in llm_response.upper():
+                    result["validation_decision"] = False
+                else:
+                    result["validation_decision"] = True
+                    result["confidence_level"] = "high"
             
-            # Extract confidence
-            confidence_match = re.search(r"CONFIDENCE:\s*(HIGH|MEDIUM|LOW)", llm_response, re.IGNORECASE)
-            if confidence_match:
-                result["confidence_level"] = confidence_match.group(1).lower()
+            # Extract key reasoning from the response
+            lines = llm_response.split('\n')
+            for line in lines:
+                if 'reasoning' in line.lower() or 'because' in line.lower():
+                    result["key_reasoning"] = line.strip()
+                    break
             
-            # Extract key reasoning
-            reasoning_match = re.search(r"KEY_REASONING:\s*(.*?)(?=RECOMMENDED_ACTION|$)", llm_response, re.IGNORECASE | re.DOTALL)
-            if reasoning_match:
-                result["key_reasoning"] = reasoning_match.group(1).strip()
-            
-            # Extract recommended action
-            action_match = re.search(r"RECOMMENDED_ACTION:\s*(.*?)(?=DETAILED_ANALYSIS|$)", llm_response, re.IGNORECASE | re.DOTALL)
-            if action_match:
-                result["recommended_action"] = action_match.group(1).strip()
-            
-            # Extract detailed analysis
-            analysis_match = re.search(r"DETAILED_ANALYSIS:\s*(.*)", llm_response, re.IGNORECASE | re.DOTALL)
-            if analysis_match:
-                result["detailed_analysis"] = analysis_match.group(1).strip()
+            # Set recommended action based on validation
+            if result["validation_decision"]:
+                result["recommended_action"] = "accept"
+            else:
+                result["recommended_action"] = "regenerate_completely"
         
         except Exception as e:
             print(f"Warning: Could not fully parse LLM response: {e}")
         
         return result
-
+        # try:
+        #     # Extract decision
+        #     decision_match = re.search(r"DECISION:\s*(ACCEPT|REJECT)", llm_response, re.IGNORECASE)
+        #     if decision_match:
+        #         result["validation_decision"] = decision_match.group(1).upper() == "ACCEPT"
+            
+        #     # Extract confidence
+        #     confidence_match = re.search(r"CONFIDENCE:\s*(HIGH|MEDIUM|LOW)", llm_response, re.IGNORECASE)
+        #     if confidence_match:
+        #         result["confidence_level"] = confidence_match.group(1).lower()
+            
+        #     # Extract key reasoning
+        #     reasoning_match = re.search(r"KEY_REASONING:\s*(.*?)(?=RECOMMENDED_ACTION|$)", llm_response, re.IGNORECASE | re.DOTALL)
+        #     if reasoning_match:
+        #         result["key_reasoning"] = reasoning_match.group(1).strip()
+            
+        #     # Extract recommended action
+        #     action_match = re.search(r"RECOMMENDED_ACTION:\s*(.*?)(?=DETAILED_ANALYSIS|$)", llm_response, re.IGNORECASE | re.DOTALL)
+        #     if action_match:
+        #         result["recommended_action"] = action_match.group(1).strip()
+            
+        #     # Extract detailed analysis
+        #     analysis_match = re.search(r"DETAILED_ANALYSIS:\s*(.*)", llm_response, re.IGNORECASE | re.DOTALL)
+        #     if analysis_match:
+        #         result["detailed_analysis"] = analysis_match.group(1).strip()
+        
+        # except Exception as e:
+        #     print(f"Warning: Could not fully parse LLM response: {e}")
+        
+        # return result
+    
     def _handle_probe_error(self, probe_result: dict, reasoning_step: str) -> dict:
         """Handle cases where causal probing failed."""
         return {
@@ -232,10 +238,11 @@ class EnhancedCausalCoTPipeline:
     the fragmented analyze → summarize → validate approach.
     """
     
-    def __init__(self, llm_handler: LLMHandler, prober: Knowledge_Prober, max_interventions: int = 5):
+    def __init__(self, llm_handler: LLMHandler, prober: Knowledge_Prober, max_interventions: int = 5, dataset_type: str = "fill_in_blank"):
         self.llm = llm_handler
         self.prober = prober
         self.max_interventions = max_interventions
+        self.dataset_type = dataset_type
         
         # Initialize integrated validator - the key innovation
         self.integrated_validator = IntegratedCausalValidator(llm_handler, prober)
@@ -244,43 +251,93 @@ class EnhancedCausalCoTPipeline:
         """Parse Chain of Thought response to extract steps and conclusion."""
         try:
             steps = re.findall(r"Step \d+: (.*)", text, re.IGNORECASE)
-            conclusion_match = re.search(r"Conclusion: .*?([A-E])", text, re.IGNORECASE)
-            conclusion = conclusion_match.group(1).upper() if conclusion_match else "N/A"
+            
+            # Extract conclusion with multiple fallback methods
+            conclusion = None
+            
+            # Method 1: Try "My answer is:" format (新增优先级最高)
+            answer_match = re.search(r"My answer is:\s*([^\.\n]+)", text, re.IGNORECASE)
+            if answer_match:
+                conclusion = answer_match.group(1).strip()
+            
+            # Method 2: Try \box{...} format
+            if not conclusion:
+                box_match = re.search(r"\\box\{(.*?)\}", text, re.DOTALL)
+                if box_match:
+                    conclusion = box_match.group(1).strip()
+            
+            # Method 3: Try full FINAL_ANSWER format
+            if not conclusion:
+                conclusion_match = re.search(r"===FINAL_ANSWER_START===.*?Conclusion:\s*(.*?)\s*===FINAL_ANSWER_END===", text, re.IGNORECASE | re.DOTALL)
+                if conclusion_match:
+                    conclusion = conclusion_match.group(1).strip()
+            
+            # Method 4: Try simple Conclusion: format
+            if not conclusion:
+                conclusion_match = re.search(r"Conclusion:\s*(.*?)(?:\n|$)", text, re.IGNORECASE)
+                if conclusion_match:
+                    conclusion = conclusion_match.group(1).strip()
+            
+            # Method 5: Try to extract from the last part of text
+            if not conclusion and text.strip():
+                # Get the last meaningful line
+                lines = [line.strip() for line in text.split('\n') if line.strip()]
+                if lines:
+                    conclusion = lines[-1]
+            
+            # Clean up conclusion
+            if conclusion:
+                # Remove excessive formatting marks
+                conclusion = re.sub(r'\*+', '', conclusion)  # Remove ** 
+                conclusion = re.sub(r'#+', '', conclusion)   # Remove ##
+                conclusion = conclusion.strip()
+                
+                # For multiple choice, extract just the number if found
+                if self.dataset_type == "multiple_choice":
+                    number_match = re.search(r'\b([0-3])\b', conclusion)
+                    if number_match:
+                        conclusion = number_match.group(1)
+                
+                # If conclusion is too short or just punctuation, try to get more context
+                if len(conclusion) < 1 or not re.search(r'[a-zA-Z0-9]', conclusion):
+                    conclusion = None
+            
+            # Final fallback
+            if not conclusion:
+                conclusion = "No clear answer extracted"
+            
             return steps, conclusion
         except Exception as e:
             print(f"Error parsing CoT: {e}")
-            return [], "N/A"
+            return [], "No clear answer extracted"
+        # try:
+        #     steps = re.findall(r"Step \d+: (.*)", text, re.IGNORECASE)
+            
+        #     # 使用与基线算法相同的灵活提取逻辑
+        #     # 优先提取 \box{...}
+        #     box_match = re.search(r"\\box\{(.*?)\}", text)
+        #     if box_match:
+        #         conclusion = box_match.group(1).strip()
+        #     else:
+        #         # 提取 Conclusion: 后的全部内容
+        #         conclusion_match = re.search(r"===FINAL_ANSWER_START===.*?Conclusion:\s*(.*?)\s*===FINAL_ANSWER_END===", text, re.DOTALL)
+        #         if not conclusion_match:
+        #             conclusion_match = re.search(r"Conclusion:\s*(.*)", text)
+        #         conclusion = conclusion_match.group(1).strip() if conclusion_match else "N/A"
+            
+        #     return steps, conclusion
+        # except Exception as e:
+        #     print(f"Error parsing CoT: {e}")
+        #     return [], "N/A"
 
-<<<<<<< HEAD
-    def extract_cot_and_answer(self, text):
-        import re
-        steps = re.findall(r"Step \d+: (.*)", text)
-        box_match = re.search(r"\\box\{(.*?)\}", text)
-        if box_match:
-            conclusion = box_match.group(1).strip()
-        else:
-            conclusion_match = re.search(r"===FINAL_ANSWER_START===.*?Conclusion:\s*(.*?)\s*===FINAL_ANSWER_END===", text, re.DOTALL)
-            if not conclusion_match:
-                conclusion_match = re.search(r"Conclusion:\s*(.*)", text)
-            conclusion = conclusion_match.group(1).strip() if conclusion_match else None
-        return steps, conclusion
-
-    def run(self, question: str) -> dict:
-        try:
-            cot_prompt = prompts.COT_GENERATION_PROMPT.format(question_and_choices=question)
-            initial_cot_raw = self.llm.query(cot_prompt)
-            cot_queue, final_conclusion = self.extract_cot_and_answer(initial_cot_raw)
-            if not cot_queue:
-                raise CausalCoTPipelineError("Failed to generate initial reasoning steps")
-=======
     def run(self, question: str) -> dict:
         """
         Main pipeline execution using integrated causal analysis + validation.
         """
         try:
-            # Generate initial Chain of Thought
+            # Generate initial Chain of Thought with dataset-specific prompt
             print("Generating initial Chain of Thought...")
-            cot_prompt = prompts.COT_GENERATION_PROMPT.format(question_and_choices=question)
+            cot_prompt = prompts.create_cot_generation_prompt(self.dataset_type).format(question_and_choices=question)
             initial_cot_raw = self.llm.query(cot_prompt)
             cot_queue, final_conclusion = self._parse_cot(initial_cot_raw)
             
@@ -288,92 +345,11 @@ class EnhancedCausalCoTPipeline:
                 raise CausalCoTPipelineError("Failed to generate initial reasoning steps")
             
             # Initialize comprehensive tracking
->>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             trace = {
                 "initial_cot": cot_queue.copy(),
                 "initial_conclusion": final_conclusion,
                 "validated_steps": [],
                 "interventions": 0,
-<<<<<<< HEAD
-                "integrated_analyses": [],
-                "errors": [],
-                "reflection_history": []
-            }
-            max_reflection = 2
-            reflection_used = 0
-            validated_steps = []
-            i = 0
-            while i < len(cot_queue):
-                current_step = cot_queue[i].strip()
-                if not current_step:
-                    i += 1
-                    continue
-                analysis_result = self.integrated_validator.integrated_step_analysis(
-                    reasoning_step=current_step,
-                    previous_validated_steps=validated_steps,
-                    original_question=question,
-                    verbose=False
-                )
-                # 只保留有意义结构分析
-                if analysis_result.get('probe_result', {}).get('structures_analyzed'):
-                    trace["integrated_analyses"].append(analysis_result)
-                if analysis_result["is_valid"]:
-                    validated_steps.append(current_step)
-                    i += 1
-                else:
-                    action = analysis_result.get("recommended_action", "regenerate_completely")
-                    if ("regenerate" in action.lower()) and (reflection_used < max_reflection):
-                        trace["interventions"] += 1
-                        reflection_used += 1
-                        validated_context = "\n".join([f"{j+1}. {step}" for j, step in enumerate(validated_steps)])
-                        failure_reason = analysis_result.get("detailed_reasoning", "Step was rejected")
-                        regeneration_prompt = prompts.REFLECTION_AND_REGENERATION_PROMPT_FORCE_FIX.format(
-                            question_and_choices=question,
-                            validated_facts=f"Previously validated reasoning:\n{validated_context}" if validated_context else "Based on the initial question premise.",
-                            failed_step=current_step,
-                            failure_reason=failure_reason,
-                            step_index=i + 1,
-                            step_index_plus_1=i + 2
-                        )
-                        regenerate_attempts = 0
-                        last_new_steps = None
-                        last_new_conclusion = None
-                        while regenerate_attempts < max_reflection:
-                            regenerated_response = self.llm.query(regeneration_prompt)
-                            new_steps, new_conclusion = self.extract_cot_and_answer(regenerated_response)
-                            trace["reflection_history"].append({
-                                "regeneration_prompt": regeneration_prompt,
-                                "regenerated_response": regenerated_response,
-                                "new_steps": new_steps,
-                                "new_conclusion": new_conclusion
-                            })
-                            if new_steps and (validated_steps + new_steps) != cot_queue and new_steps != cot_queue[i:i+len(new_steps)]:
-                                cot_queue = validated_steps + new_steps
-                                final_conclusion = new_conclusion
-                                i = len(validated_steps)
-                                break
-                            else:
-                                regenerate_attempts += 1
-                                last_new_steps = new_steps
-                                last_new_conclusion = new_conclusion
-                        else:
-                            if last_new_steps and last_new_steps != cot_queue[i:i+len(last_new_steps)]:
-                                cot_queue = validated_steps + last_new_steps
-                                final_conclusion = last_new_conclusion
-                                i = len(validated_steps)
-                            else:
-                                break
-                    else:
-                        break
-            return {
-                "final_answer_key": final_conclusion,
-                "final_cot": validated_steps,
-                "trace": trace,
-                "success": len(validated_steps) > 0 and final_conclusion != "N/A"
-            }
-        except Exception as e:
-            error_msg = f"Pipeline execution error: {str(e)}"
-=======
                 "integrated_analyses": [],  # New: store detailed analyses
                 "errors": []
             }
@@ -426,13 +402,16 @@ class EnhancedCausalCoTPipeline:
                             i
                         )
                         
-                        if new_steps:
+                        if new_steps and new_conclusion not in ["N/A", "No clear answer extracted"]:
                             cot_queue = trace["validated_steps"] + new_steps
                             final_conclusion = new_conclusion
                             i = len(trace["validated_steps"])
                             print(f"   Generated {len(new_steps)} new steps")
                         else:
-                            print("   Regeneration failed - terminating")
+                            print("   Regeneration failed - keeping initial conclusion")
+                            # Keep the initial conclusion instead of failing
+                            if final_conclusion in ["N/A", "No clear answer extracted"]:
+                                final_conclusion = trace.get("initial_conclusion", "No clear answer extracted")
                             break
                     else:
                         print("   No regeneration recommended - terminating")
@@ -442,6 +421,9 @@ class EnhancedCausalCoTPipeline:
             if trace["interventions"] >= self.max_interventions:
                 print(f"Maximum interventions ({self.max_interventions}) reached")
                 trace["errors"].append("Maximum interventions reached")
+                # Use initial conclusion if no valid conclusion found
+                if final_conclusion in ["N/A", "No clear answer extracted"]:
+                    final_conclusion = trace.get("initial_conclusion", "No clear answer extracted")
                 
             print(f"\nFinal answer: {final_conclusion}")
             print(f"Pipeline stats: {len(trace['validated_steps'])} validated steps, {trace['interventions']} interventions")
@@ -450,62 +432,18 @@ class EnhancedCausalCoTPipeline:
                 "final_answer_key": final_conclusion,
                 "final_cot": trace["validated_steps"],
                 "trace": trace,
-                "success": len(trace["validated_steps"]) > 0 and final_conclusion != "N/A"
+                "success": len(trace["validated_steps"]) > 0 and final_conclusion not in ["N/A", "No clear answer extracted"]
             }
             
         except Exception as e:
             error_msg = f"Pipeline execution error: {str(e)}"
             print(f"Error: {error_msg}")
->>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
             return {
-                "final_answer_key": "N/A",
+                "final_answer_key": "No clear answer extracted",
                 "final_cot": [],
                 "trace": {"errors": [error_msg]},
                 "success": False
             }
-<<<<<<< HEAD
-    def _regenerate_from_step(self, question, validated_steps, failed_step, analysis_result, step_index):
-        """Generate new reasoning based on integrated analysis feedback."""
-        
-        validated_context = "\n".join([f"{i+1}. {step}" for i, step in enumerate(validated_steps)])
-        failure_reason = analysis_result.get("detailed_reasoning", "Step was rejected")
-        
-        regeneration_prompt = prompts.REFLECTION_AND_REGENERATION_PROMPT.format(
-            question_and_choices=question,
-            validated_facts=f"Previously validated reasoning:\n{validated_context}" if validated_context else "Based on the initial question premise.",
-            failed_step=failed_step,
-            failure_reason=failure_reason,
-            step_index=step_index + 1,
-            step_index_plus_1=step_index + 2
-        )
-        
-        try:
-            regenerated_response = self.llm.query(regeneration_prompt)
-            new_steps, new_conclusion = self._parse_cot(regenerated_response)
-            return new_steps, new_conclusion
-        except Exception as e:
-            print(f"Regeneration error: {e}")
-            return [], "N/A"
-
-    def extract_cot_and_answer(self, text):
-        import re
-        print("=== LLM OUTPUT ===")
-        print(text)
-        steps = re.findall(r"Step \d+: (.*)", text)
-        # 优先提取 \box{...}
-        box_match = re.search(r"\\box\{(.*?)\}", text)
-        if box_match:
-            conclusion = box_match.group(1).strip()
-        else:
-            # 提取 Conclusion: 后的全部内容
-            conclusion_match = re.search(r"===FINAL_ANSWER_START===.*?Conclusion:\s*(.*?)\s*===FINAL_ANSWER_END===", text, re.DOTALL)
-            if not conclusion_match:
-                conclusion_match = re.search(r"Conclusion:\s*(.*)", text)
-            conclusion = conclusion_match.group(1).strip() if conclusion_match else None
-        print(f"Extracted steps: {steps}")
-        print(f"Extracted conclusion: {conclusion}")
-        return steps, conclusion
-=======
 
     def _regenerate_from_step(self, question, validated_steps, failed_step, analysis_result, step_index):
         """Generate new reasoning based on integrated analysis feedback."""
@@ -529,7 +467,6 @@ class EnhancedCausalCoTPipeline:
         except Exception as e:
             print(f"Regeneration error: {e}")
             return [], "N/A"
->>>>>>> 7c4acd1832cd2789043a29b967b1a89b0b7f748e
 
 
 # Legacy support - maintain compatibility with existing code

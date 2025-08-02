@@ -1,0 +1,6 @@
+{
+    "dataset_name": "COM2SENSE",
+    "hf_id": "liujch1998/vera_contrib",
+    "split": "test",
+    "num_samples": 100
+}

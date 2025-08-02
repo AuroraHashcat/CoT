@@ -1,0 +1,1623 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "87.00%",
+            "total_successful_pipelines": 87
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.87
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "winogrande_Sarah_was_a_much_better_surgeo",
+            "question": "Fill in the blank: Sarah was a much better surgeon than Maria so _ always got the easier cases.\n\nChoices:\nA. Sarah\nB. Maria",
+            "answerKey": "B",
+            "cot_output": "Step 1: Sarah is described as a much better surgeon than Maria. This implies that Sarah has superior surgical skills and experience.\nStep 2: In medical settings, better surgeons are typically assigned more complex and challenging cases because their skills are better suited to handle such cases.\nStep 3: Conversely, if Sarah is assigned the more complex cases, Maria, being the less skilled surgeon, would be assigned the easier cases.\nStep 4: The statement \"Sarah was a much better surgeon than Maria so _ always got the easier cases\" logically follows that Maria, being the less skilled surgeon, would get the easier cases.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sarah is described as a much better surgeon than Maria. This implies that Sarah has superior surgical skills and experience.",
+                "In medical settings, better surgeons are typically assigned more complex and challenging cases because their skills are better suited to handle such cases.",
+                "Conversely, if Sarah is assigned the more complex cases, Maria, being the less skilled surgeon, would be assigned the easier cases.",
+                "The statement \"Sarah was a much better surgeon than Maria so _ always got the easier cases\" logically follows that Maria, being the less skilled surgeon, would get the easier cases."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.293456077575684
+        },
+        {
+            "id": "winogrande_Sarah_was_a_much_better_surgeo",
+            "question": "Fill in the blank: Sarah was a much better surgeon than Maria so _ always got the harder cases.\n\nChoices:\nA. Sarah\nB. Maria",
+            "answerKey": "A",
+            "cot_output": "Step 1: Sarah is described as a much better surgeon than Maria. This implies that Sarah has superior surgical skills, knowledge, and possibly more experience.\nStep 2: In medical settings, better surgeons are typically assigned more complex and difficult cases because their higher skill level increases the likelihood of successful outcomes.\nStep 3: Given that Sarah is a much better surgeon, it logically follows that she would be the one to handle the harder cases.\nStep 4: The sentence structure \"Sarah was a much better surgeon than Maria so _ always got the harder cases\" supports this conclusion, as the blank should be filled with the name of the better surgeon.\nStep 5: Therefore, the blank should be filled with \"Sarah.\"\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sarah is described as a much better surgeon than Maria. This implies that Sarah has superior surgical skills, knowledge, and possibly more experience.",
+                "In medical settings, better surgeons are typically assigned more complex and difficult cases because their higher skill level increases the likelihood of successful outcomes.",
+                "Given that Sarah is a much better surgeon, it logically follows that she would be the one to handle the harder cases.",
+                "The sentence structure \"Sarah was a much better surgeon than Maria so _ always got the harder cases\" supports this conclusion, as the blank should be filled with the name of the better surgeon.",
+                "Therefore, the blank should be filled with \"Sarah.\""
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.893569707870483
+        },
+        {
+            "id": "winogrande_They_were_worried_the_wine_wou",
+            "question": "Fill in the blank: They were worried the wine would ruin the bed and the blanket, but the _ was't ruined.\n\nChoices:\nA. blanket\nB. bed",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence mentions two items that could potentially be ruined by the wine: the bed and the blanket.\nStep 2: The sentence structure indicates that one of these items was not ruined, while the other was a concern.\nStep 3: The sentence uses the singular form \"wasn't ruined,\" implying that only one of the two items (bed or blanket) was not ruined.\nStep 4: Since the sentence expresses worry about both the bed and the blanket, it is logical to conclude that the item that wasn't ruined is the one mentioned in the blank.\nStep 5: The sentence structure suggests that the item mentioned in the blank is the one that wasn't ruined, and the other item was the one they were worried about.\nStep 6: Given the choices, the most logical item to fill in the blank is the one that was not ruined, which is the blanket, as it is the second item mentioned in the sentence and fits the structure better.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions two items that could potentially be ruined by the wine: the bed and the blanket.",
+                "The sentence structure indicates that one of these items was not ruined, while the other was a concern.",
+                "The sentence uses the singular form \"wasn't ruined,\" implying that only one of the two items (bed or blanket) was not ruined.",
+                "Since the sentence expresses worry about both the bed and the blanket, it is logical to conclude that the item that wasn't ruined is the one mentioned in the blank.",
+                "The sentence structure suggests that the item mentioned in the blank is the one that wasn't ruined, and the other item was the one they were worried about.",
+                "Given the choices, the most logical item to fill in the blank is the one that was not ruined, which is the blanket, as it is the second item mentioned in the sentence and fits the structure better."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 10.58849024772644
+        },
+        {
+            "id": "winogrande_Terry_tried_to_bake_the_eggpla",
+            "question": "Fill in the blank: Terry tried to bake the eggplant in the toaster oven but the _ was too big.\n\nChoices:\nA. eggplant\nB. toaster",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that something was too big to fit into the toaster oven.\nStep 2: The options provided are \"eggplant\" and \"toaster.\" The toaster is not being described as too big; it is the device being used.\nStep 3: The eggplant is the object that Terry is trying to bake, and it is logical to infer that the eggplant is the item that is too big to fit into the toaster oven.\nStep 4: Since the eggplant is the only item that can logically be described as too big to fit into the toaster oven, it is the correct choice to fill in the blank.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that something was too big to fit into the toaster oven.",
+                "The options provided are \"eggplant\" and \"toaster.\" The toaster is not being described as too big; it is the device being used.",
+                "The eggplant is the object that Terry is trying to bake, and it is logical to infer that the eggplant is the item that is too big to fit into the toaster oven.",
+                "Since the eggplant is the only item that can logically be described as too big to fit into the toaster oven, it is the correct choice to fill in the blank."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 6.268161058425903
+        },
+        {
+            "id": "winogrande_At_night,_Jeffrey_always_stays",
+            "question": "Fill in the blank: At night, Jeffrey always stays up later than Hunter to watch TV because _ wakes up late.\n\nChoices:\nA. Jeffrey\nB. Hunter",
+            "answerKey": "A",
+            "cot_output": "Step 1: Jeffrey stays up later than Hunter to watch TV.\nStep 2: The reason given is that one of them wakes up late.\nStep 3: If Jeffrey stays up later, it implies he might need to sleep in the next morning to recover from the lack of sleep.\nStep 4: Therefore, the person who wakes up late is likely Jeffrey, as he is the one staying up later.\nStep 5: This causal relationship indicates that Jeffrey's late-night TV watching habit leads to him waking up late the next day.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Jeffrey stays up later than Hunter to watch TV.",
+                "The reason given is that one of them wakes up late.",
+                "If Jeffrey stays up later, it implies he might need to sleep in the next morning to recover from the lack of sleep.",
+                "Therefore, the person who wakes up late is likely Jeffrey, as he is the one staying up later.",
+                "This causal relationship indicates that Jeffrey's late-night TV watching habit leads to him waking up late the next day."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.5106725692749023
+        },
+        {
+            "id": "winogrande_The_cat_of_Sarah_has_some_mout",
+            "question": "Fill in the blank: The cat of Sarah has some mouth problems, so she takes it to see Maria. _ is a responsible cat owner.\n\nChoices:\nA. Sarah\nB. Maria",
+            "answerKey": "A",
+            "cot_output": "Step 1: Sarah takes her cat to see Maria because the cat has mouth problems. This indicates that Sarah is aware of her cat's health issues and is taking action to address them.\nStep 2: Taking a pet to a veterinarian when it has health problems is a responsible action. It shows that Sarah is concerned about her cat's well-being and is willing to seek professional help.\nStep 3: Maria is likely a veterinarian or a professional who can treat the cat's mouth problems. Her role is to provide medical care, not to demonstrate ownership responsibility.\nStep 4: Since Sarah is the one who recognizes the problem and takes the cat to the vet, she is demonstrating the traits of a responsible pet owner.\nStep 5: The question asks who is a responsible cat owner, and based on the actions described, Sarah is the one who is acting responsibly.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sarah takes her cat to see Maria because the cat has mouth problems. This indicates that Sarah is aware of her cat's health issues and is taking action to address them.",
+                "Taking a pet to a veterinarian when it has health problems is a responsible action. It shows that Sarah is concerned about her cat's well-being and is willing to seek professional help.",
+                "Maria is likely a veterinarian or a professional who can treat the cat's mouth problems. Her role is to provide medical care, not to demonstrate ownership responsibility.",
+                "Since Sarah is the one who recognizes the problem and takes the cat to the vet, she is demonstrating the traits of a responsible pet owner.",
+                "The question asks who is a responsible cat owner, and based on the actions described, Sarah is the one who is acting responsibly."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.477574110031128
+        },
+        {
+            "id": "winogrande_The_home_that_my_parents_had_w",
+            "question": "Fill in the blank: The home that my parents had when I was in school was a lot nicer than my house now because the _ was sophisticated.\n\nChoices:\nA. home\nB. house",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that we are comparing two things: the home from the past and the current house.\nStep 2: The comparison is based on the quality or condition of these two places, with the past home being described as \"nicer.\"\nStep 3: The blank is followed by the word \"was,\" which suggests that the noun we are looking for should be in the past tense or refer to a past state.\nStep 4: The word \"sophisticated\" is used to describe a quality of the noun that makes the past home nicer than the current house.\nStep 5: The choice between \"home\" and \"house\" depends on which term better fits the context of the sentence and the comparison being made.\nStep 6: \"Home\" can refer to the place where one lives, including the emotional and personal aspects, while \"house\" typically refers to the physical structure.\nStep 7: Since the sentence is comparing the overall quality and sophistication of the living environment, \"home\" is a more appropriate term to use.\nStep 8: The term \"home\" aligns better with the idea of a place being \"nicer\" due to its sophisticated features, which can include both physical and emotional aspects.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that we are comparing two things: the home from the past and the current house.",
+                "The comparison is based on the quality or condition of these two places, with the past home being described as \"nicer.\"",
+                "The blank is followed by the word \"was,\" which suggests that the noun we are looking for should be in the past tense or refer to a past state.",
+                "The word \"sophisticated\" is used to describe a quality of the noun that makes the past home nicer than the current house.",
+                "The choice between \"home\" and \"house\" depends on which term better fits the context of the sentence and the comparison being made.",
+                "\"Home\" can refer to the place where one lives, including the emotional and personal aspects, while \"house\" typically refers to the physical structure.",
+                "Since the sentence is comparing the overall quality and sophistication of the living environment, \"home\" is a more appropriate term to use.",
+                "The term \"home\" aligns better with the idea of a place being \"nicer\" due to its sophisticated features, which can include both physical and emotional aspects."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 9.572951316833496
+        },
+        {
+            "id": "winogrande_The_home_that_my_parents_had_w",
+            "question": "Fill in the blank: The home that my parents had when I was in school was a lot nicer than my house now because the _ is trashy.\n\nChoices:\nA. home\nB. house",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates a comparison between the home from the past and the current house.\nStep 2: The comparison suggests that the current house is not as nice as the past home.\nStep 3: The blank is filled with a word that describes something as \"trashy,\" which is a negative descriptor.\nStep 4: The word \"trashy\" should logically refer to the current house, as it is being contrasted with the nicer past home.\nStep 5: The only word that fits the context and completes the sentence correctly is \"house,\" as it refers to the current living situation.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates a comparison between the home from the past and the current house.",
+                "The comparison suggests that the current house is not as nice as the past home.",
+                "The blank is filled with a word that describes something as \"trashy,\" which is a negative descriptor.",
+                "The word \"trashy\" should logically refer to the current house, as it is being contrasted with the nicer past home.",
+                "The only word that fits the context and completes the sentence correctly is \"house,\" as it refers to the current living situation."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.929625749588013
+        },
+        {
+            "id": "winogrande_Natalie_has_a_rich_husband_and",
+            "question": "Fill in the blank: Natalie has a rich husband and lots of money, Jennifer is poor _ needs to make her clothes.\n\nChoices:\nA. Natalie\nB. Jennifer",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement mentions that Natalie has a rich husband and lots of money. This implies that Natalie is financially well-off and does not need to worry about making her own clothes.\nStep 2: The statement also mentions that Jennifer is poor. This implies that Jennifer has limited financial resources.\nStep 3: Given that Jennifer is poor, she may need to make her own clothes to save money, as she cannot afford to buy new clothes frequently.\nStep 4: The blank in the statement needs to be filled with the person who is poor and needs to make her clothes, which is Jennifer.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement mentions that Natalie has a rich husband and lots of money. This implies that Natalie is financially well-off and does not need to worry about making her own clothes.",
+                "The statement also mentions that Jennifer is poor. This implies that Jennifer has limited financial resources.",
+                "Given that Jennifer is poor, she may need to make her own clothes to save money, as she cannot afford to buy new clothes frequently.",
+                "The blank in the statement needs to be filled with the person who is poor and needs to make her clothes, which is Jennifer."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.280820846557617
+        },
+        {
+            "id": "winogrande_Joe_immediately_went_to_bakery",
+            "question": "Fill in the blank: Joe immediately went to bakery before the bank because the _ had a limited supply of what he wanted.\n\nChoices:\nA. bakery\nB. bank",
+            "answerKey": "A",
+            "cot_output": "Step 1: Joe went to the bakery before the bank, which implies that the bakery had something he needed more urgently.\nStep 2: The statement mentions that the place Joe went to first had a limited supply of what he wanted. This suggests that the item he wanted could run out if he did not go there first.\nStep 3: Banks typically do not have items with limited supplies that could run out; they deal primarily with financial transactions and services.\nStep 4: Bakeries, on the other hand, often have baked goods that are made fresh daily and can run out if not purchased early.\nStep 5: Given that Joe went to the bakery first and the place had a limited supply of what he wanted, it is logical to conclude that the bakery is the place with the limited supply.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Joe went to the bakery before the bank, which implies that the bakery had something he needed more urgently.",
+                "The statement mentions that the place Joe went to first had a limited supply of what he wanted. This suggests that the item he wanted could run out if he did not go there first.",
+                "Banks typically do not have items with limited supplies that could run out; they deal primarily with financial transactions and services.",
+                "Bakeries, on the other hand, often have baked goods that are made fresh daily and can run out if not purchased early.",
+                "Given that Joe went to the bakery first and the place had a limited supply of what he wanted, it is logical to conclude that the bakery is the place with the limited supply."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.3099493980407715
+        },
+        {
+            "id": "winogrande_Joe_immediately_went_to_bakery",
+            "question": "Fill in the blank: Joe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted.\n\nChoices:\nA. bakery\nB. bank",
+            "answerKey": "B",
+            "cot_output": "Step 1: Joe went to the bakery before the bank, which implies that the bakery had something Joe wanted more urgently than what the bank could provide.\nStep 2: The phrase \"substantial supply of what he wanted\" suggests that the place Joe went to first had a significant amount of the item or service he desired.\nStep 3: A bakery typically has a substantial supply of baked goods, which are consumable items that can be desired by someone.\nStep 4: A bank typically does not have a \"substantial supply\" of anything that is immediately consumable or tangible in the same way baked goods are.\nStep 5: Given that Joe went to the bakery first, it is logical to conclude that the bakery had the substantial supply of what he wanted.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Joe went to the bakery before the bank, which implies that the bakery had something Joe wanted more urgently than what the bank could provide.",
+                "The phrase \"substantial supply of what he wanted\" suggests that the place Joe went to first had a significant amount of the item or service he desired.",
+                "A bakery typically has a substantial supply of baked goods, which are consumable items that can be desired by someone.",
+                "A bank typically does not have a \"substantial supply\" of anything that is immediately consumable or tangible in the same way baked goods are.",
+                "Given that Joe went to the bakery first, it is logical to conclude that the bakery had the substantial supply of what he wanted."
+            ],
+            "pred": "0",
+            "is_correct": false,
+            "elapsed_time": 5.113158702850342
+        },
+        {
+            "id": "winogrande_I_had_to_read_an_entire_story_",
+            "question": "Fill in the blank: I had to read an entire story for class tomorrow. Luckily, the _ was canceled.\n\nChoices:\nA. story\nB. class",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that the cancellation of something has a positive impact on the speaker's situation, specifically regarding the need to read an entire story for class.\nStep 2: If the \"story\" was canceled, it would not make sense because the speaker is required to read the story, and its cancellation would not alleviate the reading burden.\nStep 3: If the \"class\" was canceled, the speaker would no longer need to read the story for the class, which would be a positive outcome.\nStep 4: The logical conclusion is that the cancellation of the class would be the most beneficial and fitting context for the sentence.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the cancellation of something has a positive impact on the speaker's situation, specifically regarding the need to read an entire story for class.",
+                "If the \"story\" was canceled, it would not make sense because the speaker is required to read the story, and its cancellation would not alleviate the reading burden.",
+                "If the \"class\" was canceled, the speaker would no longer need to read the story for the class, which would be a positive outcome.",
+                "The logical conclusion is that the cancellation of the class would be the most beneficial and fitting context for the sentence."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.83292818069458
+        },
+        {
+            "id": "winogrande_I_had_to_read_an_entire_story_",
+            "question": "Fill in the blank: I had to read an entire story for class tomorrow. Luckily, the _ was short.\n\nChoices:\nA. story\nB. class",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with a noun that logically fits the context of the sentence.\nStep 2: The context of the sentence is about reading an entire story for a class, and the speaker is expressing relief that something was short.\nStep 3: The relief is logically tied to the length of the reading material, not the class itself, because the class is not described as something that has a length that can be read.\nStep 4: The only logical noun that fits the context and makes sense in the sentence is \"story,\" as it is the reading material that can be short and thus reduce the burden of the task.\nStep 5: Therefore, the blank should be filled with \"story.\"\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with a noun that logically fits the context of the sentence.",
+                "The context of the sentence is about reading an entire story for a class, and the speaker is expressing relief that something was short.",
+                "The relief is logically tied to the length of the reading material, not the class itself, because the class is not described as something that has a length that can be read.",
+                "The only logical noun that fits the context and makes sense in the sentence is \"story,\" as it is the reading material that can be short and thus reduce the burden of the task.",
+                "Therefore, the blank should be filled with \"story.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 5.605869293212891
+        },
+        {
+            "id": "winogrande_He_had_enough_time_between_cla",
+            "question": "Fill in the blank: He had enough time between classes to go to a cafe or to the library. He went to the _ because his paper could wait.\n\nChoices:\nA. cafe\nB. library",
+            "answerKey": "A",
+            "cot_output": "Step 1: The person has two options: going to the cafe or going to the library.\nStep 2: The person's paper could wait, which implies that the task of writing the paper is not urgent at the moment.\nStep 3: If the paper can wait, the person is more likely to choose an option that provides immediate gratification or relaxation, rather than one that is task-oriented.\nStep 4: The cafe is typically associated with relaxation, socializing, or a break from work, while the library is associated with studying, research, and completing tasks.\nStep 5: Given that the paper can wait, the person is more likely to choose the cafe over the library to enjoy a break or some leisure time.\nStep 6: Therefore, the person went to the cafe.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The person has two options: going to the cafe or going to the library.",
+                "The person's paper could wait, which implies that the task of writing the paper is not urgent at the moment.",
+                "If the paper can wait, the person is more likely to choose an option that provides immediate gratification or relaxation, rather than one that is task-oriented.",
+                "The cafe is typically associated with relaxation, socializing, or a break from work, while the library is associated with studying, research, and completing tasks.",
+                "Given that the paper can wait, the person is more likely to choose the cafe over the library to enjoy a break or some leisure time.",
+                "Therefore, the person went to the cafe."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 7.329286098480225
+        },
+        {
+            "id": "winogrande_He_had_enough_time_between_cla",
+            "question": "Fill in the blank: He had enough time between classes to go to a cafe or to the library. He went to the _ because his paper was due soon.\n\nChoices:\nA. cafe\nB. library",
+            "answerKey": "B",
+            "cot_output": "Step 1: The individual has a choice between going to the cafe or the library.\nStep 2: The individual's paper is due soon, which implies an immediate need to work on or complete the paper.\nStep 3: The library is a more suitable environment for working on a paper due to its quiet atmosphere and access to resources such as books and computers.\nStep 4: The cafe, while a possible place to work, is generally more noisy and less conducive to focused academic work.\nStep 5: Given the urgency of the paper, the individual would logically choose the environment that best supports completing the task efficiently and effectively.\nStep 6: Therefore, the individual went to the library to work on the paper.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The individual has a choice between going to the cafe or the library.",
+                "The individual's paper is due soon, which implies an immediate need to work on or complete the paper.",
+                "The library is a more suitable environment for working on a paper due to its quiet atmosphere and access to resources such as books and computers.",
+                "The cafe, while a possible place to work, is generally more noisy and less conducive to focused academic work.",
+                "Given the urgency of the paper, the individual would logically choose the environment that best supports completing the task efficiently and effectively.",
+                "Therefore, the individual went to the library to work on the paper."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.513540506362915
+        },
+        {
+            "id": "winogrande_Lindsey_like_to_read_graphic_n",
+            "question": "Fill in the blank: Lindsey like to read graphic novels but Natalie liked classic literature to read. _ bought the new Frank Miller comic at the book store.\n\nChoices:\nA. Lindsey\nB. Natalie",
+            "answerKey": "A",
+            "cot_output": "Step 1: Lindsey likes to read graphic novels, which are a form of visual storytelling that often includes comics.\nStep 2: Natalie likes to read classic literature, which typically does not include graphic novels or comics.\nStep 3: Frank Miller is a well-known comic book artist and writer, and his works are considered graphic novels.\nStep 4: Given that Lindsey enjoys graphic novels and Frank Miller's work is a graphic novel, it is more likely that Lindsey would be interested in buying the new Frank Miller comic.\nStep 5: Natalie, who prefers classic literature, is less likely to be interested in a comic book, even if it is by a renowned artist like Frank Miller.\nStep 6: Therefore, the person who bought the new Frank Miller comic at the book store is most likely Lindsey.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Lindsey likes to read graphic novels, which are a form of visual storytelling that often includes comics.",
+                "Natalie likes to read classic literature, which typically does not include graphic novels or comics.",
+                "Frank Miller is a well-known comic book artist and writer, and his works are considered graphic novels.",
+                "Given that Lindsey enjoys graphic novels and Frank Miller's work is a graphic novel, it is more likely that Lindsey would be interested in buying the new Frank Miller comic.",
+                "Natalie, who prefers classic literature, is less likely to be interested in a comic book, even if it is by a renowned artist like Frank Miller.",
+                "Therefore, the person who bought the new Frank Miller comic at the book store is most likely Lindsey."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.058752059936523
+        },
+        {
+            "id": "winogrande_Michael_just_bought_brand_new_",
+            "question": "Fill in the blank: Michael just bought brand new wheels for his truck unlike Leslie because _ wheels were new and perfect.\n\nChoices:\nA. Michael\nB. Leslie",
+            "answerKey": "B",
+            "cot_output": "Step 1: Michael just bought brand new wheels for his truck, which implies that his wheels were not new and perfect before the purchase.\nStep 2: The statement \"unlike Leslie\" suggests a contrast between Michael and Leslie's situations regarding the wheels.\nStep 3: The phrase \"wheels were new and perfect\" must apply to one of the two individuals, Michael or Leslie.\nStep 4: Since Michael bought new wheels, it implies that his wheels were not new and perfect before the purchase, so the statement \"wheels were new and perfect\" cannot apply to Michael.\nStep 5: Therefore, the statement \"wheels were new and perfect\" must apply to Leslie, indicating that Leslie's wheels were already in good condition and did not need to be replaced.\nStep 6: The contrast in the statement \"unlike Leslie\" supports this conclusion, as Leslie's wheels being new and perfect explains why Michael had to buy new wheels for his truck.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Michael just bought brand new wheels for his truck, which implies that his wheels were not new and perfect before the purchase.",
+                "The statement \"unlike Leslie\" suggests a contrast between Michael and Leslie's situations regarding the wheels.",
+                "The phrase \"wheels were new and perfect\" must apply to one of the two individuals, Michael or Leslie.",
+                "Since Michael bought new wheels, it implies that his wheels were not new and perfect before the purchase, so the statement \"wheels were new and perfect\" cannot apply to Michael.",
+                "Therefore, the statement \"wheels were new and perfect\" must apply to Leslie, indicating that Leslie's wheels were already in good condition and did not need to be replaced.",
+                "The contrast in the statement \"unlike Leslie\" supports this conclusion, as Leslie's wheels being new and perfect explains why Michael had to buy new wheels for his truck."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 7.676988124847412
+        },
+        {
+            "id": "winogrande_Michael_just_bought_brand_new_",
+            "question": "Fill in the blank: Michael just bought brand new wheels for his truck unlike Leslie because _ wheels were old and used.\n\nChoices:\nA. Michael\nB. Leslie",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that Michael and Leslie are being compared in terms of the condition of their wheels.\nStep 2: Michael bought new wheels, which implies that his previous wheels were not in a condition that satisfied him.\nStep 3: The phrase \"unlike Leslie\" suggests that Leslie did not buy new wheels.\nStep 4: The blank is followed by \"wheels were old and used,\" which must refer to the person who did not buy new wheels.\nStep 5: Since Michael bought new wheels, the statement about old and used wheels cannot apply to him.\nStep 6: Therefore, the statement about old and used wheels must apply to Leslie, who did not buy new wheels.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that Michael and Leslie are being compared in terms of the condition of their wheels.",
+                "Michael bought new wheels, which implies that his previous wheels were not in a condition that satisfied him.",
+                "The phrase \"unlike Leslie\" suggests that Leslie did not buy new wheels.",
+                "The blank is followed by \"wheels were old and used,\" which must refer to the person who did not buy new wheels.",
+                "Since Michael bought new wheels, the statement about old and used wheels cannot apply to him.",
+                "Therefore, the statement about old and used wheels must apply to Leslie, who did not buy new wheels."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 5.144545793533325
+        },
+        {
+            "id": "winogrande_Leslie_was_nervous_around_parr",
+            "question": "Fill in the blank: Leslie was nervous around parrots but Neil was not, since _ was bitten by a bird early in life.\n\nChoices:\nA. Leslie\nB. Neil",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement indicates that Leslie is nervous around parrots, while Neil is not.\nStep 2: The reason given for the difference in their reactions is that one of them was bitten by a bird early in life.\nStep 3: Being bitten by a bird is likely to cause fear or nervousness around birds, as it is a negative and potentially traumatic experience.\nStep 4: Since Leslie is the one who is nervous around parrots, it is more likely that Leslie is the one who was bitten by a bird early in life.\nStep 5: Neil is not nervous around parrots, suggesting he has not had a negative experience with birds, such as being bitten.\nStep 6: Therefore, the person who was bitten by a bird early in life is Leslie.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that Leslie is nervous around parrots, while Neil is not.",
+                "The reason given for the difference in their reactions is that one of them was bitten by a bird early in life.",
+                "Being bitten by a bird is likely to cause fear or nervousness around birds, as it is a negative and potentially traumatic experience.",
+                "Since Leslie is the one who is nervous around parrots, it is more likely that Leslie is the one who was bitten by a bird early in life.",
+                "Neil is not nervous around parrots, suggesting he has not had a negative experience with birds, such as being bitten.",
+                "Therefore, the person who was bitten by a bird early in life is Leslie."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.5051751136779785
+        },
+        {
+            "id": "winogrande_Christmas_was_a_special_holida",
+            "question": "Fill in the blank: Christmas was a special holiday to Eric but not Adam since _ was a Jew.\n\nChoices:\nA. Eric\nB. Adam",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement indicates that Christmas is a special holiday to Eric but not to Adam.\nStep 2: The reason given for this difference is that one of them is a Jew. Christmas is not typically a significant religious holiday for Jews, as it celebrates the birth of Jesus, who is not considered the Messiah in Judaism.\nStep 3: Since Christmas is a special holiday to Eric, it suggests that Eric is not Jewish.\nStep 4: Conversely, since Christmas is not a special holiday to Adam, it suggests that Adam is Jewish.\nStep 5: The blank in the statement should be filled with the name of the person who is Jewish, which is Adam.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that Christmas is a special holiday to Eric but not to Adam.",
+                "The reason given for this difference is that one of them is a Jew. Christmas is not typically a significant religious holiday for Jews, as it celebrates the birth of Jesus, who is not considered the Messiah in Judaism.",
+                "Since Christmas is a special holiday to Eric, it suggests that Eric is not Jewish.",
+                "Conversely, since Christmas is not a special holiday to Adam, it suggests that Adam is Jewish.",
+                "The blank in the statement should be filled with the name of the person who is Jewish, which is Adam."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.9984214305877686
+        },
+        {
+            "id": "winogrande_To_make_frosting_I_needed_pudd",
+            "question": "Fill in the blank: To make frosting I needed pudding that was at a store 15 minutes away but pre-made frosting was at a store 5 minutes away.  The _ was closer.\n\nChoices:\nA. pudding\nB. frosting",
+            "answerKey": "B",
+            "cot_output": "Step 1: The problem states that the pudding is at a store 15 minutes away.\nStep 2: The problem also states that the pre-made frosting is at a store 5 minutes away.\nStep 3: Comparing the distances, 5 minutes is less than 15 minutes.\nStep 4: Since the store with the pre-made frosting is 5 minutes away, it is closer than the store with the pudding, which is 15 minutes away.\nStep 5: Therefore, the pre-made frosting is closer.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that the pudding is at a store 15 minutes away.",
+                "The problem also states that the pre-made frosting is at a store 5 minutes away.",
+                "Comparing the distances, 5 minutes is less than 15 minutes.",
+                "Since the store with the pre-made frosting is 5 minutes away, it is closer than the store with the pudding, which is 15 minutes away.",
+                "Therefore, the pre-made frosting is closer."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.730822801589966
+        },
+        {
+            "id": "winogrande_Benjamin_was_chosen_instead_of",
+            "question": "Fill in the blank: Benjamin was chosen instead of Brett to be the makeup artist for the play because _ was less experienced.\n\nChoices:\nA. Benjamin\nB. Brett",
+            "answerKey": "B",
+            "cot_output": "Step 1: The question states that Benjamin was chosen instead of Brett to be the makeup artist for the play.\nStep 2: The reason given for the choice is that one of them was less experienced.\nStep 3: If Benjamin was chosen, it implies that his level of experience was a factor that made him a better choice compared to Brett.\nStep 4: Since Benjamin was chosen, it suggests that Brett must have been more experienced, as being more experienced would typically be a positive attribute for a makeup artist.\nStep 5: Therefore, the person who was less experienced must be Benjamin, as this would explain why Brett, who is more experienced, was not chosen.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question states that Benjamin was chosen instead of Brett to be the makeup artist for the play.",
+                "The reason given for the choice is that one of them was less experienced.",
+                "If Benjamin was chosen, it implies that his level of experience was a factor that made him a better choice compared to Brett.",
+                "Since Benjamin was chosen, it suggests that Brett must have been more experienced, as being more experienced would typically be a positive attribute for a makeup artist.",
+                "Therefore, the person who was less experienced must be Benjamin, as this would explain why Brett, who is more experienced, was not chosen."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 4.5875935554504395
+        },
+        {
+            "id": "winogrande_Cynthia_violated_the_rights_of",
+            "question": "Fill in the blank: Cynthia violated the rights of Amy, because _ had too much passivity with other people.\n\nChoices:\nA. Cynthia\nB. Amy",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that one person (Cynthia) violated the rights of another person (Amy).\nStep 2: The blank is filled with a reason that explains why the violation occurred.\nStep 3: The phrase \"had too much passivity with other people\" suggests a behavior or trait of the person who is being described.\nStep 4: Passivity is a characteristic that can make someone more likely to be taken advantage of, rather than to take advantage of others.\nStep 5: Since the violation is attributed to Cynthia, the passivity must be a characteristic of Amy, as it would explain why Amy was more vulnerable to having her rights violated.\nStep 6: Therefore, the blank should be filled with \"Amy\" because Amy's passivity with other people made her more susceptible to having her rights violated by Cynthia.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that one person (Cynthia) violated the rights of another person (Amy).",
+                "The blank is filled with a reason that explains why the violation occurred.",
+                "The phrase \"had too much passivity with other people\" suggests a behavior or trait of the person who is being described.",
+                "Passivity is a characteristic that can make someone more likely to be taken advantage of, rather than to take advantage of others.",
+                "Since the violation is attributed to Cynthia, the passivity must be a characteristic of Amy, as it would explain why Amy was more vulnerable to having her rights violated.",
+                "Therefore, the blank should be filled with \"Amy\" because Amy's passivity with other people made her more susceptible to having her rights violated by Cynthia."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.344403028488159
+        },
+        {
+            "id": "winogrande_They_had_to_eat_a_lot_to_gain_",
+            "question": "Fill in the blank: They had to eat a lot to gain the strength they had lost and be able to work, the _ was too much.\n\nChoices:\nA. work\nB. strength",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence mentions that they had to eat a lot to gain the strength they had lost. This implies that they were in a state of weakness due to a lack of food or overexertion.\nStep 2: The sentence also states that they needed to be able to work. This indicates that their goal was to regain enough strength to perform their tasks.\nStep 3: The blank is followed by \"was too much.\" This suggests that something was excessive or overwhelming.\nStep 4: Given the context, the word \"work\" fits better because it implies that the amount of work required was too much for them to handle, especially in their weakened state.\nStep 5: The word \"strength\" does not fit as well because it would imply that the strength they needed to gain was too much, which contradicts the idea that they needed to eat to regain strength.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that they had to eat a lot to gain the strength they had lost. This implies that they were in a state of weakness due to a lack of food or overexertion.",
+                "The sentence also states that they needed to be able to work. This indicates that their goal was to regain enough strength to perform their tasks.",
+                "The blank is followed by \"was too much.\" This suggests that something was excessive or overwhelming.",
+                "Given the context, the word \"work\" fits better because it implies that the amount of work required was too much for them to handle, especially in their weakened state.",
+                "The word \"strength\" does not fit as well because it would imply that the strength they needed to gain was too much, which contradicts the idea that they needed to eat to regain strength."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 5.836326837539673
+        },
+        {
+            "id": "winogrande_They_had_to_eat_a_lot_to_gain_",
+            "question": "Fill in the blank: They had to eat a lot to gain the strength they had lost and be able to work, the _ was too little.\n\nChoices:\nA. work\nB. strength",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence mentions that they had to eat a lot to gain the strength they had lost and be able to work. This implies that they were in a state where they needed to regain strength.\nStep 2: The sentence also indicates that something was too little, which prevented them from achieving their goal of regaining strength and being able to work.\nStep 3: The options given are \"work\" and \"strength.\" We need to determine which of these was too little.\nStep 4: If \"work\" was too little, it would not make sense in the context of the sentence, as the focus is on regaining strength through eating.\nStep 5: If \"strength\" was too little, it aligns with the context of the sentence, as they needed to eat a lot to gain the strength they had lost.\nStep 6: Therefore, the word that fits best in the blank is \"strength,\" as it logically follows that the strength they had lost was too little for them to work effectively.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that they had to eat a lot to gain the strength they had lost and be able to work. This implies that they were in a state where they needed to regain strength.",
+                "The sentence also indicates that something was too little, which prevented them from achieving their goal of regaining strength and being able to work.",
+                "The options given are \"work\" and \"strength.\" We need to determine which of these was too little.",
+                "If \"work\" was too little, it would not make sense in the context of the sentence, as the focus is on regaining strength through eating.",
+                "If \"strength\" was too little, it aligns with the context of the sentence, as they needed to eat a lot to gain the strength they had lost.",
+                "Therefore, the word that fits best in the blank is \"strength,\" as it logically follows that the strength they had lost was too little for them to work effectively."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 6.070332050323486
+        },
+        {
+            "id": "winogrande_The_roof_of_Rachel's_home_is_o",
+            "question": "Fill in the blank: The roof of Rachel's home is old and falling apart, while Betty's is new. The home value of _ is lower.\n\nChoices:\nA. Rachel\nB. Betty",
+            "answerKey": "A",
+            "cot_output": "Step 1: The condition of a home's roof can significantly impact its overall value. A roof that is old and falling apart is likely to require expensive repairs or replacement, which can decrease the home's value.\nStep 2: Rachel's home has an old and falling apart roof, which implies that it may need significant investment to bring it up to a good condition. This need for investment can deter potential buyers or lower the price they are willing to pay.\nStep 3: Betty's home has a new roof, which suggests that it is in better condition and requires less maintenance or repair. This can increase the home's value as it is more attractive to potential buyers.\nStep 4: Given that the condition of the roof is a significant factor in home value, and Rachel's home has a roof that is old and falling apart while Betty's home has a new roof, the home value of Rachel's home is lower.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The condition of a home's roof can significantly impact its overall value. A roof that is old and falling apart is likely to require expensive repairs or replacement, which can decrease the home's value.",
+                "Rachel's home has an old and falling apart roof, which implies that it may need significant investment to bring it up to a good condition. This need for investment can deter potential buyers or lower the price they are willing to pay.",
+                "Betty's home has a new roof, which suggests that it is in better condition and requires less maintenance or repair. This can increase the home's value as it is more attractive to potential buyers.",
+                "Given that the condition of the roof is a significant factor in home value, and Rachel's home has a roof that is old and falling apart while Betty's home has a new roof, the home value of Rachel's home is lower."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 8.28086543083191
+        },
+        {
+            "id": "winogrande_All_the_clutter_in_the_house_e",
+            "question": "Fill in the blank: All the clutter in the house excited Leslie but not Derrick because cleaning energized _ very much.\n\nChoices:\nA. Leslie\nB. Derrick",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement mentions that \"All the clutter in the house excited Leslie but not Derrick.\" This indicates that Leslie has a positive emotional response to the clutter, while Derrick does not.\nStep 2: The statement also mentions that \"cleaning energized _ very much.\" This implies that the person who is energized by cleaning is the same person who is excited by the clutter.\nStep 3: Since Leslie is excited by the clutter, it is logical to infer that Leslie is the one who is energized by cleaning.\nStep 4: Derrick, on the other hand, is not excited by the clutter, so it is less likely that he would be energized by cleaning.\nStep 5: Therefore, the person who is energized by cleaning is Leslie.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement mentions that \"All the clutter in the house excited Leslie but not Derrick.\" This indicates that Leslie has a positive emotional response to the clutter, while Derrick does not.",
+                "The statement also mentions that \"cleaning energized _ very much.\" This implies that the person who is energized by cleaning is the same person who is excited by the clutter.",
+                "Since Leslie is excited by the clutter, it is logical to infer that Leslie is the one who is energized by cleaning.",
+                "Derrick, on the other hand, is not excited by the clutter, so it is less likely that he would be energized by cleaning.",
+                "Therefore, the person who is energized by cleaning is Leslie."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.954024791717529
+        },
+        {
+            "id": "winogrande_The_portions_of_food_today_wer",
+            "question": "Fill in the blank: The portions of food today were bigger than the sizes yesterday because the _ fed more people.\n\nChoices:\nA. portions\nB. sizes",
+            "answerKey": "A",
+            "cot_output": "Step 1: The question states that the portions of food today were bigger than the sizes yesterday. This implies a comparison between two different measurements of food.\nStep 2: The blank needs to be filled with a word that logically fits the context of the sentence and explains why the portions were bigger.\nStep 3: The sentence structure suggests that the blank should be filled with a word that refers to the food itself, as it is the subject of the sentence.\nStep 4: The word \"portions\" refers to the amount of food given to each person, while \"sizes\" refers to the dimensions or volume of the food.\nStep 5: The sentence indicates that the portions were bigger because they fed more people. This implies that the total amount of food was distributed among more people, making each portion larger.\nStep 6: The word \"portions\" fits better in this context because it directly relates to the amount of food given to each person, which is the focus of the sentence.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question states that the portions of food today were bigger than the sizes yesterday. This implies a comparison between two different measurements of food.",
+                "The blank needs to be filled with a word that logically fits the context of the sentence and explains why the portions were bigger.",
+                "The sentence structure suggests that the blank should be filled with a word that refers to the food itself, as it is the subject of the sentence.",
+                "The word \"portions\" refers to the amount of food given to each person, while \"sizes\" refers to the dimensions or volume of the food.",
+                "The sentence indicates that the portions were bigger because they fed more people. This implies that the total amount of food was distributed among more people, making each portion larger.",
+                "The word \"portions\" fits better in this context because it directly relates to the amount of food given to each person, which is the focus of the sentence."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 7.261048078536987
+        },
+        {
+            "id": "winogrande_Since_Craig_threw_aluminum_can",
+            "question": "Fill in the blank: Since Craig threw aluminum cans in the trash and Benjamin recycled, _ was environmentally irresponsible.\n\nChoices:\nA. Craig\nB. Benjamin",
+            "answerKey": "A",
+            "cot_output": "Step 1: Throwing aluminum cans in the trash means that the cans will not be recycled and will likely end up in a landfill, where they can take hundreds of years to decompose and can release harmful chemicals into the environment.\nStep 2: Recycling aluminum cans reduces waste, conserves natural resources, and reduces energy consumption and pollution compared to producing new aluminum from raw materials.\nStep 3: Since Craig threw aluminum cans in the trash, he is contributing to environmental harm by not recycling, which is an environmentally irresponsible action.\nStep 4: Benjamin, on the other hand, recycled, which is an environmentally responsible action.\nStep 5: Therefore, Craig was environmentally irresponsible.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Throwing aluminum cans in the trash means that the cans will not be recycled and will likely end up in a landfill, where they can take hundreds of years to decompose and can release harmful chemicals into the environment.",
+                "Recycling aluminum cans reduces waste, conserves natural resources, and reduces energy consumption and pollution compared to producing new aluminum from raw materials.",
+                "Since Craig threw aluminum cans in the trash, he is contributing to environmental harm by not recycling, which is an environmentally irresponsible action.",
+                "Benjamin, on the other hand, recycled, which is an environmentally responsible action.",
+                "Therefore, Craig was environmentally irresponsible."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.900475978851318
+        },
+        {
+            "id": "winogrande_Christine_was_going_to_Jessica",
+            "question": "Fill in the blank: Christine was going to Jessica's house to do some cleaning in the kitchen, because _ was a energetic person.\n\nChoices:\nA. Christine\nB. Jessica",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with the subject who is described as \"an energetic person.\"\nStep 2: The context of the sentence is about Christine going to Jessica's house to do some cleaning in the kitchen.\nStep 3: The action of going to someone else's house to do cleaning suggests that the person going (Christine) is the one who is taking the initiative and is likely to be the energetic one.\nStep 4: If Jessica were the energetic person, the sentence would likely focus on Jessica's actions or characteristics, but it does not.\nStep 5: Therefore, the person described as \"an energetic person\" must be Christine, as she is the one performing the active task of going to clean.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with the subject who is described as \"an energetic person.\"",
+                "The context of the sentence is about Christine going to Jessica's house to do some cleaning in the kitchen.",
+                "The action of going to someone else's house to do cleaning suggests that the person going (Christine) is the one who is taking the initiative and is likely to be the energetic one.",
+                "If Jessica were the energetic person, the sentence would likely focus on Jessica's actions or characteristics, but it does not.",
+                "Therefore, the person described as \"an energetic person\" must be Christine, as she is the one performing the active task of going to clean."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.200046062469482
+        },
+        {
+            "id": "winogrande_The_students_were_at_their_des",
+            "question": "Fill in the blank: The students were at their desks taking tests with pencils, they used the _ to hold the papers.\n\nChoices:\nA. desks\nB. pencils",
+            "answerKey": "A",
+            "cot_output": "Step 1: The students are taking tests, which implies they are using some form of paper for their tests.\nStep 2: The students are using pencils to write on the papers, which means they need to keep the papers in place while writing.\nStep 3: The question asks what they used to hold the papers. The options given are \"desks\" and \"pencils.\"\nStep 4: Pencils are used for writing, not for holding papers. Therefore, pencils cannot be the correct answer.\nStep 5: Desks are solid, flat surfaces that can be used to support and hold papers in place while students are writing.\nStep 6: Since desks are the only logical option that can be used to hold papers, the correct answer must be \"desks.\"\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The students are taking tests, which implies they are using some form of paper for their tests.",
+                "The students are using pencils to write on the papers, which means they need to keep the papers in place while writing.",
+                "The question asks what they used to hold the papers. The options given are \"desks\" and \"pencils.\"",
+                "Pencils are used for writing, not for holding papers. Therefore, pencils cannot be the correct answer.",
+                "Desks are solid, flat surfaces that can be used to support and hold papers in place while students are writing.",
+                "Since desks are the only logical option that can be used to hold papers, the correct answer must be \"desks.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 6.711766004562378
+        },
+        {
+            "id": "winogrande_Mary_thought_poodles_were_a_co",
+            "question": "Fill in the blank: Mary thought poodles were a cool dog but Rachel thought Great Danes were cooler. _ bought a small dog bed for their pet.\n\nChoices:\nA. Mary\nB. Rachel",
+            "answerKey": "A",
+            "cot_output": "Step 1: Mary thinks poodles are cool, which implies she prefers poodles.\nStep 2: Rachel thinks Great Danes are cooler, which implies she prefers Great Danes.\nStep 3: Poodles are generally smaller dogs compared to Great Danes.\nStep 4: A small dog bed is more suitable for a smaller dog like a poodle.\nStep 5: Since Mary prefers poodles, and poodles are smaller, it is more likely that Mary would buy a small dog bed for her pet.\nStep 6: Rachel, who prefers Great Danes, would be less likely to buy a small dog bed because Great Danes are much larger and would require a larger bed.\nStep 7: Therefore, the person who bought a small dog bed for their pet is more likely to be Mary.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Mary thinks poodles are cool, which implies she prefers poodles.",
+                "Rachel thinks Great Danes are cooler, which implies she prefers Great Danes.",
+                "Poodles are generally smaller dogs compared to Great Danes.",
+                "A small dog bed is more suitable for a smaller dog like a poodle.",
+                "Since Mary prefers poodles, and poodles are smaller, it is more likely that Mary would buy a small dog bed for her pet.",
+                "Rachel, who prefers Great Danes, would be less likely to buy a small dog bed because Great Danes are much larger and would require a larger bed.",
+                "Therefore, the person who bought a small dog bed for their pet is more likely to be Mary."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.529737949371338
+        },
+        {
+            "id": "winogrande_Mary_thought_poodles_were_a_co",
+            "question": "Fill in the blank: Mary thought poodles were a cool dog but Rachel thought Great Danes were cooler. _ bought a gigantic dog bed for their pet.\n\nChoices:\nA. Mary\nB. Rachel",
+            "answerKey": "B",
+            "cot_output": "Step 1: Mary thinks poodles are cool, which implies she prefers poodles.\nStep 2: Rachel thinks Great Danes are cooler, which implies she prefers Great Danes.\nStep 3: Great Danes are generally much larger dogs compared to poodles.\nStep 4: A gigantic dog bed is more likely to be bought for a larger dog like a Great Dane.\nStep 5: Since Rachel prefers Great Danes, and Great Danes are larger, it is more likely that Rachel would buy a gigantic dog bed for her pet.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Mary thinks poodles are cool, which implies she prefers poodles.",
+                "Rachel thinks Great Danes are cooler, which implies she prefers Great Danes.",
+                "Great Danes are generally much larger dogs compared to poodles.",
+                "A gigantic dog bed is more likely to be bought for a larger dog like a Great Dane.",
+                "Since Rachel prefers Great Danes, and Great Danes are larger, it is more likely that Rachel would buy a gigantic dog bed for her pet."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.039986610412598
+        },
+        {
+            "id": "winogrande_Leslie_had_a_lot_of_issues_tha",
+            "question": "Fill in the blank: Leslie had a lot of issues that Kyle was tired of dealing with, so _ felt abandoned when they finally moved out.\n\nChoices:\nA. Leslie\nB. Kyle",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence states that Leslie had a lot of issues that Kyle was tired of dealing with.\nStep 2: This implies that Kyle was the one who was affected by Leslie's issues and was likely the one who decided to move out.\nStep 3: If Kyle moved out, it suggests that he was the one leaving the situation.\nStep 4: The person who is left behind after someone moves out would feel abandoned.\nStep 5: Since Kyle moved out, Leslie would be the one left behind and thus would feel abandoned.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Leslie had a lot of issues that Kyle was tired of dealing with.",
+                "This implies that Kyle was the one who was affected by Leslie's issues and was likely the one who decided to move out.",
+                "If Kyle moved out, it suggests that he was the one leaving the situation.",
+                "The person who is left behind after someone moves out would feel abandoned.",
+                "Since Kyle moved out, Leslie would be the one left behind and thus would feel abandoned."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.052168369293213
+        },
+        {
+            "id": "winogrande_Jessica_enjoyed_a_simple,_basi",
+            "question": "Fill in the blank: Jessica enjoyed a simple, basic life with Betty, but _ was bored having a quiet existence.\n\nChoices:\nA. Jessica\nB. Betty",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that one person is enjoying a simple, basic life, while the other is bored with a quiet existence.\nStep 2: The sentence begins with \"Jessica enjoyed a simple, basic life with Betty,\" which suggests that Jessica is content with the quiet, simple life.\nStep 3: The blank is followed by \"was bored having a quiet existence,\" which implies that the person who is bored is not the same person who is enjoying the simple life.\nStep 4: Since Jessica is enjoying the simple life, the person who is bored must be Betty.\nStep 5: Therefore, the correct answer is that Betty was bored having a quiet existence.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that one person is enjoying a simple, basic life, while the other is bored with a quiet existence.",
+                "The sentence begins with \"Jessica enjoyed a simple, basic life with Betty,\" which suggests that Jessica is content with the quiet, simple life.",
+                "The blank is followed by \"was bored having a quiet existence,\" which implies that the person who is bored is not the same person who is enjoying the simple life.",
+                "Since Jessica is enjoying the simple life, the person who is bored must be Betty.",
+                "Therefore, the correct answer is that Betty was bored having a quiet existence."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.366155624389648
+        },
+        {
+            "id": "winogrande_I_wanted_to_build_a_bathroom_o",
+            "question": "Fill in the blank: I wanted to build a bathroom on the third floor of the house but I couldn't because the _ would be too full.\n\nChoices:\nA. bathroom\nB. floor",
+            "answerKey": "B",
+            "cot_output": "Step 1: The problem states that the speaker wanted to build a bathroom on the third floor but couldn't because something would be too full.\nStep 2: The options given are \"bathroom\" and \"floor.\" We need to determine which of these would logically be too full to prevent the construction of a bathroom.\nStep 3: If the \"bathroom\" were too full, it would mean that the space designated for the bathroom already has too many items or structures, making it impossible to build a new bathroom. However, this doesn't make sense in the context of planning to build a new bathroom, as the bathroom doesn't exist yet.\nStep 4: If the \"floor\" were too full, it would mean that the third floor already has too many structures or items, making it impossible to add a new bathroom. This is a more logical explanation, as it implies that the available space on the third floor is insufficient for the new bathroom.\nStep 5: Therefore, the most logical answer is that the \"floor\" would be too full to allow the construction of a new bathroom.\n\n===FINAL_ANSWER_START===\nConclusion: 2\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that the speaker wanted to build a bathroom on the third floor but couldn't because something would be too full.",
+                "The options given are \"bathroom\" and \"floor.\" We need to determine which of these would logically be too full to prevent the construction of a bathroom.",
+                "If the \"bathroom\" were too full, it would mean that the space designated for the bathroom already has too many items or structures, making it impossible to build a new bathroom. However, this doesn't make sense in the context of planning to build a new bathroom, as the bathroom doesn't exist yet.",
+                "If the \"floor\" were too full, it would mean that the third floor already has too many structures or items, making it impossible to add a new bathroom. This is a more logical explanation, as it implies that the available space on the third floor is insufficient for the new bathroom.",
+                "Therefore, the most logical answer is that the \"floor\" would be too full to allow the construction of a new bathroom."
+            ],
+            "pred": "2",
+            "is_correct": false,
+            "elapsed_time": 7.601695775985718
+        },
+        {
+            "id": "winogrande_Joel_researched_laws_and_helpe",
+            "question": "Fill in the blank: Joel researched laws and helped to open a preschool for Eric. Because _ is very good with kids.\n\nChoices:\nA. Joel\nB. Eric",
+            "answerKey": "B",
+            "cot_output": "Step 1: Joel researched laws and helped to open a preschool for Eric. This indicates that Joel took the initiative to ensure the preschool was legally compliant and operational.\nStep 2: The sentence structure suggests that the blank should be filled with the person who is \"very good with kids.\" This is because the reason for Joel's actions (researching laws and helping to open the preschool) is linked to the person's ability with children.\nStep 3: Since Joel is the one who took the actions to help open the preschool, it is more likely that Eric is the one who is \"very good with kids\" and will be running the preschool.\nStep 4: Therefore, the blank should be filled with \"Eric\" because the context implies that Eric's skill with children is the reason Joel helped him open the preschool.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Joel researched laws and helped to open a preschool for Eric. This indicates that Joel took the initiative to ensure the preschool was legally compliant and operational.",
+                "The sentence structure suggests that the blank should be filled with the person who is \"very good with kids.\" This is because the reason for Joel's actions (researching laws and helping to open the preschool) is linked to the person's ability with children.",
+                "Since Joel is the one who took the actions to help open the preschool, it is more likely that Eric is the one who is \"very good with kids\" and will be running the preschool.",
+                "Therefore, the blank should be filled with \"Eric\" because the context implies that Eric's skill with children is the reason Joel helped him open the preschool."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 5.3908467292785645
+        },
+        {
+            "id": "winogrande_Tanya_told_Emily_she_couldn't_",
+            "question": "Fill in the blank: Tanya told Emily she couldn't come to work because her cat had an infection, but _ was lying.\n\nChoices:\nA. Tanya\nB. Emily",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement provided is \"Tanya told Emily she couldn't come to work because her cat had an infection, but _ was lying.\"\nStep 2: The blank needs to be filled with the person who was lying about the reason for not coming to work.\nStep 3: Tanya is the one who provided the reason for not coming to work, which was that her cat had an infection.\nStep 4: Since the statement indicates that someone was lying, and Tanya is the one who gave the reason, it logically follows that Tanya is the one who was lying.\nStep 5: Emily is not mentioned as providing any reason or making any statement, so she cannot be the one lying.\nStep 6: Therefore, the person who was lying is Tanya.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement provided is \"Tanya told Emily she couldn't come to work because her cat had an infection, but _ was lying.\"",
+                "The blank needs to be filled with the person who was lying about the reason for not coming to work.",
+                "Tanya is the one who provided the reason for not coming to work, which was that her cat had an infection.",
+                "Since the statement indicates that someone was lying, and Tanya is the one who gave the reason, it logically follows that Tanya is the one who was lying.",
+                "Emily is not mentioned as providing any reason or making any statement, so she cannot be the one lying.",
+                "Therefore, the person who was lying is Tanya."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 5.062496662139893
+        },
+        {
+            "id": "winogrande_Angela_thinks_her_husband_migh",
+            "question": "Fill in the blank: Angela thinks her husband might be cheating with Lindsey, and _ confesses at the dinner party.\n\nChoices:\nA. Angela\nB. Lindsey",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure suggests that the blank should be filled with the subject who is performing the action of confessing at the dinner party.\nStep 2: Angela is the one who suspects her husband of cheating, which implies she has a reason to be emotionally involved and potentially confrontational at the dinner party.\nStep 3: Lindsey, if she is the other woman, might have a reason to feel guilty or cornered, but the context does not suggest she would be the one to confess.\nStep 4: Given the emotional and confrontational nature of the situation, it is more likely that Angela, who is already suspicious and possibly upset, would be the one to confess or confront her husband at the dinner party.\nStep 5: Therefore, the person who confesses at the dinner party is most likely Angela.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure suggests that the blank should be filled with the subject who is performing the action of confessing at the dinner party.",
+                "Angela is the one who suspects her husband of cheating, which implies she has a reason to be emotionally involved and potentially confrontational at the dinner party.",
+                "Lindsey, if she is the other woman, might have a reason to feel guilty or cornered, but the context does not suggest she would be the one to confess.",
+                "Given the emotional and confrontational nature of the situation, it is more likely that Angela, who is already suspicious and possibly upset, would be the one to confess or confront her husband at the dinner party.",
+                "Therefore, the person who confesses at the dinner party is most likely Angela."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 4.9714977741241455
+        },
+        {
+            "id": "winogrande_Donald's_understanding_of_math",
+            "question": "Fill in the blank: Donald's understanding of math isn't as good as Joseph's, so _ is more likely a professor.\n\nChoices:\nA. Donald\nB. Joseph",
+            "answerKey": "B",
+            "cot_output": "Step 1: Donald's understanding of math is not as good as Joseph's. This implies that Joseph has a better grasp of mathematical concepts.\nStep 2: A professor typically needs to have a strong understanding of the subject they teach. This is because teaching at a university level requires not only knowledge but also the ability to explain complex concepts clearly and effectively.\nStep 3: Given that Joseph has a better understanding of math, he is more likely to possess the necessary skills and knowledge to be a professor.\nStep 4: Therefore, Joseph is more likely to be a professor compared to Donald.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Donald's understanding of math is not as good as Joseph's. This implies that Joseph has a better grasp of mathematical concepts.",
+                "A professor typically needs to have a strong understanding of the subject they teach. This is because teaching at a university level requires not only knowledge but also the ability to explain complex concepts clearly and effectively.",
+                "Given that Joseph has a better understanding of math, he is more likely to possess the necessary skills and knowledge to be a professor.",
+                "Therefore, Joseph is more likely to be a professor compared to Donald."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.7800559997558594
+        },
+        {
+            "id": "winogrande_Brian_was_jealous_of_Brett's_n",
+            "question": "Fill in the blank: Brian was jealous of Brett's new car because _ couldn't afford to buy a new car.\n\nChoices:\nA. Brian\nB. Brett",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with the subject who is experiencing the inability to afford a new car.\nStep 2: Brian is described as being jealous of Brett's new car, which implies that Brian does not have a new car.\nStep 3: The reason for Brian's jealousy is that he cannot afford to buy a new car, which is a financial constraint specific to Brian.\nStep 4: Brett, on the other hand, has a new car, which indicates that he can afford it.\nStep 5: Therefore, the subject who cannot afford to buy a new car is Brian.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with the subject who is experiencing the inability to afford a new car.",
+                "Brian is described as being jealous of Brett's new car, which implies that Brian does not have a new car.",
+                "The reason for Brian's jealousy is that he cannot afford to buy a new car, which is a financial constraint specific to Brian.",
+                "Brett, on the other hand, has a new car, which indicates that he can afford it.",
+                "Therefore, the subject who cannot afford to buy a new car is Brian."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.8885257244110107
+        },
+        {
+            "id": "winogrande_The_man_used__his_eyes_to_read",
+            "question": "Fill in the blank: The man used  his eyes to read the letters but the _ were too small.\n\nChoices:\nA. letters\nB. eyes",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence mentions that the man used his eyes to read the letters, which implies that the eyes are functioning and not the issue.\nStep 2: The sentence structure suggests that something other than the eyes is the problem, as it states \"but the _ were too small.\"\nStep 3: Given the context, if the eyes are not the problem, the only other logical subject that could be too small to read would be the letters themselves.\nStep 4: The sentence makes sense if the letters are too small, as this would explain why the man had difficulty reading them despite using his eyes.\nStep 5: The only option that fits the context and the sentence structure is \"letters.\"\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that the man used his eyes to read the letters, which implies that the eyes are functioning and not the issue.",
+                "The sentence structure suggests that something other than the eyes is the problem, as it states \"but the _ were too small.\"",
+                "Given the context, if the eyes are not the problem, the only other logical subject that could be too small to read would be the letters themselves.",
+                "The sentence makes sense if the letters are too small, as this would explain why the man had difficulty reading them despite using his eyes.",
+                "The only option that fits the context and the sentence structure is \"letters.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.495719909667969
+        },
+        {
+            "id": "winogrande_Jill_was_on_a_budget_so_she_on",
+            "question": "Fill in the blank: Jill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be less noticeable.\n\nChoices:\nA. dress\nB. hat",
+            "answerKey": "B",
+            "cot_output": "Step 1: Jill is on a budget, which means she is trying to minimize her expenses.\nStep 2: She only bought a new dress for the ceremony, indicating that the dress is a more significant or noticeable part of her outfit.\nStep 3: She wore an old hat, suggesting that she did not want to spend money on a new hat.\nStep 4: Since the dress is new and likely to be more noticeable, she would want the hat to be less noticeable to avoid drawing attention to the fact that it is old.\nStep 5: Therefore, she figured the hat would be less noticeable, allowing her to focus attention on the new dress.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Jill is on a budget, which means she is trying to minimize her expenses.",
+                "She only bought a new dress for the ceremony, indicating that the dress is a more significant or noticeable part of her outfit.",
+                "She wore an old hat, suggesting that she did not want to spend money on a new hat.",
+                "Since the dress is new and likely to be more noticeable, she would want the hat to be less noticeable to avoid drawing attention to the fact that it is old.",
+                "Therefore, she figured the hat would be less noticeable, allowing her to focus attention on the new dress."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.267485618591309
+        },
+        {
+            "id": "winogrande_Jill_was_on_a_budget_so_she_on",
+            "question": "Fill in the blank: Jill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be more noticeable.\n\nChoices:\nA. dress\nB. hat",
+            "answerKey": "A",
+            "cot_output": "Step 1: Jill is on a budget, which means she needs to prioritize her spending.\nStep 2: She bought a new dress for the ceremony, indicating that the dress is an important item for the event.\nStep 3: She wore an old hat, suggesting that the hat is less important or less noticeable compared to the dress.\nStep 4: Jill figured that one item would be more noticeable than the other, and she chose to spend money on the item that would be more noticeable.\nStep 5: Since she bought a new dress and wore an old hat, she must have thought the dress would be more noticeable than the hat.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Jill is on a budget, which means she needs to prioritize her spending.",
+                "She bought a new dress for the ceremony, indicating that the dress is an important item for the event.",
+                "She wore an old hat, suggesting that the hat is less important or less noticeable compared to the dress.",
+                "Jill figured that one item would be more noticeable than the other, and she chose to spend money on the item that would be more noticeable.",
+                "Since she bought a new dress and wore an old hat, she must have thought the dress would be more noticeable than the hat."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.495934009552002
+        },
+        {
+            "id": "winogrande_On_Monday,_Patricia_made_Felic",
+            "question": "Fill in the blank: On Monday, Patricia made Felicia eggs for an early breakfast, but _ does not like fried eggs.\n\nChoices:\nA. Patricia\nB. Felicia",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that Patricia made eggs for Felicia for an early breakfast.\nStep 2: The sentence also mentions that someone does not like fried eggs.\nStep 3: Since Patricia is the one making the eggs, it is unlikely that she would make something she herself does not like for someone else.\nStep 4: Therefore, the person who does not like fried eggs is more likely to be the recipient of the breakfast, which is Felicia.\nStep 5: The logical conclusion is that Felicia does not like fried eggs.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Patricia made eggs for Felicia for an early breakfast.",
+                "The sentence also mentions that someone does not like fried eggs.",
+                "Since Patricia is the one making the eggs, it is unlikely that she would make something she herself does not like for someone else.",
+                "Therefore, the person who does not like fried eggs is more likely to be the recipient of the breakfast, which is Felicia.",
+                "The logical conclusion is that Felicia does not like fried eggs."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.4922268390655518
+        },
+        {
+            "id": "winogrande_Since_Craig_wears_clear_contac",
+            "question": "Fill in the blank: Since Craig wears clear contacts and William wears colored ones, it is safe to assume that _ loves the color of their eyes.\n\nChoices:\nA. Craig\nB. William",
+            "answerKey": "A",
+            "cot_output": "Step 1: Craig wears clear contacts, which means he is likely using them to correct his vision without altering the appearance of his eyes.\nStep 2: William wears colored contacts, which implies he is using them to change the appearance of his eyes, suggesting he may not be satisfied with their natural color.\nStep 3: Since William is altering the color of his eyes, it is reasonable to infer that he prefers the color of his eyes when wearing the colored contacts.\nStep 4: Craig, on the other hand, is not altering the color of his eyes, which suggests he is content with their natural color.\nStep 5: Therefore, it is safe to assume that William loves the color of his eyes when wearing the colored contacts, indicating a preference for the altered color.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Craig wears clear contacts, which means he is likely using them to correct his vision without altering the appearance of his eyes.",
+                "William wears colored contacts, which implies he is using them to change the appearance of his eyes, suggesting he may not be satisfied with their natural color.",
+                "Since William is altering the color of his eyes, it is reasonable to infer that he prefers the color of his eyes when wearing the colored contacts.",
+                "Craig, on the other hand, is not altering the color of his eyes, which suggests he is content with their natural color.",
+                "Therefore, it is safe to assume that William loves the color of his eyes when wearing the colored contacts, indicating a preference for the altered color."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 6.390332460403442
+        },
+        {
+            "id": "winogrande_Since_Craig_wears_clear_contac",
+            "question": "Fill in the blank: Since Craig wears clear contacts and William wears colored ones, it is safe to assume that _ dislikes the color of their eyes.\n\nChoices:\nA. Craig\nB. William",
+            "answerKey": "B",
+            "cot_output": "Step 1: Craig wears clear contacts. Clear contacts do not change the color of the eyes, so Craig is likely wearing them for vision correction.\nStep 2: William wears colored contacts. Colored contacts are typically worn to change the appearance of the eyes, suggesting that William wants to alter the color of his eyes.\nStep 3: The fact that William wears colored contacts implies that he is dissatisfied with the natural color of his eyes, as he is actively changing it.\nStep 4: Since Craig wears clear contacts, there is no indication that he dislikes the color of his eyes; he is likely wearing them for vision correction only.\nStep 5: Based on the information provided, it is safe to assume that William dislikes the color of his eyes, as he is using colored contacts to change it.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Craig wears clear contacts. Clear contacts do not change the color of the eyes, so Craig is likely wearing them for vision correction.",
+                "William wears colored contacts. Colored contacts are typically worn to change the appearance of the eyes, suggesting that William wants to alter the color of his eyes.",
+                "The fact that William wears colored contacts implies that he is dissatisfied with the natural color of his eyes, as he is actively changing it.",
+                "Since Craig wears clear contacts, there is no indication that he dislikes the color of his eyes; he is likely wearing them for vision correction only.",
+                "Based on the information provided, it is safe to assume that William dislikes the color of his eyes, as he is using colored contacts to change it."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.856033086776733
+        },
+        {
+            "id": "winogrande_It_was_easy_for_Angela_to_beco",
+            "question": "Fill in the blank: It was easy for Angela to become a vegetarian although Kayla couldn't do it. _ really missed the taste of chicken.\n\nChoices:\nA. Angela\nB. Kayla",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement indicates that Angela found it easy to become a vegetarian, while Kayla could not do it.\nStep 2: If Kayla could not become a vegetarian, it suggests that she faced some difficulty or challenge in giving up meat.\nStep 3: The blank is filled with the person who really missed the taste of chicken, which is a type of meat.\nStep 4: Since Kayla could not become a vegetarian, it is logical to infer that she is the one who missed the taste of chicken, as this would be a significant factor in her difficulty in giving up meat.\nStep 5: Angela, on the other hand, found it easy to become a vegetarian, suggesting she did not have a strong attachment to the taste of meat, including chicken.\nStep 6: Therefore, the person who really missed the taste of chicken is Kayla.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that Angela found it easy to become a vegetarian, while Kayla could not do it.",
+                "If Kayla could not become a vegetarian, it suggests that she faced some difficulty or challenge in giving up meat.",
+                "The blank is filled with the person who really missed the taste of chicken, which is a type of meat.",
+                "Since Kayla could not become a vegetarian, it is logical to infer that she is the one who missed the taste of chicken, as this would be a significant factor in her difficulty in giving up meat.",
+                "Angela, on the other hand, found it easy to become a vegetarian, suggesting she did not have a strong attachment to the taste of meat, including chicken.",
+                "Therefore, the person who really missed the taste of chicken is Kayla."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 8.28004789352417
+        },
+        {
+            "id": "winogrande_Hunter_was_a_better_baker_than",
+            "question": "Fill in the blank: Hunter was a better baker than Logan so _ made the kitchen a mess when they tried to make an apple pie.\n\nChoices:\nA. Hunter\nB. Logan",
+            "answerKey": "B",
+            "cot_output": "Step 1: Hunter is described as a better baker than Logan. This implies that Hunter has more skill and experience in baking.\nStep 2: If Hunter is a better baker, it is more likely that Hunter would make fewer mistakes and keep the kitchen cleaner when baking.\nStep 3: Conversely, if Logan is a worse baker, it is more likely that Logan would make more mistakes and create more mess when baking.\nStep 4: The statement indicates that someone made the kitchen a mess when they tried to make an apple pie. Given the information, it is logical to conclude that the person who made the mess is the one with less baking skill.\nStep 5: Since Logan is the worse baker, it is more likely that Logan made the kitchen a mess when they tried to make an apple pie.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hunter is described as a better baker than Logan. This implies that Hunter has more skill and experience in baking.",
+                "If Hunter is a better baker, it is more likely that Hunter would make fewer mistakes and keep the kitchen cleaner when baking.",
+                "Conversely, if Logan is a worse baker, it is more likely that Logan would make more mistakes and create more mess when baking.",
+                "The statement indicates that someone made the kitchen a mess when they tried to make an apple pie. Given the information, it is logical to conclude that the person who made the mess is the one with less baking skill.",
+                "Since Logan is the worse baker, it is more likely that Logan made the kitchen a mess when they tried to make an apple pie."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.511131525039673
+        },
+        {
+            "id": "winogrande_Tanya_spent_more_on_the_childr",
+            "question": "Fill in the blank: Tanya spent more on the children's birthday party than Amy. _ thought a magician was a good use of funds.\n\nChoices:\nA. Tanya\nB. Amy",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement \"Tanya spent more on the children's birthday party than Amy\" indicates that Tanya allocated a larger budget for the party compared to Amy.\nStep 2: The blank in the sentence \"___ thought a magician was a good use of funds\" suggests that the person who thought a magician was a good use of funds is the one who spent more on the party.\nStep 3: Since Tanya spent more on the party, it is logical to infer that Tanya is the one who thought a magician was a good use of funds, as this aligns with her higher spending.\nStep 4: Amy, who spent less, is less likely to have thought a magician was a good use of funds, as her lower spending suggests a more conservative approach to party expenses.\nStep 5: Therefore, the person who thought a magician was a good use of funds is Tanya.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement \"Tanya spent more on the children's birthday party than Amy\" indicates that Tanya allocated a larger budget for the party compared to Amy.",
+                "The blank in the sentence \"___ thought a magician was a good use of funds\" suggests that the person who thought a magician was a good use of funds is the one who spent more on the party.",
+                "Since Tanya spent more on the party, it is logical to infer that Tanya is the one who thought a magician was a good use of funds, as this aligns with her higher spending.",
+                "Amy, who spent less, is less likely to have thought a magician was a good use of funds, as her lower spending suggests a more conservative approach to party expenses.",
+                "Therefore, the person who thought a magician was a good use of funds is Tanya."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.8376147747039795
+        },
+        {
+            "id": "winogrande_Judy_bought_new_brushes_to_pai",
+            "question": "Fill in the blank: Judy bought new brushes to paint the etched glasses crack but it didn't fit. The _ was too wide.\n\nChoices:\nA. brush\nB. crack",
+            "answerKey": "A",
+            "cot_output": "Step 1: Judy bought new brushes to paint the etched glasses crack, but it didn't fit. This implies that something about the brushes or the crack was not suitable for the task.\nStep 2: The statement specifies that \"it didn't fit,\" which suggests a size mismatch between the brush and the crack.\nStep 3: The options given are \"brush\" and \"crack.\" We need to determine which one was too wide.\nStep 4: If the brush was too wide, it would not fit into the crack, making it impossible to paint the crack properly.\nStep 5: If the crack was too wide, it would not be a problem of the brush not fitting, but rather a problem of the brush being too small to cover the crack effectively.\nStep 6: The statement \"it didn't fit\" aligns with the brush being too wide, as this would directly cause the brush to not fit into the crack.\nStep 7: Therefore, the brush being too wide is the most logical explanation for why it didn't fit.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Judy bought new brushes to paint the etched glasses crack, but it didn't fit. This implies that something about the brushes or the crack was not suitable for the task.",
+                "The statement specifies that \"it didn't fit,\" which suggests a size mismatch between the brush and the crack.",
+                "The options given are \"brush\" and \"crack.\" We need to determine which one was too wide.",
+                "If the brush was too wide, it would not fit into the crack, making it impossible to paint the crack properly.",
+                "If the crack was too wide, it would not be a problem of the brush not fitting, but rather a problem of the brush being too small to cover the crack effectively.",
+                "The statement \"it didn't fit\" aligns with the brush being too wide, as this would directly cause the brush to not fit into the crack.",
+                "Therefore, the brush being too wide is the most logical explanation for why it didn't fit."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 6.548645257949829
+        },
+        {
+            "id": "winogrande_Judy_bought_new_brushes_to_pai",
+            "question": "Fill in the blank: Judy bought new brushes to paint the etched glasses crack but it didn't fit. The _ was too narrow.\n\nChoices:\nA. brush\nB. crack",
+            "answerKey": "B",
+            "cot_output": "Step 1: Judy bought new brushes to paint the etched glasses crack, but it didn't fit. This implies that something was too small or too narrow to accommodate the brush.\nStep 2: The problem is described as the brush not fitting, which suggests that the brush was too large for the space it needed to fit into.\nStep 3: The only other element mentioned in the sentence that could be too narrow is the crack itself. If the crack was too narrow, the brush would not fit into it.\nStep 4: Therefore, the crack being too narrow is the most logical explanation for why the brush didn't fit.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Judy bought new brushes to paint the etched glasses crack, but it didn't fit. This implies that something was too small or too narrow to accommodate the brush.",
+                "The problem is described as the brush not fitting, which suggests that the brush was too large for the space it needed to fit into.",
+                "The only other element mentioned in the sentence that could be too narrow is the crack itself. If the crack was too narrow, the brush would not fit into it.",
+                "Therefore, the crack being too narrow is the most logical explanation for why the brush didn't fit."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.171507358551025
+        },
+        {
+            "id": "winogrande_I_look_forward_to_the_Sunday_n",
+            "question": "Fill in the blank: I look forward to the Sunday newspaper so I can look at the comics.  This is the only reason I still get the _ in this day and age.\n\nChoices:\nA. newspaper\nB. comics",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence mentions looking forward to the Sunday newspaper specifically for the comics.\nStep 2: The sentence implies that the person does not have any other reason to get the Sunday newspaper.\nStep 3: The blank needs to be filled with the item that the person still gets in this day and age, which is the Sunday newspaper.\nStep 4: The comics are a part of the newspaper, not a separate item that can be obtained independently in this context.\nStep 5: Therefore, the blank should be filled with \"newspaper\" because it is the item that the person still gets, and the comics are a part of it.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions looking forward to the Sunday newspaper specifically for the comics.",
+                "The sentence implies that the person does not have any other reason to get the Sunday newspaper.",
+                "The blank needs to be filled with the item that the person still gets in this day and age, which is the Sunday newspaper.",
+                "The comics are a part of the newspaper, not a separate item that can be obtained independently in this context.",
+                "Therefore, the blank should be filled with \"newspaper\" because it is the item that the person still gets, and the comics are a part of it."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.624787330627441
+        },
+        {
+            "id": "winogrande_Jennifer_was_more_of_a_morning",
+            "question": "Fill in the blank: Jennifer was more of a morning person than Natalie although _ always went to bed early and got a good night's rest.\n\nChoices:\nA. Jennifer\nB. Natalie",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement indicates that Jennifer is more of a morning person than Natalie.\nStep 2: Being a morning person typically means someone who feels more energetic and alert in the morning.\nStep 3: The blank is followed by \"always went to bed early and got a good night's rest.\" This implies that the person who always went to bed early and got a good night's rest is not the morning person.\nStep 4: Since Jennifer is described as more of a morning person, it is less likely that she is the one who always went to bed early and got a good night's rest.\nStep 5: Therefore, the person who always went to bed early and got a good night's rest must be Natalie, as she is not described as the morning person.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that Jennifer is more of a morning person than Natalie.",
+                "Being a morning person typically means someone who feels more energetic and alert in the morning.",
+                "The blank is followed by \"always went to bed early and got a good night's rest.\" This implies that the person who always went to bed early and got a good night's rest is not the morning person.",
+                "Since Jennifer is described as more of a morning person, it is less likely that she is the one who always went to bed early and got a good night's rest.",
+                "Therefore, the person who always went to bed early and got a good night's rest must be Natalie, as she is not described as the morning person."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.656153440475464
+        },
+        {
+            "id": "winogrande_Jennifer_was_more_of_a_morning",
+            "question": "Fill in the blank: Jennifer was more of a morning person than Natalie because _ always went to bed early and got a good night's rest.\n\nChoices:\nA. Jennifer\nB. Natalie",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement indicates that Jennifer was more of a morning person than Natalie.\nStep 2: Being a morning person is often associated with going to bed early and getting a good night's rest.\nStep 3: The blank in the statement is filled with the person who always went to bed early and got a good night's rest.\nStep 4: Since Jennifer is described as more of a morning person, it logically follows that she is the one who always went to bed early and got a good night's rest.\nStep 5: Therefore, the blank should be filled with \"Jennifer.\"\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that Jennifer was more of a morning person than Natalie.",
+                "Being a morning person is often associated with going to bed early and getting a good night's rest.",
+                "The blank in the statement is filled with the person who always went to bed early and got a good night's rest.",
+                "Since Jennifer is described as more of a morning person, it logically follows that she is the one who always went to bed early and got a good night's rest.",
+                "Therefore, the blank should be filled with \"Jennifer.\""
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.442579984664917
+        },
+        {
+            "id": "winogrande_Alcohol_is_a_love_of_Matthew's",
+            "question": "Fill in the blank: Alcohol is a love of Matthew's, but Ryan can't stand the stuff because _ is a sober alcoholic.\n\nChoices:\nA. Matthew\nB. Ryan",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement mentions that \"Alcohol is a love of Matthew's,\" indicating that Matthew enjoys alcohol.\nStep 2: The statement also mentions that \"Ryan can't stand the stuff,\" indicating that Ryan dislikes alcohol.\nStep 3: The phrase \"because _ is a sober alcoholic\" provides a reason for why the person mentioned cannot stand alcohol. A sober alcoholic is someone who has a history of alcoholism but no longer drinks.\nStep 4: Since Matthew loves alcohol, it is unlikely that he is a sober alcoholic, as he still enjoys drinking.\nStep 5: Ryan, who cannot stand alcohol, fits the description of a sober alcoholic, as he has a strong aversion to alcohol, which is consistent with someone who has a history of alcoholism and has chosen to abstain from drinking.\nStep 6: Therefore, the blank should be filled with \"Ryan\" because he is the one who is a sober alcoholic.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement mentions that \"Alcohol is a love of Matthew's,\" indicating that Matthew enjoys alcohol.",
+                "The statement also mentions that \"Ryan can't stand the stuff,\" indicating that Ryan dislikes alcohol.",
+                "The phrase \"because _ is a sober alcoholic\" provides a reason for why the person mentioned cannot stand alcohol. A sober alcoholic is someone who has a history of alcoholism but no longer drinks.",
+                "Since Matthew loves alcohol, it is unlikely that he is a sober alcoholic, as he still enjoys drinking.",
+                "Ryan, who cannot stand alcohol, fits the description of a sober alcoholic, as he has a strong aversion to alcohol, which is consistent with someone who has a history of alcoholism and has chosen to abstain from drinking.",
+                "Therefore, the blank should be filled with \"Ryan\" because he is the one who is a sober alcoholic."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.646917104721069
+        },
+        {
+            "id": "winogrande_Joe_brought_the_horse_out_to_t",
+            "question": "Fill in the blank: Joe brought the horse out to the country quite a distance and gave him food but the _ was too much.\n\nChoices:\nA. food\nB. distance",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence mentions that Joe brought the horse out to the country \"quite a distance.\"\nStep 2: Joe gave the horse food, which implies that the horse was provided with sustenance.\nStep 3: The sentence states that something \"was too much,\" which suggests a negative impact or an excessive condition.\nStep 4: Since Joe provided food, it is unlikely that the food itself was the issue, as the horse was given sustenance.\nStep 5: The distance mentioned earlier in the sentence is a more plausible candidate for being \"too much,\" as traveling a long distance can be exhausting or stressful for a horse.\nStep 6: The logical conclusion is that the distance was the factor that was \"too much\" for the horse.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that Joe brought the horse out to the country \"quite a distance.\"",
+                "Joe gave the horse food, which implies that the horse was provided with sustenance.",
+                "The sentence states that something \"was too much,\" which suggests a negative impact or an excessive condition.",
+                "Since Joe provided food, it is unlikely that the food itself was the issue, as the horse was given sustenance.",
+                "The distance mentioned earlier in the sentence is a more plausible candidate for being \"too much,\" as traveling a long distance can be exhausting or stressful for a horse.",
+                "The logical conclusion is that the distance was the factor that was \"too much\" for the horse."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.907269716262817
+        },
+        {
+            "id": "winogrande_Randy_gave_their_heart_to_Bria",
+            "question": "Fill in the blank: Randy gave their heart to Brian, and _ soon told them that they should have kept their heart to themselves.\n\nChoices:\nA. Randy\nB. Brian",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that someone is telling Randy that they should have kept their heart to themselves.\nStep 2: Since Randy is the one who gave their heart to Brian, it is logical that the person telling Randy this would be the recipient of Randy's affection.\nStep 3: The recipient of Randy's affection is Brian, as stated in the sentence.\nStep 4: Therefore, the person who told Randy that they should have kept their heart to themselves must be Brian.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that someone is telling Randy that they should have kept their heart to themselves.",
+                "Since Randy is the one who gave their heart to Brian, it is logical that the person telling Randy this would be the recipient of Randy's affection.",
+                "The recipient of Randy's affection is Brian, as stated in the sentence.",
+                "Therefore, the person who told Randy that they should have kept their heart to themselves must be Brian."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.511261463165283
+        },
+        {
+            "id": "winogrande_Nick_wanted_to_play_a_game_on_",
+            "question": "Fill in the blank: Nick wanted to play a game on the floor, but Dennis was hesitant because of his knees. _ was disappointed.\n\nChoices:\nA. Nick\nB. Dennis",
+            "answerKey": "A",
+            "cot_output": "Step 1: Nick wanted to play a game on the floor, indicating he was enthusiastic about the activity.\nStep 2: Dennis was hesitant because of his knees, suggesting he had a valid reason to avoid playing on the floor.\nStep 3: Since Dennis was hesitant due to a physical limitation, it is more likely that Nick, who was initially enthusiastic, would be the one to feel disappointed if the game did not happen.\nStep 4: The sentence structure suggests that one of the two individuals (Nick or Dennis) is disappointed, and based on the context, Nick's disappointment is more justified.\nStep 5: Therefore, the person who is disappointed is Nick.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Nick wanted to play a game on the floor, indicating he was enthusiastic about the activity.",
+                "Dennis was hesitant because of his knees, suggesting he had a valid reason to avoid playing on the floor.",
+                "Since Dennis was hesitant due to a physical limitation, it is more likely that Nick, who was initially enthusiastic, would be the one to feel disappointed if the game did not happen.",
+                "The sentence structure suggests that one of the two individuals (Nick or Dennis) is disappointed, and based on the context, Nick's disappointment is more justified.",
+                "Therefore, the person who is disappointed is Nick."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.47528600692749
+        },
+        {
+            "id": "winogrande_Although_she_was_being_prosecu",
+            "question": "Fill in the blank: Although she was being prosecuted, Monica was welcomed into the sanctuary of the church by Samantha because _ was a sinful criminal.\n\nChoices:\nA. Monica\nB. Samantha",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with the subject who is described as \"a sinful criminal.\"\nStep 2: The sentence states that Monica was being prosecuted, which implies that she is the one who is likely to be described as \"a sinful criminal.\"\nStep 3: Samantha is the one who welcomed Monica into the sanctuary of the church, which suggests that Samantha is not the one being described as \"a sinful criminal.\"\nStep 4: Therefore, the blank should be filled with \"Monica\" because she is the one being prosecuted and is described as \"a sinful criminal.\"\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with the subject who is described as \"a sinful criminal.\"",
+                "The sentence states that Monica was being prosecuted, which implies that she is the one who is likely to be described as \"a sinful criminal.\"",
+                "Samantha is the one who welcomed Monica into the sanctuary of the church, which suggests that Samantha is not the one being described as \"a sinful criminal.\"",
+                "Therefore, the blank should be filled with \"Monica\" because she is the one being prosecuted and is described as \"a sinful criminal.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.718920707702637
+        },
+        {
+            "id": "winogrande_The_battle_was_less_fierce_tha",
+            "question": "Fill in the blank: The battle was less fierce than the great war, because the _ lasted one year.\n\nChoices:\nA. battle\nB. war",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that we need to fill in the blank with a term that refers to a duration of one year.\nStep 2: The context of the sentence compares the intensity of a battle to that of a great war, suggesting that the duration of the event being referred to is a factor in its intensity.\nStep 3: The term \"battle\" typically refers to a single engagement or conflict, which is usually of shorter duration than a \"war.\"\nStep 4: The term \"war\" refers to a prolonged conflict, often lasting several years or more.\nStep 5: Given that the sentence specifies a duration of one year, it is more logical to use the term \"war\" because wars can last for a year, whereas battles are generally much shorter.\nStep 6: Therefore, the term that fits best in the context of the sentence is \"war.\"\n===FINAL_ANSWER_START===\nConclusion: 2\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that we need to fill in the blank with a term that refers to a duration of one year.",
+                "The context of the sentence compares the intensity of a battle to that of a great war, suggesting that the duration of the event being referred to is a factor in its intensity.",
+                "The term \"battle\" typically refers to a single engagement or conflict, which is usually of shorter duration than a \"war.\"",
+                "The term \"war\" refers to a prolonged conflict, often lasting several years or more.",
+                "Given that the sentence specifies a duration of one year, it is more logical to use the term \"war\" because wars can last for a year, whereas battles are generally much shorter.",
+                "Therefore, the term that fits best in the context of the sentence is \"war.\""
+            ],
+            "pred": "2",
+            "is_correct": false,
+            "elapsed_time": 6.059818983078003
+        },
+        {
+            "id": "winogrande_Laura_used_too_much_super_glue",
+            "question": "Fill in the blank: Laura used too much super glue on Erins hands, so _ needed to get to the doctor to separate their hands.\n\nChoices:\nA. Laura\nB. Erin",
+            "answerKey": "B",
+            "cot_output": "Step 1: Laura used too much super glue on Erin's hands, which implies that Erin's hands are now stuck together.\nStep 2: Since Erin's hands are stuck together, Erin is the one who needs medical assistance to separate them.\nStep 3: The sentence structure indicates that the subject who needs to get to the doctor is the one whose hands are stuck together.\nStep 4: Therefore, the person who needs to get to the doctor to separate their hands is Erin.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Laura used too much super glue on Erin's hands, which implies that Erin's hands are now stuck together.",
+                "Since Erin's hands are stuck together, Erin is the one who needs medical assistance to separate them.",
+                "The sentence structure indicates that the subject who needs to get to the doctor is the one whose hands are stuck together.",
+                "Therefore, the person who needs to get to the doctor to separate their hands is Erin."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.428413152694702
+        },
+        {
+            "id": "winogrande_James_panicked_when_his_phone_",
+            "question": "Fill in the blank: James panicked when his phone fell on the table thinking it will break but the _ is soft.\n\nChoices:\nA. phone\nB. table",
+            "answerKey": "B",
+            "cot_output": "Step 1: James panicked when his phone fell on the table, indicating that he was concerned about the phone breaking.\nStep 2: The sentence structure suggests that the blank should be filled with a noun that can logically be described as \"soft\" and can influence the outcome of the phone falling.\nStep 3: A phone is typically made of hard materials like glass and metal, and it is unlikely to be described as \"soft.\"\nStep 4: A table can be made of various materials, and if it is soft (e.g., covered with a soft material like a cloth or a cushion), it could reduce the impact of the phone falling.\nStep 5: Given the context, the table being soft would explain why James's phone did not break when it fell.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "James panicked when his phone fell on the table, indicating that he was concerned about the phone breaking.",
+                "The sentence structure suggests that the blank should be filled with a noun that can logically be described as \"soft\" and can influence the outcome of the phone falling.",
+                "A phone is typically made of hard materials like glass and metal, and it is unlikely to be described as \"soft.\"",
+                "A table can be made of various materials, and if it is soft (e.g., covered with a soft material like a cloth or a cushion), it could reduce the impact of the phone falling.",
+                "Given the context, the table being soft would explain why James's phone did not break when it fell."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.69489312171936
+        },
+        {
+            "id": "winogrande_James_panicked_when_his_phone_",
+            "question": "Fill in the blank: James panicked when his phone fell on the table thinking it will break but the _ is strong.\n\nChoices:\nA. phone\nB. table",
+            "answerKey": "A",
+            "cot_output": "Step 1: James panicked when his phone fell on the table, indicating that he was concerned about the phone breaking.\nStep 2: The sentence structure suggests that the blank should be filled with a noun that can logically be described as \"strong\" and that would alleviate James's concern.\nStep 3: The phone is the object that James is worried about breaking. If the phone is strong, it would be less likely to break when it falls.\nStep 4: The table is the surface on which the phone fell. If the table were strong, it would not affect the phone's likelihood of breaking, as the table's strength is not relevant to the phone's durability.\nStep 5: Given the context, the phone being strong would directly address James's concern about the phone breaking.\nStep 6: Therefore, the blank should be filled with \"phone\" to complete the sentence logically.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "James panicked when his phone fell on the table, indicating that he was concerned about the phone breaking.",
+                "The sentence structure suggests that the blank should be filled with a noun that can logically be described as \"strong\" and that would alleviate James's concern.",
+                "The phone is the object that James is worried about breaking. If the phone is strong, it would be less likely to break when it falls.",
+                "The table is the surface on which the phone fell. If the table were strong, it would not affect the phone's likelihood of breaking, as the table's strength is not relevant to the phone's durability.",
+                "Given the context, the phone being strong would directly address James's concern about the phone breaking.",
+                "Therefore, the blank should be filled with \"phone\" to complete the sentence logically."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 5.641816139221191
+        },
+        {
+            "id": "winogrande_John_cannot_touch_the_cup_as_i",
+            "question": "Fill in the blank: John cannot touch the cup as it was just brought out of the refrigerator. He wanted some air to blow around it. The _ is very warm.\n\nChoices:\nA. cup\nB. air",
+            "answerKey": "B",
+            "cot_output": "Step 1: John cannot touch the cup because it was just brought out of the refrigerator, which implies the cup is cold.\nStep 2: John wants some air to blow around the cup, which suggests he wants to cool down or warm up something.\nStep 3: Since the cup is already cold, the air must be warmer than the cup to have a noticeable effect when it blows around it.\nStep 4: The context implies that the air is warmer than the cup, making the air the warm element in this scenario.\nStep 5: The blank in the sentence \"The _ is very warm\" should be filled with the element that is warm, which is the air.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "John cannot touch the cup because it was just brought out of the refrigerator, which implies the cup is cold.",
+                "John wants some air to blow around the cup, which suggests he wants to cool down or warm up something.",
+                "Since the cup is already cold, the air must be warmer than the cup to have a noticeable effect when it blows around it.",
+                "The context implies that the air is warmer than the cup, making the air the warm element in this scenario.",
+                "The blank in the sentence \"The _ is very warm\" should be filled with the element that is warm, which is the air."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.236672639846802
+        },
+        {
+            "id": "winogrande_The_fireman_used_several_rags_",
+            "question": "Fill in the blank: The fireman used several rags to polish the nozzles on the fire hose; when he was done the _ were dirty.\n\nChoices:\nA. nozzles\nB. rags",
+            "answerKey": "B",
+            "cot_output": "Step 1: The fireman used rags to polish the nozzles on the fire hose. This implies that the rags were in contact with the nozzles during the polishing process.\nStep 2: Polishing typically involves rubbing a surface to clean or shine it, which can transfer dirt or grime from the surface being polished to the material used for polishing.\nStep 3: Since the nozzles were being polished, any dirt or grime on the nozzles would likely be transferred to the rags during the polishing process.\nStep 4: After the polishing, the nozzles would be clean, while the rags, having come into contact with the dirt or grime from the nozzles, would be dirty.\nStep 5: The question asks what was dirty after the polishing process. Given the steps above, the rags, not the nozzles, would be dirty.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The fireman used rags to polish the nozzles on the fire hose. This implies that the rags were in contact with the nozzles during the polishing process.",
+                "Polishing typically involves rubbing a surface to clean or shine it, which can transfer dirt or grime from the surface being polished to the material used for polishing.",
+                "Since the nozzles were being polished, any dirt or grime on the nozzles would likely be transferred to the rags during the polishing process.",
+                "After the polishing, the nozzles would be clean, while the rags, having come into contact with the dirt or grime from the nozzles, would be dirty.",
+                "The question asks what was dirty after the polishing process. Given the steps above, the rags, not the nozzles, would be dirty."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 5.891612529754639
+        },
+        {
+            "id": "winogrande_Mary_wanted_to_get_another_pie",
+            "question": "Fill in the blank: Mary wanted to get another piercing in her ear, but the _ was much too tiny.\n\nChoices:\nA. ear\nB. piercing",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with a noun that can logically fit the context of the sentence.\nStep 2: The context of the sentence is about Mary wanting to get another piercing in her ear, but something is preventing her from doing so.\nStep 3: The phrase \"was much too tiny\" suggests that the thing preventing Mary from getting another piercing is small in size.\nStep 4: Option A, \"ear,\" does not make logical sense because if the entire ear was too tiny, it would not be a specific reason preventing another piercing; the entire ear being too small would be an unusual and extreme condition.\nStep 5: Option B, \"piercing,\" fits logically because it can refer to the specific area or part of the ear where the piercing is intended, and if that area is too tiny, it would prevent getting another piercing.\nStep 6: The logical conclusion is that the area intended for the new piercing is too small, making it impossible to get the piercing there.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with a noun that can logically fit the context of the sentence.",
+                "The context of the sentence is about Mary wanting to get another piercing in her ear, but something is preventing her from doing so.",
+                "The phrase \"was much too tiny\" suggests that the thing preventing Mary from getting another piercing is small in size.",
+                "Option A, \"ear,\" does not make logical sense because if the entire ear was too tiny, it would not be a specific reason preventing another piercing; the entire ear being too small would be an unusual and extreme condition.",
+                "Option B, \"piercing,\" fits logically because it can refer to the specific area or part of the ear where the piercing is intended, and if that area is too tiny, it would prevent getting another piercing.",
+                "The logical conclusion is that the area intended for the new piercing is too small, making it impossible to get the piercing there."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 6.38716459274292
+        },
+        {
+            "id": "winogrande_Mary_wanted_to_get_another_pie",
+            "question": "Fill in the blank: Mary wanted to get another piercing in her ear, but the _ was much too huge.\n\nChoices:\nA. ear\nB. piercing",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with a noun that can logically fit the context of the sentence.\nStep 2: The sentence mentions \"Mary wanted to get another piercing in her ear,\" which implies that the issue preventing her from getting the piercing is related to the ear or the piercing itself.\nStep 3: The phrase \"but the _ was much too huge\" suggests that the problem is something that is too large, which would make it difficult or impossible to get the piercing.\nStep 4: If the ear itself were \"much too huge,\" it would not logically prevent Mary from getting another piercing, as the size of the ear is not a typical reason for not getting a piercing.\nStep 5: If the piercing (or the jewelry for the piercing) were \"much too huge,\" it would make sense as a reason for not getting the piercing, as it could be too large to fit comfortably or safely in the ear.\nStep 6: Therefore, the most logical and contextually appropriate word to fill the blank is \"piercing.\"\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with a noun that can logically fit the context of the sentence.",
+                "The sentence mentions \"Mary wanted to get another piercing in her ear,\" which implies that the issue preventing her from getting the piercing is related to the ear or the piercing itself.",
+                "The phrase \"but the _ was much too huge\" suggests that the problem is something that is too large, which would make it difficult or impossible to get the piercing.",
+                "If the ear itself were \"much too huge,\" it would not logically prevent Mary from getting another piercing, as the size of the ear is not a typical reason for not getting a piercing.",
+                "If the piercing (or the jewelry for the piercing) were \"much too huge,\" it would make sense as a reason for not getting the piercing, as it could be too large to fit comfortably or safely in the ear.",
+                "Therefore, the most logical and contextually appropriate word to fill the blank is \"piercing.\""
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 6.342825889587402
+        },
+        {
+            "id": "winogrande_Laura_just_loved_the_taste_of_",
+            "question": "Fill in the blank: Laura just loved the taste of green beans but Felicia hated the taste of them. _ didn't have a second serving.\n\nChoices:\nA. Laura\nB. Felicia",
+            "answerKey": "B",
+            "cot_output": "Step 1: Laura loves the taste of green beans, which implies she enjoys eating them and is likely to have more if given the opportunity.\nStep 2: Felicia hates the taste of green beans, which implies she does not enjoy eating them and is unlikely to have more if given the opportunity.\nStep 3: Given that Laura loves green beans, it is reasonable to infer that she would have a second serving if available.\nStep 4: Given that Felicia hates green beans, it is reasonable to infer that she would not have a second serving if available.\nStep 5: The question states that one of them did not have a second serving, and based on the previous steps, Felicia is the one who would not have a second serving.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Laura loves the taste of green beans, which implies she enjoys eating them and is likely to have more if given the opportunity.",
+                "Felicia hates the taste of green beans, which implies she does not enjoy eating them and is unlikely to have more if given the opportunity.",
+                "Given that Laura loves green beans, it is reasonable to infer that she would have a second serving if available.",
+                "Given that Felicia hates green beans, it is reasonable to infer that she would not have a second serving if available.",
+                "The question states that one of them did not have a second serving, and based on the previous steps, Felicia is the one who would not have a second serving."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.066628932952881
+        },
+        {
+            "id": "winogrande_The_bartender_cut_Carrie_off_b",
+            "question": "Fill in the blank: The bartender cut Carrie off but continued to serve Emily because _ was too drunk.\n\nChoices:\nA. Carrie\nB. Emily",
+            "answerKey": "A",
+            "cot_output": "Step 1: The bartender cut Carrie off, which implies that Carrie was deemed too drunk to continue drinking.\nStep 2: The bartender continued to serve Emily, which implies that Emily was not considered too drunk to continue drinking.\nStep 3: The question asks for the person who was too drunk, and based on the actions of the bartender, Carrie is the one who was too drunk.\nStep 4: Therefore, the blank should be filled with \"Carrie\" because she was the one who was too drunk to continue drinking.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The bartender cut Carrie off, which implies that Carrie was deemed too drunk to continue drinking.",
+                "The bartender continued to serve Emily, which implies that Emily was not considered too drunk to continue drinking.",
+                "The question asks for the person who was too drunk, and based on the actions of the bartender, Carrie is the one who was too drunk.",
+                "Therefore, the blank should be filled with \"Carrie\" because she was the one who was too drunk to continue drinking."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.341933250427246
+        },
+        {
+            "id": "winogrande_Blaze_always_wore_a_t-shirt_in",
+            "question": "Fill in the blank: Blaze always wore a t-shirt instead of a shirt because he thought that the _ was stuffy and old fashioned.\n\nChoices:\nA. shirt\nB. t-shirt",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence states that Blaze always wore a t-shirt instead of a shirt.\nStep 2: The reason given is that Blaze thought something was stuffy and old fashioned.\nStep 3: Since Blaze is choosing to wear a t-shirt instead of a shirt, it logically follows that he finds the shirt to be the stuffy and old fashioned item.\nStep 4: The blank in the sentence should be filled with the word that Blaze considers stuffy and old fashioned, which is \"shirt.\"\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Blaze always wore a t-shirt instead of a shirt.",
+                "The reason given is that Blaze thought something was stuffy and old fashioned.",
+                "Since Blaze is choosing to wear a t-shirt instead of a shirt, it logically follows that he finds the shirt to be the stuffy and old fashioned item.",
+                "The blank in the sentence should be filled with the word that Blaze considers stuffy and old fashioned, which is \"shirt.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.3859329223632812
+        },
+        {
+            "id": "winogrande_The_paint_would_melt_in_the_su",
+            "question": "Fill in the blank: The paint would melt in the sun, so we used a varnish instead, since the _ was susceptible to heat.\n\nChoices:\nA. paint\nB. varnish",
+            "answerKey": "A",
+            "cot_output": "Step 1: The problem states that the paint would melt in the sun, indicating that paint is susceptible to heat.\nStep 2: The problem also mentions that a varnish was used instead of paint, implying that varnish is a better choice because it is less susceptible to heat.\nStep 3: The blank in the sentence \"The paint would melt in the sun, so we used a varnish instead, since the _ was susceptible to heat\" must be filled with the substance that is susceptible to heat.\nStep 4: Since the paint is the substance that is susceptible to heat, as established in Step 1, the blank should be filled with \"paint.\"\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that the paint would melt in the sun, indicating that paint is susceptible to heat.",
+                "The problem also mentions that a varnish was used instead of paint, implying that varnish is a better choice because it is less susceptible to heat.",
+                "The blank in the sentence \"The paint would melt in the sun, so we used a varnish instead, since the _ was susceptible to heat\" must be filled with the substance that is susceptible to heat.",
+                "Since the paint is the substance that is susceptible to heat, as established in Step 1, the blank should be filled with \"paint.\""
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.161370277404785
+        },
+        {
+            "id": "winogrande_I_tried_to_make_mini_lamps_by_",
+            "question": "Fill in the blank: I tried to make mini lamps by using glow sticks in mason jars, but had to get larger jars because the _ were too big.\n\nChoices:\nA. glow sticks\nB. jars",
+            "answerKey": "A",
+            "cot_output": "Step 1: The problem states that the person had to get larger jars.\nStep 2: The reason for getting larger jars must be that something was too big for the original jars.\nStep 3: The options given are \"glow sticks\" and \"jars.\" Since the person is already using mason jars, the jars cannot be the item that is too big.\nStep 4: Therefore, the only logical conclusion is that the glow sticks were too big for the original mason jars.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that the person had to get larger jars.",
+                "The reason for getting larger jars must be that something was too big for the original jars.",
+                "The options given are \"glow sticks\" and \"jars.\" Since the person is already using mason jars, the jars cannot be the item that is too big.",
+                "Therefore, the only logical conclusion is that the glow sticks were too big for the original mason jars."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.518671751022339
+        },
+        {
+            "id": "winogrande_Joel_always_liked_to_turn_the_",
+            "question": "Fill in the blank: Joel always liked to turn the heater up higher than Joseph did for the reason that _ was never cold.\n\nChoices:\nA. Joel\nB. Joseph",
+            "answerKey": "B",
+            "cot_output": "Step 1: Joel and Joseph have different preferences for the heater setting.\nStep 2: Joel prefers to turn the heater up higher than Joseph does.\nStep 3: The statement indicates that one of them is never cold, which implies that this person does not need the heater to be set as high.\nStep 4: Since Joel turns the heater up higher, it suggests that he feels colder and needs more heat.\nStep 5: Therefore, the person who is never cold must be Joseph, as Joel needs the heater to be higher to feel comfortable.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Joel and Joseph have different preferences for the heater setting.",
+                "Joel prefers to turn the heater up higher than Joseph does.",
+                "The statement indicates that one of them is never cold, which implies that this person does not need the heater to be set as high.",
+                "Since Joel turns the heater up higher, it suggests that he feels colder and needs more heat.",
+                "Therefore, the person who is never cold must be Joseph, as Joel needs the heater to be higher to feel comfortable."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 3.7330260276794434
+        },
+        {
+            "id": "winogrande_Joel_always_liked_to_turn_the_",
+            "question": "Fill in the blank: Joel always liked to turn the heater up higher than Joseph did for the reason that _ was always cold.\n\nChoices:\nA. Joel\nB. Joseph",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement mentions that Joel always liked to turn the heater up higher than Joseph did.\nStep 2: The reason given is that someone was always cold.\nStep 3: If Joel is the one who likes to turn the heater up higher, it suggests that he is the one who feels cold more often.\nStep 4: Therefore, the person who is always cold is Joel.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement mentions that Joel always liked to turn the heater up higher than Joseph did.",
+                "The reason given is that someone was always cold.",
+                "If Joel is the one who likes to turn the heater up higher, it suggests that he is the one who feels cold more often.",
+                "Therefore, the person who is always cold is Joel."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.97465181350708
+        },
+        {
+            "id": "winogrande_The_teen_found_the_new_hat_was",
+            "question": "Fill in the blank: The teen found the new hat was no substitute for his cool shirt.  The _ was just cool to wear to school.\n\nChoices:\nA. hat\nB. shirt",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that the new hat was no substitute for his cool shirt. This implies that the shirt is the preferred item of clothing.\nStep 2: The sentence also mentions that the teen found the hat to be inadequate compared to the shirt, suggesting that the shirt is the item that is cool to wear to school.\nStep 3: The blank in the sentence should be filled with the item that is cool to wear to school, which is the shirt based on the context provided.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that the new hat was no substitute for his cool shirt. This implies that the shirt is the preferred item of clothing.",
+                "The sentence also mentions that the teen found the hat to be inadequate compared to the shirt, suggesting that the shirt is the item that is cool to wear to school.",
+                "The blank in the sentence should be filled with the item that is cool to wear to school, which is the shirt based on the context provided."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 3.4346096515655518
+        },
+        {
+            "id": "winogrande_Mary_was_helping_Patricia's_da",
+            "question": "Fill in the blank: Mary was helping Patricia's daughter put on makeup but  _ watches a lot of makeup tutorials.\n\nChoices:\nA. Mary\nB. Patricia",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that Mary was helping Patricia's daughter put on makeup. This implies that Mary has some knowledge or skill in applying makeup.\nStep 2: The blank in the sentence is followed by \"watches a lot of makeup tutorials.\" This suggests that the person who watches a lot of makeup tutorials is likely the one with the knowledge or skill in applying makeup.\nStep 3: Since Mary is the one helping Patricia's daughter with makeup, it is logical to infer that Mary is the one who watches a lot of makeup tutorials, as this would explain her ability to help with makeup.\nStep 4: Patricia is not mentioned as being involved in the makeup application, so there is no direct evidence that she watches makeup tutorials.\nStep 5: The most logical conclusion is that Mary watches a lot of makeup tutorials, which explains why she is helping Patricia's daughter with makeup.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Mary was helping Patricia's daughter put on makeup. This implies that Mary has some knowledge or skill in applying makeup.",
+                "The blank in the sentence is followed by \"watches a lot of makeup tutorials.\" This suggests that the person who watches a lot of makeup tutorials is likely the one with the knowledge or skill in applying makeup.",
+                "Since Mary is the one helping Patricia's daughter with makeup, it is logical to infer that Mary is the one who watches a lot of makeup tutorials, as this would explain her ability to help with makeup.",
+                "Patricia is not mentioned as being involved in the makeup application, so there is no direct evidence that she watches makeup tutorials.",
+                "The most logical conclusion is that Mary watches a lot of makeup tutorials, which explains why she is helping Patricia's daughter with makeup."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 5.307376146316528
+        },
+        {
+            "id": "winogrande_Mary_was_helping_Patricia's_da",
+            "question": "Fill in the blank: Mary was helping Patricia's daughter put on makeup because _ watches a lot of makeup tutorials.\n\nChoices:\nA. Mary\nB. Patricia",
+            "answerKey": "A",
+            "cot_output": "Step 1: The question states that Mary was helping Patricia's daughter put on makeup.\nStep 2: The blank needs to be filled with the person who watches a lot of makeup tutorials, as this would explain why they are helping with makeup.\nStep 3: Since Mary is the one helping Patricia's daughter, it is logical to infer that Mary has the knowledge and skills to do so.\nStep 4: The knowledge and skills to apply makeup effectively are often gained from watching makeup tutorials.\nStep 5: Therefore, the person who watches a lot of makeup tutorials is likely Mary, as she is the one helping with the makeup.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question states that Mary was helping Patricia's daughter put on makeup.",
+                "The blank needs to be filled with the person who watches a lot of makeup tutorials, as this would explain why they are helping with makeup.",
+                "Since Mary is the one helping Patricia's daughter, it is logical to infer that Mary has the knowledge and skills to do so.",
+                "The knowledge and skills to apply makeup effectively are often gained from watching makeup tutorials.",
+                "Therefore, the person who watches a lot of makeup tutorials is likely Mary, as she is the one helping with the makeup."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.9409799575805664
+        },
+        {
+            "id": "winogrande_He_wanted_to_kill_time_at_the_",
+            "question": "Fill in the blank: He wanted to kill time at the house instead of the playground, because everyone at the _ was fun.\n\nChoices:\nA. playground\nB. house",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement indicates that the person wanted to kill time at the house instead of the playground.\nStep 2: The reason given is that \"everyone at the _ was fun.\"\nStep 3: If the person wanted to avoid the playground, it implies that the playground is where people are having fun, which is why he would prefer to stay at the house.\nStep 4: Therefore, the blank should be filled with \"playground\" because it is the place where everyone is fun, and he wants to avoid it to kill time at the house.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement indicates that the person wanted to kill time at the house instead of the playground.",
+                "The reason given is that \"everyone at the _ was fun.\"",
+                "If the person wanted to avoid the playground, it implies that the playground is where people are having fun, which is why he would prefer to stay at the house.",
+                "Therefore, the blank should be filled with \"playground\" because it is the place where everyone is fun, and he wants to avoid it to kill time at the house."
+            ],
+            "pred": "0",
+            "is_correct": false,
+            "elapsed_time": 3.699270009994507
+        },
+        {
+            "id": "winogrande_Aaron_didn't_know_Dennis_had_a",
+            "question": "Fill in the blank: Aaron didn't know Dennis had a peanut allergy, so when _ made peanut chicken an ambulance was called.\n\nChoices:\nA. Aaron\nB. Dennis",
+            "answerKey": "A",
+            "cot_output": "Step 1: The problem states that Aaron didn't know Dennis had a peanut allergy. This implies that Aaron was not aware of the potential danger of preparing food with peanuts for Dennis.\nStep 2: The sentence structure indicates that someone made peanut chicken, which resulted in an ambulance being called. This suggests that the person who made the peanut chicken was unaware of the peanut allergy, leading to a medical emergency.\nStep 3: Since Aaron was the one who was unaware of Dennis's peanut allergy, it is logical to conclude that Aaron was the one who made the peanut chicken.\nStep 4: If Dennis had made the peanut chicken, he would have been aware of his own allergy and would not have prepared a dish that could harm himself.\nStep 5: Therefore, the person who made the peanut chicken, leading to the ambulance being called, must be Aaron.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that Aaron didn't know Dennis had a peanut allergy. This implies that Aaron was not aware of the potential danger of preparing food with peanuts for Dennis.",
+                "The sentence structure indicates that someone made peanut chicken, which resulted in an ambulance being called. This suggests that the person who made the peanut chicken was unaware of the peanut allergy, leading to a medical emergency.",
+                "Since Aaron was the one who was unaware of Dennis's peanut allergy, it is logical to conclude that Aaron was the one who made the peanut chicken.",
+                "If Dennis had made the peanut chicken, he would have been aware of his own allergy and would not have prepared a dish that could harm himself.",
+                "Therefore, the person who made the peanut chicken, leading to the ambulance being called, must be Aaron."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.130817651748657
+        },
+        {
+            "id": "winogrande_Aaron_didn't_know_Dennis_had_a",
+            "question": "Fill in the blank: Aaron didn't know Dennis had a peanut allergy, so when _ ate peanut chicken an ambulance was called.\n\nChoices:\nA. Aaron\nB. Dennis",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that Aaron didn't know Dennis had a peanut allergy. This implies that Aaron was not aware of the potential danger of consuming or being exposed to peanuts for Dennis.\nStep 2: The sentence also mentions that an ambulance was called, indicating a severe reaction to peanuts, which is consistent with a peanut allergy.\nStep 3: Since Aaron was unaware of Dennis's peanut allergy, it is unlikely that Aaron would have intentionally avoided eating peanut chicken to protect Dennis.\nStep 4: If Dennis ate the peanut chicken, it would explain why an ambulance was called, as he would have a severe allergic reaction.\nStep 5: Therefore, the person who ate the peanut chicken and caused the ambulance to be called must be Dennis.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Aaron didn't know Dennis had a peanut allergy. This implies that Aaron was not aware of the potential danger of consuming or being exposed to peanuts for Dennis.",
+                "The sentence also mentions that an ambulance was called, indicating a severe reaction to peanuts, which is consistent with a peanut allergy.",
+                "Since Aaron was unaware of Dennis's peanut allergy, it is unlikely that Aaron would have intentionally avoided eating peanut chicken to protect Dennis.",
+                "If Dennis ate the peanut chicken, it would explain why an ambulance was called, as he would have a severe allergic reaction.",
+                "Therefore, the person who ate the peanut chicken and caused the ambulance to be called must be Dennis."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.396650791168213
+        },
+        {
+            "id": "winogrande_God_liked_to_control_the_day_a",
+            "question": "Fill in the blank: God liked to control the day and the night, but the _ was too bright.\n\nChoices:\nA. day\nB. night",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement mentions that God liked to control both the day and the night, indicating a preference or a role in managing these periods.\nStep 2: The blank is followed by \"was too bright,\" which suggests that the entity in question has a characteristic of brightness.\nStep 3: Between the day and the night, the day is the period characterized by brightness due to the presence of the sun.\nStep 4: The night, in contrast, is characterized by darkness and the absence of the sun's direct light.\nStep 5: Since the statement indicates that something was \"too bright,\" it logically follows that the day, which is bright, is the entity that fits this description.\nStep 6: Therefore, the blank should be filled with \"day\" because the day is the period that is too bright, as opposed to the night, which is not bright.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement mentions that God liked to control both the day and the night, indicating a preference or a role in managing these periods.",
+                "The blank is followed by \"was too bright,\" which suggests that the entity in question has a characteristic of brightness.",
+                "Between the day and the night, the day is the period characterized by brightness due to the presence of the sun.",
+                "The night, in contrast, is characterized by darkness and the absence of the sun's direct light.",
+                "Since the statement indicates that something was \"too bright,\" it logically follows that the day, which is bright, is the entity that fits this description.",
+                "Therefore, the blank should be filled with \"day\" because the day is the period that is too bright, as opposed to the night, which is not bright."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.0430402755737305
+        },
+        {
+            "id": "winogrande_Brett_asked_Joel_for_advice_an",
+            "question": "Fill in the blank: Brett asked Joel for advice and guidance about waxing his mustache, and afterwards _ felt burdened.\n\nChoices:\nA. Brett\nB. Joel",
+            "answerKey": "B",
+            "cot_output": "Step 1: Brett asked Joel for advice and guidance about waxing his mustache. This indicates that Brett sought help from Joel, implying that Brett was the one who initiated the interaction.\nStep 2: After the interaction, someone felt burdened. We need to determine who felt burdened based on the context of the interaction.\nStep 3: Since Brett sought advice and guidance, it is more likely that Brett would feel burdened after receiving the advice. This is because seeking advice often comes with the responsibility of following it, which can be a source of burden.\nStep 4: Joel, on the other hand, provided the advice and guidance. Providing advice typically does not create a sense of burden unless the advice-giver feels responsible for the outcome, which is not indicated in the context.\nStep 5: Therefore, the person who felt burdened is more likely to be Brett, as he is the one who sought and received the advice and now has the responsibility to act on it.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Brett asked Joel for advice and guidance about waxing his mustache. This indicates that Brett sought help from Joel, implying that Brett was the one who initiated the interaction.",
+                "After the interaction, someone felt burdened. We need to determine who felt burdened based on the context of the interaction.",
+                "Since Brett sought advice and guidance, it is more likely that Brett would feel burdened after receiving the advice. This is because seeking advice often comes with the responsibility of following it, which can be a source of burden.",
+                "Joel, on the other hand, provided the advice and guidance. Providing advice typically does not create a sense of burden unless the advice-giver feels responsible for the outcome, which is not indicated in the context.",
+                "Therefore, the person who felt burdened is more likely to be Brett, as he is the one who sought and received the advice and now has the responsibility to act on it."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 5.815490245819092
+        },
+        {
+            "id": "winogrande_The_filter_in_the_living_room_",
+            "question": "Fill in the blank: The filter in the living room needed to be changed more often than the one in the bedroom because the _ was dirtier.\n\nChoices:\nA. living room\nB. bedroom",
+            "answerKey": "A",
+            "cot_output": "Step 1: The filter in the living room needed to be changed more often than the one in the bedroom. This implies that the living room filter was getting dirtier more quickly.\nStep 2: Filters get dirtier more quickly when there is more particulate matter or dust in the air. Therefore, the living room must have more particulate matter or dust in the air compared to the bedroom.\nStep 3: The presence of more particulate matter or dust in the air indicates that the living room is dirtier than the bedroom.\nStep 4: Since the living room is dirtier, the filter in the living room needed to be changed more often.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The filter in the living room needed to be changed more often than the one in the bedroom. This implies that the living room filter was getting dirtier more quickly.",
+                "Filters get dirtier more quickly when there is more particulate matter or dust in the air. Therefore, the living room must have more particulate matter or dust in the air compared to the bedroom.",
+                "The presence of more particulate matter or dust in the air indicates that the living room is dirtier than the bedroom.",
+                "Since the living room is dirtier, the filter in the living room needed to be changed more often."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.1273486614227295
+        },
+        {
+            "id": "winogrande_The_filter_in_the_living_room_",
+            "question": "Fill in the blank: The filter in the living room needed to be changed more often than the one in the bedroom because the _ was cleaner.\n\nChoices:\nA. living room\nB. bedroom",
+            "answerKey": "B",
+            "cot_output": "Step 1: The filter in the living room needed to be changed more often than the one in the bedroom. This implies that the living room filter was getting dirtier more quickly.\nStep 2: Filters get dirtier more quickly when there is more dust, pollutants, or other particles in the air. Therefore, the living room must have more of these particles compared to the bedroom.\nStep 3: If the living room has more particles, it means the bedroom has fewer particles, making the bedroom cleaner.\nStep 4: The statement \"The filter in the living room needed to be changed more often than the one in the bedroom because the _ was cleaner\" must be referring to the bedroom being cleaner.\nStep 5: The bedroom being cleaner is the reason the living room filter needed to be changed more often.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The filter in the living room needed to be changed more often than the one in the bedroom. This implies that the living room filter was getting dirtier more quickly.",
+                "Filters get dirtier more quickly when there is more dust, pollutants, or other particles in the air. Therefore, the living room must have more of these particles compared to the bedroom.",
+                "If the living room has more particles, it means the bedroom has fewer particles, making the bedroom cleaner.",
+                "The statement \"The filter in the living room needed to be changed more often than the one in the bedroom because the _ was cleaner\" must be referring to the bedroom being cleaner.",
+                "The bedroom being cleaner is the reason the living room filter needed to be changed more often."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.9211344718933105
+        },
+        {
+            "id": "winogrande_Amy_went_over_to_the_waiting_r",
+            "question": "Fill in the blank: Amy went over to the waiting room at the hospital to calm Samantha because _ was placid.\n\nChoices:\nA. Amy\nB. Samantha",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the blank should be filled with the subject who was placid, which means calm or tranquil.\nStep 2: The context of the sentence suggests that Amy went to the waiting room to calm Samantha, implying that Samantha was not calm.\nStep 3: Since Amy is the one who went to calm Samantha, it is logical to infer that Amy was the calm one, or placid.\nStep 4: Therefore, the blank should be filled with \"Amy\" because she is the one who was placid.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the blank should be filled with the subject who was placid, which means calm or tranquil.",
+                "The context of the sentence suggests that Amy went to the waiting room to calm Samantha, implying that Samantha was not calm.",
+                "Since Amy is the one who went to calm Samantha, it is logical to infer that Amy was the calm one, or placid.",
+                "Therefore, the blank should be filled with \"Amy\" because she is the one who was placid."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.506169557571411
+        },
+        {
+            "id": "winogrande_Megan_forgot_to_buy_deodorant_",
+            "question": "Fill in the blank: Megan forgot to buy deodorant at the store so they borrowed Jessica's deodorant and _ never found out.\n\nChoices:\nA. Megan\nB. Jessica",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that Megan forgot to buy deodorant and borrowed Jessica's deodorant.\nStep 2: The sentence ends with \"and _ never found out,\" which implies that someone was unaware of the borrowing.\nStep 3: Since Megan is the one who borrowed the deodorant, she is aware of the action.\nStep 4: Jessica is the owner of the deodorant, and the sentence suggests that the owner did not know about the borrowing.\nStep 5: Therefore, the person who never found out must be Jessica.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Megan forgot to buy deodorant and borrowed Jessica's deodorant.",
+                "The sentence ends with \"and _ never found out,\" which implies that someone was unaware of the borrowing.",
+                "Since Megan is the one who borrowed the deodorant, she is aware of the action.",
+                "Jessica is the owner of the deodorant, and the sentence suggests that the owner did not know about the borrowing.",
+                "Therefore, the person who never found out must be Jessica."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.5219194889068604
+        },
+        {
+            "id": "winogrande_Megan_forgot_to_buy_deodorant_",
+            "question": "Fill in the blank: Megan forgot to buy deodorant at the store so they borrowed Jessica's deodorant and _ hoped they never found out.\n\nChoices:\nA. Megan\nB. Jessica",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence structure indicates that the subject of the sentence is the person who borrowed the deodorant and hopes that the owner never finds out.\nStep 2: Megan is the one who forgot to buy deodorant and borrowed Jessica's deodorant.\nStep 3: Since Megan is the one who borrowed the deodorant, it is logical that Megan is also the one who hopes Jessica never finds out.\nStep 4: The blank in the sentence should be filled with the subject who is hoping that the other person never finds out, which is Megan.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that the subject of the sentence is the person who borrowed the deodorant and hopes that the owner never finds out.",
+                "Megan is the one who forgot to buy deodorant and borrowed Jessica's deodorant.",
+                "Since Megan is the one who borrowed the deodorant, it is logical that Megan is also the one who hopes Jessica never finds out.",
+                "The blank in the sentence should be filled with the subject who is hoping that the other person never finds out, which is Megan."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.032461166381836
+        },
+        {
+            "id": "winogrande_Amy_thought_she_was_the_mirror",
+            "question": "Fill in the blank: Amy thought she was the mirror image of Natalie , but _ could not be convinced to see the similarity.\n\nChoices:\nA. Amy\nB. Natalie",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence states that Amy thought she was the mirror image of Natalie. This implies that Amy believes there is a similarity between herself and Natalie.\nStep 2: The blank in the sentence is followed by \"could not be convinced to see the similarity.\" This indicates that someone was not convinced by Amy's belief.\nStep 3: Since Amy is the one who believes in the similarity, it is unlikely that she would be the one who could not be convinced to see it. Therefore, the person who could not be convinced must be Natalie.\nStep 4: The only person left who could not be convinced to see the similarity is Natalie.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Amy thought she was the mirror image of Natalie. This implies that Amy believes there is a similarity between herself and Natalie.",
+                "The blank in the sentence is followed by \"could not be convinced to see the similarity.\" This indicates that someone was not convinced by Amy's belief.",
+                "Since Amy is the one who believes in the similarity, it is unlikely that she would be the one who could not be convinced to see it. Therefore, the person who could not be convinced must be Natalie.",
+                "The only person left who could not be convinced to see the similarity is Natalie."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.302369117736816
+        },
+        {
+            "id": "winogrande_Amy_thought_she_was_the_mirror",
+            "question": "Fill in the blank: Amy thought she was the mirror image of Natalie , but _ could not persuade her to see the similarity.\n\nChoices:\nA. Amy\nB. Natalie",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence states that Amy thought she was the mirror image of Natalie, implying that Amy believes she and Natalie are very similar.\nStep 2: The blank is followed by \"could not persuade her to see the similarity,\" which suggests that someone tried to convince Amy of the similarity but failed.\nStep 3: Since Amy is the one who already believes she is the mirror image of Natalie, it would not make sense for Amy to be the one trying to persuade herself.\nStep 4: Therefore, the person who could not persuade Amy to see the similarity must be Natalie, as she is the other person mentioned in the sentence.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that Amy thought she was the mirror image of Natalie, implying that Amy believes she and Natalie are very similar.",
+                "The blank is followed by \"could not persuade her to see the similarity,\" which suggests that someone tried to convince Amy of the similarity but failed.",
+                "Since Amy is the one who already believes she is the mirror image of Natalie, it would not make sense for Amy to be the one trying to persuade herself.",
+                "Therefore, the person who could not persuade Amy to see the similarity must be Natalie, as she is the other person mentioned in the sentence."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 3.942309856414795
+        },
+        {
+            "id": "winogrande_I_helped_my_sister_find_her_go",
+            "question": "Fill in the blank: I helped my sister find her gold necklace. She couldn't wear her woven necklace to the ball because the _ was so casual.\n\nChoices:\nA. woven necklace\nB. ball",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence mentions that the sister couldn't wear her woven necklace to the ball because something was too casual.\nStep 2: The woven necklace is described as being too casual for the ball, implying that the ball required a more formal or elegant accessory.\nStep 3: The gold necklace, which the speaker helped find, is likely more formal and suitable for the ball, contrasting with the casual nature of the woven necklace.\nStep 4: The blank in the sentence should be filled with the item that is described as too casual, which is the woven necklace.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that the sister couldn't wear her woven necklace to the ball because something was too casual.",
+                "The woven necklace is described as being too casual for the ball, implying that the ball required a more formal or elegant accessory.",
+                "The gold necklace, which the speaker helped find, is likely more formal and suitable for the ball, contrasting with the casual nature of the woven necklace.",
+                "The blank in the sentence should be filled with the item that is described as too casual, which is the woven necklace."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.397052764892578
+        },
+        {
+            "id": "winogrande_Emily_never_had_as_much_money_",
+            "question": "Fill in the blank: Emily never had as much money to spend as Carrie, because _ had a good job.\n\nChoices:\nA. Emily\nB. Carrie",
+            "answerKey": "B",
+            "cot_output": "Step 1: The statement \"Emily never had as much money to spend as Carrie\" implies a comparison between Emily and Carrie's financial situations.\nStep 2: The reason given for the difference in their financial situations is that \"one of them had a good job.\"\nStep 3: Since Emily is described as never having as much money to spend as Carrie, it suggests that Emily is the one with less financial resources.\nStep 4: If Emily has less money to spend, it is logical to infer that she does not have the good job mentioned in the statement.\nStep 5: Therefore, the person with the good job must be Carrie, as she has more money to spend.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement \"Emily never had as much money to spend as Carrie\" implies a comparison between Emily and Carrie's financial situations.",
+                "The reason given for the difference in their financial situations is that \"one of them had a good job.\"",
+                "Since Emily is described as never having as much money to spend as Carrie, it suggests that Emily is the one with less financial resources.",
+                "If Emily has less money to spend, it is logical to infer that she does not have the good job mentioned in the statement.",
+                "Therefore, the person with the good job must be Carrie, as she has more money to spend."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.984225273132324
+        },
+        {
+            "id": "winogrande_The_wooden_doors_at_my_friends",
+            "question": "Fill in the blank: The wooden doors at my friends work are worse than the wooden desks at my work, because the _ material is cheaper.\n\nChoices:\nA. doors\nB. desks",
+            "answerKey": "A",
+            "cot_output": "Step 1: The statement compares the quality of wooden doors at a friend's workplace to the wooden desks at the speaker's workplace.\nStep 2: The statement indicates that the wooden doors are of worse quality than the wooden desks.\nStep 3: The reason given for the worse quality is that the material used for the doors is cheaper.\nStep 4: Since the material used for the doors is cheaper, it implies that the doors are made from the cheaper material.\nStep 5: The question asks which material is cheaper, and based on the reasoning, it is the material used for the doors.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement compares the quality of wooden doors at a friend's workplace to the wooden desks at the speaker's workplace.",
+                "The statement indicates that the wooden doors are of worse quality than the wooden desks.",
+                "The reason given for the worse quality is that the material used for the doors is cheaper.",
+                "Since the material used for the doors is cheaper, it implies that the doors are made from the cheaper material.",
+                "The question asks which material is cheaper, and based on the reasoning, it is the material used for the doors."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.446683645248413
+        },
+        {
+            "id": "winogrande_The_wooden_doors_at_my_friends",
+            "question": "Fill in the blank: The wooden doors at my friends work are worse than the wooden desks at my work, because the _ material is stronger.\n\nChoices:\nA. doors\nB. desks",
+            "answerKey": "B",
+            "cot_output": "Step 1: The question states that the wooden doors at the friend's work are worse than the wooden desks at my work.\nStep 2: The comparison is based on the quality or durability of the material, implying that one type of material is stronger than the other.\nStep 3: If the wooden doors are worse, it means the material of the desks is stronger than the material of the doors.\nStep 4: The blank in the sentence should be filled with the item that has the stronger material, which is the desks.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question states that the wooden doors at the friend's work are worse than the wooden desks at my work.",
+                "The comparison is based on the quality or durability of the material, implying that one type of material is stronger than the other.",
+                "If the wooden doors are worse, it means the material of the desks is stronger than the material of the doors.",
+                "The blank in the sentence should be filled with the item that has the stronger material, which is the desks."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.384334087371826
+        },
+        {
+            "id": "winogrande_The_arrow_stuck_to_the_bark_bu",
+            "question": "Fill in the blank: The arrow stuck to the bark but not the stone because the _ was flimsy.\n\nChoices:\nA. bark\nB. stone",
+            "answerKey": "A",
+            "cot_output": "Step 1: The arrow stuck to the bark but not the stone. This implies that the arrow was able to penetrate or adhere to the bark but not to the stone.\nStep 2: The bark is generally softer and more flexible compared to the stone. This means that the bark can be penetrated or deformed more easily by the arrow.\nStep 3: The stone is hard and rigid, making it difficult for the arrow to penetrate or stick to it.\nStep 4: The question states that the arrow stuck to the bark but not the stone because the _ was flimsy. The term \"flimsy\" implies something that is weak, soft, or easily penetrated.\nStep 5: Given the context, the bark is the material that is flimsy, allowing the arrow to stick to it, while the stone is not flimsy, preventing the arrow from sticking to it.\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The arrow stuck to the bark but not the stone. This implies that the arrow was able to penetrate or adhere to the bark but not to the stone.",
+                "The bark is generally softer and more flexible compared to the stone. This means that the bark can be penetrated or deformed more easily by the arrow.",
+                "The stone is hard and rigid, making it difficult for the arrow to penetrate or stick to it.",
+                "The question states that the arrow stuck to the bark but not the stone because the _ was flimsy. The term \"flimsy\" implies something that is weak, soft, or easily penetrated.",
+                "Given the context, the bark is the material that is flimsy, allowing the arrow to stick to it, while the stone is not flimsy, preventing the arrow from sticking to it."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.875574827194214
+        },
+        {
+            "id": "winogrande_The_arrow_stuck_to_the_bark_bu",
+            "question": "Fill in the blank: The arrow stuck to the bark but not the stone because the _ was hard.\n\nChoices:\nA. bark\nB. stone",
+            "answerKey": "B",
+            "cot_output": "Step 1: The arrow stuck to the bark but did not stick to the stone. This implies that the surface of the bark has properties that allow the arrow to stick, while the surface of the stone does not.\nStep 2: The bark of a tree is generally softer and more porous compared to stone. This softness and porosity can allow the arrow to penetrate slightly and get stuck.\nStep 3: Stone, on the other hand, is hard and non-porous. This hardness prevents the arrow from penetrating and sticking to it.\nStep 4: The question states that the arrow did not stick to the stone because the _ was hard. Given the context, the hardness of the stone is the reason the arrow did not stick.\nStep 5: Therefore, the blank should be filled with \"stone\" because the hardness of the stone is the reason the arrow did not stick to it.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The arrow stuck to the bark but did not stick to the stone. This implies that the surface of the bark has properties that allow the arrow to stick, while the surface of the stone does not.",
+                "The bark of a tree is generally softer and more porous compared to stone. This softness and porosity can allow the arrow to penetrate slightly and get stuck.",
+                "Stone, on the other hand, is hard and non-porous. This hardness prevents the arrow from penetrating and sticking to it.",
+                "The question states that the arrow did not stick to the stone because the _ was hard. Given the context, the hardness of the stone is the reason the arrow did not stick.",
+                "Therefore, the blank should be filled with \"stone\" because the hardness of the stone is the reason the arrow did not stick to it."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.8925886154174805
+        },
+        {
+            "id": "winogrande_The_leg_of_the_pig_body_stuck_",
+            "question": "Fill in the blank: The leg of the pig body stuck out of the grave where it was buried because the _ is large.\n\nChoices:\nA. body\nB. grave",
+            "answerKey": "A",
+            "cot_output": "Step 1: The problem states that the leg of the pig body stuck out of the grave where it was buried.\nStep 2: For the leg to stick out, it must be that the space in the grave is insufficient to fully contain the pig.\nStep 3: The leg sticking out suggests that the part of the pig that is too large to be fully buried is the body, not the grave itself.\nStep 4: If the grave were too large, the pig would have more than enough space and would not stick out.\nStep 5: Therefore, the body of the pig must be large, causing the leg to stick out of the grave.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that the leg of the pig body stuck out of the grave where it was buried.",
+                "For the leg to stick out, it must be that the space in the grave is insufficient to fully contain the pig.",
+                "The leg sticking out suggests that the part of the pig that is too large to be fully buried is the body, not the grave itself.",
+                "If the grave were too large, the pig would have more than enough space and would not stick out.",
+                "Therefore, the body of the pig must be large, causing the leg to stick out of the grave."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.62721061706543
+        },
+        {
+            "id": "winogrande_The_sheet_recovered_can_easily",
+            "question": "Fill in the blank: The sheet recovered can easily be hiding between the space in the door. The _ is thin.\n\nChoices:\nA. sheet\nB. space",
+            "answerKey": "A",
+            "cot_output": "Step 1: The sentence mentions that the sheet can easily be hiding between the space in the door. This implies that the sheet is being hidden in a narrow gap.\nStep 2: For the sheet to fit between the space in the door, it must be thin enough to fit into that narrow gap.\nStep 3: The sentence structure suggests that the blank should be filled with a word that describes a characteristic of the object that can fit into the space.\nStep 4: The word \"thin\" is used to describe the characteristic of the object that allows it to fit into the narrow gap.\nStep 5: The object in question is the sheet, and the characteristic that allows it to fit into the space is that it is thin.\nStep 6: Therefore, the blank should be filled with \"sheet\" to complete the sentence logically.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions that the sheet can easily be hiding between the space in the door. This implies that the sheet is being hidden in a narrow gap.",
+                "For the sheet to fit between the space in the door, it must be thin enough to fit into that narrow gap.",
+                "The sentence structure suggests that the blank should be filled with a word that describes a characteristic of the object that can fit into the space.",
+                "The word \"thin\" is used to describe the characteristic of the object that allows it to fit into the narrow gap.",
+                "The object in question is the sheet, and the characteristic that allows it to fit into the space is that it is thin.",
+                "Therefore, the blank should be filled with \"sheet\" to complete the sentence logically."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 4.882383823394775
+        },
+        {
+            "id": "winogrande_The_sheet_recovered_can_easily",
+            "question": "Fill in the blank: The sheet recovered can easily be hiding between the space in the door. The _ is wide.\n\nChoices:\nA. sheet\nB. space",
+            "answerKey": "B",
+            "cot_output": "Step 1: The sentence structure indicates that we need to fill in the blank with a word that describes a characteristic of the space where the sheet can be hiding.\nStep 2: The sentence mentions \"The sheet recovered can easily be hiding between the space in the door,\" which implies that the space must be large enough to accommodate the sheet.\nStep 3: The blank is followed by \"is wide,\" which suggests that the word we need to fill in should be a noun that can logically be described as wide.\nStep 4: Among the given choices, \"space\" is the only noun that can logically be described as wide, as it fits the context of the sentence and the requirement that it must be wide enough to hide the sheet.\nStep 5: \"Sheet\" does not fit the context because it is the object being hidden, not the place where it is hidden.\nStep 6: Therefore, the correct word to fill in the blank is \"space.\"\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence structure indicates that we need to fill in the blank with a word that describes a characteristic of the space where the sheet can be hiding.",
+                "The sentence mentions \"The sheet recovered can easily be hiding between the space in the door,\" which implies that the space must be large enough to accommodate the sheet.",
+                "The blank is followed by \"is wide,\" which suggests that the word we need to fill in should be a noun that can logically be described as wide.",
+                "Among the given choices, \"space\" is the only noun that can logically be described as wide, as it fits the context of the sentence and the requirement that it must be wide enough to hide the sheet.",
+                "\"Sheet\" does not fit the context because it is the object being hidden, not the place where it is hidden.",
+                "Therefore, the correct word to fill in the blank is \"space.\""
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 5.360241651535034
+        },
+        {
+            "id": "winogrande_Mike_doesn't_like_the_table_in",
+            "question": "Fill in the blank: Mike doesn't like the table in his living room as much as the couch. The _ resonates with the other decorations.\n\nChoices:\nA. table\nB. couch",
+            "answerKey": "B",
+            "cot_output": "Step 1: Mike doesn't like the table in his living room as much as the couch. This implies that the couch is more appealing to him.\nStep 2: The statement mentions that something \"resonates with the other decorations.\" Since Mike likes the couch more, it is more likely that the couch is the item that resonates with the other decorations.\nStep 3: The table, which Mike likes less, is less likely to be the item that resonates with the other decorations.\nStep 4: Therefore, the item that resonates with the other decorations must be the couch.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Mike doesn't like the table in his living room as much as the couch. This implies that the couch is more appealing to him.",
+                "The statement mentions that something \"resonates with the other decorations.\" Since Mike likes the couch more, it is more likely that the couch is the item that resonates with the other decorations.",
+                "The table, which Mike likes less, is less likely to be the item that resonates with the other decorations.",
+                "Therefore, the item that resonates with the other decorations must be the couch."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 4.293099403381348
+        }
+    ]
+}

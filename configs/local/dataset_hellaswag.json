@@ -1,5 +1,6 @@
 {
     "dataset_name": "LOCAL_JSON",
     "hf_id": "configs/dataset/hellaswag.json",
-    "num_samples": 11
+    "split": "test",
+    "num_samples": 100
 }

@@ -1,0 +1,6 @@
+{
+    "dataset_name": "CREAK",
+    "hf_id": "amydeng2000/CREAK",
+    "split": "validation",
+    "num_samples": 100
+}

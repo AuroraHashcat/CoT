@@ -1,0 +1,7 @@
+{
+    "dataset_name": "WinoGrande",
+    "hf_id": "winogrande",
+    "hf_config": "winogrande_xl",
+    "split": "validation",
+    "num_samples": 100
+}
