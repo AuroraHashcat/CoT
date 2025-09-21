@@ -1,7 +1,6 @@
 {
-    "dataset_name": "CODAH",
-    "hf_id": "codah",
-    "hf_config": "codah",
-    "split": "train",
+    "dataset_name": "GPQA",
+    "hf_id": "configs/dataset/codah.json",
+    "split": "test",
     "num_samples": 100
 }

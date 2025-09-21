@@ -1,0 +1,6 @@
+{
+    "dataset_name": "GPQA",
+    "hf_id": "configs/dataset/commonsenseqa.json",
+    "split": "validation",
+    "num_samples": 110
+}

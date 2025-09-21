@@ -1,0 +1,6 @@
+{
+    "dataset_name": "GPQA",
+    "hf_id": "configs/dataset/gpqa.json",
+    "split": "test",
+    "num_samples": 100
+}

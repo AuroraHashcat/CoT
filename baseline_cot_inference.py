@@ -8,29 +8,20 @@ from datetime import datetime
 from common.config_utils import load_dataset_config
 from common.answer_matcher import check_answer_correctness
 from data_processing.data_loader import load_data
-from causal_cot.llm_handler import create_llm_handler, load_llm_config
+from causal_cot.llm_handler import create_llm_handler
 
 # 数据集类型映射
 DATASET_TYPE_MAP = {
-    "hellaswag": "multiple_choice",
-    "commonsense_qa": "multiple_choice", 
-    "arc_challenge": "multiple_choice",
-    "boolq": "multiple_choice",
-    "copa": "multiple_choice",
-    "openbookqa": "multiple_choice",
-    "piqa": "multiple_choice",
-    "siqa": "multiple_choice",
-    "winogrande": "multiple_choice",
-    "strategyqa": "multiple_choice",
-    "creak": "multiple_choice",
-    "codah": "multiple_choice",
-    "gsm8k": "fill_in_blank",
-    "drop": "fill_in_blank", 
     "math": "fill_in_blank",
-    "causalnet": "fill_in_blank",
-    "cladder": "fill_in_blank",
-    "com2sense": "fill_in_blank",
-    "proofwriter": "fill_in_blank"
+    "causalnet": "multiple_choice",
+    "cladder": "true_or_false",
+    "commonsenseqa": "multiple_choice",
+    "corr2cause": "true_or_false",
+    "gpqa":"multiple_choice",
+    "aqua":"multiple_choice",
+    "strategyqa":"true_or_false",
+    "codah":"multiple_choice",
+    "copa":"multiple_choice"
 }
 
 def get_dataset_type(dataset_name):
@@ -42,57 +33,65 @@ def get_dataset_type(dataset_name):
 
 def get_cot_prompt(item, dataset_type=None):
     q = item['question']
-    
-    # 根据数据集类型设置prompt context和指令
     if dataset_type == "multiple_choice":
-        task_context = "This is a multiple choice question. You need to select the best option from the given choices."
-        
-        # 检查是否有choices字段，如果没有则从question中提取选项
         if 'choices' in item and item['choices']:
             q += '\nChoices:\n' + '\n'.join(item['choices'])
-        
-        conclusion_instruction = "Conclusion: [Your final answer - MUST be the option number only (0, 1, 2, or 3)]"
-        additional_instruction = "\nIMPORTANT: For multiple choice questions, your final answer MUST be only the option number (0, 1, 2, or 3). Do not include any additional text in your conclusion."
-        
-    else:  # fill_in_blank or other types
-        task_context = "This is a fill-in-the-blank or open-ended question. Provide a specific and accurate answer."
-        conclusion_instruction = "Conclusion: [Your final answer, based strictly on the above causal reasoning]"
-        additional_instruction = ""
-    
-    prompt = (
-        "You are a meticulous logical reasoner.\n"
-        f"{task_context}\n"
-        "Solve the following question by creating a step-by-step Chain of Thought. Each step must be causally justified, not just correlated or associated.\n\n"
-        f"{q}\n"
-        "\nOutput Format:\n"
-        "Step 1: [First causal deduction or analysis]\n"
-        "Step 2: [Second deduction, building upon Step 1]\n"
-        "...\n"
-        "Step N: [Final deduction that directly leads to the answer]\n"
-        "===FINAL_ANSWER_START===\n"
-        f"{conclusion_instruction}\n"
-        "===FINAL_ANSWER_END===\n"
-    )
-    
-    prompt += additional_instruction
-    
+        prompt = (
+            "You are a meticulous logical reasoner.\n"
+            "Solve the following MULTIPLE CHOICE question by creating a step-by-step Chain of Thought. Each step must be causally justified, not just correlated or associated.\n\n"
+            f"{q}\n\n"
+            "IMPORTANT: This is a multiple choice question. Your final answer MUST be exactly one of the choice letters (A, B, C, or D) or numbers (0, 1, 2, or 3), nothing else.\n\n"
+            "Output Format:\n"
+            "Step 1: [First causal deduction or analysis]\n"
+            "Step 2: [Second deduction, building upon Step 1]\n"
+            "...\n"
+            "Step N: [Final deduction that directly leads to the answer]\n"
+            "===FINAL_ANSWER_START===\n"
+            "Conclusion: [Single letter/number representing your choice: A, B, C, D or 0, 1, 2, 3]\n"
+            "===FINAL_ANSWER_END===\n"
+        )
+    elif dataset_type == "fill_in_blank":
+        prompt = (
+            "You are a meticulous logical reasoner.\n"
+            "Solve the following question by creating a step-by-step Chain of Thought. Each step must be causally justified, not just correlated or associated.\n\n"
+            f"{q}\n\n"
+            "Output Format:\n"
+            "Step 1: [First causal deduction or analysis]\n"
+            "Step 2: [Second deduction, building upon Step 1]\n"
+            "...\n"
+            "Step N: [Final deduction that directly leads to the answer]\n"
+            "===FINAL_ANSWER_START===\n"
+            "Conclusion: [Your final answer, only a single number or expression, nothing else. based strictly on the above causal reasoning]\n"
+            "===FINAL_ANSWER_END===\n"
+        )
+    elif dataset_type == "true_or_false":
+        prompt = (
+            "You are a meticulous logical reasoner.\n"
+            "Solve the following TRUE or FALSE question by creating a step-by-step Chain of Thought. Each step must be causally justified, not just correlated or associated.\n\n"
+            f"{q}\n\n"
+            "IMPORTANT: This is a TRUE or FALSE question. Your final answer MUST be exactly true' or'false', nothing else.\n\n"
+            "Output Format:\n"
+            "Step 1: [First causal deduction or analysis]\n"
+            "Step 2: [Second deduction, building upon Step 1]\n"
+            "...\n"
+            "Step N: [Final deduction that directly leads to the answer]\n"
+            "===FINAL_ANSWER_START===\n"
+            "Conclusion: [true or false]\n"
+            "===FINAL_ANSWER_END===\n"
+        )
     return prompt
 
-def extract_cot_and_answer(text):
+
+def extract_cot_and_answer(text: str) -> tuple[list[str], any]:
     import re
-    print("=== LLM OUTPUT ===")
-    print(text)
     steps = re.findall(r"Step \d+: (.*)", text)
-    # 优先提取 \box{...}
-    box_match = re.search(r"\\box\{(.*?)\}", text)
-    if box_match:
-        conclusion = box_match.group(1).strip()
-    else:
-        # 提取 Conclusion: 后的全部内容
-        conclusion_match = re.search(r"===FINAL_ANSWER_START===.*?Conclusion:\s*(.*?)\s*===FINAL_ANSWER_END===", text, re.DOTALL)
-        if not conclusion_match:
-            conclusion_match = re.search(r"Conclusion:\s*(.*)", text)
-        conclusion = conclusion_match.group(1).strip() if conclusion_match else None
+    # 只提取 Conclusion: 后的内容
+    conclusion = None
+    match = re.search(r"Conclusion:\s*(.*?)(?:\n|===FINAL_ANSWER_END===|$)", text)
+    if match:
+        conclusion = match.group(1).strip()
+        # 去除多余符号
+        conclusion = re.sub(r'[\*#]+', '', conclusion).strip()
     print(f"Extracted steps: {steps}")
     print(f"Extracted conclusion: {conclusion}")
     return steps, conclusion
@@ -172,6 +171,8 @@ def main():
 
     results = []
     correct = 0
+    total_elapsed = 0.0
+    total_tokens = 0
 
     for idx, item in enumerate(tqdm(data, desc=f"Processing {dataset_name}")):
         start_time = time.time()
@@ -179,25 +180,36 @@ def main():
             prompt = get_cot_prompt(item, dataset_type)  # 传递数据集类型
             output = llm.query(prompt)
             steps, pred = extract_cot_and_answer(output)
+            # 获取token用量，假设output为字符串或dict
+            if isinstance(output, dict) and "tokens_used" in output:
+                tokens_used = output["tokens_used"]
+                cot_output = output.get("text", str(output))
+            else:
+                tokens_used = None
+                cot_output = output if isinstance(output, str) else str(output)
         except Exception as e:
             print(f"[ERROR] LLM failed for sample id {item.get('id', '?')}: {e}")
             steps, pred = [], None
-            output = str(e)
+            cot_output = str(e)
+            tokens_used = None
         gold = get_answer_key(item)
-        # 根据数据集类型使用不同的匹配策略
         is_correct = check_answer_correctness(gold, pred, dataset_type)
         if is_correct:
             correct += 1
         elapsed = time.time() - start_time
+        total_elapsed += elapsed
+        if tokens_used is not None:
+            total_tokens += tokens_used
         results.append({
             'id': item.get('id', ''),
             'question': item['question'],
             'answerKey': gold,
-            'cot_output': output,
+            'cot_output': cot_output,
             'cot_steps': steps,
             'pred': pred,
             'is_correct': is_correct,
-            'elapsed_time': elapsed
+            'elapsed_time': elapsed,
+            'tokens_used': tokens_used
         })
         # 每做完一个题立即写入同一个文件（覆盖写入）
         try:
@@ -207,13 +219,20 @@ def main():
             print(f"[ERROR] Failed to save results after sample {idx+1}: {e}")
 
     acc = correct / len(data) if data else 0.0
+    avg_elapsed_time = total_elapsed / len(results) if results else 0.0
+    avg_tokens_used = total_tokens / len(results) if results and total_tokens > 0 else None
     print(f'Accuracy: {acc:.2%}')
+    print(f'Average elapsed time: {avg_elapsed_time:.2f}s')
+    if avg_tokens_used is not None:
+        print(f'Average tokens used: {avg_tokens_used:.2f}')
 
     metrics = {
         "overall_summary": {
             "total_questions_evaluated": len(results),
             "final_accuracy": f"{acc:.2%}",
-            "total_successful_pipelines": correct
+            "total_successful_pipelines": correct,
+            "avg_elapsed_time": avg_elapsed_time,
+            "avg_tokens_used": avg_tokens_used
         },
         "detailed_metrics": {
             "intervention_summary": {

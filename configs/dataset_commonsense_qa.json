@@ -1,6 +1,0 @@
-{
-    "dataset_name": "CommonsenseQA",
-    "hf_id": "commonsense_qa",
-    "split": "validation",
-    "num_samples": 5
-}

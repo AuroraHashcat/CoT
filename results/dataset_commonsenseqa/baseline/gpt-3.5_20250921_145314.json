@@ -1,0 +1,1857 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 110,
+            "final_accuracy": "61.82%",
+            "total_successful_pipelines": 68,
+            "avg_elapsed_time": 1.4572060758417302,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/110",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.6181818181818182
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "gpqa_A revolving door is convenient",
+            "question": "Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?\n\nChoices:\na. bank\nb. library\nc. department store\nd. mall\ne. new york",
+            "answerKey": "a",
+            "cot_output": "Step 1: A revolving door is convenient for two direction travel, allowing people to enter and exit simultaneously.\nStep 2: Security measures are often implemented in places where there is a high flow of people entering and exiting.\nStep 3: Banks typically have high security measures in place due to the valuable assets they hold.\nStep 4: A revolving door can serve as a security measure at a bank to control the flow of people entering and exiting.\nConclusion: a. bank\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A revolving door is convenient for two direction travel, allowing people to enter and exit simultaneously.",
+                "Security measures are often implemented in places where there is a high flow of people entering and exiting.",
+                "Banks typically have high security measures in place due to the valuable assets they hold.",
+                "A revolving door can serve as a security measure at a bank to control the flow of people entering and exiting."
+            ],
+            "pred": "a. bank",
+            "is_correct": true,
+            "elapsed_time": 1.9819254875183105,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do people aim to do at wo",
+            "question": "Question: What do people aim to do at work?\n\nChoices:\na. complete job\nb. learn from each other\nc. kill animals\nd. wear hats\ne. talk to each other",
+            "answerKey": "a",
+            "cot_output": "Step 1: People go to work to fulfill certain objectives or tasks.\nStep 2: One common objective at work is to complete the job assigned to them.\nStep 3: Learning from each other can be a secondary objective at work, but not the primary reason.\nStep 4: Killing animals and wearing hats are not typical objectives at work.\nStep 5: Talking to each other can be a part of work, but it is not the main aim.\nConclusion: a. complete job\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "People go to work to fulfill certain objectives or tasks.",
+                "One common objective at work is to complete the job assigned to them.",
+                "Learning from each other can be a secondary objective at work, but not the primary reason.",
+                "Killing animals and wearing hats are not typical objectives at work.",
+                "Talking to each other can be a part of work, but it is not the main aim."
+            ],
+            "pred": "a. complete job",
+            "is_correct": true,
+            "elapsed_time": 1.527174711227417,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you find magazines",
+            "question": "Question: Where would you find magazines along side many other printed works?\n\nChoices:\na. doctor\nb. bookstore\nc. market\nd. train station\ne. mortuary",
+            "answerKey": "b",
+            "cot_output": "Step 1: Magazines are typically sold in places where people have time to read and relax.\nStep 2: Doctors' offices are places where people wait and have time to read, but they usually have medical magazines rather than a variety of printed works.\nStep 3: Bookstores are known for having a wide selection of printed works, including magazines.\nStep 4: Markets usually have newspapers and tabloids, but not a wide variety of magazines.\nStep 5: Train stations are places where people have time to wait and may want to read, and they often have newsstands with a variety of printed works, including magazines.\nStep 6: Mortuaries are not places where people typically have time to read and relax.\nConclusion: The most likely place to find magazines along with many other printed works is a bookstore.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Magazines are typically sold in places where people have time to read and relax.",
+                "Doctors' offices are places where people wait and have time to read, but they usually have medical magazines rather than a variety of printed works.",
+                "Bookstores are known for having a wide selection of printed works, including magazines.",
+                "Markets usually have newspapers and tabloids, but not a wide variety of magazines.",
+                "Train stations are places where people have time to wait and may want to read, and they often have newsstands with a variety of printed works, including magazines.",
+                "Mortuaries are not places where people typically have time to read and relax."
+            ],
+            "pred": "The most likely place to find magazines along with many other printed works is a bookstore.",
+            "is_correct": true,
+            "elapsed_time": 1.8070082664489746,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where are  you likely to find ",
+            "question": "Question: Where are  you likely to find a hamburger?\n\nChoices:\na. fast food restaurant\nb. pizza\nc. ground up dead cows\nd. mouth\ne. cow carcus",
+            "answerKey": "a",
+            "cot_output": "Step 1: A hamburger is a type of fast food.\nStep 2: Fast food restaurants typically serve hamburgers.\nStep 3: Therefore, you are likely to find a hamburger at a fast food restaurant.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A hamburger is a type of fast food.",
+                "Fast food restaurants typically serve hamburgers.",
+                "Therefore, you are likely to find a hamburger at a fast food restaurant."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.0757176876068115,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James was looking for a good p",
+            "question": "Question: James was looking for a good place to buy farmland.  Where might he look?\n\nChoices:\na. midwest\nb. countryside\nc. estate\nd. farming areas\ne. illinois",
+            "answerKey": "a",
+            "cot_output": "Step 1: Farmland is typically found in rural areas.\nStep 2: The countryside is known for having vast farmlands.\nStep 3: The midwest is a region in the United States known for its extensive farmlands.\nStep 4: Illinois is a state located in the midwest region.\nStep 5: James should look in farming areas, such as the midwest region.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Farmland is typically found in rural areas.",
+                "The countryside is known for having vast farmlands.",
+                "The midwest is a region in the United States known for its extensive farmlands.",
+                "Illinois is a state located in the midwest region.",
+                "James should look in farming areas, such as the midwest region."
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 1.4345102310180664,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What island country is ferret ",
+            "question": "Question: What island country is ferret popular?\n\nChoices:\na. own home\nb. north carolina\nc. great britain\nd. hutch\ne. outdoors",
+            "answerKey": "c",
+            "cot_output": "Step 1: Ferrets are domestic animals commonly kept as pets.\nStep 2: Ferrets are usually kept indoors as pets for companionship and entertainment.\nStep 3: Ferrets are not typically found in the wild, so they are not popular in outdoor settings.\nStep 4: The most likely place for ferrets to be popular is in a country where they are commonly kept as pets indoors.\nStep 5: Great Britain is known for its love of pets, including ferrets, and has a strong pet culture.\nConclusion: c. Great Britain\n===FINAL_ANSWER_START===\nConclusion: c. Great Britain\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Ferrets are domestic animals commonly kept as pets.",
+                "Ferrets are usually kept indoors as pets for companionship and entertainment.",
+                "Ferrets are not typically found in the wild, so they are not popular in outdoor settings.",
+                "The most likely place for ferrets to be popular is in a country where they are commonly kept as pets indoors.",
+                "Great Britain is known for its love of pets, including ferrets, and has a strong pet culture."
+            ],
+            "pred": "c. Great Britain",
+            "is_correct": true,
+            "elapsed_time": 1.3129346370697021,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In what Spanish speaking North",
+            "question": "Question: In what Spanish speaking North American country can you get a great cup of coffee?\n\nChoices:\na. mildred's coffee shop\nb. mexico\nc. diner\nd. kitchen\ne. canteen",
+            "answerKey": "b",
+            "cot_output": "Step 1: Spanish speaking North American country implies the country must be in North America and speak Spanish.\nStep 2: Mexico is a country in North America where Spanish is the official language.\nStep 3: Mexico is known for its great coffee production.\nStep 4: Therefore, in Mexico, you can get a great cup of coffee.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Spanish speaking North American country implies the country must be in North America and speak Spanish.",
+                "Mexico is a country in North America where Spanish is the official language.",
+                "Mexico is known for its great coffee production.",
+                "Therefore, in Mexico, you can get a great cup of coffee."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.0719616413116455,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do animals do when an ene",
+            "question": "Question: What do animals do when an enemy is approaching?\n\nChoices:\na. feel pleasure\nb. procreate\nc. pass water\nd. listen to each other\ne. sing",
+            "answerKey": "d",
+            "cot_output": "Step 1: Animals typically have a fight or flight response when faced with danger.\nStep 2: When an enemy is approaching, animals are likely to be in a state of alertness.\nStep 3: Feeling pleasure is unlikely when faced with a threat, as the focus is on survival.\nStep 4: Procreation is also unlikely as the priority shifts to safety and protection.\nStep 5: Passing water may occur due to stress or fear, but it is not a common response to an approaching enemy.\nStep 6: Listening to each other can be a way for animals to communicate and coordinate a response to the threat.\nStep 7: Singing is not a typical response to danger, as it may attract more attention to the group.\nConclusion: D. listen to each other\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Animals typically have a fight or flight response when faced with danger.",
+                "When an enemy is approaching, animals are likely to be in a state of alertness.",
+                "Feeling pleasure is unlikely when faced with a threat, as the focus is on survival.",
+                "Procreation is also unlikely as the priority shifts to safety and protection.",
+                "Passing water may occur due to stress or fear, but it is not a common response to an approaching enemy.",
+                "Listening to each other can be a way for animals to communicate and coordinate a response to the threat.",
+                "Singing is not a typical response to danger, as it may attract more attention to the group."
+            ],
+            "pred": "D. listen to each other",
+            "is_correct": true,
+            "elapsed_time": 1.9077701568603516,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Reading newspaper one of many ",
+            "question": "Question: Reading newspaper one of many ways to practice your what?\n\nChoices:\na. literacy\nb. knowing how to read\nc. money\nd. buying\ne. money bank",
+            "answerKey": "a",
+            "cot_output": "Step 1: Reading newspaper requires the ability to understand written language.\nStep 2: Literacy is the ability to read and write.\nStep 3: Practicing reading newspaper helps improve literacy skills.\nStep 4: Therefore, reading newspaper is one of the ways to practice your literacy.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Reading newspaper requires the ability to understand written language.",
+                "Literacy is the ability to read and write.",
+                "Practicing reading newspaper helps improve literacy skills.",
+                "Therefore, reading newspaper is one of the ways to practice your literacy."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9508073329925537,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do people typically do wh",
+            "question": "Question: What do people typically do while playing guitar?\n\nChoices:\na. cry\nb. hear sounds\nc. singing\nd. arthritis\ne. making music",
+            "answerKey": "c",
+            "cot_output": "Step 1: Playing guitar involves creating musical sounds.\nStep 2: Creating musical sounds can lead to singing along.\nStep 3: People typically sing while playing guitar to accompany the music.\nStep 4: Therefore, the most likely activity people do while playing guitar is singing.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Playing guitar involves creating musical sounds.",
+                "Creating musical sounds can lead to singing along.",
+                "People typically sing while playing guitar to accompany the music.",
+                "Therefore, the most likely activity people do while playing guitar is singing."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 1.0913524627685547,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would vinyl be an odd thi",
+            "question": "Question: What would vinyl be an odd thing to replace?\n\nChoices:\na. pants\nb. record albums\nc. record store\nd. cheese\ne. wallpaper",
+            "answerKey": "e",
+            "cot_output": "Step 1: Vinyl is commonly used for record albums.\nStep 2: Record albums are typically made of vinyl for its durability and sound quality.\nStep 3: Vinyl would be an odd thing to replace record albums with because it is the standard material used for them.\nStep 4: Pants, cheese, and wallpaper are not typically made of vinyl.\nStep 5: However, record stores are places where vinyl record albums are sold.\nStep 6: It would be odd to replace a record store with vinyl because it is the primary product sold there.\nConclusion: c. record store\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Vinyl is commonly used for record albums.",
+                "Record albums are typically made of vinyl for its durability and sound quality.",
+                "Vinyl would be an odd thing to replace record albums with because it is the standard material used for them.",
+                "Pants, cheese, and wallpaper are not typically made of vinyl.",
+                "However, record stores are places where vinyl record albums are sold.",
+                "It would be odd to replace a record store with vinyl because it is the primary product sold there."
+            ],
+            "pred": "c. record store",
+            "is_correct": false,
+            "elapsed_time": 1.757725477218628,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you want harmony, what is s",
+            "question": "Question: If you want harmony, what is something you should try to do with the world?\n\nChoices:\na. take time\nb. make noise\nc. make war\nd. make peace\ne. make haste",
+            "answerKey": "d",
+            "cot_output": "Step 1: If you want harmony, you should aim to create a peaceful environment.\nStep 2: Making war goes against the idea of peace and harmony.\nStep 3: Making noise can disrupt peace and harmony.\nStep 4: Taking time can help in resolving conflicts and achieving peace.\nStep 5: Making haste may lead to mistakes and conflicts, which can disrupt harmony.\nConclusion: d. make peace\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If you want harmony, you should aim to create a peaceful environment.",
+                "Making war goes against the idea of peace and harmony.",
+                "Making noise can disrupt peace and harmony.",
+                "Taking time can help in resolving conflicts and achieving peace.",
+                "Making haste may lead to mistakes and conflicts, which can disrupt harmony."
+            ],
+            "pred": "d. make peace",
+            "is_correct": true,
+            "elapsed_time": 1.3847637176513672,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where does a heifer's master l",
+            "question": "Question: Where does a heifer's master live?\n\nChoices:\na. farm house\nb. barnyard\nc. stockyard\nd. slaughter house\ne. eat cake",
+            "answerKey": "a",
+            "cot_output": "Step 1: A heifer is a young female cow.\nStep 2: A heifer is typically raised on a farm.\nStep 3: The master of a heifer would most likely live in a place where the heifer is kept.\nStep 4: Heifers are usually kept in a barnyard on a farm.\nStep 5: Therefore, a heifer's master would most likely live in a farm house.\n===FINAL_ANSWER_START===\nConclusion: a. farm house\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A heifer is a young female cow.",
+                "A heifer is typically raised on a farm.",
+                "The master of a heifer would most likely live in a place where the heifer is kept.",
+                "Heifers are usually kept in a barnyard on a farm.",
+                "Therefore, a heifer's master would most likely live in a farm house."
+            ],
+            "pred": "a. farm house",
+            "is_correct": true,
+            "elapsed_time": 1.3084173202514648,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Aside from water and nourishme",
+            "question": "Question: Aside from water and nourishment what does your dog need?\n\nChoices:\na. bone\nb. charm\nc. petted\nd. lots of attention\ne. walked",
+            "answerKey": "d",
+            "cot_output": "Step 1: Dogs need physical exercise to stay healthy and happy.\nStep 2: Walking is a form of physical exercise for dogs.\nStep 3: Therefore, aside from water and nourishment, dogs need to be walked.\n===FINAL_ANSWER_START===\nConclusion: e. walked\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Dogs need physical exercise to stay healthy and happy.",
+                "Walking is a form of physical exercise for dogs.",
+                "Therefore, aside from water and nourishment, dogs need to be walked."
+            ],
+            "pred": "e. walked",
+            "is_correct": true,
+            "elapsed_time": 1.0735843181610107,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Janet was watching the film be",
+            "question": "Question: Janet was watching the film because she liked what?\n\nChoices:\na. erection\nb. laughter\nc. being entertained\nd. fear\ne. bordem",
+            "answerKey": "c",
+            "cot_output": "Step 1: People watch films to be entertained.\nStep 2: Janet was watching the film.\nStep 3: Therefore, Janet was watching the film to be entertained.\nStep 4: Being entertained is the reason why Janet was watching the film.\n===FINAL_ANSWER_START===\nConclusion: c. being entertained\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "People watch films to be entertained.",
+                "Janet was watching the film.",
+                "Therefore, Janet was watching the film to be entertained.",
+                "Being entertained is the reason why Janet was watching the film."
+            ],
+            "pred": "c. being entertained",
+            "is_correct": true,
+            "elapsed_time": 1.0546152591705322,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What are you waiting alongside",
+            "question": "Question: What are you waiting alongside with when you're in a reception area?\n\nChoices:\na. motel\nb. chair\nc. hospital\nd. people\ne. hotels",
+            "answerKey": "d",
+            "cot_output": "Step 1: When you are in a reception area, you are typically waiting for something or someone.\nStep 2: In a motel reception area, you would be waiting for a room key or assistance.\nStep 3: In a hospital reception area, you would be waiting for medical attention or information.\nStep 4: In a hotel reception area, you would be waiting to check-in or for concierge services.\nStep 5: The most common thing people wait alongside with in a reception area is other people.\n===FINAL_ANSWER_START===\nConclusion: d. people\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When you are in a reception area, you are typically waiting for something or someone.",
+                "In a motel reception area, you would be waiting for a room key or assistance.",
+                "In a hospital reception area, you would be waiting for medical attention or information.",
+                "In a hotel reception area, you would be waiting to check-in or for concierge services.",
+                "The most common thing people wait alongside with in a reception area is other people."
+            ],
+            "pred": "d. people",
+            "is_correct": true,
+            "elapsed_time": 1.6494989395141602,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When drinking booze what can y",
+            "question": "Question: When drinking booze what can you do to stay busy?\n\nChoices:\na. reach tentative agreement\nb. stay in bed\nc. stop bicycle\nd. examine thing\ne. suicide",
+            "answerKey": "d",
+            "cot_output": "Step 1: Drinking booze can impair judgment and coordination.\nStep 2: Impaired judgment can lead to risky decisions.\nStep 3: Staying in bed is a safe and non-risky option to avoid accidents.\nStep 4: Therefore, to stay safe while drinking booze, one can choose to stay in bed.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Drinking booze can impair judgment and coordination.",
+                "Impaired judgment can lead to risky decisions.",
+                "Staying in bed is a safe and non-risky option to avoid accidents.",
+                "Therefore, to stay safe while drinking booze, one can choose to stay in bed."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.0685679912567139,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A fencing thrust with a sharp ",
+            "question": "Question: A fencing thrust with a sharp sword towards a person would result in what?\n\nChoices:\na. injury\nb. small cuts\nc. fever\nd. competition\ne. puncture wound",
+            "answerKey": "e",
+            "cot_output": "Step 1: A fencing thrust with a sharp sword is a forceful action.\nStep 2: Forceful actions with sharp objects can cause harm to a person.\nStep 3: Harm caused by a sharp object can result in a puncture wound.\nConclusion: e. puncture wound\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A fencing thrust with a sharp sword is a forceful action.",
+                "Forceful actions with sharp objects can cause harm to a person.",
+                "Harm caused by a sharp object can result in a puncture wound."
+            ],
+            "pred": "e. puncture wound",
+            "is_correct": false,
+            "elapsed_time": 1.3320910930633545,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Unlike a spider and his many s",
+            "question": "Question: Unlike a spider and his many sight seers, people only have what?\n\nChoices:\na. tongues\nb. names\nc. brains\nd. feelings\ne. two eyes",
+            "answerKey": "e",
+            "cot_output": "Step 1: Spiders have many sight seers, which implies they have multiple eyes.\nStep 2: People do not have multiple eyes like spiders.\nStep 3: Therefore, people only have two eyes.\n===FINAL_ANSWER_START===\nConclusion: e. two eyes\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Spiders have many sight seers, which implies they have multiple eyes.",
+                "People do not have multiple eyes like spiders.",
+                "Therefore, people only have two eyes."
+            ],
+            "pred": "e. two eyes",
+            "is_correct": false,
+            "elapsed_time": 1.0106606483459473,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where do adults use glue stick",
+            "question": "Question: Where do adults use glue sticks?\n\nChoices:\na. classroom\nb. desk drawer\nc. at school\nd. office\ne. kitchen drawer",
+            "answerKey": "d",
+            "cot_output": "Step 1: Glue sticks are commonly used for arts and crafts projects.\nStep 2: Adults often engage in arts and crafts projects at work.\nStep 3: Adults use glue sticks in an environment where they work.\nStep 4: The most common work environments for adults are offices.\nStep 5: Therefore, adults use glue sticks in the office.\n===FINAL_ANSWER_START===\nConclusion: d. office\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Glue sticks are commonly used for arts and crafts projects.",
+                "Adults often engage in arts and crafts projects at work.",
+                "Adults use glue sticks in an environment where they work.",
+                "The most common work environments for adults are offices.",
+                "Therefore, adults use glue sticks in the office."
+            ],
+            "pred": "d. office",
+            "is_correct": true,
+            "elapsed_time": 1.1968731880187988,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What could go on top of wood?",
+            "question": "Question: What could go on top of wood?\n\nChoices:\na. lumberyard\nb. synagogue\nc. floor\nd. carpet\ne. hardware store",
+            "answerKey": "d",
+            "cot_output": "Step 1: Wood is a material commonly used for construction and building purposes.\nStep 2: Lumberyard is a place where wood is stored and sold for construction purposes.\nStep 3: Synagogue is a place of worship and not typically associated with wood.\nStep 4: Floor can be made of wood, but the question is asking what could go on top of wood.\nStep 5: Carpet is a material that can be placed on top of a wooden floor.\nStep 6: Hardware store is a place where tools and building materials, including wood, are sold.\nConclusion: D. carpet\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Wood is a material commonly used for construction and building purposes.",
+                "Lumberyard is a place where wood is stored and sold for construction purposes.",
+                "Synagogue is a place of worship and not typically associated with wood.",
+                "Floor can be made of wood, but the question is asking what could go on top of wood.",
+                "Carpet is a material that can be placed on top of a wooden floor.",
+                "Hardware store is a place where tools and building materials, including wood, are sold."
+            ],
+            "pred": "D. carpet",
+            "is_correct": true,
+            "elapsed_time": 1.4876518249511719,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The artist was sitting quietly",
+            "question": "Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?\n\nChoices:\na. sadness\nb. anxiety\nc. inspiration\nd. discomfort\ne. insights",
+            "answerKey": "c",
+            "cot_output": "Step 1: The artist was sitting quietly pondering, indicating a state of contemplation.\nStep 2: Suddenly he began to paint, suggesting a sudden burst of creativity.\nStep 3: Creativity is often sparked by inspiration.\nStep 4: Therefore, the artist began to paint when inspiration struck him.\nConclusion: c. inspiration\n===FINAL_ANSWER_START===\nConclusion: c\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The artist was sitting quietly pondering, indicating a state of contemplation.",
+                "Suddenly he began to paint, suggesting a sudden burst of creativity.",
+                "Creativity is often sparked by inspiration.",
+                "Therefore, the artist began to paint when inspiration struck him."
+            ],
+            "pred": "c. inspiration",
+            "is_correct": true,
+            "elapsed_time": 1.1729774475097656,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Though the thin film seemed fr",
+            "question": "Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?\n\nChoices:\na. indestructible\nb. durable\nc. undestroyable\nd. indestructible\ne. unbreakable",
+            "answerKey": "d",
+            "cot_output": "Step 1: Thin film is fragile, but for its intended purpose it is nearly what? This implies that the thin film is designed to withstand certain conditions.\nStep 2: Fragile does not necessarily mean weak, it could mean delicate or easily damaged.\nStep 3: If the thin film is designed for a specific purpose, it must have been engineered to be strong enough to fulfill that purpose.\nStep 4: The film being nearly indestructible would make sense for it to serve its intended purpose effectively.\nConclusion: The thin film, though fragile, is actually nearly indestructible for its intended purpose.\n===FINAL_ANSWER_START===\nConclusion: D. indestructible\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Thin film is fragile, but for its intended purpose it is nearly what? This implies that the thin film is designed to withstand certain conditions.",
+                "Fragile does not necessarily mean weak, it could mean delicate or easily damaged.",
+                "If the thin film is designed for a specific purpose, it must have been engineered to be strong enough to fulfill that purpose.",
+                "The film being nearly indestructible would make sense for it to serve its intended purpose effectively."
+            ],
+            "pred": "The thin film, though fragile, is actually nearly indestructible for its intended purpose.",
+            "is_correct": true,
+            "elapsed_time": 1.4071590900421143,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where could you find a toilet ",
+            "question": "Question: Where could you find a toilet that only friends can use?\n\nChoices:\na. rest area\nb. school\nc. stadium\nd. apartment\ne. hospital",
+            "answerKey": "d",
+            "cot_output": "Step 1: A rest area is a public facility where strangers passing through can use the toilet.\nStep 2: In a school, students and staff members, who are not necessarily friends, can use the toilet.\nStep 3: At a stadium, attendees who may not know each other can use the toilet.\nStep 4: In an apartment building, residents and their guests, who may or may not be friends, can use the toilet.\nStep 5: In a hospital, patients, visitors, and staff members, who are not necessarily friends, can use the toilet.\nStep 6: Friends typically have a closer relationship and may have access to private or restricted areas.\nStep 7: The most likely place to find a toilet that only friends can use is in an apartment.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A rest area is a public facility where strangers passing through can use the toilet.",
+                "In a school, students and staff members, who are not necessarily friends, can use the toilet.",
+                "At a stadium, attendees who may not know each other can use the toilet.",
+                "In an apartment building, residents and their guests, who may or may not be friends, can use the toilet.",
+                "In a hospital, patients, visitors, and staff members, who are not necessarily friends, can use the toilet.",
+                "Friends typically have a closer relationship and may have access to private or restricted areas.",
+                "The most likely place to find a toilet that only friends can use is in an apartment."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 1.715165615081787,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is someone who isn't clev",
+            "question": "Question: What is someone who isn't clever, bright, or competent called?\n\nChoices:\na. clumsy\nb. ineffectual\nc. dull\nd. clumsy\ne. stupid",
+            "answerKey": "e",
+            "cot_output": "Step 1: Someone who isn't clever, bright, or competent is likely lacking in intelligence or skill.\nStep 2: The opposite of clever, bright, or competent would be dull or unintelligent.\nStep 3: Therefore, the most appropriate term for someone who isn't clever, bright, or competent is \"c. dull\".\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Someone who isn't clever, bright, or competent is likely lacking in intelligence or skill.",
+                "The opposite of clever, bright, or competent would be dull or unintelligent.",
+                "Therefore, the most appropriate term for someone who isn't clever, bright, or competent is \"c. dull\"."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 1.0553038120269775,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When wildlife reproduce we oft",
+            "question": "Question: When wildlife reproduce we often refer to what comes out as what?\n\nChoices:\na. raise children\nb. have children\nc. photo copy\nd. offspring\ne. accidently got pregnant somehow",
+            "answerKey": "d",
+            "cot_output": "Step 1: Wildlife reproduce to continue their species.\nStep 2: When wildlife reproduce, they give birth to young ones.\nStep 3: The young ones produced by wildlife are referred to as their offspring.\nConclusion: d. offspring\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Wildlife reproduce to continue their species.",
+                "When wildlife reproduce, they give birth to young ones.",
+                "The young ones produced by wildlife are referred to as their offspring."
+            ],
+            "pred": "d. offspring",
+            "is_correct": true,
+            "elapsed_time": 1.2538917064666748,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The weasel was becoming a prob",
+            "question": "Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?\n\nChoices:\na. forrest\nb. barn\nc. public office\nd. out of doors\ne. freezer",
+            "answerKey": "b",
+            "cot_output": "Step 1: We know that the weasel was getting into the chicken eggs, which implies that the eggs were in a place accessible to the weasel.\nStep 2: The most likely place where chicken eggs are kept is a barn.\nStep 3: Therefore, the chicken eggs were most likely kept in the barn.\nConclusion: B. barn\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "We know that the weasel was getting into the chicken eggs, which implies that the eggs were in a place accessible to the weasel.",
+                "The most likely place where chicken eggs are kept is a barn.",
+                "Therefore, the chicken eggs were most likely kept in the barn."
+            ],
+            "pred": "B. barn",
+            "is_correct": true,
+            "elapsed_time": 1.034374713897705,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Blue read material outside of ",
+            "question": "Question: Blue read material outside of his comfort zone because he wanted to gain what?\n\nChoices:\na. new perspective\nb. entertained\nc. understanding\nd. hunger\ne. tired eyes",
+            "answerKey": "a",
+            "cot_output": "Step 1: Blue read material outside of his comfort zone.\nStep 2: Reading material outside of one's comfort zone can lead to exposure to new ideas and perspectives.\nStep 3: Exposure to new ideas and perspectives can help in gaining a new perspective.\nStep 4: Therefore, Blue read material outside of his comfort zone to gain a new perspective.\n===FINAL_ANSWER_START===\nConclusion: a. new perspective\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Blue read material outside of his comfort zone.",
+                "Reading material outside of one's comfort zone can lead to exposure to new ideas and perspectives.",
+                "Exposure to new ideas and perspectives can help in gaining a new perspective.",
+                "Therefore, Blue read material outside of his comfort zone to gain a new perspective."
+            ],
+            "pred": "a. new perspective",
+            "is_correct": true,
+            "elapsed_time": 1.097313642501831,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_After he got hired he hoped fo",
+            "question": "Question: After he got hired he hoped for success at his what?\n\nChoices:\na. vocation\nb. new job\nc. michigan\nd. working hard\ne. manual",
+            "answerKey": "b",
+            "cot_output": "Step 1: Getting hired usually refers to obtaining a new job.\nStep 2: When someone hopes for success after getting hired, they are typically referring to success in their new job.\nStep 3: Therefore, the most appropriate choice would be b. new job.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Getting hired usually refers to obtaining a new job.",
+                "When someone hopes for success after getting hired, they are typically referring to success in their new job.",
+                "Therefore, the most appropriate choice would be b. new job."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.92220139503479,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Committing perjury is a seriou",
+            "question": "Question: Committing perjury is a serious what?\n\nChoices:\na. indictment\nb. crime\nc. violence\nd. lie\ne. go to jail",
+            "answerKey": "b",
+            "cot_output": "Step 1: Perjury is the act of lying under oath.\nStep 2: Lying under oath is a violation of the law.\nStep 3: Violating the law is considered a crime.\nStep 4: Therefore, committing perjury is a serious crime.\n===FINAL_ANSWER_START===\nConclusion: b. crime\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Perjury is the act of lying under oath.",
+                "Lying under oath is a violation of the law.",
+                "Violating the law is considered a crime.",
+                "Therefore, committing perjury is a serious crime."
+            ],
+            "pred": "b. crime",
+            "is_correct": true,
+            "elapsed_time": 0.9763600826263428,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are prone to postpone w",
+            "question": "Question: If you are prone to postpone work what will you have to do in order to finish on time?\n\nChoices:\na. eat\nb. hasten\nc. antedate\nd. bring forward\ne. advance",
+            "answerKey": "b",
+            "cot_output": "Step 1: If you are prone to postpone work, you are likely to be behind schedule.\nStep 2: To finish on time when you are behind schedule, you need to speed up the work.\nStep 3: Hastening the work is the most appropriate action to take in order to finish on time.\n===FINAL_ANSWER_START===\nConclusion: b. hasten\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If you are prone to postpone work, you are likely to be behind schedule.",
+                "To finish on time when you are behind schedule, you need to speed up the work.",
+                "Hastening the work is the most appropriate action to take in order to finish on time."
+            ],
+            "pred": "b. hasten",
+            "is_correct": true,
+            "elapsed_time": 1.0670642852783203,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James wanted to find an old un",
+            "question": "Question: James wanted to find an old underground map from the 50s.  Where might he look for one?\n\nChoices:\na. library\nb. subway station\nc. county engineer's office\nd. super market\ne. home",
+            "answerKey": "a",
+            "cot_output": "Step 1: An old underground map from the 50s would likely be found in a place related to transportation or infrastructure.\nStep 2: The library may have historical maps, but it is not specifically related to transportation.\nStep 3: The subway station is directly related to underground transportation and may have historical maps.\nStep 4: The county engineer's office is responsible for infrastructure planning and may have historical maps of underground systems.\nStep 5: A supermarket is unlikely to have historical maps, especially of underground systems.\nStep 6: James is looking for an old underground map from the 50s, so the best place to look would be the subway station.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "An old underground map from the 50s would likely be found in a place related to transportation or infrastructure.",
+                "The library may have historical maps, but it is not specifically related to transportation.",
+                "The subway station is directly related to underground transportation and may have historical maps.",
+                "The county engineer's office is responsible for infrastructure planning and may have historical maps of underground systems.",
+                "A supermarket is unlikely to have historical maps, especially of underground systems.",
+                "James is looking for an old underground map from the 50s, so the best place to look would be the subway station."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.466641902923584,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Sean was in a rush to get home",
+            "question": "Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?\n\nChoices:\na. take time\nb. dawdle\nc. go slowly\nd. ocean\ne. slow down",
+            "answerKey": "e",
+            "cot_output": "Step 1: When the light turned yellow, Sean was in a rush to get home.\nStep 2: Sean was forced to make a decision based on the changing traffic signal.\nStep 3: In order to ensure safety and avoid running a red light, Sean had to adjust his driving.\nStep 4: The most appropriate action for Sean to take in this situation would be to slow down.\nConclusion: e. slow down\n===FINAL_ANSWER_START===\nConclusion: e. slow down\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When the light turned yellow, Sean was in a rush to get home.",
+                "Sean was forced to make a decision based on the changing traffic signal.",
+                "In order to ensure safety and avoid running a red light, Sean had to adjust his driving.",
+                "The most appropriate action for Sean to take in this situation would be to slow down."
+            ],
+            "pred": "e. slow down",
+            "is_correct": false,
+            "elapsed_time": 1.4232158660888672,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would a person be doing ",
+            "question": "Question: Where would a person be doing when having to wait their turn?\n\nChoices:\na. have patience\nb. get in line\nc. sing\nd. stand in line\ne. turn left",
+            "answerKey": "d",
+            "cot_output": "Step 1: When a person has to wait their turn, they need to be in a specific order.\nStep 2: Being in a specific order usually involves forming a line.\nStep 3: Therefore, the person would be getting in line.\nStep 4: The most appropriate choice from the given options is \"get in line.\"\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a person has to wait their turn, they need to be in a specific order.",
+                "Being in a specific order usually involves forming a line.",
+                "Therefore, the person would be getting in line.",
+                "The most appropriate choice from the given options is \"get in line.\""
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.3020715713500977,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_She was always helping at the ",
+            "question": "Question: She was always helping at the senior center, it brought her what?\n\nChoices:\na. satisfaction\nb. heart\nc. feel better\nd. pay\ne. happiness",
+            "answerKey": "e",
+            "cot_output": "Step 1: Helping at the senior center is a selfless act.\nStep 2: Selfless acts often bring a sense of fulfillment and satisfaction.\nStep 3: Therefore, helping at the senior center brought her satisfaction.\nStep 4: Feeling satisfied can lead to a sense of happiness.\nConclusion: e. happiness\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Helping at the senior center is a selfless act.",
+                "Selfless acts often bring a sense of fulfillment and satisfaction.",
+                "Therefore, helping at the senior center brought her satisfaction.",
+                "Feeling satisfied can lead to a sense of happiness."
+            ],
+            "pred": "e. happiness",
+            "is_correct": false,
+            "elapsed_time": 1.2434453964233398,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The lock kept the steering whe",
+            "question": "Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?\n\nChoices:\na. keep cloesd\nb. train\nc. ignition switch\nd. drawer\ne. firearm",
+            "answerKey": "c",
+            "cot_output": "Step 1: The lock kept the steering wheel from moving, indicating that the thief was trying to steal the car.\nStep 2: In order to steal the car, the thief would need to start the engine.\nStep 3: The component responsible for starting the engine is the ignition switch.\nConclusion: c. ignition switch\n===FINAL_ANSWER_START===\nConclusion: c. ignition switch\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The lock kept the steering wheel from moving, indicating that the thief was trying to steal the car.",
+                "In order to steal the car, the thief would need to start the engine.",
+                "The component responsible for starting the engine is the ignition switch."
+            ],
+            "pred": "c. ignition switch",
+            "is_correct": true,
+            "elapsed_time": 1.247868537902832,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Who is a police officer likely",
+            "question": "Question: Who is a police officer likely to work for?\n\nChoices:\na. beat\nb. direct traffic\nc. city\nd. street\ne. president",
+            "answerKey": "c",
+            "cot_output": "Step 1: A police officer is responsible for enforcing laws and maintaining public order.\nStep 2: To enforce laws and maintain public order, a police officer needs to work for an organization or entity that has the authority to establish and enforce laws.\nStep 3: The most likely entity that has the authority to establish and enforce laws in a specific area is the city government.\nStep 4: Therefore, a police officer is likely to work for the city.\n===FINAL_ANSWER_START===\nConclusion: c. city\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A police officer is responsible for enforcing laws and maintaining public order.",
+                "To enforce laws and maintain public order, a police officer needs to work for an organization or entity that has the authority to establish and enforce laws.",
+                "The most likely entity that has the authority to establish and enforce laws in a specific area is the city government.",
+                "Therefore, a police officer is likely to work for the city."
+            ],
+            "pred": "c. city",
+            "is_correct": true,
+            "elapsed_time": 1.4608139991760254,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you have leftover cake, whe",
+            "question": "Question: If you have leftover cake, where would you put it?\n\nChoices:\na. quandry\nb. refrigerator\nc. oven\nd. night stand\ne. bakery",
+            "answerKey": "b",
+            "cot_output": "Step 1: Leftover cake needs to be stored properly to maintain freshness.\nStep 2: Storing food in a nightstand is not a common practice and would not keep the cake fresh.\nStep 3: Storing food in an oven is not ideal as it can dry out the cake and potentially cause a fire hazard.\nStep 4: Storing food in a bakery is not appropriate as it is meant for selling baked goods, not storing them.\nStep 5: The most common and appropriate place to store leftover cake to maintain freshness is in the refrigerator.\n===FINAL_ANSWER_START===\nConclusion: B. refrigerator\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Leftover cake needs to be stored properly to maintain freshness.",
+                "Storing food in a nightstand is not a common practice and would not keep the cake fresh.",
+                "Storing food in an oven is not ideal as it can dry out the cake and potentially cause a fire hazard.",
+                "Storing food in a bakery is not appropriate as it is meant for selling baked goods, not storing them.",
+                "The most common and appropriate place to store leftover cake to maintain freshness is in the refrigerator."
+            ],
+            "pred": "B. refrigerator",
+            "is_correct": true,
+            "elapsed_time": 1.4663538932800293,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A human wants to submerge hims",
+            "question": "Question: A human wants to submerge himself in water, what should he use?\n\nChoices:\na. whirlpool bath\nb. coffee cup\nc. cup\nd. soft drink\ne. puddle",
+            "answerKey": "a",
+            "cot_output": "Step 1: Humans typically submerge themselves in water in a bathtub or pool.\nStep 2: A whirlpool bath is a type of bathtub that allows for submersion in water.\nStep 3: A coffee cup, cup, and soft drink are not suitable for submerging a human due to their small size.\nStep 4: A puddle is also not suitable for submerging a human as it is shallow and not designed for submersion.\nConclusion: A. whirlpool bath\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Humans typically submerge themselves in water in a bathtub or pool.",
+                "A whirlpool bath is a type of bathtub that allows for submersion in water.",
+                "A coffee cup, cup, and soft drink are not suitable for submerging a human due to their small size.",
+                "A puddle is also not suitable for submerging a human as it is shallow and not designed for submersion."
+            ],
+            "pred": "A. whirlpool bath",
+            "is_correct": true,
+            "elapsed_time": 1.3110675811767578,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a doormat likely to b",
+            "question": "Question: Where is a doormat likely to be in front of?\n\nChoices:\na. facade\nb. front door\nc. doorway\nd. entrance porch\ne. hallway",
+            "answerKey": "b",
+            "cot_output": "Step 1: A doormat is typically placed in front of an entrance to a building.\nStep 2: The entrance to a building is usually located at the front.\nStep 3: The front of a building is where the facade is situated.\nStep 4: Therefore, a doormat is likely to be in front of the facade.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A doormat is typically placed in front of an entrance to a building.",
+                "The entrance to a building is usually located at the front.",
+                "The front of a building is where the facade is situated.",
+                "Therefore, a doormat is likely to be in front of the facade."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 1.2290563583374023,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Bob the lizard lives in a warm",
+            "question": "Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?\n\nChoices:\na. rock\nb. tropical rainforest\nc. jazz club\nd. new mexico\ne. rocky places",
+            "answerKey": "b",
+            "cot_output": "Step 1: Bob the lizard lives in a warm place with lots of water.\nStep 2: Lizards typically prefer warm and humid environments.\nStep 3: Tropical rainforests are warm and have lots of water.\nStep 4: Bob the lizard probably lives in a tropical rainforest.\nConclusion: b. tropical rainforest\n===FINAL_ANSWER_START===\nConclusion: b\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Bob the lizard lives in a warm place with lots of water.",
+                "Lizards typically prefer warm and humid environments.",
+                "Tropical rainforests are warm and have lots of water.",
+                "Bob the lizard probably lives in a tropical rainforest."
+            ],
+            "pred": "b. tropical rainforest",
+            "is_correct": true,
+            "elapsed_time": 1.4154880046844482,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_August needed  money because h",
+            "question": "Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?\n\nChoices:\na. control people\nb. pay bills\nc. hurt people\nd. buy food\ne. get things",
+            "answerKey": "b",
+            "cot_output": "Step 1: August needed money because he was afraid of being kicked out of his house.\nStep 2: Being kicked out of his house implies he needs money to fulfill some financial obligation.\nStep 3: The most common financial obligation related to housing is paying bills.\nStep 4: Therefore, August needed money to pay bills.\n===FINAL_ANSWER_START===\nConclusion: b. pay bills\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "August needed money because he was afraid of being kicked out of his house.",
+                "Being kicked out of his house implies he needs money to fulfill some financial obligation.",
+                "The most common financial obligation related to housing is paying bills.",
+                "Therefore, August needed money to pay bills."
+            ],
+            "pred": "b. pay bills",
+            "is_correct": true,
+            "elapsed_time": 1.0769567489624023,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_He needed more information to ",
+            "question": "Question: He needed more information to fix it, so he consulted the what?\n\nChoices:\na. chickens\nb. google\nc. newspaper\nd. online\ne. manual",
+            "answerKey": "e",
+            "cot_output": "Step 1: He needed more information to fix it\nStep 2: The most common source of information for fixing things is either a manual or online resources\nStep 3: Consulting chickens or a newspaper would not provide the necessary information\nStep 4: Therefore, he consulted either online or a manual\nStep 5: Online resources are more easily accessible and provide a wider range of information\nStep 6: Therefore, he consulted online\n===FINAL_ANSWER_START===\nConclusion: d. online\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "He needed more information to fix it",
+                "The most common source of information for fixing things is either a manual or online resources",
+                "Consulting chickens or a newspaper would not provide the necessary information",
+                "Therefore, he consulted either online or a manual",
+                "Online resources are more easily accessible and provide a wider range of information",
+                "Therefore, he consulted online"
+            ],
+            "pred": "d. online",
+            "is_correct": false,
+            "elapsed_time": 1.2596209049224854,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you put a picture fr",
+            "question": "Question: Where can you put a picture frame when it's not hung vertically?\n\nChoices:\na. art show\nb. wall\nc. newspaper\nd. car\ne. table",
+            "answerKey": "e",
+            "cot_output": "Step 1: A picture frame is typically hung vertically on a wall.\nStep 2: If the picture frame is not hung vertically on a wall, it must be placed on a surface.\nStep 3: The choices that involve surfaces are table and car.\nStep 4: A picture frame is not typically placed on a car, so the only logical option is a table.\nConclusion: e. table\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A picture frame is typically hung vertically on a wall.",
+                "If the picture frame is not hung vertically on a wall, it must be placed on a surface.",
+                "The choices that involve surfaces are table and car.",
+                "A picture frame is not typically placed on a car, so the only logical option is a table."
+            ],
+            "pred": "e. table",
+            "is_correct": false,
+            "elapsed_time": 1.2509143352508545,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James knew that he shouldn't h",
+            "question": "Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?\n\nChoices:\na. lose money\nb. fun\nc. have no money\nd. broken law\ne. relaxation",
+            "answerKey": "d",
+            "cot_output": "Step 1: Buying beer for minors is illegal.\nStep 2: James knew it was wrong to break the law.\nStep 3: James did not receive any payment for buying the beer.\nStep 4: Therefore, the negative consequence of buying beer for minors was not financial gain.\nStep 5: The main issue with buying beer for minors was the act of breaking the law.\n===FINAL_ANSWER_START===\nConclusion: d. broken law\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Buying beer for minors is illegal.",
+                "James knew it was wrong to break the law.",
+                "James did not receive any payment for buying the beer.",
+                "Therefore, the negative consequence of buying beer for minors was not financial gain.",
+                "The main issue with buying beer for minors was the act of breaking the law."
+            ],
+            "pred": "d. broken law",
+            "is_correct": true,
+            "elapsed_time": 1.1612458229064941,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is the result of applying",
+            "question": "Question: What is the result of applying for  job?\n\nChoices:\na. anxiety and fear\nb. increased workload\nc. praise\nd. less sleep\ne. being employed",
+            "answerKey": "e",
+            "cot_output": "Step 1: Applying for a job typically involves submitting a resume and attending interviews.\nStep 2: The process of submitting a resume and attending interviews can be stressful and nerve-wracking.\nStep 3: The stress and nervousness can lead to anxiety and fear.\nStep 4: Anxiety and fear are common emotions associated with job applications.\nStep 5: Therefore, the result of applying for a job is often anxiety and fear.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Applying for a job typically involves submitting a resume and attending interviews.",
+                "The process of submitting a resume and attending interviews can be stressful and nerve-wracking.",
+                "The stress and nervousness can lead to anxiety and fear.",
+                "Anxiety and fear are common emotions associated with job applications.",
+                "Therefore, the result of applying for a job is often anxiety and fear."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 1.2992312908172607,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What must someone do before th",
+            "question": "Question: What must someone do before they shop?\n\nChoices:\na. get money\nb. have money\nc. bring cash\nd. go to market\ne. bring cash",
+            "answerKey": "a",
+            "cot_output": "Step 1: In order to shop, one must have the means to pay for the items.\nStep 2: Having money is necessary to pay for the items.\nStep 3: Therefore, one must have money before they can shop.\nStep 4: The only choice that aligns with this logical chain is choice b. have money.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "In order to shop, one must have the means to pay for the items.",
+                "Having money is necessary to pay for the items.",
+                "Therefore, one must have money before they can shop.",
+                "The only choice that aligns with this logical chain is choice b. have money."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.2280128002166748,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Because John was first violin,",
+            "question": "Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?\n\nChoices:\na. music store\nb. obesity\nc. symphony orchestra\nd. ochestra\ne. violin case",
+            "answerKey": "e",
+            "cot_output": "Step 1: John was first violin in a group.\nStep 2: Being first violin in a group usually means being part of a symphony orchestra.\nStep 3: In a symphony orchestra, the first violinist typically needs to bring their violin to work.\nStep 4: Therefore, John needed to bring a violin case to work every day.\n===FINAL_ANSWER_START===\nConclusion: e. violin case\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "John was first violin in a group.",
+                "Being first violin in a group usually means being part of a symphony orchestra.",
+                "In a symphony orchestra, the first violinist typically needs to bring their violin to work.",
+                "Therefore, John needed to bring a violin case to work every day."
+            ],
+            "pred": "e. violin case",
+            "is_correct": false,
+            "elapsed_time": 1.2592999935150146,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is a place that usually d",
+            "question": "Question: What is a place that usually does not have an elevator and that sometimes has a telephone book?\n\nChoices:\na. at hotel\nb. kitchen\nc. library\nd. telephone booth\ne. house",
+            "answerKey": "e",
+            "cot_output": "Step 1: Places that usually do not have elevators are typically smaller buildings or structures.\nStep 2: A hotel is a larger building and usually has an elevator for guests.\nStep 3: A kitchen is typically found in a house, which may or may not have an elevator.\nStep 4: A library is usually a larger building and likely has an elevator for accessibility.\nStep 5: A telephone booth is a small structure and does not have an elevator.\nStep 6: Houses usually do not have elevators, but they may have a telephone book.\nConclusion: d. telephone booth\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Places that usually do not have elevators are typically smaller buildings or structures.",
+                "A hotel is a larger building and usually has an elevator for guests.",
+                "A kitchen is typically found in a house, which may or may not have an elevator.",
+                "A library is usually a larger building and likely has an elevator for accessibility.",
+                "A telephone booth is a small structure and does not have an elevator.",
+                "Houses usually do not have elevators, but they may have a telephone book."
+            ],
+            "pred": "d. telephone booth",
+            "is_correct": false,
+            "elapsed_time": 1.820882797241211,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Who is likely to be excited ab",
+            "question": "Question: Who is likely to be excited about a crab?\n\nChoices:\na. fish market\nb. pet shop\nc. fishmongers\nd. intertidal zone\ne. obesity",
+            "answerKey": "c",
+            "cot_output": "Step 1: A crab is a sea creature commonly found in the ocean.\nStep 2: The intertidal zone is the area where the ocean meets the land, making it a likely habitat for crabs.\nStep 3: People who work or visit the intertidal zone, such as fishmongers, are likely to encounter crabs.\nStep 4: Fishmongers are likely to be excited about crabs because they can catch and sell them.\nConclusion: c. fishmongers\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A crab is a sea creature commonly found in the ocean.",
+                "The intertidal zone is the area where the ocean meets the land, making it a likely habitat for crabs.",
+                "People who work or visit the intertidal zone, such as fishmongers, are likely to encounter crabs.",
+                "Fishmongers are likely to be excited about crabs because they can catch and sell them."
+            ],
+            "pred": "c. fishmongers",
+            "is_correct": true,
+            "elapsed_time": 2.9696273803710938,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can a human find clothes",
+            "question": "Question: Where can a human find clothes that aren't pants?\n\nChoices:\na. pants shop\nb. on planet earth\nc. dress shop\nd. school\ne. train wreck",
+            "answerKey": "c",
+            "cot_output": "Step 1: Clothes that aren't pants would typically refer to items like shirts, dresses, skirts, etc.\nStep 2: Pants shop specifically sells pants, so it is unlikely to find clothes that aren't pants there.\nStep 3: On planet earth is a general location and doesn't specify where exactly to find clothes that aren't pants.\nStep 4: A dress shop is a store that specializes in selling dresses, which are clothes that aren't pants.\nStep 5: School is a place for education and not typically a place to buy clothes.\nStep 6: A train wreck is a disaster site and not a place to find clothes.\nConclusion: The most likely place to find clothes that aren't pants is a dress shop.\n===FINAL_ANSWER_START===\nConclusion: C. dress shop\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Clothes that aren't pants would typically refer to items like shirts, dresses, skirts, etc.",
+                "Pants shop specifically sells pants, so it is unlikely to find clothes that aren't pants there.",
+                "On planet earth is a general location and doesn't specify where exactly to find clothes that aren't pants.",
+                "A dress shop is a store that specializes in selling dresses, which are clothes that aren't pants.",
+                "School is a place for education and not typically a place to buy clothes.",
+                "A train wreck is a disaster site and not a place to find clothes."
+            ],
+            "pred": "The most likely place to find clothes that aren't pants is a dress shop.",
+            "is_correct": true,
+            "elapsed_time": 2.2873802185058594,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If I was getting drunk, and pe",
+            "question": "Question: If I was getting drunk, and people couldn't understand me, what might I be having?\n\nChoices:\na. a seizure\nb. slurred speech\nc. death\nd. forgetfulness\ne. pass out",
+            "answerKey": "b",
+            "cot_output": "Step 1: Getting drunk can impair cognitive functions and motor skills.\nStep 2: Impaired cognitive functions can lead to difficulty in speaking clearly.\nStep 3: Difficulty in speaking clearly is known as slurred speech.\nStep 4: Therefore, if people couldn't understand you while getting drunk, you might be having slurred speech.\n===FINAL_ANSWER_START===\nConclusion: b. slurred speech\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Getting drunk can impair cognitive functions and motor skills.",
+                "Impaired cognitive functions can lead to difficulty in speaking clearly.",
+                "Difficulty in speaking clearly is known as slurred speech.",
+                "Therefore, if people couldn't understand you while getting drunk, you might be having slurred speech."
+            ],
+            "pred": "b. slurred speech",
+            "is_correct": true,
+            "elapsed_time": 1.1942589282989502,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When a person is beginning wor",
+            "question": "Question: When a person is beginning work, what are they building?\n\nChoices:\na. time\nb. accomplishing\nc. working\nd. momentum\ne. tiredness",
+            "answerKey": "d",
+            "cot_output": "Step 1: When a person is beginning work, they are expending energy and effort.\nStep 2: Exerting energy and effort leads to the creation of progress.\nStep 3: Progress leads to the development of a sense of achievement.\nStep 4: Achieving small milestones builds confidence and motivation.\nStep 5: Confidence and motivation lead to the creation of momentum.\nConclusion: d. momentum\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a person is beginning work, they are expending energy and effort.",
+                "Exerting energy and effort leads to the creation of progress.",
+                "Progress leads to the development of a sense of achievement.",
+                "Achieving small milestones builds confidence and motivation.",
+                "Confidence and motivation lead to the creation of momentum."
+            ],
+            "pred": "d. momentum",
+            "is_correct": true,
+            "elapsed_time": 1.2836480140686035,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A child wants to play, what wo",
+            "question": "Question: A child wants to play, what would they likely want?\n\nChoices:\na. fall down\nb. breathe\nc. play tag\nd. be dismembered by a chainsaw\ne. become adult",
+            "answerKey": "c",
+            "cot_output": "Step 1: Children typically engage in activities that involve movement and interaction.\nStep 2: Playing tag involves movement and interaction with others.\nStep 3: Falling down and being dismembered by a chainsaw are dangerous activities that children would not likely want to do.\nStep 4: Breathing is a necessary bodily function, not typically considered a desired activity for play.\nStep 5: Becoming an adult is a long-term goal, not a typical activity for play.\nConclusion: c. play tag\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Children typically engage in activities that involve movement and interaction.",
+                "Playing tag involves movement and interaction with others.",
+                "Falling down and being dismembered by a chainsaw are dangerous activities that children would not likely want to do.",
+                "Breathing is a necessary bodily function, not typically considered a desired activity for play.",
+                "Becoming an adult is a long-term goal, not a typical activity for play."
+            ],
+            "pred": "c. play tag",
+            "is_correct": true,
+            "elapsed_time": 1.4957866668701172,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Talking to the same person abo",
+            "question": "Question: Talking to the same person about the same thing over and over again is something someone can what?\n\nChoices:\na. social life\nb. friendship\nc. eye contact\nd. get tired of\ne. learn lessons from",
+            "answerKey": "d",
+            "cot_output": "Step 1: Talking to the same person about the same thing can lead to boredom.\nStep 2: Boredom can lead to feeling tired of the conversation.\nStep 3: Feeling tired of the conversation can result in wanting to stop talking to that person about that topic.\nStep 4: Therefore, talking to the same person about the same thing over and over again is something someone can get tired of.\n===FINAL_ANSWER_START===\nConclusion: d. get tired of\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Talking to the same person about the same thing can lead to boredom.",
+                "Boredom can lead to feeling tired of the conversation.",
+                "Feeling tired of the conversation can result in wanting to stop talking to that person about that topic.",
+                "Therefore, talking to the same person about the same thing over and over again is something someone can get tired of."
+            ],
+            "pred": "d. get tired of",
+            "is_correct": true,
+            "elapsed_time": 1.212691307067871,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The teacher doesn't tolerate n",
+            "question": "Question: The teacher doesn't tolerate noise during a test in their what?\n\nChoices:\na. movie theatre\nb. bowling alley\nc. factory\nd. store\ne. classroom",
+            "answerKey": "e",
+            "cot_output": "Step 1: A test is typically associated with a classroom setting.\nStep 2: In a classroom, students are expected to be quiet and focused during a test.\nStep 3: The teacher's expectation of silence during a test indicates that noise is not tolerated.\nStep 4: Therefore, the teacher doesn't tolerate noise during a test in their classroom.\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A test is typically associated with a classroom setting.",
+                "In a classroom, students are expected to be quiet and focused during a test.",
+                "The teacher's expectation of silence during a test indicates that noise is not tolerated.",
+                "Therefore, the teacher doesn't tolerate noise during a test in their classroom."
+            ],
+            "pred": "e",
+            "is_correct": true,
+            "elapsed_time": 1.2468476295471191,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The freeway had no traffic and",
+            "question": "Question: The freeway had no traffic and few buildings, where is it?\n\nChoices:\na. california\nb. countryside\nc. big town\nd. florida\ne. america",
+            "answerKey": "b",
+            "cot_output": "Step 1: Freeways with no traffic and few buildings are typically found in less populated areas.\nStep 2: Less populated areas are more common in the countryside.\nStep 3: Therefore, the freeway is most likely in the countryside.\nConclusion: B. countryside\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Freeways with no traffic and few buildings are typically found in less populated areas.",
+                "Less populated areas are more common in the countryside.",
+                "Therefore, the freeway is most likely in the countryside."
+            ],
+            "pred": "B. countryside",
+            "is_correct": true,
+            "elapsed_time": 1.202974557876587,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you go if you want",
+            "question": "Question: Where would you go if you wanted to have fun with a few people?\n\nChoices:\na. watching television\nb. good\nc. cinema\nd. friend's house\ne. fairgrounds",
+            "answerKey": "d",
+            "cot_output": "Step 1: If I want to have fun with a few people, I would prefer activities that involve social interaction.\nStep 2: Watching television is a solitary activity and does not involve social interaction.\nStep 3: Going to the cinema involves social interaction but is a more formal setting and may not allow for much interaction with a few people.\nStep 4: Going to a friend's house allows for social interaction in a comfortable and familiar setting.\nStep 5: Fairgrounds offer a variety of activities that can be enjoyed with a few people, such as rides and games.\nConclusion: e. fairgrounds\n===FINAL_ANSWER_START===\nConclusion: e. fairgrounds\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If I want to have fun with a few people, I would prefer activities that involve social interaction.",
+                "Watching television is a solitary activity and does not involve social interaction.",
+                "Going to the cinema involves social interaction but is a more formal setting and may not allow for much interaction with a few people.",
+                "Going to a friend's house allows for social interaction in a comfortable and familiar setting.",
+                "Fairgrounds offer a variety of activities that can be enjoyed with a few people, such as rides and games."
+            ],
+            "pred": "e. fairgrounds",
+            "is_correct": true,
+            "elapsed_time": 1.680917739868164,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If there is a place that is ho",
+            "question": "Question: If there is a place that is hot and arid, what could it be?\n\nChoices:\na. bland\nb. lifeless\nc. sandy\nd. neutral\ne. freezing",
+            "answerKey": "b",
+            "cot_output": "Step 1: Hot and arid conditions typically indicate a lack of moisture.\nStep 2: A lack of moisture often results in a dry and barren environment.\nStep 3: A dry and barren environment is commonly associated with sandy terrain.\nStep 4: Therefore, the place that is hot and arid is likely to be sandy.\nConclusion: c. sandy\n===FINAL_ANSWER_START===\nConclusion: c\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hot and arid conditions typically indicate a lack of moisture.",
+                "A lack of moisture often results in a dry and barren environment.",
+                "A dry and barren environment is commonly associated with sandy terrain.",
+                "Therefore, the place that is hot and arid is likely to be sandy."
+            ],
+            "pred": "c. sandy",
+            "is_correct": false,
+            "elapsed_time": 1.2315001487731934,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is likely to satisfy some",
+            "question": "Question: What is likely to satisfy someone's curiosity?\n\nChoices:\na. hear news\nb. read book\nc. see favorite show\nd. comedy show\ne. go somewhere",
+            "answerKey": "a",
+            "cot_output": "Step 1: Curiosity is often satisfied by gaining new information or knowledge.\nStep 2: Hearing news can provide new information and satisfy curiosity.\nStep 3: Reading a book can also provide new knowledge and satisfy curiosity.\nStep 4: Seeing a favorite show may not always provide new information, as it may be something already known.\nStep 5: Watching a comedy show may provide entertainment but may not necessarily satisfy curiosity.\nStep 6: Going somewhere may lead to new experiences but may not always provide new knowledge.\nConclusion: a. hear news\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Curiosity is often satisfied by gaining new information or knowledge.",
+                "Hearing news can provide new information and satisfy curiosity.",
+                "Reading a book can also provide new knowledge and satisfy curiosity.",
+                "Seeing a favorite show may not always provide new information, as it may be something already known.",
+                "Watching a comedy show may provide entertainment but may not necessarily satisfy curiosity.",
+                "Going somewhere may lead to new experiences but may not always provide new knowledge."
+            ],
+            "pred": "a. hear news",
+            "is_correct": true,
+            "elapsed_time": 1.3876001834869385,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are in a bar in a glove",
+            "question": "Question: If you are in a bar in a glove shaped state where are you?\n\nChoices:\na. in my pocket\nb. michigan\nc. new york city\nd. restaurant\ne. public house",
+            "answerKey": "b",
+            "cot_output": "Step 1: A glove shaped state is likely referring to Michigan, as Michigan is commonly associated with the shape of a mitten or glove.\nStep 2: Bars are commonly found in cities, so being in a bar in a glove shaped state likely means you are in a city in Michigan.\nStep 3: New York City is not in Michigan, so it can be eliminated as a possibility.\nStep 4: A restaurant is a broad category and could be located in any state, so it does not provide a specific location.\nStep 5: A public house is another term for a bar, so being in a public house in a glove shaped state likely means you are in Michigan.\n===FINAL_ANSWER_START===\nConclusion: B. Michigan\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A glove shaped state is likely referring to Michigan, as Michigan is commonly associated with the shape of a mitten or glove.",
+                "Bars are commonly found in cities, so being in a bar in a glove shaped state likely means you are in a city in Michigan.",
+                "New York City is not in Michigan, so it can be eliminated as a possibility.",
+                "A restaurant is a broad category and could be located in any state, so it does not provide a specific location.",
+                "A public house is another term for a bar, so being in a public house in a glove shaped state likely means you are in Michigan."
+            ],
+            "pred": "B. Michigan",
+            "is_correct": true,
+            "elapsed_time": 1.9228334426879883,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would a computer user be",
+            "question": "Question: Where would a computer user be using their own computer?\n\nChoices:\na. hell\nb. school\nc. indoors\nd. internet cafe\ne. house",
+            "answerKey": "e",
+            "cot_output": "Step 1: A computer user needs a computer to use.\nStep 2: A computer user is likely to use their own computer for convenience and familiarity.\nStep 3: Using their own computer at home is the most convenient and comfortable option.\nStep 4: Therefore, a computer user would be using their own computer at their house.\n===FINAL_ANSWER_START===\nConclusion: e. house\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A computer user needs a computer to use.",
+                "A computer user is likely to use their own computer for convenience and familiarity.",
+                "Using their own computer at home is the most convenient and comfortable option.",
+                "Therefore, a computer user would be using their own computer at their house."
+            ],
+            "pred": "e. house",
+            "is_correct": false,
+            "elapsed_time": 2.4052090644836426,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Crabs live in what sort of env",
+            "question": "Question: Crabs live in what sort of environment?\n\nChoices:\na. maritime\nb. bodies of water\nc. saltwater\nd. galapagos\ne. fish market",
+            "answerKey": "c",
+            "cot_output": "Step 1: Crabs are known to be aquatic creatures.\nStep 2: Aquatic creatures typically live in bodies of water.\nStep 3: Bodies of water can be either freshwater or saltwater.\nStep 4: Crabs are commonly found in saltwater environments.\nConclusion: c. saltwater\n===FINAL_ANSWER_START===\nConclusion: c. saltwater\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Crabs are known to be aquatic creatures.",
+                "Aquatic creatures typically live in bodies of water.",
+                "Bodies of water can be either freshwater or saltwater.",
+                "Crabs are commonly found in saltwater environments."
+            ],
+            "pred": "c. saltwater",
+            "is_correct": true,
+            "elapsed_time": 1.3566908836364746,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you find a snake in ",
+            "question": "Question: Where can you find a snake in tall grass?\n\nChoices:\na. tree\nb. in a jar\nc. pet shops\nd. feild\ne. tropical forest",
+            "answerKey": "d",
+            "cot_output": "Step 1: Snakes are commonly found in natural habitats.\nStep 2: Tall grass is a natural habitat for snakes.\nStep 3: Trees are not typically where snakes are found, as they prefer ground-level habitats.\nStep 4: Snakes are not commonly found in jars, as jars are not a natural habitat for them.\nStep 5: Pet shops do not typically house snakes in tall grass.\nStep 6: Snakes can be found in fields, which can have tall grass.\nStep 7: Tropical forests are another natural habitat for snakes, but not specifically in tall grass.\nConclusion: D. field\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Snakes are commonly found in natural habitats.",
+                "Tall grass is a natural habitat for snakes.",
+                "Trees are not typically where snakes are found, as they prefer ground-level habitats.",
+                "Snakes are not commonly found in jars, as jars are not a natural habitat for them.",
+                "Pet shops do not typically house snakes in tall grass.",
+                "Snakes can be found in fields, which can have tall grass.",
+                "Tropical forests are another natural habitat for snakes, but not specifically in tall grass."
+            ],
+            "pred": "D. field",
+            "is_correct": true,
+            "elapsed_time": 1.4259238243103027,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is a place that has a ben",
+            "question": "Question: What is a place that has a bench nestled in trees?\n\nChoices:\na. state park\nb. bus stop\nc. bus depot\nd. statue\ne. train station",
+            "answerKey": "a",
+            "cot_output": "Step 1: A bench nestled in trees is likely to be found in a place that promotes relaxation and nature.\nStep 2: A state park is a location known for its natural beauty and recreational activities.\nStep 3: Bus stops, bus depots, and train stations are typically more urban and less likely to have benches nestled in trees.\nStep 4: Statues are not places where benches are typically found.\nConclusion: a. state park\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A bench nestled in trees is likely to be found in a place that promotes relaxation and nature.",
+                "A state park is a location known for its natural beauty and recreational activities.",
+                "Bus stops, bus depots, and train stations are typically more urban and less likely to have benches nestled in trees.",
+                "Statues are not places where benches are typically found."
+            ],
+            "pred": "a. state park",
+            "is_correct": true,
+            "elapsed_time": 1.1272170543670654,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a human likely to go ",
+            "question": "Question: Where is a human likely to go as a result of being hungry?\n\nChoices:\na. eat in restaurant\nb. make bread\nc. have lunch\nd. cook dinner\ne. friends house",
+            "answerKey": "a",
+            "cot_output": "Step 1: When a human is hungry, they typically seek out food to satisfy their hunger.\nStep 2: Eating in a restaurant, making bread, having lunch, cooking dinner, or going to a friend's house are all potential options for obtaining food.\nStep 3: Making bread is a time-consuming process and may not be the immediate choice when someone is hungry.\nStep 4: Going to a friend's house may not always guarantee food availability.\nStep 5: Eating in a restaurant, having lunch, and cooking dinner are more immediate options for obtaining food.\nStep 6: However, cooking dinner requires more time and effort compared to having lunch or eating in a restaurant.\nStep 7: Therefore, when a human is hungry, they are likely to have lunch as it is a quicker and more convenient option compared to cooking dinner or eating in a restaurant.\n===FINAL_ANSWER_START===\nConclusion: C. have lunch\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a human is hungry, they typically seek out food to satisfy their hunger.",
+                "Eating in a restaurant, making bread, having lunch, cooking dinner, or going to a friend's house are all potential options for obtaining food.",
+                "Making bread is a time-consuming process and may not be the immediate choice when someone is hungry.",
+                "Going to a friend's house may not always guarantee food availability.",
+                "Eating in a restaurant, having lunch, and cooking dinner are more immediate options for obtaining food.",
+                "However, cooking dinner requires more time and effort compared to having lunch or eating in a restaurant.",
+                "Therefore, when a human is hungry, they are likely to have lunch as it is a quicker and more convenient option compared to cooking dinner or eating in a restaurant."
+            ],
+            "pred": "C. have lunch",
+            "is_correct": true,
+            "elapsed_time": 1.9053142070770264,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_He was beginning to regret tak",
+            "question": "Question: He was beginning to regret taking the fight when he saw how what his opponent was?\n\nChoices:\na. fun\nb. joy\nc. satisfaction\nd. confident\ne. pride",
+            "answerKey": "d",
+            "cot_output": "Step 1: Regret is a feeling of disappointment or dissatisfaction with a decision made.\nStep 2: The regret is specifically mentioned to be related to taking the fight.\nStep 3: The opponent's behavior or characteristics are causing the regret.\nStep 4: The opponent's behavior must be negative or intimidating in some way.\nStep 5: Seeing the opponent's behavior made him regret taking the fight.\nStep 6: The opponent's behavior is described as confident.\nConclusion: d. confident\n===FINAL_ANSWER_START===\nConclusion: d. confident\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Regret is a feeling of disappointment or dissatisfaction with a decision made.",
+                "The regret is specifically mentioned to be related to taking the fight.",
+                "The opponent's behavior or characteristics are causing the regret.",
+                "The opponent's behavior must be negative or intimidating in some way.",
+                "Seeing the opponent's behavior made him regret taking the fight.",
+                "The opponent's behavior is described as confident."
+            ],
+            "pred": "d. confident",
+            "is_correct": true,
+            "elapsed_time": 1.338639736175537,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you find a single ",
+            "question": "Question: Where would you find a single shower curtain being used?\n\nChoices:\na. bathtub\nb. washing area\nc. hotel\nd. shower stall\ne. department store",
+            "answerKey": "a",
+            "cot_output": "Step 1: A shower curtain is typically used to prevent water from splashing outside the shower area.\nStep 2: A bathtub does not typically require a shower curtain as the walls of the tub prevent water from splashing out.\nStep 3: A washing area may have a shower curtain to prevent water from splashing onto other surfaces.\nStep 4: A hotel room usually has a shower stall where a shower curtain is used to prevent water from splashing onto the bathroom floor.\nStep 5: Department stores sell shower curtains but do not typically use them in their display areas.\nConclusion: The most likely place to find a single shower curtain being used is in a shower stall, so the answer is D. \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A shower curtain is typically used to prevent water from splashing outside the shower area.",
+                "A bathtub does not typically require a shower curtain as the walls of the tub prevent water from splashing out.",
+                "A washing area may have a shower curtain to prevent water from splashing onto other surfaces.",
+                "A hotel room usually has a shower stall where a shower curtain is used to prevent water from splashing onto the bathroom floor.",
+                "Department stores sell shower curtains but do not typically use them in their display areas."
+            ],
+            "pred": "The most likely place to find a single shower curtain being used is in a shower stall, so the answer is D.",
+            "is_correct": true,
+            "elapsed_time": 1.9269185066223145,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a good idea but not r",
+            "question": "Question: Where is a good idea but not required to have a fire extinguisher?\n\nChoices:\na. school bus\nb. boat\nc. house\nd. hospital\ne. school",
+            "answerKey": "c",
+            "cot_output": "Step 1: Fire extinguishers are typically required in places where fires are more likely to occur or where there are more people present.\nStep 2: A school bus is a confined space with limited access to emergency services, making it a good idea to have a fire extinguisher.\nStep 3: A boat is also a confined space with limited access to emergency services, making it a good idea to have a fire extinguisher.\nStep 4: A hospital is a place where fires are less likely to occur due to strict safety regulations and regular inspections.\nStep 5: A house is a place where fires are more likely to occur due to various potential fire hazards.\nStep 6: A school is a place where fires are more likely to occur due to the presence of children and various activities that may pose fire risks.\nConclusion: A. school bus\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Fire extinguishers are typically required in places where fires are more likely to occur or where there are more people present.",
+                "A school bus is a confined space with limited access to emergency services, making it a good idea to have a fire extinguisher.",
+                "A boat is also a confined space with limited access to emergency services, making it a good idea to have a fire extinguisher.",
+                "A hospital is a place where fires are less likely to occur due to strict safety regulations and regular inspections.",
+                "A house is a place where fires are more likely to occur due to various potential fire hazards.",
+                "A school is a place where fires are more likely to occur due to the presence of children and various activities that may pose fire risks."
+            ],
+            "pred": "A. school bus",
+            "is_correct": true,
+            "elapsed_time": 1.868436574935913,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What continent has the most ca",
+            "question": "Question: What continent has the most castles?\n\nChoices:\na. fairy tale\nb. edinburgh\nc. germany\nd. europe\ne. antarctica",
+            "answerKey": "d",
+            "cot_output": "Step 1: Castles are historical structures typically found in regions with a long history of monarchy and feudalism.\nStep 2: Europe has a long history of monarchy and feudalism, leading to the construction of numerous castles.\nStep 3: Germany is a country located in Europe with a rich history of castles, including famous ones like Neuschwanstein Castle.\nStep 4: Edinburgh is a city in Scotland, which is part of the United Kingdom, located in Europe with a significant number of castles.\nStep 5: Antarctica is a continent known for its harsh climate and lack of permanent human inhabitants, making it unlikely to have many castles.\nConclusion: d. europe\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Castles are historical structures typically found in regions with a long history of monarchy and feudalism.",
+                "Europe has a long history of monarchy and feudalism, leading to the construction of numerous castles.",
+                "Germany is a country located in Europe with a rich history of castles, including famous ones like Neuschwanstein Castle.",
+                "Edinburgh is a city in Scotland, which is part of the United Kingdom, located in Europe with a significant number of castles.",
+                "Antarctica is a continent known for its harsh climate and lack of permanent human inhabitants, making it unlikely to have many castles."
+            ],
+            "pred": "d. europe",
+            "is_correct": true,
+            "elapsed_time": 1.8377244472503662,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you have to read a book tha",
+            "question": "Question: If you have to read a book that is very dry and long you may become what?\n\nChoices:\na. have time\nb. boring\nc. learn new\nd. enjoyable\ne. bored",
+            "answerKey": "e",
+            "cot_output": "Step 1: Reading a book that is very dry and long can be tedious and uninteresting.\nStep 2: When something is tedious and uninteresting, it can lead to a feeling of lack of excitement.\nStep 3: A lack of excitement can result in feeling bored.\nStep 4: Therefore, if you have to read a book that is very dry and long, you may become bored.\n===FINAL_ANSWER_START===\nConclusion: e. bored\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Reading a book that is very dry and long can be tedious and uninteresting.",
+                "When something is tedious and uninteresting, it can lead to a feeling of lack of excitement.",
+                "A lack of excitement can result in feeling bored.",
+                "Therefore, if you have to read a book that is very dry and long, you may become bored."
+            ],
+            "pred": "e. bored",
+            "is_correct": false,
+            "elapsed_time": 1.1566202640533447,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Sally used a clipboard to hold",
+            "question": "Question: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?\n\nChoices:\na. desk\nb. windows 95\nc. office supply store\nd. see work\ne. school",
+            "answerKey": "e",
+            "cot_output": "Step 1: Sally used a clipboard to hold her papers while she read off names, indicating she needed to move around.\nStep 2: This suggests that Sally's job involves some level of mobility.\nStep 3: The most likely place for Sally to work where mobility is required is a school, where she may be calling out names for attendance or other activities.\nConclusion: e. school\n===FINAL_ANSWER_START===\nConclusion: e. school\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sally used a clipboard to hold her papers while she read off names, indicating she needed to move around.",
+                "This suggests that Sally's job involves some level of mobility.",
+                "The most likely place for Sally to work where mobility is required is a school, where she may be calling out names for attendance or other activities."
+            ],
+            "pred": "e. school",
+            "is_correct": false,
+            "elapsed_time": 1.286163568496704,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The kids didn't clean up after",
+            "question": "Question: The kids didn't clean up after they had done what?\n\nChoices:\na. learn things\nb. play games\nc. disneyland\nd. play with toys\ne. talking",
+            "answerKey": "d",
+            "cot_output": "Step 1: Kids usually clean up after they finish playing with toys.\nStep 2: The kids didn't clean up after they had done playing with toys.\nStep 3: Therefore, the answer is D. play with toys.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Kids usually clean up after they finish playing with toys.",
+                "The kids didn't clean up after they had done playing with toys.",
+                "Therefore, the answer is D. play with toys."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.9170758724212646,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Despite the name a pawn can be",
+            "question": "Question: Despite the name a pawn can be quite versatile, all the parts are important in a what?\n\nChoices:\na. chess game\nb. scheme\nc. chess set\nd. checkers\ne. north carolina",
+            "answerKey": "a",
+            "cot_output": "Step 1: A pawn is a piece used in chess.\nStep 2: In chess, all the parts are important for the game to function properly.\nStep 3: Therefore, all the parts are important in a chess game.\n===FINAL_ANSWER_START===\nConclusion: a. chess game\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A pawn is a piece used in chess.",
+                "In chess, all the parts are important for the game to function properly.",
+                "Therefore, all the parts are important in a chess game."
+            ],
+            "pred": "a. chess game",
+            "is_correct": true,
+            "elapsed_time": 1.1143527030944824,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would not be true about a",
+            "question": "Question: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?\n\nChoices:\na. punctured\nb. popular in america\nc. full of air\nd. gone\ne. round",
+            "answerKey": "c",
+            "cot_output": "Step 1: If a basketball has a hole in it but did not lose its general shape, it means that the hole did not affect the overall structure of the basketball.\nStep 2: If the basketball is still holding its general shape, it must still be full of air to maintain its round form.\nStep 3: If the basketball is full of air, it cannot be punctured because the air is still contained within the basketball.\nStep 4: Therefore, the statement \"punctured\" would not be true about a basketball with a hole but still holding its shape.\nStep 5: The statement \"gone\" would also not be true because the basketball is still intact.\nConclusion: The statement that would not be true about a basketball with a hole but still holding its shape is c. full of air\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If a basketball has a hole in it but did not lose its general shape, it means that the hole did not affect the overall structure of the basketball.",
+                "If the basketball is still holding its general shape, it must still be full of air to maintain its round form.",
+                "If the basketball is full of air, it cannot be punctured because the air is still contained within the basketball.",
+                "Therefore, the statement \"punctured\" would not be true about a basketball with a hole but still holding its shape.",
+                "The statement \"gone\" would also not be true because the basketball is still intact."
+            ],
+            "pred": "The statement that would not be true about a basketball with a hole but still holding its shape is c. full of air",
+            "is_correct": true,
+            "elapsed_time": 2.4270806312561035,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are awaking multiple ti",
+            "question": "Question: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?\n\nChoices:\na. irritability\nb. depression\nc. getting out of bed\nd. happiness\ne. discomfort",
+            "answerKey": "b",
+            "cot_output": "Step 1: Waking up multiple times throughout the night is a sign of disrupted sleep.\nStep 2: Disrupted sleep can be caused by having a lot on your mind, leading to racing thoughts and difficulty falling/staying asleep.\nStep 3: The constant waking up can lead to irritability due to lack of rest and sleep deprivation.\nStep 4: Therefore, a likely cause of waking up multiple times throughout the night because a lot is on your mind is irritability.\n===FINAL_ANSWER_START===\nConclusion: a. irritability\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Waking up multiple times throughout the night is a sign of disrupted sleep.",
+                "Disrupted sleep can be caused by having a lot on your mind, leading to racing thoughts and difficulty falling/staying asleep.",
+                "The constant waking up can lead to irritability due to lack of rest and sleep deprivation.",
+                "Therefore, a likely cause of waking up multiple times throughout the night because a lot is on your mind is irritability."
+            ],
+            "pred": "a. irritability",
+            "is_correct": true,
+            "elapsed_time": 1.3354661464691162,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where does a wild bird usually",
+            "question": "Question: Where does a wild bird usually live?\n\nChoices:\na. cage\nb. sky\nc. countryside\nd. desert\ne. windowsill",
+            "answerKey": "c",
+            "cot_output": "Step 1: Wild birds are known to have the ability to fly.\nStep 2: Flying requires open space.\nStep 3: The sky provides the most open space for flying.\nStep 4: Therefore, a wild bird usually lives in the sky.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Wild birds are known to have the ability to fly.",
+                "Flying requires open space.",
+                "The sky provides the most open space for flying.",
+                "Therefore, a wild bird usually lives in the sky."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.0254693031311035,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you expect to find",
+            "question": "Question: Where would you expect to find white mice?\n\nChoices:\na. bell cat\nb. bush\nc. attic\nd. countryside\ne. laboratory",
+            "answerKey": "e",
+            "cot_output": "Step 1: White mice are commonly used for scientific experiments.\nStep 2: Scientific experiments involving animals are typically conducted in laboratories.\nStep 3: Therefore, you would expect to find white mice in a laboratory.\nConclusion: e. laboratory\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "White mice are commonly used for scientific experiments.",
+                "Scientific experiments involving animals are typically conducted in laboratories.",
+                "Therefore, you would expect to find white mice in a laboratory."
+            ],
+            "pred": "e. laboratory",
+            "is_correct": false,
+            "elapsed_time": 1.0533182621002197,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_John felt that his actions wer",
+            "question": "Question: John felt that his actions were fate.   Harry said that he could have always made a different what?\n\nChoices:\na. free will\nb. choice\nc. will\nd. alcohol\ne. freedom",
+            "answerKey": "b",
+            "cot_output": "Step 1: John felt that his actions were fate, indicating a belief in predetermined events.\nStep 2: Harry said that he could have always made a different choice, suggesting the belief in free will.\nStep 3: Therefore, Harry could have always made a different choice, which aligns with the concept of free will.\n===FINAL_ANSWER_START===\nConclusion: a. free will\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "John felt that his actions were fate, indicating a belief in predetermined events.",
+                "Harry said that he could have always made a different choice, suggesting the belief in free will.",
+                "Therefore, Harry could have always made a different choice, which aligns with the concept of free will."
+            ],
+            "pred": "a. free will",
+            "is_correct": false,
+            "elapsed_time": 1.0203185081481934,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What could committing murder p",
+            "question": "Question: What could committing murder prevent someone from doing?\n\nChoices:\na. go to jail\nb. cry\nc. find god\nd. guilty conscience\ne. problems",
+            "answerKey": "c",
+            "cot_output": "Step 1: Committing murder is a serious crime that can lead to legal consequences.\nStep 2: Legal consequences for committing murder can include going to jail.\nStep 3: If someone goes to jail for committing murder, they may be prevented from doing certain things.\nStep 4: Going to jail can prevent someone from finding god or having the opportunity to reflect on their actions.\nStep 5: Therefore, committing murder could prevent someone from finding god.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Committing murder is a serious crime that can lead to legal consequences.",
+                "Legal consequences for committing murder can include going to jail.",
+                "If someone goes to jail for committing murder, they may be prevented from doing certain things.",
+                "Going to jail can prevent someone from finding god or having the opportunity to reflect on their actions.",
+                "Therefore, committing murder could prevent someone from finding god."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 1.443871259689331,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_George didn't have a car, but ",
+            "question": "Question: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?\n\nChoices:\na. michigan\nb. walk\nc. stay still\nd. stink\ne. hands",
+            "answerKey": "b",
+            "cot_output": "Step 1: George didn't have a car, but he still had his two feet, indicating he can move using his feet.\nStep 2: His socks were smelly and his soles were blistered, but that didn't matter, suggesting that despite the discomfort, he can still use his feet.\nStep 3: Therefore, George can still walk despite the condition of his feet.\n===FINAL_ANSWER_START===\nConclusion: b. walk\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "George didn't have a car, but he still had his two feet, indicating he can move using his feet.",
+                "His socks were smelly and his soles were blistered, but that didn't matter, suggesting that despite the discomfort, he can still use his feet.",
+                "Therefore, George can still walk despite the condition of his feet."
+            ],
+            "pred": "b. walk",
+            "is_correct": true,
+            "elapsed_time": 1.1221201419830322,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A crane uses many a steel cabl",
+            "question": "Question: A crane uses many a steel cable when working a what?\n\nChoices:\na. abaft\nb. ship\nc. winch\nd. construction site\ne. building",
+            "answerKey": "d",
+            "cot_output": "Step 1: A crane is a heavy machinery used for lifting and moving heavy objects.\nStep 2: Steel cables are commonly used in cranes for lifting heavy objects.\nStep 3: A winch is a mechanical device used to pull in or let out the steel cables.\nStep 4: Therefore, a crane uses many a steel cable when working a c. winch.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A crane is a heavy machinery used for lifting and moving heavy objects.",
+                "Steel cables are commonly used in cranes for lifting heavy objects.",
+                "A winch is a mechanical device used to pull in or let out the steel cables.",
+                "Therefore, a crane uses many a steel cable when working a c. winch."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 1.1656005382537842,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is the main purpose of fa",
+            "question": "Question: What is the main purpose of farmers?\n\nChoices:\na. raise cattle\nb. grow corn\nc. farm land\nd. drive tractors\ne. supply food",
+            "answerKey": "e",
+            "cot_output": "Step 1: Farmers work on agricultural activities.\nStep 2: Agricultural activities involve raising livestock and growing crops.\nStep 3: The main purpose of farmers is to produce food for consumption.\nStep 4: Therefore, the main purpose of farmers is to supply food.\n===FINAL_ANSWER_START===\nConclusion: e. supply food\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Farmers work on agricultural activities.",
+                "Agricultural activities involve raising livestock and growing crops.",
+                "The main purpose of farmers is to produce food for consumption.",
+                "Therefore, the main purpose of farmers is to supply food."
+            ],
+            "pred": "e. supply food",
+            "is_correct": false,
+            "elapsed_time": 0.9453191757202148,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can I put this penny to ",
+            "question": "Question: Where can I put this penny to save for later?\n\nChoices:\na. piggy bank\nb. wallet\nc. toy\nd. ground\ne. pocket",
+            "answerKey": "a",
+            "cot_output": "Step 1: I want to save this penny for later.\nStep 2: I need to choose a place where the penny will be safe and easily accessible.\nStep 3: Putting the penny in a piggy bank will keep it safe and separate from other coins.\nStep 4: A wallet is not an ideal place for a single penny as it may get lost among other items.\nStep 5: Putting the penny in a toy is not a practical option for saving it.\nStep 6: Putting the penny on the ground is not safe and may result in losing it.\nStep 7: Putting the penny in my pocket may lead to it getting lost or falling out.\nConclusion: A. piggy bank\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I want to save this penny for later.",
+                "I need to choose a place where the penny will be safe and easily accessible.",
+                "Putting the penny in a piggy bank will keep it safe and separate from other coins.",
+                "A wallet is not an ideal place for a single penny as it may get lost among other items.",
+                "Putting the penny in a toy is not a practical option for saving it.",
+                "Putting the penny on the ground is not safe and may result in losing it.",
+                "Putting the penny in my pocket may lead to it getting lost or falling out."
+            ],
+            "pred": "A. piggy bank",
+            "is_correct": true,
+            "elapsed_time": 2.235079526901245,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you put uncooked c",
+            "question": "Question: Where would you put uncooked crab meat?\n\nChoices:\na. wharf\nb. red lobster\nc. tidepools\nd. boss's office\ne. stew pot",
+            "answerKey": "e",
+            "cot_output": "Step 1: Uncooked crab meat needs to be stored in a place where it can be kept fresh.\nStep 2: The wharf is not a suitable place for storing uncooked crab meat as it is exposed to the elements and not refrigerated.\nStep 3: Red Lobster is a restaurant chain known for serving seafood, including crab, so it is not a storage location for uncooked crab meat.\nStep 4: Tidepools are natural habitats for marine life and not suitable for storing uncooked crab meat.\nStep 5: The boss's office is not a suitable place for storing uncooked crab meat as it is not a food-safe environment.\nStep 6: Uncooked crab meat should be stored in a place where it can be cooked or prepared, such as a stew pot.\n===FINAL_ANSWER_START===\nConclusion: e. stew pot\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Uncooked crab meat needs to be stored in a place where it can be kept fresh.",
+                "The wharf is not a suitable place for storing uncooked crab meat as it is exposed to the elements and not refrigerated.",
+                "Red Lobster is a restaurant chain known for serving seafood, including crab, so it is not a storage location for uncooked crab meat.",
+                "Tidepools are natural habitats for marine life and not suitable for storing uncooked crab meat.",
+                "The boss's office is not a suitable place for storing uncooked crab meat as it is not a food-safe environment.",
+                "Uncooked crab meat should be stored in a place where it can be cooked or prepared, such as a stew pot."
+            ],
+            "pred": "e. stew pot",
+            "is_correct": false,
+            "elapsed_time": 1.9515974521636963,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man had a fear of illness,",
+            "question": "Question: The man had a fear of illness, so he never visited friends who were a what?\n\nChoices:\na. sick person\nb. hospital\nc. elderly person\nd. graveyard\ne. doctor's office",
+            "answerKey": "a",
+            "cot_output": "Step 1: The man has a fear of illness.\nStep 2: Visiting a sick person could potentially expose him to illness.\nStep 3: Visiting a hospital means being around sick people and potentially being exposed to illness.\nStep 4: Visiting an elderly person may increase the risk of being exposed to illness due to their weaker immune systems.\nStep 5: Visiting a graveyard does not pose a direct risk of exposure to illness.\nStep 6: Visiting a doctor's office may increase the risk of being exposed to illness due to the presence of sick individuals.\nConclusion: The man never visited friends who were a sick person, so the answer is (a) sick person.\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man has a fear of illness.",
+                "Visiting a sick person could potentially expose him to illness.",
+                "Visiting a hospital means being around sick people and potentially being exposed to illness.",
+                "Visiting an elderly person may increase the risk of being exposed to illness due to their weaker immune systems.",
+                "Visiting a graveyard does not pose a direct risk of exposure to illness.",
+                "Visiting a doctor's office may increase the risk of being exposed to illness due to the presence of sick individuals."
+            ],
+            "pred": "The man never visited friends who were a sick person, so the answer is (a) sick person.",
+            "is_correct": true,
+            "elapsed_time": 1.5292820930480957,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you put pans if yo",
+            "question": "Question: Where would you put pans if you want to bring them with you?\n\nChoices:\na. cooking\nb. cook food\nc. kitchen\nd. backpack\ne. drawer",
+            "answerKey": "d",
+            "cot_output": "Step 1: Pans are typically used for cooking.\nStep 2: If you want to bring pans with you, you would need them in a location where you can access them easily.\nStep 3: The most logical place to keep pans for easy access is in the kitchen.\nStep 4: If you are bringing pans with you, you would most likely be going to a place where you can cook.\nStep 5: The best place to cook is in the kitchen.\nStep 6: Therefore, if you want to bring pans with you, you would put them in the kitchen.\n===FINAL_ANSWER_START===\nConclusion: C. kitchen\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Pans are typically used for cooking.",
+                "If you want to bring pans with you, you would need them in a location where you can access them easily.",
+                "The most logical place to keep pans for easy access is in the kitchen.",
+                "If you are bringing pans with you, you would most likely be going to a place where you can cook.",
+                "The best place to cook is in the kitchen.",
+                "Therefore, if you want to bring pans with you, you would put them in the kitchen."
+            ],
+            "pred": "C. kitchen",
+            "is_correct": false,
+            "elapsed_time": 1.43391752243042,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you're remembering somethin",
+            "question": "Question: If you're remembering something, it's because of your what of it to begin with?\n\nChoices:\na. knowledge\nb. knowing\nc. forgetful\nd. pleasure\ne. depression",
+            "answerKey": "b",
+            "cot_output": "Step 1: Remembering involves recalling information or experiences.\nStep 2: Recalling information or experiences requires prior knowledge of them.\nStep 3: Therefore, if you're remembering something, it's because of your knowledge of it to begin with.\nConclusion: A. knowledge\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Remembering involves recalling information or experiences.",
+                "Recalling information or experiences requires prior knowledge of them.",
+                "Therefore, if you're remembering something, it's because of your knowledge of it to begin with."
+            ],
+            "pred": "A. knowledge",
+            "is_correct": false,
+            "elapsed_time": 1.0109877586364746,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Which large land mass is home ",
+            "question": "Question: Which large land mass is home to the most monkeys?\n\nChoices:\na. amazon basin\nb. friend's house\nc. lift number 3\nd. research laboratory\ne. african continent",
+            "answerKey": "e",
+            "cot_output": "Step 1: Monkeys are typically found in tropical regions with dense forests.\nStep 2: The Amazon Basin is known for its vast rainforests and is home to a variety of monkey species.\nStep 3: The African continent also has a significant number of monkey species, but it is not primarily known for being the habitat of the most monkeys.\nStep 4: A friend's house, lift number 3, and a research laboratory are not natural habitats for monkeys.\nConclusion: The large land mass that is home to the most monkeys is the Amazon Basin.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Monkeys are typically found in tropical regions with dense forests.",
+                "The Amazon Basin is known for its vast rainforests and is home to a variety of monkey species.",
+                "The African continent also has a significant number of monkey species, but it is not primarily known for being the habitat of the most monkeys.",
+                "A friend's house, lift number 3, and a research laboratory are not natural habitats for monkeys."
+            ],
+            "pred": "The large land mass that is home to the most monkeys is the Amazon Basin.",
+            "is_correct": false,
+            "elapsed_time": 1.596174716949463,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Friday was James's 5th Anniver",
+            "question": "Question: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?\n\nChoices:\na. rest\nb. insomnia\nc. making love\nd. sleeping in\ne. texting",
+            "answerKey": "c",
+            "cot_output": "Step 1: Friday was James's 5th Anniversary, indicating a special occasion.\nStep 2: They planned on going to bed early, suggesting they wanted to rest or sleep.\nStep 3: Resting or sleeping early would allow them to have more energy for the next day.\nStep 4: The most likely activity they would want to do after resting early on their anniversary is making love, as it is a common way to celebrate such occasions.\nConclusion: C. making love\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Friday was James's 5th Anniversary, indicating a special occasion.",
+                "They planned on going to bed early, suggesting they wanted to rest or sleep.",
+                "Resting or sleeping early would allow them to have more energy for the next day.",
+                "The most likely activity they would want to do after resting early on their anniversary is making love, as it is a common way to celebrate such occasions."
+            ],
+            "pred": "C. making love",
+            "is_correct": true,
+            "elapsed_time": 1.6772024631500244,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The teens were trying to hide ",
+            "question": "Question: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?\n\nChoices:\na. health\nb. fall down\nc. stagger\nd. get arrested\ne. vomit",
+            "answerKey": "c",
+            "cot_output": "Step 1: Teens trying to hide that they are drinking indicates they are trying to avoid getting caught.\nStep 2: When someone staggers, it is a common sign of being intoxicated.\nStep 3: Staggering can give away the fact that someone has been drinking.\nStep 4: Therefore, the teens' staggering when they walked in the door gave it away that they were drinking.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Teens trying to hide that they are drinking indicates they are trying to avoid getting caught.",
+                "When someone staggers, it is a common sign of being intoxicated.",
+                "Staggering can give away the fact that someone has been drinking.",
+                "Therefore, the teens' staggering when they walked in the door gave it away that they were drinking."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 1.5190973281860352,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_You'll find a landing at the t",
+            "question": "Question: You'll find a landing at the top of what?\n\nChoices:\na. ocean\nb. apartment building\nc. stairwell\nd. airport\ne. room",
+            "answerKey": "c",
+            "cot_output": "Step 1: A landing is typically found at the top of a structure for people to exit or enter.\nStep 2: An ocean does not have a physical structure with a landing at the top.\nStep 3: An apartment building has multiple floors and a landing at the top for access to the roof or penthouse.\nStep 4: A stairwell is a part of a building that connects different floors and has landings at each level.\nStep 5: An airport has multiple levels and terminals with landings for passengers to disembark from planes.\nStep 6: A room is typically located within a building and does not have a landing at the top.\nConclusion: The landing is typically found at the top of a stairwell.\n===FINAL_ANSWER_START===\nConclusion: C. stairwell\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A landing is typically found at the top of a structure for people to exit or enter.",
+                "An ocean does not have a physical structure with a landing at the top.",
+                "An apartment building has multiple floors and a landing at the top for access to the roof or penthouse.",
+                "A stairwell is a part of a building that connects different floors and has landings at each level.",
+                "An airport has multiple levels and terminals with landings for passengers to disembark from planes.",
+                "A room is typically located within a building and does not have a landing at the top."
+            ],
+            "pred": "The landing is typically found at the top of a stairwell.",
+            "is_correct": true,
+            "elapsed_time": 1.9446814060211182,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Anybody could be hired in the ",
+            "question": "Question: Anybody could be hired in the kitchen, what was needed of them?\n\nChoices:\na. forget\nb. oil squeaky hinge\nc. question authority\nd. wash dishes\ne. oik squeaky hinge",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question mentions that anybody could be hired in the kitchen.\nStep 2: If anybody could be hired in the kitchen, it implies that the requirements are not specific or specialized.\nStep 3: Among the choices, the most common task in a kitchen that does not require specialized skills is washing dishes.\nStep 4: Therefore, what was needed of them is to wash dishes.\n===FINAL_ANSWER_START===\nConclusion: d. wash dishes\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question mentions that anybody could be hired in the kitchen.",
+                "If anybody could be hired in the kitchen, it implies that the requirements are not specific or specialized.",
+                "Among the choices, the most common task in a kitchen that does not require specialized skills is washing dishes.",
+                "Therefore, what was needed of them is to wash dishes."
+            ],
+            "pred": "d. wash dishes",
+            "is_correct": true,
+            "elapsed_time": 1.5884582996368408,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you find a number of",
+            "question": "Question: Where can you find a number of wind instruments together in public?\n\nChoices:\na. music store\nb. create music\nc. zoo\nd. music room\ne. symphony",
+            "answerKey": "e",
+            "cot_output": "Step 1: Wind instruments are typically associated with music.\nStep 2: A music store is a place where musical instruments, including wind instruments, are sold.\nStep 3: Creating music involves using various musical instruments, including wind instruments.\nStep 4: A zoo is not a place where wind instruments are typically found.\nStep 5: A music room could potentially have wind instruments, but it is not a public place where they are typically found.\nStep 6: A symphony is a performance where a number of wind instruments are played together in public.\n===FINAL_ANSWER_START===\nConclusion: e. symphony\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Wind instruments are typically associated with music.",
+                "A music store is a place where musical instruments, including wind instruments, are sold.",
+                "Creating music involves using various musical instruments, including wind instruments.",
+                "A zoo is not a place where wind instruments are typically found.",
+                "A music room could potentially have wind instruments, but it is not a public place where they are typically found.",
+                "A symphony is a performance where a number of wind instruments are played together in public."
+            ],
+            "pred": "e. symphony",
+            "is_correct": false,
+            "elapsed_time": 1.6633036136627197,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A mountie got off at a subway ",
+            "question": "Question: A mountie got off at a subway stop.  What city might he be in?\n\nChoices:\na. urban area\nb. metropolis\nc. chicago\nd. new york city\ne. toronto",
+            "answerKey": "e",
+            "cot_output": "Step 1: Mounties are Canadian police officers.\nStep 2: The subway system is commonly found in urban areas.\nStep 3: Toronto is a city in Canada known for its subway system.\nStep 4: Therefore, the mountie might be in Toronto.\n===FINAL_ANSWER_START===\nConclusion: e. Toronto\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Mounties are Canadian police officers.",
+                "The subway system is commonly found in urban areas.",
+                "Toronto is a city in Canada known for its subway system.",
+                "Therefore, the mountie might be in Toronto."
+            ],
+            "pred": "e. Toronto",
+            "is_correct": false,
+            "elapsed_time": 1.188506841659546,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do you want someone to do",
+            "question": "Question: What do you want someone to do when you illustrate point?\n\nChoices:\na. did not understand\nb. accepting\nc. make clear\nd. understood\ne. understanding",
+            "answerKey": "e",
+            "cot_output": "Step 1: When you illustrate a point, you want someone to understand it.\nStep 2: If someone understands the point, they have grasped the concept being presented.\nStep 3: The purpose of illustrating a point is to make it clear to the audience.\nStep 4: Therefore, when you illustrate a point, you want someone to make clear the concept being presented.\nConclusion: C. make clear\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When you illustrate a point, you want someone to understand it.",
+                "If someone understands the point, they have grasped the concept being presented.",
+                "The purpose of illustrating a point is to make it clear to the audience.",
+                "Therefore, when you illustrate a point, you want someone to make clear the concept being presented."
+            ],
+            "pred": "C. make clear",
+            "is_correct": false,
+            "elapsed_time": 1.3617370128631592,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Billy set aside a block of tim",
+            "question": "Question: Billy set aside a block of time for having fun after work. Why might he do this?\n\nChoices:\na. happiness\nb. stress relief\nc. pleasure\nd. ocean\ne. may laugh",
+            "answerKey": "b",
+            "cot_output": "Step 1: Setting aside time for having fun after work can lead to increased happiness.\nStep 2: Engaging in fun activities can provide stress relief.\nStep 3: Stress relief can lead to pleasure and enjoyment.\nStep 4: Feeling pleasure and enjoyment can result in laughter.\nStep 5: Laughter is associated with having fun.\nConclusion: a. happiness\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Setting aside time for having fun after work can lead to increased happiness.",
+                "Engaging in fun activities can provide stress relief.",
+                "Stress relief can lead to pleasure and enjoyment.",
+                "Feeling pleasure and enjoyment can result in laughter.",
+                "Laughter is associated with having fun."
+            ],
+            "pred": "a. happiness",
+            "is_correct": false,
+            "elapsed_time": 1.2603652477264404,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man in the white suit was ",
+            "question": "Question: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?\n\nChoices:\na. restless\nb. active\nc. lazybutt\nd. productive\ne. hard work",
+            "answerKey": "d",
+            "cot_output": "Step 1: The man in the white suit was very lazy and did nothing useful.\nStep 2: The man in the blue suit put in effort.\nStep 3: Putting in effort is the opposite of being lazy.\nStep 4: Therefore, the man in the blue suit was not lazy.\nStep 5: The opposite of lazy is productive.\nConclusion: d. productive\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man in the white suit was very lazy and did nothing useful.",
+                "The man in the blue suit put in effort.",
+                "Putting in effort is the opposite of being lazy.",
+                "Therefore, the man in the blue suit was not lazy.",
+                "The opposite of lazy is productive."
+            ],
+            "pred": "d. productive",
+            "is_correct": true,
+            "elapsed_time": 1.181229829788208,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would you be unable to do",
+            "question": "Question: What would you be unable to do if you have too much greed?\n\nChoices:\na. keep things\nb. make friends\nc. play poker\nd. conquer opponent\ne. lie",
+            "answerKey": "b",
+            "cot_output": "Step 1: Greed often leads to a desire for more material possessions and wealth.\nStep 2: Having too much greed can make it difficult to keep things because one may constantly want more and be unwilling to share or let go of possessions.\nStep 3: Therefore, if you have too much greed, you would be unable to keep things.\nStep 4: This rules out option a. keep things.\nStep 5: Greed can also lead to selfish behavior and a lack of concern for others.\nStep 6: Making friends requires empathy, generosity, and the ability to connect with others on a personal level.\nStep 7: If you have too much greed, you may prioritize your own desires over building meaningful relationships, making it difficult to make friends.\nStep 8: Therefore, if you have too much greed, you would be unable to make friends.\nStep 9: This rules out option b. make friends.\nStep 10: Greed can also cloud judgment and lead to risky behavior in pursuit of more wealth.\nStep 11: Playing poker requires strategic thinking, risk assessment, and the ability to bluff or deceive opponents.\nStep 12: If you have too much greed, you may take unnecessary risks or be too focused on winning at all costs, which can negatively impact your ability to play poker effectively.\nStep 13: Therefore, if you have too much greed, you would be unable to play poker.\nStep 14: This rules out option c. play poker.\nStep 15: Greed can drive a person to prioritize their own gain over fair competition or ethical behavior.\nStep 16: Conquering an opponent in a fair and honorable manner requires skill, strategy, and respect for the rules of engagement.\nStep 17: If you have too much greed, you may resort to cheating, manipulation, or unethical tactics to achieve victory, which goes against the principles of conquering an opponent.\nStep 18: Therefore, if you have too much greed, you would be unable to conquer an opponent.\nStep 19: This rules out option d. conquer opponent.\nStep 20: Greed can lead to a lack of integrity and honesty in interactions with others.\nStep 21: Lying is often a result of trying to cover up one's selfish motives or actions driven by greed.\nStep 22: If you have too much greed, you may be more inclined to lie in order to protect your own interests or deceive others for personal gain.\nStep 23: Therefore, if you have too much greed, you would be unable to lie.\nStep 24: This rules out option e. lie.\n===FINAL_ANSWER_START===\nConclusion: 0. keep things\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Greed often leads to a desire for more material possessions and wealth.",
+                "Having too much greed can make it difficult to keep things because one may constantly want more and be unwilling to share or let go of possessions.",
+                "Therefore, if you have too much greed, you would be unable to keep things.",
+                "This rules out option a. keep things.",
+                "Greed can also lead to selfish behavior and a lack of concern for others.",
+                "Making friends requires empathy, generosity, and the ability to connect with others on a personal level.",
+                "If you have too much greed, you may prioritize your own desires over building meaningful relationships, making it difficult to make friends.",
+                "Therefore, if you have too much greed, you would be unable to make friends.",
+                "This rules out option b. make friends.",
+                "Greed can also cloud judgment and lead to risky behavior in pursuit of more wealth.",
+                "Playing poker requires strategic thinking, risk assessment, and the ability to bluff or deceive opponents.",
+                "If you have too much greed, you may take unnecessary risks or be too focused on winning at all costs, which can negatively impact your ability to play poker effectively.",
+                "Therefore, if you have too much greed, you would be unable to play poker.",
+                "This rules out option c. play poker.",
+                "Greed can drive a person to prioritize their own gain over fair competition or ethical behavior.",
+                "Conquering an opponent in a fair and honorable manner requires skill, strategy, and respect for the rules of engagement.",
+                "If you have too much greed, you may resort to cheating, manipulation, or unethical tactics to achieve victory, which goes against the principles of conquering an opponent.",
+                "Therefore, if you have too much greed, you would be unable to conquer an opponent.",
+                "This rules out option d. conquer opponent.",
+                "Greed can lead to a lack of integrity and honesty in interactions with others.",
+                "Lying is often a result of trying to cover up one's selfish motives or actions driven by greed.",
+                "If you have too much greed, you may be more inclined to lie in order to protect your own interests or deceive others for personal gain.",
+                "Therefore, if you have too much greed, you would be unable to lie.",
+                "This rules out option e. lie."
+            ],
+            "pred": "0. keep things",
+            "is_correct": false,
+            "elapsed_time": 5.679211616516113,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_It was a long trip from the fa",
+            "question": "Question: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?\n\nChoices:\na. bed away from home\nb. wwii bunker\nc. resort\nd. las vegas\ne. city",
+            "answerKey": "e",
+            "cot_output": "Step 1: The person took a long trip from the farm, indicating they were likely tired and in need of rest.\nStep 2: Staying in a hotel is a common choice for travelers looking for accommodation and rest.\nStep 3: A hotel is more likely to be found in a city or resort area rather than a wwii bunker or Las Vegas.\nStep 4: Considering the comfort and convenience, the person most likely stayed in a city or resort.\nConclusion: e. city\n===FINAL_ANSWER_START===\nConclusion: e. city\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The person took a long trip from the farm, indicating they were likely tired and in need of rest.",
+                "Staying in a hotel is a common choice for travelers looking for accommodation and rest.",
+                "A hotel is more likely to be found in a city or resort area rather than a wwii bunker or Las Vegas.",
+                "Considering the comfort and convenience, the person most likely stayed in a city or resort."
+            ],
+            "pred": "e. city",
+            "is_correct": false,
+            "elapsed_time": 1.567274570465088,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I did not need a servant.  I w",
+            "question": "Question: I did not need a servant.  I was not a what?\n\nChoices:\na. freedom\nb. rich person\nc. hired help\nd. in charge\ne. busy",
+            "answerKey": "b",
+            "cot_output": "Step 1: If I did not need a servant, it implies that I can take care of my own tasks and responsibilities.\nStep 2: If I can take care of my own tasks and responsibilities, it means I am not dependent on someone else to do things for me.\nStep 3: Being able to take care of my own tasks and responsibilities indicates that I am not a hired help.\nStep 4: Therefore, I was not a hired help.\nStep 5: If I was not a hired help, it suggests that I was not a servant.\nStep 6: If I was not a servant, it implies that I was not in charge of someone else.\nStep 7: Therefore, I was not in charge.\n===FINAL_ANSWER_START===\nConclusion: D. in charge\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If I did not need a servant, it implies that I can take care of my own tasks and responsibilities.",
+                "If I can take care of my own tasks and responsibilities, it means I am not dependent on someone else to do things for me.",
+                "Being able to take care of my own tasks and responsibilities indicates that I am not a hired help.",
+                "Therefore, I was not a hired help.",
+                "If I was not a hired help, it suggests that I was not a servant.",
+                "If I was not a servant, it implies that I was not in charge of someone else.",
+                "Therefore, I was not in charge."
+            ],
+            "pred": "D. in charge",
+            "is_correct": false,
+            "elapsed_time": 2.146831512451172,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_How would you get from one sid",
+            "question": "Question: How would you get from one side of a canal to another?\n\nChoices:\na. michigan\nb. amsterdam\nc. venice\nd. bridge\ne. barges to travel on",
+            "answerKey": "d",
+            "cot_output": "Step 1: Canals are commonly found in cities like Amsterdam and Venice.\nStep 2: Both Amsterdam and Venice are known for their canal systems.\nStep 3: In Amsterdam and Venice, people use boats and barges to travel across the canals.\nStep 4: Therefore, the most likely way to get from one side of a canal to another is by using barges to travel on.\n===FINAL_ANSWER_START===\nConclusion: e. barges to travel on\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Canals are commonly found in cities like Amsterdam and Venice.",
+                "Both Amsterdam and Venice are known for their canal systems.",
+                "In Amsterdam and Venice, people use boats and barges to travel across the canals.",
+                "Therefore, the most likely way to get from one side of a canal to another is by using barges to travel on."
+            ],
+            "pred": "e. barges to travel on",
+            "is_correct": false,
+            "elapsed_time": 1.1559913158416748,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When learning about the world ",
+            "question": "Question: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions\n\nChoices:\na. newness\nb. loss of innocence\nc. enlightenment\nd. open mind\ne. smartness",
+            "answerKey": "d",
+            "cot_output": "Step 1: To eliminate preconceived notions, one must be willing to consider new information and perspectives.\nStep 2: Being open to new information requires having an open mind.\nStep 3: Having an open mind means being receptive to different ideas and viewpoints.\nStep 4: This receptiveness leads to enlightenment and a deeper understanding of the world and different cultures.\nStep 5: Therefore, the most important factor in eliminating preconceived notions is having an open mind.\n===FINAL_ANSWER_START===\nConclusion: d. open mind\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "To eliminate preconceived notions, one must be willing to consider new information and perspectives.",
+                "Being open to new information requires having an open mind.",
+                "Having an open mind means being receptive to different ideas and viewpoints.",
+                "This receptiveness leads to enlightenment and a deeper understanding of the world and different cultures.",
+                "Therefore, the most important factor in eliminating preconceived notions is having an open mind."
+            ],
+            "pred": "d. open mind",
+            "is_correct": true,
+            "elapsed_time": 2.6210310459136963,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_An underrated thing about comp",
+            "question": "Question: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?\n\nChoices:\na. share files\nb. do arithmetic\nc. turn on\nd. cost money\ne. multitask",
+            "answerKey": "e",
+            "cot_output": "Step 1: Computers are known for their ability to perform tasks efficiently and quickly.\nStep 2: One of the fundamental tasks that computers can do is arithmetic calculations.\nStep 3: Performing arithmetic calculations was a big deal when computers could first do it.\nStep 4: Therefore, the answer is b. do arithmetic.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Computers are known for their ability to perform tasks efficiently and quickly.",
+                "One of the fundamental tasks that computers can do is arithmetic calculations.",
+                "Performing arithmetic calculations was a big deal when computers could first do it.",
+                "Therefore, the answer is b. do arithmetic."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.3649072647094727,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Obstructing justice is sometim",
+            "question": "Question: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?\n\nChoices:\na. committing perjury\nb. prosecution\nc. attack\nd. getting hurt\ne. riot",
+            "answerKey": "d",
+            "cot_output": "Step 1: Obstructing justice can lead to lack of accountability for police brutality.\nStep 2: Lack of accountability for police brutality can result in increased aggression and abuse of power.\nStep 3: Increased aggression and abuse of power by police can cause people to feel threatened and fearful.\nStep 4: Feeling threatened and fearful can lead to people retaliating or defending themselves.\nStep 5: Retaliating or defending themselves can result in an attack.\nStep 6: Therefore, obstructing justice can cause an attack in people.\n===FINAL_ANSWER_START===\nConclusion: C. attack\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Obstructing justice can lead to lack of accountability for police brutality.",
+                "Lack of accountability for police brutality can result in increased aggression and abuse of power.",
+                "Increased aggression and abuse of power by police can cause people to feel threatened and fearful.",
+                "Feeling threatened and fearful can lead to people retaliating or defending themselves.",
+                "Retaliating or defending themselves can result in an attack.",
+                "Therefore, obstructing justice can cause an attack in people."
+            ],
+            "pred": "C. attack",
+            "is_correct": false,
+            "elapsed_time": 1.5107076168060303,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_While washing clothes they bec",
+            "question": "Question: While washing clothes they became what when caught on the sharp object?\n\nChoices:\na. damaged\nb. wet clothes\nc. wear out\nd. torn\ne. have fun",
+            "answerKey": "d",
+            "cot_output": "Step 1: Washing clothes involves water and friction.\nStep 2: Sharp objects can cause damage to clothes when they come in contact with them.\nStep 3: The sharp object could potentially tear the clothes.\nStep 4: If the clothes are caught on the sharp object while washing, they are likely to get torn.\nConclusion: d. torn\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Washing clothes involves water and friction.",
+                "Sharp objects can cause damage to clothes when they come in contact with them.",
+                "The sharp object could potentially tear the clothes.",
+                "If the clothes are caught on the sharp object while washing, they are likely to get torn."
+            ],
+            "pred": "d. torn",
+            "is_correct": true,
+            "elapsed_time": 1.285414218902588,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Seafood restaurants are used t",
+            "question": "Question: Seafood restaurants are used to draw tourists where?\n\nChoices:\na. maine\nb. shoe shop\nc. city\nd. boston\ne. coastal cities",
+            "answerKey": "e",
+            "cot_output": "Step 1: Seafood restaurants are typically located in areas close to the ocean.\nStep 2: Tourists are often drawn to coastal areas for the scenic views and activities.\nStep 3: Therefore, seafood restaurants are used to draw tourists in coastal cities.\nStep 4: The most likely location for seafood restaurants to draw tourists would be in coastal cities.\nConclusion: e. coastal cities\n===FINAL_ANSWER_START===\nConclusion: e\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Seafood restaurants are typically located in areas close to the ocean.",
+                "Tourists are often drawn to coastal areas for the scenic views and activities.",
+                "Therefore, seafood restaurants are used to draw tourists in coastal cities.",
+                "The most likely location for seafood restaurants to draw tourists would be in coastal cities."
+            ],
+            "pred": "e. coastal cities",
+            "is_correct": false,
+            "elapsed_time": 1.9064111709594727,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James's nice asked him about h",
+            "question": "Question: James's nice asked him about her grandfather. She was interested in learning about what?\n\nChoices:\na. family tree\nb. family reunion\nc. babysitting\nd. brother's house\ne. heirlooms",
+            "answerKey": "a",
+            "cot_output": "Step 1: James's niece asked him about her grandfather.\nStep 2: The niece is interested in learning about her grandfather's history or belongings.\nStep 3: The most likely topic of interest would be something related to her grandfather's past.\nStep 4: The family tree would provide information about her grandfather's ancestors and relatives.\nStep 5: Therefore, the niece is interested in learning about the family tree.\n===FINAL_ANSWER_START===\nConclusion: a. family tree\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "James's niece asked him about her grandfather.",
+                "The niece is interested in learning about her grandfather's history or belongings.",
+                "The most likely topic of interest would be something related to her grandfather's past.",
+                "The family tree would provide information about her grandfather's ancestors and relatives.",
+                "Therefore, the niece is interested in learning about the family tree."
+            ],
+            "pred": "a. family tree",
+            "is_correct": true,
+            "elapsed_time": 1.1220135688781738,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James looked up and saw the st",
+            "question": "Question: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?\n\nChoices:\na. universe\nb. orbit\nc. night sky\nd. outer space\ne. his wallet",
+            "answerKey": "a",
+            "cot_output": "Step 1: James looked up and saw the stars twinkling in the black yonder, indicating he was observing the night sky.\nStep 2: He marveled at the sheer number of stars and their size, suggesting he was amazed by the vastness of something.\nStep 3: The only choice that fits the description of vastness is the universe.\nConclusion: a. universe\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "James looked up and saw the stars twinkling in the black yonder, indicating he was observing the night sky.",
+                "He marveled at the sheer number of stars and their size, suggesting he was amazed by the vastness of something.",
+                "The only choice that fits the description of vastness is the universe."
+            ],
+            "pred": "a. universe",
+            "is_correct": true,
+            "elapsed_time": 1.1610708236694336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would encourage someone t",
+            "question": "Question: What would encourage someone to continue playing tennis?\n\nChoices:\na. becoming tired\nb. tennis elbow\nc. exercise\nd. hunger\ne. victory",
+            "answerKey": "e",
+            "cot_output": "Step 1: Playing tennis requires physical exertion and movement.\nStep 2: Exercise is beneficial for physical health and well-being.\nStep 3: Regular exercise, such as playing tennis, can lead to improved fitness and stamina.\nStep 4: Improved fitness and stamina can enhance one's performance in tennis matches.\nStep 5: Winning a tennis match (victory) can be a motivating factor to continue playing.\nConclusion: e. victory\n===FINAL_ANSWER_START===\nConclusion: e. victory\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Playing tennis requires physical exertion and movement.",
+                "Exercise is beneficial for physical health and well-being.",
+                "Regular exercise, such as playing tennis, can lead to improved fitness and stamina.",
+                "Improved fitness and stamina can enhance one's performance in tennis matches.",
+                "Winning a tennis match (victory) can be a motivating factor to continue playing."
+            ],
+            "pred": "e. victory",
+            "is_correct": false,
+            "elapsed_time": 1.1996536254882812,
+            "tokens_used": null
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "model_info": {
+        "mode": "api",
+        "provider": "openai",
+        "name": "gpt-5",
+        "model_method": "api"
+    },
+    "api_key_info": {
+        "api_key_env": "WOKKA_API_KEY",
+        "api_url": "https://4.0.wokaai.com/v1/"
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "gpus": [],
+        "max_output_tokens": 2048
+    }
+}

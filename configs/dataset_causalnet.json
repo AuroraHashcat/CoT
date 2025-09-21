@@ -1,6 +1,6 @@
 {
     "dataset_name": "LOCAL_JSON",
     "hf_id": "/home/wuchenxi/projects/Causal-Cot2/CausalProbe-2024/benchmarks/causalnet.json",
-    "split": "train",
-    "num_samples": 100
+    "split": "test",
+    "num_samples": 110
 }

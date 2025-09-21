@@ -1,0 +1,794 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 10,
+            "final_accuracy": "60.00%",
+            "total_successful_pipelines": 6
+        },
+        "detailed_metrics": {
+            "web_validation": {
+                "avg_reflection_rounds": 1.0
+            }
+        }
+    },
+    "results": [
+        {
+            "id": "proofwriter_The bear needs the mouse.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear needs the mouse.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given statement: \"The bear needs the mouse\" (sent4).\nStep 2: Check if there are any direct contradictions to sent4 in the provided sentences. There are no direct contradictions.\nStep 3: Check if there are any implications or conditions that support sent4. \nStep 4: Consider sent18: \"If someone likes the bear and they like the mouse then the bear likes the mouse.\" This does not directly support sent4 but provides a condition under which the bear likes the mouse.\nStep 5: Consider sent19: \"If someone likes the cow then the cow likes the bear.\" This does not directly support sent4 but provides a condition under which the cow likes the bear.\nStep 6: Consider sent15: \"If someone needs the bear then the bear is young.\" This implies that if the bear needs the bear, the bear is young, but this does not directly support sent4.\nStep 7: Consider sent12: \"If someone is kind then they need the bear.\" This implies that if the bear is kind, the bear needs the bear, but this does not directly support sent4.\nStep 8: Consider sent16: \"Young people are kind.\" This implies that if the bear is young, the bear is kind, but this does not directly support sent4.\nStep 9: Consider sent13: \"If someone sees the cow then they are cold.\" This implies that if the bear sees the cow, the bear is cold, but this does not directly support sent4.\nStep 10: Consider sent14: \"If someone is cold then they like the rabbit.\" This implies that if the bear is cold, the bear likes the rabbit, but this does not directly support sent4.\nStep 11: Consider sent20: \"If someone is round and they do not need the bear then they see the rabbit.\" This does not directly support sent4.\nStep 12: Since there are no direct contradictions and no direct implications that negate sent4, and given that sent4 is explicitly stated, we can conclude that the bear needs the mouse.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statement: \"The bear needs the mouse\" (sent4).",
+                "Check if there are any direct contradictions to sent4 in the provided sentences. There are no direct contradictions.",
+                "Check if there are any implications or conditions that support sent4. ",
+                "Consider sent18: \"If someone likes the bear and they like the mouse then the bear likes the mouse.\" This does not directly support sent4 but provides a condition under which the bear likes the mouse.",
+                "Consider sent19: \"If someone likes the cow then the cow likes the bear.\" This does not directly support sent4 but provides a condition under which the cow likes the bear.",
+                "Consider sent15: \"If someone needs the bear then the bear is young.\" This implies that if the bear needs the bear, the bear is young, but this does not directly support sent4.",
+                "Consider sent12: \"If someone is kind then they need the bear.\" This implies that if the bear is kind, the bear needs the bear, but this does not directly support sent4.",
+                "Consider sent16: \"Young people are kind.\" This implies that if the bear is young, the bear is kind, but this does not directly support sent4.",
+                "Consider sent13: \"If someone sees the cow then they are cold.\" This implies that if the bear sees the cow, the bear is cold, but this does not directly support sent4.",
+                "Consider sent14: \"If someone is cold then they like the rabbit.\" This implies that if the bear is cold, the bear likes the rabbit, but this does not directly support sent4.",
+                "Consider sent20: \"If someone is round and they do not need the bear then they see the rabbit.\" This does not directly support sent4.",
+                "Since there are no direct contradictions and no direct implications that negate sent4, and given that sent4 is explicitly stated, we can conclude that the bear needs the mouse."
+            ],
+            "pred": "A",
+            "final_cot": [
+                "Analyze the given statement: \"The bear needs the mouse\" (sent4).",
+                "Check if there are any direct contradictions to sent4 in the provided sentences. There are no direct contradictions.",
+                "Check if there are any implications or conditions that support sent4. ",
+                "Consider sent18: \"If someone likes the bear and they like the mouse then the bear likes the mouse.\" This does not directly support sent4 but provides a condition under which the bear likes the mouse.",
+                "Check if there are any other implications or conditions that directly support sent4. ",
+                "Consider sent15: \"If someone needs the bear then the bear is young.\" This statement provides a condition under which the bear is young, but it does not directly support sent4.",
+                "Consider sent16: \"Young people are kind.\" This statement provides a condition under which young people are kind, but it does not directly support sent4.",
+                "Consider sent12: \"If someone is kind then they need the bear.\" This statement provides a condition under which someone needs the bear, but it does not directly support sent4.",
+                "Check if there are any direct statements or conditions that support sent4. ",
+                "Directly check sent4: \"The bear needs the mouse.\" This is a direct statement and does not require further logical derivation from other conditions."
+            ],
+            "is_correct": true,
+            "elapsed_time": 67.10065603256226,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statement: \"The bear needs the mouse\" (sent4).",
+                    "decision": "ACCEPT",
+                    "validation_output": "ACCEPT\n\nExplanation: The statement \"The bear needs the mouse\" (sent4) is directly provided in the context. There is no need for causal or logical inference from the web evidence, as the statement is explicitly stated in the context. Therefore, the reasoning step is valid and accepted.",
+                    "queries": [
+                        "sent4 'The bear needs the mouse' logical analysis",
+                        "contextual truth of 'The bear needs the mouse'",
+                        "sent4 validation in logical reasoning"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "...mousewas so ___.;(2) Why didthelion let the m_百度教育",
+                            "url": "http://www.baidu.com/link?url=8QasnS8tu52qelum1yfXtfCvHG7IARiAFiSJW7KuVmKXsn7AA4dXKjyshlJ96yEs1JOr9WXp4mPZGhd6GqEhxoiiBlAXIpc1tdYvPvG1a_590Ream3y8cXoJEwZHaBXi2vZOZjlT6E5tFaoEKTjCiK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "Analyzethefollowing sentence: \"Thecat chased themousebut...",
+                            "url": "http://www.baidu.com/link?url=8QasnS8tu52qelum1yfXtfCvHG7IARiAFiSJW7KuVmKXsn7AA4dXKjyshlJ96yEs1JOr9WXp4mPZGhd6GqEhxoiiBlAXIpc1tdYvPvG1a_55UkrdWlivQRUFA0xBx8oQkRgEF85xTIQV62nX0D4LeK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "Forest travel - puzzle games ontheApp Store",
+                            "url": "http://www.baidu.com/link?url=8QasnS8tu52qelum1yfXtpKeOfOmbk-TRDRO-HNojwtnN32Qihk1ix_phk0BlsUIEsrBEKoe5h-2vDZj2Sfbe8RbuPFkWVhZ_OQvWHMdwRs4a7GjXSKmcDEKCo6oHQZR",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "雅思考官作文1:动物实验(2) - 知乎",
+                            "url": "http://www.baidu.com/link?url=vDUN0qIglcynOCXZdImxOsUb-3K_R8Odo-IqOBwEO80nNcXRVnr3QL3fbFjUltjS",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "NLTK学习笔记(八):文法--词关系研究的工具_nltk的缺点-CSDN博客",
+                            "url": "http://www.baidu.com/link?url=ra4VQtQRZF-XCJ4wufqF24Qv1ko5T90qF-2q77nHMn02VsNsdFv6H2WNAI6ByeetAnUzL6i9QyeaL8f9HmMig7HPXO5vSMNZTYaOPyo-Br3",
+                            "snippet": ""
+                        }
+                    ]
+                },
+                {
+                    "step": "Check if there are any direct contradictions to sent4 in the provided sentences. There are no direct contradictions.",
+                    "decision": "ACCEPT",
+                    "validation_output": "ACCEPT\n\nExplanation: The reasoning step is to check for any direct contradictions to the statement \"The bear needs the mouse\" (sent4) in the provided sentences. Upon reviewing the provided sentences, there are no direct contradictions to sent4. The web evidence provided does not contain any relevant information that contradicts or supports sent4. Therefore, the reasoning step is causally and logically valid.",
+                    "queries": [
+                        "sentences that contradict 'The bear needs the mouse'",
+                        "context sentences that support or negate 'The bear needs the mouse'"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "[英语打卡](转)怕老鼠的狮子与狐狸 - 百度宝宝知道",
+                            "url": "http://www.baidu.com/link?url=ool5ykEtWHoK3Dz2ay3pIXwipQO4mASND5f1GQhUXuOivkRys9Og6NovH9thCrqCOWXM1JjfJU7EQH33veXl31szp0n6G1M0coFGs8Rgy47",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "...1.Thelion letthemousego for it was not hungry.( )2...",
+                            "url": "http://www.baidu.com/link?url=wVTGQQDAjJcbCWoBZvIISeDBxl_3Api_-v08TPw9qzQlmGVhqeNADbVaVXpaef9IjeaMm9O-kd_w8bRU7TKt_isaU6tcA6CzEamWXuEBgBMv1fXVM3Lm3a6pyIQtJAilyXQKiJ4l5uC8Yd_UzEtHqK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "慢速英语听力寓言故事 - 儿童 - 喜马拉雅",
+                            "url": "http://www.baidu.com/link?url=k05VtMohDvoDkUA3uo1YrQAxdqjsp5G11dUwcPu4z9hDgyHw4w7tqLN-_Kx5e4Q9tHk98lTAZ9KpB3-Py0UdVa",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "Thelion andthemouseOne day, a lion is sleeping. A mouse...",
+                            "url": "http://www.baidu.com/link?url=wVTGQQDAjJcbCWoBZvIISeDBxl_3Api_-v08TPw9qzQlmGVhqeNADbVaVXpaef9IjeaMm9O-kd_w8bRU7TKt_isaU6tcA6CzEamWXuEBgBL7nslB4K8d9dNH-ZPDXQNtXFuoQv6kKWxlvEUvrosNQq",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "「中英双语」研究的艺术——第十七章 修改风格:清晰讲述你的故事",
+                            "url": "http://www.baidu.com/link?url=ool5ykEtWHoK3Dz2ay3pISb_beDxgdRHR1pCXRAPcaUyR1jkgPRdKSzS9ocyoyPUw4haxHS9m-KCi4SffE7rnxAdJNBHOkKLKsl-tIXkuKm",
+                            "snippet": ""
+                        }
+                    ]
+                },
+                {
+                    "step": "Check if there are any implications or conditions that support sent4. ",
+                    "decision": "ACCEPT",
+                    "validation_output": "ACCEPT\n\nExplanation: The reasoning step is to check if there are any implications or conditions that support sent4: \"The bear needs the mouse.\" This is a valid and logical step in assessing the truth of the statement. We need to examine the provided sentences to see if any of them directly or indirectly support this claim. For example, sent18 states, \"If someone likes the bear and they like the mouse then the bear likes the mouse,\" but this does not directly support sent4. However, the step itself is logically sound as it involves checking for relevant conditions or implications. No web evidence is necessary to validate this reasoning step, as it is a straightforward logical check.",
+                    "queries": [
+                        "sent4 implications in logical reasoning",
+                        "conditions supporting 'The bear needs the mouse' in logical statements",
+                        "logical rules involving 'The bear needs the mouse'"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "大语言模型中的逻辑推理:综述_牛喀网-具身智能开发者生态",
+                            "url": "http://www.baidu.com/link?url=LoG-CKRkeYWzDgdvXtedzueWJYM9E25Ya2EqJ6KkDJUY8yRraaHIMlKpCYCi2jOta1c7vdmHOsVPyMZP7eJiZ2rFVlB_3Ygf2MpH537tV-O",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "SAT高分必读 | 逻辑关联:SAT机考的“隐形评分线”!",
+                            "url": "http://www.baidu.com/link?url=fDh_vN7JFDQXMe8_7g8wKcp7Qkh50qEGkNuWYnY2ck57f7r6MugUoBO9gaYCcn9iSE3qrtzZ4pFklbd4FjbWhqIG1uVNCBRxIlZllpOxUyfEtCmKqoBJoBnJYavVf5li9Bs_MXyl2M7u1lHi-Cato8_KU6gpdrWR0dOMBoN7J8G0vN_BTvnuPgqi3aQb0O78glaeSHSqUkhX6R0bv66EpPvut_x-nQQO5QpXtKHgqy0VjgJCGJwxTH107wWErJo2B8qckyIqNnPHqnncLECr6a",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "逻辑推理阅读理解任务及方法",
+                            "url": "http://www.baidu.com/link?url=fDh_vN7JFDQXMe8_7g8wKcp7Qkh50qEGkNuWYnY2ck6py7WSc_-WV6XQAC2or71JzZgN60GqEyQ7p2n6n5VK9haB-wmJzGH4FKoGkhZcDpTv_3_wiqSmmw1oC9tc1qZLoUK8DKUnGWcsiFIZVCOjlpwpCYe3Azwy8RtK8sWciNphsgLQz8yLX7bWi909DN4YVx5XsEUVK_Ji31mURbKaajOoWqamN63l7i4x8yTFk-6wMGCYiG_3lmihzgt-XICZK9HpF5aUaaGumGm3PGJqd_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "LogicalImplication- an overview | ScienceDirect Topics",
+                            "url": "http://www.baidu.com/link?url=vOBKeY0ih73Um0xY_r_w9kKzpwLqWFy8l4pFMczr12jsezvdJ1f03lnRSFIYzh9R_Gvdbd1lkQTo1NyIVnb8DLSFP2e4KL2fyRuQ4_CVp4QApYvmaOikrWRFT6u58zlf",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2025 下半年大学英语四六级阅读:推理题逻辑链分析法 + 避免过度推断指南...",
+                            "url": "http://www.baidu.com/link?url=0wFlV8oQMxfoMTHhwuapboEzi8TpYnPIQP_QyN2YiUpNvKkIi7RMc1L8HjKke9ht5JAK1YWMWx0Z9RkjfbMQna",
+                            "snippet": ""
+                        }
+                    ]
+                },
+                {
+                    "step": "Consider sent18: \"If someone likes the bear and they like the mouse then the bear likes the mouse.\" This does not directly support sent4 but provides a condition under which the bear likes the mouse.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nThe reasoning step provided does not logically support the conclusion that \"The bear needs the mouse\" (sent4). The statement \"If someone likes the bear and they like the mouse then the bear likes the mouse\" (sent18) only establishes a condition under which the bear likes the mouse, not that the bear needs the mouse. There is no direct logical connection between the condition in sent18 and the need stated in sent4. Therefore, the reasoning step is not logically valid. The web evidence provided does not contain any relevant information to support or refute the reasoning step.",
+                    "queries": [
+                        "If someone likes the bear and they like the mouse then the bear likes the mouse",
+                        "Conditions under which a bear likes a mouse",
+                        "Sentences or conditions that support the bear needing the mouse"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "暑期单词训练营 | Day4《 Animal Sounds》,学完词汇暴涨1000",
+                            "url": "http://www.baidu.com/link?url=35r2tfA6ifjsMWUDKs6DeCxKcOk7c0Lk8B1L7t1wPo_5VDbtY2nsgWy5E9BBDZ4em94DNBOYyQyzWQBt_1vOQEVmlSvTaE2dISt8hOQ83YW",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "沪教牛津英语三下知识点",
+                            "url": "http://www.baidu.com/link?url=InN7J2HH3qBFXhjQhHh194ano6pG8qW8S2jnqe0SGMWt_YRnk6JAg2almrDf4N2zlEfu2dutumUI5z_mkE3KtGkpq4XL19I8Xas8r-aOdM7",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2017年最新人教版七年级英语下册单元测试题全套及答案",
+                            "url": "http://www.baidu.com/link?url=IDt9C4_8Yxl_91Oj5dEZ45VsZfKWy11ngCTa49VzKxI1CzFUlHCBpdIELqwAIVHM4djCGMhwvw5siwYeTFSWOK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "关于友情的唯美句子英语(精选140句)",
+                            "url": "http://www.baidu.com/link?url=goQRJiZgw8UAgdofgT-aIUwFTwk6o0vZWzTIU-GMINWPPBq_loSOhpaAEM0aFTUsxBs-43Mhx3R_sAGVRNWKlq",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "Minerva's Manoeuvres, by Charles Battell Loomis-A Project...",
+                            "url": "http://www.baidu.com/link?url=goQRJiZgw8UAgdofgT-aIUZHT1VUP3ML5EuQheLCijMpRM_xZDortlVm8RV-poECfx-EqN8OiXDOXUMssit9pzTBGMljMAB1ZHw2ASQPH3_",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The mouse does not see the rab",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The mouse does not see the rabbit.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the given statement: \"The mouse does not see the rabbit.\"\nStep 2: Identify the relevant sentence in the context: sent10 states, \"The mouse sees the rabbit.\"\nStep 3: Compare the given statement with sent10. The given statement claims the mouse does not see the rabbit, while sent10 explicitly states that the mouse sees the rabbit.\nStep 4: Since sent10 directly contradicts the given statement, the given statement must be false.\nStep 5: The correct answer is that the statement \"The mouse does not see the rabbit\" is false.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statement: \"The mouse does not see the rabbit.\"",
+                "Identify the relevant sentence in the context: sent10 states, \"The mouse sees the rabbit.\"",
+                "Compare the given statement with sent10. The given statement claims the mouse does not see the rabbit, while sent10 explicitly states that the mouse sees the rabbit.",
+                "Since sent10 directly contradicts the given statement, the given statement must be false.",
+                "The correct answer is that the statement \"The mouse does not see the rabbit\" is false."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statement: \"The mouse does not see the rabbit.\"",
+                "Identify the relevant sentence from the context: sent10 states \"The mouse sees the rabbit.\"",
+                "Compare the given statement with the relevant sentence. The statement \"The mouse does not see the rabbit\" directly contradicts sent10.",
+                "Conclude that the statement \"The mouse does not see the rabbit\" is false based on the logical contradiction."
+            ],
+            "is_correct": true,
+            "elapsed_time": 14.941518306732178,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statement: \"The mouse does not see the rabbit.\"",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation: The statement \"The mouse does not see the rabbit\" is not logically valid based on the provided sentences. Specifically, sent10 states \"The mouse sees the rabbit.\" This directly contradicts the statement in question. Therefore, the statement \"The mouse does not see the rabbit\" is false. The web evidence provided does not contain any relevant information to support or refute this statement, so the logical contradiction within the given sentences is the primary basis for the rejection.",
+                    "queries": [
+                        "sent10: The mouse sees the rabbit",
+                        "context sentences about mouse and rabbit visibility"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "冠词- supermao12 - 博客园",
+                            "url": "http://www.baidu.com/link?url=Jd5KoEjB8z5u0UPcDJzTCh8q5Qxv7ti_1d8v83KDm9EBgpaE-TMCy1CTapDt2eEA8otr4TplQ1VoXtjNy0fPyK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "英语Thedog scented arabbit怎么翻译? - 百度知道",
+                            "url": "http://www.baidu.com/link?url=xLfC1G1CqkOqZSb-TromkP9ZHUhfY1pKY9_BWD5HJ0HqcFO6GwlBZKU24Gzx8N8Wu0eBcWtxI1j3FW-HoITbFYez1ww0RC1rabG2k-f7K77",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "...Arabbitis sleeping onthegrass. A foxseesthe_百度教育",
+                            "url": "http://www.baidu.com/link?url=gJgt48NG2EM97ADRFVJCRodDFf-9tp4onwKnkvCP6n9qZs9w-0I5l3pLlQMmFfMhCImK-PURUupydTBixlS4ydIVqdtLEmi6vIj8pwc7F4rAI-a96AQJXQGS86xroU9CLESc6BSLjpS3wzk2Uz3f8a",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "A littlemousethinks he isthetallest and 1 animal in the1...",
+                            "url": "http://www.baidu.com/link?url=gJgt48NG2EM97ADRFVJCRodDFf-9tp4onwKnkvCP6n9qZs9w-0I5l3pLlQMmFfMhCImK-PURUupydTBixlS4ydIVqdtLEmi6vIj8pwc7F4rWlHp_AFbGUYBy8wo0vHm57dgHtKeeRnvy6dFrCkAuaa",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "背诵为王 - 百度文库",
+                            "url": "http://www.baidu.com/link?url=-9059BWHiCKUk8XD-kzQePZ80PpzfjIFgVouBDgovYpPN4Itba34HetVuZNaZX7pu-azfrcBTz37rCcwJ70R1BFedMwHGZXLDggrXh0sh1pD4t-a7WTOfowRhr4ZiZVx",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The rabbit is kind.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The rabbit is kind.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the rabbit being kind.\n- sent11: The rabbit is young.\n- sent16: Young people are kind.\n\nStep 2: Apply the logical rule from sent16 to the rabbit.\n- Since the rabbit is young (sent11), and young people are kind (sent16), the rabbit must be kind.\n\nStep 3: Verify if there are any contradictions or additional conditions that might affect this conclusion.\n- No other statements directly contradict the rabbit being kind.\n- No additional conditions are necessary to determine the rabbit's kindness based on the given information.\n\nStep 4: Conclude based on the logical deductions.\n- The rabbit is young, and young people are kind, so the rabbit is kind.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the rabbit being kind.",
+                "Apply the logical rule from sent16 to the rabbit.",
+                "Verify if there are any contradictions or additional conditions that might affect this conclusion.",
+                "Conclude based on the logical deductions."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the rabbit being kind.",
+                "Evaluate if the rabbit being young can imply the rabbit being kind.",
+                "Check if there are any other statements that could indirectly imply the rabbit's kindness.",
+                "Conclude based on the analysis."
+            ],
+            "is_correct": false,
+            "elapsed_time": 28.0188467502594,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the rabbit being kind.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation: The provided statements and web evidence do not contain any direct or indirect information that logically or causally supports the conclusion that \"The rabbit is kind.\" The web evidence snippets are not relevant to the logical reasoning required to determine the rabbit's kindness. The only statement that mentions the rabbit is sent11, which states \"The rabbit is young.\" However, there is no direct link between the rabbit being young and the rabbit being kind. While sent16 states \"Young people are kind,\" this statement applies to people, not animals, and thus cannot be used to infer the rabbit's kindness. Therefore, the reasoning step is logically invalid.",
+                    "queries": [
+                        "sent11 The rabbit is young",
+                        "sent16 Young people are kind",
+                        "sent12 If someone is kind then they need the bear"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "TheRabbit_Daniel Larisy_单曲在线试听_酷我音乐",
+                            "url": "http://www.baidu.com/link?url=GgmoIKJYmRcqCT34F0d0vIH2UBK1yt-X9RxL87O0PALmfEojPoIWYSTDbbpln9iksxiSJWrQRffcl00fTQCQ2K",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "TheRabbit_Kinderliedjes Baby TaTaTa、Slaapcyclus_高音质在线试听_T...",
+                            "url": "http://www.baidu.com/link?url=Ejd3t4OvhA_qlsMtWmgavRQj6dOyyaaqgcs-6ru2lTyaARRP8p27pXAlrtyGH0cuX-WTOb3JwROuF1MyzynKJ_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "4.4TheStory oftheEasterRabbit(复活节兔子的故事)_哔哩哔哩...",
+                            "url": "http://www.baidu.com/link?url=w3ewWAgVoZ8A28mJ4CLJnnX8AqWedatIa_BGKigSO7AteSLxuHAxQRl0D9wb2XA08AXOxmSkPOY6G8L2hoPFDq",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "A luckyrabbit一只幸运的兔子 A rabbitissleeping onthe...",
+                            "url": "http://www.baidu.com/link?url=oz5BoibDCI1rFbp0bJnqIGnpT9fQGz965IyAw7GXzRz6A0Plmop9SppuU53ehP3ZL__oUyfAx6Fsnzmqu_bv7M2aeZn3FA9S3wrgyff_NNDMnw0xpab6dOYI0yUP8PQZbr7pLVz-66-7aaoP4vzrk_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "sentense声音免费在线播放-喜马拉雅",
+                            "url": "http://www.baidu.com/link?url=w3ewWAgVoZ8A28mJ4CLJnisKMEvfMqSzm1-oB1t5NWwPbhsjbNDsLPCa3jqOmde2qtSyZNM1fgdvdlKqKFOIya",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The rabbit is not kind.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The rabbit is not kind.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the given statements to find any direct information about the rabbit's kindness.\n- There is no direct statement about the rabbit being kind or not kind.\n\nStep 2: Use the conditional statements to infer information about the rabbit's kindness.\n- sent12: If someone is kind then they need the bear.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n\nStep 3: Determine if the rabbit needs the bear.\n- sent10: The mouse sees the rabbit.\n- sent13: If someone sees the cow then they are cold.\n- sent14: If someone is cold then they like the rabbit.\n- sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nStep 4: Analyze the implications of the rabbit being young.\n- sent11: The rabbit is young.\n- sent16: Young people are kind.\n- Therefore, the rabbit is young and, by sent16, the rabbit is kind.\n\nStep 5: Check for any contradictions or additional conditions that might affect the rabbit's kindness.\n- There are no statements that directly contradict the rabbit being kind.\n\nStep 6: Conclude based on the analysis.\n- The rabbit is young and, by sent16, the rabbit is kind. Therefore, the statement \"The rabbit is not kind\" is false.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statements to find any direct information about the rabbit's kindness.",
+                "Use the conditional statements to infer information about the rabbit's kindness.",
+                "Determine if the rabbit needs the bear.",
+                "Analyze the implications of the rabbit being young.",
+                "Check for any contradictions or additional conditions that might affect the rabbit's kindness.",
+                "Conclude based on the analysis."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to find any direct information about the rabbit's kindness.",
+                "Determine if there is any indirect information that can help us conclude whether the rabbit is kind.",
+                "Check for any statements that might contradict the rabbit being kind.",
+                "Evaluate the consistency of the statements."
+            ],
+            "is_correct": true,
+            "elapsed_time": 27.50552463531494,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct information about the rabbit's kindness.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation: The provided web evidence does not contain any information relevant to the question of whether the rabbit is kind or not. The reasoning step requires us to analyze the given statements to find any direct information about the rabbit's kindness. However, none of the given statements (sent1 to sent20) directly state whether the rabbit is kind or not. The only information about the rabbit is that it is young (sent11) and that the mouse sees the rabbit (sent10). There is no logical path from these statements to conclude whether the rabbit is kind or not. Therefore, the reasoning step is not logically valid.",
+                    "queries": [
+                        "sentences about rabbit kindness in logical reasoning",
+                        "information on rabbit's kindness from given statements",
+                        "direct evidence of rabbit's kindness in logical problem"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "...难度:★★★建议用时:8分钟InformationaboutRabbitCulture...",
+                            "url": "http://www.baidu.com/link?url=RJ8G2KASFy04qB2sEumM8UBM-nITnp63yk4uRS9_GmqnHrHvXQDrb5CqoxDjMF49PWKiMKxcQ8YJo4g0wvUun6Ir3Amaw22X9so934PviwlNSHJiFi9l2vem8uPajHQMvZ0itEb1S-QpgbJy1ope7q",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "为什么培养逻辑推理能力很重要英语作文 - 百度文库",
+                            "url": "http://www.baidu.com/link?url=ytyXMshWybXYt-CcPOy1thuEEFwDSDKI3l9n0g0cTQOEjnzUXIsoebVSyd_XUVNPc9lWbuPYbf0gfYfN5N3obrz-SN4TVCsYHXUU4LOmLBy2diw6zwcGPIJLDcch3X_U",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "关于兔子的英文句子",
+                            "url": "http://www.baidu.com/link?url=9-P21NGFP7hZwWtVb6i_a9plgD8XgNPwowAThvpwdKT9Zroi1MfrGOz4TC2p7cjImoDdi_6ZtiovqMQFe5IlcgBrTfojids4kMrE-sF8FNe",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2003年研究生入学考试mba英语真题_考研_新东方在线",
+                            "url": "http://www.baidu.com/link?url=xP9CzdGvkQNu9tgmbKejrsNk-xRZUYI0pAUYVBnJLZUcL-J0oCvGvEkFc590Gnxu4IHfQDVA5He-BwYZr-lHRq",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2022“外研社杯”全国英语阅读大赛样题及答案",
+                            "url": "http://www.baidu.com/link?url=lzrWwM5gDRZ9lmh7a9voec5XaBQZ2XHjxhivbBIRfFyyMHzQSiDXVReshPo9DIeY_WgDX_vM7YVRm2nGoTPG16xG8O8JCQgadSsE8OE4G2dMuEFS3fv4ydlgIyS5g24vPAGQGVlnYby7vY-_x1umnqOZN3MSVDg-8Zg75KjsTsHOnEMZM90C4mETf4QRPe2X2uvr6Fz0ktmC7xNqehStFV4tzYZXyjPfak4chBlNcdMEYPu1An3gmNlOlmmbX5C81aE18B0Y-7wJBlSYKh570K",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear likes the rabbit.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear likes the rabbit.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the bear liking the rabbit.\n- sent1 to sent6 provide basic information about the bear, the cow, and the mouse, but do not mention the rabbit.\n- sent7 to sent11 provide information about the cow, mouse, and rabbit, but do not mention the bear liking the rabbit.\n- sent12 to sent20 provide conditional statements that might help infer the bear's relationship with the rabbit.\n\nStep 2: Identify any relevant conditional statements that could lead to the bear liking the rabbit.\n- sent12: If someone is kind then they need the bear.\n- sent13: If someone sees the cow then they are cold.\n- sent14: If someone is cold then they like the rabbit.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n- sent17: If someone is round then they like the mouse.\n- sent18: If someone likes the bear and they like the mouse then the bear likes the mouse.\n- sent19: If someone likes the cow then the cow likes the bear.\n- sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nStep 3: Determine if the bear is young.\n- sent15: If someone needs the bear then the bear is young.\n- sent12: If someone is kind then they need the bear.\n- sent16: Young people are kind.\n- Combining these, if someone is kind, they need the bear, and if they need the bear, the bear is young.\n- Therefore, if the bear is young, it implies the bear is kind.\n\nStep 4: Determine if the bear is cold.\n- sent13: If someone sees the cow then they are cold.\n- sent5: The bear sees the cow.\n- Therefore, the bear is cold.\n\nStep 5: Determine if the bear likes the rabbit.\n- sent14: If someone is cold then they like the rabbit.\n- From Step 4, the bear is cold.\n- Therefore, the bear likes the rabbit.\n\nStep 6: Verify the final conclusion.\n- The bear is cold (from Step 4).\n- If the bear is cold, then the bear likes the rabbit (from sent14).\n\nStep N: The bear likes the rabbit",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the bear liking the rabbit.",
+                "Identify any relevant conditional statements that could lead to the bear liking the rabbit.",
+                "Determine if the bear is young.",
+                "Determine if the bear is cold.",
+                "Determine if the bear likes the rabbit.",
+                "Verify the final conclusion."
+            ],
+            "pred": "A",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the bear liking the rabbit.",
+                "Check if there are any statements that might indirectly imply the bear likes the rabbit.",
+                "Check if there are any statements that might indirectly imply the bear's relationship with the rabbit through other entities.",
+                "Verify the logical chain."
+            ],
+            "is_correct": true,
+            "elapsed_time": 31.48998475074768,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the bear liking the rabbit.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nThe provided sentences and the web evidence do not contain any direct or indirect information that supports the conclusion that \"The bear likes the rabbit.\" The sentences and the web evidence snippets do not mention any relationship between the bear and the rabbit in terms of liking. The web evidence snippets are not relevant to the logical reasoning required to determine the bear's feelings towards the rabbit. Therefore, the reasoning step is logically invalid as there is no basis to conclude that the bear likes the rabbit.",
+                    "queries": [
+                        "sentences about bear liking rabbit",
+                        "statements connecting bear and rabbit preferences",
+                        "information on bear's feelings towards rabbit from given sentences"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "9. How didRabbitlikeBear? A. He was very proud. B. He was...",
+                            "url": "http://www.baidu.com/link?url=YNqE1Jibx94SZ9c4VqCFEhWopCn7r0FmKDpe_ce4kxv1mQE0204X6Y1VVPsiIw5H1JOt4ymmCOKqaZMXP_ANnkQvUlVesb_TXGhSMa5nPfSxg8rZnQ7fp0AuI_S6vren_kOI9UARjj8fUSBE61UYTK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "老虎和兔子经典句子英语 - 百度文库",
+                            "url": "http://www.baidu.com/link?url=iQkihy-P9d7Q55X_IJCszqNo7aZLH8FC755wxMzJuop-BL7__0GF0OCnYWzkE551JtE6eOeGKzwBEHlQe8yB_rCWk_U9s9vtFupB05CGh1iZWFC_exPFVnwTbYytiuWH",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "173RabbitQuotes and Captions That Will Have You Hopping",
+                            "url": "http://www.baidu.com/link?url=DwODLdvVig-iag4z4L6Un8aZ7yOeKnvMGhccWOCZmbIhM9XLgsG_gF2M_VnO7WTQqF8CsJq889gBT0Frucr-xK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "精美英文欣赏:肇事的兔子Wolves andRabbits_英语美文欣赏 - 可可英...",
+                            "url": "http://www.baidu.com/link?url=dU7Q87STp9iQuwqFTgIqj0HCHOm4KYmtEfEwUsoC9f8-CUMjBHDptMUXGaT1KszDdA4aLlIXiSbDNMA9OClYYa",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "英文小说名著_万万没想到:小兔兔的真爱不是胡萝卜!_沪江英语",
+                            "url": "http://www.baidu.com/link?url=VIQk0nBZMDJ6utZmAcfhSZl5ULz1m3U_sxc0CVJyxUgsDeoEk6PHpju0rvpig8q53N7oD57g7RQ90ZvtquMWvq",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear does not like the rab",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear does not like the rabbit.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the bear's relationship with the rabbit.\n- sent1 to sent6 provide direct information about the bear's attributes and interactions with the mouse and cow.\n- sent7 to sent11 provide information about the cow, mouse, and rabbit.\n- sent12 to sent20 provide conditional statements that can be used to infer additional information.\n\nStep 2: Identify any statements that directly or indirectly involve the bear and the rabbit.\n- There are no direct statements about the bear liking or disliking the rabbit.\n- We need to use the conditional statements to infer this information.\n\nStep 3: Analyze the conditional statements to see if they can provide any information about the bear's relationship with the rabbit.\n- sent12: If someone is kind then they need the bear.\n- sent13: If someone sees the cow then they are cold.\n- sent14: If someone is cold then they like the rabbit.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n- sent17: If someone is round then they like the mouse.\n- sent18: If someone likes the bear and they like the mouse then the bear likes the mouse.\n- sent19: If someone likes the cow then the cow likes the bear.\n- sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nStep 4: Determine if the bear can be inferred to be cold or to like the rabbit.\n- From sent5, the bear sees the cow.\n- From sent13, if the bear sees the cow, then the bear is cold.\n- From sent14, if the bear is cold, then the bear likes the rabbit.\n\nStep 5: Evaluate the conclusion based on the logical chain.\n- The bear sees the cow (sent5).\n- Therefore, the bear is cold (sent13).\n- Therefore, the bear likes the rabbit (sent14).\n\nStep 6: Determine the final answer based on the logical chain.\n- The bear likes the rabbit, which contradicts the statement \"The bear does not like the rabbit.\"\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the bear's relationship with the rabbit.",
+                "Identify any statements that directly or indirectly involve the bear and the rabbit.",
+                "Analyze the conditional statements to see if they can provide any information about the bear's relationship with the rabbit.",
+                "Determine if the bear can be inferred to be cold or to like the rabbit.",
+                "Evaluate the conclusion based on the logical chain.",
+                "Determine the final answer based on the logical chain."
+            ],
+            "pred": "A",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the bear's relationship with the rabbit.",
+                "Check for any indirect information that might imply the bear's relationship with the rabbit.",
+                "Check for any statements that might indirectly relate the bear to the rabbit through other entities.",
+                "Evaluate the logical implications of the given statements."
+            ],
+            "is_correct": false,
+            "elapsed_time": 27.50626015663147,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the bear's relationship with the rabbit.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation: The given statements do not provide any direct or indirect information about the bear's relationship with the rabbit. Specifically, there is no statement that directly mentions whether the bear likes or dislikes the rabbit. The web evidence provided does not offer any additional information to support a conclusion about the bear's relationship with the rabbit. Therefore, the reasoning step is logically invalid as it does not lead to a supported conclusion.",
+                    "queries": [
+                        "sentences about bear and rabbit relationship",
+                        "information on bear's feelings towards rabbit from given sentences",
+                        "direct or indirect statements about bear liking or disliking rabbit"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "英语听说练习与词汇综合01:The LionandtheRabbit狮子和兔子|宠物...",
+                            "url": "http://www.baidu.com/link?url=lQ85wfl11Y4lr2PElL74vKvDpvuC4S4lpRmZoJXnTDSyEySMPsHpofkGyF-yJlTKehaDS0RVb4Ds08-iPnZG9_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "狮子和兔子英语读后感100字 - 百度文库",
+                            "url": "http://www.baidu.com/link?url=UkMcWELv3rgPIdtfFi0vBa8IqNf2actb9-sHwsMttWAxtPBYefSgPFQf0IGXSCRBxskUjsZPTKQOT3I7GthdG7W91yK8WghPVkgajOy1sRQLjlTC8Smu4crsU3m8_mVN",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "大象背着小兔子过作文 英语合集 - 百度文库",
+                            "url": "http://www.baidu.com/link?url=UkMcWELv3rgPIdtfFi0vBa8IqNf2actb9-sHwsMttWAeJgp_b_zctCyNZAfAuJB70ld4hRZgYdPpCxAST6V0lXiY6XinRFE9YmR7uqNHvay",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "关于兔子的英文故事 - 百度知道",
+                            "url": "http://www.baidu.com/link?url=UkMcWELv3rgPIdtfFi0vBfA5tKIWDTcm7NQMOaN7IQTWqXZ8KN66PzbSzZ7KcnEzUhximfXcT1x8kTygk9cqRUpGM8587HVabR3b4MbfJo7",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "...1. Look at thebear.( )2. Is that arabbit?( )_百度教育",
+                            "url": "http://www.baidu.com/link?url=IXV89xCDNxwcAs0RUy7EQ_vJVMVKgAgDJsyYx5uST2tV4dYun0sBZGnE7ete-9j429q1eK3klAQj0vkINvsK8LjJKJ5HAwBK6GE2Ue0gmKOJVdN4iKNUDNlu8W59t5NaYo-FpdJEiiL0Aa5ZfmtlWq",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear is young.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear is young.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the bear being young.\nStep 2: From sent15, we know that if someone needs the bear, then the bear is young.\nStep 3: We need to determine if anyone needs the bear. From sent4, we know that the bear needs the mouse.\nStep 4: However, sent4 does not directly state that someone needs the bear. We need to check other statements for this information.\nStep 5: From sent12, if someone is kind, then they need the bear. We need to determine if anyone is kind.\nStep 6: From sent16, young people are kind. We need to determine if anyone is young.\nStep 7: We already have a potential loop here, but we need to check if there is a direct statement about the bear being young.\nStep 8: From sent15, if the bear is young, then someone needs the bear. We need to find out if someone needs the bear.\nStep 9: From sent12 and sent16, if the bear is young, then the bear is kind, and if the bear is kind, then the bear needs the bear.\nStep 10: This creates a self-referential loop, but it does not provide a direct answer. We need to check if there is any other information that can break this loop.\nStep 11: From sent18, if someone likes the bear and they like the mouse, then the bear likes the mouse. We know from sent2 that the bear likes the mouse.\nStep 12: From sent19, if someone likes the cow, then the cow likes the bear. We know from sent7 that the cow likes the bear.\nStep 13: From sent19, if the cow likes the bear, then the bear likes the cow. However, this does not provide information about the bear being young.\nStep 14: From sent15, if the bear is young, then someone needs the bear. We need to find out if someone needs the bear.\nStep 15: From sent12, if someone is kind, then they need the bear. We need to determine if anyone is kind.\nStep 16: From sent16, young people are kind. We need to determine if anyone is young.\nStep 17: From sent15",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the bear being young.",
+                "From sent15, we know that if someone needs the bear, then the bear is young.",
+                "We need to determine if anyone needs the bear. From sent4, we know that the bear needs the mouse.",
+                "However, sent4 does not directly state that someone needs the bear. We need to check other statements for this information.",
+                "From sent12, if someone is kind, then they need the bear. We need to determine if anyone is kind.",
+                "From sent16, young people are kind. We need to determine if anyone is young.",
+                "We already have a potential loop here, but we need to check if there is a direct statement about the bear being young.",
+                "From sent15, if the bear is young, then someone needs the bear. We need to find out if someone needs the bear.",
+                "From sent12 and sent16, if the bear is young, then the bear is kind, and if the bear is kind, then the bear needs the bear.",
+                "This creates a self-referential loop, but it does not provide a direct answer. We need to check if there is any other information that can break this loop.",
+                "From sent18, if someone likes the bear and they like the mouse, then the bear likes the mouse. We know from sent2 that the bear likes the mouse.",
+                "From sent19, if someone likes the cow, then the cow likes the bear. We know from sent7 that the cow likes the bear.",
+                "From sent19, if the cow likes the bear, then the bear likes the cow. However, this does not provide information about the bear being young.",
+                "From sent15, if the bear is young, then someone needs the bear. We need to find out if someone needs the bear.",
+                "From sent12, if someone is kind, then they need the bear. We need to determine if anyone is kind.",
+                "From sent16, young people are kind. We need to determine if anyone is young.",
+                "From sent15"
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the bear being young.",
+                "Consider the key statements:",
+                "Evaluate the logical relationship between these statements.",
+                "Recognize that sent15 does not directly apply to the bear needing the mouse. It applies to the bear being needed by someone else.",
+                "Check for any other statements that might provide information about the bear being young.",
+                "Evaluate the logical relationship between these statements.",
+                "Combine the information from sent16 and sent12.",
+                "Recognize that the bear needing the bear is not a valid logical conclusion and does not provide new information.",
+                "Re-evaluate the given statements for any other potential indirect information."
+            ],
+            "is_correct": false,
+            "elapsed_time": 30.00515604019165,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the bear being young.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nTo determine whether the bear is young, we need to analyze the given statements for any direct or indirect information that supports this conclusion. The key statements to consider are:\n\n- sent15: If someone needs the bear then the bear is young.\n- sent4: The bear needs the mouse.\n\nFrom sent4, we know that the bear needs the mouse. However, sent15 states that if someone needs the bear, then the bear is young. This statement does not directly apply to the bear needing the mouse; it applies to the bear being needed by someone else. Therefore, we cannot conclude that the bear is young based on the given information.\n\nAdditionally, there is no other statement that directly or indirectly supports the conclusion that the bear is young. Thus, the reasoning step is logically invalid.",
+                    "queries": [
+                        "sent15: If someone needs the bear then the bear is young",
+                        "sent16: Young people are kind",
+                        "sent18: If someone likes the bear and they like the mouse then the bear likes the mouse"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "【四六级同义替换】第08期:2019年6月真题_the_and_原文",
+                            "url": "http://www.baidu.com/link?url=a05EiS6jx-VWxl_jp1Xt8CRNqPshs0PVObx2TdO4eMeTVX-9AU1IfO8zFYCUHjlG66yQCUxnNJRa0SPvnGE7yq",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "32. What do we know about predator naives?A. They die of...",
+                            "url": "http://www.baidu.com/link?url=LNroX4FyQMRSZx6W8L7t4jlWhxsAEbRMchcSFsiu2lsdnTlb6ybk41SLMNqq8_poW17rO0iOnaklh1618Zekech8dNUpKtA-_3VyosWK27iW8HpnebPYjyM3ZzIBfyvrxAnqAJIGXoGOYiq_Ld3VyK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "(1) Why doesthewriter ask readers to picture the scene in...",
+                            "url": "http://www.baidu.com/link?url=LNroX4FyQMRSZx6W8L7t4jlWhxsAEbRMchcSFsiu2lsdnTlb6ybk41SLMNqq8_poW17rO0iOnaklh1618Zekech8dNUpKtA-_3VyosWK27iUW2wGcPmBmmSKVK7N4sYbUkEr3pDUya3cYqFWbAsGk_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "TeddyBearshave been a very popular children’s toy for many...",
+                            "url": "http://www.baidu.com/link?url=VNEfKEXvJBa8xO4BXXVIU9ZAJXzwTnHKvSxktgV50NmzaqyEzMlbBgf9wogc4j3g7rmpWozo1zwKc2cza8-s7a",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2020-05-17 08:55 - NCE4 L5 Youth - winechord - 博客园",
+                            "url": "http://www.baidu.com/link?url=l_0fyZ3k83sZYennukzzWO-QcgGFhbDJ5fgoeTfTz2QI69M5hmnH0DN2yrx_31GdFcjuOjFm0CdRg2CwpCsSK_",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear is not young.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear is not young.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the bear's age.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n- sent12: If someone is kind then they need the bear.\n\nStep 2: Determine if the bear needs the bear.\n- The bear cannot need itself, so the bear does not need the bear.\n\nStep 3: Determine if the bear is kind.\n- Since the bear does not need the bear, and sent12 states that if someone is kind then they need the bear, the bear cannot be kind.\n\nStep 4: Determine if the bear is young.\n- Since the bear is not kind, and sent16 states that young people are kind, the bear cannot be young.\n\nStep 5: Verify the conclusion.\n- The bear is not young, which aligns with the statement \"The bear is not young.\"\n\nStep 6: Final deduction.\n- The bear is not young, so the correct answer is that the statement \"The bear is not young\" is true.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the bear's age.",
+                "Determine if the bear needs the bear.",
+                "Determine if the bear is kind.",
+                "Determine if the bear is young.",
+                "Verify the conclusion.",
+                "Final deduction."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the bear's age.",
+                "Identify relevant statements:",
+                "Apply logical reasoning:",
+                "Verify the conclusion:"
+            ],
+            "is_correct": true,
+            "elapsed_time": 21.984310388565063,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the bear's age.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nTo determine whether the statement \"The bear is not young\" is true or false, we need to analyze the given statements for any direct or indirect information about the bear's age.\n\n1. **Direct Information:**\n   - There is no direct statement that explicitly states whether the bear is young or not.\n\n2. **Indirect Information:**\n   - **sent15: If someone needs the bear then the bear is young.**\n     - This statement suggests that if the bear is needed by someone, then the bear is young.\n   - **sent4: The bear needs the mouse.**\n     - This statement indicates that the bear needs the mouse, but it does not directly imply that the bear is young.\n   - **sent12: If someone is kind then they need the bear.**\n     - This statement suggests that if someone is kind, they need the bear. However, it does not provide information about the bear's age.\n   - **sent16: Young people are kind.**\n     - This statement suggests that young people are kind, but it does not directly link to the bear's age.\n\n3. **Logical Analysis:**\n   - From **sent15** and **sent4**, we can infer that if the bear needs the mouse, then the bear is young. Since **sent4** states that the bear needs the mouse, it follows that the bear is young.\n   - Therefore, the statement \"The bear is not young\" is false.\n\nGiven this logical analysis, the reasoning step that concludes \"The bear is not young\" is logically invalid. The correct conclusion based on the given statements is that the bear is young.",
+                    "queries": [
+                        "sent15: If someone needs the bear then the bear is young",
+                        "sent16: Young people are kind",
+                        "sent12: If someone is kind then they need the bear"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "【四六级同义替换】第08期:2019年6月真题_the_and_原文",
+                            "url": "http://www.baidu.com/link?url=cjI-obNMdD8RXawtfvQ2usgrWSk-isGqLVuUni0vfJr3EgNf8AubVmrd-3qsY4wNRKIlju86OBOjJ59CX9d7PK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "32. What do we know about predator naives?A. They die of...",
+                            "url": "http://www.baidu.com/link?url=9eIIKvUaWZckYysnJmUQu080l82PFOShdtt8VMNEYjX_ln6m6K_Aq04kQFnkXF880ygedXPcuBlvjNQ6j902tuP3Wlqi13RlM7i0yQRapbyVF1-1-m4EefvzVq4rGxEo45WS5E4l9PTJvmeQAd63mK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "(1) Why doesthewriter ask readers to picture the scene in...",
+                            "url": "http://www.baidu.com/link?url=9eIIKvUaWZckYysnJmUQu080l82PFOShdtt8VMNEYjX_ln6m6K_Aq04kQFnkXF880ygedXPcuBlvjNQ6j902tuP3Wlqi13RlM7i0yQRapbzrKoH07rdbowGkesl31AFiV9QYyNBn-ToqpKtfDuY23a",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "TeddyBearshave been a very popular children’s toy for many...",
+                            "url": "http://www.baidu.com/link?url=0fnynQoClM314zrBtS-IZPW8yt_RTNJW91hre7rIEufsGABZhph1wTePqZSJazGyCMkvGWJGI-BPBMol1EuCua",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2020-05-17 08:55 - NCE4 L5 Youth - winechord - 博客园",
+                            "url": "http://www.baidu.com/link?url=4ztPGoYLAW3-7hNCJCgPcKxasjBzZg-mLjQL_m1wMWuCQ3yslSBJbFXuQa9p7BitEfmAPylgHJOqitBAMqpe-a",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear is kind.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear is kind.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given statements to find any direct or indirect information about the bear being kind.\n- sent12: If someone is kind then they need the bear.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n\nStep 2: Determine if the bear needs the bear.\n- sent12 implies that if the bear is kind, then the bear needs the bear.\n- However, the bear needing the bear is not explicitly stated in the given sentences.\n\nStep 3: Determine if the bear is young.\n- sent15: If someone needs the bear then the bear is young.\n- We need to find out if the bear needs the bear to conclude if the bear is young.\n\nStep 4: Check if the bear needs the bear.\n- There is no direct statement that the bear needs the bear.\n- sent4 states that the bear needs the mouse, but this does not imply the bear needs the bear.\n\nStep 5: Check if the bear is young.\n- Since we cannot conclude that the bear needs the bear, we cannot directly conclude that the bear is young from sent15.\n\nStep 6: Check if the bear is kind.\n- sent16: Young people are kind.\n- We need to determine if the bear is young to conclude if the bear is kind.\n- Since we cannot conclude that the bear is young, we cannot conclude that the bear is kind.\n\nStep 7: Check for any other indirect evidence of the bear being kind.\n- sent18: If someone likes the bear and they like the mouse then the bear likes the mouse.\n- sent19: If someone likes the cow then the cow likes the bear.\n- sent7: The cow likes the bear.\n- sent9: The mouse likes the cow.\n- sent19 implies that if the mouse likes the cow, then the cow likes the bear, which is true (sent7).\n- sent18 implies that if the bear likes the cow and the bear likes the mouse, then the bear likes the mouse.\n- sent2: The bear likes the mouse.\n- sent18 is satisfied, but this does not provide direct evidence that the bear is kind.\n\nStep 8: Final conclusion based on the available information.\n- There is no direct or indirect evidence that the bear is kind.\n- Therefore, the bear is not kind.\n\n===FINAL_ANSWER_START===\n",
+            "cot_steps": [
+                "Analyze the given statements to find any direct or indirect information about the bear being kind.",
+                "Determine if the bear needs the bear.",
+                "Determine if the bear is young.",
+                "Check if the bear needs the bear.",
+                "Check if the bear is young.",
+                "Check if the bear is kind.",
+                "Check for any other indirect evidence of the bear being kind.",
+                "Final conclusion based on the available information."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to find any direct or indirect information about the bear being kind.",
+                "Identify the relevant statements:",
+                "Evaluate the logical implications of these statements:",
+                "Determine if these statements provide any information about the bear being kind:",
+                "Check if there are any other statements that might provide information about the bear's kindness:",
+                "Evaluate the relevance of these additional statements:",
+                "Conclude that there is no direct or indirect information in the given statements that supports the claim that the bear is kind."
+            ],
+            "is_correct": false,
+            "elapsed_time": 31.0429265499115,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to find any direct or indirect information about the bear being kind.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nThe provided web evidence does not contain any information that directly or indirectly supports the claim that \"The bear is kind.\" To determine if the bear is kind, we need to look at the logical structure of the given statements.\n\nFrom the given statements:\n- sent12: If someone is kind then they need the bear.\n- sent15: If someone needs the bear then the bear is young.\n- sent16: Young people are kind.\n\nWe can infer the following:\n1. If someone is kind, they need the bear (sent12).\n2. If someone needs the bear, the bear is young (sent15).\n3. Young people are kind (sent16).\n\nHowever, these statements do not provide a direct or indirect way to conclude that the bear itself is kind. The statements only tell us about the relationships between being kind, needing the bear, and the bear being young. They do not provide any information about the bear's own characteristics or actions that would indicate kindness.\n\nTherefore, the reasoning step is logically invalid because there is no logical path from the given statements to the conclusion that \"The bear is kind.\"",
+                    "queries": [
+                        "sentences about the bear being kind or unkind",
+                        "logical connections between the bear's traits and kindness",
+                        "conditions under which the bear is considered kind"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "...aboutakindbear. What should we do likethebear? A.Be...",
+                            "url": "http://www.baidu.com/link?url=4VEUf7tt0qVbZNRGX5bi2Xiu3llheQoEKEUGvpNjj51GpKTzPyWUXcczknra77pwkh5TVT2Urf52oWrAm89RvAc0zh57V7FYdzvM_goT7LKO43zKNQJ8-ijTsQDRLQzzUxW2l-554MJlCXuqF1L5Sa",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "500 _百度教育",
+                            "url": "http://www.baidu.com/link?url=4VEUf7tt0qVbZNRGX5bi2Xiu3llheQoEKEUGvpNjj51GpKTzPyWUXcczknra77pwkh5TVT2Urf52oWrAm89RvAc0zh57V7FYdzvM_goT7LL6vaXVsVyqjlSWux4DM2XZeNP74C7r2dHdPJatIFpqIK",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "I . Completethesentenceswith proper description words...",
+                            "url": "http://www.baidu.com/link?url=aIlHpjiS5kVc38gcBhuzzkLuXUI3bxa9zZ1i0-rXWJgAYkFYF0N4CSH7En6vP28fOW1xTLhnPmlO1Gw2vIZ_P_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "双语科普故事 | 为什么熊这么有“朋友相”",
+                            "url": "http://www.baidu.com/link?url=G4xv5Zly9cABIiLQAujHjjYdaJ2tEXtwbLTzGpMnW_AUN6gM5C90ANUALgCkQke4YgANxxedBOID8fIuNGWo5WhM5Swp_x5SFuVl6h34APR52el7O_hUBhLYOdI4CUHfkuTGtAHl3qoL1SgdEuo1xD0bfytHNmSaWxhpjSDz7eqEdnrEK-zABPd0GO4MZGqX5LC4R6OeMiCelSc3-KmXhnpqwxdhlJMScSbB1I88JZyVuIu6hvaAQVwjI47A16I2Fq20cn-iB7C9A7SDtHGif_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "高中英语语法词汇精练002期:北极熊",
+                            "url": "http://www.baidu.com/link?url=G4xv5Zly9cABIiLQAujHji1TP2Ua5tsu0sRWvt8GkQDiumZC1J47HU8--FlQWJiL9-tVeE-YFAJIFm0jnrXKM7oEiCIfOuWm1wr9Dz2O4F3",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        },
+        {
+            "id": "proofwriter_The bear is not kind.",
+            "question": "Context: sent1: The bear is green. sent2: The bear likes the mouse. sent3: The bear needs the cow. sent4: The bear needs the mouse. sent5: The bear sees the cow. sent6: The bear sees the mouse. sent7: The cow likes the bear. sent8: The cow sees the bear. sent9: The mouse likes the cow. sent10: The mouse sees the rabbit. sent11: The rabbit is young. sent12: If someone is kind then they need the bear. sent13: If someone sees the cow then they are cold. sent14: If someone is cold then they like the rabbit. sent15: If someone needs the bear then the bear is young. sent16: Young people are kind. sent17: If someone is round then they like the mouse. sent18: If someone likes the bear and they like the mouse then the bear likes the mouse. sent19: If someone likes the cow then the cow likes the bear. sent20: If someone is round and they do not need the bear then they see the rabbit.\n\nQuestion: The bear is not kind.\n\nChoices:\nA. True\nB. False",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the given statements to determine if the bear is kind.\nStep 2: According to sent12, if someone is kind, then they need the bear.\nStep 3: According to sent15, if someone needs the bear, then the bear is young.\nStep 4: According to sent16, young people are kind.\nStep 5: If the bear is young, then the bear is kind (from sent16).\nStep 6: If the bear is kind, then the bear needs the bear (from sent12).\nStep 7: If the bear needs the bear, then the bear is young (from sent15).\nStep 8: This creates a circular reasoning where if the bear is young, it must be kind, and if it is kind, it must need the bear, and if it needs the bear, it must be young.\nStep 9: However, the question states \"The bear is not kind.\" This implies that the bear is not young.\nStep 10: If the bear is not young, then it does not need the bear (from sent15).\nStep 11: If the bear does not need the bear, then it is not kind (from sent12).\nStep 12: Therefore, the bear is not kind.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the given statements to determine if the bear is kind.",
+                "According to sent12, if someone is kind, then they need the bear.",
+                "According to sent15, if someone needs the bear, then the bear is young.",
+                "According to sent16, young people are kind.",
+                "If the bear is young, then the bear is kind (from sent16).",
+                "If the bear is kind, then the bear needs the bear (from sent12).",
+                "If the bear needs the bear, then the bear is young (from sent15).",
+                "This creates a circular reasoning where if the bear is young, it must be kind, and if it is kind, it must need the bear, and if it needs the bear, it must be young.",
+                "However, the question states \"The bear is not kind.\" This implies that the bear is not young.",
+                "If the bear is not young, then it does not need the bear (from sent15).",
+                "If the bear does not need the bear, then it is not kind (from sent12).",
+                "Therefore, the bear is not kind."
+            ],
+            "pred": "B",
+            "final_cot": [
+                "Analyze the given statements to determine if the bear is kind.",
+                "Consider sent12: If someone is kind then they need the bear.",
+                "Consider sent15: If someone needs the bear then the bear is young.",
+                "Consider sent16: Young people are kind.",
+                "Combine the implications from steps 2, 3, and 4:",
+                "Check for any direct evidence that the bear is not kind.",
+                "Since there is no direct evidence that the bear is not kind, and the logical implications suggest that if the bear is kind, it must be young, and young people are kind, we cannot conclude that the bear is not kind."
+            ],
+            "is_correct": true,
+            "elapsed_time": 25.380253076553345,
+            "web_validation": [
+                {
+                    "step": "Analyze the given statements to determine if the bear is kind.",
+                    "decision": "REJECT_LOGICAL",
+                    "validation_output": "REJECT_LOGICAL\n\nExplanation:\nTo determine if the bear is kind, we need to analyze the given statements and see if we can logically deduce the bear's kindness. Let's break down the relevant statements:\n\n1. **sent12: If someone is kind then they need the bear.**\n2. **sent15: If someone needs the bear then the bear is young.**\n3. **sent16: Young people are kind.**\n\nFrom sent12, if the bear is kind, then the bear needs the bear. This is a tautology and does not provide new information.\n\nFrom sent15, if the bear needs the bear, then the bear is young. This implies that if the bear is kind, the bear must be young.\n\nFrom sent16, young people are kind. If the bear is young, then the bear is kind.\n\nHowever, we need to check if there is any information that directly states or implies that the bear is not kind. The given statements do not provide any direct evidence that the bear is not kind. Therefore, the reasoning step that concludes \"The bear is not kind\" is not logically supported by the provided statements.\n\nSince the reasoning step is not logically valid, we reject it.",
+                    "queries": [
+                        "If the bear is young, is the bear kind based on given logical statements?",
+                        "What are the conditions for the bear to be kind according to the given logical statements?",
+                        "Does the bear need the bear, and if so, is the bear kind?"
+                    ],
+                    "evidence": [
+                        {
+                            "title": "...选择最恰当的答案)Where do blackbearslive?A. Intheback...",
+                            "url": "http://www.baidu.com/link?url=z2dAEmFp9F_NzoOXw4F22NtZVGcWtQWUrm-NpJLcQsgWzcFmu55AjZtnmmCcraGqopV4wEiNf7AQQ4au4x97zb6g5C079bx7T4nu8QPLavNRK0lzMsmXkwuIqgt2VKnNMLAHijumxob8nuHTJ72Z_q",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "(1)Which ofthefollowingisNOT TRUE according to the text?A...",
+                            "url": "http://www.baidu.com/link?url=z2dAEmFp9F_NzoOXw4F22NtZVGcWtQWUrm-NpJLcQsgWzcFmu55AjZtnmmCcraGqopV4wEiNf7AQQ4au4x97zb6g5C079bx7T4nu8QPLavNAs6OVYzsK2U6Iui9njXlcviCzA47DWJijs1jVqYmt8K",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "thebearis中文翻译",
+                            "url": "http://www.baidu.com/link?url=IOyId80TyTl-Xgj5zqUniZEE3KnME4SA2T0rrvVYvUalGwECPUUHdCjJqx0Q27dIKZh1jCd46_yHc0gVHItnZWWc4xChMb75jRb10pH17h1hOJ55XTRxLC4-ySCid9KYQafbegK2CJEubmzBsbT7eUcLleUFUztnIPF1LkJFrPXYsr-xPQZ6ASbg3BeupJRO6WVsdDONdlxfnQyYG_KglIbdT8lxG5A9aADoPkTlbyGxlKdkIhbmdfV_4-rPR3y1rIzyxHPddHYapJU4_dGaiBvOTxrvQZByVhlZhRs-_hN0ZqvmZyZ8VzWwX0eB4umdKSd1V4a23aamne2M8qqHsW_ZZ_hkId3o4x6IPIn8DgS",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "A frogisbornin a small river. When he isyoung,theriver...",
+                            "url": "http://www.baidu.com/link?url=lqWdEoH0XfUzFTcRHmUP4f12R671McX0ro4V4M0SZeeDdjiuT06kwcY1mW0ZxuhFaMUYVilt-HocXQn9IJmln_",
+                            "snippet": ""
+                        },
+                        {
+                            "title": "2.Master ail use: What animals do you like? I like elephants...",
+                            "url": "http://www.baidu.com/link?url=JfxxQ2wAC2xZjyE62KRv7DGKuCJFFG-v6JIDC4qMdBqF0GX-59-NP5yyEzPaFwMpswShNNkNTZkfcpJikuHr7a",
+                            "snippet": ""
+                        }
+                    ]
+                }
+            ],
+            "reflection_rounds": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "model_info": {
+        "mode": "api",
+        "name": "deepseek-ai/DeepSeek-R1",
+        "model_method": "api"
+    },
+        "api_key_info": {
+        "api_key_env": "DEEPINFRA_API_KEY",
+        "api_url": "https://api.deepinfra.com/v1/openai"
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "max_output_tokens": 2048
+    }
+}

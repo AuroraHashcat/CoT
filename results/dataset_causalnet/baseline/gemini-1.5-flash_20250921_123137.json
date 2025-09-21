@@ -1,0 +1,1451 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 110,
+            "final_accuracy": "0.00%",
+            "total_successful_pipelines": 0,
+            "avg_elapsed_time": 230.5908585960215,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/110",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.0
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "cause-effect-0",
+            "question": "Context: A new policy in a country led to the unexpected decline in tobacco use among teenagers. At the same time, there was an increase in online educational content about health, and a popular celebrity spoke against smoking.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The policy change had a minimal impact compared to other factors.\nB. The celebrity's influence changed teenagers' perceptions more significantly than expected.\nC. Online educational content was the sole reason for this decline.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core statement: \"A new policy in a country led to the unexpected decline in tobacco use among teenagers.\" The phrase \"led to\" suggests a causal link",
+            "cot_steps": [
+                "Analyze the core statement: \"A new policy in a country led to the unexpected decline in tobacco use among teenagers.\" The phrase \"led to\" suggests a causal link"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 858.5978851318359,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-1",
+            "question": "Context: A remote village with limited internet access suddenly saw an improvement in children's academic performance after a new road was constructed nearby.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. There is no plausible connection between the road and education.\nB. The road improved access to educational resources and opportunities.\nC. The road construction itself provided educational content.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core elements of the scenario: a remote village, limited internet, a new road, and improved children's academic performance. The task is to find the most plausible causal link between the road and the academic improvement.\n\nStep 2: Evaluate Choice A: \"There is no plausible connection between the road and education.\" This statement is a strong negation. Roads, as infrastructure, often facilitate access to various services and resources, including those related to education (e.g., schools, teachers, books, economic opportunities that support schooling). Therefore, it is highly plausible that a road *could* have an indirect connection to education, making this choice likely incorrect.\n\nStep 3: Evaluate Choice C: \"The road construction itself provided educational content.\" While children might observe construction and learn incidentally about engineering or labor, it is highly improbable that the act of building a road would directly provide comprehensive educational content leading to a general improvement in academic performance across various subjects for all children in the village. This is not a recognized or effective method for widespread academic improvement.\n\nStep 4: Evaluate Choice B: \"The road improved access to educational resources and opportunities.\" A new road in a remote village directly improves transportation. Improved transportation can lead to several positive outcomes for education:\n    *   Easier access for qualified teachers to reach the village.\n    *   Easier transport of educational materials (books, supplies) to the village.\n    *   Easier access for children to attend better schools or educational programs outside the village.\n    *   Improved economic opportunities due to the road could lead to families being able to afford school fees, supplies, or better nutrition,",
+            "cot_steps": [
+                "Analyze the core elements of the scenario: a remote village, limited internet, a new road, and improved children's academic performance. The task is to find the most plausible causal link between the road and the academic improvement.",
+                "Evaluate Choice A: \"There is no plausible connection between the road and education.\" This statement is a strong negation. Roads, as infrastructure, often facilitate access to various services and resources, including those related to education (e.g., schools, teachers, books, economic opportunities that support schooling). Therefore, it is highly plausible that a road *could* have an indirect connection to education, making this choice likely incorrect.",
+                "Evaluate Choice C: \"The road construction itself provided educational content.\" While children might observe construction and learn incidentally about engineering or labor, it is highly improbable that the act of building a road would directly provide comprehensive educational content leading to a general improvement in academic performance across various subjects for all children in the village. This is not a recognized or effective method for widespread academic improvement.",
+                "Evaluate Choice B: \"The road improved access to educational resources and opportunities.\" A new road in a remote village directly improves transportation. Improved transportation can lead to several positive outcomes for education:"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 53.11120891571045,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-2",
+            "question": "Context: After the introduction of a new agricultural technology in a developing country, there was an unexpected decrease in urban migration.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Urban migration increased due to the technological divide.\nB. The technology led to environmental issues, deterring urban migration.\nC. Improved agricultural efficiency made rural living more sustainable, reducing the need for urban migration.",
+            "answerKey": "C",
+            "cot_output": "Step 1: The core observation is an \"unexpected decrease in urban migration\" after the introduction of new agricultural technology. This means fewer people are moving from rural areas to cities.\nStep 2: We must evaluate each choice to see which one provides a plausible causal link that results in a *decrease* in urban migration, stemming from the introduction of new agricultural technology.\nStep 3: Analyze Choice A: \"Urban migration increased due to the technological divide.\" This choice directly contradicts the observed outcome, which is a *decrease* in urban migration. Therefore, it cannot be the cause of the observed phenomenon.\nStep 4: Analyze Choice B: \"The technology led to environmental issues, deterring urban migration.\" If new agricultural technology led to environmental issues in rural areas (e.g., soil degradation, water scarcity), this would typically make rural living *less* sustainable and *increase* the push factors for people to leave rural areas and migrate to cities, not deter them from urban migration. It's highly unlikely that environmental issues in rural areas would make people *stay* in rural areas or make urban areas less appealing in a way that reduces overall urban migration.",
+            "cot_steps": [
+                "The core observation is an \"unexpected decrease in urban migration\" after the introduction of new agricultural technology. This means fewer people are moving from rural areas to cities.",
+                "We must evaluate each choice to see which one provides a plausible causal link that results in a *decrease* in urban migration, stemming from the introduction of new agricultural technology.",
+                "Analyze Choice A: \"Urban migration increased due to the technological divide.\" This choice directly contradicts the observed outcome, which is a *decrease* in urban migration. Therefore, it cannot be the cause of the observed phenomenon.",
+                "Analyze Choice B: \"The technology led to environmental issues, deterring urban migration.\" If new agricultural technology led to environmental issues in rural areas (e.g., soil degradation, water scarcity), this would typically make rural living *less* sustainable and *increase* the push factors for people to leave rural areas and migrate to cities, not deter them from urban migration. It's highly unlikely that environmental issues in rural areas would make people *stay* in rural areas or make urban areas less appealing in a way that reduces overall urban migration."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.87974214553833,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-3",
+            "question": "Context: A city experienced a decrease in car accidents after the implementation of stricter traffic laws. Simultaneously, there was a rise in the use of public transportation and a new trend in remote working.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Remote working trends led to fewer people commuting, thus reducing accidents.\nB. The rise in public transportation usage reduced the number of cars on the road.\nC. Stricter traffic laws were the sole reason for the decrease.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all potential causal factors mentioned for the decrease in car accidents. The context states three simultaneous events: stricter traffic laws, a rise in public transportation use",
+            "cot_steps": [
+                "Analyze the context to identify all potential causal factors mentioned for the decrease in car accidents. The context states three simultaneous events: stricter traffic laws, a rise in public transportation use"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 937.8586933612823,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-4",
+            "question": "Context: A coastal city noted a decrease in tourism despite recently winning an award for best beach destination. This period saw unusual jellyfish blooms and an international campaign promoting mountain vacations.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The international campaign made mountain vacations more appealing than beach destinations.\nB. The jellyfish blooms could have deterred tourists despite the beach's accolades.\nC. The award led to overcrowding, which reduced the destination's appeal.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core observation: a decrease in tourism in a coastal city. This means fewer people are choosing to visit",
+            "cot_steps": [
+                "Analyze the core observation: a decrease in tourism in a coastal city. This means fewer people are choosing to visit"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 335.5436158180237,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-5",
+            "question": "Context: Following the implementation of a new recycling program, a city noted a rise in community participation in environmental initiatives, but surprisingly, an increase in waste production was also observed.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The recycling program might have inadvertently encouraged more consumption, leading to more waste.\nB. Increased community participation led to inefficiencies in waste management.\nC. The rise in waste production is entirely unrelated to the recycling efforts.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given context: A new recycling",
+            "cot_steps": [
+                "Analyze the given context: A new recycling"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 201.89733743667603,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-6",
+            "question": "Context: A nation introduced a universal basic income (UBI) policy, and subsequently, there was a notable increase in small business startups. Around the same time, the country experienced a significant advancement in digital technology infrastructure.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The UBI policy had little to do with the rise in startups; it was a global trend.\nB. The advancement in digital technology was the sole reason for this entrepreneurial boom.\nC. The financial security provided by UBI encouraged entrepreneurial ventures.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the temporal relationship between the events. The context states that UBI was introduced, and *subsequently* there was an increase in small business startups. This establishes a direct temporal precedence of",
+            "cot_steps": [
+                "Analyze the temporal relationship between the events. The context states that UBI was introduced, and *subsequently* there was an increase in small business startups. This establishes a direct temporal precedence of"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 177.01421475410461,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-7",
+            "question": "Context: A city's decision to convert public spaces into green areas coincided with a decrease in urban air pollution and a rise in the use of electric vehicles.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Air quality improved due to factors unrelated to the city's initiatives.\nB. The rise in electric vehicle usage was the primary factor in reducing air pollution.\nC. The increase in green spaces indirectly reduced pollution by promoting a cleaner urban environment.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the given context to identify the observed effects and potential causes. The context states that a decrease in urban air pollution and a rise in electric vehicle usage coincided with the city'",
+            "cot_steps": [
+                "Analyze the given context to identify the observed effects and potential causes. The context states that a decrease in urban air pollution and a rise in electric vehicle usage coincided with the city'"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 56.903653144836426,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-8",
+            "question": "Context: A country's significant investment in renewable energy coincided with a reduction in unemployment rates. During the same period, there was a global economic upturn and advancements in automation technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in automation actually led to more job creation, not losses.\nB. The global economic upturn was the primary reason for reduced unemployment.\nC. Renewable energy projects created new job opportunities, contributing to lower unemployment.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential causal factors and the observed effect. The observed effect is a \"reduction in unemployment rates.\" The potential causal factors are: a",
+            "cot_steps": [
+                "Analyze the context to identify all potential causal factors and the observed effect. The observed effect is a \"reduction in unemployment rates.\" The potential causal factors are: a"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 948.788492679596,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-9",
+            "question": "Context: An island nation introduced strict fishing regulations, which led to an increase in fish populations. Around the same time, the nation also saw an increase in tourism and improvements in marine research technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Fish populations increased due to natural environmental cycles, unrelated to human actions.\nB. The increase in tourism led to greater awareness and compliance with fishing regulations.\nC. Improvements in marine research technologies directly contributed to higher fish populations.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core causal statement provided in the context. The context explicitly states, \"An island nation introduced strict fishing regulations, which led to an increase in fish populations.\" This establishes a",
+            "cot_steps": [
+                "Analyze the core causal statement provided in the context. The context explicitly states, \"An island nation introduced strict fishing regulations, which led to an increase in fish populations.\" This establishes a"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 594.9511106014252,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-10",
+            "question": "Context: A major city implemented a ban on single-use plastics, and around the same time, there was a notable increase in local wildlife populations. Concurrently, the city also experienced a mild winter and a growth in urban gardening movements.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The mild winter alone led to the increase in wildlife numbers.\nB. The reduction in plastic waste improved natural habitats, indirectly benefiting wildlife.\nC. Urban gardening attracted more wildlife into the city.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all concurrent events and the observed outcome. The observed outcome is an \"increase in local wildlife populations.\" The concurrent events are: a ban on single-use plastics, a mild winter, and a growth in urban gardening movements.\n\nStep 2: Evaluate the causal link and plausibility of each choice in relation to the observed outcome.\n*   **Choice A (Mild winter alone):** A mild winter can reduce mortality rates and increase food availability for some wildlife, thus contributing to population growth. However, the word \"alone\" suggests it is the *sole* cause, which is",
+            "cot_steps": [
+                "Analyze the context to identify all concurrent events and the observed outcome. The observed outcome is an \"increase in local wildlife populations.\" The concurrent events are: a ban on single-use plastics, a mild winter, and a growth in urban gardening movements.",
+                "Evaluate the causal link and plausibility of each choice in relation to the observed outcome."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 27.580175399780273,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-11",
+            "question": "Context: In a country, after a series of educational reforms, there was an unexpected decrease in the number of students pursuing higher education. At the same time, the country saw a surge in online learning platforms and a change in visa policies for international students.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The educational reforms were ineffective, leading to disinterest in higher education.\nB. Changes in visa policies discouraged students from pursuing education abroad.\nC. The availability of online learning platforms provided alternative education pathways.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the observed effect and the concurrent events. The observed effect is an \"unexpected decrease in the number of students pursuing higher education.\" The concurrent events are \"a series of educational reforms",
+            "cot_steps": [
+                "Analyze the observed effect and the concurrent events. The observed effect is an \"unexpected decrease in the number of students pursuing higher education.\" The concurrent events are \"a series of educational reforms"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 53.76269173622131,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-12",
+            "question": "Context: A small island country experienced a drastic improvement in air quality after banning diesel vehicles. During the same period, there was an increase in eco-tourism and a new policy incentivizing electric vehicle use.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The incentivization of electric vehicles was the sole reason for better air quality.\nB. The rise in eco-tourism led to a decrease in local vehicle usage, thus improving air quality.\nC. The ban on diesel vehicles directly contributed to cleaner air, while the other factors played a supportive role.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core problem: a \"drastic improvement in air quality.\" This implies a significant and direct intervention to remove or reduce sources of air pollution.\nStep 2: Evaluate the impact of \"banning diesel vehicles.\" Diesel vehicles are well-known major contributors to air pollution, particularly particulate matter and nitrogen oxides. A ban directly removes these polluting sources from operation, which would lead to a direct and significant improvement in air quality. This aligns with a \"drastic improvement.\"\nStep 3: Evaluate the impact of \"incentivizing electric vehicle use.\" While beneficial, incentivizing EV use encourages adoption over time. Its immediate impact on a \"drastic improvement\" would be less direct and slower than an outright ban on a polluting vehicle type. However, it supports the long-term goal of cleaner air by promoting zero-emission alternatives.\nStep 4: Evaluate the impact of \"increase in eco-tourism.\" Eco-tourism's effect on local vehicle usage and air quality is indirect and potentially ambiguous. It might encourage less personal vehicle use by tourists, but it could also lead to increased demand for tourist transport. There's no clear, direct causal link to a \"drastic improvement\" in air",
+            "cot_steps": [
+                "Analyze the core problem: a \"drastic improvement in air quality.\" This implies a significant and direct intervention to remove or reduce sources of air pollution.",
+                "Evaluate the impact of \"banning diesel vehicles.\" Diesel vehicles are well-known major contributors to air pollution, particularly particulate matter and nitrogen oxides. A ban directly removes these polluting sources from operation, which would lead to a direct and significant improvement in air quality. This aligns with a \"drastic improvement.\"",
+                "Evaluate the impact of \"incentivizing electric vehicle use.\" While beneficial, incentivizing EV use encourages adoption over time. Its immediate impact on a \"drastic improvement\" would be less direct and slower than an outright ban on a polluting vehicle type. However, it supports the long-term goal of cleaner air by promoting zero-emission alternatives.",
+                "Evaluate the impact of \"increase in eco-tourism.\" Eco-tourism's effect on local vehicle usage and air quality is indirect and potentially ambiguous. It might encourage less personal vehicle use by tourists, but it could also lead to increased demand for tourist transport. There's no clear, direct causal link to a \"drastic improvement\" in air"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 42.51975440979004,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-13",
+            "question": "Context: After the introduction of a new tax law favoring small businesses, a country saw a significant rise in entrepreneurship. Around the same time, there was a global economic downturn and an increase in online business courses.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Online business courses alone spurred the increase in entrepreneurship.\nB. The global economic downturn forced individuals to start their own businesses.\nC. The new tax law created a more favorable environment for small businesses, encouraging entrepreneurship.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the direct causal link presented in the context. The statement \"After the introduction of a new tax law favoring small businesses, a country saw a significant rise in entrepreneurship\" establishes a direct temporal and thematic connection between the tax law and the rise in entrepreneurship. A tax law designed to favor small businesses inherently aims to make starting and operating such businesses more attractive and financially viable.\n\nStep 2: Evaluate Choice C based on this direct link. Choice C states, \"The new tax law created a more favorable environment for small businesses, encouraging entrepreneurship.\" This aligns perfectly with the direct causal implication from Step 1, as a favorable tax environment directly incentivizes entrepreneurship by reducing costs or increasing potential profits.\n\nStep 3: Evaluate Choice B. Choice B suggests, \"The global economic downturn forced individuals to start their own businesses.\" While economic downturns can indeed lead to \"necessity entrepreneurship\" (people starting businesses due to job loss or lack of other opportunities), the context only states that the downturn occurred \"around the same time.\" It does not explicitly state that people were *forced* or that this was the primary driver. It's a plausible contributing factor, but the causal mechanism is less explicitly stated or intended than the tax law.\n\nStep 4: Evaluate Choice A. Choice A claims, \"Online business courses alone spurred the increase in entrepreneurship.\" The word \"alone\" makes this choice highly unlikely, especially given the presence of other significant factors. While online courses can",
+            "cot_steps": [
+                "Analyze the direct causal link presented in the context. The statement \"After the introduction of a new tax law favoring small businesses, a country saw a significant rise in entrepreneurship\" establishes a direct temporal and thematic connection between the tax law and the rise in entrepreneurship. A tax law designed to favor small businesses inherently aims to make starting and operating such businesses more attractive and financially viable.",
+                "Evaluate Choice C based on this direct link. Choice C states, \"The new tax law created a more favorable environment for small businesses, encouraging entrepreneurship.\" This aligns perfectly with the direct causal implication from Step 1, as a favorable tax environment directly incentivizes entrepreneurship by reducing costs or increasing potential profits.",
+                "Evaluate Choice B. Choice B suggests, \"The global economic downturn forced individuals to start their own businesses.\" While economic downturns can indeed lead to \"necessity entrepreneurship\" (people starting businesses due to job loss or lack of other opportunities), the context only states that the downturn occurred \"around the same time.\" It does not explicitly state that people were *forced* or that this was the primary driver. It's a plausible contributing factor, but the causal mechanism is less explicitly stated or intended than the tax law.",
+                "Evaluate Choice A. Choice A claims, \"Online business courses alone spurred the increase in entrepreneurship.\" The word \"alone\" makes this choice highly unlikely, especially given the presence of other significant factors. While online courses can"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 44.44388508796692,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-14",
+            "question": "Context: A nation's decision to invest heavily in space research coincided with a surge in STEM (Science, Technology, Engineering, and Mathematics) education interest among young students. This period also saw the rise of popular science fiction movies and advancements in virtual reality technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The nation's investment in space research directly inspired students to pursue STEM.\nB. Popular science fiction movies and virtual reality technology made STEM subjects more appealing to young minds.\nC. There is no clear connection between these developments and the interest in STEM.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context provided. We have four concurrent developments: 1) heavy national investment in space research, 2) a surge in STEM education interest among young students, ",
+            "cot_steps": [
+                "Analyze the context provided. We have four concurrent developments: 1) heavy national investment in space research, 2) a surge in STEM education interest among young students, "
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 48.93110179901123,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-15",
+            "question": "Context: A city's introduction of a 'green roof' policy, requiring buildings to have plants on rooftops, was followed by a decrease in urban heat islands. Simultaneously, the city experienced an increase in renewable energy usage and a new wave of environmental activism.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Environmental activism raised awareness but had no direct impact on temperature changes.\nB. The 'green roof' policy created more natural cooling areas, contributing to the reduction of heat islands.\nC. Renewable energy usage significantly altered the city's climate, leading to cooler temperatures.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core observation to be explained: a decrease in urban heat islands. Urban heat islands are primarily caused by the absorption of solar radiation by dark, impervious surfaces (like roofs and roads) and the lack of vegetation, which would otherwise provide shade and cooling through evapotranspiration.\n\nStep 2: Evaluate the causal link between the 'green roof' policy and the decrease in urban heat islands. Green roofs involve covering rooftops with plants. Plants cool their surroundings through evapotranspiration (releasing water vapor) and by providing shade, which reduces the absorption of solar radiation by the building's surface. This directly addresses the mechanisms that create urban heat islands. The context states the policy",
+            "cot_steps": [
+                "Analyze the core observation to be explained: a decrease in urban heat islands. Urban heat islands are primarily caused by the absorption of solar radiation by dark, impervious surfaces (like roofs and roads) and the lack of vegetation, which would otherwise provide shade and cooling through evapotranspiration.",
+                "Evaluate the causal link between the 'green roof' policy and the decrease in urban heat islands. Green roofs involve covering rooftops with plants. Plants cool their surroundings through evapotranspiration (releasing water vapor) and by providing shade, which reduces the absorption of solar radiation by the building's surface. This directly addresses the mechanisms that create urban heat islands. The context states the policy"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 15.188429117202759,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-16",
+            "question": "Context: A country's shift to organic farming practices coincided with an increase in life expectancy. During this period, there was also a rise in health awareness programs and improvements in medical technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Organic farming practices led to healthier diets, contributing to longer life expectancy.\nB. Health awareness programs alone significantly improved public health.\nC. Advancements in medical technology were the primary reason for the increase in life expectancy.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the given context. The context states that three factors coincided with an increase in life expectancy: a shift to organic farming, a rise in health awareness programs,",
+            "cot_steps": [
+                "Analyze the given context. The context states that three factors coincided with an increase in life expectancy: a shift to organic farming, a rise in health awareness programs,"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 26.479870557785034,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-17",
+            "question": "Context: Following a new policy to enhance public libraries, a city observed an unexpected rise in community engagement and social cohesion. At the same time, there was an increase in local cultural events and a new social media platform promoting community activities.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The new social media platform was solely responsible for improved social cohesion.\nB. The enhancement of public libraries created spaces that fostered community interaction and learning.\nC. Local cultural events were the main driver of increased community engagement.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core causal relationship presented in the context. The scenario begins with \"Following a new policy to enhance public libraries, a city observed an unexpected rise in community engagement and social cohesion.\" This establishes a temporal sequence and suggests a potential causal link between the library enhancement and the observed outcomes.\n\nStep 2: Evaluate the plausibility of the library enhancement as a cause. Public libraries, especially enhanced ones, are designed to be community hubs, offering resources, programs, and spaces for interaction and learning. These functions directly foster community interaction, engagement, and social cohesion. The \"unexpected\" nature of the rise, occurring *after* the policy, further strengthens the direct causal inference.\n\nStep 3: Analyze Choice A: \"The new social media platform was solely responsible for improved social cohesion.\" While a social media platform promoting community activities could contribute to social cohesion, the word \"solely\" is an extreme claim. The context mentions other potential factors (library enhancement, cultural events), making it highly unlikely that one factor was *solely* responsible. This choice overstates",
+            "cot_steps": [
+                "Analyze the core causal relationship presented in the context. The scenario begins with \"Following a new policy to enhance public libraries, a city observed an unexpected rise in community engagement and social cohesion.\" This establishes a temporal sequence and suggests a potential causal link between the library enhancement and the observed outcomes.",
+                "Evaluate the plausibility of the library enhancement as a cause. Public libraries, especially enhanced ones, are designed to be community hubs, offering resources, programs, and spaces for interaction and learning. These functions directly foster community interaction, engagement, and social cohesion. The \"unexpected\" nature of the rise, occurring *after* the policy, further strengthens the direct causal inference.",
+                "Analyze Choice A: \"The new social media platform was solely responsible for improved social cohesion.\" While a social media platform promoting community activities could contribute to social cohesion, the word \"solely\" is an extreme claim. The context mentions other potential factors (library enhancement, cultural events), making it highly unlikely that one factor was *solely* responsible. This choice overstates"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 19.758361339569092,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-18",
+            "question": "Context: A significant reform in the public transportation system of a large city led to a marked decrease in air pollution. Around the same period, there was a rise in bicycle usage and an initiative to plant more trees in urban areas.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The increase in bicycle usage reduced reliance on motor vehicles, contributing to lower pollution levels.\nB. The tree-planting initiative was the primary factor in improving air quality.\nC. The reform in public transportation had a negligible impact on air pollution.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the initial statement provided in the context. The statement explicitly says, \"A significant reform in the public transportation system of a large city led to a marked decrease in air pollution.\"",
+            "cot_steps": [
+                "Analyze the initial statement provided in the context. The statement explicitly says, \"A significant reform in the public transportation system of a large city led to a marked decrease in air pollution.\""
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 34.524585485458374,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-19",
+            "question": "Context: A small country implemented a nationwide digital literacy program, which coincided with a boost in local tech startups. At the same time, global trends showed a surge in digital entrepreneurship.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The increase in tech startups was a coincidence and unrelated to the digital literacy program.\nB. Global trends in digital entrepreneurship were solely responsible for the local boost.\nC. The digital literacy program empowered more citizens to engage in tech entrepreneurship.",
+            "answerKey": "C",
+            "cot_output": "Step 1: The context presents two events coinciding with a boost in local tech startups: a nationwide digital literacy program and a global surge in digital entrepreneurship. We need to evaluate which of the given choices is the most plausible *cause* for the local boost.\n\nStep 2: A digital",
+            "cot_steps": [
+                "The context presents two events coinciding with a boost in local tech startups: a nationwide digital literacy program and a global surge in digital entrepreneurship. We need to evaluate which of the given choices is the most plausible *cause* for the local boost.",
+                "A digital"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.428967714309692,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-20",
+            "question": "Context: A major city's decision to subsidize public art projects coincided with a decrease in youth crime rates. At the same time, there was an increase in community engagement programs and the introduction of new youth-focused educational initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. New educational initiatives were the sole reason for the reduction in youth crime.\nB. Public art projects provided a constructive outlet for youth, contributing to lower crime rates.\nC. Community engagement programs had a minimal impact on youth behavior.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all concurrent events and the observed outcome. The context states that a decrease in",
+            "cot_steps": [
+                "Analyze the context to identify all concurrent events and the observed outcome. The context states that a decrease in"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 16.174765586853027,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-21",
+            "question": "Context: After the introduction of a new tax incentive for renewable energy, a country observed a significant decline in the use of fossil fuels. This period also saw advancements in battery technology and an increase in environmental activism.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Environmental activism alone was responsible for the shift away from fossil fuels.\nB. The tax incentive had no significant impact on fossil fuel usage.\nC. Advancements in battery technology made renewable energy sources more viable, reducing reliance on fossil fuels.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential causal factors and the observed effect. The observed effect is a \"significant decline in the use of fossil fuels.\" The potential causal factors mentioned are:",
+            "cot_steps": [
+                "Analyze the context to identify all potential causal factors and the observed effect. The observed effect is a \"significant decline in the use of fossil fuels.\" The potential causal factors mentioned are:"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 27.74483633041382,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-22",
+            "question": "Context: A small town's initiative to offer free Wi-Fi in public areas was followed by an increase in local small businesses. Concurrently, the town experienced an uptick in tourism and an upgrade in its telecommunications infrastructure.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The upgrade in telecommunications infrastructure was the key driver for local business growth.\nB. Increased tourism was the sole reason for the increase in small businesses.\nC. Free Wi-Fi in public areas attracted more entrepreneurs and tourists, boosting local business growth.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the initial event and its immediate consequence: The context states, \"A small town's initiative to offer free Wi-Fi in public areas was *followed by* an increase in local small businesses.\" This establishes a temporal sequence and suggests a potential causal link between the free Wi-Fi initiative and the growth of small businesses.\n\nStep 2: Consider the concurrent events: The town also experienced \"an uptick in tourism and an upgrade in its telecommunications infrastructure.\" These events occurred around the same time as the business growth.\n\nStep 3: Evaluate Choice A: \"The upgrade in telecommunications infrastructure was the key driver for local business growth.\" While an infrastructure upgrade can support business growth, the context presents it as a *concurrent* event, not necessarily the *initiating* or *key driver* that *preceded* the business growth in the same way the free Wi-Fi initiative did (\"followed by\"). It's a supporting factor, but",
+            "cot_steps": [
+                "Analyze the initial event and its immediate consequence: The context states, \"A small town's initiative to offer free Wi-Fi in public areas was *followed by* an increase in local small businesses.\" This establishes a temporal sequence and suggests a potential causal link between the free Wi-Fi initiative and the growth of small businesses.",
+                "Consider the concurrent events: The town also experienced \"an uptick in tourism and an upgrade in its telecommunications infrastructure.\" These events occurred around the same time as the business growth.",
+                "Evaluate Choice A: \"The upgrade in telecommunications infrastructure was the key driver for local business growth.\" While an infrastructure upgrade can support business growth, the context presents it as a *concurrent* event, not necessarily the *initiating* or *key driver* that *preceded* the business growth in the same way the free Wi-Fi initiative did (\"followed by\"). It's a supporting factor, but"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 45.60900616645813,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-23",
+            "question": "Context: Following a country's decision to invest in nuclear energy, there was a noticeable improvement in air quality. This period also saw a global reduction in coal usage and the introduction of stricter emission standards.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Stricter emission standards alone were responsible for the air quality improvement.\nB. Investment in nuclear energy led to reduced reliance on coal, thereby improving air quality.\nC. Global reduction in coal usage was the primary factor for better air quality.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all potential causes and the observed effect.\nThe observed effect is a \"noticeable improvement in air quality.\"\nThe potential causes occurring concurrently are",
+            "cot_steps": [
+                "Analyze the context to identify all potential causes and the observed effect."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 27.495996236801147,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-24",
+            "question": "Context: A country's introduction of mandatory coding classes in schools coincided with a sharp increase in youth entrepreneurship. This period also saw a rise in social media platforms for young entrepreneurs and a global tech industry boom.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The global tech industry boom was the sole reason for increased youth entrepreneurship.\nB. Mandatory coding classes equipped youth with the skills to participate in the burgeoning global tech industry.\nC. Social media platforms specifically for young entrepreneurs were the main driving force.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core question: identify the most plausible cause for the *increase in youth entrepreneurship*. This requires linking one or more contextual factors directly to the observed outcome.\n\nStep 2: Evaluate Choice A: \"The global tech industry boom was the sole reason for increased youth entrepreneurship.\" While a tech boom creates opportunities, claiming it as the \"sole",
+            "cot_steps": [
+                "Analyze the core question: identify the most plausible cause for the *increase in youth entrepreneurship*. This requires linking one or more contextual factors directly to the observed outcome.",
+                "Evaluate Choice A: \"The global tech industry boom was the sole reason for increased youth entrepreneurship.\" While a tech boom creates opportunities, claiming it as the \"sole"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.136567115783691,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-25",
+            "question": "Context: After the implementation of a new urban green space policy, a city observed a decrease in stress-related health issues among its residents. Simultaneously, there was an increase in community fitness programs and a significant reduction in local air pollution.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The reduction in air pollution directly led to lower stress levels among residents.\nB. Community fitness programs were the primary factor in reducing stress-related health issues.\nC. The increase in urban green spaces provided residents with a natural, calming environment, contributing to stress reduction.",
+            "answerKey": "C",
+            "cot_output": "Step 1: The scenario begins with the implementation of a new urban green space policy. This policy is the initial intervention. The primary effect we need to explain is the decrease in stress-related health",
+            "cot_steps": [
+                "The scenario begins with the implementation of a new urban green space policy. This policy is the initial intervention. The primary effect we need to explain is the decrease in stress-related health"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 41.55027151107788,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-26",
+            "question": "Context: A small island's initiative to ban plastic bags was followed by an unexpected increase in local marine life diversity. This period also saw the implementation of strict fishing regulations and an increase in marine conservation awareness.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Increased marine conservation awareness alone led to the rise in marine life diversity.\nB. Strict fishing regulations were the sole reason for the increased marine life diversity.\nC. The ban on plastic bags significantly reduced marine pollution, indirectly benefiting marine biodiversity.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential contributing factors to the increase in marine life diversity. The context explicitly states three simultaneous events: a ban on plastic bags, implementation of strict fishing",
+            "cot_steps": [
+                "Analyze the context to identify all potential contributing factors to the increase in marine life diversity. The context explicitly states three simultaneous events: a ban on plastic bags, implementation of strict fishing"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 56.365742921829224,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-27",
+            "question": "Context: Following the launch of a new public health campaign, a city noted a decrease in smoking rates. At the same time, there was an increase in fitness center memberships and a new regulation on tobacco advertising.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. New regulations on tobacco advertising had the most significant impact on reducing smoking rates.\nB. The public health campaign effectively raised awareness about the dangers of smoking, leading to a decline in smoking rates.\nC. The increase in fitness center memberships was the primary driver for the reduction in smoking.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The problem asks for the most plausible cause for the decrease in smoking rates. We are given three concurrent events: a new public health campaign, an increase in fitness center memberships,",
+            "cot_steps": [
+                "The problem asks for the most plausible cause for the decrease in smoking rates. We are given three concurrent events: a new public health campaign, an increase in fitness center memberships,"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 72.73406624794006,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-28",
+            "question": "Context: A rural area's decision to introduce high-speed internet was followed by a surge in local online businesses. This period also saw a government initiative for small business funding and a global increase in e-commerce.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The government initiative for small business funding was the primary factor.\nB. The global increase in e-commerce alone triggered the surge in local online businesses.\nC. High-speed internet access enabled residents to participate more actively in the global e-commerce trend.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core events and their sequence: The introduction of high-speed internet in a rural area was *followed by* a surge in local online businesses. This temporal sequence suggests a strong causal relationship between the internet access and the business surge.\nStep 2: Evaluate the role of high-speed internet for online businesses. Operating an online business fundamentally requires reliable and fast internet access for tasks",
+            "cot_steps": [
+                "Analyze the core events and their sequence: The introduction of high-speed internet in a rural area was *followed by* a surge in local online businesses. This temporal sequence suggests a strong causal relationship between the internet access and the business surge.",
+                "Evaluate the role of high-speed internet for online businesses. Operating an online business fundamentally requires reliable and fast internet access for tasks"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 22.279091835021973,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-29",
+            "question": "Context: After the introduction of a city-wide carpooling initiative, there was a notable reduction in traffic congestion. During the same time, the city implemented a new public transport system and saw a change in workplace remote work policies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The carpooling initiative was the sole reason for reduced traffic congestion.\nB. Changes in remote work policies had the most significant impact on reducing traffic.\nC. The new public transport system provided an effective alternative to car use, easing traffic congestion.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential causes for the reduced traffic congestion. The context explicitly states three concurrent events: a carpooling initiative, a new public transport system, and",
+            "cot_steps": [
+                "Analyze the context to identify all potential causes for the reduced traffic congestion. The context explicitly states three concurrent events: a carpooling initiative, a new public transport system, and"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 24.95766830444336,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-30",
+            "question": "Context: A significant increase in the minimum wage in a city was followed by a decrease in employee turnover at local businesses. Simultaneously, there were improvements in public transportation and a rise in the cost of living.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The rise in the cost of living forced employees to maintain their current jobs.\nB. Improvements in public transportation were the primary reason for reduced turnover.\nC. The increase in minimum wage provided employees with more financial security, leading to lower turnover.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core event to be explained: a decrease in employee turnover. Turnover is often influenced by job satisfaction, financial compensation, and working conditions.\n\nStep 2: Evaluate Choice",
+            "cot_steps": [
+                "Analyze the core event to be explained: a decrease in employee turnover. Turnover is often influenced by job satisfaction, financial compensation, and working conditions.",
+                "Evaluate Choice"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.969585418701172,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-31",
+            "question": "Context: Following a country's investment in renewable energy, there was a noticeable decrease in energy costs. During the same period, there was a global oil crisis and advancements in solar panel technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The global oil crisis was the sole reason for the reduction in energy costs.\nB. Advancements in solar panel technology made renewable energy more cost-effective.\nC. The country's investment in renewable energy had little to no impact on energy costs.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the stated outcome: \"a noticeable decrease in energy costs.\" This is the effect we need to find the most plausible cause for.\n\nStep 2: Evaluate Choice A: \"The global oil crisis was the sole reason for the reduction in energy costs.\" A global oil crisis typically leads to an *increase* in the cost of oil and, consequently, an increase in overall energy costs for economies reliant on oil. Therefore, it is causally implausible for a global oil crisis",
+            "cot_steps": [
+                "Analyze the stated outcome: \"a noticeable decrease in energy costs.\" This is the effect we need to find the most plausible cause for.",
+                "Evaluate Choice A: \"The global oil crisis was the sole reason for the reduction in energy costs.\" A global oil crisis typically leads to an *increase* in the cost of oil and, consequently, an increase in overall energy costs for economies reliant on oil. Therefore, it is causally implausible for a global oil crisis"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 18.648563385009766,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-32",
+            "question": "Context: A country's initiative to promote telemedicine services was followed by an improvement in rural healthcare access. This period also saw advancements in mobile technology and increased government funding for rural health.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in mobile technology made telemedicine more accessible in rural areas.\nB. Increased government funding was the sole factor improving healthcare access.\nC. The promotion of telemedicine services had no significant impact on healthcare access.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The scenario presents an observed effect: improvement in rural healthcare access. It also lists three concurrent events: promotion of telemedicine, advancements in mobile technology, and increased government funding.\nStep 2: To determine the most plausible cause, we need to identify which of the choices provides the strongest and most direct causal link to the observed effect, considering the interplay of the concurrent events.\nStep 3: Telemedicine, by its nature, relies heavily on communication technology to connect patients in rural areas with healthcare providers. Therefore, advancements in mobile technology would directly enhance the capabilities, reach, and ease of use of telemedicine services.\nStep 4: If telemedicine services were being actively promoted (as stated in the scenario) and the underlying technology enabling them (mobile technology) simultaneously improved, this creates a synergistic effect that would directly lead to increased accessibility",
+            "cot_steps": [
+                "The scenario presents an observed effect: improvement in rural healthcare access. It also lists three concurrent events: promotion of telemedicine, advancements in mobile technology, and increased government funding.",
+                "To determine the most plausible cause, we need to identify which of the choices provides the strongest and most direct causal link to the observed effect, considering the interplay of the concurrent events.",
+                "Telemedicine, by its nature, relies heavily on communication technology to connect patients in rural areas with healthcare providers. Therefore, advancements in mobile technology would directly enhance the capabilities, reach, and ease of use of telemedicine services.",
+                "If telemedicine services were being actively promoted (as stated in the scenario) and the underlying technology enabling them (mobile technology) simultaneously improved, this creates a synergistic effect that would directly lead to increased accessibility"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 53.49805402755737,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-33",
+            "question": "Context: After a city implemented a ban on smoking in public places, there was a decrease in the number of smokers. Concurrently, there was an increase in health awareness campaigns and a rise in e-cigarette popularity.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The ban on smoking in public places was the sole factor in reducing the number of smokers.\nB. The rise in e-cigarette popularity offered an alternative to traditional smoking, contributing to the decrease.\nC. Health awareness campaigns were the primary reason for the decline in smokers.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The scenario presents three concurrent events (smoking ban, health awareness campaigns, rise in e-cigarette popularity) alongside a decrease in the number of smokers. This indicates that multiple factors could be at play, making it unlikely that any single factor was the *sole* cause.\n\nStep 2: Evaluate Choice A: \"The ban on smoking in public places was the sole factor in reducing the number of smokers.\" This statement claims exclusivity (\"sole factor\"). Given the explicit mention of other concurrent events that are known to influence smoking rates (health campaigns, alternatives like e-cigarettes), it is highly",
+            "cot_steps": [
+                "The scenario presents three concurrent events (smoking ban, health awareness campaigns, rise in e-cigarette popularity) alongside a decrease in the number of smokers. This indicates that multiple factors could be at play, making it unlikely that any single factor was the *sole* cause.",
+                "Evaluate Choice A: \"The ban on smoking in public places was the sole factor in reducing the number of smokers.\" This statement claims exclusivity (\"sole factor\"). Given the explicit mention of other concurrent events that are known to influence smoking rates (health campaigns, alternatives like e-cigarettes), it is highly"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 33.93179488182068,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-34",
+            "question": "Context: A city's implementation of green building standards was followed by an increase in energy efficiency. During the same period, there was a rise in renewable energy use and advancements in energy-saving technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Green building standards had no significant impact on energy efficiency.\nB. Advancements in energy-saving technologies complemented the green building standards, enhancing overall energy efficiency.\nC. The rise in renewable energy use was the primary factor for increased energy efficiency.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core observation: an increase in energy efficiency. This means less energy is being used to achieve the same output or function.\n\nStep 2: Evaluate the direct causal link between \"green building standards\" and \"energy efficiency.\" Green building standards are specifically designed to promote practices and technologies that reduce energy consumption in buildings, thus",
+            "cot_steps": [
+                "Analyze the core observation: an increase in energy efficiency. This means less energy is being used to achieve the same output or function.",
+                "Evaluate the direct causal link between \"green building standards\" and \"energy efficiency.\" Green building standards are specifically designed to promote practices and technologies that reduce energy consumption in buildings, thus"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 36.78695321083069,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-35",
+            "question": "Context: Following a major city's investment in public parks, there was a notable increase in community wellbeing. This period also saw the introduction of city-wide mental health initiatives and a decrease in urban pollution.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The decrease in urban pollution contributed to a healthier environment, indirectly affecting community wellbeing.\nB. Investment in public parks was the sole reason for improved community wellbeing.\nC. City-wide mental health initiatives were the main driver of the increase in wellbeing.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the context to identify all potential causes and the observed effect. The observed effect is a \"notable increase in community wellbeing.\" The potential causes occurring concurrently are:",
+            "cot_steps": [
+                "Analyze the context to identify all potential causes and the observed effect. The observed effect is a \"notable increase in community wellbeing.\" The potential causes occurring concurrently are:"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 26.981663942337036,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-36",
+            "question": "Context: A country's focus on STEM education in schools was followed by an increase in technological innovation. At the same time, there was a significant investment in research and development and a global trend towards digitalization.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Investment in research and development was the sole reason for the technological advancements.\nB. The global trend towards digitalization created a conducive environment for innovation, complementing the focus on STEM education.\nC. STEM education had no significant impact on technological innovation.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all potential contributing factors to the increase in technological innovation. The context states three factors: 1) a focus on STEM education, 2) significant",
+            "cot_steps": [
+                "Analyze the context to identify all potential contributing factors to the increase in technological innovation. The context states three factors: 1) a focus on STEM education, 2) significant"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 36.7540385723114,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-37",
+            "question": "Context: After a city's implementation of noise pollution regulations, there was a reported increase in residents' quality of life. This period also saw the growth of urban green spaces and a decline in traffic congestion.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Noise pollution regulations were the primary factor in improving residents' quality of life.\nB. The decline in traffic congestion was the main reason for the reported increase in quality of life.\nC. The growth of urban green spaces provided a more peaceful and healthy living environment, contributing to quality of life.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the initial statement: \"After a city's implementation of noise pollution regulations, there was a reported increase in residents' quality of life.\" This establishes a direct temporal sequence where",
+            "cot_steps": [
+                "Analyze the initial statement: \"After a city's implementation of noise pollution regulations, there was a reported increase in residents' quality of life.\" This establishes a direct temporal sequence where"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 24.856081008911133,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-38",
+            "question": "Context: A national policy to subsidize electric vehicles was followed by a decrease in urban air pollution. Concurrently, there was a global push for cleaner energy sources and improvements in electric vehicle technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The global push for cleaner energy sources was the sole reason for the decrease in pollution.\nB. Improvements in electric vehicle technology made them more accessible, contributing to reduced pollution.\nC. The national policy had no significant impact on air pollution levels.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the stated sequence of events and concurrent factors. The context states that a national policy to subsidize electric vehicles (EVs) was *followed by* a decrease",
+            "cot_steps": [
+                "Analyze the stated sequence of events and concurrent factors. The context states that a national policy to subsidize electric vehicles (EVs) was *followed by* a decrease"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 43.612027168273926,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-39",
+            "question": "Context: Following the introduction of free online courses by a country's government, there was a notable increase in adult education. This period also saw advancements in internet technology and a rise in remote work opportunities.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The rise in remote work opportunities was the primary factor for increased adult education.\nB. Free online courses alone were responsible for the surge in adult education.\nC. Advancements in internet technology made online learning more accessible and appealing.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core event to be explained: a \"notable increase in adult education.\"\nStep 2: Identify the direct interventions and concurrent developments mentioned in the context:\n    ",
+            "cot_steps": [
+                "Analyze the core event to be explained: a \"notable increase in adult education.\"",
+                "Identify the direct interventions and concurrent developments mentioned in the context:"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 171.7556173801422,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-40",
+            "question": "Context: A city's introduction of bike lanes was followed by a reduction in traffic accidents. Simultaneously, there was an increase in public health awareness and the implementation of stricter traffic laws.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The bike lanes were the sole reason for the decrease in accidents.\nB. The increase in public health awareness had a direct impact on reducing traffic accidents.\nC. Stricter traffic laws led to more cautious driving behaviors, contributing to fewer accidents.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential contributing factors to the reduction in traffic accidents. The context states three simultaneous events: introduction of bike lanes, increase in public health awareness, and implementation of stricter traffic laws.\nStep 2: Evaluate Choice A: \"The bike lanes were the sole reason for the decrease in accidents.\" This statement claims exclusivity (\"sole reason\"). Given that multiple other potential causes were present simultaneously, it is highly improbable that only one factor was responsible for the entire observed effect. Therefore, this choice is unlikely to be the most plausible.\nStep 3: Evaluate Choice B: \"The increase in public health awareness had a direct impact on reducing traffic accidents.\" While public health awareness might indirectly influence behavior (e.g., encouraging safer modes of transport or general mindfulness), its direct causal link to a *reduction in traffic accidents* is less immediate and less specific than other factors. The primary focus of general public health awareness is often broader than specific traffic safety.\nStep 4: Evaluate Choice C: \"Stricter traffic laws led to more cautious driving behaviors, contributing to fewer accidents.\" This choice presents a direct and well-established causal chain. Stricter laws typically involve increased penalties or enforcement, which directly incentivizes drivers to comply more rigorously with traffic regulations, leading to more cautious behavior and, consequently, a reduction in accidents. This is a very plausible and direct mechanism for accident reduction.\nStep 5: Compare the plausibility of the remaining choices. Choice C describes a direct and widely accepted mechanism for reducing traffic accidents. Choice A is too absolute given the multiple factors. Choice B's causal link is less direct and specific to accident reduction compared to stricter laws. Therefore, stricter traffic laws causing more cautious driving is the most plausible direct cause among the options provided.\n\n===FINAL_ANSWER_START===\nC\n===FINAL_ANSWER_END",
+            "cot_steps": [
+                "Analyze the context to identify all potential contributing factors to the reduction in traffic accidents. The context states three simultaneous events: introduction of bike lanes, increase in public health awareness, and implementation of stricter traffic laws.",
+                "Evaluate Choice A: \"The bike lanes were the sole reason for the decrease in accidents.\" This statement claims exclusivity (\"sole reason\"). Given that multiple other potential causes were present simultaneously, it is highly improbable that only one factor was responsible for the entire observed effect. Therefore, this choice is unlikely to be the most plausible.",
+                "Evaluate Choice B: \"The increase in public health awareness had a direct impact on reducing traffic accidents.\" While public health awareness might indirectly influence behavior (e.g., encouraging safer modes of transport or general mindfulness), its direct causal link to a *reduction in traffic accidents* is less immediate and less specific than other factors. The primary focus of general public health awareness is often broader than specific traffic safety.",
+                "Evaluate Choice C: \"Stricter traffic laws led to more cautious driving behaviors, contributing to fewer accidents.\" This choice presents a direct and well-established causal chain. Stricter laws typically involve increased penalties or enforcement, which directly incentivizes drivers to comply more rigorously with traffic regulations, leading to more cautious behavior and, consequently, a reduction in accidents. This is a very plausible and direct mechanism for accident reduction.",
+                "Compare the plausibility of the remaining choices. Choice C describes a direct and widely accepted mechanism for reducing traffic accidents. Choice A is too absolute given the multiple factors. Choice B's causal link is less direct and specific to accident reduction compared to stricter laws. Therefore, stricter traffic laws causing more cautious driving is the most plausible direct cause among the options provided."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 18.047244548797607,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-41",
+            "question": "Context: After the implementation of a new environmental policy in a country, there was an increase in renewable energy usage. This period also saw advancements in wind and solar technology and a global shift towards green energy.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in wind and solar technology made renewable energy more feasible and efficient.\nB. The global shift towards green energy was the primary reason for increased renewable energy usage.\nC. The new environmental policy had little to no impact on renewable energy usage.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the context to identify all concurrent events and potential causes. The context states that an increase in renewable energy usage occurred after the implementation of a new environmental policy, alongside advancements",
+            "cot_steps": [
+                "Analyze the context to identify all concurrent events and potential causes. The context states that an increase in renewable energy usage occurred after the implementation of a new environmental policy, alongside advancements"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 24.714609622955322,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-42",
+            "question": "Context: A nation's decision to increase funding for public libraries was followed by an improvement in literacy rates. This period also saw the introduction of new educational technologies and an increase in community literacy programs.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Community literacy programs were the primary factor in improving literacy rates.\nB. Increased library funding was the sole reason for the improvement in literacy rates.\nC. New educational technologies made learning more accessible and engaging, contributing to higher literacy rates.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the provided context to identify all potential factors contributing to the improvement in literacy rates. The context states three concurrent events: increased funding for public libraries, introduction of new educational technologies,",
+            "cot_steps": [
+                "Analyze the provided context to identify all potential factors contributing to the improvement in literacy rates. The context states three concurrent events: increased funding for public libraries, introduction of new educational technologies,"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 206.70572233200073,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-43",
+            "question": "Context: After a city's investment in flood prevention infrastructure, there was a decrease in annual flood damage. During the same period, the city experienced a trend of drier weather patterns and advancements in weather forecasting technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The investment in flood prevention infrastructure had no significant impact on flood damage reduction.\nB. Advancements in weather forecasting technology allowed for better preparation and response to potential flooding.\nC. The trend of drier weather patterns was the primary reason for reduced flood damage.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The core observation is a decrease in annual flood damage. We need to identify the most plausible cause among the given options, acknowledging that multiple factors were present.\nStep ",
+            "cot_steps": [
+                "The core observation is a decrease in annual flood damage. We need to identify the most plausible cause among the given options, acknowledging that multiple factors were present."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 39.49426507949829,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-44",
+            "question": "Context: A city's implementation of a car-sharing program was followed by a decrease in carbon emissions. At the same time, there was an increase in public awareness of environmental issues and improvements in public transportation.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Increased public awareness of environmental issues led to a behavioral shift towards lower carbon emissions.\nB. The car-sharing program was the sole reason for the reduction in carbon emissions.\nC. Improvements in public transportation offered a cleaner alternative to private car use, aiding in emission reduction.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential causes and the observed effect. The observed effect is a decrease in carbon emissions. The potential causes occurring simultaneously are: 1) implementation",
+            "cot_steps": [
+                "Analyze the context to identify all potential causes and the observed effect. The observed effect is a decrease in carbon emissions. The potential causes occurring simultaneously are: 1) implementation"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 68.40001440048218,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-45",
+            "question": "Context: Following a country's investment in solar energy, there was an increase in overall energy production. This period also saw a global rise in renewable energy demand and advancements in energy storage technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in energy storage technologies made renewable energy sources like solar more reliable, contributing to increased production.\nB. The country's investment in solar energy had little to no impact on the overall energy production.\nC. The global rise in renewable energy demand was the primary driver for increased energy production.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the core observation and the immediate preceding event. The context states, \"Following a country's investment in solar energy, there was an increase in overall energy production.\" This",
+            "cot_steps": [
+                "Analyze the core observation and the immediate preceding event. The context states, \"Following a country's investment in solar energy, there was an increase in overall energy production.\" This"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 50.41391634941101,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-46",
+            "question": "Context: A country's nationwide initiative to reduce food waste was followed by an improvement in overall food security. Concurrently, there was an increase in sustainable farming practices and advancements in food preservation technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The initiative to reduce food waste was the sole factor in improving food security.\nB. Advancements in food preservation technology were the primary reason for improved food security.\nC. Sustainable farming practices increased the efficiency and sustainability of food production, contributing to food security.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential contributing factors to improved food security. The context states three concurrent developments: a nationwide initiative to reduce food waste, an increase in sustainable",
+            "cot_steps": [
+                "Analyze the context to identify all potential contributing factors to improved food security. The context states three concurrent developments: a nationwide initiative to reduce food waste, an increase in sustainable"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 39.63742518424988,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-47",
+            "question": "Context: Following a city's launch of an anti-littering campaign, there was a noticeable decrease in urban pollution. This period also saw the introduction of stricter waste management regulations and a rise in environmental education programs.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Environmental education programs alone led to a significant decrease in pollution.\nB. Stricter waste management regulations effectively reduced the amount of litter and pollution in the city.\nC. The anti-littering campaign was the primary factor for the reduction in urban pollution.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The context states, \"Following a city's launch of an anti-littering campaign, there was a noticeable decrease in urban pollution.\" This establishes",
+            "cot_steps": [
+                "The context states, \"Following a city's launch of an anti-littering campaign, there was a noticeable decrease in urban pollution.\" This establishes"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 77.97470951080322,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-48",
+            "question": "Context: A government's initiative to promote digital literacy in rural areas was followed by an increase in local e-commerce activities. This period also saw a rise in internet connectivity and the introduction of mobile banking services.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The digital literacy initiative was the sole reason for the increase in e-commerce activities.\nB. The rise in internet connectivity made e-commerce more accessible to rural populations, contributing to its growth.\nC. Mobile banking services were the primary factor for the surge in e-commerce activities.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the core requirement for e-commerce activities. E-commerce, by definition, involves transactions conducted over the internet. Therefore, access to the internet is a fundamental and non-negotiable prerequisite for any e-commerce activity to occur.\n\nStep 2: Evaluate the role of each factor mentioned in the context relative to this core requirement.\n- Digital literacy initiative: This enables people to understand and use digital platforms, including e-commerce. It addresses the user's capability.\n- Rise in internet connectivity: This provides the essential infrastructure and access to the online platforms where e-commerce takes place. It addresses the availability of the medium.\n- Introduction of mobile banking services: This facilitates the payment aspect of e-commerce transactions. It addresses the financial mechanism.\n\nStep 3: Compare the causal impact of each factor on the *increase* in e-commerce activities",
+            "cot_steps": [
+                "Analyze the core requirement for e-commerce activities. E-commerce, by definition, involves transactions conducted over the internet. Therefore, access to the internet is a fundamental and non-negotiable prerequisite for any e-commerce activity to occur.",
+                "Evaluate the role of each factor mentioned in the context relative to this core requirement.",
+                "Compare the causal impact of each factor on the *increase* in e-commerce activities"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 32.35519528388977,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-49",
+            "question": "Context: After the introduction of urban gardening projects in a city, there was a reported increase in community engagement. Simultaneously, the city experienced a growth in environmental clubs and a new policy promoting neighborhood initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The growth in environmental clubs was the main driver of increased community engagement.\nB. New policy promoting neighborhood initiatives encouraged residents to participate more in local activities, including urban gardening.\nC. Urban gardening projects were the primary reason for enhanced community engagement.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the stated outcome and potential causes. The outcome is \"increased community engagement.\" The potential causes mentioned are \"urban gardening projects,\" \"growth in environmental clubs,\" and \"a new",
+            "cot_steps": [
+                "Analyze the stated outcome and potential causes. The outcome is \"increased community engagement.\" The potential causes mentioned are \"urban gardening projects,\" \"growth in environmental clubs,\" and \"a new"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 37.45370888710022,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-50",
+            "question": "Context: A city's introduction of mandatory water-saving devices in all buildings was followed by a significant decrease in water consumption. At the same time, there was an increase in public awareness about water conservation and improvements in water recycling technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Increased public awareness about water conservation led to more mindful usage, augmenting the effect of the water-saving devices.\nB. Improvements in water recycling technology were the primary reason for reduced water consumption.\nC. The mandatory water-saving devices were the sole factor in the decrease in water consumption.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the core event: A significant decrease in water consumption followed the introduction of mandatory water-saving devices. This establishes a strong causal link between the devices and the decrease.\n\nStep 2: Identify other concurrent events: At the same time, there was an increase in public awareness about water conservation and improvements in water recycling technology. These are additional factors that could potentially influence water consumption.\n\nStep 3: Evaluate Choice C: \"The mandatory water-saving devices were the sole factor in the decrease in water consumption.\" This choice claims exclusivity (\"sole factor\"). However, the context explicitly mentions other concurrent events (increased public awareness, improved recycling technology) that could also contribute. Therefore, it is highly unlikely that the devices were the *sole* factor, making this choice implausible.\n\nStep 4: Evaluate Choice B: \"Improvements in water recycling technology were the primary reason for reduced water consumption.\" Water recycling technology primarily affects the *supply* of water by reusing it, thereby reducing the demand for *fresh*",
+            "cot_steps": [
+                "Analyze the core event: A significant decrease in water consumption followed the introduction of mandatory water-saving devices. This establishes a strong causal link between the devices and the decrease.",
+                "Identify other concurrent events: At the same time, there was an increase in public awareness about water conservation and improvements in water recycling technology. These are additional factors that could potentially influence water consumption.",
+                "Evaluate Choice C: \"The mandatory water-saving devices were the sole factor in the decrease in water consumption.\" This choice claims exclusivity (\"sole factor\"). However, the context explicitly mentions other concurrent events (increased public awareness, improved recycling technology) that could also contribute. Therefore, it is highly unlikely that the devices were the *sole* factor, making this choice implausible.",
+                "Evaluate Choice B: \"Improvements in water recycling technology were the primary reason for reduced water consumption.\" Water recycling technology primarily affects the *supply* of water by reusing it, thereby reducing the demand for *fresh*"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 35.88679337501526,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-51",
+            "question": "Context: Following a nation's investment in renewable energy research, there was a surge in patents for green technologies. This period also saw global environmental agreements and an increase in public funding for sustainability initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The investment in renewable energy research alone triggered the increase in green technology patents.\nB. Global environmental agreements raised awareness and created a conducive environment for green technology innovation.\nC. The increase in public funding for sustainability initiatives was the primary driver of the surge in patents.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the initial statement in the context: \"Following a nation's investment in renewable energy research, there was a surge in patents for green technologies.\" This statement",
+            "cot_steps": [
+                "Analyze the initial statement in the context: \"Following a nation's investment in renewable energy research, there was a surge in patents for green technologies.\" This statement"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 64.63337135314941,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-52",
+            "question": "Context: A government's policy to offer tax incentives for home solar panel installations was followed by a decrease in overall energy costs. Concurrently, there were technological advancements in solar panels and an increase in public awareness about renewable energy.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Increased public awareness about renewable energy led to a behavioral shift towards more efficient energy use.\nB. The tax incentives were the sole reason for the reduction in energy costs.\nC. Technological advancements in solar panels made them more efficient and cost-effective, contributing to lower energy costs.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the stated outcome and the concurrent factors. The outcome is a \"decrease in overall energy costs.\" The concurrent factors are: a government policy of tax incentives for home solar panel",
+            "cot_steps": [
+                "Analyze the stated outcome and the concurrent factors. The outcome is a \"decrease in overall energy costs.\" The concurrent factors are: a government policy of tax incentives for home solar panel"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 57.981361627578735,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-53",
+            "question": "Context: After a city's investment in smart traffic management systems, there was a notable improvement in traffic flow. This period also saw an increase in the use of electric vehicles and a shift in public transport policies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Smart traffic management systems were the primary factor in improving traffic flow.\nB. The increase in electric vehicle usage led to changes in driving patterns, complementing the smart traffic management systems.\nC. The shift in public transport policies alone was responsible for the improved traffic flow.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the initial statement: \"After a city's investment in smart traffic management systems, there was a notable improvement in traffic flow.\" This establishes a direct temporal relationship where the investment precedes the improvement.\nStep 2: Consider the inherent purpose of \"smart traffic management systems.\" These systems are specifically designed and implemented with the explicit goal of improving traffic flow. Therefore, observing an improvement in traffic flow after their investment is a direct and expected outcome, establishing a strong causal link.\nStep 3: Evaluate the other factors mentioned: \"This period also saw an increase in the use of electric vehicles and a shift in public transport policies.\" The word \"also\" indicates these were concurrent events, but does",
+            "cot_steps": [
+                "Analyze the initial statement: \"After a city's investment in smart traffic management systems, there was a notable improvement in traffic flow.\" This establishes a direct temporal relationship where the investment precedes the improvement.",
+                "Consider the inherent purpose of \"smart traffic management systems.\" These systems are specifically designed and implemented with the explicit goal of improving traffic flow. Therefore, observing an improvement in traffic flow after their investment is a direct and expected outcome, establishing a strong causal link.",
+                "Evaluate the other factors mentioned: \"This period also saw an increase in the use of electric vehicles and a shift in public transport policies.\" The word \"also\" indicates these were concurrent events, but does"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 20.36096692085266,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-54",
+            "question": "Context: A country's introduction of a universal healthcare system was followed by an improvement in public health outcomes. At the same time, there was an increase in health education programs and advancements in medical technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in medical technology provided more effective treatment options, contributing to better health outcomes.\nB. Health education programs were the primary reason for the improvement in public health.\nC. The universal healthcare system was the sole factor in improving public health outcomes.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the scenario to identify all stated factors and the observed outcome. The observed outcome is \"improvement in public health outcomes.\" The concurrent factors are: 1) introduction of a",
+            "cot_steps": [
+                "Analyze the scenario to identify all stated factors and the observed outcome. The observed outcome is \"improvement in public health outcomes.\" The concurrent factors are: 1) introduction of a"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 78.4127311706543,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-55",
+            "question": "Context: Following a city's implementation of green roofing on public buildings, there was a decrease in urban heat islands. This period also saw a growth in urban tree planting and a new regulation on building emissions.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Green roofing on public buildings was the primary reason for the decrease in urban heat islands.\nB. The growth in urban tree planting provided natural cooling, which along with green roofing, helped reduce heat islands.\nC. New regulations on building emissions were the main driver for the reduction in heat islands.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Identify the observed effect and the concurrent events. The observed effect is a decrease in urban heat islands. The concurrent events are: 1) implementation of green roofing on public buildings, 2) growth in urban tree planting, and 3) new regulation on building emissions.\n\nStep 2: Evaluate the known causal mechanisms for each concurrent event's potential impact on urban heat islands.\n    *   **Green roofing:** Green roofs reduce heat absorption by buildings, provide insulation, and cool the surrounding air through evapotranspiration, directly mitigating urban heat islands.\n    *   **",
+            "cot_steps": [
+                "Identify the observed effect and the concurrent events. The observed effect is a decrease in urban heat islands. The concurrent events are: 1) implementation of green roofing on public buildings, 2) growth in urban tree planting, and 3) new regulation on building emissions.",
+                "Evaluate the known causal mechanisms for each concurrent event's potential impact on urban heat islands."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 18.26929807662964,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-56",
+            "question": "Context: A nation's shift to online tax filing systems was followed by an increase in timely tax submissions. Concurrently, there were improvements in internet infrastructure and public awareness campaigns about tax compliance.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Public awareness campaigns significantly changed taxpayer behaviors, leading to more timely submissions.\nB. The online tax filing system was the sole reason for the increase in timely submissions.\nC. Improvements in internet infrastructure made online filing more accessible, contributing to its efficiency.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core event and its observed consequence. The nation shifted to online tax filing systems, and this was followed by an increase in timely tax submissions. This suggests a causal link",
+            "cot_steps": [
+                "Analyze the core event and its observed consequence. The nation shifted to online tax filing systems, and this was followed by an increase in timely tax submissions. This suggests a causal link"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 99.90239429473877,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-57",
+            "question": "Context: After a city's investment in community sports facilities, there was a reported increase in public health. This period also saw the introduction of city-wide health initiatives and a trend towards healthier eating.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Investment in community sports facilities was the primary reason for the improvement in public health.\nB. The trend towards healthier eating habits contributed to improved overall public health.\nC. City-wide health initiatives alone were responsible for the increased public health.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Identify all factors presented in the context that occurred concurrently with the reported increase in public health. The context states three such factors: 1) investment in community sports",
+            "cot_steps": [
+                "Identify all factors presented in the context that occurred concurrently with the reported increase in public health. The context states three such factors: 1) investment in community sports"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 32.82656288146973,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-58",
+            "question": "Context: A government's initiative to provide free public Wi-Fi in urban areas was followed by an increase in local small business growth. Concurrently, there was a rise in entrepreneurship education and a boost in economic development programs.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Free public Wi-Fi was the sole factor in the growth of local small businesses.\nB. Economic development programs were the primary driver of the increase in local small businesses.\nC. The rise in entrepreneurship education provided the necessary skills and knowledge, fueling small business growth.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential factors contributing to the increase in local small business growth. The context mentions three concurrent developments: free public Wi-Fi, a rise in entrepreneurship",
+            "cot_steps": [
+                "Analyze the context to identify all potential factors contributing to the increase in local small business growth. The context mentions three concurrent developments: free public Wi-Fi, a rise in entrepreneurship"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 34.819693088531494,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-59",
+            "question": "Context: After a city's implementation of a recycling program, there was a noticeable decrease in waste sent to landfills. This period also saw an increase in community environmental awareness and the introduction of waste reduction policies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Waste reduction policies alone led to a significant decrease in waste sent to landfills.\nB. The recycling program was the primary reason for the decrease in landfill waste.\nC. The increase in community environmental awareness led to more responsible waste management practices, reducing landfill waste.",
+            "answerKey": "C",
+            "cot_output": "Step 1: The context states that \"After a city's implementation of a recycling program, there was a noticeable decrease in waste sent to landfills.\" This establishes a direct temporal relationship where",
+            "cot_steps": [
+                "The context states that \"After a city's implementation of a recycling program, there was a noticeable decrease in waste sent to landfills.\" This establishes a direct temporal relationship where"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 45.55510330200195,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-60",
+            "question": "Context: A major city's adoption of electric buses was followed by an improvement in urban air quality. At the same time, there was a city-wide initiative to plant more trees and a significant reduction in the use of private vehicles.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Electric buses were the sole factor in improving urban air quality.\nB. The reduction in the use of private vehicles led to lower emissions, complementing the effect of electric buses.\nC. The city-wide tree planting initiative was the primary reason for the improvement in air quality.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all potential causes and the observed effect. The observed effect is an improvement in urban air quality. The potential causes are: 1) adoption of electric buses, 2) city-wide initiative to plant more trees, and 3) significant reduction in the use of private vehicles.\n\nStep 2: Evaluate Choice A: \"Electric buses were the sole factor in improving urban air quality.\" Electric buses produce zero tailpipe emissions, directly contributing to better air quality. However, the context explicitly states two other simultaneous events (tree planting and reduction in private vehicles) that also positively impact air quality. Claiming electric buses were the \"sole factor\" contradicts the presence of other known contributing factors, making this statement implausible.\n\nStep 3: Evaluate Choice C: \"The city-wide tree planting initiative was the primary reason for the improvement in air quality.\" Trees improve air quality by absorbing pollutants and producing oxygen. While beneficial,",
+            "cot_steps": [
+                "Analyze the context to identify all potential causes and the observed effect. The observed effect is an improvement in urban air quality. The potential causes are: 1) adoption of electric buses, 2) city-wide initiative to plant more trees, and 3) significant reduction in the use of private vehicles.",
+                "Evaluate Choice A: \"Electric buses were the sole factor in improving urban air quality.\" Electric buses produce zero tailpipe emissions, directly contributing to better air quality. However, the context explicitly states two other simultaneous events (tree planting and reduction in private vehicles) that also positively impact air quality. Claiming electric buses were the \"sole factor\" contradicts the presence of other known contributing factors, making this statement implausible.",
+                "Evaluate Choice C: \"The city-wide tree planting initiative was the primary reason for the improvement in air quality.\" Trees improve air quality by absorbing pollutants and producing oxygen. While beneficial,"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 6.724039793014526,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-61",
+            "question": "Context: Following the implementation of a national fitness campaign, there was a decrease in obesity rates. During the same period, there was an increase in healthy eating programs and advancements in healthcare services.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The national fitness campaign was the primary factor in reducing obesity rates.\nB. Advancements in healthcare services were the main driver for the reduction in obesity.\nC. Healthy eating programs provided better nutritional education, contributing to lower obesity rates.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the core problem of obesity and its primary drivers. Obesity is fundamentally caused by an imbalance between caloric intake and caloric expenditure. Therefore, interventions that directly address diet (caloric",
+            "cot_steps": [
+                "Analyze the core problem of obesity and its primary drivers. Obesity is fundamentally caused by an imbalance between caloric intake and caloric expenditure. Therefore, interventions that directly address diet (caloric"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 65.11392521858215,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-62",
+            "question": "Context: A coastal city's efforts to restore its beaches led to an increase in tourist arrivals. Simultaneously, there was a city-wide campaign promoting local tourism and improvements in public transportation.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Beach restoration was the sole reason for the increase in tourist arrivals.\nB. Improvements in public transportation made the city more accessible to tourists.\nC. The city-wide campaign effectively promoted local tourism, attracting more visitors.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the initial statement: \"A coastal city's efforts to restore its beaches led to an increase in tourist arrivals.\" This statement establishes a direct causal link between beach",
+            "cot_steps": [
+                "Analyze the initial statement: \"A coastal city's efforts to restore its beaches led to an increase in tourist arrivals.\" This statement establishes a direct causal link between beach"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 51.69444751739502,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-63",
+            "question": "Context: After a government's investment in rural healthcare facilities, there was a notable improvement in healthcare access in rural areas. During the same period, there was an increase in telemedicine services and a rise in health awareness initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Health awareness initiatives alone significantly improved healthcare access in rural areas.\nB. The increase in telemedicine services provided remote access to healthcare, complementing the physical healthcare facilities.\nC. Government investment in rural healthcare facilities was the primary reason for improved access.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify the stated effect and potential causes. The effect is \"notable improvement in healthcare access in rural areas.\" The potential causes mentioned are: ",
+            "cot_steps": [
+                "Analyze the context to identify the stated effect and potential causes. The effect is \"notable improvement in healthcare access in rural areas.\" The potential causes mentioned are: "
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 37.32292675971985,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-64",
+            "question": "Context: A city's initiative to improve public park spaces was followed by an increase in local community engagement. At the same time, there was a rise in neighborhood associations and social media platforms promoting local events.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The rise in neighborhood associations fostered a stronger sense of community, encouraging more engagement.\nB. Social media platforms promoting local events were the primary reason for increased community engagement.\nC. Improving public park spaces was the sole factor in increasing community engagement.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the context to identify all concurrent events and the observed outcome. The context states that an initiative to improve public park spaces occurred, followed by an increase in local community engagement. Simultaneously, there was a rise in neighborhood associations and social media platforms promoting local events.\n\nStep 2: Evaluate Choice C: \"Improving public park spaces was the sole factor in increasing community engagement.\" The context explicitly mentions other concurrent developments (rise in neighborhood associations, rise in social media platforms promoting local events). If these other factors were present, it is logically implausible that park improvements were the *sole* factor. Therefore, this choice is likely incorrect due to its absolute claim.\n\nStep 3: Evaluate Choice B: \"Social media platforms promoting local events were the primary reason for increased community engagement.\" While social",
+            "cot_steps": [
+                "Analyze the context to identify all concurrent events and the observed outcome. The context states that an initiative to improve public park spaces occurred, followed by an increase in local community engagement. Simultaneously, there was a rise in neighborhood associations and social media platforms promoting local events.",
+                "Evaluate Choice C: \"Improving public park spaces was the sole factor in increasing community engagement.\" The context explicitly mentions other concurrent developments (rise in neighborhood associations, rise in social media platforms promoting local events). If these other factors were present, it is logically implausible that park improvements were the *sole* factor. Therefore, this choice is likely incorrect due to its absolute claim.",
+                "Evaluate Choice B: \"Social media platforms promoting local events were the primary reason for increased community engagement.\" While social"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 82.03928709030151,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-65",
+            "question": "Context: Following the introduction of energy-efficient appliances in homes, there was a decrease in household energy consumption. This period also saw a rise in energy conservation awareness and the implementation of green building standards.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Energy-efficient appliances were the primary reason for the reduction in energy consumption.\nB. The rise in energy conservation awareness led to more mindful energy usage by residents, complementing the impact of energy-efficient appliances.\nC. Green building standards had the most significant impact on reducing household energy usage.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The context states that a decrease in household energy consumption occurred during a period when *multiple* factors were present: introduction of energy-efficient appliances, a rise in energy conservation awareness",
+            "cot_steps": [
+                "The context states that a decrease in household energy consumption occurred during a period when *multiple* factors were present: introduction of energy-efficient appliances, a rise in energy conservation awareness"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 1889.010094165802,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-66",
+            "question": "Context: A country's decision to subsidize renewable energy sources was followed by a significant decrease in the use of fossil fuels. Concurrently, there was a global movement towards sustainable energy and advancements in renewable energy technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The subsidy was the sole factor in decreasing the use of fossil fuels.\nB. The global movement towards sustainable energy was the primary reason for the reduction in fossil fuel use.\nC. Advancements in renewable energy technology made it more efficient and cost-effective, encouraging the shift from fossil fuels.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all stated events and their relationships. We have a country's subsidy for renewable energy, a subsequent decrease in fossil fuel use, and two concurrent global trends: a movement towards sustainable energy",
+            "cot_steps": [
+                "Analyze the context to identify all stated events and their relationships. We have a country's subsidy for renewable energy, a subsequent decrease in fossil fuel use, and two concurrent global trends: a movement towards sustainable energy"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 4583.342594623566,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-67",
+            "question": "Context: After the implementation of a city-wide clean air campaign, there was a decrease in air pollution levels. This period also saw an increase in electric vehicle usage and the introduction of stricter industrial emission standards.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Stricter industrial emission standards were the main driver of the decrease in air pollution.\nB. The city-wide clean air campaign was the primary reason for the improvement in air quality.\nC. The increase in electric vehicle usage contributed to lower emissions, aiding in the reduction of air pollution.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the nature of each potential cause mentioned in the context. A city-wide clean air campaign primarily aims to raise awareness and encourage voluntary actions, which have",
+            "cot_steps": [
+                "Analyze the nature of each potential cause mentioned in the context. A city-wide clean air campaign primarily aims to raise awareness and encourage voluntary actions, which have"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 1992.4554605484009,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-68",
+            "question": "Context: A government's investment in public sports facilities was followed by an increase in public health and fitness levels. At the same time, there was a rise in health education campaigns and improvements in dietary habits.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The investment in sports facilities was the sole factor in increasing public health and fitness.\nB. Health education campaigns were the primary reason for the improvement in public health and fitness.\nC. Improvements in dietary habits contributed to better overall health, complementing the availability of sports facilities.",
+            "answerKey": "C",
+            "cot_output": "Step 1: The context describes three concurrent positive changes: government investment in public sports facilities, a rise in health education campaigns, and improvements in dietary habits. These changes were followed by an increase in public health and fitness levels. This indicates a multi-factorial scenario where several elements could contribute to the observed outcome.\n\nStep 2: Evaluate Choice A: \"The investment in sports facilities was the sole factor in increasing public health and fitness.\" This statement claims exclusivity (\"sole factor\"). However, the context explicitly mentions \"a rise in health education campaigns and improvements in dietary habits\" occurring at the same time. These are also well-known contributors to public health and fitness. Therefore, claiming the sports facilities were the *sole* factor is directly contradicted by the presence of other stated contributing factors, making this choice implausible.\n\nStep 3: Evaluate Choice B: \"Health education campaigns were the primary reason for the improvement in public health and fitness.\" While health education campaigns are a plausible contributor, the context does not provide any information or data to rank the importance of the various",
+            "cot_steps": [
+                "The context describes three concurrent positive changes: government investment in public sports facilities, a rise in health education campaigns, and improvements in dietary habits. These changes were followed by an increase in public health and fitness levels. This indicates a multi-factorial scenario where several elements could contribute to the observed outcome.",
+                "Evaluate Choice A: \"The investment in sports facilities was the sole factor in increasing public health and fitness.\" This statement claims exclusivity (\"sole factor\"). However, the context explicitly mentions \"a rise in health education campaigns and improvements in dietary habits\" occurring at the same time. These are also well-known contributors to public health and fitness. Therefore, claiming the sports facilities were the *sole* factor is directly contradicted by the presence of other stated contributing factors, making this choice implausible.",
+                "Evaluate Choice B: \"Health education campaigns were the primary reason for the improvement in public health and fitness.\" While health education campaigns are a plausible contributor, the context does not provide any information or data to rank the importance of the various"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 127.92426753044128,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-69",
+            "question": "Context: After the introduction of an urban tree planting initiative, there was a noticeable improvement in the city's air quality. This period also saw a decrease in vehicle emissions and the implementation of green building practices.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The urban tree planting initiative was the primary reason for the improved air quality.\nB. The decrease in vehicle emissions played a significant role in reducing air pollutants, aiding the impact of the tree planting initiative.\nC. Green building practices alone were responsible for the better air quality.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all stated events and observations. The observation is improved air quality. The concurrent events are: an urban tree planting initiative, a decrease in vehicle emissions, and the implementation of green building practices. All three concurrent events are potential contributors to improved air quality.\n\nStep 2: Evaluate Choice A: \"The urban tree planting initiative was the primary reason for the improved air quality.\" While tree planting can improve air quality, the context explicitly mentions two other significant factors (decrease in",
+            "cot_steps": [
+                "Analyze the context to identify all stated events and observations. The observation is improved air quality. The concurrent events are: an urban tree planting initiative, a decrease in vehicle emissions, and the implementation of green building practices. All three concurrent events are potential contributors to improved air quality.",
+                "Evaluate Choice A: \"The urban tree planting initiative was the primary reason for the improved air quality.\" While tree planting can improve air quality, the context explicitly mentions two other significant factors (decrease in"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 144.89595246315002,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-70",
+            "question": "Context: A city's enhancement of cycling infrastructure was followed by an increase in cycling commuters. At the same time, there was a rise in environmental consciousness and improvements in bike technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The enhanced cycling infrastructure was the sole factor in increasing the number of cycling commuters.\nB. The rise in environmental consciousness was the primary reason for more people commuting by bike.\nC. Improvements in bike technology made cycling more appealing and accessible, contributing to its popularity.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the context to identify all potential causal factors mentioned. The context states three concurrent events: 1) enhancement",
+            "cot_steps": [
+                "Analyze the context to identify all potential causal factors mentioned. The context states three concurrent events: 1) enhancement"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 1998.18421292305,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-71",
+            "question": "Context: Following a nation's investment in digital infrastructure, there was a boost in online business startups. This period also saw an increase in entrepreneurship training programs and a global trend in digital transformation.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The investment in digital infrastructure was the sole reason for the boost in online businesses.\nB. Entrepreneurship training programs were the primary driver for the increase in online startups.\nC. The global trend in digital transformation created a conducive environment for online business growth.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the initial statement: \"Following a nation's investment in digital infrastructure, there was a boost in online business startups.\" This establishes a direct, temporal, and likely causal link between the investment and the boost.\n\nStep 2: Analyze the additional context: \"This period also saw an increase in entrepreneurship training programs and a global trend in digital transformation.\" This indicates that the boost in online businesses occurred within a broader context of multiple contributing factors, not just the national infrastructure investment.\n\nStep 3: Evaluate Choice A: \"The investment in digital infrastructure was the sole reason for the boost in online businesses.\" The word \"sole\" implies exclusivity. However, the context explicitly mentions two other concurrent factors (entrepreneurship training and global digital transformation). Therefore, stating it was the *sole* reason is contradicted by the provided information, making this choice implausible.\n\nStep 4: Evaluate Choice B: \"Entrepreneurship training programs were the primary driver for the increase in online startups.\" While training programs can contribute, the context does not provide evidence to suggest they were the *primary* driver above the direct infrastructure investment or the overarching global trend. The initial statement directly links infrastructure investment to the boost, and training programs are mentioned",
+            "cot_steps": [
+                "Analyze the initial statement: \"Following a nation's investment in digital infrastructure, there was a boost in online business startups.\" This establishes a direct, temporal, and likely causal link between the investment and the boost.",
+                "Analyze the additional context: \"This period also saw an increase in entrepreneurship training programs and a global trend in digital transformation.\" This indicates that the boost in online businesses occurred within a broader context of multiple contributing factors, not just the national infrastructure investment.",
+                "Evaluate Choice A: \"The investment in digital infrastructure was the sole reason for the boost in online businesses.\" The word \"sole\" implies exclusivity. However, the context explicitly mentions two other concurrent factors (entrepreneurship training and global digital transformation). Therefore, stating it was the *sole* reason is contradicted by the provided information, making this choice implausible.",
+                "Evaluate Choice B: \"Entrepreneurship training programs were the primary driver for the increase in online startups.\" While training programs can contribute, the context does not provide evidence to suggest they were the *primary* driver above the direct infrastructure investment or the overarching global trend. The initial statement directly links infrastructure investment to the boost, and training programs are mentioned"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 52.98463821411133,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-72",
+            "question": "Context: A region's implementation of strict water conservation measures was followed by a significant decrease in water scarcity issues. At the same time, there was an increase in rainwater harvesting initiatives and advancements in water recycling technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The strict conservation measures were the sole factor in decreasing water scarcity.\nB. Advancements in water recycling technology increased the efficiency of water use, contributing to the reduction in scarcity.\nC. Rainwater harvesting initiatives were the primary reason for the alleviation of water scarcity issues.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all stated factors and the observed outcome. The context states three concurrent events: 1) implementation of strict water conservation measures, 2) an increase in rainwater harvesting initiatives, and 3) advancements in water recycling technology. The observed outcome is a significant decrease in water scarcity issues.\n\nStep 2: Evaluate Choice A: \"The strict conservation measures were the",
+            "cot_steps": [
+                "Analyze the context to identify all stated factors and the observed outcome. The context states three concurrent events: 1) implementation of strict water conservation measures, 2) an increase in rainwater harvesting initiatives, and 3) advancements in water recycling technology. The observed outcome is a significant decrease in water scarcity issues.",
+                "Evaluate Choice A: \"The strict conservation measures were the"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 119.51392531394958,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-73",
+            "question": "Context: After the introduction of a city-wide initiative to promote public art, there was an increase in tourism and community pride. During the same period, the city enhanced its cultural attractions and improved public transportation.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Improvements in public transportation were the main reason for the increase in tourism.\nB. The public art initiative was the primary driver for the rise in tourism and community pride.\nC. Enhancements to cultural attractions drew more visitors, complementing the impact of the public art initiative.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Request timed out.",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 5409.682940483093,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-74",
+            "question": "Context: A city's implementation of free public Wi-Fi in parks was followed by an increase in park usage. Concurrently, there was a trend towards outdoor activities and the introduction of park beautification projects.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Free public Wi-Fi was the sole factor in increasing park usage.\nB. The trend towards outdoor activities was the primary reason for increased park usage.\nC. The park beautification projects made the parks more attractive, encouraging more visitors.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the initial statement regarding Wi-Fi and park usage. The context states that the implementation of free public Wi-Fi \"was followed by an increase in park usage.\" This indicates",
+            "cot_steps": [
+                "Analyze the initial statement regarding Wi-Fi and park usage. The context states that the implementation of free public Wi-Fi \"was followed by an increase in park usage.\" This indicates"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 646.538587808609,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-75",
+            "question": "Context: After a country's decision to invest in science education, there was a surge in scientific research and innovation. This period also saw an increase in private sector funding for research and a global emphasis on technological advancement.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The country's investment in science education was the primary driver of the surge in research and innovation.\nB. Private sector funding provided additional resources, boosting research and innovation.\nC. The global emphasis on technological advancement alone spurred the increase in research and innovation.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the initial statement: \"After a country's decision to invest in science education, there was a surge in scientific research and innovation.\" This establishes a direct temporal sequence where the investment in education precedes and is",
+            "cot_steps": [
+                "Analyze the initial statement: \"After a country's decision to invest in science education, there was a surge in scientific research and innovation.\" This establishes a direct temporal sequence where the investment in education precedes and is"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 128.21509075164795,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-76",
+            "question": "Context: A country's ban on single-use plastics was followed by a notable decrease in marine pollution. At the same time, there was an increase in environmental activism and improvements in waste management systems.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Improvements in waste management systems effectively reduced the amount of waste reaching marine environments.\nB. Environmental activism was the primary reason for the reduction in marine pollution.\nC. The ban on single-use plastics was the sole factor in decreasing marine pollution.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the context to identify all stated concurrent events and the observed outcome. The context states a decrease in marine pollution was observed",
+            "cot_steps": [
+                "Analyze the context to identify all stated concurrent events and the observed outcome. The context states a decrease in marine pollution was observed"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 391.3668246269226,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-77",
+            "question": "Context: Following a city's investment in smart street lighting, there was a reduction in energy consumption and improved public safety. During the same period, there was a rise in community safety initiatives and advancements in renewable energy use.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in renewable energy use were the main driver for the reduction in energy consumption.\nB. Smart street lighting was the primary reason for both the reduction in energy consumption and improved public safety.\nC. Community safety initiatives fostered a safer environment, complementing the impact of smart street lighting.",
+            "answerKey": "C",
+            "cot_output": "Step 1: Analyze the explicit causal relationship stated in the context. The context states, \"Following a city's investment in smart street lighting, there was a reduction in energy consumption and improved public safety.\" This directly links the investment in smart street lighting to both observed outcomes: reduced energy consumption and improved public safety.\n\nStep 2: Evaluate Choice A. Choice A suggests \"Advancements in renewable energy use were the main driver for the reduction in energy consumption.\" While advancements in renewable energy occurred during the same period, the context does not state that these advancements were *implemented* in the city's energy infrastructure or were the *main driver* for the *reduction* in consumption. The explicit link for energy reduction is with smart street lighting. Therefore, this choice is not as directly supported as the link to smart street lighting.\n\nStep 3: Evaluate Choice C. Choice C suggests \"Community safety initiatives fostered a safer environment, complementing the impact of smart street lighting.\" The context mentions a \"rise in community safety initiatives\" during the same period and \"improved public safety.\" It is plausible that these initiatives contributed to safety. However, the context explicitly attributes \"improved public safety\" to the \"investment in smart street lighting.\"",
+            "cot_steps": [
+                "Analyze the explicit causal relationship stated in the context. The context states, \"Following a city's investment in smart street lighting, there was a reduction in energy consumption and improved public safety.\" This directly links the investment in smart street lighting to both observed outcomes: reduced energy consumption and improved public safety.",
+                "Evaluate Choice A. Choice A suggests \"Advancements in renewable energy use were the main driver for the reduction in energy consumption.\" While advancements in renewable energy occurred during the same period, the context does not state that these advancements were *implemented* in the city's energy infrastructure or were the *main driver* for the *reduction* in consumption. The explicit link for energy reduction is with smart street lighting. Therefore, this choice is not as directly supported as the link to smart street lighting.",
+                "Evaluate Choice C. Choice C suggests \"Community safety initiatives fostered a safer environment, complementing the impact of smart street lighting.\" The context mentions a \"rise in community safety initiatives\" during the same period and \"improved public safety.\" It is plausible that these initiatives contributed to safety. However, the context explicitly attributes \"improved public safety\" to the \"investment in smart street lighting.\""
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 56.30546522140503,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-78",
+            "question": "Context: A town's introduction of a local food market was followed by an increase in community cohesion. At the same time, there was a rise in local food production and community-led health initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The local food market was the sole factor in enhancing community cohesion.\nB. Community-led health initiatives encouraged more communal activities and interactions, fostering cohesion.\nC. The rise in local food production was the primary reason for increased community cohesion.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all stated events and their relationships. The introduction of a local food market was followed by three concurrent outcomes: an increase in community cohesion, a rise in local food production, and a rise in community-led health initiatives.\nStep 2: Evaluate Choice A: \"The local food market was the sole factor in enhancing community cohesion.\" The context explicitly states that *at the same time* as the increase in",
+            "cot_steps": [
+                "Analyze the context to identify all stated events and their relationships. The introduction of a local food market was followed by three concurrent outcomes: an increase in community cohesion, a rise in local food production, and a rise in community-led health initiatives.",
+                "Evaluate Choice A: \"The local food market was the sole factor in enhancing community cohesion.\" The context explicitly states that *at the same time* as the increase in"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 37.03881764411926,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-79",
+            "question": "Context: After a country's investment in public health research, there was a notable advancement in healthcare quality. During the same period, there was an increase in international collaboration in health science and improvements in medical training.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Public health research investment was the primary driver for the advancement in healthcare quality.\nB. International collaboration in health science led to the sharing of knowledge and best practices, enhancing healthcare quality.\nC. Improvements in medical training were the main reason for the higher quality of healthcare.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The context explicitly states a direct temporal and implied causal relationship: \"After a country's investment in public health research, there was a notable advancement in healthcare quality.\" This phrasing directly links the investment to the outcome.\n\nStep 2: The context mentions two other factors, \"increase in international collaboration in health science\" and \"improvements in medical training,\" but only states that these occurred \"During the",
+            "cot_steps": [
+                "The context explicitly states a direct temporal and implied causal relationship: \"After a country's investment in public health research, there was a notable advancement in healthcare quality.\" This phrasing directly links the investment to the outcome.",
+                "The context mentions two other factors, \"increase in international collaboration in health science\" and \"improvements in medical training,\" but only states that these occurred \"During the"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 8.127804517745972,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-80",
+            "question": "Context: A city's expansion of green spaces was followed by a decrease in urban stress levels. Concurrently, there was an increase in community wellness programs and the implementation of noise reduction policies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Noise reduction policies created a more serene urban environment, contributing to lower stress levels.\nB. The expansion of green spaces was the sole factor in decreasing urban stress levels.\nC. Community wellness programs were the primary reason for the reduction in stress levels.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Analyze the context to identify all stated events and their relationships",
+            "cot_steps": [
+                "Analyze the context to identify all stated events and their relationships"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 8.726521253585815,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-81",
+            "question": "Context: Following a country's investment in renewable energy, there was a decrease in energy prices. This period also saw a global trend towards sustainable energy and advancements in energy storage technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The global trend towards sustainable energy was the primary driver for the reduction in energy prices.\nB. Advancements in energy storage technologies increased the efficiency and reduced the cost of renewable energy.\nC. The investment in renewable energy was the sole reason for the decrease in energy prices.",
+            "answerKey": "B",
+            "cot_output": "Step 1",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 314.2951316833496,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-82",
+            "question": "Context: A town's introduction of a local heritage festival was followed by an increase in cultural tourism. Concurrently, there was a marketing campaign promoting the town as a tourist destination and an upgrade in local hospitality services.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The upgrade in local hospitality services was the primary reason for increased cultural tourism.\nB. The marketing campaign effectively attracted tourists by highlighting the town's unique cultural attractions.\nC. The local heritage festival was the sole factor in boosting cultural tourism.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Analyze the context to identify all relevant events and the",
+            "cot_steps": [
+                "Analyze the context to identify all relevant events and the"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 742.5056583881378,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-83",
+            "question": "Context: After the introduction of a national program to improve digital literacy, there was a noticeable increase in digital skills among the population. During the same period, there was a growth in online educational resources and advancements in digital technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The national program was the primary driver for the improvement in digital skills.\nB. Advancements in digital technology alone spurred the increase in digital skills.\nC. The growth in online educational resources provided accessible learning opportunities, enhancing digital literacy.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193314826877865WTnFrisv)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5973610877990723,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-84",
+            "question": "Context: A city's introduction of community gardens was followed by an increase in local food security. Concurrently, there was a rise in sustainable farming practices and a program promoting healthy eating in schools.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The program promoting healthy eating in schools was the primary reason for improved food security.\nB. Sustainable farming practices increased the availability of local, healthy food options, enhancing food security.\nC. Community gardens were the sole factor in increasing local food security.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933174295882505wQyXNgX)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5966947078704834,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-85",
+            "question": "Context: Following a region's investment in flood prevention infrastructure, there was a significant reduction in flood-related damages. During the same period, there was an increase in community emergency preparedness and advancements in weather forecasting technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Community emergency preparedness alone significantly reduced flood-related damages.\nB. Advancements in weather forecasting technology allowed for better preparation and response to potential flooding, reducing damages.\nC. The investment in flood prevention infrastructure was the primary reason for the decrease in flood-related damages.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 2025092119332032379813agz2izkd)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5960729122161865,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-86",
+            "question": "Context: A country's decision to increase renewable energy subsidies was followed by a substantial growth in green energy projects. Concurrently, there was a global rise in environmental awareness and advancements in renewable energy technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in renewable energy technology made green energy projects more viable and efficient.\nB. The increased renewable energy subsidies were the sole factor in the growth of green energy projects.\nC. The global rise in environmental awareness was the primary driver for the growth in green energy projects.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933226345669460WeSfbNN)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.596287488937378,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-87",
+            "question": "Context: After a city's development of a new public transportation network, there was an improvement in traffic conditions. During the same period, there was a trend towards remote working and the implementation of traffic management technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Traffic management technologies alone significantly improved traffic conditions.\nB. The new public transportation network was the primary reason for the improvement in traffic.\nC. The trend towards remote working reduced the number of vehicles on the road, aiding in easing traffic conditions.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193325237867743HZsAzaBH)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5975100994110107,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-88",
+            "question": "Context: A nation's initiative to digitize public services was followed by an increase in government efficiency. Concurrently, there was a rise in digital literacy among the population and advancements in digital security technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The rise in digital literacy enabled citizens to better engage with digital services, improving overall efficiency.\nB. Advancements in digital security technologies were the primary reason for the increased efficiency.\nC. The initiative to digitize public services was the sole factor in improving government efficiency.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933278413583856VLYytQ5)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.596865653991699,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-89",
+            "question": "Context: Following the implementation of a city-wide waste reduction campaign, there was a decrease in litter and waste in public areas. During the same period, there was an increase in recycling facilities and community environmental education programs.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Community environmental education programs alone significantly reduced litter and waste in public areas.\nB. The city-wide waste reduction campaign was the primary driver for the decrease in litter and waste.\nC. The increase in recycling facilities provided more options for waste disposal, contributing to less littering.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933304435076515lexICCb)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.595546007156372,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-90",
+            "question": "Context: A town's investment in LED street lighting was followed by a decrease in energy consumption and improved nighttime visibility. Concurrently, there was a campaign to promote energy conservation and the introduction of solar-powered public lighting.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. LED street lighting was the sole factor in decreasing energy consumption and improving visibility.\nB. The introduction of solar-powered public lighting provided an additional sustainable energy source, enhancing the town's lighting efficiency.\nC. The energy conservation campaign was the primary reason for reduced energy consumption and improved visibility.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 2025092119333345386182fjiLyI4j)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5959413051605225,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-91",
+            "question": "Context: After a region's implementation of water conservation laws, there was a significant improvement in water resource management. During the same period, there was an increase in public awareness campaigns about water usage and advancements in water-saving technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in water-saving technologies enhanced the efficiency of water use, complementing the impact of the conservation laws.\nB. The water conservation laws were the primary reason for the improvement in water resource management.\nC. Public awareness campaigns alone significantly improved water resource management.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193335666607119PAyAxrlz)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.614734411239624,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-92",
+            "question": "Context: A city's initiative to offer tax incentives for green building construction was followed by an increase in sustainable architecture. Concurrently, there was a rise in environmental activism and advancements in eco-friendly building materials.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in eco-friendly building materials made sustainable construction more feasible and attractive.\nB. The tax incentives were the sole factor in increasing sustainable architecture.\nC. Environmental activism was the primary driver for the rise in sustainable architecture.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193338269988272OFeOaJ8j)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.596863269805908,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-93",
+            "question": "Context: Following a nation's investment in high-speed internet infrastructure, there was a boost in e-commerce and remote working. During the same period, there was a trend towards digital transformation in businesses and advancements in cybersecurity.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The trend towards digital transformation enabled more businesses to adapt to e-commerce and remote working models.\nB. Advancements in cybersecurity alone spurred the increase in e-commerce and the prevalence of remote working.\nC. The investment in high-speed internet infrastructure was the primary reason for the boost in e-commerce and remote working.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193340872658128tZ3LtnNM)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5961544513702393,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-94",
+            "question": "Context: A country's implementation of a national health and fitness program was followed by a decrease in public health issues. Concurrently, there was a trend towards healthier eating habits and advancements in public health education.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in public health education were the primary reason for the decrease in health issues.\nB. The trend towards healthier eating habits contributed to better overall health, reducing health issues.\nC. The national health and fitness program was the sole factor in reducing public health issues.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193343476772391UWRXPtrN)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5976617336273193,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-95",
+            "question": "Context: After a city's investment in cultural heritage preservation, there was an increase in tourist activity and local pride. During the same period, there was a growth in local artisan businesses and the introduction of historical educational programs.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Historical educational programs alone significantly increased tourist activity and local pride.\nB. Cultural heritage preservation was the primary driver for the rise in tourism and local pride.\nC. The growth in local artisan businesses showcased the city's unique culture, attracting tourists and boosting local pride.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 2025092119334679711022r26uNH85)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5963385105133057,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-96",
+            "question": "Context: A region's introduction of green energy tax credits was followed by a surge in the installation of solar panels and wind turbines. Concurrently, there was a global push for renewable energy and advancements in green technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The green energy tax credits were the sole factor in the surge of solar panels and wind turbine installations.\nB. Advancements in green technology made solar panels and wind turbines more efficient and cost-effective.\nC. The global push for renewable energy was the primary driver for the increase in green energy installations.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193348689150109ghjoV5xu)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.6027915477752686,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-97",
+            "question": "Context: Following a city's development of pedestrian-friendly zones, there was a noticeable improvement in urban livability. During the same period, there was an increase in public transport options and a trend towards sustainable urban planning.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Pedestrian-friendly zones were the primary reason for the improvement in urban livability.\nB. The trend towards sustainable urban planning led to more green spaces and less congestion, enhancing livability.\nC. The increase in public transport options alone significantly improved urban livability.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193351293336281Z44tQhng)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.597440719604492,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-98",
+            "question": "Context: A city's launch of a public health awareness campaign was followed by a decrease in lifestyle-related diseases. Concurrently, there was an increase in fitness facilities and improvements in local healthcare services.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The increase in fitness facilities provided more opportunities for regular exercise, contributing to better public health.\nB. The public health awareness campaign was the sole factor in decreasing lifestyle-related diseases.\nC. Improvements in local healthcare services were the primary reason for the reduction in lifestyle-related diseases.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193353898121770yg8wIidx)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.597956895828247,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-99",
+            "question": "Context: Following a country's investment in arts and culture, there was an increase in national tourism and cultural engagement. During the same period, there was a global rise in cultural exchange programs and advancements in digital media.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in digital media alone significantly increased tourism and cultural engagement.\nB. Global cultural exchange programs expanded people's interest in diverse cultures, boosting tourism and engagement.\nC. The country's investment in arts and culture was the primary driver for the increase in tourism and cultural engagement.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933565006787050jkYw0bX)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5957226753234863,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-100",
+            "question": "Context: Similar to scenario 10, An island nation introduced strict fishing regulations, which led to an increase in fish populations. Around the same time, the nation also saw an increase in tourism and improvements in marine research technologies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Fish populations increased due to natural environmental cycles, unrelated to human actions.\nB. Improvements in marine research technologies directly contributed to higher fish populations.\nC. The increase in tourism led to greater awareness and compliance with fishing regulations.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 202509211933591054613470YuJI7cs)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5981252193450928,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-101",
+            "question": "Context: Similar to scenario 87, A country's decision to increase renewable energy subsidies was followed by a substantial growth in green energy projects. Concurrently, there was a global rise in environmental awareness and advancements in renewable energy technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in renewable energy technology made green energy projects more viable and efficient.\nB. The global rise in environmental awareness was the primary driver for the growth in green energy projects.\nC. The increased renewable energy subsidies were the sole factor in the growth of green energy projects.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193401707583878kgbFyhP6)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5950868129730225,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-102",
+            "question": "Context: Similar to scenario 84, After the introduction of a national program to improve digital literacy, there was a noticeable increase in digital skills among the population. During the same period, there was a growth in online educational resources and advancements in digital technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The growth in online educational resources provided accessible learning opportunities, enhancing digital literacy.\nB. Advancements in digital technology alone spurred the increase in digital skills.\nC. The national program was the primary driver for the improvement in digital skills.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193404310477754ktOltSzj)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.596252679824829,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-103",
+            "question": "Context: Similar to scenario 5, A coastal city noted a decrease in tourism despite recently winning an award for best beach destination. This period saw unusual jellyfish blooms and an international campaign promoting mountain vacations.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The jellyfish blooms could have deterred tourists despite the beach's accolades.\nB. The international campaign made mountain vacations more appealing than beach destinations.\nC. The award led to overcrowding, which reduced the destination's appeal.",
+            "answerKey": "A",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193406913678853IIcX0V3E)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.596339702606201,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-104",
+            "question": "Context: Similar to scenario 79, A town's introduction of a local food market was followed by an increase in community cohesion. At the same time, there was a rise in local food production and community-led health initiatives.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The rise in local food production was the primary reason for increased community cohesion.\nB. Community-led health initiatives encouraged more communal activities and interactions, fostering cohesion.\nC. The local food market was the sole factor in enhancing community cohesion.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193409516396925VTZcdQ8I)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.595654010772705,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-105",
+            "question": "Context: Similar to scenario 33, A country's initiative to promote telemedicine services was followed by an improvement in rural healthcare access. This period also saw advancements in mobile technology and increased government funding for rural health.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The promotion of telemedicine services had no significant impact on healthcare access.\nB. Increased government funding was the sole factor improving healthcare access.\nC. Advancements in mobile technology made telemedicine more accessible in rural areas.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193412120640081i2tvZe2x)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5971601009368896,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-106",
+            "question": "Context: Similar to scenario 65, A city's initiative to improve public park spaces was followed by an increase in local community engagement. At the same time, there was a rise in neighborhood associations and social media platforms promoting local events.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Improving public park spaces was the sole factor in increasing community engagement.\nB. Social media platforms promoting local events were the primary reason for increased community engagement.\nC. The rise in neighborhood associations fostered a stronger sense of community, encouraging more engagement.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193414725524979KOdxLOot)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5975534915924072,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-107",
+            "question": "Context: Similar to scenario 47, A country's nationwide initiative to reduce food waste was followed by an improvement in overall food security. Concurrently, there was an increase in sustainable farming practices and advancements in food preservation technology.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Advancements in food preservation technology were the primary reason for improved food security.\nB. The initiative to reduce food waste was the sole factor in improving food security.\nC. Sustainable farming practices increased the efficiency and sustainability of food production, contributing to food security.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193417329099596rYHneyuK)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5963797569274902,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-108",
+            "question": "Context: Similar to scenario 30, After the introduction of a city-wide carpooling initiative, there was a notable reduction in traffic congestion. During the same time, the city implemented a new public transport system and saw a change in workplace remote work policies.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. The carpooling initiative was the sole reason for reduced traffic congestion.\nB. The new public transport system provided an effective alternative to car use, easing traffic congestion.\nC. Changes in remote work policies had the most significant impact on reducing traffic.",
+            "answerKey": "B",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193419932624198JYNI3z3r)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5962846279144287,
+            "tokens_used": null
+        },
+        {
+            "id": "cause-effect-109",
+            "question": "Context: Similar to scenario 14, After the introduction of a new tax law favoring small businesses, a country saw a significant rise in entrepreneurship. Around the same time, there was a global economic downturn and an increase in online business courses.\n\nQuestion: What is the most plausible cause in this scenario?\n\nChoices:\nA. Online business courses alone spurred the increase in entrepreneurship.\nB. The global economic downturn forced individuals to start their own businesses.\nC. The new tax law created a more favorable environment for small businesses, encouraging entrepreneurship.",
+            "answerKey": "C",
+            "cot_output": "API call failed after 3 attempts: Error code: 401 - {'error': {'message': '该令牌额度已用尽 TokenStatusExhausted[sk-UE0***EtD] (request id: 20250921193422537494225wpVIKHuT)', 'type': 'new_api_error'}}",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.5977959632873535,
+            "tokens_used": null
+        }
+    ]
+}

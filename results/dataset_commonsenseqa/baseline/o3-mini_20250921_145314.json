@@ -1,0 +1,1739 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 110,
+            "final_accuracy": "70.00%",
+            "total_successful_pipelines": 77,
+            "avg_elapsed_time": 7.141636948152022,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/110",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.7
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "gpqa_A revolving door is convenient",
+            "question": "Question: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?\n\nChoices:\na. bank\nb. library\nc. department store\nd. mall\ne. new york",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that a revolving door limits simultaneous entry, which makes it a useful security feature.  \nStep 2: Understand that security measures are particularly valued in environments where controlling access is critical.  \nStep 3: Identify that among the choices, banks require robust security measures to prevent unauthorized access, and revolving doors are often used at banks for this purpose.  \nStep 4: Conclude that the revolving door serves as a security measure at a bank.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that a revolving door limits simultaneous entry, which makes it a useful security feature.  ",
+                "Understand that security measures are particularly valued in environments where controlling access is critical.  ",
+                "Identify that among the choices, banks require robust security measures to prevent unauthorized access, and revolving doors are often used at banks for this purpose.  ",
+                "Conclude that the revolving door serves as a security measure at a bank."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.58830714225769,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do people aim to do at wo",
+            "question": "Question: What do people aim to do at work?\n\nChoices:\na. complete job\nb. learn from each other\nc. kill animals\nd. wear hats\ne. talk to each other",
+            "answerKey": "a",
+            "cot_output": "Step 1: Analyze the context—at work, people generally aim to fulfill job responsibilities and complete tasks.\nStep 2: Evaluate option A (\"complete job\") which directly aligns with the primary purpose of employment: job completion.\nStep 3: Consider the other options: while collaboration (B: \"learn from each other\" and E: \"talk to each other\") might occur at work, they are not the primary aim, and options C (\"kill animals\") and D (\"wear hats\") are irrelevant to most work environments.\nStep 4: Conclude that option A best represents the general aim at work.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the context—at work, people generally aim to fulfill job responsibilities and complete tasks.",
+                "Evaluate option A (\"complete job\") which directly aligns with the primary purpose of employment: job completion.",
+                "Consider the other options: while collaboration (B: \"learn from each other\" and E: \"talk to each other\") might occur at work, they are not the primary aim, and options C (\"kill animals\") and D (\"wear hats\") are irrelevant to most work environments.",
+                "Conclude that option A best represents the general aim at work."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.101374864578247,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you find magazines",
+            "question": "Question: Where would you find magazines along side many other printed works?\n\nChoices:\na. doctor\nb. bookstore\nc. market\nd. train station\ne. mortuary",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that magazines are a type of printed publication.\nStep 2: Identify that a place showing magazines alongside many other printed works would likely be a venue that sells books and magazines.\nStep 3: Evaluate the options: a doctor, market, train station, and mortuary are not typically associated with selling printed works.\nStep 4: Conclude that a bookstore, which is known for displaying and selling various printed materials, is the logical choice.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that magazines are a type of printed publication.",
+                "Identify that a place showing magazines alongside many other printed works would likely be a venue that sells books and magazines.",
+                "Evaluate the options: a doctor, market, train station, and mortuary are not typically associated with selling printed works.",
+                "Conclude that a bookstore, which is known for displaying and selling various printed materials, is the logical choice."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.1590969562530518,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where are  you likely to find ",
+            "question": "Question: Where are  you likely to find a hamburger?\n\nChoices:\na. fast food restaurant\nb. pizza\nc. ground up dead cows\nd. mouth\ne. cow carcus",
+            "answerKey": "a",
+            "cot_output": "Step 1: A hamburger is a type of food product typically served either at restaurants or purchased from food outlets.  \nStep 2: Fast food restaurants are popular venues where hamburgers are sold and consumed, making them a common and logical location to find a hamburger.  \nStep 3: Other options such as pizza, ground up dead cows, mouth, or cow carcass do not directly represent a seller or location where you would find a hamburger in its intended form as a complete food product.  \nStep 4: Therefore, the location most closely aligned with where you are likely to find a hamburger is the fast food restaurant.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A hamburger is a type of food product typically served either at restaurants or purchased from food outlets.  ",
+                "Fast food restaurants are popular venues where hamburgers are sold and consumed, making them a common and logical location to find a hamburger.  ",
+                "Other options such as pizza, ground up dead cows, mouth, or cow carcass do not directly represent a seller or location where you would find a hamburger in its intended form as a complete food product.  ",
+                "Therefore, the location most closely aligned with where you are likely to find a hamburger is the fast food restaurant."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.6171352863311768,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James was looking for a good p",
+            "question": "Question: James was looking for a good place to buy farmland.  Where might he look?\n\nChoices:\na. midwest\nb. countryside\nc. estate\nd. farming areas\ne. illinois",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that James is interested in buying farmland, which is typically found in regions known for extensive agriculture rather than in urban or primarily residential areas.\nStep 2: Note that the term “Midwest” (choice A) is historically and commonly associated with large areas of farmland and agriculture.\nStep 3: Compare “Midwest” with the other options. Although “countryside” (choice B) and “farming areas” (choice D) could also imply rural land, “Midwest” directly references a well-known region for such activity, making it a more specific and likely candidate.\nStep 4: Discard “estate” (choice C) because it generally refers to a particular type of property rather than a region recognized for farming.\nStep 5: Conclude that the best answer to where James might look for farmland is the Midwest.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that James is interested in buying farmland, which is typically found in regions known for extensive agriculture rather than in urban or primarily residential areas.",
+                "Note that the term “Midwest” (choice A) is historically and commonly associated with large areas of farmland and agriculture.",
+                "Compare “Midwest” with the other options. Although “countryside” (choice B) and “farming areas” (choice D) could also imply rural land, “Midwest” directly references a well-known region for such activity, making it a more specific and likely candidate.",
+                "Discard “estate” (choice C) because it generally refers to a particular type of property rather than a region recognized for farming.",
+                "Conclude that the best answer to where James might look for farmland is the Midwest."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.915025949478149,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What island country is ferret ",
+            "question": "Question: What island country is ferret popular?\n\nChoices:\na. own home\nb. north carolina\nc. great britain\nd. hutch\ne. outdoors",
+            "answerKey": "c",
+            "cot_output": "Step 1: I analyze the question, \"What island country is ferret popular?\" and understand that it asks to identify an island country where ferrets are notably popular.  \nStep 2: I examine the answer choices: \"own home,\" \"north carolina,\" \"great britain,\" \"hutch,\" and \"outdoors.\"  \nStep 3: I note that among these, \"Great Britain\" is the only one that refers clearly to an island country.  \nStep 4: I therefore conclude that the intended answer is \"great britain,\" which is option C.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I analyze the question, \"What island country is ferret popular?\" and understand that it asks to identify an island country where ferrets are notably popular.  ",
+                "I examine the answer choices: \"own home,\" \"north carolina,\" \"great britain,\" \"hutch,\" and \"outdoors.\"  ",
+                "I note that among these, \"Great Britain\" is the only one that refers clearly to an island country.  ",
+                "I therefore conclude that the intended answer is \"great britain,\" which is option C.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.552431344985962,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In what Spanish speaking North",
+            "question": "Question: In what Spanish speaking North American country can you get a great cup of coffee?\n\nChoices:\na. mildred's coffee shop\nb. mexico\nc. diner\nd. kitchen\ne. canteen",
+            "answerKey": "b",
+            "cot_output": "Step 1: I list the answer choices: a. mildred's coffee shop, b. mexico, c. diner, d. kitchen, e. canteen.\nStep 2: I identify that the question asks for a Spanish speaking North American country, which implies a geographical country where Spanish is an official language.\nStep 3: I analyze the options and see that most choices refer to types of establishments rather than countries.\nStep 4: Option b (\"mexico\") is clearly a country in North America, and Spanish is its official language.\nStep 5: Since Mexico is the only option that fits the description of a Spanish speaking North American country and is also noted for its coffee culture, it is the correct answer.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I list the answer choices: a. mildred's coffee shop, b. mexico, c. diner, d. kitchen, e. canteen.",
+                "I identify that the question asks for a Spanish speaking North American country, which implies a geographical country where Spanish is an official language.",
+                "I analyze the options and see that most choices refer to types of establishments rather than countries.",
+                "Option b (\"mexico\") is clearly a country in North America, and Spanish is its official language.",
+                "Since Mexico is the only option that fits the description of a Spanish speaking North American country and is also noted for its coffee culture, it is the correct answer."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.110673904418945,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do animals do when an ene",
+            "question": "Question: What do animals do when an enemy is approaching?\n\nChoices:\na. feel pleasure\nb. procreate\nc. pass water\nd. listen to each other\ne. sing",
+            "answerKey": "d",
+            "cot_output": "Step 1: I notice that the question asks what animals do when an enemy is approaching, implying an immediate behavioral response related to alertness or communication.\nStep 2: I rule out “feel pleasure” because pleasure is not a typical reaction to a threat; animals tend to be cautious rather than happy in dangerous situations.\nStep 3: I dismiss “procreate” because reproduction does not serve as an immediate survival tactic in response to an approaching enemy.\nStep 4: “Pass water” is also not related to a threat response; it is a routine bodily function without a defensive advantage.\nStep 5: Although “sing” might be seen in some animals, especially birds, singing is generally a behavior associated with courtship or territorial claims rather than alerting behavior during an imminent threat.\nStep 6: “Listen to each other” is the logical choice because many animals are known to use alarm calls or listen to warning signals from conspecifics when danger arises.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I notice that the question asks what animals do when an enemy is approaching, implying an immediate behavioral response related to alertness or communication.",
+                "I rule out “feel pleasure” because pleasure is not a typical reaction to a threat; animals tend to be cautious rather than happy in dangerous situations.",
+                "I dismiss “procreate” because reproduction does not serve as an immediate survival tactic in response to an approaching enemy.",
+                "“Pass water” is also not related to a threat response; it is a routine bodily function without a defensive advantage.",
+                "Although “sing” might be seen in some animals, especially birds, singing is generally a behavior associated with courtship or territorial claims rather than alerting behavior during an imminent threat.",
+                "“Listen to each other” is the logical choice because many animals are known to use alarm calls or listen to warning signals from conspecifics when danger arises."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 7.072370767593384,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Reading newspaper one of many ",
+            "question": "Question: Reading newspaper one of many ways to practice your what?\n\nChoices:\na. literacy\nb. knowing how to read\nc. money\nd. buying\ne. money bank",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the phrase \"reading newspaper\" implies an activity centered around reading and comprehension.  \nStep 2: Understand that the question asks which skill is practiced by engaging in this activity.  \nStep 3: Identify that among the options, \"literacy\" is the broad term used for reading and writing skills.  \nStep 4: Evaluate that the option \"knowing how to read\" is too literal and not the standard term for the skill improved by reading, while the other options (money, buying, money bank) are irrelevant.  \nStep 5: Conclude that practicing \"literacy\" is the most appropriate and precise answer.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the phrase \"reading newspaper\" implies an activity centered around reading and comprehension.  ",
+                "Understand that the question asks which skill is practiced by engaging in this activity.  ",
+                "Identify that among the options, \"literacy\" is the broad term used for reading and writing skills.  ",
+                "Evaluate that the option \"knowing how to read\" is too literal and not the standard term for the skill improved by reading, while the other options (money, buying, money bank) are irrelevant.  ",
+                "Conclude that practicing \"literacy\" is the most appropriate and precise answer.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.9504685401916504,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do people typically do wh",
+            "question": "Question: What do people typically do while playing guitar?\n\nChoices:\na. cry\nb. hear sounds\nc. singing\nd. arthritis\ne. making music",
+            "answerKey": "c",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.049148082733154,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would vinyl be an odd thi",
+            "question": "Question: What would vinyl be an odd thing to replace?\n\nChoices:\na. pants\nb. record albums\nc. record store\nd. cheese\ne. wallpaper",
+            "answerKey": "e",
+            "cot_output": "Step 1: Vinyl is a synthetic material often used in manufacturing records, furniture coverings, and some clothing, which aligns with several of the options provided.  \nStep 2: Vinyl records (record albums) and even vinyl coatings for record stores or wallpaper are common uses for vinyl, so replacing these with vinyl would be expected, not odd.  \nStep 3: Vinyl pants also exist as a fashion statement or in specialized clothing, making it a plausible replacement material in some niche contexts.  \nStep 4: Cheese, however, is a food product, and vinyl, being a non-food synthetic material, would be an inappropriate and odd substitute for something edible.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Vinyl is a synthetic material often used in manufacturing records, furniture coverings, and some clothing, which aligns with several of the options provided.  ",
+                "Vinyl records (record albums) and even vinyl coatings for record stores or wallpaper are common uses for vinyl, so replacing these with vinyl would be expected, not odd.  ",
+                "Vinyl pants also exist as a fashion statement or in specialized clothing, making it a plausible replacement material in some niche contexts.  ",
+                "Cheese, however, is a food product, and vinyl, being a non-food synthetic material, would be an inappropriate and odd substitute for something edible.  "
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 4.050426244735718,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you want harmony, what is s",
+            "question": "Question: If you want harmony, what is something you should try to do with the world?\n\nChoices:\na. take time\nb. make noise\nc. make war\nd. make peace\ne. make haste",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question asks for an action that one should try to do with the world if harmony is desired.\nStep 2: Harmony implies peaceful relationships and a state free from conflict.\nStep 3: Among the options, \"make peace\" directly matches the concept of establishing harmony.\nStep 4: The other options involve actions (such as making war or noise) that are contrary to the idea of harmony.\nStep 5: Therefore, the option that aligns with the concept of achieving harmony is \"make peace.\"\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks for an action that one should try to do with the world if harmony is desired.",
+                "Harmony implies peaceful relationships and a state free from conflict.",
+                "Among the options, \"make peace\" directly matches the concept of establishing harmony.",
+                "The other options involve actions (such as making war or noise) that are contrary to the idea of harmony.",
+                "Therefore, the option that aligns with the concept of achieving harmony is \"make peace.\""
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 2.9633846282958984,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where does a heifer's master l",
+            "question": "Question: Where does a heifer's master live?\n\nChoices:\na. farm house\nb. barnyard\nc. stockyard\nd. slaughter house\ne. eat cake",
+            "answerKey": "a",
+            "cot_output": "Step 1: A heifer is a young cow, and its master is typically the farmer who raises it.  \nStep 2: The question asks where this farmer (the heifer’s master) lives.  \nStep 3: On a traditional farm, the farmer usually lives in a farm house, not in the barnyard, stockyard, or slaughter house.  \nStep 4: Therefore, the correct answer is that the heifer's master lives in the farm house.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A heifer is a young cow, and its master is typically the farmer who raises it.  ",
+                "The question asks where this farmer (the heifer’s master) lives.  ",
+                "On a traditional farm, the farmer usually lives in a farm house, not in the barnyard, stockyard, or slaughter house.  ",
+                "Therefore, the correct answer is that the heifer's master lives in the farm house.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.760652542114258,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Aside from water and nourishme",
+            "question": "Question: Aside from water and nourishment what does your dog need?\n\nChoices:\na. bone\nb. charm\nc. petted\nd. lots of attention\ne. walked",
+            "answerKey": "d",
+            "cot_output": "Step 1: A dog’s basic needs include more than just food and water; it also requires physical exercise and mental and social stimulation.  \nStep 2: Among the options, “bone” (A) might be a treat but is not a fundamental requirement, and “charm” (B) is not relevant to a dog’s primary needs.  \nStep 3: The choice “petted” (C) suggests affection, which is beneficial, but it addresses just one aspect and is less comprehensive.  \nStep 4: Although “walked” (E) might seem critical",
+            "cot_steps": [
+                "A dog’s basic needs include more than just food and water; it also requires physical exercise and mental and social stimulation.  ",
+                "Among the options, “bone” (A) might be a treat but is not a fundamental requirement, and “charm” (B) is not relevant to a dog’s primary needs.  ",
+                "The choice “petted” (C) suggests affection, which is beneficial, but it addresses just one aspect and is less comprehensive.  ",
+                "Although “walked” (E) might seem critical"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.790923595428467,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Janet was watching the film be",
+            "question": "Question: Janet was watching the film because she liked what?\n\nChoices:\na. erection\nb. laughter\nc. being entertained\nd. fear\ne. bordem",
+            "answerKey": "c",
+            "cot_output": "Step 1: Watching a film is typically done for enjoyment or diversion.  \nStep 2: The choice \"being entertained\" directly aligns with the purpose of watching a film for general enjoyment.  \nStep 3: The other options (erection, laughter, fear, bordem) either do not generally apply or are less broadly applicable as reasons for watching a film.  \nStep 4: Therefore, the most logical answer is that Janet was watching the film because she liked being entertained.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Watching a film is typically done for enjoyment or diversion.  ",
+                "The choice \"being entertained\" directly aligns with the purpose of watching a film for general enjoyment.  ",
+                "The other options (erection, laughter, fear, bordem) either do not generally apply or are less broadly applicable as reasons for watching a film.  ",
+                "Therefore, the most logical answer is that Janet was watching the film because she liked being entertained.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.879079580307007,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What are you waiting alongside",
+            "question": "Question: What are you waiting alongside with when you're in a reception area?\n\nChoices:\na. motel\nb. chair\nc. hospital\nd. people\ne. hotels",
+            "answerKey": "d",
+            "cot_output": "Step 1: A reception area is typically a place where visitors wait for service.  \nStep 2: In such waiting spaces, you are commonly provided with a place to sit while you wait.  \nStep 3: Among the given choices, \"chair\" is the item that best fits the function of providing seating in a reception area.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A reception area is typically a place where visitors wait for service.  ",
+                "In such waiting spaces, you are commonly provided with a place to sit while you wait.  ",
+                "Among the given choices, \"chair\" is the item that best fits the function of providing seating in a reception area.  "
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 3.696643590927124,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When drinking booze what can y",
+            "question": "Question: When drinking booze what can you do to stay busy?\n\nChoices:\na. reach tentative agreement\nb. stay in bed\nc. stop bicycle\nd. examine thing\ne. suicide",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question asks for an action to stay busy while consuming alcohol, implying engaging in a distracting or stimulating activity.  \nStep 2: \"Reach tentative agreement\" (choice A) suggests negotiating, which does not directly imply a personal activity while drinking.  \nStep 3: \"Stay in bed\" (choice B) implies inactivity rather than staying busy.  \nStep 4: \"Stop bicycle\" (choice C) does not represent an activity that involves staying busy; it is unrelated to the context.  \nStep 5: \"Examine thing\" (choice D) suggests engaging with an activity that involves observation or scrutiny, which can keep the mind occupied while drinking.  \nStep 6: Therefore, the most reasonable answer, considering the context and options, is choice D.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks for an action to stay busy while consuming alcohol, implying engaging in a distracting or stimulating activity.  ",
+                "\"Reach tentative agreement\" (choice A) suggests negotiating, which does not directly imply a personal activity while drinking.  ",
+                "\"Stay in bed\" (choice B) implies inactivity rather than staying busy.  ",
+                "\"Stop bicycle\" (choice C) does not represent an activity that involves staying busy; it is unrelated to the context.  ",
+                "\"Examine thing\" (choice D) suggests engaging with an activity that involves observation or scrutiny, which can keep the mind occupied while drinking.  ",
+                "Therefore, the most reasonable answer, considering the context and options, is choice D.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 10.042360544204712,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A fencing thrust with a sharp ",
+            "question": "Question: A fencing thrust with a sharp sword towards a person would result in what?\n\nChoices:\na. injury\nb. small cuts\nc. fever\nd. competition\ne. puncture wound",
+            "answerKey": "e",
+            "cot_output": "Step 1: A fencing thrust with a sharp sword is designed to penetrate rather than merely graze the surface.\nStep 2: Penetration from a thrust is more likely to result in a deep, focused",
+            "cot_steps": [
+                "A fencing thrust with a sharp sword is designed to penetrate rather than merely graze the surface.",
+                "Penetration from a thrust is more likely to result in a deep, focused"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 21.982890367507935,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Unlike a spider and his many s",
+            "question": "Question: Unlike a spider and his many sight seers, people only have what?\n\nChoices:\na. tongues\nb. names\nc. brains\nd. feelings\ne. two eyes",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.35496473312378,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where do adults use glue stick",
+            "question": "Question: Where do adults use glue sticks?\n\nChoices:\na. classroom\nb. desk drawer\nc. at school\nd. office\ne. kitchen drawer",
+            "answerKey": "d",
+            "cot_output": "Step 1: Consider that the question asks where adults use glue sticks, so we need a location typically associated with adult activities.  \nStep 2: Evaluate the options: \"classroom\" and \"at school\" mainly refer to a setting for children or students, not most adults; \"desk drawer\" and \"kitchen drawer\" are storage locations rather than places where glue sticks are typically used.  \nStep 3: \"Office\" is a common workplace where adults might engage in activities (such as document editing, presentations, or crafting tasks) that could involve using glue sticks.  \nStep 4: Based on these considerations, the office is the most logical setting among the options.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Consider that the question asks where adults use glue sticks, so we need a location typically associated with adult activities.  ",
+                "Evaluate the options: \"classroom\" and \"at school\" mainly refer to a setting for children or students, not most adults; \"desk drawer\" and \"kitchen drawer\" are storage locations rather than places where glue sticks are typically used.  ",
+                "\"Office\" is a common workplace where adults might engage in activities (such as document editing, presentations, or crafting tasks) that could involve using glue sticks.  ",
+                "Based on these considerations, the office is the most logical setting among the options.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.746440887451172,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What could go on top of wood?",
+            "question": "Question: What could go on top of wood?\n\nChoices:\na. lumberyard\nb. synagogue\nc. floor\nd. carpet\ne. hardware store",
+            "answerKey": "d",
+            "cot_output": "Step 1: Identify the context by considering what “wood” might refer to—it could be in a room or building context where items are placed on top of wooden flooring.  \nStep 2: Analyze the choices: Lumberyard, synagogue, and hardware store are locations or buildings primarily associated with wood, not items that are physically placed on wood surfaces.  \nStep 3: Focus on the remaining choices—floor and carpet. While a floor is made of wood, the question implies an additional layer on top of wood rather than the wood itself.  \nStep 4: Carpet is commonly placed on top of wooden floors to enhance comfort and aesthetics, making it a direct fit for the question “What could go on top of wood?”  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the context by considering what “wood” might refer to—it could be in a room or building context where items are placed on top of wooden flooring.  ",
+                "Analyze the choices: Lumberyard, synagogue, and hardware store are locations or buildings primarily associated with wood, not items that are physically placed on wood surfaces.  ",
+                "Focus on the remaining choices—floor and carpet. While a floor is made of wood, the question implies an additional layer on top of wood rather than the wood itself.  ",
+                "Carpet is commonly placed on top of wooden floors to enhance comfort and aesthetics, making it a direct fit for the question “What could go on top of wood?”  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.81778621673584,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The artist was sitting quietly",
+            "question": "Question: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?\n\nChoices:\na. sadness\nb. anxiety\nc. inspiration\nd. discomfort\ne. insights",
+            "answerKey": "c",
+            "cot_output": "Step 1: The phrase \"sitting quietly pondering\" suggests the artist was deep in thought, likely searching internally for a concept or reason to express himself.\nStep 2: The sudden act of beginning to paint indicates a triggering event that swiftly transitioned his internal state into external creative expression.\nStep 3: Among the options provided, \"inspiration\" is the most common catalyst that would cause such an immediate creative burst in an artist.\nStep 4: Other choices like sadness, anxiety, discomfort, or insights either do not fit the typical narrative of a sudden artistic impulse or are too vague relative to the specific context given.\nStep 5: Therefore, it is logically justified that the artist was struck by inspiration.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"sitting quietly pondering\" suggests the artist was deep in thought, likely searching internally for a concept or reason to express himself.",
+                "The sudden act of beginning to paint indicates a triggering event that swiftly transitioned his internal state into external creative expression.",
+                "Among the options provided, \"inspiration\" is the most common catalyst that would cause such an immediate creative burst in an artist.",
+                "Other choices like sadness, anxiety, discomfort, or insights either do not fit the typical narrative of a sudden artistic impulse or are too vague relative to the specific context given.",
+                "Therefore, it is logically justified that the artist was struck by inspiration."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.8565926551818848,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Though the thin film seemed fr",
+            "question": "Question: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?\n\nChoices:\na. indestructible\nb. durable\nc. undestroyable\nd. indestructible\ne. unbreakable",
+            "answerKey": "d",
+            "cot_output": "Step 1: The sentence states that although the thin film appeared fragile, it was actually nearly something robust or strong for its intended purpose.\nStep 2: This contrast between its appearance (fragile) and its actual capacity implies it is strong or resistant to damage.\nStep 3: The word “indestructible” is often used to emphasize something that is almost impossible to destroy, which fits the intended contrast.\nStep 4: Among the answer choices, “indestructible” appears twice (options A and D), but we are instructed to provide a single answer.\nStep 5: Since “indestructible” is the common intended meaning and the first occurrence is in option A, it is the most appropriate choice.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence states that although the thin film appeared fragile, it was actually nearly something robust or strong for its intended purpose.",
+                "This contrast between its appearance (fragile) and its actual capacity implies it is strong or resistant to damage.",
+                "The word “indestructible” is often used to emphasize something that is almost impossible to destroy, which fits the intended contrast.",
+                "Among the answer choices, “indestructible” appears twice (options A and D), but we are instructed to provide a single answer.",
+                "Since “indestructible” is the common intended meaning and the first occurrence is in option A, it is the most appropriate choice."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 15.436872005462646,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where could you find a toilet ",
+            "question": "Question: Where could you find a toilet that only friends can use?\n\nChoices:\na. rest area\nb. school\nc. stadium\nd. apartment\ne. hospital",
+            "answerKey": "d",
+            "cot_output": "Step 1: Analyze the question's wording \"toilet that only friends can use,\" which suggests a place that is not publicly accessible but is instead private and accessible only by invitation.\nStep 2: Consider the options: a rest area, a school, a stadium, an apartment, and a hospital. All except one are public or semi-public facilities where access is not limited only to friends.\nStep 3: In contrast, an apartment is usually a private residence where typically only friends or invited guests may come in.\nStep 4: Therefore, a toilet located in an apartment setting would most likely be accessible only to friends.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the question's wording \"toilet that only friends can use,\" which suggests a place that is not publicly accessible but is instead private and accessible only by invitation.",
+                "Consider the options: a rest area, a school, a stadium, an apartment, and a hospital. All except one are public or semi-public facilities where access is not limited only to friends.",
+                "In contrast, an apartment is usually a private residence where typically only friends or invited guests may come in.",
+                "Therefore, a toilet located in an apartment setting would most likely be accessible only to friends."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.616440057754517,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is someone who isn't clev",
+            "question": "Question: What is someone who isn't clever, bright, or competent called?\n\nChoices:\na. clumsy\nb. ineffectual\nc. dull\nd. clumsy\ne. stupid",
+            "answerKey": "e",
+            "cot_output": "Step 1: The question asks for a term describing someone who is not clever, bright, or competent.  \nStep 2: We analyze the meanings of the choices:  \n  - \"clumsy\" primarily denotes a lack of physical coordination rather than intellectual ability.  \n  - \"ineffectual\" means lacking in the ability to produce a desired effect or result, which is more about not being effective rather than lacking intelligence.  \n  - \"dull\" can mean uninteresting or slow to understand, but it is less direct.  \n  - \"stupid\" directly addresses a lack of cleverness or intelligence.  \nStep 3: Since we are asked specifically about not being clever, bright, or competent, \"stupid\" most precisely fits the description.  \nStep 4: \"Stupid\" is given as one of the choices. Therefore, it is the correct answer.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks for a term describing someone who is not clever, bright, or competent.  ",
+                "We analyze the meanings of the choices:  ",
+                "Since we are asked specifically about not being clever, bright, or competent, \"stupid\" most precisely fits the description.  ",
+                "\"Stupid\" is given as one of the choices. Therefore, it is the correct answer."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 12.307224750518799,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When wildlife reproduce we oft",
+            "question": "Question: When wildlife reproduce we often refer to what comes out as what?\n\nChoices:\na. raise children\nb. have children\nc. photo copy\nd. offspring\ne. accidently got pregnant somehow",
+            "answerKey": "d",
+            "cot_output": "Step 1: Analyze the question, which refers to the product of reproduction in wildlife.\nStep 2: Recognize that the term \"offspring\" is commonly used in biology to refer to the young produced by animals.\nStep 3: Compare the choices given: \"raise children\" and \"have children\" are phrases used for human reproduction, \"photo copy\" is unrelated, and \"accidently got pregnant somehow\" is not a term associated with wildlife reproduction.\nStep 4: The term \"offspring\" exactly matches the common reference used when wildlife reproduce.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Analyze the question, which refers to the product of reproduction in wildlife.",
+                "Recognize that the term \"offspring\" is commonly used in biology to refer to the young produced by animals.",
+                "Compare the choices given: \"raise children\" and \"have children\" are phrases used for human reproduction, \"photo copy\" is unrelated, and \"accidently got pregnant somehow\" is not a term associated with wildlife reproduction.",
+                "The term \"offspring\" exactly matches the common reference used when wildlife reproduce."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 2.3291895389556885,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The weasel was becoming a prob",
+            "question": "Question: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?\n\nChoices:\na. forrest\nb. barn\nc. public office\nd. out of doors\ne. freezer",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that the statement discusses a weasel interfering with chicken eggs, implying the eggs are stored in a location susceptible to wildlife intrusion.  \nStep 2: Evaluate each option: \"forrest\" (A) is a misprint of \"forest\" and is an outdoor setting, not a storage area for eggs; \"barn\" (B) is a typical location for storing eggs and housing chickens; \"public office\" (C) is unrelated to chickens or eggs; \"out of doors\" (D) is too vague and generally wouldn't denote a typical storage place; \"freezer\" (E) is an unlikely traditional storage location for fresh chicken eggs.  \nStep 3: Conclude that the most logical and common place for storing chicken eggs that may attract a weasel is the barn.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the statement discusses a weasel interfering with chicken eggs, implying the eggs are stored in a location susceptible to wildlife intrusion.  ",
+                "Evaluate each option: \"forrest\" (A) is a misprint of \"forest\" and is an outdoor setting, not a storage area for eggs; \"barn\" (B) is a typical location for storing eggs and housing chickens; \"public office\" (C) is unrelated to chickens or eggs; \"out of doors\" (D) is too vague and generally wouldn't denote a typical storage place; \"freezer\" (E) is an unlikely traditional storage location for fresh chicken eggs.  ",
+                "Conclude that the most logical and common place for storing chicken eggs that may attract a weasel is the barn.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.619256258010864,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Blue read material outside of ",
+            "question": "Question: Blue read material outside of his comfort zone because he wanted to gain what?\n\nChoices:\na. new perspective\nb. entertained\nc. understanding\nd. hunger\ne. tired eyes",
+            "answerKey": "a",
+            "cot_output": "Step 1: The phrase \"outside of his comfort zone\" indicates that Blue deliberately chose material that was unfamiliar or challenging to him.  \nStep 2: Choosing unfamiliar material typically aims at broadening one's mental framework or altering preconceived notions rather than simply seeking entertainment or fulfilling a basic need.  \nStep 3: Given the options, \"new perspective\" is most aligned with the objective of challenging oneself by engaging with novel ideas.  \nStep 4: Options such as \"entertained,\" \"hunger,\" and \"tired eyes\" do not logically match the cognitive goal implied by reading outside one's comfort zone.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"outside of his comfort zone\" indicates that Blue deliberately chose material that was unfamiliar or challenging to him.  ",
+                "Choosing unfamiliar material typically aims at broadening one's mental framework or altering preconceived notions rather than simply seeking entertainment or fulfilling a basic need.  ",
+                "Given the options, \"new perspective\" is most aligned with the objective of challenging oneself by engaging with novel ideas.  ",
+                "Options such as \"entertained,\" \"hunger,\" and \"tired eyes\" do not logically match the cognitive goal implied by reading outside one's comfort zone.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.897894859313965,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_After he got hired he hoped fo",
+            "question": "Question: After he got hired he hoped for success at his what?\n\nChoices:\na. vocation\nb. new job\nc. michigan\nd. working hard\ne. manual",
+            "answerKey": "b",
+            "cot_output": "Step 1: The phrase \"After he got hired\" indicates that he has just started working at a new position.\nStep 2: Hoped for success at his \"what\" implies he is seeking to be successful in his new employment.\nStep 3: Among the choices, \"new job\" directly relates to the context of being hired and starting employment.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"After he got hired\" indicates that he has just started working at a new position.",
+                "Hoped for success at his \"what\" implies he is seeking to be successful in his new employment.",
+                "Among the choices, \"new job\" directly relates to the context of being hired and starting employment."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.165900468826294,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Committing perjury is a seriou",
+            "question": "Question: Committing perjury is a serious what?\n\nChoices:\na. indictment\nb. crime\nc. violence\nd. lie\ne. go to jail",
+            "answerKey": "b",
+            "cot_output": "Step 1: We recognize that perjury refers to lying under oath in a court of law, which is a violation of legal duty.  \nStep 2: Laws consider perjury a serious offense because it undermines the integrity of the judicial process.  \nStep 3: Among the choices provided, only \"crime\" accurately classifies perjury as a serious legal offense.  \nStep 4: The other options do not fit appropriately: \"indictment\" is a formal charge, \"violence\" is unrelated, \"lie\" is too narrow, and \"go to jail\" describes a possible consequence.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "We recognize that perjury refers to lying under oath in a court of law, which is a violation of legal duty.  ",
+                "Laws consider perjury a serious offense because it undermines the integrity of the judicial process.  ",
+                "Among the choices provided, only \"crime\" accurately classifies perjury as a serious legal offense.  ",
+                "The other options do not fit appropriately: \"indictment\" is a formal charge, \"violence\" is unrelated, \"lie\" is too narrow, and \"go to jail\" describes a possible consequence.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.216933250427246,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are prone to postpone w",
+            "question": "Question: If you are prone to postpone work what will you have to do in order to finish on time?\n\nChoices:\na. eat\nb. hasten\nc. antedate\nd. bring forward\ne. advance",
+            "answerKey": "b",
+            "cot_output": "Step 1: The question implies that if you tend to postpone work, you are likely to start later than planned, risking not finishing on time.\nStep 2: To finish on time under these circumstances, you'll need to work faster or speed up your pace.\nStep 3: Looking at the options, \"hasten\" (Choice B) directly means to act more quickly, which is the required action.\nStep 4: The other options (eat, antedate, bring forward, and advance) do not correctly capture the idea of accelerating the pace of work.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question implies that if you tend to postpone work, you are likely to start later than planned, risking not finishing on time.",
+                "To finish on time under these circumstances, you'll need to work faster or speed up your pace.",
+                "Looking at the options, \"hasten\" (Choice B) directly means to act more quickly, which is the required action.",
+                "The other options (eat, antedate, bring forward, and advance) do not correctly capture the idea of accelerating the pace of work."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.942056179046631,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James wanted to find an old un",
+            "question": "Question: James wanted to find an old underground map from the 50s.  Where might he look for one?\n\nChoices:\na. library\nb. subway station\nc. county engineer's office\nd. super market\ne. home",
+            "answerKey": "a",
+            "cot_output": "Step 1: The problem asks for an \"old underground map from the 50s,\" implying the map is likely of infrastructure or engineering origins rather than something like consumer goods or a casual map item.\nStep 2: A library might have historical archives, including maps, but such archives are broad and not specifically focused on underground engineering details.\nStep 3: A subway station would not typically hold archival maps; it is more of a transit point than a repository of historical documents.\nStep 4: A county engineer's office, however, is a place where governmental and infrastructure-related documents, including maps of underground systems, are maintained, especially from periods of urban development.\nStep 5: A supermarket or a home does not logically fit as a source for specialized, historical, underground maps.\nStep 6: Therefore, the county engineer's office is the most causally justified choice for locating an old underground map from the 50s.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem asks for an \"old underground map from the 50s,\" implying the map is likely of infrastructure or engineering origins rather than something like consumer goods or a casual map item.",
+                "A library might have historical archives, including maps, but such archives are broad and not specifically focused on underground engineering details.",
+                "A subway station would not typically hold archival maps; it is more of a transit point than a repository of historical documents.",
+                "A county engineer's office, however, is a place where governmental and infrastructure-related documents, including maps of underground systems, are maintained, especially from periods of urban development.",
+                "A supermarket or a home does not logically fit as a source for specialized, historical, underground maps.",
+                "Therefore, the county engineer's office is the most causally justified choice for locating an old underground map from the 50s."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 5.717175006866455,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Sean was in a rush to get home",
+            "question": "Question: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?\n\nChoices:\na. take time\nb. dawdle\nc. go slowly\nd. ocean\ne. slow down",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.226924180984497,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would a person be doing ",
+            "question": "Question: Where would a person be doing when having to wait their turn?\n\nChoices:\na. have patience\nb. get in line\nc. sing\nd. stand in line\ne. turn left",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the question asks \"Where would a person be doing when having to wait their turn?\" which implies a scenario where someone is physically positioned in a line waiting.\nStep 2: Evaluate each option. Option A, \"have patience,\" describes an attitude rather than a physical location; Option C, \"sing,\" is unrelated to the context of waiting; Option E, \"turn left,\" also does not relate to the context of waiting in line.\nStep 3: Compare options B (\"get in line\") and D (\"stand in line\"). Both options refer to actions involving queuing, but \"get in line\" implies the act of joining a line, while \"stand in line\" describes the ongoing state of waiting.\nStep 4: Determine that Option D, \"stand in line,\" is the better representation of being in a physical line while waiting one's turn.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the question asks \"Where would a person be doing when having to wait their turn?\" which implies a scenario where someone is physically positioned in a line waiting.",
+                "Evaluate each option. Option A, \"have patience,\" describes an attitude rather than a physical location; Option C, \"sing,\" is unrelated to the context of waiting; Option E, \"turn left,\" also does not relate to the context of waiting in line.",
+                "Compare options B (\"get in line\") and D (\"stand in line\"). Both options refer to actions involving queuing, but \"get in line\" implies the act of joining a line, while \"stand in line\" describes the ongoing state of waiting.",
+                "Determine that Option D, \"stand in line,\" is the better representation of being in a physical line while waiting one's turn."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 5.097909688949585,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_She was always helping at the ",
+            "question": "Question: She was always helping at the senior center, it brought her what?\n\nChoices:\na. satisfaction\nb. heart\nc. feel better\nd. pay\ne. happiness",
+            "answerKey": "e",
+            "cot_output": "Step 1: The sentence describes a person who is consistently engaged in helping activities at a senior center, implying that her actions are driven by personal fulfillment rather than monetary or physical rewards.  \nStep 2: Among the available choices, \"pay\" (D) can be dismissed because helping at a senior center typically does not involve earning money.  \nStep 3: The option \"heart\" (B) does not logically follow as an outcome brought by volunteering.  \nStep 4: \"Feel better\" (C) is a more casual phrasing and less directly associated with a lasting internal reward compared to a noun form like \"satisfaction\" or \"happiness.\"  \nStep 5: This narrows the viable options to \"satisfaction\" (A) and \"happiness\" (E), both of which are typical rewards of engaging in altruistic behavior.  \nStep 6: In the context of volunteering, the phrase \"it brought her satisfaction\" is more idiomatic and directly conveys the fulfillment and contentment derived from helping others.  \nStep 7: Thus, based on logical deduction, the answer that best fits and commonly applies to the outcome of her actions is \"satisfaction.\"  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence describes a person who is consistently engaged in helping activities at a senior center, implying that her actions are driven by personal fulfillment rather than monetary or physical rewards.  ",
+                "Among the available choices, \"pay\" (D) can be dismissed because helping at a senior center typically does not involve earning money.  ",
+                "The option \"heart\" (B) does not logically follow as an outcome brought by volunteering.  ",
+                "\"Feel better\" (C) is a more casual phrasing and less directly associated with a lasting internal reward compared to a noun form like \"satisfaction\" or \"happiness.\"  ",
+                "This narrows the viable options to \"satisfaction\" (A) and \"happiness\" (E), both of which are typical rewards of engaging in altruistic behavior.  ",
+                "In the context of volunteering, the phrase \"it brought her satisfaction\" is more idiomatic and directly conveys the fulfillment and contentment derived from helping others.  ",
+                "Thus, based on logical deduction, the answer that best fits and commonly applies to the outcome of her actions is \"satisfaction.\"  "
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 4.657228231430054,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The lock kept the steering whe",
+            "question": "Question: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?\n\nChoices:\na. keep cloesd\nb. train\nc. ignition switch\nd. drawer\ne. firearm",
+            "answerKey": "c",
+            "cot_output": "Step 1: The sentence explains that a lock is preventing the steering wheel from moving, which is a safety mechanism in a car designed to deter theft.\nStep 2: Since the lock is on the steering wheel, the thief cannot drive normally, so he must focus on another part of the vehicle that may allow him to start or move the car.\nStep 3: Among the options provided, the only car-related component that would be a logical target for bypassing the steering lock is the ignition switch.\nStep 4: The remaining choices (keep closed, train, drawer, firearm) either do not relate directly to automobile mechanics or do not logically follow as the thief’s next focus.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence explains that a lock is preventing the steering wheel from moving, which is a safety mechanism in a car designed to deter theft.",
+                "Since the lock is on the steering wheel, the thief cannot drive normally, so he must focus on another part of the vehicle that may allow him to start or move the car.",
+                "Among the options provided, the only car-related component that would be a logical target for bypassing the steering lock is the ignition switch.",
+                "The remaining choices (keep closed, train, drawer, firearm) either do not relate directly to automobile mechanics or do not logically follow as the thief’s next focus."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.233499526977539,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Who is a police officer likely",
+            "question": "Question: Who is a police officer likely to work for?\n\nChoices:\na. beat\nb. direct traffic\nc. city\nd. street\ne. president",
+            "answerKey": "c",
+            "cot_output": "Step 1: A police officer is typically employed by a government entity rather than being assigned to perform an action (like directing traffic) or merely being associated with a location (like a street or beat).  \nStep 2: Among the choices, \"beat\" represents the police officer's assigned area, \"direct traffic\" is an activity they perform, \"street\" is the location they patrol, and \"president\" is not a typical employer.  \nStep 3: The term \"city\" most directly refers to the governmental agency or municipal organization that employs police officers.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A police officer is typically employed by a government entity rather than being assigned to perform an action (like directing traffic) or merely being associated with a location (like a street or beat).  ",
+                "Among the choices, \"beat\" represents the police officer's assigned area, \"direct traffic\" is an activity they perform, \"street\" is the location they patrol, and \"president\" is not a typical employer.  ",
+                "The term \"city\" most directly refers to the governmental agency or municipal organization that employs police officers.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.865107774734497,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you have leftover cake, whe",
+            "question": "Question: If you have leftover cake, where would you put it?\n\nChoices:\na. quandry\nb. refrigerator\nc. oven\nd. night stand\ne. bakery",
+            "answerKey": "b",
+            "cot_output": "Step 1: Consider that leftover cake needs to be kept fresh over time rather than immediately consumed.\nStep 2: Evaluate the options: a. quandry is a state of confusion, not a storage method; c. oven is used for baking or reheating, not storing, as it can spoil the texture if used for storage; d. night stand is unsuitable for food storage; e. bakery is a place where cakes are made or sold, not for storing leftovers.\nStep 3: The refrigerator is designed to keep food fresh and safe to eat, making it the appropriate choice.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Consider that leftover cake needs to be kept fresh over time rather than immediately consumed.",
+                "Evaluate the options: a. quandry is a state of confusion, not a storage method; c. oven is used for baking or reheating, not storing, as it can spoil the texture if used for storage; d. night stand is unsuitable for food storage; e. bakery is a place where cakes are made or sold, not for storing leftovers.",
+                "The refrigerator is designed to keep food fresh and safe to eat, making it the appropriate choice."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.6217126846313477,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A human wants to submerge hims",
+            "question": "Question: A human wants to submerge himself in water, what should he use?\n\nChoices:\na. whirlpool bath\nb. coffee cup\nc. cup\nd. soft drink\ne. puddle",
+            "answerKey": "a",
+            "cot_output": "Step 1: Since the question is about submerging a human in water, we need a container large enough to accommodate a full body.\nStep 2: Evaluating the options, a coffee cup, a cup, and a soft drink container are all too small to properly submerge a human.\nStep 3: A puddle might contain water, but it is generally too shallow or insufficient in size for a person to be fully submerged.\nStep 4: A whirlpool bath, on the other hand, is designed for bathing and can indeed allow a person to be fully submerged in water.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Since the question is about submerging a human in water, we need a container large enough to accommodate a full body.",
+                "Evaluating the options, a coffee cup, a cup, and a soft drink container are all too small to properly submerge a human.",
+                "A puddle might contain water, but it is generally too shallow or insufficient in size for a person to be fully submerged.",
+                "A whirlpool bath, on the other hand, is designed for bathing and can indeed allow a person to be fully submerged in water."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.997680902481079,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a doormat likely to b",
+            "question": "Question: Where is a doormat likely to be in front of?\n\nChoices:\na. facade\nb. front door\nc. doorway\nd. entrance porch\ne. hallway",
+            "answerKey": "b",
+            "cot_output": "Step 1: A doormat is typically used for wiping one’s shoes before entering a home, so it is usually positioned right in front of the door.  \nStep 2: Among the options, \"facade\" refers to the exterior front of a building in general, which is too broad, and \"hallway\" is an interior location, making them less precise for a doormat’s position.  \nStep 3: While \"doorway\" and \"entrance porch\" could be plausible, the term \"front door\" directly indicates the location where one expects to find a doormat for the purpose of cleaning shoes before entry.  \nStep 4: Therefore, the most appropriate and common placement for a doormat is in front of the front door.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A doormat is typically used for wiping one’s shoes before entering a home, so it is usually positioned right in front of the door.  ",
+                "Among the options, \"facade\" refers to the exterior front of a building in general, which is too broad, and \"hallway\" is an interior location, making them less precise for a doormat’s position.  ",
+                "While \"doorway\" and \"entrance porch\" could be plausible, the term \"front door\" directly indicates the location where one expects to find a doormat for the purpose of cleaning shoes before entry.  ",
+                "Therefore, the most appropriate and common placement for a doormat is in front of the front door.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.554760694503784,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Bob the lizard lives in a warm",
+            "question": "Question: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?\n\nChoices:\na. rock\nb. tropical rainforest\nc. jazz club\nd. new mexico\ne. rocky places",
+            "answerKey": "b",
+            "cot_output": "Step 1: The problem states that Bob the lizard lives in a \"warm place with lots of water.\" This sets the criteria needed.\nStep 2: Among the choices, \"tropical rainforest\" clearly fits the description of a warm environment with abundant water.\nStep 3: The other options (rock, jazz club, new mexico, rocky places) do not strongly match both criteria. (For example, \"rock\" and \"rocky places\" indicate physical terrain but don't imply water; \"jazz club\" is not a natural habitat; \"new mexico\" is warm but generally lacks abundant water compared to a rainforest.)\nStep 4: Thus, by eliminating the choices that do not meet both the warmth and water criteria, \"tropical rainforest\" is the most logical and fitting habitat for Bob.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The problem states that Bob the lizard lives in a \"warm place with lots of water.\" This sets the criteria needed.",
+                "Among the choices, \"tropical rainforest\" clearly fits the description of a warm environment with abundant water.",
+                "The other options (rock, jazz club, new mexico, rocky places) do not strongly match both criteria. (For example, \"rock\" and \"rocky places\" indicate physical terrain but don't imply water; \"jazz club\" is not a natural habitat; \"new mexico\" is warm but generally lacks abundant water compared to a rainforest.)",
+                "Thus, by eliminating the choices that do not meet both the warmth and water criteria, \"tropical rainforest\" is the most logical and fitting habitat for Bob."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.168513536453247,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_August needed  money because h",
+            "question": "Question: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?\n\nChoices:\na. control people\nb. pay bills\nc. hurt people\nd. buy food\ne. get things",
+            "answerKey": "b",
+            "cot_output": "Step 1: August was afraid he’d be kicked out of his house, suggesting he was at risk of eviction.\nStep 2: Eviction commonly results from not meeting financial obligations such as rent or utility payments.\nStep 3: Among the provided options, paying bills (like rent or utilities) directly correlates with avoiding eviction.\nStep 4: Therefore, the money was needed to pay bills.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "August was afraid he’d be kicked out of his house, suggesting he was at risk of eviction.",
+                "Eviction commonly results from not meeting financial obligations such as rent or utility payments.",
+                "Among the provided options, paying bills (like rent or utilities) directly correlates with avoiding eviction.",
+                "Therefore, the money was needed to pay bills."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.478335380554199,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_He needed more information to ",
+            "question": "Question: He needed more information to fix it, so he consulted the what?\n\nChoices:\na. chickens\nb. google\nc. newspaper\nd. online\ne. manual",
+            "answerKey": "e",
+            "cot_output": "Step 1: The phrase \"consulted the\" suggests that the subject looked for a source of detailed, technical information usually used for fixing something.  \nStep 2: \"Chickens\" is unlikely, as animals are not typical sources for such information.  \nStep 3: \"Google\" is a possibility, but the phrase “consulted the” is more naturally paired with a physical or manual guide rather than an online search engine in this context.  \nStep 4: \"Newspaper\" might provide news but is not typically used as a technical reference for fixing something.  \nStep 5: \"Online\" is an adverb, not a concrete source or item one consults, so it doesn't fit contextually.  \nStep 6: \"Manual\" is a noun that logically fits with the context—it is a book or guide that provides specific instructions on how to fix or operate something.  \n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"consulted the\" suggests that the subject looked for a source of detailed, technical information usually used for fixing something.  ",
+                "\"Chickens\" is unlikely, as animals are not typical sources for such information.  ",
+                "\"Google\" is a possibility, but the phrase “consulted the” is more naturally paired with a physical or manual guide rather than an online search engine in this context.  ",
+                "\"Newspaper\" might provide news but is not typically used as a technical reference for fixing something.  ",
+                "\"Online\" is an adverb, not a concrete source or item one consults, so it doesn't fit contextually.  ",
+                "\"Manual\" is a noun that logically fits with the context—it is a book or guide that provides specific instructions on how to fix or operate something.  "
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 6.654013156890869,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you put a picture fr",
+            "question": "Question: Where can you put a picture frame when it's not hung vertically?\n\nChoices:\na. art show\nb. wall\nc. newspaper\nd. car\ne. table",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.50119423866272,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James knew that he shouldn't h",
+            "question": "Question: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?\n\nChoices:\na. lose money\nb. fun\nc. have no money\nd. broken law\ne. relaxation",
+            "answerKey": "d",
+            "cot_output": "Step 1: Buying beer for minors is an activity that is illegal.  \nStep 2: James knew that engaging in this behavior was not permissible under the law.  \nStep 3: The fact that he didn't get paid for it doesn't change the legal implications of his actions.  \nStep 4: Therefore, the main issue is that his actions broke the law.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Buying beer for minors is an activity that is illegal.  ",
+                "James knew that engaging in this behavior was not permissible under the law.  ",
+                "The fact that he didn't get paid for it doesn't change the legal implications of his actions.  ",
+                "Therefore, the main issue is that his actions broke the law.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.9091575145721436,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is the result of applying",
+            "question": "Question: What is the result of applying for  job?\n\nChoices:\na. anxiety and fear\nb. increased workload\nc. praise\nd. less sleep\ne. being employed",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 12.967832565307617,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What must someone do before th",
+            "question": "Question: What must someone do before they shop?\n\nChoices:\na. get money\nb. have money\nc. bring cash\nd. go to market\ne. bring cash",
+            "answerKey": "a",
+            "cot_output": "Step 1: Shopping involves purchasing goods, and purchasing requires money for payment.\nStep 2: For a person to pay, they must already have money available before they shop.\nStep 3: Reviewing the choices, having money (Choice B) directly corresponds to this necessity.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Shopping involves purchasing goods, and purchasing requires money for payment.",
+                "For a person to pay, they must already have money available before they shop.",
+                "Reviewing the choices, having money (Choice B) directly corresponds to this necessity."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 4.990265130996704,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Because John was first violin,",
+            "question": "Question: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?\n\nChoices:\na. music store\nb. obesity\nc. symphony orchestra\nd. ochestra\ne. violin case",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 11.967876434326172,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is a place that usually d",
+            "question": "Question: What is a place that usually does not have an elevator and that sometimes has a telephone book?\n\nChoices:\na. at hotel\nb. kitchen\nc. library\nd. telephone booth\ne. house",
+            "answerKey": "e",
+            "cot_output": "Step 1: Consider the requirement \"usually does not have an elevator.\" Buildings like large hotels and libraries, which are multi-storied, tend to have elevators, so they are less likely candidates.  \nStep 2: Assess the role of a kitchen; while a kitchen indeed does not have an elevator, it is an interior room and almost never associated with a telephone book.  \nStep 3: Evaluate the possibility of a house; houses typically do not have elevators, but they are not usually known to \"have\" a telephone book as a distinctive feature.  \nStep 4: Reflect on what a telephone booth is: it is a small, stand-alone structure that definitely does not have an elevator.  \nStep 5: Note that the clue \"sometimes has a telephone book\" fits with a telephone booth because, historically, some telephone booths or nearby installations provided telephone directories (or an inside poster) for public use.  \nStep 6: Since hotels and libraries might often include elevators and kitchens and houses do not have telephone books as a hallmark, the telephone booth is the best match for both clues provided.  \nStep 7: Therefore, the reasoning leads directly to the conclusion that the telephone booth is the correct answer.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Consider the requirement \"usually does not have an elevator.\" Buildings like large hotels and libraries, which are multi-storied, tend to have elevators, so they are less likely candidates.  ",
+                "Assess the role of a kitchen; while a kitchen indeed does not have an elevator, it is an interior room and almost never associated with a telephone book.  ",
+                "Evaluate the possibility of a house; houses typically do not have elevators, but they are not usually known to \"have\" a telephone book as a distinctive feature.  ",
+                "Reflect on what a telephone booth is: it is a small, stand-alone structure that definitely does not have an elevator.  ",
+                "Note that the clue \"sometimes has a telephone book\" fits with a telephone booth because, historically, some telephone booths or nearby installations provided telephone directories (or an inside poster) for public use.  ",
+                "Since hotels and libraries might often include elevators and kitchens and houses do not have telephone books as a hallmark, the telephone booth is the best match for both clues provided.  ",
+                "Therefore, the reasoning leads directly to the conclusion that the telephone booth is the correct answer."
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 12.009085178375244,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Who is likely to be excited ab",
+            "question": "Question: Who is likely to be excited about a crab?\n\nChoices:\na. fish market\nb. pet shop\nc. fishmongers\nd. intertidal zone\ne. obesity",
+            "answerKey": "c",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.334117889404297,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can a human find clothes",
+            "question": "Question: Where can a human find clothes that aren't pants?\n\nChoices:\na. pants shop\nb. on planet earth\nc. dress shop\nd. school\ne. train wreck",
+            "answerKey": "c",
+            "cot_output": "Step 1: Evaluate each option to see if it is associated with non-pants clothing.\nStep 2: Option A, \"pants shop,\" specializes in pants, which contradicts the requirement of finding clothes that aren’t pants.\nStep 3: Option B, \"on planet earth,\" is very broad and while it includes non-pants clothes, it does not directly indicate a specific place to purchase them.\nStep 4: Option C, \"dress shop,\" clearly suggests a store focused on dresses—a type of clothing that certainly isn’t pants.\nStep 5: Options D and E (\"school\" and \"train wreck\") are not typically places to find clothing for purchase.\nStep 6: Thus, Option C directly meets the criterion by offering non-pants clothing specifically.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Evaluate each option to see if it is associated with non-pants clothing.",
+                "Option A, \"pants shop,\" specializes in pants, which contradicts the requirement of finding clothes that aren’t pants.",
+                "Option B, \"on planet earth,\" is very broad and while it includes non-pants clothes, it does not directly indicate a specific place to purchase them.",
+                "Option C, \"dress shop,\" clearly suggests a store focused on dresses—a type of clothing that certainly isn’t pants.",
+                "Options D and E (\"school\" and \"train wreck\") are not typically places to find clothing for purchase.",
+                "Thus, Option C directly meets the criterion by offering non-pants clothing specifically."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.0409088134765625,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If I was getting drunk, and pe",
+            "question": "Question: If I was getting drunk, and people couldn't understand me, what might I be having?\n\nChoices:\na. a seizure\nb. slurred speech\nc. death\nd. forgetfulness\ne. pass out",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that the scenario involves intoxication, which commonly causes impairments in speech.  \nStep 2: Understand that one common effect of too much alcohol is slurred speech, making it hard for others to understand the individual.  \nStep 3: Compare the options: a seizure, death, forgetfulness, and pass out do not directly explain the impaired speech clarity as well as slurred speech does.  \nStep 4: Conclude that the best explanation for people not understanding you while you’re getting drunk is that you are experiencing slurred speech.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the scenario involves intoxication, which commonly causes impairments in speech.  ",
+                "Understand that one common effect of too much alcohol is slurred speech, making it hard for others to understand the individual.  ",
+                "Compare the options: a seizure, death, forgetfulness, and pass out do not directly explain the impaired speech clarity as well as slurred speech does.  ",
+                "Conclude that the best explanation for people not understanding you while you’re getting drunk is that you are experiencing slurred speech.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.023897647857666,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When a person is beginning wor",
+            "question": "Question: When a person is beginning work, what are they building?\n\nChoices:\na. time\nb. accomplishing\nc. working\nd. momentum\ne. tiredness",
+            "answerKey": "d",
+            "cot_output": "Step 1: When beginning work, a person usually has a period where they gradually increase their activity rather than instantly working at full speed.\nStep 2: This gradual increase is a process often described as \"building momentum,\" where initial effort accumulates to generate a stronger, continuous flow of energy and productivity.\nStep 3: Evaluating the choices, \"momentum\" is the term that most accurately captures the idea of starting a process that gains force over time, whereas the other options (time, accomplishing, working, tiredness) do not logically describe this process.\nStep 4: Therefore, based on the logical connection between starting work and generating a buildup of force or energy, the correct choice is momentum.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When beginning work, a person usually has a period where they gradually increase their activity rather than instantly working at full speed.",
+                "This gradual increase is a process often described as \"building momentum,\" where initial effort accumulates to generate a stronger, continuous flow of energy and productivity.",
+                "Evaluating the choices, \"momentum\" is the term that most accurately captures the idea of starting a process that gains force over time, whereas the other options (time, accomplishing, working, tiredness) do not logically describe this process.",
+                "Therefore, based on the logical connection between starting work and generating a buildup of force or energy, the correct choice is momentum."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.757124423980713,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A child wants to play, what wo",
+            "question": "Question: A child wants to play, what would they likely want?\n\nChoices:\na. fall down\nb. breathe\nc. play tag\nd. be dismembered by a chainsaw\ne. become adult",
+            "answerKey": "c",
+            "cot_output": "Step 1: I observe that the question asks what a child would likely want if they want to play.  \nStep 2: I examine each option: \"fall down\" is more of an accident than play; \"breathe\" is a basic necessity and not something a child desires as a game; \"play tag\" is an active, playful game that children often enjoy; \"be dismembered by a chainsaw\" is a harmful, violent action that is inappropriate for play; \"become adult\" is not typically associated with the immediate desire to play.  \nStep 3: Since \"play tag\" aligns perfectly with the idea of a child wanting to engage in playful activity, it is the most logical option.  \nStep 4: Therefore, the correct answer is the option that corresponds to \"play tag\".  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I observe that the question asks what a child would likely want if they want to play.  ",
+                "I examine each option: \"fall down\" is more of an accident than play; \"breathe\" is a basic necessity and not something a child desires as a game; \"play tag\" is an active, playful game that children often enjoy; \"be dismembered by a chainsaw\" is a harmful, violent action that is inappropriate for play; \"become adult\" is not typically associated with the immediate desire to play.  ",
+                "Since \"play tag\" aligns perfectly with the idea of a child wanting to engage in playful activity, it is the most logical option.  ",
+                "Therefore, the correct answer is the option that corresponds to \"play tag\".  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 5.360626935958862,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Talking to the same person abo",
+            "question": "Question: Talking to the same person about the same thing over and over again is something someone can what?\n\nChoices:\na. social life\nb. friendship\nc. eye contact\nd. get tired of\ne. learn lessons from",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the repeated topic signifies a form of excess or boredom.\nStep 2: Evaluate each option:\n – “social life” (Option A) does not logically follow a repeated discussion.\n – “friendship” (Option B) is unrelated to the described redundancy.\n – “eye contact” (Option C) is irrelevant to the context.\n – “get tired of” (Option D) fits because repeating the same discussion can lead someone to become weary.\nStep 3: Determine that Option D best captures the notion of being fed up with repetitive conversation.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the repeated topic signifies a form of excess or boredom.",
+                "Evaluate each option:",
+                "Determine that Option D best captures the notion of being fed up with repetitive conversation."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 6.167795419692993,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The teacher doesn't tolerate n",
+            "question": "Question: The teacher doesn't tolerate noise during a test in their what?\n\nChoices:\na. movie theatre\nb. bowling alley\nc. factory\nd. store\ne. classroom",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that the phrase \"during a test\" implies an environment where tests are typically administered, which is commonly a classroom.\nStep 2: Evaluate the options: a movie theatre, bowling alley, factory, and store are not standard test-taking environments, while a classroom is.\nStep 3: Conclude that the teacher's rule about not tolerating noise during a test would logically apply in their classroom.\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the phrase \"during a test\" implies an environment where tests are typically administered, which is commonly a classroom.",
+                "Evaluate the options: a movie theatre, bowling alley, factory, and store are not standard test-taking environments, while a classroom is.",
+                "Conclude that the teacher's rule about not tolerating noise during a test would logically apply in their classroom."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 6.034303188323975,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The freeway had no traffic and",
+            "question": "Question: The freeway had no traffic and few buildings, where is it?\n\nChoices:\na. california\nb. countryside\nc. big town\nd. florida\ne. america",
+            "answerKey": "b",
+            "cot_output": "Step 1: The description \"freeway had no traffic and few buildings\" suggests a setting that is largely unpopulated and rural in nature.  \nStep 2: A \"big town\" would likely have significant traffic and many buildings, so that option can be eliminated.  \nStep 3: Regions like \"California,\" \"Florida,\" and \"America\" can include both urban and rural areas; however, they do not specifically denote a rural, sparse environment as clearly as another option.  \nStep 4: The term \"countryside\" directly implies a rural area with low traffic and few buildings, aligning perfectly with the description.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The description \"freeway had no traffic and few buildings\" suggests a setting that is largely unpopulated and rural in nature.  ",
+                "A \"big town\" would likely have significant traffic and many buildings, so that option can be eliminated.  ",
+                "Regions like \"California,\" \"Florida,\" and \"America\" can include both urban and rural areas; however, they do not specifically denote a rural, sparse environment as clearly as another option.  ",
+                "The term \"countryside\" directly implies a rural area with low traffic and few buildings, aligning perfectly with the description.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.2057108879089355,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you go if you want",
+            "question": "Question: Where would you go if you wanted to have fun with a few people?\n\nChoices:\na. watching television\nb. good\nc. cinema\nd. friend's house\ne. fairgrounds",
+            "answerKey": "d",
+            "cot_output": "Step 1: We are asked to identify a location ideal for having fun with a few people, which implies a social setting where a small group can interact.\nStep 2: Option (a) \"watching television\" is generally a passive, individual activity and not inherently social for a group.\nStep 3: Option (b) \"good\" does not represent a location and lacks relevance to the context.\nStep 4: Option (c) \"cinema\" is a public entertainment venue but typically involves attending with larger groups and less personal interaction.\nStep 5: Option (d) \"friend's house\" is a private setting that is well-suited for a few people to gather and have fun together.\nStep 6: Option (e) \"fairgrounds\" can be crowded and geared towards large-scale public events, not an intimate group setting.\nStep 7: Based on the analysis, \"friend's house\" best fits the criteria for a location to have fun with a few people.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "We are asked to identify a location ideal for having fun with a few people, which implies a social setting where a small group can interact.",
+                "Option (a) \"watching television\" is generally a passive, individual activity and not inherently social for a group.",
+                "Option (b) \"good\" does not represent a location and lacks relevance to the context.",
+                "Option (c) \"cinema\" is a public entertainment venue but typically involves attending with larger groups and less personal interaction.",
+                "Option (d) \"friend's house\" is a private setting that is well-suited for a few people to gather and have fun together.",
+                "Option (e) \"fairgrounds\" can be crowded and geared towards large-scale public events, not an intimate group setting.",
+                "Based on the analysis, \"friend's house\" best fits the criteria for a location to have fun with a few people."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.758438348770142,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If there is a place that is ho",
+            "question": "Question: If there is a place that is hot and arid, what could it be?\n\nChoices:\na. bland\nb. lifeless\nc. sandy\nd. neutral\ne. freezing",
+            "answerKey": "b",
+            "cot_output": "Step 1: The description \"hot and arid\" typically refers to a desert environment, which is known for high temperatures and little rainfall.\nStep 2: Deserts are commonly characterized by their sandy landscapes.\nStep 3: Among the choices, \"sandy\" directly aligns with the desert-like conditions described.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The description \"hot and arid\" typically refers to a desert environment, which is known for high temperatures and little rainfall.",
+                "Deserts are commonly characterized by their sandy landscapes.",
+                "Among the choices, \"sandy\" directly aligns with the desert-like conditions described."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 4.243711948394775,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is likely to satisfy some",
+            "question": "Question: What is likely to satisfy someone's curiosity?\n\nChoices:\na. hear news\nb. read book\nc. see favorite show\nd. comedy show\ne. go somewhere",
+            "answerKey": "a",
+            "cot_output": "Step 1: Curiosity is a desire to know something new or unexplored.  \nStep 2: Hearing news typically provides current, often unexpected information that directly addresses this desire.  \nStep 3: Reading a book indeed provides in-depth knowledge but might be seen as a more deliberate pursuit of learning rather than an instant curiosity trigger.  \nStep 4: Seeing a favorite show is usually about comfort and entertainment, and a comedy show is for humor; both tend to be less about satisfying the urge for new information.  \nStep 5: Thus, among the given options, hearing news (Choice A) is most likely to satisfy someone’s immediate curiosity.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Curiosity is a desire to know something new or unexplored.  ",
+                "Hearing news typically provides current, often unexpected information that directly addresses this desire.  ",
+                "Reading a book indeed provides in-depth knowledge but might be seen as a more deliberate pursuit of learning rather than an instant curiosity trigger.  ",
+                "Seeing a favorite show is usually about comfort and entertainment, and a comedy show is for humor; both tend to be less about satisfying the urge for new information.  ",
+                "Thus, among the given options, hearing news (Choice A) is most likely to satisfy someone’s immediate curiosity.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 7.810248613357544,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are in a bar in a glove",
+            "question": "Question: If you are in a bar in a glove shaped state where are you?\n\nChoices:\na. in my pocket\nb. michigan\nc. new york city\nd. restaurant\ne. public house",
+            "answerKey": "b",
+            "cot_output": "Step 1: \"Glove shaped state\" suggests a state whose outline resembles a glove, which is commonly associated with Michigan, known as the \"mitten state.\"\nStep 2: Considering the options provided, \"michigan\" is listed as option B.\nStep 3: Since the riddle implies you are in a bar located in Michigan, the answer is clearly option B.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "\"Glove shaped state\" suggests a state whose outline resembles a glove, which is commonly associated with Michigan, known as the \"mitten state.\"",
+                "Considering the options provided, \"michigan\" is listed as option B.",
+                "Since the riddle implies you are in a bar located in Michigan, the answer is clearly option B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.907245397567749,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would a computer user be",
+            "question": "Question: Where would a computer user be using their own computer?\n\nChoices:\na. hell\nb. school\nc. indoors\nd. internet cafe\ne. house",
+            "answerKey": "e",
+            "cot_output": "Step 1: The phrase “their own computer” implies the computer belongs to the user, suggesting a personal environment rather than a public or institutional setting.\nStep 2: Among the options, hell is metaphorical and not a realistic location; school is an institutional environment where a computer may be provided by the institution rather than personally owned; indoors is a generic descriptor and does not specifically indicate ownership; an internet cafe is a public, rented setting.\nStep 3: In contrast, a house is typically where one would own and regularly use a personal computer.\nStep 4: Therefore, the only option that clearly aligns with using one’s own computer is a house.\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase “their own computer” implies the computer belongs to the user, suggesting a personal environment rather than a public or institutional setting.",
+                "Among the options, hell is metaphorical and not a realistic location; school is an institutional environment where a computer may be provided by the institution rather than personally owned; indoors is a generic descriptor and does not specifically indicate ownership; an internet cafe is a public, rented setting.",
+                "In contrast, a house is typically where one would own and regularly use a personal computer.",
+                "Therefore, the only option that clearly aligns with using one’s own computer is a house."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 10.818134784698486,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Crabs live in what sort of env",
+            "question": "Question: Crabs live in what sort of environment?\n\nChoices:\na. maritime\nb. bodies of water\nc. saltwater\nd. galapagos\ne. fish market",
+            "answerKey": "c",
+            "cot_output": "Step 1: I identify that the question asks about the type of environment in which crabs live.  \nStep 2: I analyze the choices: \"maritime\" (relating to the sea/coast), \"bodies of water\" (a generic term), \"saltwater\" (specific to an attribute of many marine species), and \"galapagos\" (a specific geographic location rather than a general environment).  \nStep 3: I consider that crabs predominantly live in environments related to the sea, particularly coastal areas. \"Maritime\" directly relates to such environments.  \nStep 4: Although \"saltwater\" is a characteristic of many marine habitats, \"maritime\" more directly captures the overall environment where crabs are commonly found.  \nStep 5: Options \"bodies of water\" and \"galapagos\" either are too generic or too location-specific.  \nStep 6: Based on these deductions, \"maritime\" best answers the question.  \n===FINAL_ANSWER_START===  \nConclusion: A  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I identify that the question asks about the type of environment in which crabs live.  ",
+                "I analyze the choices: \"maritime\" (relating to the sea/coast), \"bodies of water\" (a generic term), \"saltwater\" (specific to an attribute of many marine species), and \"galapagos\" (a specific geographic location rather than a general environment).  ",
+                "I consider that crabs predominantly live in environments related to the sea, particularly coastal areas. \"Maritime\" directly relates to such environments.  ",
+                "Although \"saltwater\" is a characteristic of many marine habitats, \"maritime\" more directly captures the overall environment where crabs are commonly found.  ",
+                "Options \"bodies of water\" and \"galapagos\" either are too generic or too location-specific.  ",
+                "Based on these deductions, \"maritime\" best answers the question.  "
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 6.3975303173065186,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you find a snake in ",
+            "question": "Question: Where can you find a snake in tall grass?\n\nChoices:\na. tree\nb. in a jar\nc. pet shops\nd. feild\ne. tropical forest",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the phrase \"tall grass\" commonly refers to an open, natural area with grass, which is typically found in a field.\nStep 2: Evaluate the options: a. tree is not a location where tall grass is found; b. in a jar is not a natural habitat; c. pet shops are not natural environments with tall grass; d. feild (assumed to be \"field\") directly fits the description; and e. tropical forest, while natural, is not primarily described by tall grass.\nStep 3: Conclude that the most appropriate and natural location described by \"tall grass\" is a field.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the phrase \"tall grass\" commonly refers to an open, natural area with grass, which is typically found in a field.",
+                "Evaluate the options: a. tree is not a location where tall grass is found; b. in a jar is not a natural habitat; c. pet shops are not natural environments with tall grass; d. feild (assumed to be \"field\") directly fits the description; and e. tropical forest, while natural, is not primarily described by tall grass.",
+                "Conclude that the most appropriate and natural location described by \"tall grass\" is a field."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 5.113127708435059,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is a place that has a ben",
+            "question": "Question: What is a place that has a bench nestled in trees?\n\nChoices:\na. state park\nb. bus stop\nc. bus depot\nd. statue\ne. train station",
+            "answerKey": "a",
+            "cot_output": "Step 1: Identify the setting described—a bench that is nestled in trees indicates an outdoor, natural environment.\nStep 2: Analyze Option A (state park): A state park typically contains natural elements like trees and benches, making it a strong candidate.\nStep 3: Analyze Option B (bus stop) and Option C (bus depot): These are transportation-related facilities usually found in more urban or suburban settings, which do not typically feature benches nestled in trees.\nStep 4: Analyze Option D (statue): A statue does not represent a natural setting or include a bench surrounded by trees.\nStep 5: The hallmarks of the described place align best with Option A (state park).\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the setting described—a bench that is nestled in trees indicates an outdoor, natural environment.",
+                "Analyze Option A (state park): A state park typically contains natural elements like trees and benches, making it a strong candidate.",
+                "Analyze Option B (bus stop) and Option C (bus depot): These are transportation-related facilities usually found in more urban or suburban settings, which do not typically feature benches nestled in trees.",
+                "Analyze Option D (statue): A statue does not represent a natural setting or include a bench surrounded by trees.",
+                "The hallmarks of the described place align best with Option A (state park)."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.030939817428589,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a human likely to go ",
+            "question": "Question: Where is a human likely to go as a result of being hungry?\n\nChoices:\na. eat in restaurant\nb. make bread\nc. have lunch\nd. cook dinner\ne. friends house",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that when a human is hungry, they typically seek food quickly and conveniently.  \nStep 2: Evaluate each option: \"eat in restaurant\" is a location where one can immediately get food, while \"make bread\" and \"cook dinner\" are activities rather than destinations, and \"have lunch\" is a meal rather than a place. \"Friends house\" might be a location, but it is less directly linked to satisfying hunger immediately.  \nStep 3: Conclude that the most appropriate location a hungry person is likely to go to is a restaurant.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that when a human is hungry, they typically seek food quickly and conveniently.  ",
+                "Evaluate each option: \"eat in restaurant\" is a location where one can immediately get food, while \"make bread\" and \"cook dinner\" are activities rather than destinations, and \"have lunch\" is a meal rather than a place. \"Friends house\" might be a location, but it is less directly linked to satisfying hunger immediately.  ",
+                "Conclude that the most appropriate location a hungry person is likely to go to is a restaurant.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 7.44737982749939,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_He was beginning to regret tak",
+            "question": "Question: He was beginning to regret taking the fight when he saw how what his opponent was?\n\nChoices:\na. fun\nb. joy\nc. satisfaction\nd. confident\ne. pride",
+            "answerKey": "d",
+            "cot_output": "Step 1: The sentence \"He was beginning to regret taking the fight when he saw how what his opponent was?\" requires an adjective describing the opponent, based on the structure \"how [adjective] his opponent was.\" \nStep 2: Evaluating the choices: \"fun\" and \"joy\" are nouns/adjectives that don’t typically describe someone's combat demeanor; \"satisfaction\" is a noun and doesn’t appropriately modify “was”; \"pride\" is also a noun.\nStep 3: \"Confident\" is an adjective that fits both grammatically and contextually, suggesting that his opponent’s confidence caused him to doubt his own decision.\nStep 4: Therefore, the answer is that he saw how confident his opponent was.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence \"He was beginning to regret taking the fight when he saw how what his opponent was?\" requires an adjective describing the opponent, based on the structure \"how [adjective] his opponent was.\" ",
+                "Evaluating the choices: \"fun\" and \"joy\" are nouns/adjectives that don’t typically describe someone's combat demeanor; \"satisfaction\" is a noun and doesn’t appropriately modify “was”; \"pride\" is also a noun.",
+                "\"Confident\" is an adjective that fits both grammatically and contextually, suggesting that his opponent’s confidence caused him to doubt his own decision.",
+                "Therefore, the answer is that he saw how confident his opponent was."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.223576068878174,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you find a single ",
+            "question": "Question: Where would you find a single shower curtain being used?\n\nChoices:\na. bathtub\nb. washing area\nc. hotel\nd. shower stall\ne. department store",
+            "answerKey": "a",
+            "cot_output": "Step 1: A shower curtain is most commonly associated with a bathing area where water is contained and privacy is desired.  \nStep 2: Among the choices, a bathtub is typically equipped with a shower curtain to prevent water from splashing out during a shower.  \nStep 3: In contrast, a washing area (typically for laundry), a hotel (which may have various setups), and a shower stall (often enclosed by a door or multiple panels) do not consistently use a single shower curtain.  \nStep 4: Thus, the most logical and conventional setting for a single shower curtain is a bathtub.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A shower curtain is most commonly associated with a bathing area where water is contained and privacy is desired.  ",
+                "Among the choices, a bathtub is typically equipped with a shower curtain to prevent water from splashing out during a shower.  ",
+                "In contrast, a washing area (typically for laundry), a hotel (which may have various setups), and a shower stall (often enclosed by a door or multiple panels) do not consistently use a single shower curtain.  ",
+                "Thus, the most logical and conventional setting for a single shower curtain is a bathtub."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.946221828460693,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where is a good idea but not r",
+            "question": "Question: Where is a good idea but not required to have a fire extinguisher?\n\nChoices:\na. school bus\nb. boat\nc. house\nd. hospital\ne. school",
+            "answerKey": "c",
+            "cot_output": "Step 1: Consider fire safety codes and regulations that apply to various places. Some public or regulated spaces (like hospitals, schools, and boats) have explicit codes that require fire extinguishers.\nStep 2: School buses—even though they are vehicles—often have specific regulations under transportation safety standards that frequently require having a fire extinguisher.\nStep 3: Hospitals and schools, being public buildings subject to strict fire codes, are mandated to have fire extinguishers.\nStep 4: Boats, particularly those with engines or fuel, are also subject to maritime safety regulations which require fire extinguishers.\nStep 5: Private houses, while it is a good idea to have a fire extinguisher for safety, generally are not legally required by fire codes to have one.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Consider fire safety codes and regulations that apply to various places. Some public or regulated spaces (like hospitals, schools, and boats) have explicit codes that require fire extinguishers.",
+                "School buses—even though they are vehicles—often have specific regulations under transportation safety standards that frequently require having a fire extinguisher.",
+                "Hospitals and schools, being public buildings subject to strict fire codes, are mandated to have fire extinguishers.",
+                "Boats, particularly those with engines or fuel, are also subject to maritime safety regulations which require fire extinguishers.",
+                "Private houses, while it is a good idea to have a fire extinguisher for safety, generally are not legally required by fire codes to have one."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 10.898941040039062,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What continent has the most ca",
+            "question": "Question: What continent has the most castles?\n\nChoices:\na. fairy tale\nb. edinburgh\nc. germany\nd. europe\ne. antarctica",
+            "answerKey": "d",
+            "cot_output": "Step 1: I note that the question asks for a continent, which requires a geographical region that comprises many countries rather than a single country or a city.\nStep 2: The options \"fairy tale\" and \"edinburgh\" are clearly not continents; Edinburgh is a city and \"fairy tale\" is not a geographical entity.\nStep 3: \"Germany\" is a country, not a continent, although it is known for its many castles.\nStep 4: \"Antarctica\" is indeed a continent, but it is not known for castles because its environment and lack of historical kingdoms do not support castle construction.\nStep 5: \"Europe\" is a continent that historically has played a central role in castle construction, hosting numerous castles across its many countries.\nStep 6: Based on these deductions, \"Europe\" is the only option that is a continent and is famous for its numerous castles.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I note that the question asks for a continent, which requires a geographical region that comprises many countries rather than a single country or a city.",
+                "The options \"fairy tale\" and \"edinburgh\" are clearly not continents; Edinburgh is a city and \"fairy tale\" is not a geographical entity.",
+                "\"Germany\" is a country, not a continent, although it is known for its many castles.",
+                "\"Antarctica\" is indeed a continent, but it is not known for castles because its environment and lack of historical kingdoms do not support castle construction.",
+                "\"Europe\" is a continent that historically has played a central role in castle construction, hosting numerous castles across its many countries.",
+                "Based on these deductions, \"Europe\" is the only option that is a continent and is famous for its numerous castles."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 5.384282112121582,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you have to read a book tha",
+            "question": "Question: If you have to read a book that is very dry and long you may become what?\n\nChoices:\na. have time\nb. boring\nc. learn new\nd. enjoyable\ne. bored",
+            "answerKey": "e",
+            "cot_output": "Step 1: The sentence “If you have to read a book that is very dry and long…” sets a context that involves a challenging reading experience.  \nStep 2: Facing a dry and long book typically leads a reader to lose interest or feel a lack of stimulation.  \nStep 3: This diminished interest is commonly described by the state of being “bored.”  \nStep 4: Looking at the choices, “bored” is the term that accurately reflects the state a reader might experience in such a scenario, while the others do not logically fit.  \nStep 5: Therefore, the correct choice is the one corresponding to “bored.”\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence “If you have to read a book that is very dry and long…” sets a context that involves a challenging reading experience.  ",
+                "Facing a dry and long book typically leads a reader to lose interest or feel a lack of stimulation.  ",
+                "This diminished interest is commonly described by the state of being “bored.”  ",
+                "Looking at the choices, “bored” is the term that accurately reflects the state a reader might experience in such a scenario, while the others do not logically fit.  ",
+                "Therefore, the correct choice is the one corresponding to “bored.”"
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 11.572426795959473,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Sally used a clipboard to hold",
+            "question": "Question: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?\n\nChoices:\na. desk\nb. windows 95\nc. office supply store\nd. see work\ne. school",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.245015859603882,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The kids didn't clean up after",
+            "question": "Question: The kids didn't clean up after they had done what?\n\nChoices:\na. learn things\nb. play games\nc. disneyland\nd. play with toys\ne. talking",
+            "answerKey": "d",
+            "cot_output": "Step 1: Identify that the question asks what activity caused the kids not to clean up afterwards, suggesting the activity was likely messy.  \nStep 2: Analyze each option: \"learn things\" and \"talking\" don't typically create a mess; \"disneyland\" is a location, not an activity; while \"play games\" might cause a mess, \"play with toys\" is more directly associated with creating physical clutter.  \nStep 3: Conclude that playing with toys is the activity most likely to create a mess, which then leads to them not cleaning up.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that the question asks what activity caused the kids not to clean up afterwards, suggesting the activity was likely messy.  ",
+                "Analyze each option: \"learn things\" and \"talking\" don't typically create a mess; \"disneyland\" is a location, not an activity; while \"play games\" might cause a mess, \"play with toys\" is more directly associated with creating physical clutter.  ",
+                "Conclude that playing with toys is the activity most likely to create a mess, which then leads to them not cleaning up.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.249623537063599,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Despite the name a pawn can be",
+            "question": "Question: Despite the name a pawn can be quite versatile, all the parts are important in a what?\n\nChoices:\na. chess game\nb. scheme\nc. chess set\nd. checkers\ne. north carolina",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the word \"pawn\" directly refers to a chess piece.  \nStep 2: Note that the statement \"despite the name a pawn can be quite versatile\" hints at the idea that even a piece considered minor may have important roles, as seen in chess scenarios like promotion.  \nStep 3: Understand that \"all the parts are important\" implies that every piece (or part) in the collection (or set) is valuable, which aligns with the concept of a complete set of chess pieces.  \nStep 4: Evaluate the choices: \"chess game\" and \"chess set\" are both chess-related, but \"chess set\" more directly represents the idea of having all parts being important.  \nStep 5: Conclude that the answer which best fits the description is the complete collection of chess pieces—a chess set.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the word \"pawn\" directly refers to a chess piece.  ",
+                "Note that the statement \"despite the name a pawn can be quite versatile\" hints at the idea that even a piece considered minor may have important roles, as seen in chess scenarios like promotion.  ",
+                "Understand that \"all the parts are important\" implies that every piece (or part) in the collection (or set) is valuable, which aligns with the concept of a complete set of chess pieces.  ",
+                "Evaluate the choices: \"chess game\" and \"chess set\" are both chess-related, but \"chess set\" more directly represents the idea of having all parts being important.  ",
+                "Conclude that the answer which best fits the description is the complete collection of chess pieces—a chess set."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 8.725716829299927,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would not be true about a",
+            "question": "Question: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?\n\nChoices:\na. punctured\nb. popular in america\nc. full of air\nd. gone\ne. round",
+            "answerKey": "c",
+            "cot_output": "Step 1: A basketball with a hole implies it might be punctured, meaning that the integrity of its surface has been compromised.\nStep 2: Despite the hole, the basketball is described as not having lost its general shape, so it must still be round.\nStep 3: Being punctured and still round indicates that it exists; it is not completely deflated or missing.\nStep 4: The option stating that the basketball is “gone” would imply that it no longer exists, which contradicts the information that it retained its general shape.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A basketball with a hole implies it might be punctured, meaning that the integrity of its surface has been compromised.",
+                "Despite the hole, the basketball is described as not having lost its general shape, so it must still be round.",
+                "Being punctured and still round indicates that it exists; it is not completely deflated or missing.",
+                "The option stating that the basketball is “gone” would imply that it no longer exists, which contradicts the information that it retained its general shape."
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 6.6838462352752686,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you are awaking multiple ti",
+            "question": "Question: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?\n\nChoices:\na. irritability\nb. depression\nc. getting out of bed\nd. happiness\ne. discomfort",
+            "answerKey": "b",
+            "cot_output": "Step 1: The question specifies that you are waking multiple times at night because \"a lot is on your mind,\" which suggests that mental and emotional processes (e.g., ruminative thinking) are interfering with sleep.\nStep 2: Considering the options, we can rule out \"happiness\" because positive emotions do not typically keep a person awake due to overthinking.\nStep 3: \"Getting out of bed\" is more a behavior that results from being awake rather than a primary cause of the awakenings.\nStep 4: \"Irritability\" can be both a cause and a consequence of sleep disturbances, but it is more of a symptom rather than the underlying issue when one's mind is busy.\nStep 5: \"Depression\" is known to involve persistent negative thought patterns that can lead to insomnia, making it a likely underlying cause for waking multiple times during the night.\nStep 6: Therefore, the evidence points to depression as the most plausible cause among the listed choices.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question specifies that you are waking multiple times at night because \"a lot is on your mind,\" which suggests that mental and emotional processes (e.g., ruminative thinking) are interfering with sleep.",
+                "Considering the options, we can rule out \"happiness\" because positive emotions do not typically keep a person awake due to overthinking.",
+                "\"Getting out of bed\" is more a behavior that results from being awake rather than a primary cause of the awakenings.",
+                "\"Irritability\" can be both a cause and a consequence of sleep disturbances, but it is more of a symptom rather than the underlying issue when one's mind is busy.",
+                "\"Depression\" is known to involve persistent negative thought patterns that can lead to insomnia, making it a likely underlying cause for waking multiple times during the night.",
+                "Therefore, the evidence points to depression as the most plausible cause among the listed choices."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 8.999648332595825,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where does a wild bird usually",
+            "question": "Question: Where does a wild bird usually live?\n\nChoices:\na. cage\nb. sky\nc. countryside\nd. desert\ne. windowsill",
+            "answerKey": "c",
+            "cot_output": "Step 1: Identify that a \"wild bird\" typically refers to a bird that lives in its natural habitat, not in captivity or a human-made environment.  \nStep 2: Evaluate the choices: \"cage\" is a place of captivity and thus unsuitable, and \"windowsill\" is an artificial location not typical for a wild bird's natural habitat.  \nStep 3: Consider \"sky\" and \"desert\": while birds may fly in the sky, it is not their dwelling, and although some birds live in deserts, \"desert\" is too specific and not representative of the usual habitat for most wild birds.  \nStep 4: \"Countryside\" best represents a natural environment where wild birds typically reside due to its abundant resources and suitable habitat.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that a \"wild bird\" typically refers to a bird that lives in its natural habitat, not in captivity or a human-made environment.  ",
+                "Evaluate the choices: \"cage\" is a place of captivity and thus unsuitable, and \"windowsill\" is an artificial location not typical for a wild bird's natural habitat.  ",
+                "Consider \"sky\" and \"desert\": while birds may fly in the sky, it is not their dwelling, and although some birds live in deserts, \"desert\" is too specific and not representative of the usual habitat for most wild birds.  ",
+                "\"Countryside\" best represents a natural environment where wild birds typically reside due to its abundant resources and suitable habitat.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.537288665771484,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you expect to find",
+            "question": "Question: Where would you expect to find white mice?\n\nChoices:\na. bell cat\nb. bush\nc. attic\nd. countryside\ne. laboratory",
+            "answerKey": "e",
+            "cot_output": "Step 1: I recognize that white mice are most famously used in scientific research and experiments.\nStep 2: Being a staple of research, white mice are most commonly found in laboratory environments.\nStep 3: Therefore, the best choice among the options is the option corresponding to a setting for scientific experiments—a laboratory.\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I recognize that white mice are most famously used in scientific research and experiments.",
+                "Being a staple of research, white mice are most commonly found in laboratory environments.",
+                "Therefore, the best choice among the options is the option corresponding to a setting for scientific experiments—a laboratory."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 11.370893716812134,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_John felt that his actions wer",
+            "question": "Question: John felt that his actions were fate.   Harry said that he could have always made a different what?\n\nChoices:\na. free will\nb. choice\nc. will\nd. alcohol\ne. freedom",
+            "answerKey": "b",
+            "cot_output": "Step 1: The sentence contrasts John’s perspective of fate—that his actions were determined—with Harry’s statement suggesting an openness to alternative outcomes.\nStep 2: To emphasize this contrast, Harry implies that his actions were the result of free choice, not fate.\nStep 3: We analyze the options: \"free will\" (A) is a concept rather than a decision; \"will\" (C) is ambiguous; \"alcohol\" (D) is unrelated; and \"freedom\" (E) describes a state rather than the act of choosing.\nStep 4: \"Choice\" (B) directly implies that Harry believes he could have acted differently, highlighting the ability to choose.\nStep 5: Given the contextual emphasis on decision-making versus predetermined fate, \"choice\" is the correct fit.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence contrasts John’s perspective of fate—that his actions were determined—with Harry’s statement suggesting an openness to alternative outcomes.",
+                "To emphasize this contrast, Harry implies that his actions were the result of free choice, not fate.",
+                "We analyze the options: \"free will\" (A) is a concept rather than a decision; \"will\" (C) is ambiguous; \"alcohol\" (D) is unrelated; and \"freedom\" (E) describes a state rather than the act of choosing.",
+                "\"Choice\" (B) directly implies that Harry believes he could have acted differently, highlighting the ability to choose.",
+                "Given the contextual emphasis on decision-making versus predetermined fate, \"choice\" is the correct fit."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.748478889465332,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What could committing murder p",
+            "question": "Question: What could committing murder prevent someone from doing?\n\nChoices:\na. go to jail\nb. cry\nc. find god\nd. guilty conscience\ne. problems",
+            "answerKey": "c",
+            "cot_output": "Step 1: Recognize that the question asks what action or outcome someone is prevented from doing as a result of being murdered, meaning that if a person is murdered, they lose the ability to perform actions they might otherwise have done if they were alive.\nStep 2: Evaluate each option under the assumption that death precludes any further conscious actions. Option A (“go to jail”) applies to a living person (typically the guilty party) and isn’t directly relevant. Option B (“cry”) is something the victim would be unable to do once dead, but crying doesn’t hold the same conceptual weight as a moral or emotional state in this context.\nStep 3: Option C (“find god”) similarly involves a potentially ongoing process or state that might occur when living, but is less directly tied to the common human experience compared to an inner emotional state.\nStep 4: Option D (“guilty conscience”) represents an emotional or moral state",
+            "cot_steps": [
+                "Recognize that the question asks what action or outcome someone is prevented from doing as a result of being murdered, meaning that if a person is murdered, they lose the ability to perform actions they might otherwise have done if they were alive.",
+                "Evaluate each option under the assumption that death precludes any further conscious actions. Option A (“go to jail”) applies to a living person (typically the guilty party) and isn’t directly relevant. Option B (“cry”) is something the victim would be unable to do once dead, but crying doesn’t hold the same conceptual weight as a moral or emotional state in this context.",
+                "Option C (“find god”) similarly involves a potentially ongoing process or state that might occur when living, but is less directly tied to the common human experience compared to an inner emotional state.",
+                "Option D (“guilty conscience”) represents an emotional or moral state"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 12.718786239624023,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_George didn't have a car, but ",
+            "question": "Question: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?\n\nChoices:\na. michigan\nb. walk\nc. stay still\nd. stink\ne. hands",
+            "answerKey": "b",
+            "cot_output": "Step 1: The passage states that George didn't have a car but still had his two feet, indicating he relies on them for transportation.\nStep 2: The mention of his socks and soles being in poor condition (smelly, blistered) does not prevent him from using his feet.\nStep 3: Given that he has his feet, the most logical activity he can still do is walk.\nStep 4: Among the provided choices, \"walk\" best fits this reasoning.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The passage states that George didn't have a car but still had his two feet, indicating he relies on them for transportation.",
+                "The mention of his socks and soles being in poor condition (smelly, blistered) does not prevent him from using his feet.",
+                "Given that he has his feet, the most logical activity he can still do is walk.",
+                "Among the provided choices, \"walk\" best fits this reasoning."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.5940797328948975,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A crane uses many a steel cabl",
+            "question": "Question: A crane uses many a steel cable when working a what?\n\nChoices:\na. abaft\nb. ship\nc. winch\nd. construction site\ne. building",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that a crane is a heavy machine designed to hoist and move loads using steel cables, making it most common on sites where heavy lifting is necessary.\nStep 2: Consider the setting where such heavy lifting occurs; a construction site is widely known as the setting where cranes are used to move materials.\nStep 3: Evaluate the other options: “abaft” refers to a direction; “ship” and “winch” do involve steel cables but are not the typical context described here; “building” is the end product rather than the worksite.\nStep 4: Conclude that the most causally consistent context for a crane using many steel cables is at a construction site.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that a crane is a heavy machine designed to hoist and move loads using steel cables, making it most common on sites where heavy lifting is necessary.",
+                "Consider the setting where such heavy lifting occurs; a construction site is widely known as the setting where cranes are used to move materials.",
+                "Evaluate the other options: “abaft” refers to a direction; “ship” and “winch” do involve steel cables but are not the typical context described here; “building” is the end product rather than the worksite.",
+                "Conclude that the most causally consistent context for a crane using many steel cables is at a construction site."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 7.6262547969818115,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What is the main purpose of fa",
+            "question": "Question: What is the main purpose of farmers?\n\nChoices:\na. raise cattle\nb. grow corn\nc. farm land\nd. drive tractors\ne. supply food",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 12.99308967590332,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can I put this penny to ",
+            "question": "Question: Where can I put this penny to save for later?\n\nChoices:\na. piggy bank\nb. wallet\nc. toy\nd. ground\ne. pocket",
+            "answerKey": "a",
+            "cot_output": "Step 1: Saving a penny implies storing it in a container specifically meant for accumulating money over time.\nStep 2: Of the options, a piggy bank is conventionally used to save money, while a wallet is more for immediate spending.\nStep 3: The remaining options (toy, ground, pocket) are unsuitable for long-term saving.\nStep 4: Therefore, the best place to put the penny for saving later is in the piggy bank.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Saving a penny implies storing it in a container specifically meant for accumulating money over time.",
+                "Of the options, a piggy bank is conventionally used to save money, while a wallet is more for immediate spending.",
+                "The remaining options (toy, ground, pocket) are unsuitable for long-term saving.",
+                "Therefore, the best place to put the penny for saving later is in the piggy bank."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.616295576095581,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you put uncooked c",
+            "question": "Question: Where would you put uncooked crab meat?\n\nChoices:\na. wharf\nb. red lobster\nc. tidepools\nd. boss's office\ne. stew pot",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 12.643788576126099,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man had a fear of illness,",
+            "question": "Question: The man had a fear of illness, so he never visited friends who were a what?\n\nChoices:\na. sick person\nb. hospital\nc. elderly person\nd. graveyard\ne. doctor's office",
+            "answerKey": "a",
+            "cot_output": "Step 1: The question states the man had a fear of illness, which indicates his actions are influenced by his concern about getting sick.  \nStep 2: If he avoids visiting friends because of this fear, then there's likely something about those friends that might expose him to illness.  \nStep 3: Among the options, a \"sick person\" is someone currently ill and more likely to be a source of contagious disease, making them a logical subject for his avoidance.  \nStep 4: The other options (hospital, elderly person, graveyard, doctor's office) either refer to locations or a category of people who are not necessarily contagious.  \nStep 5: Therefore, the choice that directly connects with a fear of contracting illness is visiting friends who were \"sick persons.\"  \n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question states the man had a fear of illness, which indicates his actions are influenced by his concern about getting sick.  ",
+                "If he avoids visiting friends because of this fear, then there's likely something about those friends that might expose him to illness.  ",
+                "Among the options, a \"sick person\" is someone currently ill and more likely to be a source of contagious disease, making them a logical subject for his avoidance.  ",
+                "The other options (hospital, elderly person, graveyard, doctor's office) either refer to locations or a category of people who are not necessarily contagious.  ",
+                "Therefore, the choice that directly connects with a fear of contracting illness is visiting friends who were \"sick persons.\"  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.935911417007446,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where would you put pans if yo",
+            "question": "Question: Where would you put pans if you want to bring them with you?\n\nChoices:\na. cooking\nb. cook food\nc. kitchen\nd. backpack\ne. drawer",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question asks where to put pans if you want to bring them with you, implying the need for a portable container.\nStep 2: Options like \"cooking,\" \"cook food,\" and \"kitchen\" refer to activities or locations that do not serve as portable containers.\nStep 3: The option \"drawer\" is usually a fixed storage item and isn’t practical for transportation.\nStep 4: The option \"backpack\" is a portable container designed to carry items with you.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks where to put pans if you want to bring them with you, implying the need for a portable container.",
+                "Options like \"cooking,\" \"cook food,\" and \"kitchen\" refer to activities or locations that do not serve as portable containers.",
+                "The option \"drawer\" is usually a fixed storage item and isn’t practical for transportation.",
+                "The option \"backpack\" is a portable container designed to carry items with you."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.931957721710205,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If you're remembering somethin",
+            "question": "Question: If you're remembering something, it's because of your what of it to begin with?\n\nChoices:\na. knowledge\nb. knowing\nc. forgetful\nd. pleasure\ne. depression",
+            "answerKey": "b",
+            "cot_output": "Step 1: The question asks what you must have had originally in order to remember something, implying that remembering is based on an earlier experience or acquisition of information.  \nStep 2: I consider that remembering something suggests a prior process of acquiring or internalizing information. This points towards a state or process of \"knowing\" rather than any unrelated states.  \nStep 3: Looking at the choices, \"knowledge\" (Choice A) is a noun referring to what is known, but the phrasing \"your knowledge of it\" is less fluid than \"your knowing of it\" for explaining the process that leads to remembrance.  \nStep 4: \"Knowing\" (Choice B) as a gerund better captures the process of coming to have that information originally, which is necessary for later remembering it.  \nStep 5: The options \"forgetful\" (Choice C), \"pleasure\" (Choice D), and \"depression\" (Choice E) do not logically explain the mechanism of memory formation.  \nStep 6: Therefore, the answer that directly explains the process by which you can later remember something is \"knowing.\"  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks what you must have had originally in order to remember something, implying that remembering is based on an earlier experience or acquisition of information.  ",
+                "I consider that remembering something suggests a prior process of acquiring or internalizing information. This points towards a state or process of \"knowing\" rather than any unrelated states.  ",
+                "Looking at the choices, \"knowledge\" (Choice A) is a noun referring to what is known, but the phrasing \"your knowledge of it\" is less fluid than \"your knowing of it\" for explaining the process that leads to remembrance.  ",
+                "\"Knowing\" (Choice B) as a gerund better captures the process of coming to have that information originally, which is necessary for later remembering it.  ",
+                "The options \"forgetful\" (Choice C), \"pleasure\" (Choice D), and \"depression\" (Choice E) do not logically explain the mechanism of memory formation.  ",
+                "Therefore, the answer that directly explains the process by which you can later remember something is \"knowing.\"  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.047711133956909,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Which large land mass is home ",
+            "question": "Question: Which large land mass is home to the most monkeys?\n\nChoices:\na. amazon basin\nb. friend's house\nc. lift number 3\nd. research laboratory\ne. african continent",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.491501331329346,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Friday was James's 5th Anniver",
+            "question": "Question: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?\n\nChoices:\na. rest\nb. insomnia\nc. making love\nd. sleeping in\ne. texting",
+            "answerKey": "c",
+            "cot_output": "Step 1: Recognize that a 5th Anniversary is a significant romantic occasion, implying that the couple planned to celebrate their relationship.  \nStep 2: Understand that planning to go to bed early suggests they intended to spend quality time together in an intimate setting.  \nStep 3: Evaluate the choices: \"rest\" and \"sleeping in\" imply general sleep or relaxation, \"insomnia\" doesn't fit intentional planning, and \"texting\" is not typically associated with anniversary celebrations; \"making love\" best fits the context of a planned, intimate, romantic activity.  \nStep 4: Conclude that \"making love\" is the option that aligns with the scenario of a planned romantic and intimate evening to celebrate an anniversary.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that a 5th Anniversary is a significant romantic occasion, implying that the couple planned to celebrate their relationship.  ",
+                "Understand that planning to go to bed early suggests they intended to spend quality time together in an intimate setting.  ",
+                "Evaluate the choices: \"rest\" and \"sleeping in\" imply general sleep or relaxation, \"insomnia\" doesn't fit intentional planning, and \"texting\" is not typically associated with anniversary celebrations; \"making love\" best fits the context of a planned, intimate, romantic activity.  ",
+                "Conclude that \"making love\" is the option that aligns with the scenario of a planned romantic and intimate evening to celebrate an anniversary.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 5.438158988952637,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The teens were trying to hide ",
+            "question": "Question: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?\n\nChoices:\na. health\nb. fall down\nc. stagger\nd. get arrested\ne. vomit",
+            "answerKey": "c",
+            "cot_output": "Step 1: Recognize that the teens in the scenario are trying to hide that they have been drinking, which typically results in observable physical signs.  \nStep 2: Consider that one common observable sign of intoxication is a noticeable, uneven, or unsteady gait.  \nStep 3: Among the provided choices, \"stagger\" directly describes this unsteady gait that would reveal intoxication.  \nStep 4: Confirm that options such as \"health,\" \"fall down,\" \"get arrested,\" and \"vomit\" either do not directly correspond to a subtle sign or are less typical behaviors when arriving home.  \nStep 5: Conclude that \"stagger\" is the correct answer.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the teens in the scenario are trying to hide that they have been drinking, which typically results in observable physical signs.  ",
+                "Consider that one common observable sign of intoxication is a noticeable, uneven, or unsteady gait.  ",
+                "Among the provided choices, \"stagger\" directly describes this unsteady gait that would reveal intoxication.  ",
+                "Confirm that options such as \"health,\" \"fall down,\" \"get arrested,\" and \"vomit\" either do not directly correspond to a subtle sign or are less typical behaviors when arriving home.  ",
+                "Conclude that \"stagger\" is the correct answer.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 5.873676538467407,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_You'll find a landing at the t",
+            "question": "Question: You'll find a landing at the top of what?\n\nChoices:\na. ocean\nb. apartment building\nc. stairwell\nd. airport\ne. room",
+            "answerKey": "c",
+            "cot_output": "Step 1: Recognize that \"landing\" commonly refers to a flat area found at the top of a staircase where people can pause or change direction.\nStep 2: Analyze the remaining choices: an ocean, an apartment building, an airport, and a room, and determine none of these uniquely relate to the specific term \"landing\" in the same way a staircase does.\nStep 3: Notice that the option \"stairwell\" explicitly involves stairs and includes a landing at its top, making it the most logically appropriate choice.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that \"landing\" commonly refers to a flat area found at the top of a staircase where people can pause or change direction.",
+                "Analyze the remaining choices: an ocean, an apartment building, an airport, and a room, and determine none of these uniquely relate to the specific term \"landing\" in the same way a staircase does.",
+                "Notice that the option \"stairwell\" explicitly involves stairs and includes a landing at its top, making it the most logically appropriate choice."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.7817344665527344,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Anybody could be hired in the ",
+            "question": "Question: Anybody could be hired in the kitchen, what was needed of them?\n\nChoices:\na. forget\nb. oil squeaky hinge\nc. question authority\nd. wash dishes\ne. oik squeaky hinge",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question asks what was needed of anybody hired in the kitchen.\nStep 2: Considering the choices, we look for a task that is practical and common in a kitchen setting.\nStep 3: \"Wash dishes\" (Choice D) is a fundamental task in any kitchen job, directly matching the requirement.\nStep 4: The other choices (forget, oil squeaky hinge, question authority, and oik squeaky hinge) do not align with typical kitchen duties.\nStep 5: Based on the logical association between kitchen work and dish washing, we conclude that washing dishes is the needed skill/task.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question asks what was needed of anybody hired in the kitchen.",
+                "Considering the choices, we look for a task that is practical and common in a kitchen setting.",
+                "\"Wash dishes\" (Choice D) is a fundamental task in any kitchen job, directly matching the requirement.",
+                "The other choices (forget, oil squeaky hinge, question authority, and oik squeaky hinge) do not align with typical kitchen duties.",
+                "Based on the logical association between kitchen work and dish washing, we conclude that washing dishes is the needed skill/task."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.1196839809417725,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Where can you find a number of",
+            "question": "Question: Where can you find a number of wind instruments together in public?\n\nChoices:\na. music store\nb. create music\nc. zoo\nd. music room\ne. symphony",
+            "answerKey": "e",
+            "cot_output": "Step 1: Determine that wind instruments (like flutes, clarinets, trumpets) are typically found where instruments are stored, sold, or performed.  \nStep 2: Evaluate Choice A, \"music store\": A music store is a public place that displays and sells various musical instruments, including many wind instruments.  \nStep 3: Evaluate Choice B, \"create music\": This is an activity, not a physical location where instruments are assembled.  \nStep 4: Evaluate Choice C, \"zoo\": Zoos are for animals, not musical instruments.  \nStep 5: Evaluate Choice D, \"music room\": Although a music room may contain instruments, it is generally a private or limited-access space rather than a public place displaying many instruments.  \nStep 6: Since the question specifically asks for a place in public where multiple wind instruments can be found, and Choice A fits that description best, we choose A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine that wind instruments (like flutes, clarinets, trumpets) are typically found where instruments are stored, sold, or performed.  ",
+                "Evaluate Choice A, \"music store\": A music store is a public place that displays and sells various musical instruments, including many wind instruments.  ",
+                "Evaluate Choice B, \"create music\": This is an activity, not a physical location where instruments are assembled.  ",
+                "Evaluate Choice C, \"zoo\": Zoos are for animals, not musical instruments.  ",
+                "Evaluate Choice D, \"music room\": Although a music room may contain instruments, it is generally a private or limited-access space rather than a public place displaying many instruments.  ",
+                "Since the question specifically asks for a place in public where multiple wind instruments can be found, and Choice A fits that description best, we choose A."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 10.75611400604248,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A mountie got off at a subway ",
+            "question": "Question: A mountie got off at a subway stop.  What city might he be in?\n\nChoices:\na. urban area\nb. metropolis\nc. chicago\nd. new york city\ne. toronto",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.349940061569214,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What do you want someone to do",
+            "question": "Question: What do you want someone to do when you illustrate point?\n\nChoices:\na. did not understand\nb. accepting\nc. make clear\nd. understood\ne. understanding",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that “illustrate point” means to provide an explanation or example that clarifies an idea.  \nStep 2: Understand that the desired result of illustrating a point is for the message to be clear to the listener or reader.  \nStep 3: Compare the choices. Option A (“did not understand”) is contrary to the goal; Option B (“accepting”) does not address clarity; Option D (“understood”) is a state rather than an action resulting from illustration; Option E (“understanding”) is a gerund form that does not directly capture the aim of making something clear.  \nStep 4: Conclude that Option C (“make clear”) best captures the intended effect of illustrating a point—it is to explain in a way that makes the idea clear to others.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that “illustrate point” means to provide an explanation or example that clarifies an idea.  ",
+                "Understand that the desired result of illustrating a point is for the message to be clear to the listener or reader.  ",
+                "Compare the choices. Option A (“did not understand”) is contrary to the goal; Option B (“accepting”) does not address clarity; Option D (“understood”) is a state rather than an action resulting from illustration; Option E (“understanding”) is a gerund form that does not directly capture the aim of making something clear.  ",
+                "Conclude that Option C (“make clear”) best captures the intended effect of illustrating a point—it is to explain in a way that makes the idea clear to others.  "
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 8.931102752685547,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Billy set aside a block of tim",
+            "question": "Question: Billy set aside a block of time for having fun after work. Why might he do this?\n\nChoices:\na. happiness\nb. stress relief\nc. pleasure\nd. ocean\ne. may laugh",
+            "answerKey": "b",
+            "cot_output": "Step 1: Billy's decision to set aside time specifically for fun after work suggests he wants to counterbalance the stresses from his work day.  \nStep 2: Allocating time for fun is a common method for alleviating tension and reducing stress levels, implying he wants to relax.  \nStep 3: Out of the choices, \"stress relief\" (Choice B) directly addresses the purpose of setting aside fun time to decompress after work, whereas the other options (happiness, pleasure, ocean, may laugh) are either too general or irrelevant.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Billy's decision to set aside time specifically for fun after work suggests he wants to counterbalance the stresses from his work day.  ",
+                "Allocating time for fun is a common method for alleviating tension and reducing stress levels, implying he wants to relax.  ",
+                "Out of the choices, \"stress relief\" (Choice B) directly addresses the purpose of setting aside fun time to decompress after work, whereas the other options (happiness, pleasure, ocean, may laugh) are either too general or irrelevant.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.8834052085876465,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man in the white suit was ",
+            "question": "Question: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?\n\nChoices:\na. restless\nb. active\nc. lazybutt\nd. productive\ne. hard work",
+            "answerKey": "d",
+            "cot_output": "Step 1: The passage contrasts two individuals: one “in the white suit” who was very lazy and did nothing useful, and another “in the blue” who put in effort.  \nStep 2: Since the white-suited man exemplifies idleness, the man in the blue, by contrast, must represent the opposite quality.  \nStep 3: Looking at the options, “restless” and “lazybutt” are negative or unhelpful descriptors, and “hard work” is a noun rather than an adjective.  \nStep 4: This leaves “active” and “productive” as potential opposites of lazy.  \nStep 5: The phrase “did nothing useful” indicates that being useful or yielding results is important here, which aligns more with “productive” than simply “active.”  \nStep 6: Therefore, the best answer is that the man in the blue was very productive.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The passage contrasts two individuals: one “in the white suit” who was very lazy and did nothing useful, and another “in the blue” who put in effort.  ",
+                "Since the white-suited man exemplifies idleness, the man in the blue, by contrast, must represent the opposite quality.  ",
+                "Looking at the options, “restless” and “lazybutt” are negative or unhelpful descriptors, and “hard work” is a noun rather than an adjective.  ",
+                "This leaves “active” and “productive” as potential opposites of lazy.  ",
+                "The phrase “did nothing useful” indicates that being useful or yielding results is important here, which aligns more with “productive” than simply “active.”  ",
+                "Therefore, the best answer is that the man in the blue was very productive."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.2966625690460205,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would you be unable to do",
+            "question": "Question: What would you be unable to do if you have too much greed?\n\nChoices:\na. keep things\nb. make friends\nc. play poker\nd. conquer opponent\ne. lie",
+            "answerKey": "b",
+            "cot_output": "Step 1: Excessive greed focuses one’s interests on accumulating wealth or possessions primarily for personal gain.  \nStep 2: In chasing such accumulation, the interactions with others tend to become transactional rather than genuine, which impedes building bonds.  \nStep 3: Since genuine friendship often requires selflessness and trust, too much greed can create distrust and self-interest, making it difficult to develop healthy friendships.  \nStep 4: While having greed might not directly prevent someone from keeping things, playing poker, conquering opponents, or lying, it directly undermines the ability to foster genuine interpersonal relationships.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Excessive greed focuses one’s interests on accumulating wealth or possessions primarily for personal gain.  ",
+                "In chasing such accumulation, the interactions with others tend to become transactional rather than genuine, which impedes building bonds.  ",
+                "Since genuine friendship often requires selflessness and trust, too much greed can create distrust and self-interest, making it difficult to develop healthy friendships.  ",
+                "While having greed might not directly prevent someone from keeping things, playing poker, conquering opponents, or lying, it directly undermines the ability to foster genuine interpersonal relationships.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.5137879848480225,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_It was a long trip from the fa",
+            "question": "Question: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?\n\nChoices:\na. bed away from home\nb. wwii bunker\nc. resort\nd. las vegas\ne. city",
+            "answerKey": "e",
+            "cot_output": "Step 1: The sentence mentions “a long trip from the farm,” which implies transitioning from a rural setting to a more urban environment.  \nStep 2: The detail that “he stayed in a hotel” suggests that he had arrived at a place where hotels are commonly found, such as a city or resort.  \nStep 3: Examining the options, “bed away from home” and “WWII bunker” do not logically fit as typical destinations after a long trip from a farm.  \nStep 4: Between “resort,” “las vegas,” and “city,” the most general and natural destination for someone traveling from the countryside is in a city.  \nStep 5: Although “Las Vegas” is a famous city known for hotels, the context implies a generic urban destination rather than a specific one.  \nStep 6: Therefore, the best completion of the sentence is “city.”\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The sentence mentions “a long trip from the farm,” which implies transitioning from a rural setting to a more urban environment.  ",
+                "The detail that “he stayed in a hotel” suggests that he had arrived at a place where hotels are commonly found, such as a city or resort.  ",
+                "Examining the options, “bed away from home” and “WWII bunker” do not logically fit as typical destinations after a long trip from a farm.  ",
+                "Between “resort,” “las vegas,” and “city,” the most general and natural destination for someone traveling from the countryside is in a city.  ",
+                "Although “Las Vegas” is a famous city known for hotels, the context implies a generic urban destination rather than a specific one.  ",
+                "Therefore, the best completion of the sentence is “city.”"
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 11.92891263961792,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I did not need a servant.  I w",
+            "question": "Question: I did not need a servant.  I was not a what?\n\nChoices:\na. freedom\nb. rich person\nc. hired help\nd. in charge\ne. busy",
+            "answerKey": "b",
+            "cot_output": "Step 1: The statement \"I did not need a servant\" implies that the subject did not have the status or wealth that typically necessitates having a servant.  \nStep 2: Among the choices, \"rich person\" is the one most logically related to having or not having a servant, since wealth is commonly associated with being able to employ servants.  \nStep 3: The other choices (freedom, hired help, in charge, busy) do not directly connect to the concept of needing a servant based on wealth or social status.  \nStep 4: Therefore, the statement \"I was not a what?\" fits best with \"rich person\" as it explains why a servant would not be needed.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The statement \"I did not need a servant\" implies that the subject did not have the status or wealth that typically necessitates having a servant.  ",
+                "Among the choices, \"rich person\" is the one most logically related to having or not having a servant, since wealth is commonly associated with being able to employ servants.  ",
+                "The other choices (freedom, hired help, in charge, busy) do not directly connect to the concept of needing a servant based on wealth or social status.  ",
+                "Therefore, the statement \"I was not a what?\" fits best with \"rich person\" as it explains why a servant would not be needed.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.4403486251831055,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_How would you get from one sid",
+            "question": "Question: How would you get from one side of a canal to another?\n\nChoices:\na. michigan\nb. amsterdam\nc. venice\nd. bridge\ne. barges to travel on",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the question asks for a method to cross a canal, implying moving from one side to the other.  \nStep 2: Analyze each choice: \"michigan,\" \"amsterdam,\" and \"venice\" refer to places rather than means of crossing a canal, while \"bridge\" clearly denotes a structure built to span water obstacles.  \nStep 3: Although \"barges to travel on\" is another possible method, it is not one of the accepted final answer letters (A, B, C, or D).  \nStep 4: Conclude that a \"bridge\" is the most direct and logical answer for crossing a canal.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the question asks for a method to cross a canal, implying moving from one side to the other.  ",
+                "Analyze each choice: \"michigan,\" \"amsterdam,\" and \"venice\" refer to places rather than means of crossing a canal, while \"bridge\" clearly denotes a structure built to span water obstacles.  ",
+                "Although \"barges to travel on\" is another possible method, it is not one of the accepted final answer letters (A, B, C, or D).  ",
+                "Conclude that a \"bridge\" is the most direct and logical answer for crossing a canal.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 5.113269567489624,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When learning about the world ",
+            "question": "Question: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions\n\nChoices:\na. newness\nb. loss of innocence\nc. enlightenment\nd. open mind\ne. smartness",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question emphasizes the importance of eliminating preconceived notions when learning about different cultures.\nStep 2: Eliminating preconceived notions suggests not relying on previous biases or assumptions.\nStep 3: Among the choices provided, \"open mind\" directly refers to the willingness to accept and consider new ideas without pre-judgment.\nStep 4: Hence, maintaining an \"open mind\" is essential for learning about different cultures without preconceived biases.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question emphasizes the importance of eliminating preconceived notions when learning about different cultures.",
+                "Eliminating preconceived notions suggests not relying on previous biases or assumptions.",
+                "Among the choices provided, \"open mind\" directly refers to the willingness to accept and consider new ideas without pre-judgment.",
+                "Hence, maintaining an \"open mind\" is essential for learning about different cultures without preconceived biases."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.211050510406494,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_An underrated thing about comp",
+            "question": "Question: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?\n\nChoices:\na. share files\nb. do arithmetic\nc. turn on\nd. cost money\ne. multitask",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.564976930618286,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Obstructing justice is sometim",
+            "question": "Question: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?\n\nChoices:\na. committing perjury\nb. prosecution\nc. attack\nd. getting hurt\ne. riot",
+            "answerKey": "d",
+            "cot_output": "Step 1: The phrase “obstructing justice” used as an excuse for police brutality implies that the police may be misusing legal procedures to hide their abuses, which undermines trust in authority.\nStep 2: When police engage in brutality, the affected individuals and communities often feel anger and betrayal.\nStep 3: This anger can escalate into collective unrest, where people channel their frustration into public demonstrations or riots.\nStep 4: Among the choices given, the option “riot” best captures this reaction of people protesting or reacting violently to perceived injustice.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase “obstructing justice” used as an excuse for police brutality implies that the police may be misusing legal procedures to hide their abuses, which undermines trust in authority.",
+                "When police engage in brutality, the affected individuals and communities often feel anger and betrayal.",
+                "This anger can escalate into collective unrest, where people channel their frustration into public demonstrations or riots.",
+                "Among the choices given, the option “riot” best captures this reaction of people protesting or reacting violently to perceived injustice."
+            ],
+            "pred": "E",
+            "is_correct": false,
+            "elapsed_time": 11.365916013717651,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_While washing clothes they bec",
+            "question": "Question: While washing clothes they became what when caught on the sharp object?\n\nChoices:\na. damaged\nb. wet clothes\nc. wear out\nd. torn\ne. have fun",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question context involves washing clothes that get caught on a sharp object, which suggests physical damage rather than a transformation into a different state (e.g., \"wet clothes\" or \"have fun\").\nStep 2: A sharp object is likely to cause a cut or rip, and while \"damaged\" could be a general description, \"torn\" more specifically describes what happens when fabric is cut.\nStep 3: Options \"wear out\" and \"have fun\" do not logically fit the scenario of an accident with a sharp object.\nStep 4: Thus, \"torn\" is the best choice to describe the outcome of clothes getting caught on a sharp object.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question context involves washing clothes that get caught on a sharp object, which suggests physical damage rather than a transformation into a different state (e.g., \"wet clothes\" or \"have fun\").",
+                "A sharp object is likely to cause a cut or rip, and while \"damaged\" could be a general description, \"torn\" more specifically describes what happens when fabric is cut.",
+                "Options \"wear out\" and \"have fun\" do not logically fit the scenario of an accident with a sharp object.",
+                "Thus, \"torn\" is the best choice to describe the outcome of clothes getting caught on a sharp object."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.854428768157959,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Seafood restaurants are used t",
+            "question": "Question: Seafood restaurants are used to draw tourists where?\n\nChoices:\na. maine\nb. shoe shop\nc. city\nd. boston\ne. coastal cities",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.342052459716797,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James's nice asked him about h",
+            "question": "Question: James's nice asked him about her grandfather. She was interested in learning about what?\n\nChoices:\na. family tree\nb. family reunion\nc. babysitting\nd. brother's house\ne. heirlooms",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that \"James's nice\" is likely a misspelling of \"James's niece,\" indicating a familial relationship where a younger relative is asking about her family.\nStep 2: Understand that asking about her grandfather suggests an interest in family history rather than physical objects or events.\nStep 3: Among the provided options, \"family tree\" directly relates to the idea of exploring one's ancestry and lineage.\nStep 4: The other options (family reunion, babysitting, brother's house, heirlooms) do not logically connect with a query about a grandfather's identity or history.\nStep 5: Therefore, the choice that best fits the scenario is \"family tree.\"\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that \"James's nice\" is likely a misspelling of \"James's niece,\" indicating a familial relationship where a younger relative is asking about her family.",
+                "Understand that asking about her grandfather suggests an interest in family history rather than physical objects or events.",
+                "Among the provided options, \"family tree\" directly relates to the idea of exploring one's ancestry and lineage.",
+                "The other options (family reunion, babysitting, brother's house, heirlooms) do not logically connect with a query about a grandfather's identity or history.",
+                "Therefore, the choice that best fits the scenario is \"family tree.\""
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.41266131401062,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_James looked up and saw the st",
+            "question": "Question: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?\n\nChoices:\na. universe\nb. orbit\nc. night sky\nd. outer space\ne. his wallet",
+            "answerKey": "a",
+            "cot_output": "Step 1: The phrase \"looked up and saw the stars twinkling in the black yonder\" clearly indicates that James is observing stars in the dark expanse above him.  \nStep 2: The expression \"black yonder\" directly refers to the night sky, which is the setting where stars are visible.  \nStep 3: James marveled not only at the number of stars but also at the vast size of the area in which they appear, which naturally is the night sky.  \nStep 4: Comparing the choices, “night sky” (Choice C) best fits the description provided by the text, as it directly relates to the observed expanse where the stars twinkle.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"looked up and saw the stars twinkling in the black yonder\" clearly indicates that James is observing stars in the dark expanse above him.  ",
+                "The expression \"black yonder\" directly refers to the night sky, which is the setting where stars are visible.  ",
+                "James marveled not only at the number of stars but also at the vast size of the area in which they appear, which naturally is the night sky.  ",
+                "Comparing the choices, “night sky” (Choice C) best fits the description provided by the text, as it directly relates to the observed expanse where the stars twinkle.  "
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 9.456119775772095,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_What would encourage someone t",
+            "question": "Question: What would encourage someone to continue playing tennis?\n\nChoices:\na. becoming tired\nb. tennis elbow\nc. exercise\nd. hunger\ne. victory",
+            "answerKey": "e",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.10126543045044,
+            "tokens_used": null
+        }
+    ]
+}

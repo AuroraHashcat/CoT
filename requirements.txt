@@ -4,6 +4,7 @@ datasets
 tqdm
 pyyaml
 requests
+beautifulsoup4
 
 # For local model inference
 # Install these if you plan to use local models

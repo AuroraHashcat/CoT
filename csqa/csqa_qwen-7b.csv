@@ -1,0 +1,221 @@
+id,input,label,num_variables,template,expected_answer
+1afa02df02c908a558b4036e80242fac,"Premise: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?
+Hypothesis: ",True,2,unknown,None
+a7ab086045575bb497933726e4e6ad28,"Premise: What do people aim to do at work?
+Hypothesis: ",True,2,unknown,None
+b8c0a4703079cf661d7261a60a1bcbff,"Premise: Where would you find magazines along side many other printed works?
+Hypothesis: ",True,2,unknown,None
+e68fb2448fd74e402aae9982aa76e527,"Premise: Where are  you likely to find a hamburger?
+Hypothesis: ",True,2,unknown,None
+2435de612dd69f2012b9e40d6af4ce38,"Premise: James was looking for a good place to buy farmland.  Where might he look?
+Hypothesis: Where might he look?",True,2,unknown,None
+a4892551cb4beb279653ae52d0de4c89,"Premise: What island country is ferret popular?
+Hypothesis: ",True,2,unknown,None
+118a9093a30695622363455e4d911866,"Premise: In what Spanish speaking North American country can you get a great cup of coffee?
+Hypothesis: ",True,2,unknown,None
+05ea49b82e8ec519e82d6633936ab8bf,"Premise: What do animals do when an enemy is approaching?
+Hypothesis: ",True,2,unknown,None
+c0c07ce781653b2a2c01871ba2bcba93,"Premise: Reading newspaper one of many ways to practice your what?
+Hypothesis: ",True,2,unknown,None
+1d24f406b6828492040b405d3f35119c,"Premise: What do people typically do while playing guitar?
+Hypothesis: ",False,2,unknown,None
+57f92025d860e32c4e780c0d51c1c20c,"Premise: What would vinyl be an odd thing to replace?
+Hypothesis: ",False,2,unknown,None
+81eb4b2ee66edd8bc91ee944697c4e9f,"Premise: If you want harmony, what is something you should try to do with the world?
+Hypothesis: ",True,2,unknown,None
+d807e7ae60976324920c8d29eb42dad6,"Premise: Where does a heifer's master live?
+Hypothesis: ",True,2,unknown,None
+7ea9f721ffc662918bb0c0937a487f04,"Premise: Aside from water and nourishment what does your dog need?
+Hypothesis: ",False,2,unknown,None
+fc1d33a2301a30214523c12573f81aba,"Premise: Janet was watching the film because she liked what?
+Hypothesis: ",True,2,unknown,None
+3b8e1d236f5169b6c833a994d6d9c39a,"Premise: What are you waiting alongside with when you're in a reception area?
+Hypothesis: ",True,2,unknown,None
+c5c4166f2ed3c2b3517b79e6848e9ae2,"Premise: When drinking booze what can you do to stay busy?
+Hypothesis: ",True,2,unknown,None
+6dc5b2884737e66543ce65f8dc40c992,"Premise: A fencing thrust with a sharp sword towards a person would result in what?
+Hypothesis: ",True,2,unknown,None
+8af63d58cc35061dec38e5448c325988,"Premise: Unlike a spider and his many sight seers, people only have what?
+Hypothesis: ",True,2,unknown,None
+768fb09deab56046e1565b6a2556ad5c,"Premise: Where do adults use glue sticks?
+Hypothesis: ",True,2,unknown,None
+cd639cf3ff82f825ace7dd2b087562bd,"Premise: What could go on top of wood?
+Hypothesis: ",True,2,unknown,None
+8d79cc5e4eea11f50fab18fdea20fd4f,"Premise: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?
+Hypothesis: ",True,2,unknown,None
+e5ad2184e37ae88b2bf46bf6bc0ed2f4,"Premise: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?
+Hypothesis: ",True,2,unknown,None
+b8b287b6277fccd4b7c9c72577177328,"Premise: Where could you find a toilet that only friends can use?
+Hypothesis: ",True,2,unknown,None
+f646f3e064f06423fc25b98500796cf0,"Premise: What is someone who isn't clever, bright, or competent called?
+Hypothesis: ",True,2,unknown,None
+b0f7d7978ac41c465108a92660d70e84,"Premise: When wildlife reproduce we often refer to what comes out as what?
+Hypothesis: ",True,2,unknown,None
+54075de8b8b89ecef2e4eb4eaee2713d,"Premise: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?
+Hypothesis: ",True,2,unknown,None
+65435b996ce9d1685bebb74b49c1ba7f,"Premise: Blue read material outside of his comfort zone because he wanted to gain what?
+Hypothesis: ",True,2,unknown,None
+9889e5389917d812c09d6e5d382d333d,"Premise: After he got hired he hoped for success at his what?
+Hypothesis: ",True,2,unknown,None
+a651ffa44ac5febf0aede6748899b981,"Premise: Committing perjury is a serious what?
+Hypothesis: ",True,2,unknown,None
+bdcfbe2132295d437e4c5701085f19c0,"Premise: If you are prone to postpone work what will you have to do in order to finish on time?
+Hypothesis: ",True,2,unknown,None
+8d3dc21a53523850ec80771daaa5ff20,"Premise: James wanted to find an old underground map from the 50s.  Where might he look for one?
+Hypothesis: ",True,2,unknown,None
+a80ee7775e934c423012fe98e20ba28b,"Premise: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?
+Hypothesis: ",True,2,unknown,None
+48a315cfa3ce11f7a9d615bc854331d5,"Premise: Where would a person be doing when having to wait their turn?
+Hypothesis: ",True,2,unknown,None
+4acd496cc78d96c2431279a5fd87de7c,"Premise: She was always helping at the senior center, it brought her what?
+Hypothesis: ",False,2,unknown,None
+91e0f4ab62c9d2fd440d73a3f5308d96,"Premise: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?
+Hypothesis: ",True,2,unknown,None
+b61e849e44db16a581f0b65e28ab95dc,"Premise: Who is a police officer likely to work for?
+Hypothesis: ",True,2,unknown,None
+ba6bd1bdef02d0ebfe5370f92365ae18,"Premise: If you have leftover cake, where would you put it?
+Hypothesis: ",True,2,unknown,None
+dc55d473c22b04877b11d584f9548194,"Premise: A human wants to submerge himself in water, what should he use?
+Hypothesis: ",True,2,unknown,None
+113aaea2b1a27a976547f54e531d99bb,"Premise: Where is a doormat likely to be in front of?
+Hypothesis: ",True,2,unknown,None
+ba640b9634ad6b4ad98b17b4f152e562,"Premise: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?
+Hypothesis: ",True,2,unknown,None
+750ebdf36a0b3b407be0fe2163e3700b,"Premise: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?
+Hypothesis: ",True,2,unknown,None
+8f01273422a370a8dbda6bf473a395a0,"Premise: He needed more information to fix it, so he consulted the what?
+Hypothesis: ",True,2,unknown,None
+e6586bba9fe96d38792e6e6d4f2703dc,"Premise: Where can you put a picture frame when it's not hung vertically?
+Hypothesis: ",False,2,unknown,None
+6e433471d0e2590b8c73ceef275022b1,"Premise: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?
+Hypothesis: ",True,2,unknown,None
+1bc986f8aea88d6927d8a45367855a94,"Premise: What is the result of applying for  job?
+Hypothesis: ",True,2,unknown,None
+8d1563697d751a364d688d6701ebdb39,"Premise: What must someone do before they shop?
+Hypothesis: ",False,2,unknown,None
+91f512273a2da7ae796919069b20d6cf,"Premise: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?
+Hypothesis: ",True,2,unknown,None
+49cda7eedbf63b3f38e59ba72f1ee1f9,"Premise: What is a place that usually does not have an elevator and that sometimes has a telephone book?
+Hypothesis: ",False,2,unknown,None
+a588407ecaecf0f30c2241c30b470fe2,"Premise: Who is likely to be excited about a crab?
+Hypothesis: ",False,2,unknown,None
+011096bcfff30fd38046cf9db3a411c5,"Premise: Where can a human find clothes that aren't pants?
+Hypothesis: ",True,2,unknown,None
+435a728f45d32faa4b3c4553c966fd6b,"Premise: If I was getting drunk, and people couldn't understand me, what might I be having?
+Hypothesis: ",True,2,unknown,None
+e953dee48c70159ad879143a319ec607,"Premise: When a person is beginning work, what are they building?
+Hypothesis: ",True,2,unknown,None
+9c784727afd7176b54764055df7a7927,"Premise: A child wants to play, what would they likely want?
+Hypothesis: ",True,2,unknown,None
+b47d912136e3304cb5e5890b6b879551,"Premise: Talking to the same person about the same thing over and over again is something someone can what?
+Hypothesis: ",True,2,unknown,None
+49b4c9e1bd7946a819e173ce8fa4c7c9,"Premise: The teacher doesn't tolerate noise during a test in their what?
+Hypothesis: ",True,2,unknown,None
+950af0b765c298960ce3dada66df8db1,"Premise: The freeway had no traffic and few buildings, where is it?
+Hypothesis: ",True,2,unknown,None
+63cf1adb5fe302b9867ead8bc8103d0b,"Premise: Where would you go if you wanted to have fun with a few people?
+Hypothesis: ",False,2,unknown,None
+ede4d302fc2ffe07703158f83c1493f2,"Premise: If there is a place that is hot and arid, what could it be?
+Hypothesis: ",False,2,unknown,None
+74ad13a03634e79c85382f1b90969b74,"Premise: What is likely to satisfy someone's curiosity?
+Hypothesis: ",False,2,unknown,None
+49e466b1782aa4837dae53ff891fcdee,"Premise: If you are in a bar in a glove shaped state where are you?
+Hypothesis: ",True,2,unknown,None
+a8a8ae7792901c7179ff5538c701af1f,"Premise: Where would a computer user be using their own computer?
+Hypothesis: ",True,2,unknown,None
+2ffa3808ce26181926990b454e429c85,"Premise: Crabs live in what sort of environment?
+Hypothesis: ",False,2,unknown,None
+4319eaa36d256a92b72445c0392f9c94,"Premise: Where can you find a snake in tall grass?
+Hypothesis: ",True,2,unknown,None
+ec79ef747bb89281923edb89ba26786d,"Premise: What is a place that has a bench nestled in trees?
+Hypothesis: ",True,2,unknown,None
+2d33cde5e3987adc8fa2bca0af4dd3dd,"Premise: Where is a human likely to go as a result of being hungry?
+Hypothesis: ",True,2,unknown,None
+cc46d936bf69d69a3863b0cb85d75c17,"Premise: He was beginning to regret taking the fight when he saw how what his opponent was?
+Hypothesis: ",True,2,unknown,None
+46bc1a50eeead10509a43a048e01194e,"Premise: Where would you find a single shower curtain being used?
+Hypothesis: ",False,2,unknown,None
+4336a8c55b7cb17275d1c60206cd2f18,"Premise: Where is a good idea but not required to have a fire extinguisher?
+Hypothesis: ",False,2,unknown,None
+a287575d3ba4b9f958536fc14a1f5b5a,"Premise: What continent has the most castles?
+Hypothesis: ",True,2,unknown,None
+f481dc35b0a97a20dc5cdfe1a59746e2,"Premise: If you have to read a book that is very dry and long you may become what?
+Hypothesis: ",True,2,unknown,None
+c1c7a9efa379b8a7024a71cf364a144c,"Premise: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?
+Hypothesis: ",True,2,unknown,None
+821b32d39f57396979069b948030afe9,"Premise: The kids didn't clean up after they had done what?
+Hypothesis: ",True,2,unknown,None
+c68b4082a6872cf8198502651d0f3352,"Premise: Despite the name a pawn can be quite versatile, all the parts are important in a what?
+Hypothesis: ",True,2,unknown,None
+dd11fea36d89aa09f9a6069545ba4c9c,"Premise: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?
+Hypothesis: ",False,2,unknown,None
+7792b2c6518ecf9775efba6d41253312,"Premise: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?
+Hypothesis: ",True,2,unknown,None
+1feb4c2a0e8ed638259f5d27b16eae9a,"Premise: Where does a wild bird usually live?
+Hypothesis: ",True,2,unknown,None
+2de08c7a518b7c226e19bdc8fc10ef1d,"Premise: Where would you expect to find white mice?
+Hypothesis: ",True,2,unknown,None
+ea8664e77205224154f8519f922220e1,"Premise: John felt that his actions were fate.   Harry said that he could have always made a different what?
+Hypothesis: ",True,2,unknown,None
+a64d45cecde84fdcf5f0a79805a0c6fe,"Premise: What could committing murder prevent someone from doing?
+Hypothesis: ",False,2,unknown,None
+60e92cd2f35c345872d1a898e1718d55,"Premise: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?
+Hypothesis: ",True,2,unknown,None
+08f3c187908646997b9080c7e9ea7da4,"Premise: A crane uses many a steel cable when working a what?
+Hypothesis: ",True,2,unknown,None
+9aff72f0c480c2b4edde45bd2e7e4870,"Premise: What is the main purpose of farmers?
+Hypothesis: ",True,2,unknown,None
+fd243c96edec5b1b8520d5bfeddc6622,"Premise: Where can I put this penny to save for later?
+Hypothesis: ",True,2,unknown,None
+f5ec4fdfd0e37e733bfc1606b986f1e2,"Premise: Where would you put uncooked crab meat?
+Hypothesis: ",True,2,unknown,None
+e3c6d147f8a727d314046e70e9579ba0,"Premise: The man had a fear of illness, so he never visited friends who were a what?
+Hypothesis: ",True,2,unknown,None
+8ce13c6e08bf38d4cd4af756b661e47c,"Premise: Where would you put pans if you want to bring them with you?
+Hypothesis: ",True,2,unknown,None
+0f4159e80f8dbf682819215bbf0f5b5a_1,"Premise: If you're remembering something, it's because of your what of it to begin with?
+Hypothesis: ",False,2,unknown,None
+1a8b3c2a46efabcbd506f9cf70886ed0,"Premise: Which large land mass is home to the most monkeys?
+Hypothesis: ",True,2,unknown,None
+db0cfd52ca6b2bbfcf26d1a898fd929b,"Premise: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?
+Hypothesis: ",True,2,unknown,None
+400fb2e196e71abb70e5b3f9aab4b9ee,"Premise: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?
+Hypothesis: ",True,2,unknown,None
+3fb36127a61903029a363911a1d2b1e9_1,"Premise: You'll find a landing at the top of what?
+Hypothesis: ",True,2,unknown,None
+8494b0b95533dcedbd76ae2916c481d4,"Premise: Anybody could be hired in the kitchen, what was needed of them?
+Hypothesis: ",True,2,unknown,None
+1531f1523f5fd24bbdb42c311dbf90e8,"Premise: Where can you find a number of wind instruments together in public?
+Hypothesis: ",True,2,unknown,None
+716ce4404a84b42dd64e561390c4b53b,"Premise: A mountie got off at a subway stop.  What city might he be in?
+Hypothesis: ",False,2,unknown,None
+5169f7ae0781b15161551de3a189ebef,"Premise: What do you want someone to do when you illustrate point?
+Hypothesis: ",False,2,unknown,None
+ef22ef7aeec70aaa688720f805c1cf38,"Premise: Billy set aside a block of time for having fun after work. Why might he do this?
+Hypothesis: ",True,2,unknown,None
+514310637fb43a252bfadc8cbf79b277,"Premise: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?
+Hypothesis: ",True,2,unknown,None
+9370b2b0897b796dec4a40f107854c8d,"Premise: What would you be unable to do if you have too much greed?
+Hypothesis: ",True,2,unknown,None
+49902e768c45aa41a0f9f95be81114e5,"Premise: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?
+Hypothesis: ",False,2,unknown,None
+e1f90cd664a6b150291e6d8444d85c54,"Premise: I did not need a servant.  I was not a what?
+Hypothesis: ",True,2,unknown,None
+320ec9b68fdefe13d59cc8b628083790,"Premise: How would you get from one side of a canal to another?
+Hypothesis: ",True,2,unknown,None
+964185aed0e381853332bca1a4d91f46,"Premise: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions
+Hypothesis: ",True,2,unknown,None
+db8e010754c532d78635e5b7cf81a147,"Premise: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?
+Hypothesis: ",True,2,unknown,None
+998381f854f51da2a6ccde45909e5168,"Premise: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?
+Hypothesis: ",True,2,unknown,None
+bc38ad28e99cff7a65771233f734a007,"Premise: While washing clothes they became what when caught on the sharp object?
+Hypothesis: ",True,2,unknown,None
+e3949997bf9d02048cfa5d8dd0f287aa,"Premise: Seafood restaurants are used to draw tourists where?
+Hypothesis: ",True,2,unknown,None
+a7d51b753c2113d8b2dbd0ebb5375855,"Premise: James's nice asked him about her grandfather. She was interested in learning about what?
+Hypothesis: ",True,2,unknown,None
+3e4b326aff96e9adbb52ba18cfa877b2,"Premise: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?
+Hypothesis: ",True,2,unknown,None
+5ac83e9e6fa9851ad3cccb0d57c1d88f,"Premise: What would encourage someone to continue playing tennis?
+Hypothesis: ",True,2,unknown,None

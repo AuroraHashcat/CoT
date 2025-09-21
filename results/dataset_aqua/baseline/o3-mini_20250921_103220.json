@@ -1,0 +1,1759 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "88.00%",
+            "total_successful_pipelines": 88,
+            "avg_elapsed_time": 6.338665931224823,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.88
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "gpqa_A car is being driven , in a s",
+            "question": "Question: A car is being driven , in a straight line and at a uniform speed , towards the base of a vertical tower . The top of the tower is observed from the car and , in the process , it takes 10 minutes for the angle of elevation to change from 45 ° to 60 ° . After how much more time will this car reach the base of the tower ?\n\nChoices:\na. 5 ( √ 3 + 1 )\nb. 6 ( √ 3 + √ 2 )\nc. 7 ( √ 3 – 1 )\nd. 8 ( √ 3 – 2 )\ne. None of these",
+            "answerKey": "a",
+            "cot_output": "Step 1: Assign the height of the tower as h. When the angle of elevation is 45°, we have tan 45° = h/x₁. Since tan 45° = 1, it follows that x₁ = h (the car is h distance away).\n\nStep 2: When the angle of elevation is 60°, tan 60° = h/x₂. Because tan 60° = √3, we find that x₂ = h/√3 (the car is h/√3 from the tower).\n\nStep 3: The car covers the distance from x₁ to x₂ in 10 minutes. This distance is:\n  Distance = x₁ - x₂ = h - (h/√3) = h(1 - 1/√3).\n\nStep 4: The car's constant speed (v) is:\n  v = [h(1 - 1/√3)] / 10.\n\nStep 5: The remaining distance to the tower is x₂ = h/√3. The additional time (T) needed is:\n  T = (h/√3) / v = (h/√3) / ([h(1 - 1/√3)]/10) = 10/(√3(1 - 1/√3)).\n\nStep 6: Simplify T by rewriting (1 - 1/√3) as (√3 - 1)/√3:\n  T = 10/(√3 * [(√3 - 1)/√3]) = 10/(√3 - 1).\n\nStep 7: Rationalize the denominator:\n  T = 10/(√3 - 1) × ((√3 + 1)/(√3 + 1)) = 10(√3 + 1)/(3 - 1) = 10(√3 + 1)/2 = 5(√3 + 1).\n\nStep 8: Since this result matches one of the given choices, the additional time required is 5(√3 + 1) minutes.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assign the height of the tower as h. When the angle of elevation is 45°, we have tan 45° = h/x₁. Since tan 45° = 1, it follows that x₁ = h (the car is h distance away).",
+                "When the angle of elevation is 60°, tan 60° = h/x₂. Because tan 60° = √3, we find that x₂ = h/√3 (the car is h/√3 from the tower).",
+                "The car covers the distance from x₁ to x₂ in 10 minutes. This distance is:",
+                "The car's constant speed (v) is:",
+                "The remaining distance to the tower is x₂ = h/√3. The additional time (T) needed is:",
+                "Simplify T by rewriting (1 - 1/√3) as (√3 - 1)/√3:",
+                "Rationalize the denominator:",
+                "Since this result matches one of the given choices, the additional time required is 5(√3 + 1) minutes."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 9.482266187667847,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The original price of an item ",
+            "question": "Question: The original price of an item is discounted 22 % . A customer buys the item at this discounted price using a $ 20 - off coupon . There is no tax on the item , and this was the only item the customer bought . If the customer paid $ 1.90 more than half the original price of the item , what was the original price of the item ?\n\nChoices:\na. $ 61\nb. $ 65\nc. $ 67.40\nd. $ 70\ne. $ 78.20",
+            "answerKey": "e",
+            "cot_output": "Step 1: Let the original price be P dollars. After a 22% discount, the price becomes 0.78P dollars.  \nStep 2: With a $20 off coupon, the final price paid is 0.78P – 20 dollars.  \nStep 3: According to the problem, this final price is $1.90 more than half the original price, which is 0.5P + 1.90 dollars.  \nStep 4: Set up the equation: 0.78P – 20 = 0.5P + 1.90.  \nStep 5: Subtract 0.5P from both sides to get 0.28P – 20 = 1.90, then add 20 to both sides: 0.28P = 21.90.  \nStep 6: Solve for P by dividing: P = 21.90 / 0.28 ≈ 78.21 dollars.  \nStep 7: Comparing with the options provided, the original price is approximately $78.20.  \n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the original price be P dollars. After a 22% discount, the price becomes 0.78P dollars.  ",
+                "With a $20 off coupon, the final price paid is 0.78P – 20 dollars.  ",
+                "According to the problem, this final price is $1.90 more than half the original price, which is 0.5P + 1.90 dollars.  ",
+                "Set up the equation: 0.78P – 20 = 0.5P + 1.90.  ",
+                "Subtract 0.5P from both sides to get 0.28P – 20 = 1.90, then add 20 to both sides: 0.28P = 21.90.  ",
+                "Solve for P by dividing: P = 21.90 / 0.28 ≈ 78.21 dollars.  ",
+                "Comparing with the options provided, the original price is approximately $78.20.  "
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 8.428478002548218,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Find out which of the followin",
+            "question": "Question: Find out which of the following values is the multiple of X , if it is divisible by 9 and 12 ?\n\nChoices:\na. 36\nb. 15\nc. 17\nd. 5\ne. 7",
+            "answerKey": "a",
+            "cot_output": "Step 1: Since the number X is divisible by both 9 and 12, any multiple of X must be a common multiple of 9 and 12.\nStep 2: The least common multiple (LCM) of 9 and 12 will be the smallest number that is divisible by both, and any multiple of X would have to be at least that number.\nStep 3: Factorizing, 9 = 3² and 12 = 2² × 3. The LCM is obtained by taking the highest power of each prime: 2² and 3², which multiply to 4 × 9 = 36.\nStep 4: Checking the given choices, 36 is present as option a.\nStep 5: Since 36 is the number that satisfies the condition, it is the correct multiple of X.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Since the number X is divisible by both 9 and 12, any multiple of X must be a common multiple of 9 and 12.",
+                "The least common multiple (LCM) of 9 and 12 will be the smallest number that is divisible by both, and any multiple of X would have to be at least that number.",
+                "Factorizing, 9 = 3² and 12 = 2² × 3. The LCM is obtained by taking the highest power of each prime: 2² and 3², which multiply to 4 × 9 = 36.",
+                "Checking the given choices, 36 is present as option a.",
+                "Since 36 is the number that satisfies the condition, it is the correct multiple of X."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.252174615859985,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If the probability that Stock ",
+            "question": "Question: If the probability that Stock A will increase in value during the next month is 0.56 , and the probability that Stock B will increase in value during the next month is 0.74 . What is the greatest value for the probability that neither of these two events will occur ?\n\nChoices:\na. 0.22\nb. 0.26\nc. 0.37\nd. 0.46\ne. 0.63",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let A be the event that Stock A increases (P(A) = 0.56) and B that Stock B increases (P(B) = 0.74). We are interested in the probability that neither A nor B occurs, which is P(neither A nor B) = 1 – P(A or B).\n\nStep 2: The probability of at least one occurring is P(A or B) = P(A) + P(B) – P(A and B). To maximize P(neither A nor B), we need to minimize P(A or B), which is achieved when P(A and B) is as large as possible.\n\nStep 3: The maximum possible value for P(A and B) is limited by the individual probabilities; in general, P(A and B) ≤ min(P(A), P(B)). Here, min(0.56, 0.74) = 0.56.\n\nStep 4: With the maximum possible P(A and B) = 0.56, the minimum possible P(A or B) becomes P(A) + P(B) – 0.56 = 0.56 + 0.74 – 0.56 = 0.74.\n\nStep 5: Therefore, the maximum probability that neither event occurs is 1 – 0.74 = 0.26.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let A be the event that Stock A increases (P(A) = 0.56) and B that Stock B increases (P(B) = 0.74). We are interested in the probability that neither A nor B occurs, which is P(neither A nor B) = 1 – P(A or B).",
+                "The probability of at least one occurring is P(A or B) = P(A) + P(B) – P(A and B). To maximize P(neither A nor B), we need to minimize P(A or B), which is achieved when P(A and B) is as large as possible.",
+                "The maximum possible value for P(A and B) is limited by the individual probabilities; in general, P(A and B) ≤ min(P(A), P(B)). Here, min(0.56, 0.74) = 0.56.",
+                "With the maximum possible P(A and B) = 0.56, the minimum possible P(A or B) becomes P(A) + P(B) – 0.56 = 0.56 + 0.74 – 0.56 = 0.74.",
+                "Therefore, the maximum probability that neither event occurs is 1 – 0.74 = 0.26."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.778457880020142,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A trader sold an article at a ",
+            "question": "Question: A trader sold an article at a profit of 20 % for Rs . 360 . What is the cost price of the article ?\n\nChoices:\na. 270\nb. 300\nc. 280\nd. 320\ne. 315",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let CP represent the cost price of the article.  \nStep 2: Since the trader makes a profit of 20%, the selling price (SP) becomes 1.20 × CP.  \nStep 3: The given selling price is Rs. 360, so we set up the equation: 1.20 × CP = 360.  \nStep 4: Solving for CP, we divide both sides of the equation by 1.20: CP = 360 / 1.20 = 300.  \nStep 5: Among the choices provided, Rs. 300 corresponds to option B.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let CP represent the cost price of the article.  ",
+                "Since the trader makes a profit of 20%, the selling price (SP) becomes 1.20 × CP.  ",
+                "The given selling price is Rs. 360, so we set up the equation: 1.20 × CP = 360.  ",
+                "Solving for CP, we divide both sides of the equation by 1.20: CP = 360 / 1.20 = 300.  ",
+                "Among the choices provided, Rs. 300 corresponds to option B.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.079916477203369,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_20 marbles were pulled out of ",
+            "question": "Question: 20 marbles were pulled out of a bag of only white marbles , painted black , and then put back in . Then , another 20 marbles were pulled out , of which 1 was black , after which they were all returned to the bag . If the percentage of black marbles pulled out the second time represents their percentage in the bag , how many marbles in total Q does the bag currently hold ?\n\nChoices:\na. 40\nb. 200\nc. 380\nd. 400\ne. 3200",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let Q be the total number of marbles in the bag after all operations.  \nStep 2: After pulling out 20 white marbles, painting them black, and returning them, there are 20 black marbles and Q - 20 white marbles in the bag. Thus, the fraction of black marbles in the bag is 20/Q.  \nStep 3: In the second draw of 20 marbles, exactly 1 marble is black. This gives an observed black fraction of 1/20.  \nStep 4: According to the problem, the observed fraction should equal the fraction of black marbles in the bag. Hence, we set up the equation: 20/Q = 1/20.  \nStep 5: Solving the equation, we multiply both sides by Q and then by 20: 20*20 = Q, so Q = 400.  \nStep 6: Therefore, the bag currently holds 400 marbles, which corresponds to answer choice D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let Q be the total number of marbles in the bag after all operations.  ",
+                "After pulling out 20 white marbles, painting them black, and returning them, there are 20 black marbles and Q - 20 white marbles in the bag. Thus, the fraction of black marbles in the bag is 20/Q.  ",
+                "In the second draw of 20 marbles, exactly 1 marble is black. This gives an observed black fraction of 1/20.  ",
+                "According to the problem, the observed fraction should equal the fraction of black marbles in the bag. Hence, we set up the equation: 20/Q = 1/20.  ",
+                "Solving the equation, we multiply both sides by Q and then by 20: 20*20 = Q, so Q = 400.  ",
+                "Therefore, the bag currently holds 400 marbles, which corresponds to answer choice D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 8.029376983642578,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Find the total no . of distinc",
+            "question": "Question: Find the total no . of distinct bike no . ' s that can beformed using 2 letters followed by 2 no . ' s . How many letters need to be distinct ?\n\nChoices:\na. 74453\nb. 64543\nc. 74325\nd. 65000\ne. 97656",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the bike number consists of 2 letters followed by 2 numbers.  \nStep 2: Determine that the letters are required to be distinct. Therefore, the first letter has 26 possibilities, and the second letter, being distinct, has 25 possibilities.  \nStep 3: For the 2 numbers (digits), no distinctness requirement is specified, so each digit has 10 possibilities (0–9).  \nStep 4: Compute the total number of bike numbers by multiplying the possibilities for each position: 26 × 25 for the letters and 10 × 10 for the numbers, giving 26 × 25 × 10 × 10 = 65000.  \nStep 5: Compare this computed total with the provided choices; the matching option is 65000.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the bike number consists of 2 letters followed by 2 numbers.  ",
+                "Determine that the letters are required to be distinct. Therefore, the first letter has 26 possibilities, and the second letter, being distinct, has 25 possibilities.  ",
+                "For the 2 numbers (digits), no distinctness requirement is specified, so each digit has 10 possibilities (0–9).  ",
+                "Compute the total number of bike numbers by multiplying the possibilities for each position: 26 × 25 for the letters and 10 × 10 for the numbers, giving 26 × 25 × 10 × 10 = 65000.  ",
+                "Compare this computed total with the provided choices; the matching option is 65000."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 7.442135810852051,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A train running at a speed of ",
+            "question": "Question: A train running at a speed of 100 miles / hour , takes 10 hours to reach its destination . After covering quarter of the distance , it starts raining and the train has to be slowed to speed of 75 miles / hour . What is the total journey duration ?\n\nChoices:\na. 10\nb. 11.5\nc. 12.5\nd. 13.5\ne. 15",
+            "answerKey": "c",
+            "cot_output": "Step 1: Compute the total distance the train would travel in the original 10 hours at 100 mph. Calculation: 100 mph × 10 hours = 1000 miles.\nStep 2: Determine the distance covered before the rain. Since a quarter of the distance is covered, Calculation: 1000 miles × ¼ = 250 miles.\nStep 3: Calculate the time taken to cover these 250 miles at 100 mph. Calculation: 250 miles ÷ 100 mph = 2.5 hours.\nStep 4: Identify the remaining distance after the quarter is covered. Calculation: 1000 miles – 250 miles = 750 miles.\nStep 5: Calculate the time to cover the remaining 750 miles at the reduced speed of 75 mph. Calculation: 750 miles ÷ 75 mph = 10 hours.\nStep 6: Sum the times to get the total journey duration. Calculation: 2.5 hours + 10 hours = 12.5 hours.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Compute the total distance the train would travel in the original 10 hours at 100 mph. Calculation: 100 mph × 10 hours = 1000 miles.",
+                "Determine the distance covered before the rain. Since a quarter of the distance is covered, Calculation: 1000 miles × ¼ = 250 miles.",
+                "Calculate the time taken to cover these 250 miles at 100 mph. Calculation: 250 miles ÷ 100 mph = 2.5 hours.",
+                "Identify the remaining distance after the quarter is covered. Calculation: 1000 miles – 250 miles = 750 miles.",
+                "Calculate the time to cover the remaining 750 miles at the reduced speed of 75 mph. Calculation: 750 miles ÷ 75 mph = 10 hours.",
+                "Sum the times to get the total journey duration. Calculation: 2.5 hours + 10 hours = 12.5 hours."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 6.1028547286987305,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Of the 200 students in a schoo",
+            "question": "Question: Of the 200 students in a school , at least 45 % attended the prom night and at least 35 % took part in the debating session . What is the maximum number of students who could have neither attended the prom night nor the debating session ?\n\nChoices:\na. 27\nb. 81\nc. 90\nd. 99\ne. 110",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that at least 45% of 200 students attended the prom, which means at least 0.45 × 200 = 90 students were at the prom.\nStep 2: Recognize that at least 35% of 200 students took part in the debating session, meaning at least 0.35 × 200 = 70 students were at the debate.\nStep 3: To maximize the number of students who did neither, we want to minimize the total number of students who attended either event. This is achieved by maximizing the overlap between the two groups.\nStep 4: The maximum possible overlap is limited to the smaller group, which is 70 students (the debating group). In the best case (for maximizing those who did neither), all 70 debating students also attended the prom.\nStep 5: With the maximum overlap, the total number of students who attended at least one event is 90 (prom) + 70 (debate) − 70 (overlap) = 90.\nStep 6: Therefore, the maximum number of students who could have attended neither event is 200 − 90 = 110.\nStep 7: Comparing with the given choices, 110 corresponds to option e.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that at least 45% of 200 students attended the prom, which means at least 0.45 × 200 = 90 students were at the prom.",
+                "Recognize that at least 35% of 200 students took part in the debating session, meaning at least 0.35 × 200 = 70 students were at the debate.",
+                "To maximize the number of students who did neither, we want to minimize the total number of students who attended either event. This is achieved by maximizing the overlap between the two groups.",
+                "The maximum possible overlap is limited to the smaller group, which is 70 students (the debating group). In the best case (for maximizing those who did neither), all 70 debating students also attended the prom.",
+                "With the maximum overlap, the total number of students who attended at least one event is 90 (prom) + 70 (debate) − 70 (overlap) = 90.",
+                "Therefore, the maximum number of students who could have attended neither event is 200 − 90 = 110.",
+                "Comparing with the given choices, 110 corresponds to option e."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 13.369858503341675,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A sales person gets a 10 % com",
+            "question": "Question: A sales person gets a 10 % commission on each sale he makes . How many sales of $ 250 each must he make in order to reach a salary of at least $ 1000 ?\n\nChoices:\na. 15\nb. 24\nc. 25\nd. 40\ne. 52",
+            "answerKey": "d",
+            "cot_output": "Step 1: Calculate the commission per sale: 10% of $250 equals $25 per sale.\nStep 2: To reach at least $1000 in commission, divide the total target ($1000) by the commission per sale ($25), which gives 1000 / 25 = 40 sales.\nStep 3: Since 40 is the number of sales needed, match it with the given choices where option D is 40.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the commission per sale: 10% of $250 equals $25 per sale.",
+                "To reach at least $1000 in commission, divide the total target ($1000) by the commission per sale ($25), which gives 1000 / 25 = 40 sales.",
+                "Since 40 is the number of sales needed, match it with the given choices where option D is 40."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.69914174079895,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A company produces 420 units o",
+            "question": "Question: A company produces 420 units of a particular computer component every month , at a production cost to the company of $ 110 per component , and sells all of the components by the end of each month . What is the minimum selling price per component that will guarantee that the yearly profit ( revenue from sales minus production costs ) will be at least $ 626,400 ?\n\nChoices:\na. 226\nb. 230\nc. 240\nd. 260\ne. 280",
+            "answerKey": "b",
+            "cot_output": "Step 1: Calculate the yearly production. The company produces 420 units/month, so annually it produces 420 × 12 = 5040 units.\nStep 2: Compute the total annual production cost. Each component costs $110 to produce, so the yearly cost is 5040 × $110 = $554,400.\nStep 3: Determine the total revenue required to achieve at least the desired yearly profit. The company wants a minimum profit of $626,400, so the required revenue must cover both production costs and profit: $554,400 + $626,400 = $1,180,800.\nStep 4: Find the minimum selling price per component by dividing the required total revenue by the number of units produced per year. That yields $1,180,800 ÷ 5040 ≈ $234.29.\nStep 5: Since the selling price must be set as a whole number (and to ensure at least the desired profit, the price should be rounded up), the minimum acceptable whole-number price is $235. Among the choices provided, the next highest whole number is $240.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the yearly production. The company produces 420 units/month, so annually it produces 420 × 12 = 5040 units.",
+                "Compute the total annual production cost. Each component costs $110 to produce, so the yearly cost is 5040 × $110 = $554,400.",
+                "Determine the total revenue required to achieve at least the desired yearly profit. The company wants a minimum profit of $626,400, so the required revenue must cover both production costs and profit: $554,400 + $626,400 = $1,180,800.",
+                "Find the minimum selling price per component by dividing the required total revenue by the number of units produced per year. That yields $1,180,800 ÷ 5040 ≈ $234.29.",
+                "Since the selling price must be set as a whole number (and to ensure at least the desired profit, the price should be rounded up), the minimum acceptable whole-number price is $235. Among the choices provided, the next highest whole number is $240."
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 5.119887590408325,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_At a certain factory , 10 perc",
+            "question": "Question: At a certain factory , 10 percent of the staplers produced on Monday were defective and 2 percent of the non - defective staplers were rejected by mistake . If 72 of the non - defective staplers were rejected , what was the number of staplers produced that day ?\n\nChoices:\na. 4,000\nb. 4,200\nc. 4,500\nd. 4,800\ne. 5,000",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let x be the total number of staplers produced on Monday.\nStep 2: Since 10% of the staplers were defective, the number of non-defective staplers is 0.9x.\nStep 3: Of these non-defective staplers, 2% were rejected, so the number of rejected non-defective staplers is 0.02 × 0.9x = 0.018x.\nStep 4: We are told that 72 of the non-defective staplers were rejected, so we set up the equation 0.018x = 72.\nStep 5: Solving for x gives x = 72 / 0.018 = 4000.\nStep 6: Since 4000 corresponds to choice a, that is the correct answer.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x be the total number of staplers produced on Monday.",
+                "Since 10% of the staplers were defective, the number of non-defective staplers is 0.9x.",
+                "Of these non-defective staplers, 2% were rejected, so the number of rejected non-defective staplers is 0.02 × 0.9x = 0.018x.",
+                "We are told that 72 of the non-defective staplers were rejected, so we set up the equation 0.018x = 72.",
+                "Solving for x gives x = 72 / 0.018 = 4000.",
+                "Since 4000 corresponds to choice a, that is the correct answer."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.6224992275238037,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Machine A puts out a yo - yo e",
+            "question": "Question: Machine A puts out a yo - yo every 6 minutes . Machine B puts out a yo - yo every 9 minutes . After how many minutes will they have produced 10 yo - yos ?\n\nChoices:\na. 24 minutes\nb. 32 minutes\nc. 36 minutes\nd. 64 minutes\ne. 72 minutes",
+            "answerKey": "c",
+            "cot_output": "Step 1: Machine A produces 1 yo-yo every 6 minutes, so in t minutes it produces t/6 yo-yos; similarly, Machine B produces t/9 yo-yos in t minutes.\nStep 2: The two machines work concurrently, so together they produce (t/6 + t/9) yo-yos in t minutes.\nStep 3: To combine the fractions, find a common denominator: t/6 = (3t)/18 and t/9 = (2t)/18, giving a total of (3t + 2t)/18 = (5t)/18 yo-yos.\nStep 4: Set up the equation for total production by equating (5t)/18 to 10 yo-yos: (5t)/18 = 10.\nStep 5: Solve for t by multiplying both sides by 18 and then dividing by 5: t = (10 × 18)/5 = 180/5 = 36 minutes.\nStep 6: Among the given choices, 36 minutes corresponds to option C.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Machine A produces 1 yo-yo every 6 minutes, so in t minutes it produces t/6 yo-yos; similarly, Machine B produces t/9 yo-yos in t minutes.",
+                "The two machines work concurrently, so together they produce (t/6 + t/9) yo-yos in t minutes.",
+                "To combine the fractions, find a common denominator: t/6 = (3t)/18 and t/9 = (2t)/18, giving a total of (3t + 2t)/18 = (5t)/18 yo-yos.",
+                "Set up the equation for total production by equating (5t)/18 to 10 yo-yos: (5t)/18 = 10.",
+                "Solve for t by multiplying both sides by 18 and then dividing by 5: t = (10 × 18)/5 = 180/5 = 36 minutes.",
+                "Among the given choices, 36 minutes corresponds to option C."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.9261462688446045,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Add : + 45 and - 30",
+            "question": "Question: Add : + 45 and - 30\n\nChoices:\na. - 30\nb. + 30\nc. 0\nd. 15\ne. - 15",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize the problem asks to add +45 and -30, which means calculating 45 + (-30).  \nStep 2: Perform the calculation: 45 - 30 equals 15.  \nStep 3: Compare the result (15) with the provided choices and note that choice d corresponds to 15.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize the problem asks to add +45 and -30, which means calculating 45 + (-30).  ",
+                "Perform the calculation: 45 - 30 equals 15.  ",
+                "Compare the result (15) with the provided choices and note that choice d corresponds to 15.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.197215557098389,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In how many ways can the lette",
+            "question": "Question: In how many ways can the letters of the word ` ` PROBLEC ' ' be rearranged to make 7 letter words such that none of the letters repeat ?\n\nChoices:\na. 2 !\nb. 3 !\nc. 7 !\nd. 8 !\ne. 9 !",
+            "answerKey": "c",
+            "cot_output": "Step 1: Recognize that the word \"PROBLEC\" is composed of 7 distinct letters.\nStep 2: Since there are no repeating letters, every rearrangement is simply a permutation of these 7 letters.\nStep 3: The total number of permutations of 7 distinct items is given by 7! (7 factorial).\nStep 4: Among the provided choices, \"7!\" is exactly one of the options.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the word \"PROBLEC\" is composed of 7 distinct letters.",
+                "Since there are no repeating letters, every rearrangement is simply a permutation of these 7 letters.",
+                "The total number of permutations of 7 distinct items is given by 7! (7 factorial).",
+                "Among the provided choices, \"7!\" is exactly one of the options."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.873273611068726,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Let A and B be independent eve",
+            "question": "Question: Let A and B be independent events with P ( A ) = 0.2 and P ( B ) = 0.8 . Find P ( A / B ) ?\n\nChoices:\na. 0.2\nb. 0.4\nc. 0.6\nd. 1.2\ne. 1.5",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that for two independent events A and B, by definition, the occurrence of B does not affect the probability of A.  \nStep 2: Therefore, the conditional probability P(A | B) equals P(A).  \nStep 3: Given that P(A) is 0.2, it follows that P(A | B) is also 0.2.  \nStep 4: Comparing the computed value with the multiple choice options, the choice corresponding to 0.2 is option a.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that for two independent events A and B, by definition, the occurrence of B does not affect the probability of A.  ",
+                "Therefore, the conditional probability P(A | B) equals P(A).  ",
+                "Given that P(A) is 0.2, it follows that P(A | B) is also 0.2.  ",
+                "Comparing the computed value with the multiple choice options, the choice corresponding to 0.2 is option a."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.016958236694336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Consider there is an staircase",
+            "question": "Question: Consider there is an staircase elevator and you are coming down . If you walk 20 steps and stop , then you reach bottom in 10 minutes . If you walk 10 steps and stop , you reach to the ground in 20 minutes . What is the speed of the elevator ?\n\nChoices:\na. 1 step / minute\nb. 2 step / minute\nc. 3 step / minute\nd. 4 step / minute\ne. None of the above",
+            "answerKey": "a",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.86999797821045,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Last year , a Home Appliance S",
+            "question": "Question: Last year , a Home Appliance Store sold an average ( arithmetic mean ) of 42 microwave ovens per month . In the first 10 months of this year , the store has sold an average ( arithmetic mean ) of only 20 microwave ovens per month . What was the average number of microwave ovens sold per month during the entire 22 months period ?\n\nChoices:\na. 21\nb. 30\nc. 31\nd. 32\ne. None of the above",
+            "answerKey": "d",
+            "cot_output": "Step 1: Calculate the total number of ovens sold last year by multiplying the monthly average (42) by 12 months: 42 × 12 = 504 ovens.\nStep 2: Calculate the total number of ovens sold in the first 10 months of this year by multiplying the monthly average (20) by 10 months: 20 × 10 = 200 ovens.\nStep 3: Sum the totals from last year and this year to find the overall ovens sold over 22 months: 504 + 200 = 704 ovens.\nStep 4: Divide the overall sales (704 ovens) by the total number of months (22) to find the average: 704 ÷ 22 = 32 ovens per month.\nStep 5: Compare the calculated average (32) with the provided choices; it matches choice D.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the total number of ovens sold last year by multiplying the monthly average (42) by 12 months: 42 × 12 = 504 ovens.",
+                "Calculate the total number of ovens sold in the first 10 months of this year by multiplying the monthly average (20) by 10 months: 20 × 10 = 200 ovens.",
+                "Sum the totals from last year and this year to find the overall ovens sold over 22 months: 504 + 200 = 704 ovens.",
+                "Divide the overall sales (704 ovens) by the total number of months (22) to find the average: 704 ÷ 22 = 32 ovens per month.",
+                "Compare the calculated average (32) with the provided choices; it matches choice D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.7754266262054443,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_An exam is given in a certain ",
+            "question": "Question: An exam is given in a certain class . The average ( arithmetic mean ) of the highest score and the lowest score is equal to x . If the average score for the entire class is equal to y and there are z students in the class , where z > 5 , then in terms of x , y , and z , what is the average score for the class excluding the highest and lowest scorers ?\n\nChoices:\na. ( zy – 2 x ) / z\nb. ( zy – 2 ) / z\nc. ( zx – y ) / ( z – 2 )\nd. ( zy – 2 x ) / ( z - 2 )\ne. ( zy – x ) / ( z + 2 )",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let H be the highest score and L be the lowest score. Given that the average of H and L is x, we deduce that (H + L) / 2 = x, so H + L = 2x.\n\nStep 2: The total score for all z students is zy, since the average score for the class is y.\n\nStep 3: To find the sum of the scores excluding the highest and lowest scores, we subtract H + L from the total. Thus, the remaining sum is zy - 2x.\n\nStep 4: There are z - 2 scores remaining (after excluding the highest and lowest), so the average of these scores is (zy - 2x) / (z - 2).\n\nStep 5: This expression exactly matches option D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let H be the highest score and L be the lowest score. Given that the average of H and L is x, we deduce that (H + L) / 2 = x, so H + L = 2x.",
+                "The total score for all z students is zy, since the average score for the class is y.",
+                "To find the sum of the scores excluding the highest and lowest scores, we subtract H + L from the total. Thus, the remaining sum is zy - 2x.",
+                "There are z - 2 scores remaining (after excluding the highest and lowest), so the average of these scores is (zy - 2x) / (z - 2).",
+                "This expression exactly matches option D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.7144486904144287,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_[ 5 + ? × 19 - 15 - 7 ] / [ 13",
+            "question": "Question: [ 5 + ? × 19 - 15 - 7 ] / [ 13 × 13 - 156 ] = 6\n\nChoices:\na. 4\nb. 4.5\nc. 5\nd. 5.5\ne. 6.5",
+            "answerKey": "c",
+            "cot_output": "Step 1: Represent the unknown multiplication factor with x, so the numerator becomes 5 + 19x - 15 - 7.\nStep 2: Simplify the numerator by combining constants: 5 - 15 = -10, and -10 - 7 = -17, resulting in 19x - 17.\nStep 3: Compute the denominator: 13 × 13 = 169, and subtract 156 to obtain 169 - 156 = 13.\nStep 4: Set up the equation with the given value 6: (19x - 17) / 13 = 6.\nStep 5: Multiply both sides by 13 to eliminate the fraction: 19x - 17 = 6 × 13, which simplifies to 19x - 17 = 78.\nStep 6: Add 17 to both sides to isolate the term with x: 19x = 78 + 17 = 95.\nStep 7: Divide both sides by 19 to solve for x: x = 95 ÷ 19 = 5.\nStep 8: Compare the solution with the given options. The solution (5) matches option C.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Represent the unknown multiplication factor with x, so the numerator becomes 5 + 19x - 15 - 7.",
+                "Simplify the numerator by combining constants: 5 - 15 = -10, and -10 - 7 = -17, resulting in 19x - 17.",
+                "Compute the denominator: 13 × 13 = 169, and subtract 156 to obtain 169 - 156 = 13.",
+                "Set up the equation with the given value 6: (19x - 17) / 13 = 6.",
+                "Multiply both sides by 13 to eliminate the fraction: 19x - 17 = 6 × 13, which simplifies to 19x - 17 = 78.",
+                "Add 17 to both sides to isolate the term with x: 19x = 78 + 17 = 95.",
+                "Divide both sides by 19 to solve for x: x = 95 ÷ 19 = 5.",
+                "Compare the solution with the given options. The solution (5) matches option C."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 6.167360782623291,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A grocer makes a 25 % profit o",
+            "question": "Question: A grocer makes a 25 % profit on the selling price for each bag of flour it sells . If he sells each bag for $ 100 and makes $ 3,000 in profit , how many bags did he sell ?\n\nChoices:\na. 12\nb. 16\nc. 24\nd. 30\ne. 40",
+            "answerKey": "c",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 11.20025086402893,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Alex and Jacob works at a toy ",
+            "question": "Question: Alex and Jacob works at a toy shop that make toys . Alex takes 7 hours to make a toy , and Jacob takes 9 hours to make a toy . During a month , both of them makes 35 toys in total . If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob ?\n\nChoices:\na. 15\nb. 16\nc. 17\nd. 18\ne. 19",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let x be the number of toys made by Alex and y the number of toys made by Jacob. We know x + y = 35.\nStep 2: Alex works 7 hours per toy, so his total hours are 7x. Jacob works 9 hours per toy, so his total hours are 9y. It is given that they worked almost equal hours.\nStep 3: Setting up the approximate equality: 7x ≈ 9y. Substitute x = 35 - y, which gives 7(35 - y) ≈ 9y.\nStep 4: Calculating, 7*35 = 245, so the equation becomes 245 - 7y ≈ 9y, leading to 245 ≈ 16y.\nStep 5: Solving for y gives y ≈ 245/16 ≈ 15.3125. Since y must be an integer, we check the nearby integers.\nStep 6: For y = 15, Jacob’s total hours = 15×9 = 135, and Alex’s total hours = (35 - 15)×7 = 20×7 = 140. The difference is only 5 hours.\nStep 7: For y = 16, Jacob’s hours = 16×9 = 144, and Alex’s hours = (35 - 16)×7 = 19×7 = 133. The difference here is 11 hours.\nStep 8: The smaller difference (5 hours) in the case of y = 15 indicates both worked almost similar hours.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x be the number of toys made by Alex and y the number of toys made by Jacob. We know x + y = 35.",
+                "Alex works 7 hours per toy, so his total hours are 7x. Jacob works 9 hours per toy, so his total hours are 9y. It is given that they worked almost equal hours.",
+                "Setting up the approximate equality: 7x ≈ 9y. Substitute x = 35 - y, which gives 7(35 - y) ≈ 9y.",
+                "Calculating, 7*35 = 245, so the equation becomes 245 - 7y ≈ 9y, leading to 245 ≈ 16y.",
+                "Solving for y gives y ≈ 245/16 ≈ 15.3125. Since y must be an integer, we check the nearby integers.",
+                "For y = 15, Jacob’s total hours = 15×9 = 135, and Alex’s total hours = (35 - 15)×7 = 20×7 = 140. The difference is only 5 hours.",
+                "For y = 16, Jacob’s hours = 16×9 = 144, and Alex’s hours = (35 - 16)×7 = 19×7 = 133. The difference here is 11 hours.",
+                "The smaller difference (5 hours) in the case of y = 15 indicates both worked almost similar hours."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.189800024032593,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_John likes to have lightly fla",
+            "question": "Question: John likes to have lightly flavored tea every evening . In a 50 % strong milk tea , he replaces 15 % of it with milk twice . Then , he replaces 10 percent of the resultant solution with more milk .\nWhat is the final concentration of tea John drinks ?\n\nChoices:\na. 15.38 %\nb. 42 %\nc. 39.86 %\nd. 22.35 %\ne. 32.51 %",
+            "answerKey": "e",
+            "cot_output": "Step 1: Assume John starts with 1 unit of a 50% tea solution, so initially it has 0.50 units of tea.\nStep 2: In the first operation, John removes 15% (0.15 units) of the solution; since the mixture is uniform, the tea removed is 15% of 0.50, which is 0.075 units. Thus, the remaining tea is 0.50 − 0.075 = 0.425 units.\nStep 3: He then replaces the removed 0.15 unit with milk (which contains 0% tea), so the volume returns to 1 unit and the tea concentration becomes 0.425 or 42.5%.\nStep 4: In the second operation, he again removes 15% (0.15 units) of this new solution; the tea removed is 15% of 0.425, which equals 0.06375 units. The remaining tea is then 0.425 − 0.06375 = 0.36125 units.\nStep 5: He replaces the removed volume with milk, keeping the total volume at 1 unit, so the new tea concentration is 0.36125 or 36.125%.\nStep 6: In the third operation, John removes 10% (0.10 units) of the solution. The tea removed is 10% of 0.36125, i.e., 0.036125 units. The remaining tea is 0.36125 − 0.036125 = 0.325125 units.\nStep 7: Adding milk back to maintain a total of 1 unit, the final tea concentration becomes 0.325125 or approximately 32.51%.\nStep 8: Comparing with the provided options, 32.51% corresponds to option e.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assume John starts with 1 unit of a 50% tea solution, so initially it has 0.50 units of tea.",
+                "In the first operation, John removes 15% (0.15 units) of the solution; since the mixture is uniform, the tea removed is 15% of 0.50, which is 0.075 units. Thus, the remaining tea is 0.50 − 0.075 = 0.425 units.",
+                "He then replaces the removed 0.15 unit with milk (which contains 0% tea), so the volume returns to 1 unit and the tea concentration becomes 0.425 or 42.5%.",
+                "In the second operation, he again removes 15% (0.15 units) of this new solution; the tea removed is 15% of 0.425, which equals 0.06375 units. The remaining tea is then 0.425 − 0.06375 = 0.36125 units.",
+                "He replaces the removed volume with milk, keeping the total volume at 1 unit, so the new tea concentration is 0.36125 or 36.125%.",
+                "In the third operation, John removes 10% (0.10 units) of the solution. The tea removed is 10% of 0.36125, i.e., 0.036125 units. The remaining tea is 0.36125 − 0.036125 = 0.325125 units.",
+                "Adding milk back to maintain a total of 1 unit, the final tea concentration becomes 0.325125 or approximately 32.51%.",
+                "Comparing with the provided options, 32.51% corresponds to option e."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 11.423219442367554,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In a class 1 / 16 of the stude",
+            "question": "Question: In a class 1 / 16 of the students study math , 1 / 10 of the students study bio , 1 / 8 of the students study english . The total number of students is a 4 digit number . Find the diffrence between maximum number of students and minimum number of students .\n\nChoices:\na. 8880\nb. 8870\nc. 8890\nd. 7890\ne. 6780",
+            "answerKey": "a",
+            "cot_output": "Step 1: Since 1/16, 1/10, and 1/8 of the students study math, bio, and english respectively, the total number of students (N) must be divisible by 16, 10, and 8 so that all these fractions yield whole numbers.\nStep 2: Compute the least common multiple (LCM) of 16, 10, and 8. Factoring each: 16 = 2⁴, 10 = 2×5, 8 = 2³; the LCM is 2⁴ × 5 = 16×5 = 80.\nStep 3: Thus, N must be a multiple of 80. Also, N is a 4-digit number (between 1000 and 9999).\nStep 4: The smallest 4-digit multiple of 80 is obtained by 80×ceil(1000/80) = 80×13 = 1040.\nStep 5: The largest 4-digit multiple of 80 is 80×floor(9999/80) = 80×124 = 9920.\nStep 6: The difference between the maximum and minimum number of students is 9920 - 1040 = 8880.\nStep 7: Among the given choices, 8880 corresponds to option A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Since 1/16, 1/10, and 1/8 of the students study math, bio, and english respectively, the total number of students (N) must be divisible by 16, 10, and 8 so that all these fractions yield whole numbers.",
+                "Compute the least common multiple (LCM) of 16, 10, and 8. Factoring each: 16 = 2⁴, 10 = 2×5, 8 = 2³; the LCM is 2⁴ × 5 = 16×5 = 80.",
+                "Thus, N must be a multiple of 80. Also, N is a 4-digit number (between 1000 and 9999).",
+                "The smallest 4-digit multiple of 80 is obtained by 80×ceil(1000/80) = 80×13 = 1040.",
+                "The largest 4-digit multiple of 80 is 80×floor(9999/80) = 80×124 = 9920.",
+                "The difference between the maximum and minimum number of students is 9920 - 1040 = 8880.",
+                "Among the given choices, 8880 corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 9.066462516784668,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_On a normal day Bill usually a",
+            "question": "Question: On a normal day Bill usually averages about 15 mph when riding his bicycle . On a windy day , his speed is reduced by 4 mph . How far can Bill travel on a windy day in 21 minutes ? Round to the nearest hundredth .\n\nChoices:\na. 2 miles\nb. 2.25 miles\nc. 3.25 miles\nd. 3.85 miles\ne. 2.85 miles",
+            "answerKey": "d",
+            "cot_output": "Step 1: Bill’s normal speed is 15 mph, but on a windy day it’s reduced by 4 mph, so his windy day speed is 15 - 4 = 11 mph.  \nStep 2: We convert 21 minutes to hours because the speed is in miles per hour. There are 60 minutes in an hour, so 21 minutes = 21/60 = 0.35 hours.  \nStep 3: The distance traveled is found by multiplying speed by time: 11 mph × 0.35 hours = 3.85 miles.  \nStep 4: Comparing with the given choices, 3.85 miles corresponds to choice D.  \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Bill’s normal speed is 15 mph, but on a windy day it’s reduced by 4 mph, so his windy day speed is 15 - 4 = 11 mph.  ",
+                "We convert 21 minutes to hours because the speed is in miles per hour. There are 60 minutes in an hour, so 21 minutes = 21/60 = 0.35 hours.  ",
+                "The distance traveled is found by multiplying speed by time: 11 mph × 0.35 hours = 3.85 miles.  ",
+                "Comparing with the given choices, 3.85 miles corresponds to choice D.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.9409971237182617,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A retailer sold an appliance f",
+            "question": "Question: A retailer sold an appliance for 40 percent above cost , which represented a gross profit of $ 20.00 . For what price did the retailer sell the appliance ?\n\nChoices:\na. $ 27.30\nb. $ 51.00\nc. $ 63.00\nd. $ 70.00\ne. $ 91.00",
+            "answerKey": "d",
+            "cot_output": "Step 1: Define the cost price as C. The appliance was sold for 40% above cost, so the profit is 0.40C.\nStep 2: Since the profit is given as $20, we write the equation: 0.40C = 20.\nStep 3: Solving the equation, C = 20 / 0.40, which gives C = 50.\nStep 4: The selling price is the cost plus the profit, so Selling Price = C + 20 = 50 + 20 = 70.\nStep 5: The selling price of $70 corresponds to choice D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Define the cost price as C. The appliance was sold for 40% above cost, so the profit is 0.40C.",
+                "Since the profit is given as $20, we write the equation: 0.40C = 20.",
+                "Solving the equation, C = 20 / 0.40, which gives C = 50.",
+                "The selling price is the cost plus the profit, so Selling Price = C + 20 = 50 + 20 = 70.",
+                "The selling price of $70 corresponds to choice D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.4548392295837402,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_At 6 % per annum simple intere",
+            "question": "Question: At 6 % per annum simple interest , Rahul borrowed Rs . 500 . What amount will he pay to clear the debt after 4 years\n\nChoices:\na. 750\nb. 700\nc. 620\nd. 600\ne. None of these",
+            "answerKey": "c",
+            "cot_output": "Step 1: Since the problem involves simple interest, recall the formula for simple interest: Interest = (Principal × Rate × Time) / 100.\nStep 2: Substitute the given values (Principal = Rs. 500, Rate = 6%, Time = 4 years) into the formula: Interest = (500 × 6 × 4) / 100.\nStep 3: Calculate the numerator: 500 × 6 = 3000 and 3000 × 4 = 12000.\nStep 4: Divide the numerator by 100: Interest = 12000 / 100 = Rs. 120.\nStep 5: Determine the total amount to be repaid by adding the interest to the principal: Total Amount = 500 + 120 = Rs. 620.\nStep 6: Compare the result with the provided choices to find the matching answer.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Since the problem involves simple interest, recall the formula for simple interest: Interest = (Principal × Rate × Time) / 100.",
+                "Substitute the given values (Principal = Rs. 500, Rate = 6%, Time = 4 years) into the formula: Interest = (500 × 6 × 4) / 100.",
+                "Calculate the numerator: 500 × 6 = 3000 and 3000 × 4 = 12000.",
+                "Divide the numerator by 100: Interest = 12000 / 100 = Rs. 120.",
+                "Determine the total amount to be repaid by adding the interest to the principal: Total Amount = 500 + 120 = Rs. 620.",
+                "Compare the result with the provided choices to find the matching answer."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.436511516571045,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A computer routine was develop",
+            "question": "Question: A computer routine was developed to generate two numbers ( x , y ) the first being a random number between 0 and 100 inclusive , and the second being less than or equal to the square root of the first . Each of the following pair satisfies the routine except\n\nChoices:\na. ( 99,10 )\nb. ( 85,9 )\nc. ( 50,7 )\nd. ( 1,1 )\ne. ( 1,0 )",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the routine requires the first number x to be between 0 and 100 inclusive, and the second number y must be less than or equal to √x.\nStep 2: For option A, x = 99. Calculate √99 ≈ 9.95.\nStep 3: In option A, y is given as 10. Since 10 > 9.95, this pair does not satisfy the condition y ≤ √x.\nStep 4: Verify that the other options satisfy the condition:\n • Option B: x = 85, √85 ≈ 9.22, and y = 9 (9 ≤ 9.22).\n • Option C: x = 50, √50 ≈ 7.07, and y = 7 (7 ≤ 7.07).\n • Option D: x = 1, √1 = 1, and y = 1 (1 ≤ 1).\n • Option E: x = 1, √1 = 1, and y = 0 (0 ≤ 1).\nStep 5: Conclude that only option A does not satisfy the routine.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the routine requires the first number x to be between 0 and 100 inclusive, and the second number y must be less than or equal to √x.",
+                "For option A, x = 99. Calculate √99 ≈ 9.95.",
+                "In option A, y is given as 10. Since 10 > 9.95, this pair does not satisfy the condition y ≤ √x.",
+                "Verify that the other options satisfy the condition:",
+                "Conclude that only option A does not satisfy the routine."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.567457675933838,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A jeep travels a certain dista",
+            "question": "Question: A jeep travels a certain distance taking 6 hours in the forward journey . During the return journey , it increased its speed by 12 km / hr and took 4 hours . What is the distance travelled by the jeep ?\n\nChoices:\na. 126 km\nb. 144 km\nc. 127 km\nd. 228 km\ne. 128 km",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let the speed of the jeep during the forward journey be v km/hr. Then, the distance traveled is 6v km (since time is 6 hours).  \nStep 2: During the return journey, the speed increases by 12 km/hr, making the speed (v + 12) km/hr, and the distance traveled in 4 hours becomes 4(v + 12) km.  \nStep 3: Since the distance traveled in both journeys is the same, we equate the two expressions: 6v = 4(v + 12).  \nStep 4: Solving the equation:  \n  6v = 4v + 48  \n  6v - 4v = 48  \n  2v = 48  \n  v = 24 km/hr.  \nStep 5: Now, substituting v = 24 km/hr into the forward journey distance:  \n  Distance = 6 × 24 = 144 km.  \nStep 6: This solution matches the multiple-choice option \"144 km\", which is choice B.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the speed of the jeep during the forward journey be v km/hr. Then, the distance traveled is 6v km (since time is 6 hours).  ",
+                "During the return journey, the speed increases by 12 km/hr, making the speed (v + 12) km/hr, and the distance traveled in 4 hours becomes 4(v + 12) km.  ",
+                "Since the distance traveled in both journeys is the same, we equate the two expressions: 6v = 4(v + 12).  ",
+                "Solving the equation:  ",
+                "Now, substituting v = 24 km/hr into the forward journey distance:  ",
+                "This solution matches the multiple-choice option \"144 km\", which is choice B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 7.015551328659058,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When I was 2 years old , my br",
+            "question": "Question: When I was 2 years old , my brother was half my age . Now I am 60 years old , how old is my brother ?\n\nChoices:\na. A ) 59\nb. B ) 69\nc. C ) 79\nd. D ) 89\ne. E ) 99",
+            "answerKey": "a",
+            "cot_output": "Step 1: When I was 2 years old, my brother was half my age, so he was 1 year old.\nStep 2: The age difference between us is 1 year, which remains constant over time.\nStep 3: Now that I am 60 years old, my brother’s age is 60 - 1 = 59 years.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When I was 2 years old, my brother was half my age, so he was 1 year old.",
+                "The age difference between us is 1 year, which remains constant over time.",
+                "Now that I am 60 years old, my brother’s age is 60 - 1 = 59 years."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.6027743816375732,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The original retail price of a",
+            "question": "Question: The original retail price of an appliance was 60 percent more than its wholesale cost . If the appliance was actually sold for 20 percent less than the original retail price , then it was sold for what percent more than its wholesale cost ?\n\nChoices:\na. 20 %\nb. 28 %\nc. 36 %\nd. 40 %\ne. 42 %",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let the wholesale cost be W. This is the base amount for our calculation.\nStep 2: The retail price is 60% more than the wholesale cost, so we express it as R = W + 0.60W = 1.60W.\nStep 3: The appliance was sold for 20% less than the original retail price, so the selling price is S = R - 0.20R = 0.80R.\nStep 4: Substitute the expression for R into the selling price: S = 0.80 × 1.60W = 1.28W.\nStep 5: Since the selling price is 1.28 times the wholesale cost W, it means the selling price is 28% more than the wholesale cost.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the wholesale cost be W. This is the base amount for our calculation.",
+                "The retail price is 60% more than the wholesale cost, so we express it as R = W + 0.60W = 1.60W.",
+                "The appliance was sold for 20% less than the original retail price, so the selling price is S = R - 0.20R = 0.80R.",
+                "Substitute the expression for R into the selling price: S = 0.80 × 1.60W = 1.28W.",
+                "Since the selling price is 1.28 times the wholesale cost W, it means the selling price is 28% more than the wholesale cost."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.3219664096832275,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_On a map , the length of the r",
+            "question": "Question: On a map , the length of the road from Town F to Town G is measured to be 20 inches . On this map , 1 / 4 inch represents an actual distance of 10 miles . What is the actual distance , in miles , from Town F to Town G along this road ?\n\nChoices:\na. 800\nb. 720\nc. 960\nd. 1140\ne. 1160",
+            "answerKey": "a",
+            "cot_output": "Step 1: Determine the conversion factor from map inches to actual miles. Since 1/4 inch represents 10 miles, multiplying both sides by 4 gives 1 inch represents 40 miles.\nStep 2: Multiply the map distance by the conversion factor. The map shows 20 inches, so the actual distance is 20 inches × 40 miles per inch = 800 miles.\nStep 3: Compare 800 miles with the provided choices and see that it matches option A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the conversion factor from map inches to actual miles. Since 1/4 inch represents 10 miles, multiplying both sides by 4 gives 1 inch represents 40 miles.",
+                "Multiply the map distance by the conversion factor. The map shows 20 inches, so the actual distance is 20 inches × 40 miles per inch = 800 miles.",
+                "Compare 800 miles with the provided choices and see that it matches option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.191526174545288,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_When folded into two equal hal",
+            "question": "Question: When folded into two equal halves a rectangular sheet had a perimeter of 48 cm for each part folded along one set of sides and the same is 66 cm when folded along the other set of sides . Find the area of the sheet .\n\nChoices:\na. 1584\nb. 1120\nc. 792\nd. 1320\ne. 1200",
+            "answerKey": "b",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 14.157184362411499,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Suppose you can travel from a ",
+            "question": "Question: Suppose you can travel from a place M to a place N by 3 buses , from place N to place O by 4 buses , from place O to place P by 1 buses and from place P to place Q by 3 buses . In how many ways can you travel from M to Q ?\n\nChoices:\na. 24\nb. 36\nc. 72\nd. 84\ne. None",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that the journey from M to Q involves four segments: M to N, N to O, O to P, and P to Q.\nStep 2: For the segment from M to N, there are 3 bus choices.\nStep 3: For the segment from N to O, there are 4 bus choices.\nStep 4: For the segment from O to P, there is 1 bus choice.\nStep 5: For the segment from P to Q, there are 3 bus choices.\nStep 6: According to the multiplication principle, multiply the number of choices for each segment: 3 × 4 × 1 × 3.\nStep 7: First, multiply 3 × 4 to get 12; then 12 × 1 remains 12; finally, 12 × 3 equals 36.\nStep 8: Compare the result (36) with the given answer choices and note that 36 corresponds to option b.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the journey from M to Q involves four segments: M to N, N to O, O to P, and P to Q.",
+                "For the segment from M to N, there are 3 bus choices.",
+                "For the segment from N to O, there are 4 bus choices.",
+                "For the segment from O to P, there is 1 bus choice.",
+                "For the segment from P to Q, there are 3 bus choices.",
+                "According to the multiplication principle, multiply the number of choices for each segment: 3 × 4 × 1 × 3.",
+                "First, multiply 3 × 4 to get 12; then 12 × 1 remains 12; finally, 12 × 3 equals 36.",
+                "Compare the result (36) with the given answer choices and note that 36 corresponds to option b."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 7.332430839538574,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A rectangular solid , 3 x 4 x ",
+            "question": "Question: A rectangular solid , 3 x 4 x 15 , is inscribed in a sphere , so that all eight of its vertices are on the sphere . What is the diameter of the sphere ?\n\nChoices:\na. 13.3542\nb. 15.8113\nc. 18.3451\nd. 19.5667\ne. 20.8888",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that if all vertices of a rectangular solid lie on a sphere, then the sphere must circumscribe the solid, meaning the sphere's diameter is equal to the space diagonal of the solid.\nStep 2: Recall that the formula for the space diagonal of a rectangular solid with dimensions a, b, and c is given by √(a² + b² + c²). For this solid, a = 3, b = 4, and c = 15.\nStep 3: Calculate each component: 3² = 9, 4² = 16, and 15² = 225.\nStep 4: Sum the squares: 9 + 16 + 225 = 250.\nStep 5: Compute the diagonal: √250 = 15.811388... which approximates to 15.8113.\nStep 6: Compare the result with the given choices. The computed diameter of approximately 15.8113 corresponds to choice B.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that if all vertices of a rectangular solid lie on a sphere, then the sphere must circumscribe the solid, meaning the sphere's diameter is equal to the space diagonal of the solid.",
+                "Recall that the formula for the space diagonal of a rectangular solid with dimensions a, b, and c is given by √(a² + b² + c²). For this solid, a = 3, b = 4, and c = 15.",
+                "Calculate each component: 3² = 9, 4² = 16, and 15² = 225.",
+                "Sum the squares: 9 + 16 + 225 = 250.",
+                "Compute the diagonal: √250 = 15.811388... which approximates to 15.8113.",
+                "Compare the result with the given choices. The computed diameter of approximately 15.8113 corresponds to choice B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.181538343429565,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A starts travel towards south ",
+            "question": "Question: A starts travel towards south 3 km , then travel 5 km towards east , and again travels 3 km to north , and finally travels 2 km towards west . In the end how far from is A from home ?\n\nChoices:\na. 3 km\nb. 2 km\nc. 4 km\nd. 5 km\ne. 6 km",
+            "answerKey": "a",
+            "cot_output": "Step 1: Assume A's starting point is at coordinate (0, 0) on a grid, where the x-axis represents east-west and the y-axis represents north-south.\nStep 2: A first travels 3 km south; moving south decreases the y-coordinate by 3, resulting in the new position (0, -3).\nStep 3: Next, A travels 5 km east; moving east increases the x-coordinate by 5, giving the new position (5, -3).\nStep 4: Then, A travels 3 km north; moving north increases the y-coordinate by 3, which moves the position to (5, 0) since -3 + 3 = 0.\nStep 5: Finally, A travels 2 km west; moving west decreases the x-coordinate by 2, resulting in the final position (3, 0).\nStep 6: To calculate the distance from the starting point (0, 0) to the final position (3, 0), apply the Pythagorean theorem: Distance = √[(3-0)² + (0-0)²] = √(9) = 3 km.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assume A's starting point is at coordinate (0, 0) on a grid, where the x-axis represents east-west and the y-axis represents north-south.",
+                "A first travels 3 km south; moving south decreases the y-coordinate by 3, resulting in the new position (0, -3).",
+                "Next, A travels 5 km east; moving east increases the x-coordinate by 5, giving the new position (5, -3).",
+                "Then, A travels 3 km north; moving north increases the y-coordinate by 3, which moves the position to (5, 0) since -3 + 3 = 0.",
+                "Finally, A travels 2 km west; moving west decreases the x-coordinate by 2, resulting in the final position (3, 0).",
+                "To calculate the distance from the starting point (0, 0) to the final position (3, 0), apply the Pythagorean theorem: Distance = √[(3-0)² + (0-0)²] = √(9) = 3 km."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.444657325744629,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_While selling a watch , a shop",
+            "question": "Question: While selling a watch , a shopkeeper gives a discount of 5 % . If he gives a discount of 7 % , he earns Rs . 15 less as profit . The marked price of the watch is :\n\nChoices:\na. Rs . 697.50\nb. Rs . 712.50\nc. Rs . 787.50\nd. Rs . 750\ne. Rs . 780",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let M be the marked price and note that a 5% discount gives a sale price of 0.95M, while a 7% discount gives a sale price of 0.93M.\nStep 2: Since the profit difference between the two discounts is Rs.15, we set up the equation: 0.95M - CP = (0.93M - CP) + 15.\nStep 3: The cost price CP cancels out when subtracting the sales prices, leaving: 0.95M - 0.93M = 15.\nStep 4: Simplify the equation: 0.02M = 15.\nStep 5: Solve for M: M = 15 / 0.02 = 750.\nStep 6: Compare with the given choices; the marked price Rs.750 corresponds to choice D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let M be the marked price and note that a 5% discount gives a sale price of 0.95M, while a 7% discount gives a sale price of 0.93M.",
+                "Since the profit difference between the two discounts is Rs.15, we set up the equation: 0.95M - CP = (0.93M - CP) + 15.",
+                "The cost price CP cancels out when subtracting the sales prices, leaving: 0.95M - 0.93M = 15.",
+                "Simplify the equation: 0.02M = 15.",
+                "Solve for M: M = 15 / 0.02 = 750.",
+                "Compare with the given choices; the marked price Rs.750 corresponds to choice D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 6.758354425430298,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A student instead of finding t",
+            "question": "Question: A student instead of finding the value of 7 / 8 of a number , found the value of 7 / 18 of the number . If his answer differed from the actual one by 770 , find the that number .\n\nChoices:\na. 1584\nb. 2520\nc. 1728\nd. 1656\ne. None",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let x be the unknown number. The correct value should have been (7/8)x, but the student computed (7/18)x instead.\n\nStep 2: The difference between these two results is (7/8)x - (7/18)x, which is given as 770.\n\nStep 3: Factor out 7x from the difference: 7x(1/8 - 1/18) = 770.\n\nStep 4: Find the common denominator for the fractions 1/8 and 1/18. The common denominator is 72, so convert: 1/8 = 9/72 and 1/18 = 4/72. Thus, (1/8 - 1/18) = (9 - 4) / 72 = 5/72.\n\nStep 5: Substitute back into the equation: 7x * (5/72) = 770, which simplifies to (35x)/72 = 770.\n\nStep 6: Solve for x by multiplying both sides by 72 and dividing by 35: x = 770 * 72 / 35.\n\nStep 7: Notice that 35 divides 770 exactly (770/35 = 22), so x = 22 * 72 = 1584.\n\nStep 8: The calculated number, 1584, corresponds to option A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x be the unknown number. The correct value should have been (7/8)x, but the student computed (7/18)x instead.",
+                "The difference between these two results is (7/8)x - (7/18)x, which is given as 770.",
+                "Factor out 7x from the difference: 7x(1/8 - 1/18) = 770.",
+                "Find the common denominator for the fractions 1/8 and 1/18. The common denominator is 72, so convert: 1/8 = 9/72 and 1/18 = 4/72. Thus, (1/8 - 1/18) = (9 - 4) / 72 = 5/72.",
+                "Substitute back into the equation: 7x * (5/72) = 770, which simplifies to (35x)/72 = 770.",
+                "Solve for x by multiplying both sides by 72 and dividing by 35: x = 770 * 72 / 35.",
+                "Notice that 35 divides 770 exactly (770/35 = 22), so x = 22 * 72 = 1584.",
+                "The calculated number, 1584, corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.6872687339782715,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The monthly salary S of a shop",
+            "question": "Question: The monthly salary S of a shop assistant is the sum of a fixed salary of $ 500 plus 5 % of all monthly sales . What should the monthly sales be so that her monthly salary reaches $ 1500 ?\n\nChoices:\na. $ 50000\nb. $ 40000\nc. $ 30000\nd. $ 20000\ne. None of these",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that the salary S is given by the equation S = 500 + 0.05 × (monthly sales), where the fixed part is $500 and 5% of sales is added.  \nStep 2: Set S = 1500 to meet the salary requirement, forming the equation 1500 = 500 + 0.05 × (monthly sales).  \nStep 3: Subtract 500 from both sides to isolate the variable term: 1500 − 500 = 0.05 × (monthly sales), which simplifies to 1000 = 0.05 × (monthly sales).  \nStep 4: Divide both sides by 0.05 to solve for the monthly sales: monthly sales = 1000 / 0.05 = 20,000.  \nStep 5: Compare the result with the provided choices. The monthly sales of $20,000 corresponds to choice D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the salary S is given by the equation S = 500 + 0.05 × (monthly sales), where the fixed part is $500 and 5% of sales is added.  ",
+                "Set S = 1500 to meet the salary requirement, forming the equation 1500 = 500 + 0.05 × (monthly sales).  ",
+                "Subtract 500 from both sides to isolate the variable term: 1500 − 500 = 0.05 × (monthly sales), which simplifies to 1000 = 0.05 × (monthly sales).  ",
+                "Divide both sides by 0.05 to solve for the monthly sales: monthly sales = 1000 / 0.05 = 20,000.  ",
+                "Compare the result with the provided choices. The monthly sales of $20,000 corresponds to choice D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.4431023597717285,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_An aeroplane flies along the f",
+            "question": "Question: An aeroplane flies along the four sides of a square at the speeds of 200 , 400 , 600 and 800 km / hr . Find the average speed of the plane around the field ?\n\nChoices:\na. 384\nb. 562\nc. 458\nd. 156\ne. 452",
+            "answerKey": "a",
+            "cot_output": "Step 1: Assume the square has a side length L. The airplane covers a total distance of 4L when flying the four sides.\nStep 2: The time to fly each side is given by L divided by the speed on that side: \n  Time1 = L/200, Time2 = L/400, Time3 = L/600, Time4 = L/800.\nStep 3: The total time taken for the flight is L(1/200 + 1/400 + 1/600 + 1/800).\nStep 4: The average speed is the total distance divided by the total time, so:\n  Average Speed = 4L / [L(1/200 + 1/400 + 1/600 + 1/800)] = 4 / (1/200 + 1/400 + 1/600 + 1/800).\nStep 5: To combine the fractions, express each term with a common denominator (using 2400 works because 200×12 = 2400, 400×6 = 2400, 600×4 = 2400, 800×3 = 2400):\n  1/200 = 12/2400, 1/400 = 6/2400, 1/600 = 4/2400, 1/800 = 3/2400.\nStep 6: Adding these up gives:\n  (12 + 6 + 4 + 3)/2400 = 25/2400 = 1/96.\nStep 7: Substituting back, the average speed becomes:\n  Average Speed = 4 / (1/96) = 4 × 96 = 384 km/hr.\nStep 8: This matches with choice (a).\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assume the square has a side length L. The airplane covers a total distance of 4L when flying the four sides.",
+                "The time to fly each side is given by L divided by the speed on that side: ",
+                "The total time taken for the flight is L(1/200 + 1/400 + 1/600 + 1/800).",
+                "The average speed is the total distance divided by the total time, so:",
+                "To combine the fractions, express each term with a common denominator (using 2400 works because 200×12 = 2400, 400×6 = 2400, 600×4 = 2400, 800×3 = 2400):",
+                "Adding these up gives:",
+                "Substituting back, the average speed becomes:",
+                "This matches with choice (a)."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 8.288547277450562,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Jack buys 18 sharpeners ( whit",
+            "question": "Question: Jack buys 18 sharpeners ( white and brown ) for rs . 100 . If he pays 1 rupee more for each white than brown sharpeners . How many of white and how many brown sharpeners did he buy ?\n\nChoices:\na. 10,8\nb. 9,8\nc. 7,8\nd. 5,6\ne. 11,12",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let the number of white sharpeners be w and brown sharpeners be b. We have the equation for quantity: w + b = 18.\nStep 2: Let the cost of a brown sharpener be Rs. x. Then the cost of a white sharpener is Rs. (x + 1) because it costs 1 rupee more.\nStep 3: The total cost is given as Rs. 100. Thus, the cost equation becomes: w(x + 1) + b(x) = 100.\nStep 4: Substitute b with (18 - w) from the quantity equation: w(x + 1) + (18 - w)x = 100.\nStep 5: Expand and simplify the equation: wx + w + 18x - wx = w + 18x = 100.\nStep 6: Rearranging gives: 18x = 100 - w, leading to x = (100 - w) / 18.\nStep 7: Since x must be an integer, (100 - w) must be divisible by 18. Testing the choices:\n Choice A: w = 10, b = 8, then x = (100 - 10)/18 = 90/18 = 5 (an integer).\nStep 8: With w = 10 and b = 8, the cost per brown is Rs. 5 and per white is Rs. 6. Calculating total cost: 10×6 + 8×5 = 60 + 40 = 100, which matches the given sum.\nStep 9: Hence, the correct distribution is 10 white sharpeners and 8 brown sharpeners.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the number of white sharpeners be w and brown sharpeners be b. We have the equation for quantity: w + b = 18.",
+                "Let the cost of a brown sharpener be Rs. x. Then the cost of a white sharpener is Rs. (x + 1) because it costs 1 rupee more.",
+                "The total cost is given as Rs. 100. Thus, the cost equation becomes: w(x + 1) + b(x) = 100.",
+                "Substitute b with (18 - w) from the quantity equation: w(x + 1) + (18 - w)x = 100.",
+                "Expand and simplify the equation: wx + w + 18x - wx = w + 18x = 100.",
+                "Rearranging gives: 18x = 100 - w, leading to x = (100 - w) / 18.",
+                "Since x must be an integer, (100 - w) must be divisible by 18. Testing the choices:",
+                "With w = 10 and b = 8, the cost per brown is Rs. 5 and per white is Rs. 6. Calculating total cost: 10×6 + 8×5 = 60 + 40 = 100, which matches the given sum.",
+                "Hence, the correct distribution is 10 white sharpeners and 8 brown sharpeners."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.900134563446045,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Hoses A and B spout water at d",
+            "question": "Question: Hoses A and B spout water at different constant rates , and hose A can fill a certain pool in 8 hours . Hose A filled the pool alone for the first 2 hours and the two hoses , working together , then finished filling the pool in another 3 hours . How many hours would it have taken hose B , working alone , to fill the entire pool ?\n\nChoices:\na. 8\nb. 15\nc. 12\nd. 6\ne. 3",
+            "answerKey": "a",
+            "cot_output": "Step 1: Hose A fills the pool in 8 hours, so its filling rate is 1/8 of the pool per hour.\nStep 2: In the first 2 hours, hose A fills 2 × (1/8) = 1/4 of the pool.\nStep 3: This leaves 1 − 1/4 = 3/4 of the pool to be filled.\nStep 4: Hoses A and B working together fill the remaining 3/4 of the pool in 3 hours, so their combined rate is (3/4) ÷ 3 = 1/4 of the pool per hour.\nStep 5: Since hose A's rate is 1/8, the rate of hose B must be 1/4 − 1/8 = 1/8 of the pool per hour.\nStep 6: Therefore, hose B alone would require 1 ÷ (1/8) = 8 hours to fill the pool.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hose A fills the pool in 8 hours, so its filling rate is 1/8 of the pool per hour.",
+                "In the first 2 hours, hose A fills 2 × (1/8) = 1/4 of the pool.",
+                "This leaves 1 − 1/4 = 3/4 of the pool to be filled.",
+                "Hoses A and B working together fill the remaining 3/4 of the pool in 3 hours, so their combined rate is (3/4) ÷ 3 = 1/4 of the pool per hour.",
+                "Since hose A's rate is 1/8, the rate of hose B must be 1/4 − 1/8 = 1/8 of the pool per hour.",
+                "Therefore, hose B alone would require 1 ÷ (1/8) = 8 hours to fill the pool."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 9.175514936447144,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If 120 is reduced to 96 , what",
+            "question": "Question: If 120 is reduced to 96 , what is the reduction percent ?\n\nChoices:\na. 30 %\nb. 40 %\nc. 20 %\nd. 10 %\ne. 5 %",
+            "answerKey": "c",
+            "cot_output": "Step 1: Determine the amount of reduction by subtracting the reduced value from the original value: 120 - 96 = 24.\nStep 2: Compute the reduction fraction by dividing the reduction amount by the original value: 24 / 120 = 0.20.\nStep 3: Convert the fraction to a percentage by multiplying by 100: 0.20 × 100 = 20%.\nStep 4: Compare the calculated percentage with the given choices; 20% corresponds to option C.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the amount of reduction by subtracting the reduced value from the original value: 120 - 96 = 24.",
+                "Compute the reduction fraction by dividing the reduction amount by the original value: 24 / 120 = 0.20.",
+                "Convert the fraction to a percentage by multiplying by 100: 0.20 × 100 = 20%.",
+                "Compare the calculated percentage with the given choices; 20% corresponds to option C."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.424790143966675,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I know a 5 digit number having",
+            "question": "Question: I know a 5 digit number having a property that with a 1 after it , it is three times as large as it would be with a 1 before it .\nWhat is that number ?\n\nChoices:\na. 42857\nb. 32456\nc. 76523\nd. 24567\ne. 43566",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let the 5‐digit number be N. Appending a 1 to N forms the number 10N + 1, and prepending a 1 forms the number 100000 + N.\nStep 2: The problem states that 10N + 1 is equal to 3 times (100000 + N), which gives us the equation: 10N + 1 = 3(100000 + N).\nStep 3: Expanding the equation, we get 10N + 1 = 300000 + 3N.\nStep 4: Rearranging leads to 10N - 3N = 300000 - 1, which simplifies to 7N = 299999.\nStep 5: Dividing both sides by 7, we find N = 299999 / 7 = 42857.\nStep 6: The number 42857 corresponds to Choice A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the 5‐digit number be N. Appending a 1 to N forms the number 10N + 1, and prepending a 1 forms the number 100000 + N.",
+                "The problem states that 10N + 1 is equal to 3 times (100000 + N), which gives us the equation: 10N + 1 = 3(100000 + N).",
+                "Expanding the equation, we get 10N + 1 = 300000 + 3N.",
+                "Rearranging leads to 10N - 3N = 300000 - 1, which simplifies to 7N = 299999.",
+                "Dividing both sides by 7, we find N = 299999 / 7 = 42857.",
+                "The number 42857 corresponds to Choice A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.303004741668701,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_At Daifu university , 24 % of ",
+            "question": "Question: At Daifu university , 24 % of all students are members of both a chess club and a swim team . If 20 % of members of the swim team are not members of the chess club , what percentage of all Daifu students are members of the swim team ?\n\nChoices:\na. 20 %\nb. 30 %\nc. 40 %\nd. 50 %\ne. 60 %",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let S be the percentage of all students who are members of the swim team. We know that 24% of the students are members of both the chess club and the swim team.\nStep 2: It is given that 20% of members of the swim team are not members of the chess club, which implies that 80% of the swim team members are members of the chess club.\nStep 3: Since 80% of the swim team members are in both clubs, we can express the fraction in both clubs as 0.8 × S.\nStep 4: Setting up the equation based on the information: 0.8 × S = 0.24.\nStep 5: Solve for S by dividing both sides of the equation by 0.8: S = 0.24 / 0.8 = 0.3, or 30%.\nStep 6: Thus, the percentage of all Daifu students who are members of the swim team is 30%.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let S be the percentage of all students who are members of the swim team. We know that 24% of the students are members of both the chess club and the swim team.",
+                "It is given that 20% of members of the swim team are not members of the chess club, which implies that 80% of the swim team members are members of the chess club.",
+                "Since 80% of the swim team members are in both clubs, we can express the fraction in both clubs as 0.8 × S.",
+                "Setting up the equation based on the information: 0.8 × S = 0.24.",
+                "Solve for S by dividing both sides of the equation by 0.8: S = 0.24 / 0.8 = 0.3, or 30%.",
+                "Thus, the percentage of all Daifu students who are members of the swim team is 30%."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.15295934677124,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If the population of a city in",
+            "question": "Question: If the population of a city increases by 5 % annually , what will be the population of the city in 2 years time if its current population is 78000 ?\n\nChoices:\na. 81900\nb. 85995\nc. 85800\nd. 90000\ne. None of these",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that a 5% annual growth implies using the formula: Future Population = Present Population × (1 + 0.05)ⁿ, where n is the number of years.\nStep 2: Substitute the known values: Present Population = 78000 and n = 2 years, so Future Population = 78000 × (1.05)².\nStep 3: Compute (1.05)² = 1.05 × 1.05 = 1.1025.\nStep 4: Multiply 78000 by 1.1025: 78000 × 1.1025 = 85995.\nStep 5: Compare the result with the given choices and note that 85995 corresponds to option B.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that a 5% annual growth implies using the formula: Future Population = Present Population × (1 + 0.05)ⁿ, where n is the number of years.",
+                "Substitute the known values: Present Population = 78000 and n = 2 years, so Future Population = 78000 × (1.05)².",
+                "Compute (1.05)² = 1.05 × 1.05 = 1.1025.",
+                "Multiply 78000 by 1.1025: 78000 × 1.1025 = 85995.",
+                "Compare the result with the given choices and note that 85995 corresponds to option B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.9105396270751953,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Two cars start at the same tim",
+            "question": "Question: Two cars start at the same time from opposite ends of a highway that is 50 miles long . One car is riding at 12 mph and the second car is riding at 13 mph . How long after they begin will they meet ?\n\nChoices:\na. 1\nb. 1.25\nc. 1.50\nd. 1.75\ne. 2",
+            "answerKey": "e",
+            "cot_output": "Step 1: Determine the total distance between the two cars, which is given as 50 miles.\nStep 2: Identify the speeds of the two cars, which are 12 mph and 13 mph.\nStep 3: Since they are moving toward each other, their speeds add together, so the combined speed is 12 mph + 13 mph = 25 mph.\nStep 4: Calculate the time required for the cars to meet by dividing the total distance by the combined speed: Time = 50 miles / 25 mph = 2 hours.\nStep 5: Compare the calculated time with the provided choices, noting that 2 hours matches option e.\n===FINAL_ANSWER_START===\nConclusion: 2\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the total distance between the two cars, which is given as 50 miles.",
+                "Identify the speeds of the two cars, which are 12 mph and 13 mph.",
+                "Since they are moving toward each other, their speeds add together, so the combined speed is 12 mph + 13 mph = 25 mph.",
+                "Calculate the time required for the cars to meet by dividing the total distance by the combined speed: Time = 50 miles / 25 mph = 2 hours.",
+                "Compare the calculated time with the provided choices, noting that 2 hours matches option e."
+            ],
+            "pred": "2",
+            "is_correct": false,
+            "elapsed_time": 5.406250953674316,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A shopkeeper employed a servan",
+            "question": "Question: A shopkeeper employed a servant at a monthly salary of 1500 . In addition to it , he agreed to pay him a commission of 15 % on the monthly sale . How much sale in Rupees should the servant do if he wants his monthly income as 6000 ?\n\nChoices:\na. 30000\nb. 415000\nc. 31500\nd. 50000\ne. None of these",
+            "answerKey": "a",
+            "cot_output": "Step 1: The servant receives a fixed salary of 1500, and his income is supplemented by a commission of 15% on his monthly sales.\nStep 2: The total monthly income desired is 6000, so the commission must make up the difference: 6000 − 1500 = 4500.\nStep 3: Since the commission is 15% of the sales, we set up the equation 0.15 × Sales = 4500.\nStep 4: Solving for Sales, we divide both sides by 0.15: Sales = 4500 / 0.15 = 30000.\nStep 5: Therefore, the servant must achieve sales of 30000 to earn a total monthly income of 6000.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The servant receives a fixed salary of 1500, and his income is supplemented by a commission of 15% on his monthly sales.",
+                "The total monthly income desired is 6000, so the commission must make up the difference: 6000 − 1500 = 4500.",
+                "Since the commission is 15% of the sales, we set up the equation 0.15 × Sales = 4500.",
+                "Solving for Sales, we divide both sides by 0.15: Sales = 4500 / 0.15 = 30000.",
+                "Therefore, the servant must achieve sales of 30000 to earn a total monthly income of 6000."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 3.459481716156006,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man borrows Rs . 360 If he p",
+            "question": "Question: A man borrows Rs . 360 If he pays it back in 12 monthly installments of Rs . 31.50 , what is his interest rate ?\n\nChoices:\na. 1.5 %\nb. 4.5 %\nc. 10 %\nd. 5 %\ne. 12 %",
+            "answerKey": "d",
+            "cot_output": "Step 1: Calculate the total amount repaid over 12 months: 12 × Rs 31.50 = Rs 378.\nStep 2: Determine the total interest by subtracting the borrowed amount from the total repaid: Rs 378 – Rs 360 = Rs 18.\nStep 3: Compute the interest rate by dividing the interest by the borrowed amount and multiplying by 100: (Rs 18 / Rs 360) × 100 = 5%.\nStep 4: Identify the matching option among the choices. The interest rate 5% corresponds to option D.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the total amount repaid over 12 months: 12 × Rs 31.50 = Rs 378.",
+                "Determine the total interest by subtracting the borrowed amount from the total repaid: Rs 378 – Rs 360 = Rs 18.",
+                "Compute the interest rate by dividing the interest by the borrowed amount and multiplying by 100: (Rs 18 / Rs 360) × 100 = 5%.",
+                "Identify the matching option among the choices. The interest rate 5% corresponds to option D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.789254903793335,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The price of a product is redu",
+            "question": "Question: The price of a product is reduced by 30 % . By what percentage should it be increased to make it 100 %\n\nChoices:\na. 41.86 %\nb. 42.86 %\nc. 43.86 %\nd. 44.86 %\ne. 45.86 %",
+            "answerKey": "b",
+            "cot_output": "Step 1: Assume the original price is P.  \nStep 2: After a 30% reduction, the new price becomes 0.7P.  \nStep 3: To return to the original price P, we need to determine the percentage increase x such that 0.7P × (1 + x) = P.  \nStep 4: Solving the equation, we get (1 + x) = P / (0.7P) = 1/0.7 = 10/7, which is approximately 1.42857.  \nStep 5: Thus, x = (10/7) - 1 = 3/7 ≈ 0.42857, meaning a 42.857% increase.  \nStep 6: The closest answer among the provided choices is 42.86%.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assume the original price is P.  ",
+                "After a 30% reduction, the new price becomes 0.7P.  ",
+                "To return to the original price P, we need to determine the percentage increase x such that 0.7P × (1 + x) = P.  ",
+                "Solving the equation, we get (1 + x) = P / (0.7P) = 1/0.7 = 10/7, which is approximately 1.42857.  ",
+                "Thus, x = (10/7) - 1 = 3/7 ≈ 0.42857, meaning a 42.857% increase.  ",
+                "The closest answer among the provided choices is 42.86%."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.485809564590454,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I have a money pouch containin",
+            "question": "Question: I have a money pouch containing Rs . 700 . There are equal number of 25 paise coins , 50 paise coins and one rupee coins .\nHow many of each are there ?\n\nChoices:\na. 453\nb. 651\nc. 400\nd. 487\ne. 286",
+            "answerKey": "c",
+            "cot_output": "Step 1: Let x be the number of each type of coin since the numbers are equal.\nStep 2: Calculate the total value contributed by all coins: 25 paise coins add 25x, 50 paise coins add 50x, and one rupee coins (100 paise) add 100x. The total value in paise is 25x + 50x + 100x = 175x.\nStep 3: Convert Rs. 700 into paise: 700 rupees equals 70000 paise.\nStep 4: Set up the equation 175x = 70000 to represent the total value.\nStep 5: Solve for x: x = 70000 / 175 = 400.\nStep 6: Thus, there are 400 coins of each type, and checking the options, 400 corresponds to option C.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x be the number of each type of coin since the numbers are equal.",
+                "Calculate the total value contributed by all coins: 25 paise coins add 25x, 50 paise coins add 50x, and one rupee coins (100 paise) add 100x. The total value in paise is 25x + 50x + 100x = 175x.",
+                "Convert Rs. 700 into paise: 700 rupees equals 70000 paise.",
+                "Set up the equation 175x = 70000 to represent the total value.",
+                "Solve for x: x = 70000 / 175 = 400.",
+                "Thus, there are 400 coins of each type, and checking the options, 400 corresponds to option C."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.418449401855469,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man spends Rs . 3500 per mon",
+            "question": "Question: A man spends Rs . 3500 per month and saves 12 1 / 2 % of his income . His monthly income is ?\n\nChoices:\na. Rs . 4400\nb. Rs . 4270\nc. Rs . 4000\nd. Rs . 3937.50\ne. None of these",
+            "answerKey": "c",
+            "cot_output": "Step 1: Let the man's monthly income be I.  \nStep 2: Since he saves 12.5% of his income, he spends the remaining 87.5% on expenses.  \nStep 3: Therefore, the equation for his expenses is 0.875 × I = 3500.  \nStep 4: Solving for I, we divide both sides by 0.875: I = 3500 ÷ 0.875 = 4000.  \nStep 5: The computed income of Rs. 4000 matches option C in the given choices.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the man's monthly income be I.  ",
+                "Since he saves 12.5% of his income, he spends the remaining 87.5% on expenses.  ",
+                "Therefore, the equation for his expenses is 0.875 × I = 3500.  ",
+                "Solving for I, we divide both sides by 0.875: I = 3500 ÷ 0.875 = 4000.  ",
+                "The computed income of Rs. 4000 matches option C in the given choices."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.6628592014312744,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Five dozen toys are packed in ",
+            "question": "Question: Five dozen toys are packed in a box and 98 boxes are kept in a tempo . How many tempos can lift 29400 toys in one round ?\n\nChoices:\na. 4\nb. 5\nc. 7\nd. 6\ne. 8",
+            "answerKey": "b",
+            "cot_output": "Step 1: Determine the number of toys in one box. Since one box contains 5 dozen toys and 1 dozen is 12, then 5 dozen equals 5 × 12 = 60 toys.\nStep 2: Calculate how many toys can be carried in one tempo by finding the total toys in 98 boxes: 98 × 60 = 5880 toys per tempo.\nStep 3: To find the number of tempos needed for 29400 toys, divide the total toys by the number of toys per tempo: 29400 ÷ 5880 = 5.\nStep 4: Since 5 tempos are required, the answer corresponds to the choice that represents 5, which is option B.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the number of toys in one box. Since one box contains 5 dozen toys and 1 dozen is 12, then 5 dozen equals 5 × 12 = 60 toys.",
+                "Calculate how many toys can be carried in one tempo by finding the total toys in 98 boxes: 98 × 60 = 5880 toys per tempo.",
+                "To find the number of tempos needed for 29400 toys, divide the total toys by the number of toys per tempo: 29400 ÷ 5880 = 5.",
+                "Since 5 tempos are required, the answer corresponds to the choice that represents 5, which is option B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.17479395866394,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_There are 10 oranges in a bask",
+            "question": "Question: There are 10 oranges in a basket . Find the no . of ways in which 2 oranges are chosen from the basket ?\n\nChoices:\na. 45\nb. 90\nc. 120\nd. 150\ne. 180",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that choosing 2 oranges from 10 is a combination problem where order does not matter.\nStep 2: Use the combination formula C(n, r) = n! / (r!(n - r)!) with n = 10 and r = 2.\nStep 3: Compute C(10, 2) = 10! / (2! * 8!) = (10 × 9) / 2 = 45.\nStep 4: Among the given choices, 45 corresponds to option A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that choosing 2 oranges from 10 is a combination problem where order does not matter.",
+                "Use the combination formula C(n, r) = n! / (r!(n - r)!) with n = 10 and r = 2.",
+                "Compute C(10, 2) = 10! / (2! * 8!) = (10 × 9) / 2 = 45.",
+                "Among the given choices, 45 corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.739522695541382,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A company contracts to paint 3",
+            "question": "Question: A company contracts to paint 3 houses . Mr . Brown can paint a house in 6 days while Mr . Black would take 8 days and Mr . Blue 12 days . After 8 days Mr . Brown goes on vacation and Mr . Black begins to work for a period of 6 days . How many days will it take Mr . Blue to complete the contract ?\n\nChoices:\na. 7\nb. 8\nc. 10\nd. 11\ne. 12",
+            "answerKey": "d",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.605981826782227,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Train A leaves a station every",
+            "question": "Question: Train A leaves a station every 16 minutes and Train B leaves every 17 minutes . If both trains just left the station simultaneously , how long until they do so again ?\n\nChoices:\na. 272 minutes\nb. 304 minutes\nc. 190 minutes\nd. 70 minutes\ne. 35 minutes",
+            "answerKey": "a",
+            "cot_output": "Step 1: Both trains depart the station at regular intervals (16 minutes for Train A and 17 minutes for Train B). We need the first time they both leave simultaneously again, which occurs at the least common multiple (LCM) of the two intervals.\nStep 2: Since 16 and 17 are relatively prime (they have no common prime factors), the LCM is simply their product.\nStep 3: Multiplying the two intervals gives 16 × 17 = 272 minutes.\nStep 4: Among the provided choices, 272 minutes corresponds to choice A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Both trains depart the station at regular intervals (16 minutes for Train A and 17 minutes for Train B). We need the first time they both leave simultaneously again, which occurs at the least common multiple (LCM) of the two intervals.",
+                "Since 16 and 17 are relatively prime (they have no common prime factors), the LCM is simply their product.",
+                "Multiplying the two intervals gives 16 × 17 = 272 minutes.",
+                "Among the provided choices, 272 minutes corresponds to choice A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.7833118438720703,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A hollow cube of size 5 cm is ",
+            "question": "Question: A hollow cube of size 5 cm is taken , with the thickness of 1 cm . It is made of smaller cubes of size 1 cm . If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted ?\n\nChoices:\na. 438\nb. 550\nc. 500\nd. 450\ne. 498",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the outer cube is 5 cm on each side, constructed from 1 cm cubes, meaning a full 5 × 5 × 5 arrangement, totaling 125 cubes if it were solid.\nStep 2: Understand that since the cube is hollow with a wall thickness of 1 cm, the interior (a 3 × 3 × 3 cube) is removed. Thus, the actual number of 1 cm cubes used is 125 − 27 = 98.\nStep 3: Each small cube has 6 faces, so the total number of faces in all cubes is 98 × 6 = 588.\nStep 4: The outer surface of the cube is painted. The large cube has 6 faces, each of size 5 × 5 = 25, so a total of 6 × 25 = 150 small cube faces are painted.\nStep 5: The number of unpainted faces is therefore the total faces minus the painted faces, which is 588 − 150 = 438.\nStep 6: Since 438 corresponds to choice A, the correct answer is concluded.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the outer cube is 5 cm on each side, constructed from 1 cm cubes, meaning a full 5 × 5 × 5 arrangement, totaling 125 cubes if it were solid.",
+                "Understand that since the cube is hollow with a wall thickness of 1 cm, the interior (a 3 × 3 × 3 cube) is removed. Thus, the actual number of 1 cm cubes used is 125 − 27 = 98.",
+                "Each small cube has 6 faces, so the total number of faces in all cubes is 98 × 6 = 588.",
+                "The outer surface of the cube is painted. The large cube has 6 faces, each of size 5 × 5 = 25, so a total of 6 × 25 = 150 small cube faces are painted.",
+                "The number of unpainted faces is therefore the total faces minus the painted faces, which is 588 − 150 = 438.",
+                "Since 438 corresponds to choice A, the correct answer is concluded."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 8.259299039840698,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In a chocolate store , all cho",
+            "question": "Question: In a chocolate store , all chocolates are either vanilla or cocoa flavored only . 10 % of the chocolates are cocoa flavored , 90 % of the rest are squashed . What percentage of the chocolates are both vanilla flavored and not squashed ?\n\nChoices:\na. 1 %\nb. 2 %\nc. 5 %\nd. 9 %\ne. 10 %",
+            "answerKey": "d",
+            "cot_output": "Step 1: Recognize that all chocolates are either vanilla or cocoa flavored. Given that 10% are cocoa flavored, the remaining 90% must be vanilla flavored.\nStep 2: Note that 90% of the vanilla chocolates are squashed. Therefore, only 10% of the vanilla chocolates are not squashed.\nStep 3: Calculate the percentage of all chocolates that are both vanilla and not squashed by taking 10% of the 90% vanilla chocolates: 0.10 × 90% = 9%.\nStep 4: Conclude that 9% of the chocolates are both vanilla flavored and not squashed.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that all chocolates are either vanilla or cocoa flavored. Given that 10% are cocoa flavored, the remaining 90% must be vanilla flavored.",
+                "Note that 90% of the vanilla chocolates are squashed. Therefore, only 10% of the vanilla chocolates are not squashed.",
+                "Calculate the percentage of all chocolates that are both vanilla and not squashed by taking 10% of the 90% vanilla chocolates: 0.10 × 90% = 9%.",
+                "Conclude that 9% of the chocolates are both vanilla flavored and not squashed."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.927265882492065,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_There is well of depth 30 m an",
+            "question": "Question: There is well of depth 30 m and frog is at bottom of the well . He jumps 3 m up one day and falls back 2 m down the same day . How many days will it take for the frog to come out of the well ?\n\nChoices:\na. 25 days\nb. 26 days\nc. 27 days\nd. 28 days\ne. 29 days",
+            "answerKey": "d",
+            "cot_output": "Step 1: The frog climbs 3 m and slips back 2 m each day, which means its net progress is 1 m per day until the final day's jump, where slipping does not occur.  \nStep 2: To escape the 30 m well without slipping back, the frog must start a day at a height such that a 3 m climb reaches or exceeds 30 m. This requires the starting height to be at least (30 − 3) = 27 m.  \nStep 3: Since the frog gains 1 m net per day, it will reach 27 m at the beginning of the 28th day (because after 27 full days, its height is 27 m).  \nStep 4: On the 28th day, beginning at 27 m, the frog climbs 3 m, reaching exactly 30 m, and escapes before it can slip back.  \n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The frog climbs 3 m and slips back 2 m each day, which means its net progress is 1 m per day until the final day's jump, where slipping does not occur.  ",
+                "To escape the 30 m well without slipping back, the frog must start a day at a height such that a 3 m climb reaches or exceeds 30 m. This requires the starting height to be at least (30 − 3) = 27 m.  ",
+                "Since the frog gains 1 m net per day, it will reach 27 m at the beginning of the 28th day (because after 27 full days, its height is 27 m).  ",
+                "On the 28th day, beginning at 27 m, the frog climbs 3 m, reaching exactly 30 m, and escapes before it can slip back.  "
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 8.109003067016602,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The sum of the 5 consecutive t",
+            "question": "Question: The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square , which of the following can be one of these 5 numbers ?\n\nChoices:\na. 47\nb. 91\nc. 41\nd. 67\ne. 44",
+            "answerKey": "c",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.330752611160278,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In a class , 8 % of total stud",
+            "question": "Question: In a class , 8 % of total students are interested in Football . 4 / 5 of total students are interested in Cricket . 10 % of total students are interested in Basketball and remaining 20 students are not interested in any games . How many students are there in the class ?\n\nChoices:\na. 850\nb. 800\nc. 900\nd. 950\ne. 1000",
+            "answerKey": "e",
+            "cot_output": "Step 1: Let the total number of students be x.\nStep 2: According to the problem, 8% are interested in Football, which gives 0.08x students.\nStep 3: Also, 4/5 of the students are interested in Cricket, giving 0.8x students.\nStep 4: Additionally, 10% are interested in",
+            "cot_steps": [
+                "Let the total number of students be x.",
+                "According to the problem, 8% are interested in Football, which gives 0.08x students.",
+                "Also, 4/5 of the students are interested in Cricket, giving 0.8x students.",
+                "Additionally, 10% are interested in"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.107146739959717,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Q is as much younger than R as",
+            "question": "Question: Q is as much younger than R as he is older than T . If the sum of the ages of R and T is 50 years . What is definitely the difference between R and Q ' s age ?\n\nChoices:\na. 22\nb. 27\nc. 29\nd. Can not be determined\ne. None of the above",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let R, Q, and T represent the ages of persons R, Q, and T respectively.\nStep 2: The problem states that \"Q is as much younger than R as he is older than T,\" which means the gap between R and Q is equal to the gap between Q and T. This gives the equation: R - Q = Q - T.\nStep 3: Rearranging the equation from Step 2, we get R + T = 2Q.\nStep 4: The problem also states that the sum of the ages of R and T is 50, so we have: R + T = 50.\nStep 5: Combining the result of Step 3 and Step 4, we substitute 50 for R + T in the equation to obtain: 2Q = 50, which simplifies to Q = 25.\nStep 6: At this stage, we know Q’s age is definitely 25, but R and T could vary as long as their sum is 50 and Q remains exactly in the middle between them. In other words, the value of (R - 25) equals (25 - T).\nStep 7: Since R can vary (subject only to R + T = 50 and R > Q > T), the difference between R and Q (i.e., R - 25) depends on the actual value chosen for R. For example, if R = 30 then R - Q = 30 - 25 = 5; if R = 40 then R - Q = 40 - 25 = 15, etc.\nStep 8: Therefore, the specific difference between R and Q's ages cannot be determined uniquely from the information provided.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let R, Q, and T represent the ages of persons R, Q, and T respectively.",
+                "The problem states that \"Q is as much younger than R as he is older than T,\" which means the gap between R and Q is equal to the gap between Q and T. This gives the equation: R - Q = Q - T.",
+                "Rearranging the equation from Step 2, we get R + T = 2Q.",
+                "The problem also states that the sum of the ages of R and T is 50, so we have: R + T = 50.",
+                "Combining the result of Step 3 and Step 4, we substitute 50 for R + T in the equation to obtain: 2Q = 50, which simplifies to Q = 25.",
+                "At this stage, we know Q’s age is definitely 25, but R and T could vary as long as their sum is 50 and Q remains exactly in the middle between them. In other words, the value of (R - 25) equals (25 - T).",
+                "Since R can vary (subject only to R + T = 50 and R > Q > T), the difference between R and Q (i.e., R - 25) depends on the actual value chosen for R. For example, if R = 30 then R - Q = 30 - 25 = 5; if R = 40 then R - Q = 40 - 25 = 15, etc.",
+                "Therefore, the specific difference between R and Q's ages cannot be determined uniquely from the information provided."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 5.901535511016846,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Calculate the maximum distance",
+            "question": "Question: Calculate the maximum distance you can travel with $ 8.50 on a cab which charges $ 3.50 for the first quarter - mile and 10 cents for each additional quarter mile .\n\nChoices:\na. 11.75 miles\nb. 12.75 miles\nc. 17.75 miles\nd. 14.75 miles\ne. 10.75 miles",
+            "answerKey": "b",
+            "cot_output": "Step 1: We start with the total amount available, which is $8.50, and note that the first quarter-mile costs $3.50.  \nStep 2: Deducting the $3.50 fare for the first quarter-mile from $8.50 leaves us with $8.50 − $3.50 = $5.00 for additional distance.  \nStep 3: The cab charges 10 cents (i.e., $0.10) for each additional quarter-mile. Therefore, the number of additional quarter-miles we can get is $5.00 ÷ $0.10 = 50 quarter-miles.  \nStep 4: Including the first quarter-mile, the total number of quarter-miles traveled is 1 + 50 = 51 quarter-miles.  \nStep 5: Since each quarter-mile is 0.25 miles, the total distance is 51 × 0.25 = 12.75 miles.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "We start with the total amount available, which is $8.50, and note that the first quarter-mile costs $3.50.  ",
+                "Deducting the $3.50 fare for the first quarter-mile from $8.50 leaves us with $8.50 − $3.50 = $5.00 for additional distance.  ",
+                "The cab charges 10 cents (i.e., $0.10) for each additional quarter-mile. Therefore, the number of additional quarter-miles we can get is $5.00 ÷ $0.10 = 50 quarter-miles.  ",
+                "Including the first quarter-mile, the total number of quarter-miles traveled is 1 + 50 = 51 quarter-miles.  ",
+                "Since each quarter-mile is 0.25 miles, the total distance is 51 × 0.25 = 12.75 miles.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.89098596572876,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In IPL season , Sachin current",
+            "question": "Question: In IPL season , Sachin current batting average is 51 . In the finals , he scores 78 runs , then is batting average will be 54 . Find out the total number of matches played by Sachin in this season .\n\nChoices:\na. 6\nb. 8\nc. 9\nd. 10\ne. 11",
+            "answerKey": "c",
+            "cot_output": "Step 1: Let m be the number of matches played before the finals. Given his batting average is 51 before the finals, his total runs are 51m.\nStep 2: After the finals, he has played (m + 1) matches and his total runs become 51m + 78. The new average is given as 54, leading to the equation (51m + 78)/(m + 1) = 54.\nStep 3: Multiply both sides by (m + 1) to remove the denominator: 51m + 78 = 54m + 54.\nStep 4: Rearranging gives: 78 - 54 = 54m - 51m, which simplifies to 24 = 3m.\nStep 5: Solve for m: m = 24/3 = 8.\nStep 6: The total number of matches played after including the finals is m + 1 = 8 + 1 = 9.\nStep 7: Comparing with the provided choices, 9 corresponds to option C.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let m be the number of matches played before the finals. Given his batting average is 51 before the finals, his total runs are 51m.",
+                "After the finals, he has played (m + 1) matches and his total runs become 51m + 78. The new average is given as 54, leading to the equation (51m + 78)/(m + 1) = 54.",
+                "Multiply both sides by (m + 1) to remove the denominator: 51m + 78 = 54m + 54.",
+                "Rearranging gives: 78 - 54 = 54m - 51m, which simplifies to 24 = 3m.",
+                "Solve for m: m = 24/3 = 8.",
+                "The total number of matches played after including the finals is m + 1 = 8 + 1 = 9.",
+                "Comparing with the provided choices, 9 corresponds to option C."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 5.14426851272583,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Amy is organizing her bookshel",
+            "question": "Question: Amy is organizing her bookshelves and finds that she has 10 different types of books . She then codes each book with either a single letter or a pair of two different letters . If each type of book is uniquely represented by either a single letter or pair of letters , what is the smallest number of letters Amy will need to create the codes for all 10 types of books ? ( Assume the order of letters in a pair does not matter . )\n\nChoices:\na. 3\nb. 4\nc. 5\nd. 10\ne. 20",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let k be the number of letters used. Amy’s codes are either a single letter or an unordered pair of two distinct letters, so she can make k single-letter codes.\nStep 2: The number of distinct unordered pairs possible with k letters is given by the combination formula C(k, 2) = k(k – 1)/2.\nStep 3: The total number of codes available with k letters is therefore k + k(k – 1)/2.\nStep 4: We need this total to be at least 10 (for the 10 types of books), so we set up the inequality: k + k(k – 1)/2 ≥ 10.\nStep 5: Multiply both sides by 2 to simplify: 2k + k^2 – k ≥ 20, which simplifies to k^2 + k – 20 ≥ 0.\nStep 6: Solve the quadratic equation k^2 + k – 20 = 0 using the quadratic formula: k = [–1 ± √(1 + 80)]/2 = [–1 ± 9]/2. Disregarding the negative solution, we get k = (8)/2 = 4.\nStep 7: Verify that using 4 letters gives the exact number of codes: 4 single-letter codes plus C(4, 2) = 6 pair codes, and 4 + 6 = 10 codes.\nStep 8: Since 4 letters are exactly sufficient to code 10 types of books, the smallest number of letters needed is 4.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let k be the number of letters used. Amy’s codes are either a single letter or an unordered pair of two distinct letters, so she can make k single-letter codes.",
+                "The number of distinct unordered pairs possible with k letters is given by the combination formula C(k, 2) = k(k – 1)/2.",
+                "The total number of codes available with k letters is therefore k + k(k – 1)/2.",
+                "We need this total to be at least 10 (for the 10 types of books), so we set up the inequality: k + k(k – 1)/2 ≥ 10.",
+                "Multiply both sides by 2 to simplify: 2k + k^2 – k ≥ 20, which simplifies to k^2 + k – 20 ≥ 0.",
+                "Solve the quadratic equation k^2 + k – 20 = 0 using the quadratic formula: k = [–1 ± √(1 + 80)]/2 = [–1 ± 9]/2. Disregarding the negative solution, we get k = (8)/2 = 4.",
+                "Verify that using 4 letters gives the exact number of codes: 4 single-letter codes plus C(4, 2) = 6 pair codes, and 4 + 6 = 10 codes.",
+                "Since 4 letters are exactly sufficient to code 10 types of books, the smallest number of letters needed is 4."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 7.997061252593994,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A rectangular piece of 150 sq ",
+            "question": "Question: A rectangular piece of 150 sq m has a length which is 1 m more than the 4 times the breadth . What is the perimeter of the piece ?\n\nChoices:\na. 60 m\nb. 61 m\nc. 62 m\nd. 63 m\ne. 64 m",
+            "answerKey": "c",
+            "cot_output": "Step 1: Let the breadth be b; then, based on the problem statement, the length L is given by L = 4b + 1.\nStep 2: Write the area equation using the rectangle’s area (150 sq m): b × (4b + 1) = 150.\nStep 3: Expand the equation to form a quadratic: 4b² + b − 150 = 0.\nStep 4: Use the quadratic formula b = [−1 ± sqrt(1² − 4×4×(−150))] / (2×4) = [−1 ± sqrt(1 + 2400)] / 8 = [−1 ± 49] / 8.\nStep 5: Discard the negative solution and solve for b: b = (48) / 8 = 6 m.\nStep 6: Compute the length L using the relation: L = 4(6) + 1 = 24 + 1 = 25 m.\nStep 7: Calculate the perimeter of the rectangle: Perimeter = 2 × (Length + Breadth) = 2 × (25 + 6) = 2 × 31 = 62 m.\nStep 8: Among the given choices, 62 m corresponds to option c.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the breadth be b; then, based on the problem statement, the length L is given by L = 4b + 1.",
+                "Write the area equation using the rectangle’s area (150 sq m): b × (4b + 1) = 150.",
+                "Expand the equation to form a quadratic: 4b² + b − 150 = 0.",
+                "Use the quadratic formula b = [−1 ± sqrt(1² − 4×4×(−150))] / (2×4) = [−1 ± sqrt(1 + 2400)] / 8 = [−1 ± 49] / 8.",
+                "Discard the negative solution and solve for b: b = (48) / 8 = 6 m.",
+                "Compute the length L using the relation: L = 4(6) + 1 = 24 + 1 = 25 m.",
+                "Calculate the perimeter of the rectangle: Perimeter = 2 × (Length + Breadth) = 2 × (25 + 6) = 2 × 31 = 62 m.",
+                "Among the given choices, 62 m corresponds to option c."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.277996063232422,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_One gram of a certain health f",
+            "question": "Question: One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A . If vitamins E and A are to be obtained from no other source , how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins ?\n\nChoices:\na. 8.5\nb. 10.5\nc. 12.5\nd. 14.5\ne. 16.5",
+            "answerKey": "c",
+            "cot_output": "Step 1: Define x as the number of grams needed daily. Since each gram contains 9% of vitamin E, the daily vitamin E amount is 0.09x.  \nStep 2: To meet the vitamin E requirement, we must have 0.09x ≥ 1 (100%). Solving gives x ≥ 1/0.09 ≈ 11.11 grams.  \nStep 3: Similarly, each gram contains 8% of vitamin A, so the daily vitamin A amount is 0.08x. To meet vitamin A requirements, 0.08x ≥ 1 must hold, yielding x ≥ 1/0.08 = 12.5 grams.  \nStep 4: Since the health food must supply at least the minimum daily requirement for both vitamins, the greater of the two gram amounts (11.11 grams and 12.5 grams) is necessary, i.e., at least 12.5 grams.  \nStep 5: Among the provided choices, 12.5 grams is option C.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Define x as the number of grams needed daily. Since each gram contains 9% of vitamin E, the daily vitamin E amount is 0.09x.  ",
+                "To meet the vitamin E requirement, we must have 0.09x ≥ 1 (100%). Solving gives x ≥ 1/0.09 ≈ 11.11 grams.  ",
+                "Similarly, each gram contains 8% of vitamin A, so the daily vitamin A amount is 0.08x. To meet vitamin A requirements, 0.08x ≥ 1 must hold, yielding x ≥ 1/0.08 = 12.5 grams.  ",
+                "Since the health food must supply at least the minimum daily requirement for both vitamins, the greater of the two gram amounts (11.11 grams and 12.5 grams) is necessary, i.e., at least 12.5 grams.  ",
+                "Among the provided choices, 12.5 grams is option C.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 4.988399982452393,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Assistants are needed to prepa",
+            "question": "Question: Assistants are needed to prepare for preparation . Each helper can make either 2 large cakes or 35 small cakes / hr . The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed . How many helpers are required ?\n\nChoices:\na. 8\nb. 10\nc. 12\nd. 15\ne. 19",
+            "answerKey": "b",
+            "cot_output": "Step 1: Each helper works 3 hours, and their production rates are 2 large cakes per hour or 35 small cakes per hour.\nStep 2: If a helper works exclusively on large cakes, in 3 hours they produce 3 × 2 = 6 large cakes. Similarly, if a helper works exclusively on small cakes, they produce 3 × 35 = 105 small cakes.\nStep 3: However, helpers can split their time between tasks. Let the total helper work hours be 3n for n helpers.\nStep 4: For the required 20 large cakes, since one hour produces 2 cakes, we need 20 ÷ 2 = 10 work hours on large cakes.\nStep 5: For the required 700 small cakes, since one hour produces 35 cakes, we need 700 ÷ 35 = 20 work hours on small cakes.\nStep 6: Therefore, the total work hours required is 10 + 20 = 30 hours.\nStep 7: Given that 3n must be at least 30, solving 3n = 30 gives n = 10 helpers.\nStep 8: This matches choice b.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Each helper works 3 hours, and their production rates are 2 large cakes per hour or 35 small cakes per hour.",
+                "If a helper works exclusively on large cakes, in 3 hours they produce 3 × 2 = 6 large cakes. Similarly, if a helper works exclusively on small cakes, they produce 3 × 35 = 105 small cakes.",
+                "However, helpers can split their time between tasks. Let the total helper work hours be 3n for n helpers.",
+                "For the required 20 large cakes, since one hour produces 2 cakes, we need 20 ÷ 2 = 10 work hours on large cakes.",
+                "For the required 700 small cakes, since one hour produces 35 cakes, we need 700 ÷ 35 = 20 work hours on small cakes.",
+                "Therefore, the total work hours required is 10 + 20 = 30 hours.",
+                "Given that 3n must be at least 30, solving 3n = 30 gives n = 10 helpers.",
+                "This matches choice b."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.977617979049683,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_R , S , T , and U are points o",
+            "question": "Question: R , S , T , and U are points on a line , and U is the midpoint of line segment ST . If the lengths of line segments RS , RT , and ST are 5 , 17 , and 22 , respectively . What is the length of line segment RU ?\n\nChoices:\na. 6\nb. 7\nc. 8\nd. 9\ne. 10",
+            "answerKey": "a",
+            "cot_output": "Step 1: Assume points S and T are located at coordinates 0 and 22, respectively; this is justified since ST has a length of 22.\nStep 2: Since U is the midpoint of ST, its coordinate is (0 + 22)/2 = 11.\nStep 3: Given RS = 5, assume R is at coordinate 5 (since placing R at –5 would make RT = 27 rather than 17).\nStep 4: Verify that RT = |22 – 5| = 17, which agrees with the provided information.\nStep 5: Find RU by computing the distance between R (5) and U (11), which is |11 – 5| = 6.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Assume points S and T are located at coordinates 0 and 22, respectively; this is justified since ST has a length of 22.",
+                "Since U is the midpoint of ST, its coordinate is (0 + 22)/2 = 11.",
+                "Given RS = 5, assume R is at coordinate 5 (since placing R at –5 would make RT = 27 rather than 17).",
+                "Verify that RT = |22 – 5| = 17, which agrees with the provided information.",
+                "Find RU by computing the distance between R (5) and U (11), which is |11 – 5| = 6."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 8.68442177772522,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Six pita breads contain the sa",
+            "question": "Question: Six pita breads contain the same amount of falafel as do two rolls . Three rolls contain the same amount of falafel as five baguettes do . Two baguettes contain the same amount of falafel as how many pita breads ?\n\nChoices:\na. 12 / 25\nb. 3 / 2\nc. 3\nd. 2\ne. 25 / 3",
+            "answerKey": "c",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 12.566748142242432,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A shopkeeper in order to promo",
+            "question": "Question: A shopkeeper in order to promote his new shop put a discount of 20 % on all the items for one day . Now he must sell the items at original price the other day . By what percentage must he increase the price to original ?\n\nChoices:\na. 21 %\nb. 20 %\nc. 25 %\nd. 33 %\ne. 18 %",
+            "answerKey": "c",
+            "cot_output": "Step 1: Let the original price be P.  \nStep 2: After a 20% discount, the price becomes 0.8P.  \nStep 3: To sell at the original price P after discount, we need to find what percentage increase on 0.8P gives P.  \nStep 4: Set up the equation: 0.8P × (1 + r) = P, where r is the required rate as a decimal.  \nStep 5: Dividing both sides by 0.8P gives 1 + r = P/(0.8P) = 1/0.8 = 1.25.  \nStep 6: Subtracting 1 yields r = 1.25 - 1 = 0.25, which equals a 25% increase.  \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the original price be P.  ",
+                "After a 20% discount, the price becomes 0.8P.  ",
+                "To sell at the original price P after discount, we need to find what percentage increase on 0.8P gives P.  ",
+                "Set up the equation: 0.8P × (1 + r) = P, where r is the required rate as a decimal.  ",
+                "Dividing both sides by 0.8P gives 1 + r = P/(0.8P) = 1/0.8 = 1.25.  ",
+                "Subtracting 1 yields r = 1.25 - 1 = 0.25, which equals a 25% increase.  "
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 3.941812753677368,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The bus fare for two persons f",
+            "question": "Question: The bus fare for two persons for travelling between Agra and Aligarh id four - thirds the train fare between the same places for one person . The total fare paid by 6 persons travelling by bus and 8 persons travelling by train between the two places is Rs . 1512 . Find the train fare between the two places for one person ?\n\nChoices:\na. 126\nb. 77\nc. 88\nd. 66\ne. 54",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let T be the train fare for one person travelling between Agra and Aligarh.\nStep 2: According to the problem statement, the bus fare for two persons is (4/3)T.\nStep 3: For 6 persons travelling by bus, the cost is calculated by grouping them into sets of 2: (6/2) × (4/3)T = 3 × (4/3)T = 4T.\nStep 4: For 8 persons travelling by train, the total cost is 8T.\nStep 5: Adding these, the total fare for both bus and train travellers is 4T + 8T = 12T, which is given as Rs. 1512.\nStep 6: Setting up the equation 12T = 1512, we solve for T: T = 1512/12 = 126.\nStep 7: This value of T matches option A (126).\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let T be the train fare for one person travelling between Agra and Aligarh.",
+                "According to the problem statement, the bus fare for two persons is (4/3)T.",
+                "For 6 persons travelling by bus, the cost is calculated by grouping them into sets of 2: (6/2) × (4/3)T = 3 × (4/3)T = 4T.",
+                "For 8 persons travelling by train, the total cost is 8T.",
+                "Adding these, the total fare for both bus and train travellers is 4T + 8T = 12T, which is given as Rs. 1512.",
+                "Setting up the equation 12T = 1512, we solve for T: T = 1512/12 = 126.",
+                "This value of T matches option A (126)."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.376981973648071,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A rectangle has a length of 8 ",
+            "question": "Question: A rectangle has a length of 8 centimeters and a width of 3 centimeters . Find the perimeter .\n\nChoices:\na. 18 cm\nb. 22 cm\nc. 20 cm\nd. 30 cm\ne. 28 cm",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that the formula for the perimeter of a rectangle is P = 2 × (length + width).  \nStep 2: Substitute the given dimensions into the formula: length = 8 cm and width = 3 cm, so P = 2 × (8 + 3).  \nStep 3: Calculate the sum inside the parentheses: 8 + 3 = 11.  \nStep 4: Multiply by 2 to get the perimeter: 2 × 11 = 22 cm.  \nStep 5: Compare the calculated perimeter (22 cm) with the provided choices; the option that matches is b.  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the formula for the perimeter of a rectangle is P = 2 × (length + width).  ",
+                "Substitute the given dimensions into the formula: length = 8 cm and width = 3 cm, so P = 2 × (8 + 3).  ",
+                "Calculate the sum inside the parentheses: 8 + 3 = 11.  ",
+                "Multiply by 2 to get the perimeter: 2 × 11 = 22 cm.  ",
+                "Compare the calculated perimeter (22 cm) with the provided choices; the option that matches is b.  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 5.240342140197754,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Suppose you want to arrange yo",
+            "question": "Question: Suppose you want to arrange your English , Hindi , Mathematics , History , Geography and Science books on a shelf . In how many ways can you do it ?\n\nChoices:\na. 520\nb. 720\nc. 920\nd. None\ne. Can not be determined",
+            "answerKey": "b",
+            "cot_output": "Step 1: There are 6 distinct books (English, Hindi, Mathematics, History, Geography, and Science), so each arrangement is a unique order of these books.\nStep 2: The number of ways to arrange 6 distinct items is given by the factorial 6!, which equals 720.\nStep 3: Comparing this result with the provided options, 720 corresponds exactly to option B.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "There are 6 distinct books (English, Hindi, Mathematics, History, Geography, and Science), so each arrangement is a unique order of these books.",
+                "The number of ways to arrange 6 distinct items is given by the factorial 6!, which equals 720.",
+                "Comparing this result with the provided options, 720 corresponds exactly to option B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.1012935638427734,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A straight picket fence is com",
+            "question": "Question: A straight picket fence is composed of x pickets each of which is 1 / 2 inch wide . If there are 6 inches of space between each pair of pickets , which of the following represents the length of fence in feet ?\n\nChoices:\na. 13 x / 2\nb. 13 x / 2 - 6\nc. 13 x / 24\nd. ( 13 x + 1 ) / 24\ne. ( 13 x - 12 ) / 24",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that the total fence length (in inches) consists of the widths of x pickets plus the widths of the gaps between each adjacent pair of pickets.\nStep 2: Since each picket is ½ inch wide, the total width of the pickets is (x)(1/2) = x/2 inches.\nStep 3: There are (x – 1) gaps and each gap is 6 inches wide, so the total gap length is 6(x – 1) inches.\nStep 4: Thus, the total length in inches is the sum of the picket widths and gap lengths: x/2 + 6(x – 1) = x/2 + 6x – 6.\nStep 5: Combine the x terms by writing 6x as 12x/2 so that you have x/2 + 12x/2 – 6 = (13x)/2 – 6 inches.\nStep 6: Convert the total length from inches to feet by dividing by 12: [(13x)/2 – 6] ÷ 12 = (13x)/24 – 6/12.\nStep 7: Simplify 6/12 to 1/2 to get (13x)/24 – 1/2.\nStep 8: Expressing 1/2 in terms of 24 as a denominator gives 1/2 = 12/24, so the length in feet becomes (13x – 12)/24.\nStep 9: Compare with the answer choices provided. The expression (13x – 12)/24 is the same as answer choice e.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the total fence length (in inches) consists of the widths of x pickets plus the widths of the gaps between each adjacent pair of pickets.",
+                "Since each picket is ½ inch wide, the total width of the pickets is (x)(1/2) = x/2 inches.",
+                "There are (x – 1) gaps and each gap is 6 inches wide, so the total gap length is 6(x – 1) inches.",
+                "Thus, the total length in inches is the sum of the picket widths and gap lengths: x/2 + 6(x – 1) = x/2 + 6x – 6.",
+                "Combine the x terms by writing 6x as 12x/2 so that you have x/2 + 12x/2 – 6 = (13x)/2 – 6 inches.",
+                "Convert the total length from inches to feet by dividing by 12: [(13x)/2 – 6] ÷ 12 = (13x)/24 – 6/12.",
+                "Simplify 6/12 to 1/2 to get (13x)/24 – 1/2.",
+                "Expressing 1/2 in terms of 24 as a denominator gives 1/2 = 12/24, so the length in feet becomes (13x – 12)/24.",
+                "Compare with the answer choices provided. The expression (13x – 12)/24 is the same as answer choice e."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 7.956669330596924,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A ship went on a voyage . Afte",
+            "question": "Question: A ship went on a voyage . After it had traveled 180 miles a plane started with 10 times the speed of the ship . Find the distance when they meet from starting point .\n\nChoices:\na. 238\nb. 289\nc. 200\nd. 287\ne. 187",
+            "answerKey": "c",
+            "cot_output": "Step 1: Define the ship's speed as v. Then the plane’s speed is 10v.  \nStep 2: When the ship has traveled 180 miles, the plane starts from the same starting point.  \nStep 3: Let t be the time (after the plane starts) when the ship and the plane meet.  \nStep 4: At that time, the ship’s total distance from the starting point is 180 miles + v·t, and the plane’s distance is 10v·t.  \nStep 5: Set the distances equal because they meet at the same point: 10v·t = 180 + v·t.  \nStep 6: Simplify the equation: 10v·t – v·t = 180 ⟹ 9v·t = 180 ⟹ t = 20/v.  \nStep 7: Substitute t back into the plane’s distance: Distance = 10v·(20/v) = 200 miles.  \nStep 8: This matches option C (200 miles).\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Define the ship's speed as v. Then the plane’s speed is 10v.  ",
+                "When the ship has traveled 180 miles, the plane starts from the same starting point.  ",
+                "Let t be the time (after the plane starts) when the ship and the plane meet.  ",
+                "At that time, the ship’s total distance from the starting point is 180 miles + v·t, and the plane’s distance is 10v·t.  ",
+                "Set the distances equal because they meet at the same point: 10v·t = 180 + v·t.  ",
+                "Simplify the equation: 10v·t – v·t = 180 ⟹ 9v·t = 180 ⟹ t = 20/v.  ",
+                "Substitute t back into the plane’s distance: Distance = 10v·(20/v) = 200 miles.  ",
+                "This matches option C (200 miles)."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 9.01189661026001,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In a large forest , 300 deer w",
+            "question": "Question: In a large forest , 300 deer were caught , tagged , and returned during 2001 . During 2002 , 500 deer were caught at random , of which only 20 had tags from the previous year . If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags , what is the total deer population in the forest ( assuming no change in population between 2001 and 2002 ) ?\n\nChoices:\na. 300\nb. 500\nc. 5000\nd. 6000\ne. 7500",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that 300 deer were tagged in 2001.  \nStep 2: In 2002, a sample of 500 deer was caught, and 20 of these were tagged.  \nStep 3: Assume the fraction of tagged deer in the sample (20/500) represents the fraction of the entire deer population that is tagged.  \nStep 4: Set up the proportion: (Tagged in 2001)/(Total population) = (Tagged in sample)/(Sample size), which is 300/N = 20/500.  \nStep 5: Solve the proportion by cross-multiplying: 20N = 300 × 500.  \nStep 6: Compute the product: 300 × 500 = 150,000, so 20N = 150,000.  \nStep 7: Divide both sides by 20: N = 150,000/20 = 7500.  \nStep 8: Identify that 7500 deer is the total population, which corresponds to option E.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that 300 deer were tagged in 2001.  ",
+                "In 2002, a sample of 500 deer was caught, and 20 of these were tagged.  ",
+                "Assume the fraction of tagged deer in the sample (20/500) represents the fraction of the entire deer population that is tagged.  ",
+                "Set up the proportion: (Tagged in 2001)/(Total population) = (Tagged in sample)/(Sample size), which is 300/N = 20/500.  ",
+                "Solve the proportion by cross-multiplying: 20N = 300 × 500.  ",
+                "Compute the product: 300 × 500 = 150,000, so 20N = 150,000.  ",
+                "Divide both sides by 20: N = 150,000/20 = 7500.  ",
+                "Identify that 7500 deer is the total population, which corresponds to option E."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 6.727371454238892,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In a railway station , there a",
+            "question": "Question: In a railway station , there are two trains going . One in the harbor line and one in the main line , each having a frequency of 10 minutes . The main line service starts at 5 o ' clock and the harbor line starts at 5.02 A . M . A man goes to the station every day to catch the first train that comes . What is the probability of the man catching the first train ?\n\nChoices:\na. 0.9\nb. 0.8\nc. 0.6\nd. 0.65\ne. 1.5",
+            "answerKey": "b",
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 13.756468296051025,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The average ( arithmetic mean ",
+            "question": "Question: The average ( arithmetic mean ) of the weight of 10 vehicles is 12.2 tons . The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group ? What is the weight in tons of the heavy duty truck ?\n\nChoices:\na. 40.8\nb. 41.6\nc. 42.2\nd. 43.5\ne. 44.8",
+            "answerKey": "a",
+            "cot_output": "Step 1: Calculate the total weight of the original 10 vehicles by multiplying the average weight by 10: 10 × 12.2 = 122 tons.\nStep 2: Determine the new average after the truck is added by adding 2.6 tons to the original average: 12.2 + 2.6 = 14.8 tons.\nStep 3: Calculate the total weight of all 11 vehicles using the new average: 11 × 14.8 = 162.8 tons.\nStep 4: Find the weight of the heavy duty truck by subtracting the original total weight from the new total weight: 162.8 – 122 = 40.8 tons.\nStep 5: Recognize that 40.8 tons corresponds to option A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the total weight of the original 10 vehicles by multiplying the average weight by 10: 10 × 12.2 = 122 tons.",
+                "Determine the new average after the truck is added by adding 2.6 tons to the original average: 12.2 + 2.6 = 14.8 tons.",
+                "Calculate the total weight of all 11 vehicles using the new average: 11 × 14.8 = 162.8 tons.",
+                "Find the weight of the heavy duty truck by subtracting the original total weight from the new total weight: 162.8 – 122 = 40.8 tons.",
+                "Recognize that 40.8 tons corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.32352876663208,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Boomtown urban planners expect",
+            "question": "Question: Boomtown urban planners expect the city ’ s population to increase by 10 % per year over the next two years . If that projection were to come true , the population two years from now would be exactly double the population of one year ago . Which of the following is closest to the percent population increase in Boomtown over the last year ?\n\nChoices:\na. 20 %\nb. 40 %\nc. 50 %\nd. 65 %\ne. 75 %",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let r be the growth factor from one year ago to now, so that the current population is r times the population one year ago.\nStep 2: The planners project that the population will grow by 10% per year for the next two years. Thus, the population two years from now will be 1.1² = 1.21 times the current population.\nStep 3: According to the problem, the population two years from now equals exactly double the population from one year ago. Expressed mathematically, this means: 1.21r = 2.\nStep 4: Solve for r by dividing both sides of the equation by 1.21: r = 2 / 1.21 ≈ 1.6529.\nStep 5: The percentage increase in the population from one year ago to now is (r – 1) × 100%, which calculates to (1.6529 – 1) × 100% ≈ 65.29%.\nStep 6: Among the provided choices, 65% is the closest to 65.29%.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let r be the growth factor from one year ago to now, so that the current population is r times the population one year ago.",
+                "The planners project that the population will grow by 10% per year for the next two years. Thus, the population two years from now will be 1.1² = 1.21 times the current population.",
+                "According to the problem, the population two years from now equals exactly double the population from one year ago. Expressed mathematically, this means: 1.21r = 2.",
+                "Solve for r by dividing both sides of the equation by 1.21: r = 2 / 1.21 ≈ 1.6529.",
+                "The percentage increase in the population from one year ago to now is (r – 1) × 100%, which calculates to (1.6529 – 1) × 100% ≈ 65.29%.",
+                "Among the provided choices, 65% is the closest to 65.29%."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 6.019458055496216,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Arjun and Sajal are friends , ",
+            "question": "Question: Arjun and Sajal are friends , each has some money . If Arun gives $ 30 to Sajal , the Sajal will have twice the money left with Arjun . But , if Sajal gives $ 10 to Arjun , Arjun will have thrice as much as is left with Sajal . How much money does each have ?\n\nChoices:\na. 62 , 35\nb. 62 , 34\nc. 34 , 62\nd. 42 , 62\ne. 62 , 42",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let A be the money Arjun has and S be the money Sajal has.\nStep 2: From the first condition, if Arjun gives $30 to Sajal, then Sajal’s amount becomes S + 30 and Arjun’s becomes A − 30. The condition states S + 30 = 2(A − 30).\nStep 3: Simplify the first equation: S + 30 = 2A − 60, which gives S = 2A − 90.\nStep 4: From the second condition, if Sajal gives $10 to Arjun, then Arjun’s amount becomes A + 10 and Sajal’s becomes S − 10. The condition states A + 10 = 3(S − 10).\nStep 5: Simplify the second equation: A + 10 = 3S − 30, leading to A = 3S − 40.\nStep 6: Substitute S = 2A − 90 from Step 3 into A = 3S − 40: A = 3(2A − 90) − 40.\nStep 7: Expand and simplify: A = 6A − 270 − 40, which simplifies to A = 6A − 310.\nStep 8: Rearranging gives 310 = 5A, so A = 62.\nStep 9: Substitute A = 62 back into S = 2A − 90 to find S: S = 2(62) − 90 = 124 − 90 = 34.\nStep 10: Thus, Arjun has $62 and Sajal has $34. Looking at the given options, this corresponds to choice B.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let A be the money Arjun has and S be the money Sajal has.",
+                "From the first condition, if Arjun gives $30 to Sajal, then Sajal’s amount becomes S + 30 and Arjun’s becomes A − 30. The condition states S + 30 = 2(A − 30).",
+                "Simplify the first equation: S + 30 = 2A − 60, which gives S = 2A − 90.",
+                "From the second condition, if Sajal gives $10 to Arjun, then Arjun’s amount becomes A + 10 and Sajal’s becomes S − 10. The condition states A + 10 = 3(S − 10).",
+                "Simplify the second equation: A + 10 = 3S − 30, leading to A = 3S − 40.",
+                "Substitute S = 2A − 90 from Step 3 into A = 3S − 40: A = 3(2A − 90) − 40.",
+                "Expand and simplify: A = 6A − 270 − 40, which simplifies to A = 6A − 310.",
+                "Rearranging gives 310 = 5A, so A = 62.",
+                "Substitute A = 62 back into S = 2A − 90 to find S: S = 2(62) − 90 = 124 − 90 = 34.",
+                "Thus, Arjun has $62 and Sajal has $34. Looking at the given options, this corresponds to choice B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 6.476407527923584,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Julie ’ s yard is rectangular ",
+            "question": "Question: Julie ’ s yard is rectangular . One side of the yard is 100 feet wide . The total area of the yard is 3,000 square feet . What is the length of the other side of the yard ?\n\nChoices:\na. 30 feet\nb. 20 feet\nc. 10 feet\nd. 50 feet\ne. 60 feet",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the area of a rectangle is the product of its two sides.\nStep 2: Identify that one side is given as 100 feet and the total area is 3,000 square feet.\nStep 3: Formulate the equation: 100 ft × (other side) = 3,000 ft².\nStep 4: Solve for the other side by dividing 3,000 ft² by 100 ft, resulting in 30 feet.\nStep 5: Determine that among the choices, 30 feet corresponds to option A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the area of a rectangle is the product of its two sides.",
+                "Identify that one side is given as 100 feet and the total area is 3,000 square feet.",
+                "Formulate the equation: 100 ft × (other side) = 3,000 ft².",
+                "Solve for the other side by dividing 3,000 ft² by 100 ft, resulting in 30 feet.",
+                "Determine that among the choices, 30 feet corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.9875171184539795,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The greatest common factor of ",
+            "question": "Question: The greatest common factor of two positive integers is 11 . The least common multiple of these two integers is 7700 . If one of the integers is 350 , what is the other ?\n\nChoices:\na. 242\nb. 308\nc. 352\nd. 412\ne. 456",
+            "answerKey": "a",
+            "cot_output": "Step 1: Since the greatest common factor (GCF) of the two numbers is 11 and one of the numbers is 350, it means both numbers are multiples of 11.\n\nStep 2: The formula linking two numbers (a and b) with their GCF (g) and least common multiple (LCM, denoted L) is a × b = g × L.\n\nStep 3: Let the unknown number be x. Then we have 350 × x = 11 × 7700.\n\nStep 4: Solve for x by first computing the product on the right side: 11 × 7700 = 84700.\n\nStep 5: Now, isolate x: x = 84700 / 350.\n\nStep 6: Simplify the division by noticing 350 × 242 = 84700, hence x = 242.\n\nStep 7: Comparing with the answer choices, 242 corresponds to choice A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Since the greatest common factor (GCF) of the two numbers is 11 and one of the numbers is 350, it means both numbers are multiples of 11.",
+                "The formula linking two numbers (a and b) with their GCF (g) and least common multiple (LCM, denoted L) is a × b = g × L.",
+                "Let the unknown number be x. Then we have 350 × x = 11 × 7700.",
+                "Solve for x by first computing the product on the right side: 11 × 7700 = 84700.",
+                "Now, isolate x: x = 84700 / 350.",
+                "Simplify the division by noticing 350 × 242 = 84700, hence x = 242.",
+                "Comparing with the answer choices, 242 corresponds to choice A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.093327283859253,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A square piece of cloth is tri",
+            "question": "Question: A square piece of cloth is trimmed by 4 feet on one edge to form a rectangular piece , which is then cut diagonally in half to create two triangles . If the area of each of triangle is 70 square feet , what was the perimeter ( in feet ) of the original piece of square cloth ?\n\nChoices:\na. 56\nb. 58\nc. 60\nd. 62\ne. 64",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let the side length of the original square be s feet. The square’s perimeter is 4s feet.\nStep 2: Trimming 4 feet from one edge means one of the sides is reduced by 4 feet, transforming the square into a rectangle with dimensions s by (s − 4).\nStep 3: The rectangle is then cut diagonally, so each of the resulting triangles has an area equal to half of the rectangle's area.\nStep 4: Given each triangle has an area of 70 ft², the total area of the rectangle is 2 × 70 = 140 ft².\nStep 5: The area of the rectangle can also be written as s(s − 4) = 140.\nStep 6: Solve the equation s² − 4s − 140 = 0. Using the quadratic formula, s = (4 ± √(16 + 560))/2 = (4 ± 24)/2.\nStep 7: Discard the negative result and take s = (4 + 24)/2 = 14 feet.\nStep 8: The perimeter of the original square is 4 × 14 = 56 feet.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the side length of the original square be s feet. The square’s perimeter is 4s feet.",
+                "Trimming 4 feet from one edge means one of the sides is reduced by 4 feet, transforming the square into a rectangle with dimensions s by (s − 4).",
+                "The rectangle is then cut diagonally, so each of the resulting triangles has an area equal to half of the rectangle's area.",
+                "Given each triangle has an area of 70 ft², the total area of the rectangle is 2 × 70 = 140 ft².",
+                "The area of the rectangle can also be written as s(s − 4) = 140.",
+                "Solve the equation s² − 4s − 140 = 0. Using the quadratic formula, s = (4 ± √(16 + 560))/2 = (4 ± 24)/2.",
+                "Discard the negative result and take s = (4 + 24)/2 = 14 feet.",
+                "The perimeter of the original square is 4 × 14 = 56 feet."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 6.433144569396973,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The length of the ribbon was o",
+            "question": "Question: The length of the ribbon was originally 30 cm . It was reduced in the ratio 5 : 3 . What is its length now ?\n\nChoices:\na. 18\nb. 30\nc. 6\nd. 15\ne. 12",
+            "answerKey": "a",
+            "cot_output": "Step 1: Recognize that the ratio 5:3 indicates that the original ribbon length corresponds to 5 parts and the new (reduced) length corresponds to 3 parts.\nStep 2: To find the length of one part, divide the original length (30 cm) by 5, yielding 6 cm per part.\nStep 3: Multiply the value of one part (6 cm) by 3 to get the new length. This results in 18 cm.\nStep 4: Among the choices given, 18 cm corresponds to option A.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the ratio 5:3 indicates that the original ribbon length corresponds to 5 parts and the new (reduced) length corresponds to 3 parts.",
+                "To find the length of one part, divide the original length (30 cm) by 5, yielding 6 cm per part.",
+                "Multiply the value of one part (6 cm) by 3 to get the new length. This results in 18 cm.",
+                "Among the choices given, 18 cm corresponds to option A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 5.427808046340942,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_M = abc is a three digit numbe",
+            "question": "Question: M = abc is a three digit number and N = cba , if M > N and M - N + 396 c = 990 . Then how many values of M are more than 300 .\n\nChoices:\na. 20\nb. 30\nc. 40\nd. 200\ne. None",
+            "answerKey": "a",
+            "cot_output": "Step 1: Write M and N in terms of digits: M = 100a + 10b + c and N = 100c + 10b + a.\nStep 2: Compute the difference: M – N = (100a + 10b + c) – (100c + 10b + a) = 99a – 99c = 99(a – c).\nStep 3: Substitute into the given equation: 99(a – c) + 396c = 990.\nStep 4: Notice that 396 = 4 × 99, so rewrite the equation as 99(a – c + 4c) = 99(a + 3c) = 990.\nStep 5: Divide both sides by 99 to obtain a + 3c = 10.\nStep 6: Since M > N implies a > c and a and c are digits (with a between 1 and 9), find the pairs (a, c) satisfying a + 3c = 10.\nStep 7: Test potential c values:\n • If c = 1, then a = 10 – 3 = 7 (and 7 > 1, valid).\n • If c = 2, then a = 10 – 6 = 4 (and 4 > 2, valid).\n • For c = 0, a = 10 which is not a digit; and for c = 3 or more, a becomes too small or negative.\nStep 8: For each valid (a, c) pair—(7, 1) and (4, 2)—the digit b can be any digit from 0 to 9. This gives 10 possibilities for b per pair.\nStep 9: Thus, total valid numbers M = 2 × 10 = 20.\nStep 10: Since both valid pairs give a as 7 and 4 (both making M > 300), all 20 numbers satisfy “M > 300.”\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Write M and N in terms of digits: M = 100a + 10b + c and N = 100c + 10b + a.",
+                "Compute the difference: M – N = (100a + 10b + c) – (100c + 10b + a) = 99a – 99c = 99(a – c).",
+                "Substitute into the given equation: 99(a – c) + 396c = 990.",
+                "Notice that 396 = 4 × 99, so rewrite the equation as 99(a – c + 4c) = 99(a + 3c) = 990.",
+                "Divide both sides by 99 to obtain a + 3c = 10.",
+                "Since M > N implies a > c and a and c are digits (with a between 1 and 9), find the pairs (a, c) satisfying a + 3c = 10.",
+                "Test potential c values:",
+                "For each valid (a, c) pair—(7, 1) and (4, 2)—the digit b can be any digit from 0 to 9. This gives 10 possibilities for b per pair.",
+                "Thus, total valid numbers M = 2 × 10 = 20.",
+                "Since both valid pairs give a as 7 and 4 (both making M > 300), all 20 numbers satisfy “M > 300.”"
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 10.0453360080719,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_there are more than 501 studen",
+            "question": "Question: there are more than 501 students in a school such that 20 % of them exactly took physics and 28 % of them exactly took math . What could be the least possible no of students in the school ?\n\nChoices:\na. 550\nb. 570\nc. 600\nd. 700\ne. none of these",
+            "answerKey": "e",
+            "cot_output": "Step 1: Let the total number of students be N. Since 20% took only physics, N/5 must be an integer.\nStep 2: Similarly, since 28% took only math, (28/100)·N = (7N/25) must be an integer; this requires that N be divisible by 25 (because 7 and 25 have no common factors).\nStep 3: Thus, N must be a multiple of 25. We are also told that N is more than 501. The smallest multiple of 25 greater than 501 is 525.\nStep 4: Check the conditions: 20% of 525 is 525/5 = 105 (an integer), and 28% of 525 is (7×525)/25 = 7×21 = 147 (an integer).\nStep 5: Since 525 satisfies all the criteria but is not one of the listed options (550, 570, 600, 700), the correct answer among the choices is “none of these.”\n\n===FINAL_ANSWER_START===\nConclusion: none of these\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the total number of students be N. Since 20% took only physics, N/5 must be an integer.",
+                "Similarly, since 28% took only math, (28/100)·N = (7N/25) must be an integer; this requires that N be divisible by 25 (because 7 and 25 have no common factors).",
+                "Thus, N must be a multiple of 25. We are also told that N is more than 501. The smallest multiple of 25 greater than 501 is 525.",
+                "Check the conditions: 20% of 525 is 525/5 = 105 (an integer), and 28% of 525 is (7×525)/25 = 7×21 = 147 (an integer).",
+                "Since 525 satisfies all the criteria but is not one of the listed options (550, 570, 600, 700), the correct answer among the choices is “none of these.”"
+            ],
+            "pred": "none of these",
+            "is_correct": false,
+            "elapsed_time": 11.350826263427734,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_If Raj was one - third as old ",
+            "question": "Question: If Raj was one - third as old as Rahim 5 years back and Raj is 17 years old now , How old is Rahim now ?\n\nChoices:\na. 37\nb. 41\nc. 40\nd. 42\ne. 43",
+            "answerKey": "b",
+            "cot_output": "Step 1: Define Raj's current age as 17 and Rahim's current age as R.  \nStep 2: Determine Raj’s age 5 years ago: 17 - 5 = 12.  \nStep 3: Determine Rahim’s age 5 years ago: R - 5.  \nStep 4: Use the given relationship: 5 years back, Raj was one-third as old as Rahim, which translates to 12 = (1/3)(R - 5).  \nStep 5: Multiply both sides by 3 to eliminate the fraction, yielding 36 = R - 5.  \nStep 6: Solve for R by adding 5 to both sides: R = 36 + 5 = 41.  \nStep 7: Since 41 corresponds to choice b,  \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Define Raj's current age as 17 and Rahim's current age as R.  ",
+                "Determine Raj’s age 5 years ago: 17 - 5 = 12.  ",
+                "Determine Rahim’s age 5 years ago: R - 5.  ",
+                "Use the given relationship: 5 years back, Raj was one-third as old as Rahim, which translates to 12 = (1/3)(R - 5).  ",
+                "Multiply both sides by 3 to eliminate the fraction, yielding 36 = R - 5.  ",
+                "Solve for R by adding 5 to both sides: R = 36 + 5 = 41.  ",
+                "Since 41 corresponds to choice b,  "
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 7.3012590408325195,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A cow is tethered in the middl",
+            "question": "Question: A cow is tethered in the middle of a field with a 14 feet long rope . If the cow grazes 10 sq . ft . per day , then approximately what time will be taken by the cow to graze the whole field ?\n\nChoices:\na. 51 days\nb. 61 days\nc. 71 days\nd. 81 days\ne. 91 days",
+            "answerKey": "b",
+            "cot_output": "Step 1: The field is circular with radius 14 feet, so its area is calculated using the formula Area = π * (radius)^2.\nStep 2: Substituting the radius, we get Area = π * (14^2) = π * 196 = 196π square feet.\nStep 3: Approximating π as 3.14, the area becomes 196 * 3.14 ≈ 615.44 square feet.\nStep 4: Since the cow grazes 10 square feet per day, divide the total area by the daily grazing area: 615.44 / 10 ≈ 61.54 days.\nStep 5: Rounding this to the nearest whole day, the cow will take approximately 61 days to graze the whole field.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The field is circular with radius 14 feet, so its area is calculated using the formula Area = π * (radius)^2.",
+                "Substituting the radius, we get Area = π * (14^2) = π * 196 = 196π square feet.",
+                "Approximating π as 3.14, the area becomes 196 * 3.14 ≈ 615.44 square feet.",
+                "Since the cow grazes 10 square feet per day, divide the total area by the daily grazing area: 615.44 / 10 ≈ 61.54 days.",
+                "Rounding this to the nearest whole day, the cow will take approximately 61 days to graze the whole field."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 3.5323052406311035,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A book was sold for Rs 27.50 w",
+            "question": "Question: A book was sold for Rs 27.50 with a profit of 10 % . If it were sold for Rs . 25.75 , then would have been percentage of profit and loss ?\n\nChoices:\na. 2 % Profit\nb. 3 % Profit\nc. 2 % Loss\nd. 3 % Loss\ne. 4 % Loss",
+            "answerKey": "b",
+            "cot_output": "Step 1: Determine the cost price (CP) using the information that the book was sold at Rs 27.50 with a profit of 10%. This implies that 27.50 is 110% of the CP.\nStep 2: Calculate CP = 27.50 / 1.10 = 25.00.\nStep 3: Now, if the book were sold for Rs 25.75, determine the profit by subtracting the cost price from this selling price: Profit = 25.75 - 25.00 = 0.75.\nStep 4: Calculate the profit percentage using the formula: (Profit/CP)*100. This equals (0.75/25.00)*100 = 3%.\nStep 5: Since the result is a profit of 3%, the correct answer from the options provided is “3% Profit,” which corresponds to option B.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the cost price (CP) using the information that the book was sold at Rs 27.50 with a profit of 10%. This implies that 27.50 is 110% of the CP.",
+                "Calculate CP = 27.50 / 1.10 = 25.00.",
+                "Now, if the book were sold for Rs 25.75, determine the profit by subtracting the cost price from this selling price: Profit = 25.75 - 25.00 = 0.75.",
+                "Calculate the profit percentage using the formula: (Profit/CP)*100. This equals (0.75/25.00)*100 = 3%.",
+                "Since the result is a profit of 3%, the correct answer from the options provided is “3% Profit,” which corresponds to option B."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.648355960845947,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_In how many ways can a teacher",
+            "question": "Question: In how many ways can a teacher in a kindergarten school arrange a group of 3 children ( Susan , Tim and Zen ) on 3 identical chairs in a straight line so that Susan is on the left of Tim ?\n\nChoices:\na. 7\nb. 3\nc. 2\nd. 1\ne. 6",
+            "answerKey": "b",
+            "cot_output": "Step 1: Recognize that with 3 children, there are 3! = 6 possible orders if we ignore any restrictions.\nStep 2: The condition “Susan is on the left of Tim” eliminates all arrangements where Tim comes before Susan, effectively allowing only half of the total orders.\nStep 3: Dividing the 6 total orders by 2 gives 3 valid arrangements.\nStep 4: Among the choices provided, the choice “3” corresponds to option b.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that with 3 children, there are 3! = 6 possible orders if we ignore any restrictions.",
+                "The condition “Susan is on the left of Tim” eliminates all arrangements where Tim comes before Susan, effectively allowing only half of the total orders.",
+                "Dividing the 6 total orders by 2 gives 3 valid arrangements.",
+                "Among the choices provided, the choice “3” corresponds to option b."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 8.156697511672974,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The telephone bill of a certai",
+            "question": "Question: The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed . When in a certain month 540 calls made the bill is Rs . 1800 . In another month 620 calls are consumed then the bill becomes Rs . 2040 . In another month 500 units are consumed due to more\nholidays . The bill for that month would be :\n\nChoices:\na. Rs . 1560\nb. Rs . 1680\nc. Rs . 1840\nd. Rs . 1950\ne. Rs . 1690",
+            "answerKey": "b",
+            "cot_output": "Step 1: Let the fixed charge be f and the variable rate be k per call.\nStep 2: Formulate the equations from the two given scenarios: f + 540k = 1800 and f + 620k = 2040.\nStep 3: Subtract the first equation from the second to eliminate f: (f + 620k) - (f + 540k) = 2040 - 1800, which simplifies to 80k = 240.\nStep 4: Solve for k: k = 240/80 = 3.\nStep 5: Substitute k = 3 into the first equation: f + 540×3 = 1800, so f = 1800 - 1620 = 180.\nStep 6: With f = 180 and k = 3, calculate the bill when 500 calls are made: Bill = 180 + 500×3 = 180 + 1500 = 1680.\nStep 7: Compare the result with the choices; the bill of Rs. 1680 corresponds to option b.\n\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let the fixed charge be f and the variable rate be k per call.",
+                "Formulate the equations from the two given scenarios: f + 540k = 1800 and f + 620k = 2040.",
+                "Subtract the first equation from the second to eliminate f: (f + 620k) - (f + 540k) = 2040 - 1800, which simplifies to 80k = 240.",
+                "Solve for k: k = 240/80 = 3.",
+                "Substitute k = 3 into the first equation: f + 540×3 = 1800, so f = 1800 - 1620 = 180.",
+                "With f = 180 and k = 3, calculate the bill when 500 calls are made: Bill = 180 + 500×3 = 180 + 1500 = 1680.",
+                "Compare the result with the choices; the bill of Rs. 1680 corresponds to option b."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 4.803916692733765,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Two balls A and B rotate along",
+            "question": "Question: Two balls A and B rotate along a circular track . Ball A makes 2 full rotations in 26 minutes . Ball B makes 5 full rotation in 35 minutes . If they start rotating now from the same point , when will they be at the same starting point again ?\n\nChoices:\na. 1 hour and 31 minutes\nb. 2 hour and 31 minutes\nc. 3 hour and 31 minutes\nd. 4 hour and 31 minutes\ne. 5 hour and 31 minutes",
+            "answerKey": "a",
+            "cot_output": "Step 1: Determine the period of each ball's rotation. Ball A completes 2 rotations in 26 minutes, so its period is 26/2 = 13 minutes per rotation.  \nStep 2: Similarly, Ball B completes 5 rotations in 35 minutes, so its period is 35/5 = 7 minutes per rotation.  \nStep 3: For both balls to be simultaneously at the starting point, they must complete whole rotations, meaning we need to find the Least Common Multiple (LCM) of 13 and 7 minutes.  \nStep 4: Since 13 and 7 are both prime numbers, their LCM is simply 13 × 7 = 91 minutes.  \nStep 5: Converting 91 minutes to hours gives 1 hour and 31 minutes.  \nStep 6: This matches answer choice A.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Determine the period of each ball's rotation. Ball A completes 2 rotations in 26 minutes, so its period is 26/2 = 13 minutes per rotation.  ",
+                "Similarly, Ball B completes 5 rotations in 35 minutes, so its period is 35/5 = 7 minutes per rotation.  ",
+                "For both balls to be simultaneously at the starting point, they must complete whole rotations, meaning we need to find the Least Common Multiple (LCM) of 13 and 7 minutes.  ",
+                "Since 13 and 7 are both prime numbers, their LCM is simply 13 × 7 = 91 minutes.  ",
+                "Converting 91 minutes to hours gives 1 hour and 31 minutes.  ",
+                "This matches answer choice A."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 4.403886318206787,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A bookshelf contains 45 books ",
+            "question": "Question: A bookshelf contains 45 books , 30 of which are hardcover and 20 of which are fiction . What is the maximum number of books that are both hardcover and fiction ?\n\nChoices:\na. 10\nb. 15\nc. 18\nd. 20\ne. 30",
+            "answerKey": "d",
+            "cot_output": "Step 1: There are 30 hardcover books and 20 fiction books.\nStep 2: The maximum number of books that can be both hardcover and fiction is limited by the smaller of these two numbers.\nStep 3: Since the smaller number is 20, it is possible for all 20 fiction books to also be hardcover.\nStep 4: Therefore, the maximum number of hardcover fiction books is 20.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "There are 30 hardcover books and 20 fiction books.",
+                "The maximum number of books that can be both hardcover and fiction is limited by the smaller of these two numbers.",
+                "Since the smaller number is 20, it is possible for all 20 fiction books to also be hardcover.",
+                "Therefore, the maximum number of hardcover fiction books is 20."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 3.467325210571289,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A newspaper costs $ 4 on Sunda",
+            "question": "Question: A newspaper costs $ 4 on Sunday and $ 1 the rest of the days of the week . If a hotel orders twice as many papers on Sunday as it does the rest of the days of the week and pays $ 210 per week for newspapers , how many newspapers does it buy on Monday ?\n\nChoices:\na. 15\nb. 30\nc. 45\nd. 60\ne. 75",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let x be the number of newspapers the hotel orders on any one of Monday through Saturday.  \nStep 2: Since the hotel orders twice as many on Sunday, it orders 2x newspapers on Sunday.  \nStep 3: The cost on Sunday is 4 dollars per newspaper, so the Sunday cost is 4 × (2x) = 8x dollars. On Monday through Saturday, each newspaper costs 1 dollar, so the cost for these 6 days is 6 × x = 6x dollars.  \nStep 4: The total weekly cost is given as 210 dollars, so we set up the equation: 8x + 6x = 14x = 210.  \nStep 5: Solving for x, we find x = 210/14 = 15.  \nStep 6: Therefore, the hotel buys 15 newspapers on Monday.  \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x be the number of newspapers the hotel orders on any one of Monday through Saturday.  ",
+                "Since the hotel orders twice as many on Sunday, it orders 2x newspapers on Sunday.  ",
+                "The cost on Sunday is 4 dollars per newspaper, so the Sunday cost is 4 × (2x) = 8x dollars. On Monday through Saturday, each newspaper costs 1 dollar, so the cost for these 6 days is 6 × x = 6x dollars.  ",
+                "The total weekly cost is given as 210 dollars, so we set up the equation: 8x + 6x = 14x = 210.  ",
+                "Solving for x, we find x = 210/14 = 15.  ",
+                "Therefore, the hotel buys 15 newspapers on Monday.  "
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 8.356217384338379,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A number of friends decided to",
+            "question": "Question: A number of friends decided to go on a picnic and planned to spend Rs . 96 on eatables . Four of them , however , did not turn up . As a consequence , the remaining ones had to contribute Rs . 4 extra , each . The number of those who attended the picnic was\n\nChoices:\na. 8\nb. 12\nc. 16\nd. 24\ne. 25",
+            "answerKey": "a",
+            "cot_output": "Step 1: Let n be the original number of friends; then the planned contribution per friend was 96/n rupees.\nStep 2: Since 4 friends did not attend, the actual number of attendees is n - 4; the new contribution per person becomes 96/(n - 4) rupees.\nStep 3: We are told that due to the absence, each of the remaining friends paid an extra 4 rupees, so we set up the equation: 96/(n - 4) = 96/n + 4.\nStep 4: Multiply both sides by n(n - 4) to eliminate fractions: 96n = 96(n - 4) + 4n(n - 4).\nStep 5: Expand and simplify the equation: 96n = 96n - 384 + 4n² - 16n.\nStep 6: Subtract 96n from both sides to isolate the quadratic expression: 0 = -384 + 4n² - 16n.\nStep 7: Rearranging gives: 4n² - 16n - 384 = 0, and dividing through by 4 yields: n² - 4n - 96 = 0.\nStep 8: Solve the quadratic equation using the quadratic formula: n = [4 ± √(16 + 384)] / 2 = [4 ± 20] / 2.\nStep 9: Discard the negative solution and take n = (4 + 20)/2 = 12.\nStep 10: Since n represents the original number of friends, and 4 did not turn up, the number of friends who attended is 12 - 4 = 8.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let n be the original number of friends; then the planned contribution per friend was 96/n rupees.",
+                "Since 4 friends did not attend, the actual number of attendees is n - 4; the new contribution per person becomes 96/(n - 4) rupees.",
+                "We are told that due to the absence, each of the remaining friends paid an extra 4 rupees, so we set up the equation: 96/(n - 4) = 96/n + 4.",
+                "Multiply both sides by n(n - 4) to eliminate fractions: 96n = 96(n - 4) + 4n(n - 4).",
+                "Expand and simplify the equation: 96n = 96n - 384 + 4n² - 16n.",
+                "Subtract 96n from both sides to isolate the quadratic expression: 0 = -384 + 4n² - 16n.",
+                "Rearranging gives: 4n² - 16n - 384 = 0, and dividing through by 4 yields: n² - 4n - 96 = 0.",
+                "Solve the quadratic equation using the quadratic formula: n = [4 ± √(16 + 384)] / 2 = [4 ± 20] / 2.",
+                "Discard the negative solution and take n = (4 + 20)/2 = 12.",
+                "Since n represents the original number of friends, and 4 did not turn up, the number of friends who attended is 12 - 4 = 8."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 7.59780740737915,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A wire in the shape of rectang",
+            "question": "Question: A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square . What will be the measure of each side ?\n\nChoices:\na. 9\nb. 11\nc. 22\nd. 25\ne. 31",
+            "answerKey": "c",
+            "cot_output": "Step 1: Calculate the perimeter of the rectangle using the formula: Perimeter = 2 × (Length + Breadth).  \nStep 2: Substitute the given dimensions: 2 × (27 + 17) = 2 × 44 = 88 cm.  \nStep 3: Understand that when the wire is rebent into a square, its perimeter remains 88 cm.  \nStep 4: Since a square has 4 equal sides, each side of the square = 88 ÷ 4 = 22 cm.  \nStep 5: Match the obtained side length (22 cm) with the provided options. Option c corresponds to 22.\n\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Calculate the perimeter of the rectangle using the formula: Perimeter = 2 × (Length + Breadth).  ",
+                "Substitute the given dimensions: 2 × (27 + 17) = 2 × 44 = 88 cm.  ",
+                "Understand that when the wire is rebent into a square, its perimeter remains 88 cm.  ",
+                "Since a square has 4 equal sides, each side of the square = 88 ÷ 4 = 22 cm.  ",
+                "Match the obtained side length (22 cm) with the provided options. Option c corresponds to 22."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 5.091308832168579,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man divides Rs 8600 among 5 ",
+            "question": "Question: A man divides Rs 8600 among 5 sons , 4 daughters and 2 nephews . If each daughter receives four times as much as each nephew , and each son receives five as much as each nephew . How much does each daughter receive ?\n\nChoices:\na. Rs 400\nb. Rs 500\nc. Rs 600\nd. Rs 700\ne. Rs 800",
+            "answerKey": "e",
+            "cot_output": "Step 1: Let x denote the amount each nephew receives.\nStep 2: Since each daughter receives four times as much as each nephew, each daughter receives 4x; similarly, since each son receives five times as much as each nephew, each son receives 5x.\nStep 3: There are 2 nephews, 4 daughters, and 5 sons, so the total amount distributed is given by 2x (for nephews) + 4·(4x) (for daughters) + 5·(5x) (for sons).\nStep 4: This totals to 2x + 16x + 25x = 43x, which is equal to Rs 8600.\nStep 5: Solving the equation, we have 43x = 8600, so x = 8600/43 = 200.\nStep 6: Therefore, each daughter receives 4x = 4 × 200 = Rs 800.\nStep 7: Comparing this with the choices, Rs 800 corresponds to option e.\n\n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let x denote the amount each nephew receives.",
+                "Since each daughter receives four times as much as each nephew, each daughter receives 4x; similarly, since each son receives five times as much as each nephew, each son receives 5x.",
+                "There are 2 nephews, 4 daughters, and 5 sons, so the total amount distributed is given by 2x (for nephews) + 4·(4x) (for daughters) + 5·(5x) (for sons).",
+                "This totals to 2x + 16x + 25x = 43x, which is equal to Rs 8600.",
+                "Solving the equation, we have 43x = 8600, so x = 8600/43 = 200.",
+                "Therefore, each daughter receives 4x = 4 × 200 = Rs 800.",
+                "Comparing this with the choices, Rs 800 corresponds to option e."
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 8.509044647216797,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Silu and Meenu were walking on",
+            "question": "Question: Silu and Meenu were walking on the road .\nSilu said , ` ` I weigh 51 Kgs . How much do you weigh ? ' '\nMeenu replied that she would n ' t reveal her weight directly as she is overweight .\nBut she said , ` ` I weigh 29 Kgs plus half of my weight . ` ` How much does Meenu weigh ?\n\nChoices:\na. 12\nb. 28\nc. 27\nd. 58\ne. 91",
+            "answerKey": "d",
+            "cot_output": "Step 1: Let Meenu's weight be represented by x kilograms.\nStep 2: From Meenu's statement, her weight equals 29 kg plus half of her own weight, so we form the equation: x = 29 + (1/2)x.\nStep 3: Subtract (1/2)x from both sides to isolate the variable: x - (1/2)x = 29.\nStep 4: Simplify the left side: (1/2)x = 29.\nStep 5: Multiply both sides by 2 to solve for x: x = 58.\nStep 6: Comparing with the provided choices, 58 kg corresponds to option D.\n\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Let Meenu's weight be represented by x kilograms.",
+                "From Meenu's statement, her weight equals 29 kg plus half of her own weight, so we form the equation: x = 29 + (1/2)x.",
+                "Subtract (1/2)x from both sides to isolate the variable: x - (1/2)x = 29.",
+                "Simplify the left side: (1/2)x = 29.",
+                "Multiply both sides by 2 to solve for x: x = 58.",
+                "Comparing with the provided choices, 58 kg corresponds to option D."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 4.526805400848389,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Roy was suffering from severe ",
+            "question": "Question: Roy was suffering from severe headaches . He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes .\nHow much time will it take Roy to consume all the 5 tablets ?\n\nChoices:\na. 45 Min\nb. 75 Min\nc. 90 Min\nd. 120 Min\ne. 60 Min",
+            "answerKey": "e",
+            "cot_output": "Step 1: Recognize that the first tablet is taken immediately (at time 0), so no waiting time is needed for it.  \nStep 2: Identify that the subsequent tablets (the remaining 4 tablets) must each be taken at an interval of 15 minutes.  \nStep 3: Multiply the number of intervals by the interval time: 4 intervals × 15 minutes = 60 minutes.  \nStep 4: Conclude that it takes 60 minutes to ingest all 5 tablets.  \n===FINAL_ANSWER_START===\nConclusion: E\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the first tablet is taken immediately (at time 0), so no waiting time is needed for it.  ",
+                "Identify that the subsequent tablets (the remaining 4 tablets) must each be taken at an interval of 15 minutes.  ",
+                "Multiply the number of intervals by the interval time: 4 intervals × 15 minutes = 60 minutes.  ",
+                "Conclude that it takes 60 minutes to ingest all 5 tablets.  "
+            ],
+            "pred": "E",
+            "is_correct": true,
+            "elapsed_time": 4.993995904922485,
+            "tokens_used": null
+        }
+    ]
+}

@@ -1,0 +1,221 @@
+id,input,label,num_variables,template,expected_answer
+gpqa_A revolving door is convenient,"Premise: A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?
+Hypothesis: bank",True,2,unknown,None
+gpqa_What do people aim to do at wo,"Premise: What do people aim to do at work?
+Hypothesis: complete job",True,2,unknown,None
+gpqa_Where would you find magazines,"Premise: Where would you find magazines along side many other printed works?
+Hypothesis: bookstore",True,2,unknown,None
+gpqa_Where are  you likely to find ,"Premise: Where are  you likely to find a hamburger?
+Hypothesis: fast food restaurant",True,2,unknown,None
+gpqa_James was looking for a good p,"Premise: James was looking for a good place to buy farmland.  Where might he look?
+Hypothesis: estate",False,2,unknown,None
+gpqa_What island country is ferret ,"Premise: What island country is ferret popular?
+Hypothesis: great britain",True,2,unknown,None
+gpqa_In what Spanish speaking North,"Premise: In what Spanish speaking North American country can you get a great cup of coffee?
+Hypothesis: mexico",True,2,unknown,None
+gpqa_What do animals do when an ene,"Premise: What do animals do when an enemy is approaching?
+Hypothesis: listen to each other",True,2,unknown,None
+gpqa_Reading newspaper one of many ,"Premise: Reading newspaper one of many ways to practice your what?
+Hypothesis: literacy",True,2,unknown,None
+gpqa_What do people typically do wh,"Premise: What do people typically do while playing guitar?
+Hypothesis: making music",False,2,unknown,None
+gpqa_What would vinyl be an odd thi,"Premise: What would vinyl be an odd thing to replace?
+Hypothesis: cheese",False,2,unknown,None
+"gpqa_If you want harmony, what is s","Premise: If you want harmony, what is something you should try to do with the world?
+Hypothesis: make peace",True,2,unknown,None
+gpqa_Where does a heifer's master l,"Premise: Where does a heifer's master live?
+Hypothesis: farm house",True,2,unknown,None
+gpqa_Aside from water and nourishme,"Premise: Aside from water and nourishment what does your dog need?
+Hypothesis: lots of attention",True,2,unknown,None
+gpqa_Janet was watching the film be,"Premise: Janet was watching the film because she liked what?
+Hypothesis: being entertained",True,2,unknown,None
+gpqa_What are you waiting alongside,"Premise: What are you waiting alongside with when you're in a reception area?
+Hypothesis: people",True,2,unknown,None
+gpqa_When drinking booze what can y,"Premise: When drinking booze what can you do to stay busy?
+Hypothesis: examine thing",True,2,unknown,None
+gpqa_A fencing thrust with a sharp ,"Premise: A fencing thrust with a sharp sword towards a person would result in what?
+Hypothesis: puncture wound",True,2,unknown,None
+gpqa_Unlike a spider and his many s,"Premise: Unlike a spider and his many sight seers, people only have what?
+Hypothesis: two eyes",True,2,unknown,None
+gpqa_Where do adults use glue stick,"Premise: Where do adults use glue sticks?
+Hypothesis: office",True,2,unknown,None
+gpqa_What could go on top of wood?,"Premise: What could go on top of wood?
+Hypothesis: carpet",True,2,unknown,None
+gpqa_The artist was sitting quietly,"Premise: The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?
+Hypothesis: inspiration",True,2,unknown,None
+gpqa_Though the thin film seemed fr,"Premise: Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?
+Hypothesis: indestructible",False,2,unknown,None
+gpqa_Where could you find a toilet ,"Premise: Where could you find a toilet that only friends can use?
+Hypothesis: apartment",True,2,unknown,None
+gpqa_What is someone who isn't clev,"Premise: What is someone who isn't clever, bright, or competent called?
+Hypothesis: dull",False,2,unknown,None
+gpqa_When wildlife reproduce we oft,"Premise: When wildlife reproduce we often refer to what comes out as what?
+Hypothesis: offspring",True,2,unknown,None
+gpqa_The weasel was becoming a prob,"Premise: The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?
+Hypothesis: barn",True,2,unknown,None
+gpqa_Blue read material outside of ,"Premise: Blue read material outside of his comfort zone because he wanted to gain what?
+Hypothesis: new perspective",True,2,unknown,None
+gpqa_After he got hired he hoped fo,"Premise: After he got hired he hoped for success at his what?
+Hypothesis: new job",True,2,unknown,None
+gpqa_Committing perjury is a seriou,"Premise: Committing perjury is a serious what?
+Hypothesis: crime",True,2,unknown,None
+gpqa_If you are prone to postpone w,"Premise: If you are prone to postpone work what will you have to do in order to finish on time?
+Hypothesis: hasten",True,2,unknown,None
+gpqa_James wanted to find an old un,"Premise: James wanted to find an old underground map from the 50s.  Where might he look for one?
+Hypothesis: library",True,2,unknown,None
+gpqa_Sean was in a rush to get home,"Premise: Sean was in a rush to get home, but the light turned yellow and he was forced to do what?
+Hypothesis: slow down",True,2,unknown,None
+gpqa_Where would a person be doing ,"Premise: Where would a person be doing when having to wait their turn?
+Hypothesis: stand in line",True,2,unknown,None
+gpqa_She was always helping at the ,"Premise: She was always helping at the senior center, it brought her what?
+Hypothesis: satisfaction",False,2,unknown,None
+gpqa_The lock kept the steering whe,"Premise: The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?
+Hypothesis: ignition switch",True,2,unknown,None
+gpqa_Who is a police officer likely,"Premise: Who is a police officer likely to work for?
+Hypothesis: city",True,2,unknown,None
+"gpqa_If you have leftover cake, whe","Premise: If you have leftover cake, where would you put it?
+Hypothesis: refrigerator",True,2,unknown,None
+gpqa_A human wants to submerge hims,"Premise: A human wants to submerge himself in water, what should he use?
+Hypothesis: whirlpool bath",True,2,unknown,None
+gpqa_Where is a doormat likely to b,"Premise: Where is a doormat likely to be in front of?
+Hypothesis: front door",True,2,unknown,None
+gpqa_Bob the lizard lives in a warm,"Premise: Bob the lizard lives in a warm place with lots of water.  Where does he probably live?
+Hypothesis: tropical rainforest",True,2,unknown,None
+gpqa_August needed  money because h,"Premise: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?
+Hypothesis: control people",True,2,unknown,None
+gpqa_He needed more information to ,"Premise: He needed more information to fix it, so he consulted the what?
+Hypothesis: manual",True,2,unknown,None
+gpqa_Where can you put a picture fr,"Premise: Where can you put a picture frame when it's not hung vertically?
+Hypothesis: table",True,2,unknown,None
+gpqa_James knew that he shouldn't h,"Premise: James knew that he shouldn't have been buying beer for minors.  He didn't even get paid for it.  Why was this bad?
+Hypothesis: broken law",True,2,unknown,None
+gpqa_What is the result of applying,"Premise: What is the result of applying for  job?
+Hypothesis: being employed",True,2,unknown,None
+gpqa_What must someone do before th,"Premise: What must someone do before they shop?
+Hypothesis: have money",False,2,unknown,None
+"gpqa_Because John was first violin,","Premise: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?
+Hypothesis: violin case",True,2,unknown,None
+gpqa_What is a place that usually d,"Premise: What is a place that usually does not have an elevator and that sometimes has a telephone book?
+Hypothesis: telephone booth",False,2,unknown,None
+gpqa_Who is likely to be excited ab,"Premise: Who is likely to be excited about a crab?
+Hypothesis: fishmongers",True,2,unknown,None
+gpqa_Where can a human find clothes,"Premise: Where can a human find clothes that aren't pants?
+Hypothesis: dress shop",True,2,unknown,None
+"gpqa_If I was getting drunk, and pe","Premise: If I was getting drunk, and people couldn't understand me, what might I be having?
+Hypothesis: slurred speech",True,2,unknown,None
+gpqa_When a person is beginning wor,"Premise: When a person is beginning work, what are they building?
+Hypothesis: momentum",True,2,unknown,None
+"gpqa_A child wants to play, what wo","Premise: A child wants to play, what would they likely want?
+Hypothesis: play tag",True,2,unknown,None
+gpqa_Talking to the same person abo,"Premise: Talking to the same person about the same thing over and over again is something someone can what?
+Hypothesis: get tired of",True,2,unknown,None
+gpqa_The teacher doesn't tolerate n,"Premise: The teacher doesn't tolerate noise during a test in their what?
+Hypothesis: classroom",True,2,unknown,None
+gpqa_The freeway had no traffic and,"Premise: The freeway had no traffic and few buildings, where is it?
+Hypothesis: countryside",True,2,unknown,None
+gpqa_Where would you go if you want,"Premise: Where would you go if you wanted to have fun with a few people?
+Hypothesis: friend's house",True,2,unknown,None
+gpqa_If there is a place that is ho,"Premise: If there is a place that is hot and arid, what could it be?
+Hypothesis: sandy",False,2,unknown,None
+gpqa_What is likely to satisfy some,"Premise: What is likely to satisfy someone's curiosity?
+Hypothesis: hear news",True,2,unknown,None
+gpqa_If you are in a bar in a glove,"Premise: If you are in a bar in a glove shaped state where are you?
+Hypothesis: michigan",True,2,unknown,None
+gpqa_Where would a computer user be,"Premise: Where would a computer user be using their own computer?
+Hypothesis: house",True,2,unknown,None
+gpqa_Crabs live in what sort of env,"Premise: Crabs live in what sort of environment?
+Hypothesis: bodies of water",False,2,unknown,None
+gpqa_Where can you find a snake in ,"Premise: Where can you find a snake in tall grass?
+Hypothesis: feild",True,2,unknown,None
+gpqa_What is a place that has a ben,"Premise: What is a place that has a bench nestled in trees?
+Hypothesis: state park",True,2,unknown,None
+gpqa_Where is a human likely to go ,"Premise: Where is a human likely to go as a result of being hungry?
+Hypothesis: eat in restaurant",True,2,unknown,None
+gpqa_He was beginning to regret tak,"Premise: He was beginning to regret taking the fight when he saw how what his opponent was?
+Hypothesis: confident",True,2,unknown,None
+gpqa_Where would you find a single ,"Premise: Where would you find a single shower curtain being used?
+Hypothesis: shower stall",False,2,unknown,None
+gpqa_Where is a good idea but not r,"Premise: Where is a good idea but not required to have a fire extinguisher?
+Hypothesis: house",True,2,unknown,None
+gpqa_What continent has the most ca,"Premise: What continent has the most castles?
+Hypothesis: europe",True,2,unknown,None
+gpqa_If you have to read a book tha,"Premise: If you have to read a book that is very dry and long you may become what?
+Hypothesis: bored",True,2,unknown,None
+gpqa_Sally used a clipboard to hold,"Premise: Sally used a clipboard to hold her papers while she read off names at the beginning of the day.  Where might she work?
+Hypothesis: school",True,2,unknown,None
+gpqa_The kids didn't clean up after,"Premise: The kids didn't clean up after they had done what?
+Hypothesis: play with toys",True,2,unknown,None
+gpqa_Despite the name a pawn can be,"Premise: Despite the name a pawn can be quite versatile, all the parts are important in a what?
+Hypothesis: chess game",True,2,unknown,None
+gpqa_What would not be true about a,"Premise: What would not be true about a basketball if it had a hole in it but it did not lose its general shape?
+Hypothesis: full of air",True,2,unknown,None
+gpqa_If you are awaking multiple ti,"Premise: If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?
+Hypothesis: depression",True,2,unknown,None
+gpqa_Where does a wild bird usually,"Premise: Where does a wild bird usually live?
+Hypothesis: countryside",True,2,unknown,None
+gpqa_Where would you expect to find,"Premise: Where would you expect to find white mice?
+Hypothesis: laboratory",True,2,unknown,None
+gpqa_John felt that his actions wer,"Premise: John felt that his actions were fate.   Harry said that he could have always made a different what?
+Hypothesis: free will",True,2,unknown,None
+gpqa_What could committing murder p,"Premise: What could committing murder prevent someone from doing?
+Hypothesis: find god",True,2,unknown,None
+"gpqa_George didn't have a car, but ","Premise: George didn't have a car, but he still had his two feet.   His socks were smelly and his soles were blistered, but that didn't matter.  He could still do what?
+Hypothesis: walk",True,2,unknown,None
+gpqa_A crane uses many a steel cabl,"Premise: A crane uses many a steel cable when working a what?
+Hypothesis: construction site",True,2,unknown,None
+gpqa_What is the main purpose of fa,"Premise: What is the main purpose of farmers?
+Hypothesis: farm land",False,2,unknown,None
+gpqa_Where can I put this penny to ,"Premise: Where can I put this penny to save for later?
+Hypothesis: piggy bank",True,2,unknown,None
+gpqa_Where would you put uncooked c,"Premise: Where would you put uncooked crab meat?
+Hypothesis: stew pot",True,2,unknown,None
+"gpqa_The man had a fear of illness,","Premise: The man had a fear of illness, so he never visited friends who were a what?
+Hypothesis: sick person",True,2,unknown,None
+gpqa_Where would you put pans if yo,"Premise: Where would you put pans if you want to bring them with you?
+Hypothesis: backpack",True,2,unknown,None
+gpqa_If you're remembering somethin,"Premise: If you're remembering something, it's because of your what of it to begin with?
+Hypothesis: knowledge",False,2,unknown,None
+gpqa_Which large land mass is home ,"Premise: Which large land mass is home to the most monkeys?
+Hypothesis: amazon basin",False,2,unknown,None
+gpqa_Friday was James's 5th Anniver,"Premise: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?
+Hypothesis: making love",True,2,unknown,None
+gpqa_The teens were trying to hide ,"Premise: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?
+Hypothesis: stagger",True,2,unknown,None
+gpqa_You'll find a landing at the t,"Premise: You'll find a landing at the top of what?
+Hypothesis: stairwell",True,2,unknown,None
+gpqa_Anybody could be hired in the ,"Premise: Anybody could be hired in the kitchen, what was needed of them?
+Hypothesis: wash dishes",True,2,unknown,None
+gpqa_Where can you find a number of,"Premise: Where can you find a number of wind instruments together in public?
+Hypothesis: music store",False,2,unknown,None
+gpqa_A mountie got off at a subway ,"Premise: A mountie got off at a subway stop.  What city might he be in?
+Hypothesis: toronto",True,2,unknown,None
+gpqa_What do you want someone to do,"Premise: What do you want someone to do when you illustrate point?
+Hypothesis: make clear",False,2,unknown,None
+gpqa_Billy set aside a block of tim,"Premise: Billy set aside a block of time for having fun after work. Why might he do this?
+Hypothesis: stress relief",True,2,unknown,None
+gpqa_The man in the white suit was ,"Premise: The man in the white suit was very lazy.  He did nothing useful.  Meanwhile, the ban in the blue had put in effort and was very what?
+Hypothesis: productive",True,2,unknown,None
+gpqa_What would you be unable to do,"Premise: What would you be unable to do if you have too much greed?
+Hypothesis: make friends",True,2,unknown,None
+gpqa_It was a long trip from the fa,"Premise: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?
+Hypothesis: city",True,2,unknown,None
+gpqa_I did not need a servant.  I w,"Premise: I did not need a servant.  I was not a what?
+Hypothesis: rich person",True,2,unknown,None
+gpqa_How would you get from one sid,"Premise: How would you get from one side of a canal to another?
+Hypothesis: bridge",True,2,unknown,None
+gpqa_When learning about the world ,"Premise: When learning about the world and different cultures, what is important if you are committed to eliminating preconceived notions
+Hypothesis: open mind",True,2,unknown,None
+gpqa_An underrated thing about comp,"Premise: An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?
+Hypothesis: multitask",True,2,unknown,None
+gpqa_Obstructing justice is sometim,"Premise: Obstructing justice is sometimes an excuse used for police brutality which causes what in people?
+Hypothesis: getting hurt",True,2,unknown,None
+gpqa_While washing clothes they bec,"Premise: While washing clothes they became what when caught on the sharp object?
+Hypothesis: torn",True,2,unknown,None
+gpqa_Seafood restaurants are used t,"Premise: Seafood restaurants are used to draw tourists where?
+Hypothesis: coastal cities",True,2,unknown,None
+gpqa_James's nice asked him about h,"Premise: James's nice asked him about her grandfather. She was interested in learning about what?
+Hypothesis: family tree",True,2,unknown,None
+gpqa_James looked up and saw the st,"Premise: James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?
+Hypothesis: universe",True,2,unknown,None
+gpqa_What would encourage someone t,"Premise: What would encourage someone to continue playing tennis?
+Hypothesis: victory",True,2,unknown,None

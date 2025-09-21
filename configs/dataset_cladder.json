@@ -1,7 +1,6 @@
 {
-    "dataset_name": "CLadder",
-    "hf_id": "causal-nlp/CLadder",
-    "hf_config": "default",
-    "split": "full_v1.5_default",
+    "dataset_name": "LOCAL_JSON",
+    "hf_id": "configs/dataset/cladder.json",
+    "split": "test",
     "num_samples": 100
 }

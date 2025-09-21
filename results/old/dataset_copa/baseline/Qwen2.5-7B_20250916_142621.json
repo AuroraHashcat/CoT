@@ -1,0 +1,1674 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "85.00%",
+            "total_successful_pipelines": 85,
+            "avg_elapsed_time": 2.3019406032562255,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.85
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "1",
+            "question": "Context: My body cast a shadow over the grass.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The sun was rising.\nB. The grass was cut.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The body casting a shadow over the grass indicates that an object (the body) is blocking light from reaching the grass.\nStep 2: For an object to cast a shadow, there must be a light source that is being blocked.\nStep 3: The most common and significant light source in outdoor environments is the sun.\nStep 4: Therefore, the sun must have been shining for the body to cast a shadow.\nStep 5: The sun rising or setting can cause shadows, but the context does not specify the time of day, so we focus on the presence of sunlight.\nStep 6: The grass being cut is not directly related to the body casting a shadow; it is an unrelated event.\n\nConclusion: 0",
+            "cot_steps": [
+                "The body casting a shadow over the grass indicates that an object (the body) is blocking light from reaching the grass.",
+                "For an object to cast a shadow, there must be a light source that is being blocked.",
+                "The most common and significant light source in outdoor environments is the sun.",
+                "Therefore, the sun must have been shining for the body to cast a shadow.",
+                "The sun rising or setting can cause shadows, but the context does not specify the time of day, so we focus on the presence of sunlight.",
+                "The grass being cut is not directly related to the body casting a shadow; it is an unrelated event."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.5696113109588623,
+            "tokens_used": null
+        },
+        {
+            "id": "2",
+            "question": "Context: The woman tolerated her friend's difficult behavior.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The woman knew her friend was going through a hard time.\nB. The woman felt that her friend took advantage of her kindness.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman tolerated her friend's difficult behavior, which implies that she did not react negatively or end the friendship despite the challenges posed by her friend.\nStep 2: Tolerance in such a situation often stems from a desire to maintain a relationship, even if it is strained.\nStep 3: If the woman knew her friend was going through a hard time, it would explain why she tolerated difficult behavior, as she might be empathetic and willing to support her friend during a tough period.\nStep 4: On the other hand, if the woman felt that her friend was taking advantage of her kindness, she would likely react negatively rather than tolerate the behavior.\nStep 5: Given that the woman tolerated the behavior, it is more likely that she knew her friend was going through a hard time, which would explain her tolerance.\n\nConclusion: 0",
+            "cot_steps": [
+                "The woman tolerated her friend's difficult behavior, which implies that she did not react negatively or end the friendship despite the challenges posed by her friend.",
+                "Tolerance in such a situation often stems from a desire to maintain a relationship, even if it is strained.",
+                "If the woman knew her friend was going through a hard time, it would explain why she tolerated difficult behavior, as she might be empathetic and willing to support her friend during a tough period.",
+                "On the other hand, if the woman felt that her friend was taking advantage of her kindness, she would likely react negatively rather than tolerate the behavior.",
+                "Given that the woman tolerated the behavior, it is more likely that she knew her friend was going through a hard time, which would explain her tolerance."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.7125701904296875,
+            "tokens_used": null
+        },
+        {
+            "id": "3",
+            "question": "Context: The women met for coffee.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The cafe reopened in a new location.\nB. They wanted to catch up with each other.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The women met for coffee, which implies a social interaction.\nStep 2: Social interactions often occur to maintain or strengthen relationships.\nStep 3: Catching up is a common reason for social interactions between friends or acquaintances.\nStep 4: The other option, the cafe reopening, is a potential event that could lead to people meeting there, but it does not directly explain why the women specifically chose to meet for coffee.\nStep 5: Therefore, the most logical cause for the women meeting for coffee is that they wanted to catch up with each other.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The women met for coffee, which implies a social interaction.",
+                "Social interactions often occur to maintain or strengthen relationships.",
+                "Catching up is a common reason for social interactions between friends or acquaintances.",
+                "The other option, the cafe reopening, is a potential event that could lead to people meeting there, but it does not directly explain why the women specifically chose to meet for coffee.",
+                "Therefore, the most logical cause for the women meeting for coffee is that they wanted to catch up with each other."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.2055797576904297,
+            "tokens_used": null
+        },
+        {
+            "id": "4",
+            "question": "Context: The runner wore shorts.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The forecast predicted high temperatures.\nB. She planned to run along the beach.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The runner wore shorts, which suggests a preference for comfort and ease of movement.\nStep 2: Comfort and ease of movement are often prioritized in warm weather conditions.\nStep 3: High temperatures are a common reason for wearing shorts as they allow for better ventilation and cooling.\nStep 4: Running along the beach is a specific scenario that could involve shorts, but it is not necessarily the most common or general reason for wearing them.\nStep 5: The forecast predicting high temperatures is a more general and likely cause for wearing shorts compared to running along the beach, which is a specific scenario.\n\nConclusion: 0",
+            "cot_steps": [
+                "The runner wore shorts, which suggests a preference for comfort and ease of movement.",
+                "Comfort and ease of movement are often prioritized in warm weather conditions.",
+                "High temperatures are a common reason for wearing shorts as they allow for better ventilation and cooling.",
+                "Running along the beach is a specific scenario that could involve shorts, but it is not necessarily the most common or general reason for wearing them.",
+                "The forecast predicting high temperatures is a more general and likely cause for wearing shorts compared to running along the beach, which is a specific scenario."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.459385395050049,
+            "tokens_used": null
+        },
+        {
+            "id": "5",
+            "question": "Context: The guests of the party hid behind the couch.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was a surprise party.\nB. It was a birthday party.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The guests hiding behind the couch suggests a secretive or surprise nature to the event.\nStep 2: Surprise parties often involve guests hiding or being surprised, which aligns with the described behavior.\nStep 3: Birthday parties can also involve hiding, but it is not as common or specific as in surprise parties.\nStep 4: Given the specific behavior of hiding, it is more likely to be a surprise party rather than a general birthday party.\n\nConclusion: 0",
+            "cot_steps": [
+                "The guests hiding behind the couch suggests a secretive or surprise nature to the event.",
+                "Surprise parties often involve guests hiding or being surprised, which aligns with the described behavior.",
+                "Birthday parties can also involve hiding, but it is not as common or specific as in surprise parties.",
+                "Given the specific behavior of hiding, it is more likely to be a surprise party rather than a general birthday party."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.2764737606048584,
+            "tokens_used": null
+        },
+        {
+            "id": "6",
+            "question": "Context: The politician lost the election.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He ran negative campaign ads.\nB. No one voted for him.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The politician lost the election, which means he did not receive enough votes to win.\nStep 2: For a candidate to win an election, they must receive more votes than their opponents.\nStep 3: If no one voted for him, it implies that the candidate did not receive any votes at all.\nStep 4: The lack of votes directly leads to the conclusion that the candidate lost the election.\n\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The politician lost the election, which means he did not receive enough votes to win.",
+                "For a candidate to win an election, they must receive more votes than their opponents.",
+                "If no one voted for him, it implies that the candidate did not receive any votes at all.",
+                "The lack of votes directly leads to the conclusion that the candidate lost the election."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.6416115760803223,
+            "tokens_used": null
+        },
+        {
+            "id": "7",
+            "question": "Context: The stain came out of the shirt.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I patched the shirt.\nB. I bleached the shirt.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The stain coming out of the shirt indicates that a cleaning process was applied to the shirt.\nStep 2: Patching a shirt involves sewing or attaching a piece of fabric to cover a hole or tear, which does not typically remove stains.\nStep 3: Bleaching is a cleaning process that can remove stains from fabric by breaking down the stain molecules.\nStep 4: Given that the stain came out, it is more likely that a cleaning process was applied, which in this case is bleaching.\n\nConclusion: 1",
+            "cot_steps": [
+                "The stain coming out of the shirt indicates that a cleaning process was applied to the shirt.",
+                "Patching a shirt involves sewing or attaching a piece of fabric to cover a hole or tear, which does not typically remove stains.",
+                "Bleaching is a cleaning process that can remove stains from fabric by breaking down the stain molecules.",
+                "Given that the stain came out, it is more likely that a cleaning process was applied, which in this case is bleaching."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.998917579650879,
+            "tokens_used": null
+        },
+        {
+            "id": "8",
+            "question": "Context: The man got a discount on his groceries.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He greeted the cashier.\nB. He used a coupon.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man received a discount on his groceries, which implies that there was some form of financial reduction applied to his total bill.\nStep 2: Discounts on groceries are typically offered through the use of coupons, store loyalty programs, or special promotions.\nStep 3: Greeting the cashier, while a polite action, does not inherently lead to a discount on groceries.\nStep 4: Using a coupon is a direct and common method for obtaining a discount on groceries.\nStep 5: Therefore, the most logical cause for the man receiving a discount on his groceries is that he used a coupon.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man received a discount on his groceries, which implies that there was some form of financial reduction applied to his total bill.",
+                "Discounts on groceries are typically offered through the use of coupons, store loyalty programs, or special promotions.",
+                "Greeting the cashier, while a polite action, does not inherently lead to a discount on groceries.",
+                "Using a coupon is a direct and common method for obtaining a discount on groceries.",
+                "Therefore, the most logical cause for the man receiving a discount on his groceries is that he used a coupon."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.3125650882720947,
+            "tokens_used": null
+        },
+        {
+            "id": "9",
+            "question": "Context: The physician misdiagnosed the patient.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The patient filed a malpractice lawsuit against the physician.\nB. The patient disclosed confidential information to the physician.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The physician misdiagnosed the patient, which means the patient received incorrect medical treatment or no treatment at all.\nStep 2: As a result of the misdiagnosis, the patient's health condition may have worsened or new complications may have arisen.\nStep 3: When a patient experiences harm due to a misdiagnosis, they may feel that their rights have been violated and seek legal recourse.\nStep 4: Filing a malpractice lawsuit is a common action taken by patients who believe they have been wronged by a healthcare provider.\nStep 5: The patient disclosing confidential information to the physician is not a logical consequence of the misdiagnosis; in fact, it would be unusual for a patient to share more information with a physician who has already misdiagnosed them.\n\nConclusion: 0",
+            "cot_steps": [
+                "The physician misdiagnosed the patient, which means the patient received incorrect medical treatment or no treatment at all.",
+                "As a result of the misdiagnosis, the patient's health condition may have worsened or new complications may have arisen.",
+                "When a patient experiences harm due to a misdiagnosis, they may feel that their rights have been violated and seek legal recourse.",
+                "Filing a malpractice lawsuit is a common action taken by patients who believe they have been wronged by a healthcare provider.",
+                "The patient disclosing confidential information to the physician is not a logical consequence of the misdiagnosis; in fact, it would be unusual for a patient to share more information with a physician who has already misdiagnosed them."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.588371992111206,
+            "tokens_used": null
+        },
+        {
+            "id": "10",
+            "question": "Context: The customer filed a complaint with the store manager.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The sales associate undercharged the customer.\nB. The sales associate acted rude to the customer.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The customer filed a complaint with the store manager, indicating that the customer perceived some issue that warranted their dissatisfaction.\nStep 2: The complaint could be related to various aspects of the customer's experience, such as pricing, service, or product quality.\nStep 3: Option A suggests that the sales associate undercharged the customer, which would typically result in the customer receiving more product or service than paid for, not a complaint.\nStep 4: Option B suggests that the sales associate acted rude to the customer, which would directly cause the customer to feel mistreated and file a complaint.\nStep 5: Given that the customer filed a complaint, it is more likely that they experienced poor service rather than receiving more than they paid for.\n\nConclusion: 1",
+            "cot_steps": [
+                "The customer filed a complaint with the store manager, indicating that the customer perceived some issue that warranted their dissatisfaction.",
+                "The complaint could be related to various aspects of the customer's experience, such as pricing, service, or product quality.",
+                "Option A suggests that the sales associate undercharged the customer, which would typically result in the customer receiving more product or service than paid for, not a complaint.",
+                "Option B suggests that the sales associate acted rude to the customer, which would directly cause the customer to feel mistreated and file a complaint.",
+                "Given that the customer filed a complaint, it is more likely that they experienced poor service rather than receiving more than they paid for."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.4679627418518066,
+            "tokens_used": null
+        },
+        {
+            "id": "11",
+            "question": "Context: The woman repaired her faucet.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The faucet was leaky.\nB. The faucet was turned off.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman repaired her faucet because there was a problem that required fixing.\nStep 2: A common problem with a faucet is that it is leaky, which would necessitate repair.\nStep 3: The faucet being turned off is not a problem that would require repair; it is a state of the faucet, not a reason for repair.\nStep 4: Therefore, the most logical cause for the woman to repair her faucet is that it was leaky.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman repaired her faucet because there was a problem that required fixing.",
+                "A common problem with a faucet is that it is leaky, which would necessitate repair.",
+                "The faucet being turned off is not a problem that would require repair; it is a state of the faucet, not a reason for repair.",
+                "Therefore, the most logical cause for the woman to repair her faucet is that it was leaky."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.4561069011688232,
+            "tokens_used": null
+        },
+        {
+            "id": "12",
+            "question": "Context: The elderly woman suffered a stroke.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The woman's daughter came over to clean her house.\nB. The woman's daughter moved in to take care of her.",
+            "answerKey": "B",
+            "cot_output": "Step 1: A stroke can cause significant physical and cognitive impairments in the elderly.\nStep 2: Given the severity of a stroke, the elderly woman would likely require immediate and ongoing care.\nStep 3: The woman's daughter is the most likely family member to provide such care due to familial obligations and proximity.\nStep 4: Moving in to take care of her mother would be a more comprehensive and effective solution compared to just cleaning the house.\nStep 5: Therefore, the most logical and effective outcome is that the woman's daughter would move in to take care of her.\n\n===FINAL_ANSWER_START===\nConclusion: 2\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A stroke can cause significant physical and cognitive impairments in the elderly.",
+                "Given the severity of a stroke, the elderly woman would likely require immediate and ongoing care.",
+                "The woman's daughter is the most likely family member to provide such care due to familial obligations and proximity.",
+                "Moving in to take care of her mother would be a more comprehensive and effective solution compared to just cleaning the house.",
+                "Therefore, the most logical and effective outcome is that the woman's daughter would move in to take care of her."
+            ],
+            "pred": "2",
+            "is_correct": false,
+            "elapsed_time": 2.2842633724212646,
+            "tokens_used": null
+        },
+        {
+            "id": "13",
+            "question": "Context: The pond froze over for the winter.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. People skated on the pond.\nB. People brought boats to the pond.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The pond froze over for the winter, which means the water turned into ice, making the surface solid.\nStep 2: When a pond freezes over, it creates a natural skating rink, allowing people to skate on the ice.\nStep 3: People are likely to take advantage of the newly formed skating surface for recreational activities.\nStep 4: As a result of the pond freezing over, people can now skate on the pond.\n\nFinal_Answer: 0",
+            "cot_steps": [
+                "The pond froze over for the winter, which means the water turned into ice, making the surface solid.",
+                "When a pond freezes over, it creates a natural skating rink, allowing people to skate on the ice.",
+                "People are likely to take advantage of the newly formed skating surface for recreational activities.",
+                "As a result of the pond freezing over, people can now skate on the pond."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 1.7334961891174316,
+            "tokens_used": null
+        },
+        {
+            "id": "14",
+            "question": "Context: The offender violated parole.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She was sent back to jail.\nB. She stole money from a church.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The fact that the offender violated parole indicates that they did not follow the conditions set by the parole board, which typically include not committing new crimes, not leaving a designated area, and regular check-ins with a parole officer.\nStep 2: Violating parole is a serious breach of the terms of release, and as a result, the offender is likely to face consequences for this violation.\nStep 3: One of the standard consequences for violating parole is being returned to jail, as the parole system is designed to ensure that individuals adhere to the terms of their release and that they are held accountable if they do not.\nStep 4: Stealing money from a church, while it could be a possible action by the offender, is not a direct effect of violating parole. It is a separate criminal act that may or may not have occurred.\nStep 5: Given the standard consequences for violating parole, the most likely effect is that the offender was sent back to jail.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The fact that the offender violated parole indicates that they did not follow the conditions set by the parole board, which typically include not committing new crimes, not leaving a designated area, and regular check-ins with a parole officer.",
+                "Violating parole is a serious breach of the terms of release, and as a result, the offender is likely to face consequences for this violation.",
+                "One of the standard consequences for violating parole is being returned to jail, as the parole system is designed to ensure that individuals adhere to the terms of their release and that they are held accountable if they do not.",
+                "Stealing money from a church, while it could be a possible action by the offender, is not a direct effect of violating parole. It is a separate criminal act that may or may not have occurred.",
+                "Given the standard consequences for violating parole, the most likely effect is that the offender was sent back to jail."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.2359108924865723,
+            "tokens_used": null
+        },
+        {
+            "id": "15",
+            "question": "Context: I poured water on my sleeping friend.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. My friend awoke.\nB. My friend snored.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Pouring water on someone typically causes a sudden change in temperature and a sensation of wetness, which are strong stimuli.\nStep 2: These stimuli are likely to be perceived by the sleeping person, disrupting their sleep.\nStep 3: Disruption of sleep is most likely to result in the person waking up, as the body reacts to the disturbance.\nStep 4: Snoring is a sound produced during sleep and is not directly caused by being wet or having water poured on one.\n\nConclusion: 1",
+            "cot_steps": [
+                "Pouring water on someone typically causes a sudden change in temperature and a sensation of wetness, which are strong stimuli.",
+                "These stimuli are likely to be perceived by the sleeping person, disrupting their sleep.",
+                "Disruption of sleep is most likely to result in the person waking up, as the body reacts to the disturbance.",
+                "Snoring is a sound produced during sleep and is not directly caused by being wet or having water poured on one."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 1.7153925895690918,
+            "tokens_used": null
+        },
+        {
+            "id": "16",
+            "question": "Context: The girl gasped.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. Her friend stuck an ice cube down her back.\nB. Her friend gave her a pat on the back.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The girl gasped, which is a sudden and involuntary action typically associated with surprise, pain, or shock.\nStep 2: Option A suggests that her friend stuck an ice cube down her back, which could cause a sudden and sharp sensation, leading to a gasp.\nStep 3: Option B suggests that her friend gave her a pat on the back, which is less likely to cause a gasp unless the pat was particularly hard or unexpected.\nStep 4: Given that a gasp is more likely to be caused by a sudden sharp sensation rather than a gentle pat, the ice cube scenario is more plausible.\n\nConclusion: 1",
+            "cot_steps": [
+                "The girl gasped, which is a sudden and involuntary action typically associated with surprise, pain, or shock.",
+                "Option A suggests that her friend stuck an ice cube down her back, which could cause a sudden and sharp sensation, leading to a gasp.",
+                "Option B suggests that her friend gave her a pat on the back, which is less likely to cause a gasp unless the pat was particularly hard or unexpected.",
+                "Given that a gasp is more likely to be caused by a sudden sharp sensation rather than a gentle pat, the ice cube scenario is more plausible."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 2.4187002182006836,
+            "tokens_used": null
+        },
+        {
+            "id": "17",
+            "question": "Context: The shirt shrunk.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I poured bleach on it.\nB. I put it in the dryer.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The shirt shrunk, which typically indicates a change in its size due to a chemical or physical process.\nStep 2: Bleach is known to be a strong chemical that can break down fibers in fabric, potentially causing shrinkage.\nStep 3: The dryer uses heat and agitation, which can cause fabrics to shrink, especially if the fabric is not suitable for high heat.\nStep 4: Given the options, pouring bleach on the shirt (Option A) is a more direct and specific cause of shrinkage compared to putting it in the dryer (Option B).\nStep 5: While both options can cause shrinkage, the direct application of a chemical (bleach) is more likely to cause immediate and significant shrinkage compared to the gradual effect of heat in a dryer.\n\nConclusion: 0",
+            "cot_steps": [
+                "The shirt shrunk, which typically indicates a change in its size due to a chemical or physical process.",
+                "Bleach is known to be a strong chemical that can break down fibers in fabric, potentially causing shrinkage.",
+                "The dryer uses heat and agitation, which can cause fabrics to shrink, especially if the fabric is not suitable for high heat.",
+                "Given the options, pouring bleach on the shirt (Option A) is a more direct and specific cause of shrinkage compared to putting it in the dryer (Option B).",
+                "While both options can cause shrinkage, the direct application of a chemical (bleach) is more likely to cause immediate and significant shrinkage compared to the gradual effect of heat in a dryer."
+            ],
+            "pred": "0",
+            "is_correct": false,
+            "elapsed_time": 2.7654268741607666,
+            "tokens_used": null
+        },
+        {
+            "id": "18",
+            "question": "Context: It got dark outside.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Snowflakes began to fall from the sky.\nB. The moon became visible in the sky.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The context states that it got dark outside. Darkness typically occurs when the sun sets and the sky is no longer illuminated by sunlight.\nStep 2: The moon becoming visible in the sky is a natural consequence of it getting dark, as the moon is visible during nighttime.\nStep 3: Snowflakes beginning to fall from the sky is not a direct effect of it getting dark; snowfall is influenced by temperature and atmospheric conditions, not just the time of day.\nStep 4: Therefore, the most logical effect of it getting dark outside is that the moon became visible in the sky.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The context states that it got dark outside. Darkness typically occurs when the sun sets and the sky is no longer illuminated by sunlight.",
+                "The moon becoming visible in the sky is a natural consequence of it getting dark, as the moon is visible during nighttime.",
+                "Snowflakes beginning to fall from the sky is not a direct effect of it getting dark; snowfall is influenced by temperature and atmospheric conditions, not just the time of day.",
+                "Therefore, the most logical effect of it getting dark outside is that the moon became visible in the sky."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.7953357696533203,
+            "tokens_used": null
+        },
+        {
+            "id": "19",
+            "question": "Context: I hung up the phone.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The caller said goodbye to me.\nB. The caller identified himself to me.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Hanging up the phone is an action typically taken by the person who is ending a call.\nStep 2: The act of hanging up the phone does not necessarily imply that the caller said goodbye or identified themselves.\nStep 3: Hanging up the phone could be a result of various reasons such as the end of a conversation, a mistake, or the desire to end the call.\nStep 4: The most direct and common reason for hanging up the phone is that the person on the line has decided to end the call.\nStep 5: Given the choices, the most logical and direct cause of hanging up the phone is that the caller said goodbye to me.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hanging up the phone is an action typically taken by the person who is ending a call.",
+                "The act of hanging up the phone does not necessarily imply that the caller said goodbye or identified themselves.",
+                "Hanging up the phone could be a result of various reasons such as the end of a conversation, a mistake, or the desire to end the call.",
+                "The most direct and common reason for hanging up the phone is that the person on the line has decided to end the call.",
+                "Given the choices, the most logical and direct cause of hanging up the phone is that the caller said goodbye to me."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.4312546253204346,
+            "tokens_used": null
+        },
+        {
+            "id": "20",
+            "question": "Context: The woman's ring slipped off in the shower.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The woman polished the ring.\nB. The ring went down the drain.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman's ring slipped off in the shower, which means the ring was not held by her hand or finger and fell into the water.\nStep 2: Showers typically have a drain at the bottom, and water flows through this drain.\nStep 3: Given that the ring fell into the water and the water is flowing through the drain, the ring would likely follow the water and go down the drain.\nStep 4: The ring going down the drain is the most direct and logical effect of it slipping off in the shower.\n\nConclusion: 1",
+            "cot_steps": [
+                "The woman's ring slipped off in the shower, which means the ring was not held by her hand or finger and fell into the water.",
+                "Showers typically have a drain at the bottom, and water flows through this drain.",
+                "Given that the ring fell into the water and the water is flowing through the drain, the ring would likely follow the water and go down the drain.",
+                "The ring going down the drain is the most direct and logical effect of it slipping off in the shower."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.11635160446167,
+            "tokens_used": null
+        },
+        {
+            "id": "21",
+            "question": "Context: The girl received a trophy.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She won a spelling bee.\nB. She made a new friend.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Receiving a trophy is typically associated with winning a competition or achieving a goal.\nStep 2: Among the given choices, winning a spelling bee (Option A) is a specific competition where participants receive trophies for winning.\nStep 3: Making a new friend (Option B) does not typically result in receiving a trophy.\nStep 4: Therefore, the most logical cause for the girl receiving a trophy is that she won a spelling bee.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Receiving a trophy is typically associated with winning a competition or achieving a goal.",
+                "Among the given choices, winning a spelling bee (Option A) is a specific competition where participants receive trophies for winning.",
+                "Making a new friend (Option B) does not typically result in receiving a trophy.",
+                "Therefore, the most logical cause for the girl receiving a trophy is that she won a spelling bee."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.8934273719787598,
+            "tokens_used": null
+        },
+        {
+            "id": "22",
+            "question": "Context: The woman's date wanted to look like a gentleman.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He opened the door for her.\nB. He asked her if she liked sushi.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman's date wanted to look like a gentleman, which implies he wanted to exhibit behavior that is traditionally associated with gentlemanly conduct.\nStep 2: One of the most common behaviors associated with gentlemanly conduct is opening doors for women, as it is a chivalrous act.\nStep 3: Therefore, the effect of the date wanting to look like a gentleman would be that he opened the door for her.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman's date wanted to look like a gentleman, which implies he wanted to exhibit behavior that is traditionally associated with gentlemanly conduct.",
+                "One of the most common behaviors associated with gentlemanly conduct is opening doors for women, as it is a chivalrous act.",
+                "Therefore, the effect of the date wanting to look like a gentleman would be that he opened the door for her."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.493727207183838,
+            "tokens_used": null
+        },
+        {
+            "id": "23",
+            "question": "Context: The farmland needed irrigation.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. A canal was constructed.\nB. A flood occurred.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The farmland needed irrigation, which implies that the land was not receiving sufficient water naturally to support crops.\nStep 2: To address the need for irrigation, a method to supply water to the farmland would need to be implemented.\nStep 3: Constructing a canal is a common method to provide a consistent water supply to farmland, especially in areas where natural water sources are insufficient or unreliable.\nStep 4: A flood occurring is an unlikely direct effect of the need for irrigation, as floods are typically caused by excessive rainfall or dam failures, not by the need to irrigate farmland.\nStep 5: Therefore, the most logical and direct effect of the farmland needing irrigation is the construction of a canal to provide the necessary water supply.\n\nConclusion: 0",
+            "cot_steps": [
+                "The farmland needed irrigation, which implies that the land was not receiving sufficient water naturally to support crops.",
+                "To address the need for irrigation, a method to supply water to the farmland would need to be implemented.",
+                "Constructing a canal is a common method to provide a consistent water supply to farmland, especially in areas where natural water sources are insufficient or unreliable.",
+                "A flood occurring is an unlikely direct effect of the need for irrigation, as floods are typically caused by excessive rainfall or dam failures, not by the need to irrigate farmland.",
+                "Therefore, the most logical and direct effect of the farmland needing irrigation is the construction of a canal to provide the necessary water supply."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.7182226181030273,
+            "tokens_used": null
+        },
+        {
+            "id": "24",
+            "question": "Context: The host cancelled the party.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was certain she had the flu.\nB. She worried she would catch the flu.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The host cancelled the party, which implies there was a reason for her to do so.\nStep 2: Option A suggests that the host was certain she had the flu, which would be a direct reason to cancel a party.\nStep 3: Option B suggests that the host worried she would catch the flu, which is a preventative measure but not a direct cause of cancelling the party.\nStep 4: Given that the host has already cancelled the party, the more direct and immediate cause would be that she was certain she had the flu, as this would necessitate the cancellation.\nStep N: Therefore, the most logical and direct cause of the host cancelling the party is that she was certain she had the flu.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The host cancelled the party, which implies there was a reason for her to do so.",
+                "Option A suggests that the host was certain she had the flu, which would be a direct reason to cancel a party.",
+                "Option B suggests that the host worried she would catch the flu, which is a preventative measure but not a direct cause of cancelling the party.",
+                "Given that the host has already cancelled the party, the more direct and immediate cause would be that she was certain she had the flu, as this would necessitate the cancellation."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.7357265949249268,
+            "tokens_used": null
+        },
+        {
+            "id": "25",
+            "question": "Context: The woman gave the man her phone number.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was attracted to him.\nB. She was repulsed by him.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman giving the man her phone number suggests an intention to communicate further, which implies a positive or neutral interaction rather than a negative one.\nStep 2: Being attracted to someone often leads to a desire for further communication, which can manifest in sharing contact information.\nStep 3: Being repulsed by someone typically results in avoiding contact and not sharing personal information like a phone number.\nStep 4: Therefore, the most likely cause for the woman giving the man her phone number is that she was attracted to him.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman giving the man her phone number suggests an intention to communicate further, which implies a positive or neutral interaction rather than a negative one.",
+                "Being attracted to someone often leads to a desire for further communication, which can manifest in sharing contact information.",
+                "Being repulsed by someone typically results in avoiding contact and not sharing personal information like a phone number.",
+                "Therefore, the most likely cause for the woman giving the man her phone number is that she was attracted to him."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.3266372680664062,
+            "tokens_used": null
+        },
+        {
+            "id": "26",
+            "question": "Context: The skydiver glided safely to the ground.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She opened her parachute.\nB. She jumped out of the plane.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The skydiver glided safely to the ground, which implies that she had some form of controlled descent.\nStep 2: A controlled descent is typically achieved by opening a parachute, which provides air resistance and slows the skydiver's fall.\nStep 3: Opening the parachute is a deliberate action that occurs after the skydiver has jumped out of the plane.\nStep 4: Therefore, the most direct cause of the skydiver gliding safely to the ground is that she opened her parachute.\n\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The skydiver glided safely to the ground, which implies that she had some form of controlled descent.",
+                "A controlled descent is typically achieved by opening a parachute, which provides air resistance and slows the skydiver's fall.",
+                "Opening the parachute is a deliberate action that occurs after the skydiver has jumped out of the plane.",
+                "Therefore, the most direct cause of the skydiver gliding safely to the ground is that she opened her parachute."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.1992921829223633,
+            "tokens_used": null
+        },
+        {
+            "id": "27",
+            "question": "Context: The toddler became cranky.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Her mother put her down for a nap.\nB. Her mother fixed her hair into pigtails.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The toddler became cranky, which indicates a state of irritability or restlessness.\nStep 2: When a toddler is cranky, it often leads to the parent attempting to soothe the child.\nStep 3: Putting a cranky toddler down for a nap is a common method parents use to calm the child and address the crankiness.\nStep 4: Fixing a toddler's hair into pigtails is generally not a direct response to crankiness but rather a grooming activity.\nStep 5: Therefore, the most likely effect of the toddler becoming cranky is that her mother put her down for a nap.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The toddler became cranky, which indicates a state of irritability or restlessness.",
+                "When a toddler is cranky, it often leads to the parent attempting to soothe the child.",
+                "Putting a cranky toddler down for a nap is a common method parents use to calm the child and address the crankiness.",
+                "Fixing a toddler's hair into pigtails is generally not a direct response to crankiness but rather a grooming activity.",
+                "Therefore, the most likely effect of the toddler becoming cranky is that her mother put her down for a nap."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.5881597995758057,
+            "tokens_used": null
+        },
+        {
+            "id": "28",
+            "question": "Context: The child became immune to the disease.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He avoided exposure to the disease.\nB. He received the vaccine for the disease.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Immunity to a disease typically results from either exposure to the disease and subsequent recovery or from receiving a vaccine that triggers an immune response without causing the full disease.\nStep 2: Avoiding exposure to the disease would not result in immunity, as the body would not have the opportunity to develop an immune response.\nStep 3: Receiving a vaccine is designed to stimulate the immune system to produce antibodies without causing the full disease, thereby providing immunity.\nStep 4: The statement \"The child became immune to the disease\" implies that the child's immune system has been activated to fight the disease, which is more consistent with receiving a vaccine than avoiding exposure.\nStep 5: Therefore, the most likely cause of the child becoming immune to the disease is that he received the vaccine for the disease.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Immunity to a disease typically results from either exposure to the disease and subsequent recovery or from receiving a vaccine that triggers an immune response without causing the full disease.",
+                "Avoiding exposure to the disease would not result in immunity, as the body would not have the opportunity to develop an immune response.",
+                "Receiving a vaccine is designed to stimulate the immune system to produce antibodies without causing the full disease, thereby providing immunity.",
+                "The statement \"The child became immune to the disease\" implies that the child's immune system has been activated to fight the disease, which is more consistent with receiving a vaccine than avoiding exposure.",
+                "Therefore, the most likely cause of the child becoming immune to the disease is that he received the vaccine for the disease."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.907837152481079,
+            "tokens_used": null
+        },
+        {
+            "id": "29",
+            "question": "Context: The grape juice fermented.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The juice turned to wine.\nB. The juice evaporated.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Fermentation is a process where microorganisms convert sugars into alcohol and carbon dioxide.\nStep 2: Grape juice contains natural sugars.\nStep 3: When grape juice undergoes fermentation, the sugars in the juice are converted into alcohol and carbon dioxide.\nStep 4: The conversion of sugars into alcohol is the primary characteristic of wine production.\nStep 5: Therefore, the effect of grape juice fermenting is that it turns into wine.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Fermentation is a process where microorganisms convert sugars into alcohol and carbon dioxide.",
+                "Grape juice contains natural sugars.",
+                "When grape juice undergoes fermentation, the sugars in the juice are converted into alcohol and carbon dioxide.",
+                "The conversion of sugars into alcohol is the primary characteristic of wine production.",
+                "Therefore, the effect of grape juice fermenting is that it turns into wine."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 1.9480125904083252,
+            "tokens_used": null
+        },
+        {
+            "id": "30",
+            "question": "Context: The friends' debate dragged on interminably.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The friends saw eye to eye.\nB. The friends were splitting hairs.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The phrase \"dragged on interminably\" suggests that the debate lasted for an excessively long time, indicating a lack of resolution or agreement.\nStep 2: If the friends saw eye to eye (Option A), they would likely have reached a consensus quickly, rather than having a debate that lasted for a long time.\nStep 3: Splitting hairs (Option B) implies that the friends are focusing on minor details or nuances, which would typically lead to a prolonged debate as they try to find the precise meaning or correct interpretation.\nStep 4: Therefore, the cause of the debate dragging on interminably is that the friends were splitting hairs, as this would lead to an extended discussion on minor points without reaching a conclusion quickly.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The phrase \"dragged on interminably\" suggests that the debate lasted for an excessively long time, indicating a lack of resolution or agreement.",
+                "If the friends saw eye to eye (Option A), they would likely have reached a consensus quickly, rather than having a debate that lasted for a long time.",
+                "Splitting hairs (Option B) implies that the friends are focusing on minor details or nuances, which would typically lead to a prolonged debate as they try to find the precise meaning or correct interpretation.",
+                "Therefore, the cause of the debate dragging on interminably is that the friends were splitting hairs, as this would lead to an extended discussion on minor points without reaching a conclusion quickly."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 3.02143931388855,
+            "tokens_used": null
+        },
+        {
+            "id": "31",
+            "question": "Context: The woman hummed to herself.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was nervous.\nB. She was in a good mood.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Humming is often associated with a state of contentment or enjoyment.\nStep 2: Being in a good mood is a state that can lead to humming as a form of self-expression or pleasure.\nStep 3: Being nervous typically results in more tense behaviors or thoughts, which are less likely to be accompanied by humming.\nStep 4: Therefore, the woman humming to herself is more likely to be a sign of her being in a good mood rather than nervous.\n\nConclusion: 1",
+            "cot_steps": [
+                "Humming is often associated with a state of contentment or enjoyment.",
+                "Being in a good mood is a state that can lead to humming as a form of self-expression or pleasure.",
+                "Being nervous typically results in more tense behaviors or thoughts, which are less likely to be accompanied by humming.",
+                "Therefore, the woman humming to herself is more likely to be a sign of her being in a good mood rather than nervous."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.7808210849761963,
+            "tokens_used": null
+        },
+        {
+            "id": "32",
+            "question": "Context: The man hated his new haircut.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He wore a hat.\nB. He grew a beard.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man hated his new haircut, which implies he was unsatisfied with the change in his appearance.\nStep 2: To cover up the new haircut, he might choose to wear a hat as a practical solution to avoid drawing attention to his dissatisfaction.\nStep 3: Growing a beard is a more permanent solution and would not be a direct immediate effect of hating a new haircut.\nStep 4: Wearing a hat is a more likely immediate effect compared to growing a beard, as it is a quicker and more practical solution.\n\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man hated his new haircut, which implies he was unsatisfied with the change in his appearance.",
+                "To cover up the new haircut, he might choose to wear a hat as a practical solution to avoid drawing attention to his dissatisfaction.",
+                "Growing a beard is a more permanent solution and would not be a direct immediate effect of hating a new haircut.",
+                "Wearing a hat is a more likely immediate effect compared to growing a beard, as it is a quicker and more practical solution."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.038511276245117,
+            "tokens_used": null
+        },
+        {
+            "id": "33",
+            "question": "Context: The police aimed their weapons at the fugitive.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The fugitive fell to the ground.\nB. The fugitive dropped his gun.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The police aimed their weapons at the fugitive, indicating a confrontational situation where the police are prepared to use force if necessary.\nStep 2: The act of aiming weapons at someone is a clear threat and can cause fear and compliance in the target.\nStep 3: Given the fear and the threat of force, the fugitive is likely to respond in a way that avoids confrontation, such as dropping his weapon or surrendering.\nStep 4: Dropping the gun is a common and immediate response to such a threat, as it removes the immediate threat and can lead to a quicker resolution of the situation.\nStep 5: The other option, the fugitive falling to the ground, could happen but is not as directly causally linked to the police action as dropping the gun.\n\nConclusion: 1",
+            "cot_steps": [
+                "The police aimed their weapons at the fugitive, indicating a confrontational situation where the police are prepared to use force if necessary.",
+                "The act of aiming weapons at someone is a clear threat and can cause fear and compliance in the target.",
+                "Given the fear and the threat of force, the fugitive is likely to respond in a way that avoids confrontation, such as dropping his weapon or surrendering.",
+                "Dropping the gun is a common and immediate response to such a threat, as it removes the immediate threat and can lead to a quicker resolution of the situation.",
+                "The other option, the fugitive falling to the ground, could happen but is not as directly causally linked to the police action as dropping the gun."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.6725997924804688,
+            "tokens_used": null
+        },
+        {
+            "id": "34",
+            "question": "Context: The patient was dehydrated.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The nurse tested his reflexes.\nB. The nurse gave him an IV.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Dehydration leads to a decrease in fluid volume in the body, which can cause various symptoms such as dry mouth, decreased urine output, and low blood pressure.\nStep 2: One of the primary treatments for dehydration is to replenish fluids, often through intravenous (IV) administration, to restore proper fluid balance in the body.\nStep 3: Given the context of the patient being dehydrated, the most direct and effective treatment would be to provide fluids intravenously to quickly restore hydration levels.\nStep 4: The nurse's action of giving the patient an IV is a direct and effective response to the patient's dehydration.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Dehydration leads to a decrease in fluid volume in the body, which can cause various symptoms such as dry mouth, decreased urine output, and low blood pressure.",
+                "One of the primary treatments for dehydration is to replenish fluids, often through intravenous (IV) administration, to restore proper fluid balance in the body.",
+                "Given the context of the patient being dehydrated, the most direct and effective treatment would be to provide fluids intravenously to quickly restore hydration levels.",
+                "The nurse's action of giving the patient an IV is a direct and effective response to the patient's dehydration."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.3988819122314453,
+            "tokens_used": null
+        },
+        {
+            "id": "35",
+            "question": "Context: The girl found the missing puzzle piece.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She completed the puzzle.\nB. She took apart the puzzle.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The girl found the missing puzzle piece, which means she identified a specific piece that was previously not in place.\nStep 2: Once a missing piece is found, the next logical step is to place it in the puzzle.\nStep 3: Placing the missing piece will fill a gap in the puzzle, thereby bringing the puzzle closer to completion.\nStep 4: As a result of placing the missing piece, the puzzle is now one piece closer to being fully completed.\nStep 5: Therefore, the effect of finding the missing puzzle piece is that the puzzle is now closer to being completed.\n\n===FINAL_ANSWER_START===\n1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The girl found the missing puzzle piece, which means she identified a specific piece that was previously not in place.",
+                "Once a missing piece is found, the next logical step is to place it in the puzzle.",
+                "Placing the missing piece will fill a gap in the puzzle, thereby bringing the puzzle closer to completion.",
+                "As a result of placing the missing piece, the puzzle is now one piece closer to being fully completed.",
+                "Therefore, the effect of finding the missing puzzle piece is that the puzzle is now closer to being completed."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.25876784324646,
+            "tokens_used": null
+        },
+        {
+            "id": "36",
+            "question": "Context: The man urgently leaped out of bed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He wanted to shut off the alarm clock.\nB. He wanted to iron his pants before work.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man urgently leaped out of bed, indicating a sudden and immediate action.\nStep 2: The term \"urgently\" suggests that the man was in a hurry or faced an urgent situation.\nStep 3: Leaping out of bed is a more forceful and quick action than simply getting up, which implies a sense of urgency.\nStep 4: Given the urgency, it is likely that the man was reacting to an immediate threat or opportunity that required his immediate attention.\nStep 5: Option A suggests he wanted to shut off the alarm clock, which is a common reason for urgency in the morning.\nStep 6: Option B suggests he wanted to iron his pants before work, which is a more leisurely and planned action, not typically urgent.\nStep 7: The most logical cause for the man's urgent action of leaping out of bed is to address an immediate need, such as turning off an alarm clock.\n\nConclusion: 0",
+            "cot_steps": [
+                "The man urgently leaped out of bed, indicating a sudden and immediate action.",
+                "The term \"urgently\" suggests that the man was in a hurry or faced an urgent situation.",
+                "Leaping out of bed is a more forceful and quick action than simply getting up, which implies a sense of urgency.",
+                "Given the urgency, it is likely that the man was reacting to an immediate threat or opportunity that required his immediate attention.",
+                "Option A suggests he wanted to shut off the alarm clock, which is a common reason for urgency in the morning.",
+                "Option B suggests he wanted to iron his pants before work, which is a more leisurely and planned action, not typically urgent.",
+                "The most logical cause for the man's urgent action of leaping out of bed is to address an immediate need, such as turning off an alarm clock."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 3.056741714477539,
+            "tokens_used": null
+        },
+        {
+            "id": "37",
+            "question": "Context: The papers were disorganized.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I made photocopies of them.\nB. I put them into alphabetical order.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The papers were disorganized, which means they lacked a proper arrangement or system.\nStep 2: Disorganization can lead to difficulty in locating specific documents quickly.\nStep 3: To address the issue of disorganization and improve accessibility, one might take steps to reorganize the papers.\nStep 4: Putting the papers into alphabetical order is a common method to improve organization and make documents easier to find.\nStep 5: Making photocopies of disorganized papers would not directly address the issue of disorganization but rather create additional copies, which is not a logical next step given the context.\n\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The papers were disorganized, which means they lacked a proper arrangement or system.",
+                "Disorganization can lead to difficulty in locating specific documents quickly.",
+                "To address the issue of disorganization and improve accessibility, one might take steps to reorganize the papers.",
+                "Putting the papers into alphabetical order is a common method to improve organization and make documents easier to find.",
+                "Making photocopies of disorganized papers would not directly address the issue of disorganization but rather create additional copies, which is not a logical next step given the context."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 2.173224925994873,
+            "tokens_used": null
+        },
+        {
+            "id": "38",
+            "question": "Context: The woman won the lottery.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She bought a yacht.\nB. She joined a church.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Winning the lottery typically results in a significant increase in financial wealth for the individual.\nStep 2: With increased financial wealth, the woman has the means to purchase luxury items or services that were previously out of her reach.\nStep 3: Buying a yacht is a common luxury purchase for individuals who have recently won the lottery due to the associated status and leisure activities it provides.\nStep 4: Joining a church, while possible, is not as directly causally linked to winning the lottery as purchasing a yacht would be.\n\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Winning the lottery typically results in a significant increase in financial wealth for the individual.",
+                "With increased financial wealth, the woman has the means to purchase luxury items or services that were previously out of her reach.",
+                "Buying a yacht is a common luxury purchase for individuals who have recently won the lottery due to the associated status and leisure activities it provides.",
+                "Joining a church, while possible, is not as directly causally linked to winning the lottery as purchasing a yacht would be."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.9987530708312988,
+            "tokens_used": null
+        },
+        {
+            "id": "39",
+            "question": "Context: The seamstress pushed the threaded needle into the fabric.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The thread wrapped around the needle.\nB. The thread went through the fabric.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The seamstress pushed the threaded needle into the fabric. This action implies that the needle is being inserted through the material.\nStep 2: When a needle is pushed through fabric, the thread attached to the needle is pulled along with it.\nStep 3: As the needle goes through the fabric, the thread follows, creating a stitch.\nStep 4: The effect of the seamstress pushing the threaded needle into the fabric is that the thread goes through the fabric.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The seamstress pushed the threaded needle into the fabric. This action implies that the needle is being inserted through the material.",
+                "When a needle is pushed through fabric, the thread attached to the needle is pulled along with it.",
+                "As the needle goes through the fabric, the thread follows, creating a stitch.",
+                "The effect of the seamstress pushing the threaded needle into the fabric is that the thread goes through the fabric."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.045288562774658,
+            "tokens_used": null
+        },
+        {
+            "id": "40",
+            "question": "Context: The woman hired a lawyer.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She decided to sue her employer.\nB. She decided to run for office.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman hired a lawyer, which implies she needed legal assistance for a specific issue or situation.\nStep 2: Deciding to sue an employer is a common reason for hiring a lawyer, as it involves legal proceedings and representation in court.\nStep 3: Running for office typically does not require hiring a lawyer, as it involves political processes and procedures rather than legal representation.\nStep 4: Therefore, the most likely cause for hiring a lawyer is that the woman decided to sue her employer.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman hired a lawyer, which implies she needed legal assistance for a specific issue or situation.",
+                "Deciding to sue an employer is a common reason for hiring a lawyer, as it involves legal proceedings and representation in court.",
+                "Running for office typically does not require hiring a lawyer, as it involves political processes and procedures rather than legal representation.",
+                "Therefore, the most likely cause for hiring a lawyer is that the woman decided to sue her employer."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.0559914112091064,
+            "tokens_used": null
+        },
+        {
+            "id": "41",
+            "question": "Context: The tenant misplaced his keys to his apartment.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His landlord unlocked the door.\nB. His landlord repaired the door.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The tenant misplaced his keys to his apartment, which means he no longer has access to the apartment.\nStep 2: As a result of not having the keys, the tenant cannot enter his apartment.\nStep 3: The landlord is typically responsible for ensuring the tenant can access the apartment, especially if the tenant is unable to do so.\nStep 4: Therefore, the landlord would likely unlock the door to allow the tenant access.\nStep N: The effect of the tenant misplacing his keys is that his landlord unlocked the door.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The tenant misplaced his keys to his apartment, which means he no longer has access to the apartment.",
+                "As a result of not having the keys, the tenant cannot enter his apartment.",
+                "The landlord is typically responsible for ensuring the tenant can access the apartment, especially if the tenant is unable to do so.",
+                "Therefore, the landlord would likely unlock the door to allow the tenant access."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.9665648937225342,
+            "tokens_used": null
+        },
+        {
+            "id": "42",
+            "question": "Context: My favorite song came on the radio.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I covered my ears.\nB. I sang along to it.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The fact that the song is the person's favorite suggests they have a positive emotional connection to the music.\nStep 2: When a person hears their favorite song, it typically evokes positive emotions and a desire to engage with the music.\nStep 3: Singing along is a common and natural way for people to engage with music they enjoy, especially when it is their favorite song.\nStep 4: Covering ears is generally a response to unpleasant or unwanted sounds, which is not applicable here since the song is the person's favorite.\n\nConclusion: 1",
+            "cot_steps": [
+                "The fact that the song is the person's favorite suggests they have a positive emotional connection to the music.",
+                "When a person hears their favorite song, it typically evokes positive emotions and a desire to engage with the music.",
+                "Singing along is a common and natural way for people to engage with music they enjoy, especially when it is their favorite song.",
+                "Covering ears is generally a response to unpleasant or unwanted sounds, which is not applicable here since the song is the person's favorite."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.9563426971435547,
+            "tokens_used": null
+        },
+        {
+            "id": "43",
+            "question": "Context: The executive decided not to hire the applicant.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The applicant failed a background check.\nB. The applicant had experience for the job.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The executive decided not to hire the applicant, which implies there was a reason for this decision.\nStep 2: Option A suggests a negative reason (failing a background check), while Option B suggests a positive reason (having experience for the job).\nStep 3: Typically, a background check failure would be a cause for not hiring an applicant, as it indicates potential issues with trustworthiness or legal compliance.\nStep 4: Having experience for the job (Option B) would generally be a reason to hire an applicant, not to not hire them.\nStep 5: Therefore, the most logical cause for the executive's decision not to hire the applicant is that the applicant failed a background check.\n\nConclusion: 0",
+            "cot_steps": [
+                "The executive decided not to hire the applicant, which implies there was a reason for this decision.",
+                "Option A suggests a negative reason (failing a background check), while Option B suggests a positive reason (having experience for the job).",
+                "Typically, a background check failure would be a cause for not hiring an applicant, as it indicates potential issues with trustworthiness or legal compliance.",
+                "Having experience for the job (Option B) would generally be a reason to hire an applicant, not to not hire them.",
+                "Therefore, the most logical cause for the executive's decision not to hire the applicant is that the applicant failed a background check."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.367070436477661,
+            "tokens_used": null
+        },
+        {
+            "id": "44",
+            "question": "Context: The man's eye became infected.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He went blind.\nB. He put on glasses.",
+            "answerKey": "A",
+            "cot_output": "Step 1: An eye infection can cause discomfort, redness, and pain in the affected eye.\nStep 2: If the infection is severe or left untreated, it can lead to complications such as corneal ulcers or inflammation.\nStep 3: Severe complications from an eye infection can potentially impair vision, but going completely blind is an extreme and unlikely outcome for a single eye infection.\nStep 4: Wearing glasses is a common corrective measure for vision problems, but it is not a direct treatment for an eye infection.\nStep 5: Putting on glasses would be a response to vision impairment caused by the infection, not an effect of the infection itself.\n\nConclusion: 0",
+            "cot_steps": [
+                "An eye infection can cause discomfort, redness, and pain in the affected eye.",
+                "If the infection is severe or left untreated, it can lead to complications such as corneal ulcers or inflammation.",
+                "Severe complications from an eye infection can potentially impair vision, but going completely blind is an extreme and unlikely outcome for a single eye infection.",
+                "Wearing glasses is a common corrective measure for vision problems, but it is not a direct treatment for an eye infection.",
+                "Putting on glasses would be a response to vision impairment caused by the infection, not an effect of the infection itself."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.2693769931793213,
+            "tokens_used": null
+        },
+        {
+            "id": "45",
+            "question": "Context: The bird couldn't fly.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It migrated for the winter.\nB. It injured its wing.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The bird couldn't fly, which implies there is a physical limitation preventing it from doing so.\nStep 2: Migrating for the winter (Option A) is a seasonal behavior that typically involves flying to a different location. If the bird migrated, it would have flown and would not be unable to fly now.\nStep 3: An injured wing (Option B) would prevent the bird from flying, as it would be physically unable to use its wing for flight.\nStep 4: The bird's inability to fly is more directly linked to a physical condition rather than a seasonal behavior.\nStep N: Therefore, the most logical cause for the bird's inability to fly is that it injured its wing.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The bird couldn't fly, which implies there is a physical limitation preventing it from doing so.",
+                "Migrating for the winter (Option A) is a seasonal behavior that typically involves flying to a different location. If the bird migrated, it would have flown and would not be unable to fly now.",
+                "An injured wing (Option B) would prevent the bird from flying, as it would be physically unable to use its wing for flight.",
+                "The bird's inability to fly is more directly linked to a physical condition rather than a seasonal behavior."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.845020055770874,
+            "tokens_used": null
+        },
+        {
+            "id": "46",
+            "question": "Context: The girl made a wish.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She saw a black cat.\nB. She saw a shooting star.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The girl made a wish, which is a common human behavior often associated with specific events or phenomena.\nStep 2: Wishing on a black cat is a well-known superstition, where people believe that seeing a black cat crossing their path will grant them a wish.\nStep 3: Wishing on a shooting star is another common superstition, where people believe that making a wish when they see a shooting star will make their wish come true.\nStep 4: Given that both options A and B are common superstitions for making wishes, we need to determine which one is more likely to be the cause of the girl's wish.\nStep 5: The occurrence of a shooting star is a rare and spectacular event, making it more memorable and likely to prompt a wish compared to the more common sight of a black cat.\nStep 6: Therefore, the most likely cause of the girl making a wish is seeing a shooting star.\n\nConclusion: 1",
+            "cot_steps": [
+                "The girl made a wish, which is a common human behavior often associated with specific events or phenomena.",
+                "Wishing on a black cat is a well-known superstition, where people believe that seeing a black cat crossing their path will grant them a wish.",
+                "Wishing on a shooting star is another common superstition, where people believe that making a wish when they see a shooting star will make their wish come true.",
+                "Given that both options A and B are common superstitions for making wishes, we need to determine which one is more likely to be the cause of the girl's wish.",
+                "The occurrence of a shooting star is a rare and spectacular event, making it more memorable and likely to prompt a wish compared to the more common sight of a black cat.",
+                "Therefore, the most likely cause of the girl making a wish is seeing a shooting star."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.9724647998809814,
+            "tokens_used": null
+        },
+        {
+            "id": "47",
+            "question": "Context: The woman shivered as she got out the pool.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She wrapped herself in a towel.\nB. She poured herself some lemonade.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman shivered, which indicates that she is feeling cold.\nStep 2: Getting out of the pool suggests that the woman is in a cold environment, likely due to the pool water being cooler than the air temperature.\nStep 3: Wrapping oneself in a towel is a common and logical action to take when feeling cold to retain body heat.\nStep 4: Pouring oneself a drink, such as lemonade, is not typically associated with the immediate response to feeling cold.\n\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman shivered, which indicates that she is feeling cold.",
+                "Getting out of the pool suggests that the woman is in a cold environment, likely due to the pool water being cooler than the air temperature.",
+                "Wrapping oneself in a towel is a common and logical action to take when feeling cold to retain body heat.",
+                "Pouring oneself a drink, such as lemonade, is not typically associated with the immediate response to feeling cold."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.9270451068878174,
+            "tokens_used": null
+        },
+        {
+            "id": "48",
+            "question": "Context: The nurse prepared the needle for the patient's injection.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The patient bled.\nB. The patient tensed up.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The nurse preparing the needle indicates that the nurse is about to administer an injection to the patient.\nStep 2: Administering an injection typically involves inserting a needle into the patient's skin or muscle.\nStep 3: The act of inserting a needle into the skin or muscle can cause the patient to tense up as a natural response to the sensation.\nStep 4: While bleeding could occur if the needle punctures a blood vessel, it is not a guaranteed effect of preparing the needle and is not the most immediate or common response.\n\nConclusion: 1",
+            "cot_steps": [
+                "The nurse preparing the needle indicates that the nurse is about to administer an injection to the patient.",
+                "Administering an injection typically involves inserting a needle into the patient's skin or muscle.",
+                "The act of inserting a needle into the skin or muscle can cause the patient to tense up as a natural response to the sensation.",
+                "While bleeding could occur if the needle punctures a blood vessel, it is not a guaranteed effect of preparing the needle and is not the most immediate or common response."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.9652886390686035,
+            "tokens_used": null
+        },
+        {
+            "id": "49",
+            "question": "Context: The man threw out the bread.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was fresh.\nB. It was stale.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man threw out the bread, which implies that the bread was no longer suitable for consumption.\nStep 2: Bread is typically thrown out when it is no longer fresh or edible.\nStep 3: Stale bread is less palatable and may be inedible, whereas fresh bread is still suitable for consumption.\nStep 4: Therefore, the most likely reason for throwing out the bread is that it was stale.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man threw out the bread, which implies that the bread was no longer suitable for consumption.",
+                "Bread is typically thrown out when it is no longer fresh or edible.",
+                "Stale bread is less palatable and may be inedible, whereas fresh bread is still suitable for consumption.",
+                "Therefore, the most likely reason for throwing out the bread is that it was stale."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.7498290538787842,
+            "tokens_used": null
+        },
+        {
+            "id": "50",
+            "question": "Context: The children knocked over a lamp.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. They had a pillow fight.\nB. They jumped on the bed.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The children knocked over a lamp, which implies a physical action that caused the lamp to fall.\nStep 2: The lamp being knocked over suggests a sudden, forceful movement in the vicinity of the lamp.\nStep 3: Option A (They had a pillow fight) involves physical activity but does not necessarily imply a sudden, forceful movement that would directly cause a lamp to fall.\nStep 4: Option B (They jumped on the bed) involves a sudden, forceful movement that could potentially cause a lamp to fall if it was placed near the bed.\nStep 5: Given that jumping on a bed is a more sudden and forceful action compared to a pillow fight, it is more likely to cause a lamp to fall.\n\nConclusion: 1",
+            "cot_steps": [
+                "The children knocked over a lamp, which implies a physical action that caused the lamp to fall.",
+                "The lamp being knocked over suggests a sudden, forceful movement in the vicinity of the lamp.",
+                "Option A (They had a pillow fight) involves physical activity but does not necessarily imply a sudden, forceful movement that would directly cause a lamp to fall.",
+                "Option B (They jumped on the bed) involves a sudden, forceful movement that could potentially cause a lamp to fall if it was placed near the bed.",
+                "Given that jumping on a bed is a more sudden and forceful action compared to a pillow fight, it is more likely to cause a lamp to fall."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 2.604140281677246,
+            "tokens_used": null
+        },
+        {
+            "id": "51",
+            "question": "Context: I drank from the water fountain.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I was thirsty.\nB. I felt nauseous.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The act of drinking from a water fountain is typically done to quench thirst.\nStep 2: Thirst is a physiological sensation that prompts the body to seek hydration.\nStep 3: Feeling nauseous would generally discourage someone from drinking, as it is an unpleasant sensation.\nStep 4: Therefore, the most logical and causally justified reason for drinking from the water fountain is thirst.\n\nConclusion: 0",
+            "cot_steps": [
+                "The act of drinking from a water fountain is typically done to quench thirst.",
+                "Thirst is a physiological sensation that prompts the body to seek hydration.",
+                "Feeling nauseous would generally discourage someone from drinking, as it is an unpleasant sensation.",
+                "Therefore, the most logical and causally justified reason for drinking from the water fountain is thirst."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.5157859325408936,
+            "tokens_used": null
+        },
+        {
+            "id": "52",
+            "question": "Context: The homeowners disliked their nosy neighbors.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. They built a fence around their property.\nB. They hosted a barbeque in their backyard.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The homeowners disliked their nosy neighbors, which indicates a desire for privacy and reduced interaction.\nStep 2: Building a fence around their property is a common action taken to increase privacy and reduce unwanted attention from neighbors.\nStep 3: Hosting a barbeque in their backyard would likely increase interaction with neighbors, which contradicts the desire to avoid nosy neighbors.\nStep 4: Therefore, the action that aligns with the homeowners' dislike of nosy neighbors is building a fence.\n\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The homeowners disliked their nosy neighbors, which indicates a desire for privacy and reduced interaction.",
+                "Building a fence around their property is a common action taken to increase privacy and reduce unwanted attention from neighbors.",
+                "Hosting a barbeque in their backyard would likely increase interaction with neighbors, which contradicts the desire to avoid nosy neighbors.",
+                "Therefore, the action that aligns with the homeowners' dislike of nosy neighbors is building a fence."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.88173246383667,
+            "tokens_used": null
+        },
+        {
+            "id": "53",
+            "question": "Context: The bodybuilder lifted weights.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The gym closed.\nB. Her muscles became fatigued.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The bodybuilder lifted weights, which involves exerting force against resistance to build muscle strength and size.\nStep 2: During weightlifting, muscles are subjected to mechanical stress, leading to microscopic damage to muscle fibers.\nStep 3: As a result of this mechanical stress, the body initiates a repair process, which leads to muscle growth and strength gains over time.\nStep 4: However, immediately after lifting weights, the muscles experience fatigue due to the depletion of energy stores and the accumulation of metabolic byproducts.\nStep 5: Therefore, the immediate effect of lifting weights is the fatigue of the muscles.\n\nConclusion: 1",
+            "cot_steps": [
+                "The bodybuilder lifted weights, which involves exerting force against resistance to build muscle strength and size.",
+                "During weightlifting, muscles are subjected to mechanical stress, leading to microscopic damage to muscle fibers.",
+                "As a result of this mechanical stress, the body initiates a repair process, which leads to muscle growth and strength gains over time.",
+                "However, immediately after lifting weights, the muscles experience fatigue due to the depletion of energy stores and the accumulation of metabolic byproducts.",
+                "Therefore, the immediate effect of lifting weights is the fatigue of the muscles."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.1241073608398438,
+            "tokens_used": null
+        },
+        {
+            "id": "54",
+            "question": "Context: The cook stirred the ingredients in the bowl.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The ingredients melted.\nB. The ingredients blended together.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Stirring the ingredients in a bowl involves mixing them together using a utensil, which typically results in the components coming into closer contact with each other.\nStep 2: When ingredients are brought into closer contact, they are more likely to blend together, meaning their textures and flavors become more evenly distributed.\nStep 3: Melting is a specific physical change that requires heat, which is not mentioned or implied in the action of stirring.\nStep 4: Therefore, the most logical effect of stirring the ingredients in the bowl is that they blend together.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Stirring the ingredients in a bowl involves mixing them together using a utensil, which typically results in the components coming into closer contact with each other.",
+                "When ingredients are brought into closer contact, they are more likely to blend together, meaning their textures and flavors become more evenly distributed.",
+                "Melting is a specific physical change that requires heat, which is not mentioned or implied in the action of stirring.",
+                "Therefore, the most logical effect of stirring the ingredients in the bowl is that they blend together."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.218099594116211,
+            "tokens_used": null
+        },
+        {
+            "id": "55",
+            "question": "Context: The man signed the document.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The transaction was voided.\nB. The transaction became official.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Signing a document is typically an act of agreeing to its contents and making them legally binding.\nStep 2: In a transaction context, signing a document usually signifies the agreement to the terms and conditions of the transaction.\nStep 3: Once the terms are agreed upon and made legally binding, the transaction becomes official.\nStep 4: Therefore, the effect of the man signing the document is that the transaction became official.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Signing a document is typically an act of agreeing to its contents and making them legally binding.",
+                "In a transaction context, signing a document usually signifies the agreement to the terms and conditions of the transaction.",
+                "Once the terms are agreed upon and made legally binding, the transaction becomes official.",
+                "Therefore, the effect of the man signing the document is that the transaction became official."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.837099552154541,
+            "tokens_used": null
+        },
+        {
+            "id": "56",
+            "question": "Context: The police officer dropped the gun.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The gun recoiled.\nB. The gun went off.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The police officer dropped the gun, which means the gun was no longer being held by the officer.\nStep 2: When a gun is dropped, it typically falls to the ground due to gravity.\nStep 3: Upon hitting the ground, the gun may experience a recoil due to the spring mechanism inside the firearm, but this is not a guaranteed effect of dropping the gun.\nStep 4: The most direct and likely effect of the gun being dropped is that it could go off if it was not properly secured and the trigger was pulled accidentally.\nStep 5: Given the choices, the most logical and direct effect of the gun being dropped is that it could go off.\n\nConclusion: 1",
+            "cot_steps": [
+                "The police officer dropped the gun, which means the gun was no longer being held by the officer.",
+                "When a gun is dropped, it typically falls to the ground due to gravity.",
+                "Upon hitting the ground, the gun may experience a recoil due to the spring mechanism inside the firearm, but this is not a guaranteed effect of dropping the gun.",
+                "The most direct and likely effect of the gun being dropped is that it could go off if it was not properly secured and the trigger was pulled accidentally.",
+                "Given the choices, the most logical and direct effect of the gun being dropped is that it could go off."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.734365224838257,
+            "tokens_used": null
+        },
+        {
+            "id": "57",
+            "question": "Context: The woman felt compelled to help someone in need.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She donated blood.\nB. She wrote a poem.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman felt compelled to help someone in need, which indicates a strong emotional or moral drive to assist another person.\nStep 2: The effect of feeling compelled to help someone in need would be a direct action or response to that compulsion.\nStep 3: Donating blood is a specific and direct form of helping someone in need, addressing a specific medical or emergency situation.\nStep 4: Writing a poem, while it can be a form of expression and may inspire others, is not as direct or immediate a form of help as donating blood, which can save or improve someone's life.\nStep 5: Given the context of feeling compelled to help, the most likely and direct effect would be a specific act of assistance, such as donating blood, rather than a more abstract or symbolic act like writing a poem.\n\nConclusion: 0",
+            "cot_steps": [
+                "The woman felt compelled to help someone in need, which indicates a strong emotional or moral drive to assist another person.",
+                "The effect of feeling compelled to help someone in need would be a direct action or response to that compulsion.",
+                "Donating blood is a specific and direct form of helping someone in need, addressing a specific medical or emergency situation.",
+                "Writing a poem, while it can be a form of expression and may inspire others, is not as direct or immediate a form of help as donating blood, which can save or improve someone's life.",
+                "Given the context of feeling compelled to help, the most likely and direct effect would be a specific act of assistance, such as donating blood, rather than a more abstract or symbolic act like writing a poem."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.6784603595733643,
+            "tokens_used": null
+        },
+        {
+            "id": "58",
+            "question": "Context: The woman felt lonely.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She renovated her kitchen.\nB. She adopted a cat.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman felt lonely, which indicates a negative emotional state.\nStep 2: To alleviate loneliness, people often seek companionship or engage in activities that provide emotional support.\nStep 3: Adopting a pet, such as a cat, is a common way to combat loneliness as pets can provide companionship and emotional support.\nStep 4: Renovating a kitchen, while it can be a significant project, is not typically associated with directly addressing feelings of loneliness.\nStep 5: Therefore, the most logical effect of feeling lonely would be to adopt a cat to provide emotional support and companionship.\n\nConclusion: 1",
+            "cot_steps": [
+                "The woman felt lonely, which indicates a negative emotional state.",
+                "To alleviate loneliness, people often seek companionship or engage in activities that provide emotional support.",
+                "Adopting a pet, such as a cat, is a common way to combat loneliness as pets can provide companionship and emotional support.",
+                "Renovating a kitchen, while it can be a significant project, is not typically associated with directly addressing feelings of loneliness.",
+                "Therefore, the most logical effect of feeling lonely would be to adopt a cat to provide emotional support and companionship."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.318842887878418,
+            "tokens_used": null
+        },
+        {
+            "id": "59",
+            "question": "Context: I rubbed sandpaper on the wood.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The wood became smooth.\nB. The wood became sticky.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Rubbing sandpaper on wood involves the physical action of scraping a rough surface (sandpaper) against a rough surface (wood).\nStep 2: The sandpaper has fine abrasive particles that remove small amounts of wood material as it is dragged across the surface.\nStep 3: As the wood material is removed, the surface of the wood becomes smoother and more even.\nStep 4: The process of removing wood material does not inherently make the wood sticky; sandpaper does not leave a sticky residue on wood.\nStep 5: Therefore, the effect of rubbing sandpaper on wood is that the wood becomes smooth.\n\n===FINAL_ANSWER_START===\n1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Rubbing sandpaper on wood involves the physical action of scraping a rough surface (sandpaper) against a rough surface (wood).",
+                "The sandpaper has fine abrasive particles that remove small amounts of wood material as it is dragged across the surface.",
+                "As the wood material is removed, the surface of the wood becomes smoother and more even.",
+                "The process of removing wood material does not inherently make the wood sticky; sandpaper does not leave a sticky residue on wood.",
+                "Therefore, the effect of rubbing sandpaper on wood is that the wood becomes smooth."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.2381956577301025,
+            "tokens_used": null
+        },
+        {
+            "id": "60",
+            "question": "Context: The crowd gave the band a standing ovation.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The band signed autographs.\nB. The band reappeared on the stage.",
+            "answerKey": "B",
+            "cot_output": "Step 1: A standing ovation is a form of enthusiastic applause where the audience remains on their feet, indicating a very positive reception of the band's performance.\nStep 2: When an audience gives a standing ovation, it typically signifies that they are very satisfied with the performance and want to show their appreciation.\nStep 3: In response to such a positive reception, it is common for the band to acknowledge the audience's enthusiasm by reappearing on stage to perform an encore or say a few words.\nStep 4: The band signing autographs (Option A) is a possible action, but it is not a direct effect of the standing ovation itself. It is more of a subsequent action that might occur after the band has reappeared on stage.\nStep 5: The band reappearing on the stage (Option B) is a direct and logical effect of the standing ovation, as it is a common and expected response from the band to a standing ovation from the audience.\n\nConclusion: 1",
+            "cot_steps": [
+                "A standing ovation is a form of enthusiastic applause where the audience remains on their feet, indicating a very positive reception of the band's performance.",
+                "When an audience gives a standing ovation, it typically signifies that they are very satisfied with the performance and want to show their appreciation.",
+                "In response to such a positive reception, it is common for the band to acknowledge the audience's enthusiasm by reappearing on stage to perform an encore or say a few words.",
+                "The band signing autographs (Option A) is a possible action, but it is not a direct effect of the standing ovation itself. It is more of a subsequent action that might occur after the band has reappeared on stage.",
+                "The band reappearing on the stage (Option B) is a direct and logical effect of the standing ovation, as it is a common and expected response from the band to a standing ovation from the audience."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 3.12813138961792,
+            "tokens_used": null
+        },
+        {
+            "id": "61",
+            "question": "Context: The man threw his empty can onto the street.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He was jumped from behind.\nB. He was fined for littering.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man threw his empty can onto the street, which is an action that results in littering.\nStep 2: Littering is typically against local laws and regulations, which often include fines for such actions.\nStep 3: As a direct consequence of littering, the man could be fined by law enforcement or city authorities.\nStep 4: Being fined is a common and direct effect of littering in many jurisdictions.\n\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man threw his empty can onto the street, which is an action that results in littering.",
+                "Littering is typically against local laws and regulations, which often include fines for such actions.",
+                "As a direct consequence of littering, the man could be fined by law enforcement or city authorities.",
+                "Being fined is a common and direct effect of littering in many jurisdictions."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.7379789352416992,
+            "tokens_used": null
+        },
+        {
+            "id": "62",
+            "question": "Context: My stomach growled.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I forgot to eat breakfast.\nB. I was full from breakfast.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Stomach growling is a physiological response indicating hunger or the need for food.\nStep 2: If I forgot to eat breakfast, it would have been a significant period since my last meal, which could trigger stomach growling.\nStep 3: Being full from breakfast would typically suppress stomach growling as the digestive process would be ongoing and the stomach would not be empty.\nStep 4: Therefore, the most logical cause of the stomach growling is forgetting to eat breakfast.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Stomach growling is a physiological response indicating hunger or the need for food.",
+                "If I forgot to eat breakfast, it would have been a significant period since my last meal, which could trigger stomach growling.",
+                "Being full from breakfast would typically suppress stomach growling as the digestive process would be ongoing and the stomach would not be empty.",
+                "Therefore, the most logical cause of the stomach growling is forgetting to eat breakfast."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.985762119293213,
+            "tokens_used": null
+        },
+        {
+            "id": "63",
+            "question": "Context: The boaters set off a flare.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Their boat drifted to shore.\nB. Their boat was rescued.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The boaters set off a flare, which is typically done to signal for help in an emergency situation.\nStep 2: When a flare is set off, it creates a visible signal that can be seen from a distance.\nStep 3: The purpose of this visible signal is to attract the attention of rescuers who can then locate and assist the boaters.\nStep 4: The effect of setting off a flare is that it increases the likelihood of being noticed by rescuers.\nStep 5: Being noticed by rescuers leads to the possibility of rescue.\n\nConclusion: 1",
+            "cot_steps": [
+                "The boaters set off a flare, which is typically done to signal for help in an emergency situation.",
+                "When a flare is set off, it creates a visible signal that can be seen from a distance.",
+                "The purpose of this visible signal is to attract the attention of rescuers who can then locate and assist the boaters.",
+                "The effect of setting off a flare is that it increases the likelihood of being noticed by rescuers.",
+                "Being noticed by rescuers leads to the possibility of rescue."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.9954454898834229,
+            "tokens_used": null
+        },
+        {
+            "id": "64",
+            "question": "Context: The man removed his coat.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He entered the house.\nB. He loosened his tie.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man removed his coat, which suggests a change in his environment or situation that prompted this action.\nStep 2: Entering a house typically involves removing outerwear due to a change in temperature or social norms.\nStep 3: Loosening a tie does not directly cause the removal of a coat; it is more likely a consequence of being in a less formal setting.\nStep 4: Therefore, the most logical cause for the man removing his coat is that he entered the house.\n\nConclusion: 0",
+            "cot_steps": [
+                "The man removed his coat, which suggests a change in his environment or situation that prompted this action.",
+                "Entering a house typically involves removing outerwear due to a change in temperature or social norms.",
+                "Loosening a tie does not directly cause the removal of a coat; it is more likely a consequence of being in a less formal setting.",
+                "Therefore, the most logical cause for the man removing his coat is that he entered the house."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.8692891597747803,
+            "tokens_used": null
+        },
+        {
+            "id": "65",
+            "question": "Context: The family took their dog to the veterinarian.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The dog chewed on a bone.\nB. The dog injured his paw.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The family took their dog to the veterinarian, which implies there was a health or behavioral concern that required professional attention.\nStep 2: Among the given options, the most plausible reasons for a veterinary visit would be either a health issue or a behavioral issue.\nStep 3: Option A (The dog chewed on a bone) is a normal activity and does not typically necessitate a visit to the veterinarian.\nStep 4: Option B (The dog injured his paw) is a specific health issue that would likely require a visit to the veterinarian for proper treatment and assessment.\nStep 5: Given that the family took their dog to the veterinarian, the most logical cause is that the dog had an injury that needed medical attention.\n\nConclusion: 1",
+            "cot_steps": [
+                "The family took their dog to the veterinarian, which implies there was a health or behavioral concern that required professional attention.",
+                "Among the given options, the most plausible reasons for a veterinary visit would be either a health issue or a behavioral issue.",
+                "Option A (The dog chewed on a bone) is a normal activity and does not typically necessitate a visit to the veterinarian.",
+                "Option B (The dog injured his paw) is a specific health issue that would likely require a visit to the veterinarian for proper treatment and assessment.",
+                "Given that the family took their dog to the veterinarian, the most logical cause is that the dog had an injury that needed medical attention."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.4029223918914795,
+            "tokens_used": null
+        },
+        {
+            "id": "66",
+            "question": "Context: The woman dangled the biscuit above the dog.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The dog jumped up.\nB. The dog scratched its fur.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman dangled the biscuit above the dog, which indicates an attempt to elicit a specific behavior from the dog.\nStep 2: Dogs are known to have a strong interest in food, and dangling a biscuit would likely pique the dog's curiosity and desire for the treat.\nStep 3: Given the dog's natural inclination towards food and the woman's action of dangling the biscuit, the dog is likely to attempt to reach the biscuit.\nStep 4: The most direct and common response from a dog in such a situation is to jump up in an attempt to get the treat.\nStep 5: Therefore, the effect of the woman danging the biscuit above the dog is that the dog would jump up.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman dangled the biscuit above the dog, which indicates an attempt to elicit a specific behavior from the dog.",
+                "Dogs are known to have a strong interest in food, and dangling a biscuit would likely pique the dog's curiosity and desire for the treat.",
+                "Given the dog's natural inclination towards food and the woman's action of dangling the biscuit, the dog is likely to attempt to reach the biscuit.",
+                "The most direct and common response from a dog in such a situation is to jump up in an attempt to get the treat.",
+                "Therefore, the effect of the woman danging the biscuit above the dog is that the dog would jump up."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.672393321990967,
+            "tokens_used": null
+        },
+        {
+            "id": "67",
+            "question": "Context: I learned how to play the board game.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. My friend explained the rules to me.\nB. My friend got the rules wrong.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Learning how to play a board game typically involves understanding the rules of the game.\nStep 2: The most common way to learn the rules of a board game is through explanation by another person.\nStep 3: Among the given options, only one directly relates to learning the rules, which is option A.\nStep 4: Option B suggests that the rules were explained incorrectly, which would likely result in not learning the game properly, not learning it at all, or learning a modified version of the game.\nStep 5: Since the question states that the person learned how to play the board game, it implies that the rules were correctly explained, leading to the conclusion that the person was taught the rules correctly.\n\nConclusion: 1",
+            "cot_steps": [
+                "Learning how to play a board game typically involves understanding the rules of the game.",
+                "The most common way to learn the rules of a board game is through explanation by another person.",
+                "Among the given options, only one directly relates to learning the rules, which is option A.",
+                "Option B suggests that the rules were explained incorrectly, which would likely result in not learning the game properly, not learning it at all, or learning a modified version of the game.",
+                "Since the question states that the person learned how to play the board game, it implies that the rules were correctly explained, leading to the conclusion that the person was taught the rules correctly."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 2.3540449142456055,
+            "tokens_used": null
+        },
+        {
+            "id": "68",
+            "question": "Context: The man went away for the weekend.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He wanted to relax.\nB. He felt content.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man went away for the weekend, which implies he had a reason for leaving.\nStep 2: Reasons for leaving can include various factors such as work, personal matters, or leisure activities.\nStep 3: The option \"He wanted to relax\" suggests a specific intention, which is a common reason for taking a weekend away.\nStep 4: The option \"He felt content\" does not logically lead to the action of going away, as feeling content typically does not necessitate leaving one's usual environment.\nStep 5: Therefore, the most logical cause for the man going away for the weekend is that he wanted to relax.\n\n===FINAL_ANSWER_START===\n1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man went away for the weekend, which implies he had a reason for leaving.",
+                "Reasons for leaving can include various factors such as work, personal matters, or leisure activities.",
+                "The option \"He wanted to relax\" suggests a specific intention, which is a common reason for taking a weekend away.",
+                "The option \"He felt content\" does not logically lead to the action of going away, as feeling content typically does not necessitate leaving one's usual environment.",
+                "Therefore, the most logical cause for the man going away for the weekend is that he wanted to relax."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 2.344679594039917,
+            "tokens_used": null
+        },
+        {
+            "id": "69",
+            "question": "Context: The shop was closed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The owner was helping customers.\nB. The shop was undergoing renovation.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The shop being closed indicates that it is not open for business as usual.\nStep 2: The owner helping customers would imply the shop is open and operational, which contradicts the given context.\nStep 3: Renovation typically requires the shop to be closed to allow for work to be done without disrupting customers or damaging the work in progress.\nStep 4: Therefore, the most logical cause for the shop being closed is that it was undergoing renovation.\n\nConclusion: 1",
+            "cot_steps": [
+                "The shop being closed indicates that it is not open for business as usual.",
+                "The owner helping customers would imply the shop is open and operational, which contradicts the given context.",
+                "Renovation typically requires the shop to be closed to allow for work to be done without disrupting customers or damaging the work in progress.",
+                "Therefore, the most logical cause for the shop being closed is that it was undergoing renovation."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.7399115562438965,
+            "tokens_used": null
+        },
+        {
+            "id": "70",
+            "question": "Context: The boy tuned the radio.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The station was playing rock music.\nB. The station was coming in with static.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The boy tuned the radio, which implies he was trying to find a clear and desired signal.\nStep 2: Tuning a radio often involves adjusting the frequency to improve the reception of a station.\nStep 3: If the station was playing rock music (Option A), it would not necessitate tuning, as the music would already be clear and desired.\nStep 4: If the station was coming in with static (Option B), it would require tuning to improve the reception.\nStep 5: The act of tuning the radio suggests that the initial reception was poor, leading to static.\n\nConclusion: 1",
+            "cot_steps": [
+                "The boy tuned the radio, which implies he was trying to find a clear and desired signal.",
+                "Tuning a radio often involves adjusting the frequency to improve the reception of a station.",
+                "If the station was playing rock music (Option A), it would not necessitate tuning, as the music would already be clear and desired.",
+                "If the station was coming in with static (Option B), it would require tuning to improve the reception.",
+                "The act of tuning the radio suggests that the initial reception was poor, leading to static."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.0436618328094482,
+            "tokens_used": null
+        },
+        {
+            "id": "71",
+            "question": "Context: The terrorist set off the bomb.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The bomb exploded.\nB. The bomb was deactivated.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The terrorist set off the bomb, which means the bomb was intentionally activated by the terrorist.\nStep 2: When a bomb is set off, it initiates the detonation process, leading to an explosion.\nStep 3: The explosion is the direct and immediate effect of the bomb being set off.\nStep 4: Deactivating a bomb would prevent it from exploding, but since the bomb was set off, it would not have been deactivated.\n\nConclusion: 1",
+            "cot_steps": [
+                "The terrorist set off the bomb, which means the bomb was intentionally activated by the terrorist.",
+                "When a bomb is set off, it initiates the detonation process, leading to an explosion.",
+                "The explosion is the direct and immediate effect of the bomb being set off.",
+                "Deactivating a bomb would prevent it from exploding, but since the bomb was set off, it would not have been deactivated."
+            ],
+            "pred": "1",
+            "is_correct": false,
+            "elapsed_time": 1.6977245807647705,
+            "tokens_used": null
+        },
+        {
+            "id": "72",
+            "question": "Context: The police handcuffed the suspect.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The police called for backup.\nB. The suspect resisted arrest.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Handcuffing a suspect is typically done to control and restrain them during an arrest.\nStep 2: The act of handcuffing is usually a response to the suspect's behavior or actions.\nStep 3: Suspects often resist arrest, which necessitates the use of handcuffs to ensure the safety of the officers and the public.\nStep 4: Therefore, the most direct and logical cause for the police handcuffing the suspect is that the suspect resisted arrest.\n\n===FINAL_ANSWER_START===\n1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Handcuffing a suspect is typically done to control and restrain them during an arrest.",
+                "The act of handcuffing is usually a response to the suspect's behavior or actions.",
+                "Suspects often resist arrest, which necessitates the use of handcuffs to ensure the safety of the officers and the public.",
+                "Therefore, the most direct and logical cause for the police handcuffing the suspect is that the suspect resisted arrest."
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 1.8848137855529785,
+            "tokens_used": null
+        },
+        {
+            "id": "73",
+            "question": "Context: The authorities vowed to protect the identity of the crime victim.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The victim struggled to recall details about the crime.\nB. They withheld the victim's name from the public.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The authorities vowed to protect the identity of the crime victim, which means they are taking measures to ensure the victim's personal information, including their name, is not disclosed to the public.\nStep 2: Protecting the identity of the victim typically involves withholding specific details about the individual from the public to prevent them from being identified.\nStep 3: Withholding the victim's name from the public is a direct and common method to protect their identity.\nStep 4: Therefore, the effect of the authorities' vow to protect the victim's identity is that they withheld the victim's name from the public.\n\nConclusion: 1",
+            "cot_steps": [
+                "The authorities vowed to protect the identity of the crime victim, which means they are taking measures to ensure the victim's personal information, including their name, is not disclosed to the public.",
+                "Protecting the identity of the victim typically involves withholding specific details about the individual from the public to prevent them from being identified.",
+                "Withholding the victim's name from the public is a direct and common method to protect their identity.",
+                "Therefore, the effect of the authorities' vow to protect the victim's identity is that they withheld the victim's name from the public."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.1384963989257812,
+            "tokens_used": null
+        },
+        {
+            "id": "74",
+            "question": "Context: The man's clothes fit loosely.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He bought them on sale.\nB. He lost weight.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man's clothes fitting loosely suggests that the clothes are either too big or the man has changed in size.\nStep 2: Option A (He bought them on sale) does not necessarily imply that the clothes will fit loosely. Sale items can come in various sizes and fits.\nStep 3: Option B (He lost weight) directly implies that the man's body size has decreased, which would cause his clothes to fit loosely if they were previously a proper fit.\nStep 4: The most direct and logical cause for the clothes fitting loosely is that the man has lost weight.\n\nConclusion: 1",
+            "cot_steps": [
+                "The man's clothes fitting loosely suggests that the clothes are either too big or the man has changed in size.",
+                "Option A (He bought them on sale) does not necessarily imply that the clothes will fit loosely. Sale items can come in various sizes and fits.",
+                "Option B (He lost weight) directly implies that the man's body size has decreased, which would cause his clothes to fit loosely if they were previously a proper fit.",
+                "The most direct and logical cause for the clothes fitting loosely is that the man has lost weight."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.068490505218506,
+            "tokens_used": null
+        },
+        {
+            "id": "75",
+            "question": "Context: The clock stopped ticking.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I took extra time to get ready.\nB. The clock showed the wrong time.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The clock stopped ticking, which means it is no longer functioning to show the current time.\nStep 2: As a result of the clock not showing the current time, the information it provides about the time is no longer accurate.\nStep 3: The most direct effect of the clock not showing the correct time is that the clock would show the wrong time.\nStep 4: Therefore, the effect of the clock stopping is that the clock showed the wrong time.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The clock stopped ticking, which means it is no longer functioning to show the current time.",
+                "As a result of the clock not showing the current time, the information it provides about the time is no longer accurate.",
+                "The most direct effect of the clock not showing the correct time is that the clock would show the wrong time.",
+                "Therefore, the effect of the clock stopping is that the clock showed the wrong time."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.9120573997497559,
+            "tokens_used": null
+        },
+        {
+            "id": "76",
+            "question": "Context: The man closed the umbrella.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He got out of the car.\nB. He approached the building.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man closing the umbrella suggests that he was using it to protect himself from rain or sun.\nStep 2: The act of closing an umbrella typically indicates that the person is no longer in an area where they need protection from the elements.\nStep 3: Getting out of a car or approaching a building are both actions that could lead to the man no longer needing his umbrella.\nStep 4: However, getting out of a car implies that the man was in a vehicle, which is a more specific scenario compared to approaching a building.\nStep 5: Approaching a building is a more general action that could occur in various situations, not necessarily involving a vehicle.\n\nConclusion: 0",
+            "cot_steps": [
+                "The man closing the umbrella suggests that he was using it to protect himself from rain or sun.",
+                "The act of closing an umbrella typically indicates that the person is no longer in an area where they need protection from the elements.",
+                "Getting out of a car or approaching a building are both actions that could lead to the man no longer needing his umbrella.",
+                "However, getting out of a car implies that the man was in a vehicle, which is a more specific scenario compared to approaching a building.",
+                "Approaching a building is a more general action that could occur in various situations, not necessarily involving a vehicle."
+            ],
+            "pred": "0",
+            "is_correct": false,
+            "elapsed_time": 2.3141062259674072,
+            "tokens_used": null
+        },
+        {
+            "id": "77",
+            "question": "Context: The man craved a cigarette.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. His family urged him to quit smoking.\nB. He was addicted to nicotine.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man craved a cigarette, which indicates a strong desire or need for a cigarette.\nStep 2: A strong desire for a cigarette is more likely to be caused by a physiological or psychological need rather than external pressure.\nStep 3: Being addicted to nicotine is a well-known cause of a strong craving for cigarettes, as addiction leads to a persistent desire for the substance.\nStep 4: The other option suggests that his family urged him to quit, which would more likely be a result of his smoking habit rather than a cause of his craving.\n\nConclusion: 1",
+            "cot_steps": [
+                "The man craved a cigarette, which indicates a strong desire or need for a cigarette.",
+                "A strong desire for a cigarette is more likely to be caused by a physiological or psychological need rather than external pressure.",
+                "Being addicted to nicotine is a well-known cause of a strong craving for cigarettes, as addiction leads to a persistent desire for the substance.",
+                "The other option suggests that his family urged him to quit, which would more likely be a result of his smoking habit rather than a cause of his craving."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.915153980255127,
+            "tokens_used": null
+        },
+        {
+            "id": "78",
+            "question": "Context: The man dropped food on the floor.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His dog jumped up on him.\nB. His dog ran over to eat the food.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man dropped food on the floor, which created an opportunity for his dog to access the food.\nStep 2: Dogs are known to have a strong instinct to eat food, especially if it is easily accessible.\nStep 3: Given that the food is now on the floor and the dog is present, the dog is likely to be attracted to the food.\nStep 4: The most direct and logical effect of the man dropping food on the floor is that his dog would run over to eat the food.\n\nConclusion: 1",
+            "cot_steps": [
+                "The man dropped food on the floor, which created an opportunity for his dog to access the food.",
+                "Dogs are known to have a strong instinct to eat food, especially if it is easily accessible.",
+                "Given that the food is now on the floor and the dog is present, the dog is likely to be attracted to the food.",
+                "The most direct and logical effect of the man dropping food on the floor is that his dog would run over to eat the food."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.108445405960083,
+            "tokens_used": null
+        },
+        {
+            "id": "79",
+            "question": "Context: The girl was angry with her friend.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The girl spread a rumor about her friend.\nB. The girl told a secret to her friend.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The girl was angry with her friend, which indicates a negative emotional state.\nStep 2: When people are angry, they often seek ways to express their negative emotions or seek revenge.\nStep 3: Spreading a rumor is a common way for someone to express anger and harm the reputation of the person they are angry with.\nStep 4: Telling a secret to a friend is generally a positive action that strengthens the relationship, which is unlikely to occur when the girl is angry.\nStep 5: Therefore, the most likely effect of the girl being angry with her friend is that she would spread a rumor about her friend.\n\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The girl was angry with her friend, which indicates a negative emotional state.",
+                "When people are angry, they often seek ways to express their negative emotions or seek revenge.",
+                "Spreading a rumor is a common way for someone to express anger and harm the reputation of the person they are angry with.",
+                "Telling a secret to a friend is generally a positive action that strengthens the relationship, which is unlikely to occur when the girl is angry.",
+                "Therefore, the most likely effect of the girl being angry with her friend is that she would spread a rumor about her friend."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.249880313873291,
+            "tokens_used": null
+        },
+        {
+            "id": "80",
+            "question": "Context: The fugitive hid from the police.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The police dropped the case.\nB. The fugitive remained at large.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The fugitive hid from the police, which means he took actions to avoid being caught.\nStep 2: As a result of hiding, the police would continue to search for the fugitive.\nStep 3: The fugitive remaining at large is a direct consequence of the police continuing their search due to his hiding.\nStep 4: The police dropping the case would imply they have given up on finding the fugitive, which is not a logical outcome given that the fugitive is actively hiding and evading capture.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The fugitive hid from the police, which means he took actions to avoid being caught.",
+                "As a result of hiding, the police would continue to search for the fugitive.",
+                "The fugitive remaining at large is a direct consequence of the police continuing their search due to his hiding.",
+                "The police dropping the case would imply they have given up on finding the fugitive, which is not a logical outcome given that the fugitive is actively hiding and evading capture."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.5581507682800293,
+            "tokens_used": null
+        },
+        {
+            "id": "81",
+            "question": "Context: I tipped the bottle.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The liquid in the bottle froze.\nB. The liquid in the bottle poured out.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Tipping a bottle typically involves tilting it in such a way that the contents can be poured out.\nStep 2: If the bottle is tipped and the cap is not on, or if the bottle is not sealed, the liquid inside would be exposed to gravity.\nStep 3: Gravity would cause the liquid to flow out of the bottle due to the change in orientation.\nStep 4: Freezing the liquid would require a significant change in temperature, which is not implied by tipping the bottle.\n\nConclusion: 1",
+            "cot_steps": [
+                "Tipping a bottle typically involves tilting it in such a way that the contents can be poured out.",
+                "If the bottle is tipped and the cap is not on, or if the bottle is not sealed, the liquid inside would be exposed to gravity.",
+                "Gravity would cause the liquid to flow out of the bottle due to the change in orientation.",
+                "Freezing the liquid would require a significant change in temperature, which is not implied by tipping the bottle."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.8615097999572754,
+            "tokens_used": null
+        },
+        {
+            "id": "82",
+            "question": "Context: The woman spoke with a foreign accent.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She came from a wealthy family.\nB. She migrated from another country.",
+            "answerKey": "B",
+            "cot_output": "Step 1: A foreign accent indicates that the woman speaks a language with a pronunciation or intonation pattern different from the local dialect.\nStep 2: For a person to develop a foreign accent, they must have learned and spoken a different language, which typically happens when a person is exposed to a different linguistic environment.\nStep 3: Exposure to a different linguistic environment can occur through migration, where a person moves to a new country and is surrounded by speakers of a different language.\nStep 4: Coming from a wealthy family does not necessarily imply exposure to a different language or accent, as wealthy families can live in the same country and speak the same language.\nStep 5: Therefore, the most direct and logical cause for a woman to have a foreign accent is that she migrated from another country.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A foreign accent indicates that the woman speaks a language with a pronunciation or intonation pattern different from the local dialect.",
+                "For a person to develop a foreign accent, they must have learned and spoken a different language, which typically happens when a person is exposed to a different linguistic environment.",
+                "Exposure to a different linguistic environment can occur through migration, where a person moves to a new country and is surrounded by speakers of a different language.",
+                "Coming from a wealthy family does not necessarily imply exposure to a different language or accent, as wealthy families can live in the same country and speak the same language.",
+                "Therefore, the most direct and logical cause for a woman to have a foreign accent is that she migrated from another country."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.7104673385620117,
+            "tokens_used": null
+        },
+        {
+            "id": "83",
+            "question": "Context: The boy's mouth stung.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He ate a pepper.\nB. He blew out the candle.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The boy's mouth stung, which indicates a sensation of pain or irritation in his mouth.\nStep 2: Option A suggests that he ate a pepper, which is known to cause a stinging sensation in the mouth due to the presence of capsaicin.\nStep 3: Option B suggests that he blew out a candle, which typically does not cause a stinging sensation in the mouth unless the flame was very hot and burned the inside of his mouth, which is less likely and not a common occurrence.\nStep 4: Given that eating a pepper is a common and direct cause of a stinging sensation in the mouth, while blowing out a candle is not, the most likely cause is eating a pepper.\n\nConclusion: 0",
+            "cot_steps": [
+                "The boy's mouth stung, which indicates a sensation of pain or irritation in his mouth.",
+                "Option A suggests that he ate a pepper, which is known to cause a stinging sensation in the mouth due to the presence of capsaicin.",
+                "Option B suggests that he blew out a candle, which typically does not cause a stinging sensation in the mouth unless the flame was very hot and burned the inside of his mouth, which is less likely and not a common occurrence.",
+                "Given that eating a pepper is a common and direct cause of a stinging sensation in the mouth, while blowing out a candle is not, the most likely cause is eating a pepper."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.4209179878234863,
+            "tokens_used": null
+        },
+        {
+            "id": "84",
+            "question": "Context: I finished a page of the book.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I ripped out the next page.\nB. I turned to the next page.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Finishing a page of a book typically means the reader has completed reading the content of that page.\nStep 2: After finishing a page, the natural next step for a reader is to turn to the next page to continue reading.\nStep 3: Ripping out the next page (Option A) is an action that would prevent further reading and is not a typical or logical consequence of finishing a page.\nStep 4: Turning to the next page (Option B) is the most logical and expected action after finishing a page.\n\nConclusion: 1",
+            "cot_steps": [
+                "Finishing a page of a book typically means the reader has completed reading the content of that page.",
+                "After finishing a page, the natural next step for a reader is to turn to the next page to continue reading.",
+                "Ripping out the next page (Option A) is an action that would prevent further reading and is not a typical or logical consequence of finishing a page.",
+                "Turning to the next page (Option B) is the most logical and expected action after finishing a page."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.9090864658355713,
+            "tokens_used": null
+        },
+        {
+            "id": "85",
+            "question": "Context: The service at the restaurant was slow.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. There were many empty tables.\nB. The restaurant was crowded.",
+            "answerKey": "B",
+            "cot_output": "Step 1: If the service at the restaurant was slow, it suggests that there were more customers than the staff could handle efficiently.\nStep 2: A crowded restaurant would likely result in slower service as there are more customers to attend to, potentially leading to longer wait times for orders and service.\nStep 3: Conversely, many empty tables would suggest that the restaurant has excess capacity, which would not typically lead to slow service.\nStep 4: Therefore, the presence of many empty tables would not be a cause of slow service, while a crowded restaurant would be a likely cause.\n\nConclusion: 1",
+            "cot_steps": [
+                "If the service at the restaurant was slow, it suggests that there were more customers than the staff could handle efficiently.",
+                "A crowded restaurant would likely result in slower service as there are more customers to attend to, potentially leading to longer wait times for orders and service.",
+                "Conversely, many empty tables would suggest that the restaurant has excess capacity, which would not typically lead to slow service.",
+                "Therefore, the presence of many empty tables would not be a cause of slow service, while a crowded restaurant would be a likely cause."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.076927423477173,
+            "tokens_used": null
+        },
+        {
+            "id": "86",
+            "question": "Context: I saw a woman getting robbed on the street.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I called 911.\nB. I hailed a cab.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman is getting robbed, which is an emergency situation that requires immediate attention.\nStep 2: In an emergency situation, calling for help is a standard and appropriate response.\nStep 3: The most common and effective way to get help in such a situation is to call emergency services, such as 911.\nStep 4: Hailing a cab would not address the immediate threat to the woman's safety and is not a logical response to a robbery.\nStep 5: Therefore, the most likely and effective action would be to call 911.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman is getting robbed, which is an emergency situation that requires immediate attention.",
+                "In an emergency situation, calling for help is a standard and appropriate response.",
+                "The most common and effective way to get help in such a situation is to call emergency services, such as 911.",
+                "Hailing a cab would not address the immediate threat to the woman's safety and is not a logical response to a robbery.",
+                "Therefore, the most likely and effective action would be to call 911."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.6440696716308594,
+            "tokens_used": null
+        },
+        {
+            "id": "87",
+            "question": "Context: My stomach hurt.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I jogged on the treadmill.\nB. I ate birthday cake.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Stomach pain can be caused by various factors, including food consumption and physical activity.\nStep 2: Jogging on a treadmill can sometimes cause stomach pain due to increased abdominal pressure or strain on the muscles.\nStep 3: Eating certain foods, such as birthday cake, can also lead to stomach pain, especially if the cake contains ingredients that are difficult to digest or if consumed in large quantities.\nStep 4: Without specific information about the timing of the jogging and cake consumption, it is difficult to definitively determine which activity caused the stomach pain.\nStep 5: However, since the question asks for the cause and we have more direct evidence that eating can immediately affect the stomach, the consumption of birthday cake is more likely to be the cause of the stomach pain.\n\n===FINAL_ANSWER_START===\nConclusion: 2\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Stomach pain can be caused by various factors, including food consumption and physical activity.",
+                "Jogging on a treadmill can sometimes cause stomach pain due to increased abdominal pressure or strain on the muscles.",
+                "Eating certain foods, such as birthday cake, can also lead to stomach pain, especially if the cake contains ingredients that are difficult to digest or if consumed in large quantities.",
+                "Without specific information about the timing of the jogging and cake consumption, it is difficult to definitively determine which activity caused the stomach pain.",
+                "However, since the question asks for the cause and we have more direct evidence that eating can immediately affect the stomach, the consumption of birthday cake is more likely to be the cause of the stomach pain."
+            ],
+            "pred": "2",
+            "is_correct": false,
+            "elapsed_time": 2.7760703563690186,
+            "tokens_used": null
+        },
+        {
+            "id": "88",
+            "question": "Context: I put my plate in the sink.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I finished eating.\nB. I skipped dinner.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The act of putting a plate in the sink typically occurs after the act of eating.\nStep 2: If the plate is empty, it strongly suggests that the person has finished eating.\nStep 3: Skipping dinner would not result in a plate being put in the sink, as there would be no plate to put there.\nStep 4: Therefore, the most logical cause for putting a plate in the sink is that the person has finished eating.\n\nConclusion: 0",
+            "cot_steps": [
+                "The act of putting a plate in the sink typically occurs after the act of eating.",
+                "If the plate is empty, it strongly suggests that the person has finished eating.",
+                "Skipping dinner would not result in a plate being put in the sink, as there would be no plate to put there.",
+                "Therefore, the most logical cause for putting a plate in the sink is that the person has finished eating."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.7153105735778809,
+            "tokens_used": null
+        },
+        {
+            "id": "89",
+            "question": "Context: The man closed the book.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He finished reading it.\nB. It provoked him to think.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man closing the book is an action that indicates the end of an activity related to the book.\nStep 2: The most direct and common reason for ending an activity with a book is finishing the reading.\nStep 3: While the book could have provoked thought, the act of closing the book itself does not necessarily imply that the thought was provoked by the book.\nStep 4: Therefore, the most likely and direct cause of the man closing the book is that he finished reading it.\n\n===FINAL_ANSWER_START===\nConclusion: 0\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man closing the book is an action that indicates the end of an activity related to the book.",
+                "The most direct and common reason for ending an activity with a book is finishing the reading.",
+                "While the book could have provoked thought, the act of closing the book itself does not necessarily imply that the thought was provoked by the book.",
+                "Therefore, the most likely and direct cause of the man closing the book is that he finished reading it."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.0395402908325195,
+            "tokens_used": null
+        },
+        {
+            "id": "90",
+            "question": "Context: The boy read the novel aloud to his grandfather.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. His grandfather was deaf.\nB. His grandfather was blind.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The boy read the novel aloud, which implies that the grandfather could not read the novel himself.\nStep 2: Given the options, the inability to read the novel is more likely due to a visual impairment rather than a hearing impairment.\nStep 3: Being blind is a condition that would prevent someone from reading a physical book, making it necessary for someone else to read aloud.\nStep 4: Being deaf would not prevent someone from reading a physical book, as it does not affect the ability to see and read text.\n\nConclusion: 1",
+            "cot_steps": [
+                "The boy read the novel aloud, which implies that the grandfather could not read the novel himself.",
+                "Given the options, the inability to read the novel is more likely due to a visual impairment rather than a hearing impairment.",
+                "Being blind is a condition that would prevent someone from reading a physical book, making it necessary for someone else to read aloud.",
+                "Being deaf would not prevent someone from reading a physical book, as it does not affect the ability to see and read text."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 1.863736867904663,
+            "tokens_used": null
+        },
+        {
+            "id": "91",
+            "question": "Context: My foot went numb.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I put my shoes on.\nB. I shook my foot.",
+            "answerKey": "B",
+            "cot_output": "Step 1: My foot went numb, which is a sensation that can be caused by reduced blood flow or nerve compression.\nStep 2: Putting on shoes can sometimes compress nerves or restrict blood flow, leading to numbness.\nStep 3: Shaking the foot can help to restore blood flow and alleviate numbness by moving the foot and toes.\nStep 4: Given the options, putting on shoes (A) would likely exacerbate the numbness rather than alleviate it, while shaking the foot (B) would be a more likely action to address the numbness.\nStep 5: Therefore, the effect of my foot going numb would be that I would likely shake my foot to restore sensation.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "My foot went numb, which is a sensation that can be caused by reduced blood flow or nerve compression.",
+                "Putting on shoes can sometimes compress nerves or restrict blood flow, leading to numbness.",
+                "Shaking the foot can help to restore blood flow and alleviate numbness by moving the foot and toes.",
+                "Given the options, putting on shoes (A) would likely exacerbate the numbness rather than alleviate it, while shaking the foot (B) would be a more likely action to address the numbness.",
+                "Therefore, the effect of my foot going numb would be that I would likely shake my foot to restore sensation."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.521108627319336,
+            "tokens_used": null
+        },
+        {
+            "id": "92",
+            "question": "Context: The photographer got the child to smile.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The photographer quickly snapped the child's photo.\nB. The photographer quickly changed the child's pose.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The photographer got the child to smile, which indicates that the child was previously not smiling or was not in a state of happiness or contentment.\nStep 2: Once the child is smiling, the photographer is likely to take advantage of this positive expression to capture a good photo.\nStep 3: The act of smiling typically involves a natural and relaxed facial expression, which is often more appealing in photographs.\nStep 4: Given that the child is now smiling, the photographer would be motivated to quickly take the photo to capture this moment.\nStep 5: The photographer's action of quickly snapping the photo is a direct result of the child's smile, as the photographer wants to seize the opportunity to get a good shot.\n\nConclusion: A",
+            "cot_steps": [
+                "The photographer got the child to smile, which indicates that the child was previously not smiling or was not in a state of happiness or contentment.",
+                "Once the child is smiling, the photographer is likely to take advantage of this positive expression to capture a good photo.",
+                "The act of smiling typically involves a natural and relaxed facial expression, which is often more appealing in photographs.",
+                "Given that the child is now smiling, the photographer would be motivated to quickly take the photo to capture this moment.",
+                "The photographer's action of quickly snapping the photo is a direct result of the child's smile, as the photographer wants to seize the opportunity to get a good shot."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 2.430884599685669,
+            "tokens_used": null
+        },
+        {
+            "id": "93",
+            "question": "Context: The window was opaque.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The glass was stained.\nB. The blinds were open.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The window being opaque means that it does not allow light to pass through clearly, indicating that the view through the window is not visible.\nStep 2: For a window to be opaque, it must have some form of obstruction or covering that prevents light from passing through in a clear manner.\nStep 3: Option A suggests that the glass was stained, which could potentially cause the window to appear opaque if the stains are thick or cover a significant portion of the glass.\nStep 4: Option B suggests that the blinds were open, which would not cause the window to be opaque since open blinds allow light to pass through.\nStep 5: Given that the window is opaque, the most logical cause is that there is something obstructing the view, which aligns with the presence of stained glass rather than open blinds.\n\nConclusion: 0",
+            "cot_steps": [
+                "The window being opaque means that it does not allow light to pass through clearly, indicating that the view through the window is not visible.",
+                "For a window to be opaque, it must have some form of obstruction or covering that prevents light from passing through in a clear manner.",
+                "Option A suggests that the glass was stained, which could potentially cause the window to appear opaque if the stains are thick or cover a significant portion of the glass.",
+                "Option B suggests that the blinds were open, which would not cause the window to be opaque since open blinds allow light to pass through.",
+                "Given that the window is opaque, the most logical cause is that there is something obstructing the view, which aligns with the presence of stained glass rather than open blinds."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 2.649683713912964,
+            "tokens_used": null
+        },
+        {
+            "id": "94",
+            "question": "Context: I slipped on the floor.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The tile was wet.\nB. The tile was cracked.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Slipping on the floor implies there was a condition on the floor that caused the slip.\nStep 2: Wet tiles can create a slippery surface, increasing the likelihood of a slip.\nStep 3: Cracked tiles, while potentially dangerous, do not inherently create a slippery condition unless they are also wet or have debris in the cracks.\nStep 4: Given that the floor was slippery enough to cause a slip, the most direct cause is the wetness of the tile rather than its condition being cracked.\n\nConclusion: 0",
+            "cot_steps": [
+                "Slipping on the floor implies there was a condition on the floor that caused the slip.",
+                "Wet tiles can create a slippery surface, increasing the likelihood of a slip.",
+                "Cracked tiles, while potentially dangerous, do not inherently create a slippery condition unless they are also wet or have debris in the cracks.",
+                "Given that the floor was slippery enough to cause a slip, the most direct cause is the wetness of the tile rather than its condition being cracked."
+            ],
+            "pred": "0",
+            "is_correct": true,
+            "elapsed_time": 1.7949771881103516,
+            "tokens_used": null
+        },
+        {
+            "id": "95",
+            "question": "Context: The man slid the razor across his chin.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His stubble grew.\nB. His stubble disappeared.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man slid the razor across his chin, which indicates he was shaving.\nStep 2: Shaving involves removing facial hair, which is typically referred to as stubble.\nStep 3: Therefore, the effect of sliding the razor across his chin would be the removal of his stubble.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man slid the razor across his chin, which indicates he was shaving.",
+                "Shaving involves removing facial hair, which is typically referred to as stubble.",
+                "Therefore, the effect of sliding the razor across his chin would be the removal of his stubble."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.036219835281372,
+            "tokens_used": null
+        },
+        {
+            "id": "96",
+            "question": "Context: The woman took her family on vacation.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. Her husband got laid off.\nB. She received a salary bonus.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman taking her family on vacation suggests that she has the financial means to do so.\nStep 2: Financial means to take a vacation are more likely to be derived from a positive financial event rather than a negative one.\nStep 3: Among the given options, receiving a salary bonus (Option B) is a positive financial event that would provide the necessary funds for a vacation.\nStep 4: Being laid off (Option A) would typically result in a loss of income, making it less likely to be the cause of a vacation.\nStep 5: Therefore, the most logical cause for the woman taking her family on vacation is that she received a salary bonus.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman taking her family on vacation suggests that she has the financial means to do so.",
+                "Financial means to take a vacation are more likely to be derived from a positive financial event rather than a negative one.",
+                "Among the given options, receiving a salary bonus (Option B) is a positive financial event that would provide the necessary funds for a vacation.",
+                "Being laid off (Option A) would typically result in a loss of income, making it less likely to be the cause of a vacation.",
+                "Therefore, the most logical cause for the woman taking her family on vacation is that she received a salary bonus."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 3.368995189666748,
+            "tokens_used": null
+        },
+        {
+            "id": "97",
+            "question": "Context: The woman awakened.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She took sleeping pills.\nB. Her husband was snoring.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman awakened implies that there was an external or internal factor that disrupted her sleep.\nStep 2: Option A suggests that she took sleeping pills, which could potentially cause her to wake up if the medication's effects wore off or if she experienced side effects.\nStep 3: Option B suggests that her husband was snoring, which is a common cause of waking up during the night due to noise disturbance.\nStep 4: While both options could potentially cause the woman to awaken, snoring is a more direct and common cause of waking up compared to the effects of sleeping pills.\nStep 5: Therefore, the most likely cause of the woman awakening is her husband snoring.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman awakened implies that there was an external or internal factor that disrupted her sleep.",
+                "Option A suggests that she took sleeping pills, which could potentially cause her to wake up if the medication's effects wore off or if she experienced side effects.",
+                "Option B suggests that her husband was snoring, which is a common cause of waking up during the night due to noise disturbance.",
+                "While both options could potentially cause the woman to awaken, snoring is a more direct and common cause of waking up compared to the effects of sleeping pills.",
+                "Therefore, the most likely cause of the woman awakening is her husband snoring."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.5733113288879395,
+            "tokens_used": null
+        },
+        {
+            "id": "98",
+            "question": "Context: The woman sensed a pleasant smell.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She remembered to take her medication.\nB. She was reminded of her childhood.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman sensed a pleasant smell, which is the initial stimulus.\nStep 2: Pleasant smells can often evoke memories or emotions associated with that smell.\nStep 3: The options provided suggest that the effect could be either remembering to take medication or being reminded of her childhood.\nStep 4: Smells are often strongly associated with memories, particularly those from childhood, due to the olfactory system's connection to the limbic system in the brain.\nStep 5: The option \"She was reminded of her childhood\" is more directly related to the olfactory memory process than remembering to take medication, which is a more practical and less likely immediate effect of a pleasant smell.\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman sensed a pleasant smell, which is the initial stimulus.",
+                "Pleasant smells can often evoke memories or emotions associated with that smell.",
+                "The options provided suggest that the effect could be either remembering to take medication or being reminded of her childhood.",
+                "Smells are often strongly associated with memories, particularly those from childhood, due to the olfactory system's connection to the limbic system in the brain.",
+                "The option \"She was reminded of her childhood\" is more directly related to the olfactory memory process than remembering to take medication, which is a more practical and less likely immediate effect of a pleasant smell."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.44805645942688,
+            "tokens_used": null
+        },
+        {
+            "id": "99",
+            "question": "Context: The bar closed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was crowded.\nB. It was 3 AM.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The bar closing is a specific event that occurs at a particular time.\nStep 2: Bars typically have operating hours and close at a specific time, which is often standardized.\nStep 3: 3 AM is a common closing time for bars, as it aligns with local regulations and the natural sleep cycle of patrons.\nStep 4: The bar closing at 3 AM is a direct result of the establishment's operating hours, which are set by management or local authorities.\nStep 5: Being crowded is a condition that can occur at any time during the bar's operating hours but does not necessarily cause the bar to close.\nStep 6: Therefore, the most direct and logical cause of the bar closing is the time of day, which is 3 AM.\n\n===FINAL_ANSWER_START===\nConclusion: 1\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The bar closing is a specific event that occurs at a particular time.",
+                "Bars typically have operating hours and close at a specific time, which is often standardized.",
+                "3 AM is a common closing time for bars, as it aligns with local regulations and the natural sleep cycle of patrons.",
+                "The bar closing at 3 AM is a direct result of the establishment's operating hours, which are set by management or local authorities.",
+                "Being crowded is a condition that can occur at any time during the bar's operating hours but does not necessarily cause the bar to close.",
+                "Therefore, the most direct and logical cause of the bar closing is the time of day, which is 3 AM."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.717719316482544,
+            "tokens_used": null
+        },
+        {
+            "id": "100",
+            "question": "Context: The driver got pulled over by the police.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He was parking.\nB. He was speeding.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The driver got pulled over by the police, which implies that the police had a reason to stop the vehicle.\nStep 2: Common reasons for a police officer to pull over a vehicle include speeding, running a red light, or other traffic violations.\nStep 3: Option A (He was parking) is not a typical reason for a police officer to pull over a vehicle, as parking is generally a legal activity unless it is in a no-parking zone or obstructing traffic.\nStep 4: Option B (He was speeding) is a common and direct reason for a police officer to pull over a vehicle, as speeding is a traffic violation that can be easily observed and documented by the police.\nStep 5: Given the options and the typical reasons for a police officer to pull over a vehicle, the most likely cause is that the driver was speeding.\n\nConclusion: 1",
+            "cot_steps": [
+                "The driver got pulled over by the police, which implies that the police had a reason to stop the vehicle.",
+                "Common reasons for a police officer to pull over a vehicle include speeding, running a red light, or other traffic violations.",
+                "Option A (He was parking) is not a typical reason for a police officer to pull over a vehicle, as parking is generally a legal activity unless it is in a no-parking zone or obstructing traffic.",
+                "Option B (He was speeding) is a common and direct reason for a police officer to pull over a vehicle, as speeding is a traffic violation that can be easily observed and documented by the police.",
+                "Given the options and the typical reasons for a police officer to pull over a vehicle, the most likely cause is that the driver was speeding."
+            ],
+            "pred": "1",
+            "is_correct": true,
+            "elapsed_time": 2.846743106842041,
+            "tokens_used": null
+        }
+    ]
+}

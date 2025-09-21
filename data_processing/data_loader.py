@@ -301,6 +301,21 @@ def _format_copa(item: Dict) -> Dict:
     
     return {"id": item['id'], "question": full_prompt, "answerKey": answer_key}
 
+def _format_gpqa(item: Dict) -> Dict:
+    """Formats a GPQA item (local multiple choice)."""
+    # 题干
+    question_text = item['question']
+    # 选项（如 ["a. 14", "b. 11", ...]）
+    choices = item.get('choices', [])
+    choices_text = "\n".join(choices)
+    # 构建完整问题
+    full_prompt = f"Question: {question_text}\n\nChoices:\n{choices_text}"
+    # 答案（如 "b"）
+    answer_key = item.get('answerKey', '')
+    # id 字段（如无则用前30字）
+    item_id = item.get('id', f"gpqa_{question_text[:30]}")
+    return {"id": item_id, "question": full_prompt, "answerKey": answer_key}
+
 # --- Data Loader Factory ---
 DATASET_FORMATTERS: Dict[str, Callable[[Dict], Dict]] = {
     "CommonsenseQA": _format_commonsense_qa,
@@ -323,6 +338,7 @@ DATASET_FORMATTERS: Dict[str, Callable[[Dict], Dict]] = {
     "CLadder": _format_cladder,
     "CausalNet": _format_causalnet,
     "COPA": _format_copa,
+    "GPQA": _format_gpqa,
 }
 
 def load_data(config: Dict) -> List[Dict]:
@@ -337,44 +353,8 @@ def load_data(config: Dict) -> List[Dict]:
 
     formatter = DATASET_FORMATTERS[dataset_name]
     
-    # Handle local JSON files
-    if dataset_name == "LOCAL_JSON":
-        return _load_local_json(config, formatter)
-    
-    # Handle HuggingFace datasets
-    hf_id = config['hf_id']
-    hf_config = config.get('hf_config', None)
-    split = config['split']
-    num_samples = config['num_samples']
-    
-    print(f"Loading data from Hugging Face Hub...")
-    print(f"  ID:      '{hf_id}'")
-    if hf_config:
-        print(f"  Config:  '{hf_config}'")
-    print(f"  Split:   '{split}'")
-    
-    try:
-        if hf_config:
-            available_splits = get_dataset_split_names(hf_id, hf_config)
-            if split not in available_splits:
-                raise ValueError(f"Split '{split}' not found for dataset '{hf_id}' with config '{hf_config}'. Available splits: {available_splits}")
-            dataset = load_dataset(hf_id, hf_config, split=split, streaming=True).take(num_samples)
-        else:
-            available_splits = get_dataset_split_names(hf_id)
-            if split not in available_splits:
-                raise ValueError(f"Split '{split}' not found for dataset '{hf_id}'. Available splits: {available_splits}")
-            dataset = load_dataset(hf_id, split=split, streaming=True).take(num_samples)
+    return _load_local_json(config, formatter)
 
-    except Exception as e:
-        print(f"\n--- DATASET LOADING FAILED ---")
-        print(f"An error occurred while trying to load '{hf_id}'.")
-        print(f"Error details: {e}")
-        print("Please check:\n1. Your internet connection.\n2. The dataset identifier and configuration in your JSON file are correct on Hugging Face Hub.\n3. The specified split exists for this dataset.")
-        raise e
-
-    formatted_data = [formatter(item) for item in dataset]
-    print(f"Successfully loaded and formatted {len(formatted_data)} samples.")
-    return formatted_data
 
 def _load_local_json(config: Dict, formatter: Callable) -> List[Dict]:
     """Load data from local JSON files."""
