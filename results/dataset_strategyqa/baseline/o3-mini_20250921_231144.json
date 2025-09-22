@@ -1,0 +1,1581 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "56.00%",
+            "total_successful_pipelines": 56,
+            "avg_elapsed_time": 6.156742141246796,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.56
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "local_Did the Hopi Indians use a sym",
+            "question": "Did the Hopi Indians use a symbol that was similar to the swastika?",
+            "answerKey": true,
+            "cot_output": "Step 1: Historical and anthropological research indicates that many ancient cultures employed symbols with rotational symmetry, including some Native American cultures.  \nStep 2: The Hopi Indians, in particular, have been documented to use geometric and spiraling symbols in their art and architecture, some of which bear a resemblance to the swastika.  \nStep 3: The swastika, recognized in various cultures worldwide as a symbol of life and continuity, appears in modified forms; the Hopi symbol in question shares similar characteristics in its design.  \nStep 4: Based on the evidence that the Hopi used a symbol visually similar to the swastika for cultural and ceremonial purposes, we can conclude that the statement is accurate.  \n===FINAL_ANSWER_START===  \nConclusion: true  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Historical and anthropological research indicates that many ancient cultures employed symbols with rotational symmetry, including some Native American cultures.  ",
+                "The Hopi Indians, in particular, have been documented to use geometric and spiraling symbols in their art and architecture, some of which bear a resemblance to the swastika.  ",
+                "The swastika, recognized in various cultures worldwide as a symbol of life and continuity, appears in modified forms; the Hopi symbol in question shares similar characteristics in its design.  ",
+                "Based on the evidence that the Hopi used a symbol visually similar to the swastika for cultural and ceremonial purposes, we can conclude that the statement is accurate.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 7.838263034820557,
+            "tokens_used": null
+        },
+        {
+            "id": "local_is there a david bowie song wi",
+            "question": "is there a david bowie song with the word year or years in the title?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recall that David Bowie has a song titled \"Golden Years.\"  \nStep 2: Notice that the song \"Golden Years\" includes the word \"Years\" in its title.  \nStep 3: Conclude that there is indeed a David Bowie song with the word \"year\" or \"years\" in the title.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recall that David Bowie has a song titled \"Golden Years.\"  ",
+                "Notice that the song \"Golden Years\" includes the word \"Years\" in its title.  ",
+                "Conclude that there is indeed a David Bowie song with the word \"year\" or \"years\" in the title.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.999393939971924,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Were Charles Darwin and A.E. H",
+            "question": "Were Charles Darwin and A.E. Housman born in Shropshire?",
+            "answerKey": true,
+            "cot_output": "Step 1: Charles Darwin was born in Shrewsbury, which is located in Shropshire, England.\nStep 2: A.E. Housman was born in Bromsgrove, which is located in Worcestershire, not in Shropshire.\nStep 3: Since only one of the two individuals was born in Shropshire, the statement that both were born in Shropshire is incorrect.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Charles Darwin was born in Shrewsbury, which is located in Shropshire, England.",
+                "A.E. Housman was born in Bromsgrove, which is located in Worcestershire, not in Shropshire.",
+                "Since only one of the two individuals was born in Shropshire, the statement that both were born in Shropshire is incorrect."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.667198896408081,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are there several  towns locat",
+            "question": "Are there several  towns located in Shropshire?",
+            "answerKey": true,
+            "cot_output": "Step 1: Shropshire is a county in England, which is administratively diverse and contains both towns and rural areas.  \nStep 2: Well-known towns in Shropshire include Shrewsbury, Ludlow, Oswestry, and Telford, among others.  \nStep 3: The presence of multiple officially recognized towns confirms that there are indeed several towns located in Shropshire.\n\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Shropshire is a county in England, which is administratively diverse and contains both towns and rural areas.  ",
+                "Well-known towns in Shropshire include Shrewsbury, Ludlow, Oswestry, and Telford, among others.  ",
+                "The presence of multiple officially recognized towns confirms that there are indeed several towns located in Shropshire."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.222093820571899,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Lord Hill's column in Shrop",
+            "question": "Is Lord Hill's column in Shropshire the tallest of its kind?",
+            "answerKey": true,
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 16.281028985977173,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do Hindus believe Krishna exis",
+            "question": "Do Hindus believe Krishna exists?",
+            "answerKey": true,
+            "cot_output": "Step 1: Hinduism is a major religion that includes a pantheon of deities, among which Krishna is one of the most revered figures.\nStep 2: Krishna is widely recognized in Hindu scriptures, where he is described as an avatar (incarnation) of Vishnu, thereby affirming his existence and divine nature.\nStep 3: Devotees of Hinduism actively worship and celebrate Krishna through festivals, rituals, and texts like the Bhagavad Gita, which further affirms the belief in his existence.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hinduism is a major religion that includes a pantheon of deities, among which Krishna is one of the most revered figures.",
+                "Krishna is widely recognized in Hindu scriptures, where he is described as an avatar (incarnation) of Vishnu, thereby affirming his existence and divine nature.",
+                "Devotees of Hinduism actively worship and celebrate Krishna through festivals, rituals, and texts like the Bhagavad Gita, which further affirms the belief in his existence."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.093736886978149,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could George Washington have r",
+            "question": "Could George Washington have recorded a compact disc?",
+            "answerKey": null,
+            "cot_output": "Step 1: George Washington lived from 1732 to 1799, a period well before any modern digital technology was developed.\nStep 2: Compact discs were invented in the late 20th century (specifically around the 1980s), long after George Washington's lifetime.\nStep 3: Since recording a compact disc requires technology that did not exist during Washington's era, it is impossible that he could have recorded one.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "George Washington lived from 1732 to 1799, a period well before any modern digital technology was developed.",
+                "Compact discs were invented in the late 20th century (specifically around the 1980s), long after George Washington's lifetime.",
+                "Since recording a compact disc requires technology that did not exist during Washington's era, it is impossible that he could have recorded one."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.778180837631226,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are DnD Ranger characters suit",
+            "question": "Are DnD Ranger characters suited for play in wilderness areas?",
+            "answerKey": true,
+            "cot_output": "Step 1: DnD Ranger class features include abilities such as tracking, natural exploration, and proficiency in wilderness survival, making them especially adept in natural environments.  \nStep 2: Their favored enemy and favored terrain features further enhance their utility and performance in wilderness areas by providing additional bonuses in these settings.  \nStep 3: Given these class-specific advantages and thematic design centered on wilderness exploration and survival, DnD Ranger characters are indeed suited for play in wilderness areas.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "DnD Ranger class features include abilities such as tracking, natural exploration, and proficiency in wilderness survival, making them especially adept in natural environments.  ",
+                "Their favored enemy and favored terrain features further enhance their utility and performance in wilderness areas by providing additional bonuses in these settings.  ",
+                "Given these class-specific advantages and thematic design centered on wilderness exploration and survival, DnD Ranger characters are indeed suited for play in wilderness areas.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.0283420085906982,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are Rogue DnD characters suite",
+            "question": "Are Rogue DnD characters suited for playing in cities?",
+            "answerKey": true,
+            "cot_output": "Step 1: Rogue characters in DnD are designed with skills such as stealth, lockpicking, and deception that are particularly useful in urban settings.  \nStep 2: Cities provide diverse opportunities for social interaction, intrigue, and complex challenges, all of which can highlight and enhance the typical rogue skill set.  \nStep 3: Since many urban environments inherently involve elements like crime, espionage, and social maneuvering, rogue characters have a natural advantage and purpose when operating in such settings.  \nStep 4: Summing up the above deductions, the abilities and typical applications of rogue characters make them well-suited for adventures in cities.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Rogue characters in DnD are designed with skills such as stealth, lockpicking, and deception that are particularly useful in urban settings.  ",
+                "Cities provide diverse opportunities for social interaction, intrigue, and complex challenges, all of which can highlight and enhance the typical rogue skill set.  ",
+                "Since many urban environments inherently involve elements like crime, espionage, and social maneuvering, rogue characters have a natural advantage and purpose when operating in such settings.  ",
+                "Summing up the above deductions, the abilities and typical applications of rogue characters make them well-suited for adventures in cities.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.300602674484253,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Norfolk on the eastern coas",
+            "question": "Is Norfolk on the eastern coast of England?",
+            "answerKey": true,
+            "cot_output": "Step 1: Norfolk is identified as a county within the region known as East Anglia in England.\nStep 2: East Anglia is located on the eastern side of England, implying that counties in this region, including Norfolk, are on the eastern coast.\nStep 3: Economic, geographical, and historical sources confirm that Norfolk has a coastline along the North Sea, which borders the eastern shore of England.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Norfolk is identified as a county within the region known as East Anglia in England.",
+                "East Anglia is located on the eastern side of England, implying that counties in this region, including Norfolk, are on the eastern coast.",
+                "Economic, geographical, and historical sources confirm that Norfolk has a coastline along the North Sea, which borders the eastern shore of England."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.407533884048462,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Norfolk predominantly rural",
+            "question": "Is Norfolk predominantly rural?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that “Norfolk” most commonly refers to the urban area of Norfolk, Virginia, a well-known port city with a significant population density and extensive urban infrastructure.\nStep 2: Note that urban areas are characterized by concentrated populations and development, as opposed to rural areas which are less densely populated and have broader agricultural or undeveloped land.\nStep 3: Since Norfolk, Virginia exhibits the typical features of an urban area rather than a spread-out, predominantly agricultural or undeveloped region, it is not predominantly rural.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that “Norfolk” most commonly refers to the urban area of Norfolk, Virginia, a well-known port city with a significant population density and extensive urban infrastructure.",
+                "Note that urban areas are characterized by concentrated populations and development, as opposed to rural areas which are less densely populated and have broader agricultural or undeveloped land.",
+                "Since Norfolk, Virginia exhibits the typical features of an urban area rather than a spread-out, predominantly agricultural or undeveloped region, it is not predominantly rural."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 9.932823657989502,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Dragon Hall located in Norf",
+            "question": "Is Dragon Hall located in Norfolk?",
+            "answerKey": true,
+            "cot_output": "Step 1: Norfolk is a county located in England, and Norwich is one of its principal cities.\nStep 2: Dragon Hall is a well-known historic building that is situated in Norwich.\nStep 3: Since Norwich is located within Norfolk, Dragon Hall is indeed in Norfolk.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Norfolk is a county located in England, and Norwich is one of its principal cities.",
+                "Dragon Hall is a well-known historic building that is situated in Norwich.",
+                "Since Norwich is located within Norfolk, Dragon Hall is indeed in Norfolk."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.574113845825195,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is David Cameron a Tory?",
+            "question": "Is David Cameron a Tory?",
+            "answerKey": true,
+            "cot_output": "Step 1: David Cameron is a well-known British politician.  \nStep 2: He served as the leader of the Conservative Party in the United Kingdom.  \nStep 3: The term \"Tory\" is a common colloquial term used to refer to members of the British Conservative Party.  \nStep 4: Since David Cameron was the leader of the Conservative Party, he is considered a Tory.  \n===FINAL_ANSWER_START===  \nConclusion: true  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "David Cameron is a well-known British politician.  ",
+                "He served as the leader of the Conservative Party in the United Kingdom.  ",
+                "The term \"Tory\" is a common colloquial term used to refer to members of the British Conservative Party.  ",
+                "Since David Cameron was the leader of the Conservative Party, he is considered a Tory.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.343171119689941,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was The Hobbit written before ",
+            "question": "Was The Hobbit written before The Lord of the Rings?",
+            "answerKey": true,
+            "cot_output": "Step 1: According to historical publication records, The Hobbit was published in 1937.\nStep 2: The Lord of the Rings was published over a decade later, with its parts released between 1954 and 1955.\nStep 3: Publication order indicates that The Hobbit was written and released before The Lord of the Rings.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "According to historical publication records, The Hobbit was published in 1937.",
+                "The Lord of the Rings was published over a decade later, with its parts released between 1954 and 1955.",
+                "Publication order indicates that The Hobbit was written and released before The Lord of the Rings."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 2.939558744430542,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is John the Baptist still wors",
+            "question": "Is John the Baptist still worshiped to this day?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that John the Baptist is a significant biblical figure, known for his role as a prophet and for baptizing Jesus.  \nStep 2: Understand that within most Christian traditions, worship is an act reserved solely for God rather than for human figures, even those as revered as John the Baptist.  \nStep 3: Note that while John the Baptist is respected and his legacy honored (often through veneration or commemoration), this is distinct from the act of worship.  \nStep 4: Conclude that despite his historical and religious significance, he is not actively worshiped in the same way that divine beings are in religious practice.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that John the Baptist is a significant biblical figure, known for his role as a prophet and for baptizing Jesus.  ",
+                "Understand that within most Christian traditions, worship is an act reserved solely for God rather than for human figures, even those as revered as John the Baptist.  ",
+                "Note that while John the Baptist is respected and his legacy honored (often through veneration or commemoration), this is distinct from the act of worship.  ",
+                "Conclude that despite his historical and religious significance, he is not actively worshiped in the same way that divine beings are in religious practice.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 6.851757049560547,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is John the Baptist still impo",
+            "question": "Is John the Baptist still important to people today?",
+            "answerKey": true,
+            "cot_output": "Step 1: John the Baptist is a prominent historical and religious figure cited in Christianity and acknowledged in Islam, indicating his lasting influence across important religious traditions.\nStep 2: Many modern religious communities still refer to his example of piety, his role in baptisms, and his moral teachings, which suggests an ongoing relevance.\nStep 3: The continued veneration and scholarly study of his life and actions in contemporary religious contexts supports the notion that he remains significant to people today.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "John the Baptist is a prominent historical and religious figure cited in Christianity and acknowledged in Islam, indicating his lasting influence across important religious traditions.",
+                "Many modern religious communities still refer to his example of piety, his role in baptisms, and his moral teachings, which suggests an ongoing relevance.",
+                "The continued veneration and scholarly study of his life and actions in contemporary religious contexts supports the notion that he remains significant to people today."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.290831089019775,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do the Great Lakes have any en",
+            "question": "Do the Great Lakes have any endangered species?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Great Lakes constitute a large freshwater ecosystem known for its rich biodiversity, hosting various species of fish, invertebrates, and other wildlife.  \nStep 2: Among this diverse array, some species have been identified as endangered or threatened, according to conservation assessments and endangered species listings.  \nStep 3: Various governmental and environmental agencies have documented the presence of endangered species within the Great Lakes region, confirming that the ecosystem is not free from species at risk.  \nStep 4: Given that there is documented evidence of at least one endangered species in the Great Lakes region, the statement \"Do the Great Lakes have any endangered species?\" is supported.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Great Lakes constitute a large freshwater ecosystem known for its rich biodiversity, hosting various species of fish, invertebrates, and other wildlife.  ",
+                "Among this diverse array, some species have been identified as endangered or threatened, according to conservation assessments and endangered species listings.  ",
+                "Various governmental and environmental agencies have documented the presence of endangered species within the Great Lakes region, confirming that the ecosystem is not free from species at risk.  ",
+                "Given that there is documented evidence of at least one endangered species in the Great Lakes region, the statement \"Do the Great Lakes have any endangered species?\" is supported.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 7.58926796913147,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do the Great Lakes have more e",
+            "question": "Do the Great Lakes have more endangered species than other parts of the US?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that the claim compares the number of endangered species in the Great Lakes region with those in other parts of the United States.\nStep 2: Understand that many ecosystems such as tropical climates, arid regions, and biodiversity hotspots (e.g., in the Southwest, California, and Florida) tend to support a higher diversity of species, including endangered ones.\nStep 3: Note that the Great Lakes, while ecologically significant, are not typically characterized as the region with the highest number of endangered species in the United States.\nStep 4: Conclude that available evidence and comparative ecological data suggest that the Great Lakes do not have more endangered species than other parts of the U.S.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the claim compares the number of endangered species in the Great Lakes region with those in other parts of the United States.",
+                "Understand that many ecosystems such as tropical climates, arid regions, and biodiversity hotspots (e.g., in the Southwest, California, and Florida) tend to support a higher diversity of species, including endangered ones.",
+                "Note that the Great Lakes, while ecologically significant, are not typically characterized as the region with the highest number of endangered species in the United States.",
+                "Conclude that available evidence and comparative ecological data suggest that the Great Lakes do not have more endangered species than other parts of the U.S."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 6.589647054672241,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do the Great Lakes freeze in t",
+            "question": "Do the Great Lakes freeze in the winter?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Great Lakes are a group of very large freshwater lakes in North America with significant volumes, causing them to retain heat well into the winter.\nStep 2: Due to their large mass and high thermal inertia, they generally do not freeze completely during winter, even in very cold conditions.\nStep 3: While some areas along the shallow edges might develop ice, the majority of the lakes remain unfrozen.\nStep 4: Thus, the statement that \"the Great Lakes freeze in the winter\" implying complete freezing is not accurate.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Great Lakes are a group of very large freshwater lakes in North America with significant volumes, causing them to retain heat well into the winter.",
+                "Due to their large mass and high thermal inertia, they generally do not freeze completely during winter, even in very cold conditions.",
+                "While some areas along the shallow edges might develop ice, the majority of the lakes remain unfrozen.",
+                "Thus, the statement that \"the Great Lakes freeze in the winter\" implying complete freezing is not accurate."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.415058135986328,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do people ice fish on the Grea",
+            "question": "Do people ice fish on the Great Lakes in the winter?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that ice fishing is a common winter activity in regions where water bodies freeze sufficiently to support it.  \nStep 2: The Great Lakes, located in areas with cold winters, experience freezing conditions on many of their surfaces, particularly in shallower coastal areas.  \nStep 3: Communities around the Great Lakes have a history and tradition of engaging in winter ice fishing on these lakes, as documented by multiple regional reports and recreational practices.  \nStep 4: Given the freezing conditions and local traditions, it is clear that people do engage in ice fishing on the Great Lakes during the winter.  \n===FINAL_ANSWER_START===  \nConclusion: true  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that ice fishing is a common winter activity in regions where water bodies freeze sufficiently to support it.  ",
+                "The Great Lakes, located in areas with cold winters, experience freezing conditions on many of their surfaces, particularly in shallower coastal areas.  ",
+                "Communities around the Great Lakes have a history and tradition of engaging in winter ice fishing on these lakes, as documented by multiple regional reports and recreational practices.  ",
+                "Given the freezing conditions and local traditions, it is clear that people do engage in ice fishing on the Great Lakes during the winter.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.901167154312134,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do the Great Lakes have bacter",
+            "question": "Do the Great Lakes have bacteria in the water?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Great Lakes are large bodies of freshwater.  \nStep 2: Freshwater environments naturally support diverse microbial life, including bacteria.  \nStep 3: Scientific studies of freshwater bodies, including large lakes, consistently find bacteria thriving in the water.  \nStep 4: Since the Great Lakes are such environments, it logically follows that they also contain bacteria.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Great Lakes are large bodies of freshwater.  ",
+                "Freshwater environments naturally support diverse microbial life, including bacteria.  ",
+                "Scientific studies of freshwater bodies, including large lakes, consistently find bacteria thriving in the water.  ",
+                "Since the Great Lakes are such environments, it logically follows that they also contain bacteria.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.0495758056640625,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Has anyone ever drowned in the",
+            "question": "Has anyone ever drowned in the Great Lakes?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Great Lakes are vast natural water bodies known for recreational and commercial use, where numerous water-related activities occur.  \nStep 2: Drowning is a potential hazard in any large natural body of water, and historical data and reports confirm that drownings occur in lakes and oceans worldwide.  \nStep 3: There is documented evidence and historical records of drowning incidents in the Great Lakes, occurring in both accidental and extreme weather conditions.  \nStep 4: Given the known dangers of large, turbulent water bodies and recorded incidents in the Great Lakes, the statement that someone has drowned in the Great Lakes is supported by evidence.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Great Lakes are vast natural water bodies known for recreational and commercial use, where numerous water-related activities occur.  ",
+                "Drowning is a potential hazard in any large natural body of water, and historical data and reports confirm that drownings occur in lakes and oceans worldwide.  ",
+                "There is documented evidence and historical records of drowning incidents in the Great Lakes, occurring in both accidental and extreme weather conditions.  ",
+                "Given the known dangers of large, turbulent water bodies and recorded incidents in the Great Lakes, the statement that someone has drowned in the Great Lakes is supported by evidence.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.326486110687256,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Has anyone drowned in the Grea",
+            "question": "Has anyone drowned in the Great Lakes in 2019?",
+            "answerKey": true,
+            "cot_output": "Step 1: Drowning incidents are well-documented and reported in major bodies of water, including the Great Lakes.  \nStep 2: The Great Lakes, due to their size and natural hazards, have historically seen accidents including drownings.  \nStep 3: Without an extraordinary circumstance stopping such incidents in 2019, it is reasonable to conclude that drownings likely occurred during that year.  \nStep 4: Evaluating available historical trends and common accident reports implies that at least one drowning incident occurred in the Great Lakes in 2019.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Drowning incidents are well-documented and reported in major bodies of water, including the Great Lakes.  ",
+                "The Great Lakes, due to their size and natural hazards, have historically seen accidents including drownings.  ",
+                "Without an extraordinary circumstance stopping such incidents in 2019, it is reasonable to conclude that drownings likely occurred during that year.  ",
+                "Evaluating available historical trends and common accident reports implies that at least one drowning incident occurred in the Great Lakes in 2019.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.460571050643921,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are there any fresh water sand",
+            "question": "Are there any fresh water sand dunes in the Great Lakes?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Great Lakes are large bodies of freshwater.  \nStep 2: There are regions along the shores of the Great Lakes, such as near Lake Michigan, where sand dunes occur.  \nStep 3: These dunes, such as those in Sleeping Bear Dunes National Lakeshore, are formed adjacent to freshwater bodies rather than saltwater.  \nStep 4: Since the dunes adjacent to the Great Lakes are adjacent to freshwater, they can be considered fresh water sand dunes.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Great Lakes are large bodies of freshwater.  ",
+                "There are regions along the shores of the Great Lakes, such as near Lake Michigan, where sand dunes occur.  ",
+                "These dunes, such as those in Sleeping Bear Dunes National Lakeshore, are formed adjacent to freshwater bodies rather than saltwater.  ",
+                "Since the dunes adjacent to the Great Lakes are adjacent to freshwater, they can be considered fresh water sand dunes.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.7549760341644287,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do the Great Lakes have at lea",
+            "question": "Do the Great Lakes have at least 15% of the worlds freshwater fish supply?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that the term \"world's freshwater fish supply\" refers to the total biomass or populations of fish living in all of the planet’s freshwater systems, which are spread across numerous continents and ecosystems.\nStep 2: Understand that while the Great Lakes are one of the largest freshwater ecosystems by volume and surface area, they represent only a small fraction of the Earth’s total freshwater bodies.\nStep 3: Consider that many regions, particularly in tropical areas, have extremely high fish diversity and biomass, contributing significantly to the global freshwater fish supply.\nStep 4: Conclude that because the Great Lakes, despite their size and ecological importance, constitute only one segment of global freshwater habitats, they are highly unlikely to encompass at least 15% of the worldwide freshwater fish supply.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the term \"world's freshwater fish supply\" refers to the total biomass or populations of fish living in all of the planet’s freshwater systems, which are spread across numerous continents and ecosystems.",
+                "Understand that while the Great Lakes are one of the largest freshwater ecosystems by volume and surface area, they represent only a small fraction of the Earth’s total freshwater bodies.",
+                "Consider that many regions, particularly in tropical areas, have extremely high fish diversity and biomass, contributing significantly to the global freshwater fish supply.",
+                "Conclude that because the Great Lakes, despite their size and ecological importance, constitute only one segment of global freshwater habitats, they are highly unlikely to encompass at least 15% of the worldwide freshwater fish supply."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.848175287246704,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are any of the Great Lakes ent",
+            "question": "Are any of the Great Lakes entirely in the US?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that the Great Lakes consist of five lakes: Superior, Michigan, Huron, Erie, and Ontario.\nStep 2: Understand that the international border between the United States and Canada runs along some of these lakes.\nStep 3: Identify that among these lakes, Lake Michigan is the only one that lies entirely within the United States.\nStep 4: Conclude that since at least one of the Great Lakes (Lake Michigan) is entirely in the US, the answer to the question is true.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the Great Lakes consist of five lakes: Superior, Michigan, Huron, Erie, and Ontario.",
+                "Understand that the international border between the United States and Canada runs along some of these lakes.",
+                "Identify that among these lakes, Lake Michigan is the only one that lies entirely within the United States.",
+                "Conclude that since at least one of the Great Lakes (Lake Michigan) is entirely in the US, the answer to the question is true."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 2.977360725402832,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is there a state that touches ",
+            "question": "Is there a state that touches several of the Great Lakes?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify that several U.S. states border the Great Lakes area, each touching one or more of the lakes.\nStep 2: Recognize that some states, like Michigan, actually border multiple Great Lakes (e.g., Lake Superior, Lake Michigan, Lake Huron).\nStep 3: Conclude that since at least one state touches several of the Great Lakes, the statement is correct.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that several U.S. states border the Great Lakes area, each touching one or more of the lakes.",
+                "Recognize that some states, like Michigan, actually border multiple Great Lakes (e.g., Lake Superior, Lake Michigan, Lake Huron).",
+                "Conclude that since at least one state touches several of the Great Lakes, the statement is correct."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.116814136505127,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Would nickel boil if placed in",
+            "question": "Would nickel boil if placed in the core of Neptune?",
+            "answerKey": true,
+            "cot_output": "Step 1: Nickel has a boiling point of approximately 3000°C (around 3300 K) at standard atmospheric pressure, but this boiling point increases with pressure.\nStep 2: In the core of Neptune, both the temperature and pressure are extremely high—in fact, the pressure is so immense that it significantly raises the boiling points of materials compared to their values at 1 atm.\nStep 3: Although the estimated temperature in Neptune’s core might be high (potentially on the order of several thousand Kelvin), the extreme pressure in the core would counteract a tendency to boil by elevating nickel’s boiling point well above that temperature.\nStep 4: Therefore, if nickel were placed in the core of Neptune, it would not boil because the high pressure would keep its boiling point above the surrounding temperature.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Nickel has a boiling point of approximately 3000°C (around 3300 K) at standard atmospheric pressure, but this boiling point increases with pressure.",
+                "In the core of Neptune, both the temperature and pressure are extremely high—in fact, the pressure is so immense that it significantly raises the boiling points of materials compared to their values at 1 atm.",
+                "Although the estimated temperature in Neptune’s core might be high (potentially on the order of several thousand Kelvin), the extreme pressure in the core would counteract a tendency to boil by elevating nickel’s boiling point well above that temperature.",
+                "Therefore, if nickel were placed in the core of Neptune, it would not boil because the high pressure would keep its boiling point above the surrounding temperature."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.89369797706604,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Does Gavin Rossdale have a lar",
+            "question": "Does Gavin Rossdale have a large enough net worth to purchase the most expensive Thoroughbred horse?",
+            "answerKey": true,
+            "cot_output": "Step 1: Gavin Rossdale is best known as the lead singer of the band Bush and, although having a successful career in music and acting, his net worth is estimated to be on the order of tens of millions of dollars—well below the ultra-high net worth typically required for multimillion-dollar investments.  \nStep 2: The most expensive Thoroughbred horses in history have sold for sums on the order of several tens of millions of dollars (for example, some record auction prices have exceeded $70 million), reflecting the elite market of top-tier racehorses.  \nStep 3: By comparing these figures, even if Gavin Rossdale’s net worth were at the higher end of his estimation, it is still unlikely to surpass or match the cost of the most expensive Thoroughbred horse available, since purchasing such a horse would require a net worth comfortably far above the average celebrity net worth in popular music.  \nStep 4: Therefore, given the vast difference between Gavin Rossdale’s estimated net worth and the price tag attached to the most expensive Thoroughbred, he would not have a large enough net worth to purchase that horse.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Gavin Rossdale is best known as the lead singer of the band Bush and, although having a successful career in music and acting, his net worth is estimated to be on the order of tens of millions of dollars—well below the ultra-high net worth typically required for multimillion-dollar investments.  ",
+                "The most expensive Thoroughbred horses in history have sold for sums on the order of several tens of millions of dollars (for example, some record auction prices have exceeded $70 million), reflecting the elite market of top-tier racehorses.  ",
+                "By comparing these figures, even if Gavin Rossdale’s net worth were at the higher end of his estimation, it is still unlikely to surpass or match the cost of the most expensive Thoroughbred horse available, since purchasing such a horse would require a net worth comfortably far above the average celebrity net worth in popular music.  ",
+                "Therefore, given the vast difference between Gavin Rossdale’s estimated net worth and the price tag attached to the most expensive Thoroughbred, he would not have a large enough net worth to purchase that horse.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 8.2098228931427,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was the current U.S. speaker o",
+            "question": "Was the current U.S. speaker of the house alive during the attack on Pearl Harbor?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify the current U.S. Speaker of the House, who is Kevin McCarthy.  \nStep 2: Determine Kevin McCarthy’s birth year, which is 1965.  \nStep 3: Note that the attack on Pearl Harbor occurred on December 7, 1941.  \nStep 4: Since 1965 is well after 1941, Kevin McCarthy could not have been alive during the attack.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the current U.S. Speaker of the House, who is Kevin McCarthy.  ",
+                "Determine Kevin McCarthy’s birth year, which is 1965.  ",
+                "Note that the attack on Pearl Harbor occurred on December 7, 1941.  ",
+                "Since 1965 is well after 1941, Kevin McCarthy could not have been alive during the attack.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.682210683822632,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was Abraham Lincoln responsibl",
+            "question": "Was Abraham Lincoln responsible for founding the University of Pittsburgh?",
+            "answerKey": null,
+            "cot_output": "Step 1: Abraham Lincoln was the 16th President of the United States during the 1860s and is known for his leadership during the Civil War and the abolition of slavery.\nStep 2: The University of Pittsburgh was originally established in the late 18th century (specifically as the Pittsburgh Academy in 1787) through local educational efforts, not through any action or support by Abraham Lincoln.\nStep 3: There is no historical evidence linking Abraham Lincoln to the founding of the University of Pittsburgh.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Abraham Lincoln was the 16th President of the United States during the 1860s and is known for his leadership during the Civil War and the abolition of slavery.",
+                "The University of Pittsburgh was originally established in the late 18th century (specifically as the Pittsburgh Academy in 1787) through local educational efforts, not through any action or support by Abraham Lincoln.",
+                "There is no historical evidence linking Abraham Lincoln to the founding of the University of Pittsburgh."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.495431900024414,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Abraham Lincoln help to es",
+            "question": "Did Abraham Lincoln help to establish the University of Pittsburgh?",
+            "answerKey": null,
+            "cot_output": "Step 1: Abraham Lincoln (1809–1865) was a 16th-century American president known for his leadership during the Civil War, while his main contributions were in politics and the emancipation of slaves.  \nStep 2: The University of Pittsburgh originated from the Pittsburgh Academy, established in 1787, long before Lincoln’s presidency and without any documented involvement from him.  \nStep 3: Historical records do not indicate that Abraham Lincoln played any role in establishing the University of Pittsburgh.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Abraham Lincoln (1809–1865) was a 16th-century American president known for his leadership during the Civil War, while his main contributions were in politics and the emancipation of slaves.  ",
+                "The University of Pittsburgh originated from the Pittsburgh Academy, established in 1787, long before Lincoln’s presidency and without any documented involvement from him.  ",
+                "Historical records do not indicate that Abraham Lincoln played any role in establishing the University of Pittsburgh.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.237576961517334,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the lead singer of Led Zep",
+            "question": "Did the lead singer of Led Zepplin ever play as a child in Leasowes Park?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify that the lead singer of Led Zeppelin is Robert Plant.  \nStep 2: Recognize that the question asks if Robert Plant played as a child in Leasowes Park.  \nStep 3: Recall that there is no well-documented biographical evidence or widely known record linking Robert Plant’s childhood activities specifically with Leasowes Park.  \nStep 4: Conclude that, based on available and commonly accepted historical data, the claim is not supported by reliable sources.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that the lead singer of Led Zeppelin is Robert Plant.  ",
+                "Recognize that the question asks if Robert Plant played as a child in Leasowes Park.  ",
+                "Recall that there is no well-documented biographical evidence or widely known record linking Robert Plant’s childhood activities specifically with Leasowes Park.  ",
+                "Conclude that, based on available and commonly accepted historical data, the claim is not supported by reliable sources.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.345928907394409,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the lead singer of Led Zep",
+            "question": "Did the lead singer of Led Zepplin ever play in a park designed by a poet?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify the lead singer of Led Zeppelin, who is Robert Plant.\nStep 2: Interpret the phrase “play in a park designed by a poet” to mean a performance occurring in a park whose design was credited to a poet, not simply a park with poetic associations or a name that could seem poetically inspired.\nStep 3: Review known historical records and public performances of Robert Plant and Led Zeppelin; there is no well-documented instance of them performing in a park that was designed by a known poet.\nStep 4: Since there is no evidence connecting Robert Plant with a park designed by a poet, we conclude that the statement does not hold true.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the lead singer of Led Zeppelin, who is Robert Plant.",
+                "Interpret the phrase “play in a park designed by a poet” to mean a performance occurring in a park whose design was credited to a poet, not simply a park with poetic associations or a name that could seem poetically inspired.",
+                "Review known historical records and public performances of Robert Plant and Led Zeppelin; there is no well-documented instance of them performing in a park that was designed by a known poet.",
+                "Since there is no evidence connecting Robert Plant with a park designed by a poet, we conclude that the statement does not hold true."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.095556020736694,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could someone from Prussia com",
+            "question": "Could someone from Prussia communicate easily with someone from Austria?",
+            "answerKey": true,
+            "cot_output": "Step 1: Prussia and Austria were both regions in Central Europe where variations of German were spoken.  \nStep 2: Since both parties generally shared German as their primary language, they had a common linguistic basis for communication.  \nStep 3: While regional dialects might have differed, the shared language allowed for effective and relatively easy communication.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Prussia and Austria were both regions in Central Europe where variations of German were spoken.  ",
+                "Since both parties generally shared German as their primary language, they had a common linguistic basis for communication.  ",
+                "While regional dialects might have differed, the shared language allowed for effective and relatively easy communication.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.308803081512451,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could someone from Prussia com",
+            "question": "Could someone from Prussia communicate easily with Wilhelm Miklas?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that Prussia was a historical state predominantly populated by German speakers.  \nStep 2: Acknowledge that Wilhelm Miklas, as a historical political figure (President of Austria), would have used German as his native and official language.  \nStep 3: Conclude that since both parties share German as a common language, communication between someone from Prussia and Wilhelm Miklas would be linguistically straightforward.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that Prussia was a historical state predominantly populated by German speakers.  ",
+                "Acknowledge that Wilhelm Miklas, as a historical political figure (President of Austria), would have used German as his native and official language.  ",
+                "Conclude that since both parties share German as a common language, communication between someone from Prussia and Wilhelm Miklas would be linguistically straightforward.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.13935399055481,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could someone from Prussia com",
+            "question": "Could someone from Prussia communicate easily with Wilhelm Miklas?",
+            "answerKey": true,
+            "cot_output": "Step 1: Wilhelm Miklas was a political figure from Austria, and his native language was German.  \nStep 2: Prussia was a region where the predominant language was also German, meaning a native from Prussia would conventionally speak German.  \nStep 3: Because both parties are German speakers, language would not be a barrier, allowing them to communicate easily.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Wilhelm Miklas was a political figure from Austria, and his native language was German.  ",
+                "Prussia was a region where the predominant language was also German, meaning a native from Prussia would conventionally speak German.  ",
+                "Because both parties are German speakers, language would not be a barrier, allowing them to communicate easily.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.373355150222778,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Jay-Z know Kanye West in 2",
+            "question": "Did Jay-Z know Kanye West in 2011? ",
+            "answerKey": true,
+            "cot_output": "Step 1: Jay-Z and Kanye West are both prominent figures in the music industry, and their professional interactions are well documented.\nStep 2: Their collaboration on the album \"Watch The Throne\" and various public projects confirms that they had a working relationship.\nStep 3: Since \"Watch The Throne\" was released in 2011, it implies that by that year, Jay-Z and Kanye West were familiar with each other.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Jay-Z and Kanye West are both prominent figures in the music industry, and their professional interactions are well documented.",
+                "Their collaboration on the album \"Watch The Throne\" and various public projects confirms that they had a working relationship.",
+                "Since \"Watch The Throne\" was released in 2011, it implies that by that year, Jay-Z and Kanye West were familiar with each other."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.294414043426514,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Jay-Z know Kanye West in 2",
+            "question": "Did Jay-Z know Kanye West in 2012? ",
+            "answerKey": true,
+            "cot_output": "Step 1: Jay-Z and Kanye West are both prominent figures in the music industry known for their collaborations and involvement with each other.\nStep 2: Historical evidence, including joint projects like \"Watch the Throne\" and other public engagements, confirms a professional and personal acquaintance between them.\nStep 3: By the year 2012, these collaborations and mutual associations had already established that Jay-Z knew Kanye West.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Jay-Z and Kanye West are both prominent figures in the music industry known for their collaborations and involvement with each other.",
+                "Historical evidence, including joint projects like \"Watch the Throne\" and other public engagements, confirms a professional and personal acquaintance between them.",
+                "By the year 2012, these collaborations and mutual associations had already established that Jay-Z knew Kanye West."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.0446338653564453,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Will Jay-Z reach the age of 60",
+            "question": "Will Jay-Z reach the age of 60 before Kendrick Lamar?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify the birth dates of the two individuals. Jay-Z was born on December 4, 1969, and Kendrick Lamar was born on June 17, 1987.\nStep 2: Calculate the year in which each will reach the age of 60. Jay-Z will turn 60 in 2029 (1969 + 60 = 2029), and Kendrick Lamar will turn 60 in 2047 (1987 + 60 = 2047).\nStep 3: Compare the years when each will reach 60. Since 2029 comes before 2047, Jay-Z will reach the age of 60 well before Kendrick Lamar.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the birth dates of the two individuals. Jay-Z was born on December 4, 1969, and Kendrick Lamar was born on June 17, 1987.",
+                "Calculate the year in which each will reach the age of 60. Jay-Z will turn 60 in 2029 (1969 + 60 = 2029), and Kendrick Lamar will turn 60 in 2047 (1987 + 60 = 2047).",
+                "Compare the years when each will reach 60. Since 2029 comes before 2047, Jay-Z will reach the age of 60 well before Kendrick Lamar."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.613982915878296,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Martin Luther know Latin?",
+            "question": "Did Martin Luther know Latin?",
+            "answerKey": true,
+            "cot_output": "Step 1: Martin Luther was a key figure in the Protestant Reformation and was known as an educated theologian and monk.  \nStep 2: His education, typical of medieval scholars, included rigorous training in Latin, the scholarly and liturgical language of the time.  \nStep 3: Historical records and his works indicate that Luther wrote and published texts in Latin, demonstrating his proficiency in the language.  \nStep 4: Given these points, it is clear that Martin Luther did know Latin.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Martin Luther was a key figure in the Protestant Reformation and was known as an educated theologian and monk.  ",
+                "His education, typical of medieval scholars, included rigorous training in Latin, the scholarly and liturgical language of the time.  ",
+                "Historical records and his works indicate that Luther wrote and published texts in Latin, demonstrating his proficiency in the language.  ",
+                "Given these points, it is clear that Martin Luther did know Latin.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.5810492038726807,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was Manny Pacquiao a boxing ch",
+            "question": "Was Manny Pacquiao a boxing champion when Obama was first elected US president?",
+            "answerKey": true,
+            "cot_output": "Step 1: Barack Obama was first elected US President in November 2008.\nStep 2: Manny Pacquiao had already become a world boxing champion by that time, having won his first major title in 1998 and multiple titles in subsequent years.\nStep 3: Since Manny Pacquiao was a champion well before Obama's election, he was indeed a boxing champion at that moment.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Barack Obama was first elected US President in November 2008.",
+                "Manny Pacquiao had already become a world boxing champion by that time, having won his first major title in 1998 and multiple titles in subsequent years.",
+                "Since Manny Pacquiao was a champion well before Obama's election, he was indeed a boxing champion at that moment."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.053671836853027,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is an economist qualified to s",
+            "question": "Is an economist qualified to study the effects of inflationary pressure?",
+            "answerKey": true,
+            "cot_output": "Step 1: Economists are trained in analyzing economic phenomena, including inflation and its effects.  \nStep 2: Part of an economist’s expertise is understanding monetary policies and economic indicators that cause inflationary pressure.  \nStep 3: Given their academic background and research capabilities, economists have the necessary skills to study the effects of inflation.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Economists are trained in analyzing economic phenomena, including inflation and its effects.  ",
+                "Part of an economist’s expertise is understanding monetary policies and economic indicators that cause inflationary pressure.  ",
+                "Given their academic background and research capabilities, economists have the necessary skills to study the effects of inflation.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.8393630981445312,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is an economist able to study ",
+            "question": "Is an economist able to study the effects of inflationary pressure?",
+            "answerKey": true,
+            "cot_output": "Step 1: An economist is trained to analyze, interpret, and understand economic data and phenomena.  \nStep 2: Inflationary pressure refers to the economic phenomenon where increasing demand or production costs elevate prices, which is a fundamental topic in economics.  \nStep 3: Given that studying inflation and its effects is central to economic theory and policy analysis, it falls directly within an economist's field of study.  \nStep 4: Therefore, an economist is well-equipped to study the effects of inflationary pressure.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "An economist is trained to analyze, interpret, and understand economic data and phenomena.  ",
+                "Inflationary pressure refers to the economic phenomenon where increasing demand or production costs elevate prices, which is a fundamental topic in economics.  ",
+                "Given that studying inflation and its effects is central to economic theory and policy analysis, it falls directly within an economist's field of study.  ",
+                "Therefore, an economist is well-equipped to study the effects of inflationary pressure.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.577073097229004,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is an economist able to determ",
+            "question": "Is an economist able to determine why the price of a burrito changes?",
+            "answerKey": true,
+            "cot_output": "Step 1: The price of a burrito, like any product, is influenced by economic factors such as supply and demand, production costs, and market competition.  \nStep 2: Economists use established theories and tools to analyze these economic factors, allowing them to trace how variations in these elements cause changes in price.  \nStep 3: A burrito's price, being a market phenomenon, falls squarely within the domain of economic analysis, meaning that an economist can apply these methods to determine its fluctuations.  \nStep 4: Given that economists are trained to examine and interpret such market dynamics, they are generally able to assess the reasons behind price changes in goods, including a burrito.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The price of a burrito, like any product, is influenced by economic factors such as supply and demand, production costs, and market competition.  ",
+                "Economists use established theories and tools to analyze these economic factors, allowing them to trace how variations in these elements cause changes in price.  ",
+                "A burrito's price, being a market phenomenon, falls squarely within the domain of economic analysis, meaning that an economist can apply these methods to determine its fluctuations.  ",
+                "Given that economists are trained to examine and interpret such market dynamics, they are generally able to assess the reasons behind price changes in goods, including a burrito.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.23892879486084,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was the country featured in Al",
+            "question": "Was the country featured in All My Life one of the participants in the Six-Day War?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Six-Day War (1967) involved key Middle Eastern states, including Israel, Egypt, Jordan, and Syria.  \nStep 2: “All My Life” is known to have focused on Israel as its setting or subject.  \nStep 3: Because Israel was indeed one of the participants in the Six-Day War, the answer to whether the country featured in “All My Life” was one of those participants is affirmative.\n\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Six-Day War (1967) involved key Middle Eastern states, including Israel, Egypt, Jordan, and Syria.  ",
+                "“All My Life” is known to have focused on Israel as its setting or subject.  ",
+                "Because Israel was indeed one of the participants in the Six-Day War, the answer to whether the country featured in “All My Life” was one of those participants is affirmative."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 12.834052085876465,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the founders of Encyclopæd",
+            "question": "Did the founders of Encyclopædia Britannica enjoy views of the Firth of Forth?",
+            "answerKey": true,
+            "cot_output": "Step 1: The founders of Encyclopædia Britannica, Colin Macfarquhar and Andrew Bell, were based in Edinburgh, Scotland.  \nStep 2: Edinburgh is indeed a Scottish city that is associated with many scenic vistas, and parts of the city lie near the Firth of Forth.  \nStep 3: However, “enjoying views of the Firth of Forth” implies that the founders had personal access or known boasts of direct views from their residences or offices, and there is no documented evidence or historical record confirming that they specifically had or valued such views.  \nStep 4: Since no reliable historical information clearly indicates that the founders specifically “enjoyed views” of the Firth of Forth, we cannot affirm the statement as true.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The founders of Encyclopædia Britannica, Colin Macfarquhar and Andrew Bell, were based in Edinburgh, Scotland.  ",
+                "Edinburgh is indeed a Scottish city that is associated with many scenic vistas, and parts of the city lie near the Firth of Forth.  ",
+                "However, “enjoying views of the Firth of Forth” implies that the founders had personal access or known boasts of direct views from their residences or offices, and there is no documented evidence or historical record confirming that they specifically had or valued such views.  ",
+                "Since no reliable historical information clearly indicates that the founders specifically “enjoyed views” of the Firth of Forth, we cannot affirm the statement as true.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 14.34555697441101,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Christian music played in C",
+            "question": "Is Christian music played in Churches?",
+            "answerKey": true,
+            "cot_output": "Step 1: Churches are primarily centers for Christian worship and community gatherings.\nStep 2: A central element of Christian worship is music, often including hymns and other forms of Christian music.\nStep 3: Christian music is specifically designed to express and celebrate Christian beliefs, which aligns with the purposes of church services.\nStep 4: Since music is an integral part of Christian worship in churches, it follows that Christian music is played in churches.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Churches are primarily centers for Christian worship and community gatherings.",
+                "A central element of Christian worship is music, often including hymns and other forms of Christian music.",
+                "Christian music is specifically designed to express and celebrate Christian beliefs, which aligns with the purposes of church services.",
+                "Since music is an integral part of Christian worship in churches, it follows that Christian music is played in churches."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.588571310043335,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Fanny Crosby write Christi",
+            "question": "Did Fanny Crosby write Christian music?",
+            "answerKey": true,
+            "cot_output": "Step 1: Fanny Crosby was a renowned hymn writer known for composing thousands of hymns that are integral to Christian worship.\nStep 2: These hymns, which are considered Christian music, have been widely sung in churches and continue to influence Christian liturgical practices.\nStep 3: Since her body of work clearly falls under the category of Christian music, it logically follows that Fanny Crosby did indeed write Christian music.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Fanny Crosby was a renowned hymn writer known for composing thousands of hymns that are integral to Christian worship.",
+                "These hymns, which are considered Christian music, have been widely sung in churches and continue to influence Christian liturgical practices.",
+                "Since her body of work clearly falls under the category of Christian music, it logically follows that Fanny Crosby did indeed write Christian music."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.1257519721984863,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is Battle Hymn of the Republic",
+            "question": "Is Battle Hymn of the Republic considered christian music?",
+            "answerKey": true,
+            "cot_output": "Step 1: \"Battle Hymn of the Republic\" includes biblical references and theological language, indicating its foundation in Christian themes.\nStep 2: It has been used historically in American religious contexts and church gatherings, reinforcing its association with the Christian tradition.\nStep 3: Its classification as a hymn further supports its recognition as a form of Christian music.\nStep 4: Based on its lyrical content, usage, and historical context within the Christian tradition, it is considered Christian music.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "\"Battle Hymn of the Republic\" includes biblical references and theological language, indicating its foundation in Christian themes.",
+                "It has been used historically in American religious contexts and church gatherings, reinforcing its association with the Christian tradition.",
+                "Its classification as a hymn further supports its recognition as a form of Christian music.",
+                "Based on its lyrical content, usage, and historical context within the Christian tradition, it is considered Christian music."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.235197067260742,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Brian Lamb ever host a tel",
+            "question": "Did Brian Lamb ever host a television program on C-SPAN?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that Brian Lamb is best known for his association with C-SPAN, having been its founder and one of its prominent figures.  \nStep 2: Recall that Brian Lamb hosted the well-known television program \"Booknotes\" on C-SPAN, a program that featured in-depth interviews with authors.  \nStep 3: Understand that \"Booknotes\" is a television program aired on C-SPAN, which directly confirms that Brian Lamb did host a C-SPAN show.  \nStep 4: Conclude from the above information that the statement \"Brian Lamb ever hosted a television program on C-SPAN\" is accurate.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that Brian Lamb is best known for his association with C-SPAN, having been its founder and one of its prominent figures.  ",
+                "Recall that Brian Lamb hosted the well-known television program \"Booknotes\" on C-SPAN, a program that featured in-depth interviews with authors.  ",
+                "Understand that \"Booknotes\" is a television program aired on C-SPAN, which directly confirms that Brian Lamb did host a C-SPAN show.  ",
+                "Conclude from the above information that the statement \"Brian Lamb ever hosted a television program on C-SPAN\" is accurate.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.5056259632110596,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Christopher Hitchens ever ",
+            "question": "Did Christopher Hitchens ever appear on C-Span?",
+            "answerKey": true,
+            "cot_output": "Step 1: Christopher Hitchens was a well-known public intellectual, commentator, and author who engaged in numerous debates, discussions, and interviews throughout his career.  \nStep 2: C-SPAN is recognized for covering political discourse, debates, and public discussions, often featuring prominent figures like Hitchens.  \nStep 3: Given Hitchens’s active participation in events and televised discussions, it is highly likely that his appearances would have been covered by C-SPAN.  \nStep 4: Historical records and television archives confirm that Hitchens did indeed appear on C-SPAN, aligning with his extensive public engagement.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Christopher Hitchens was a well-known public intellectual, commentator, and author who engaged in numerous debates, discussions, and interviews throughout his career.  ",
+                "C-SPAN is recognized for covering political discourse, debates, and public discussions, often featuring prominent figures like Hitchens.  ",
+                "Given Hitchens’s active participation in events and televised discussions, it is highly likely that his appearances would have been covered by C-SPAN.  ",
+                "Historical records and television archives confirm that Hitchens did indeed appear on C-SPAN, aligning with his extensive public engagement.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 7.238513231277466,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Was C-Span on the air in 1987?",
+            "question": "Was C-Span on the air in 1987?",
+            "answerKey": true,
+            "cot_output": "Step 1: C-SPAN was established in 1979 to provide public access to governmental proceedings.\nStep 2: Once established, C-SPAN began continuous operations, providing coverage without interruption in subsequent years.\nStep 3: Since 1987 falls within the period following its inception in 1979, C-SPAN was indeed on the air in 1987.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "C-SPAN was established in 1979 to provide public access to governmental proceedings.",
+                "Once established, C-SPAN began continuous operations, providing coverage without interruption in subsequent years.",
+                "Since 1987 falls within the period following its inception in 1979, C-SPAN was indeed on the air in 1987."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 3.6311228275299072,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could someone watch C-Span on ",
+            "question": "Could someone watch C-Span on cable in 1980?",
+            "answerKey": true,
+            "cot_output": "Step 1: Historical records show that C-SPAN (Cable-Satellite Public Affairs Network) was launched in March 1979, making its content available on cable television shortly thereafter.\nStep 2: Since cable television was widely available by the year 1980, those households subscribed to cable services could access C-SPAN.\nStep 3: The fact that C-SPAN was operational on cable by 1980 implies that someone could indeed watch it during that time.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Historical records show that C-SPAN (Cable-Satellite Public Affairs Network) was launched in March 1979, making its content available on cable television shortly thereafter.",
+                "Since cable television was widely available by the year 1980, those households subscribed to cable services could access C-SPAN.",
+                "The fact that C-SPAN was operational on cable by 1980 implies that someone could indeed watch it during that time."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.625420808792114,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Does the name C-SPAN refer to ",
+            "question": "Does the name C-SPAN refer to a form of telecommunications?",
+            "answerKey": true,
+            "cot_output": "Step 1: C-SPAN is an acronym for Cable-Satellite Public Affairs Network.  \nStep 2: The components in its name—“Cable” and “Satellite”—are both methods used in telecommunications to transmit communications signals over distances.  \nStep 3: Television broadcasting, which is how C-SPAN distributes its content, is considered a form of telecommunications.  \nStep 4: Therefore, the name C-SPAN directly refers to a service that uses telecommunications technology.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "C-SPAN is an acronym for Cable-Satellite Public Affairs Network.  ",
+                "The components in its name—“Cable” and “Satellite”—are both methods used in telecommunications to transmit communications signals over distances.  ",
+                "Television broadcasting, which is how C-SPAN distributes its content, is considered a form of telecommunications.  ",
+                "Therefore, the name C-SPAN directly refers to a service that uses telecommunications technology.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 13.996163845062256,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Metallica ever release a r",
+            "question": "Did Metallica ever release a rap song?",
+            "answerKey": null,
+            "cot_output": "Step 1: Metallica is primarily known as a heavy metal band with a style that emphatically centers around metal rather than other genres.\nStep 2: A review of Metallica’s discography shows that they have consistently released heavy metal music and do not include any tracks that are performed in a rap style.\nStep 3: Although some bands mix genres or experiment with different styles, Metallica has never released a song that would be classified as a rap song.\nStep 4: Therefore, based on their musical history and publicly available discography, Metallica has not released a rap song.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Metallica is primarily known as a heavy metal band with a style that emphatically centers around metal rather than other genres.",
+                "A review of Metallica’s discography shows that they have consistently released heavy metal music and do not include any tracks that are performed in a rap style.",
+                "Although some bands mix genres or experiment with different styles, Metallica has never released a song that would be classified as a rap song.",
+                "Therefore, based on their musical history and publicly available discography, Metallica has not released a rap song."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.22526216506958,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a human safely consume Can",
+            "question": "Can a human safely consume Cannabis?",
+            "answerKey": true,
+            "cot_output": "Step 1: Cannabis is widely used by humans both recreationally and for medicinal purposes, which implies that there are established methods for its consumption.\nStep 2: Numerous studies and clinical trials indicate that, when used responsibly and in appropriate dosages, cannabis does not cause immediate life-threatening harm to an otherwise healthy individual.\nStep 3: Regulatory frameworks in various regions (such as parts of North America and Europe) have legalized its use based on evidence that safe consumption protocols can be established.\nStep 4: While there are potential risks and adverse effects depending on dosage, method of consumption, and individual differences, these risks are managed through proper use guidelines, indicating that safe consumption is possible.\nStep 5: Given that many humans can and do consume cannabis safely when following proper guidelines, the statement \"Can a human safely consume Cannabis?\" can be affirmed.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Cannabis is widely used by humans both recreationally and for medicinal purposes, which implies that there are established methods for its consumption.",
+                "Numerous studies and clinical trials indicate that, when used responsibly and in appropriate dosages, cannabis does not cause immediate life-threatening harm to an otherwise healthy individual.",
+                "Regulatory frameworks in various regions (such as parts of North America and Europe) have legalized its use based on evidence that safe consumption protocols can be established.",
+                "While there are potential risks and adverse effects depending on dosage, method of consumption, and individual differences, these risks are managed through proper use guidelines, indicating that safe consumption is possible.",
+                "Given that many humans can and do consume cannabis safely when following proper guidelines, the statement \"Can a human safely consume Cannabis?\" can be affirmed."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.252043008804321,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could Saint Augustine have rea",
+            "question": "Could Saint Augustine have read Hamlet?",
+            "answerKey": true,
+            "cot_output": "Step 1: Saint Augustine lived from 354 AD to 430 AD.  \nStep 2: Hamlet, a play by William Shakespeare, was written around 1600 AD, well after Saint Augustine’s time.  \nStep 3: Since Saint Augustine died over a millennium before Hamlet was written, he could not have possibly read it.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Saint Augustine lived from 354 AD to 430 AD.  ",
+                "Hamlet, a play by William Shakespeare, was written around 1600 AD, well after Saint Augustine’s time.  ",
+                "Since Saint Augustine died over a millennium before Hamlet was written, he could not have possibly read it.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.5694220066070557,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could the author of The Bell J",
+            "question": "Could the author of The Bell Jar have read Hamlet?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Bell Jar was written by Sylvia Plath, and she was an educated individual with access to classic literature during her lifetime.\nStep 2: William Shakespeare's Hamlet is one of the most well-known and studied works in the English literary canon.\nStep 3: Given the prominence of Hamlet in education and culture, it is likely that an educated author like Sylvia Plath would have been exposed to and read Hamlet.\nStep 4: There is no historical evidence or contradiction to the possibility of Sylvia Plath reading Hamlet.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Bell Jar was written by Sylvia Plath, and she was an educated individual with access to classic literature during her lifetime.",
+                "William Shakespeare's Hamlet is one of the most well-known and studied works in the English literary canon.",
+                "Given the prominence of Hamlet in education and culture, it is likely that an educated author like Sylvia Plath would have been exposed to and read Hamlet.",
+                "There is no historical evidence or contradiction to the possibility of Sylvia Plath reading Hamlet."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.116034984588623,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could the winner of a Nobel Pe",
+            "question": "Could the winner of a Nobel Peace Prize have read Hamlet?",
+            "answerKey": true,
+            "cot_output": "Step 1: Nobel Peace Prize winners are human individuals who are capable of reading and engaging with literature.\nStep 2: Hamlet is a well-known literary work written by Shakespeare, accessible to any literate person.\nStep 3: There are no known restrictions or factors that would prevent a Nobel Peace Prize winner from reading Hamlet.\nStep 4: Therefore, it is entirely possible for the winner of a Nobel Peace Prize to have read Hamlet.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Nobel Peace Prize winners are human individuals who are capable of reading and engaging with literature.",
+                "Hamlet is a well-known literary work written by Shakespeare, accessible to any literate person.",
+                "There are no known restrictions or factors that would prevent a Nobel Peace Prize winner from reading Hamlet.",
+                "Therefore, it is entirely possible for the winner of a Nobel Peace Prize to have read Hamlet."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.843858003616333,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Could a participant in the Ame",
+            "question": "Could a participant in the American Civil War read Hamlet?",
+            "answerKey": true,
+            "cot_output": "Step 1: The American Civil War occurred in the 1860s, and many soldiers and civilians of that era were literate or had some degree of education.  \nStep 2: William Shakespeare's Hamlet was written in the early 17th century and was widely recognized and studied long before the 1860s.  \nStep 3: Since Hamlet was available and known in printed form during the 19th century, literate individuals of that time could have accessed and read it.  \nStep 4: The phrase \"could a participant\" implies the possibility rather than requiring that every participant was literate; even if some soldiers were illiterate, others with adequate education could indeed read Hamlet.  \nStep 5: Therefore, it is reasonable to conclude that at least one participant in the American Civil War could have read Hamlet.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The American Civil War occurred in the 1860s, and many soldiers and civilians of that era were literate or had some degree of education.  ",
+                "William Shakespeare's Hamlet was written in the early 17th century and was widely recognized and studied long before the 1860s.  ",
+                "Since Hamlet was available and known in printed form during the 19th century, literate individuals of that time could have accessed and read it.  ",
+                "The phrase \"could a participant\" implies the possibility rather than requiring that every participant was literate; even if some soldiers were illiterate, others with adequate education could indeed read Hamlet.  ",
+                "Therefore, it is reasonable to conclude that at least one participant in the American Civil War could have read Hamlet.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.224776983261108,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Does the author of Rebecca use",
+            "question": "Does the author of Rebecca use Cornwall in another novel?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify that the author of Rebecca is Daphne du Maurier.  \nStep 2: Recall that Daphne du Maurier is renowned for setting several of her novels in Cornwall.  \nStep 3: Note that one of her well-known novels, \"Jamaica Inn,\" is explicitly set in Cornwall.  \nStep 4: Since Cornwall is used as a setting in another novel by du Maurier, we conclude that the statement is correct.\n\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that the author of Rebecca is Daphne du Maurier.  ",
+                "Recall that Daphne du Maurier is renowned for setting several of her novels in Cornwall.  ",
+                "Note that one of her well-known novels, \"Jamaica Inn,\" is explicitly set in Cornwall.  ",
+                "Since Cornwall is used as a setting in another novel by du Maurier, we conclude that the statement is correct."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.405172824859619,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the creator of Saturday Ni",
+            "question": "Did the creator of Saturday Night Live ever work with Johnny Carson?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify that the \"creator of Saturday Night Live\" is Lorne Michaels, who is credited with developing the show.  \nStep 2: Recognize that Johnny Carson was famously the host of The Tonight Show and primarily worked in that role during his career at NBC.  \nStep 3: Consider the nature of their careers: Lorne Michaels is known for producing and creating SNL, whereas Johnny Carson was a television host with his own show, and there is no widely known or documented record of direct professional collaboration between Michaels and Carson.  \nStep 4: Determine that since there is no evidence or well-known instance that Lorne Michaels (the creator of SNL) worked directly with Johnny Carson, the answer must be false.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that the \"creator of Saturday Night Live\" is Lorne Michaels, who is credited with developing the show.  ",
+                "Recognize that Johnny Carson was famously the host of The Tonight Show and primarily worked in that role during his career at NBC.  ",
+                "Consider the nature of their careers: Lorne Michaels is known for producing and creating SNL, whereas Johnny Carson was a television host with his own show, and there is no widely known or documented record of direct professional collaboration between Michaels and Carson.  ",
+                "Determine that since there is no evidence or well-known instance that Lorne Michaels (the creator of SNL) worked directly with Johnny Carson, the answer must be false.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 9.897841215133667,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the creator of Saturday Ni",
+            "question": "Did the creator of Saturday Night Live ever work with Jack Paar?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify the creator of Saturday Night Live as Lorne Michaels, who developed the show in the mid-1970s.  \nStep 2: Recognize that Jack Paar was a prominent television host, best known for hosting The Tonight Show in the late 1950s and early 1960s.  \nStep 3: Note that Jack Paar’s period of prominence predates the inception of Saturday Night Live and the career of Lorne Michaels in American television production.  \nStep 4: Conclude that there’s no evidence or historical record indicating that Lorne Michaels worked with Jack Paar.  \nStep 5: Based on the timelines and lack of documented collaboration, the answer is determined to be false.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify the creator of Saturday Night Live as Lorne Michaels, who developed the show in the mid-1970s.  ",
+                "Recognize that Jack Paar was a prominent television host, best known for hosting The Tonight Show in the late 1950s and early 1960s.  ",
+                "Note that Jack Paar’s period of prominence predates the inception of Saturday Night Live and the career of Lorne Michaels in American television production.  ",
+                "Conclude that there’s no evidence or historical record indicating that Lorne Michaels worked with Jack Paar.  ",
+                "Based on the timelines and lack of documented collaboration, the answer is determined to be false.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 14.06880807876587,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Sugar Ray Robinson ever ex",
+            "question": "Did Sugar Ray Robinson ever experience pain?",
+            "answerKey": true,
+            "cot_output": "Step 1: Sugar Ray Robinson was a human being and a professional athlete engaged in boxing.  \nStep 2: As a human being, he possessed a nervous system capable of experiencing both physical and emotional pain.  \nStep 3: Boxing is a contact sport that naturally involves physical impacts and injuries likely to cause pain.  \nStep 4: Given his profession and biological makeup, it is inevitable that Sugar Ray Robinson experienced pain at various points in his life.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sugar Ray Robinson was a human being and a professional athlete engaged in boxing.  ",
+                "As a human being, he possessed a nervous system capable of experiencing both physical and emotional pain.  ",
+                "Boxing is a contact sport that naturally involves physical impacts and injuries likely to cause pain.  ",
+                "Given his profession and biological makeup, it is inevitable that Sugar Ray Robinson experienced pain at various points in his life.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.183506965637207,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do Adobe Suite and Life Is Str",
+            "question": "Do Adobe Suite and Life Is Strange video game share similar coding?",
+            "answerKey": true,
+            "cot_output": "Step 1: Adobe Suite is a set of professional creative software applications (like Photoshop, Illustrator) used for multimedia design, while Life Is Strange is a video game developed with a game engine and specialized game coding.  \nStep 2: The underlying code for Adobe Suite is tailored for multimedia processing, graphic design functionalities, and professional creative workflows, whereas game coding in Life Is Strange is optimized for interactivity, story-telling mechanics, and real-time rendering.  \nStep 3: The programming approaches, libraries, and frameworks used for these two types of software are fundamentally different due to their distinct functional objectives and performance requirements.  \nStep 4: Due to these differences in purpose, design, and implementation, Adobe Suite and Life Is Strange do not share similar coding.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Adobe Suite is a set of professional creative software applications (like Photoshop, Illustrator) used for multimedia design, while Life Is Strange is a video game developed with a game engine and specialized game coding.  ",
+                "The underlying code for Adobe Suite is tailored for multimedia processing, graphic design functionalities, and professional creative workflows, whereas game coding in Life Is Strange is optimized for interactivity, story-telling mechanics, and real-time rendering.  ",
+                "The programming approaches, libraries, and frameworks used for these two types of software are fundamentally different due to their distinct functional objectives and performance requirements.  ",
+                "Due to these differences in purpose, design, and implementation, Adobe Suite and Life Is Strange do not share similar coding.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.366459846496582,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Elizabeth Margaret Hunter'",
+            "question": "Did Elizabeth Margaret Hunter's husband work with a lieutenant?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that the question asks if Elizabeth Margaret Hunter's husband worked with a lieutenant, which implies a direct connection between her husband’s work and a lieutenant.  \nStep 2: Note that there is no widely known historical or documented evidence connecting Elizabeth Margaret Hunter’s husband to any such role or partnership with a lieutenant.  \nStep 3: Understand that without explicit information or authoritative sources confirming that her husband collaborated or worked with a lieutenant, we must rely on the absence of such evidence.  \nStep 4: Conclude that, based on the available information and logical analysis, it is not true that her husband worked with a lieutenant.\n\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the question asks if Elizabeth Margaret Hunter's husband worked with a lieutenant, which implies a direct connection between her husband’s work and a lieutenant.  ",
+                "Note that there is no widely known historical or documented evidence connecting Elizabeth Margaret Hunter’s husband to any such role or partnership with a lieutenant.  ",
+                "Understand that without explicit information or authoritative sources confirming that her husband collaborated or worked with a lieutenant, we must rely on the absence of such evidence.  ",
+                "Conclude that, based on the available information and logical analysis, it is not true that her husband worked with a lieutenant."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.5100579261779785,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Elizabeth Hunter's husband",
+            "question": "Did Elizabeth Hunter's husband work with a lieutenant?",
+            "answerKey": true,
+            "cot_output": "Step 1: I identify that the question asks whether Elizabeth Hunter's husband worked with a lieutenant.\nStep 2: I check any given or known factual references about Elizabeth Hunter and her husband’s occupation or associations but no concrete evidence or context is provided linking her husband to working with a lieutenant.\nStep 3: Given the absence of such details or supporting historical or documented context, I conclude there is no basis to assert that her husband had any such working relationship with a lieutenant.\nStep 4: Therefore, based solely on the provided information and logical reasoning, the statement is not supported.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I identify that the question asks whether Elizabeth Hunter's husband worked with a lieutenant.",
+                "I check any given or known factual references about Elizabeth Hunter and her husband’s occupation or associations but no concrete evidence or context is provided linking her husband to working with a lieutenant.",
+                "Given the absence of such details or supporting historical or documented context, I conclude there is no basis to assert that her husband had any such working relationship with a lieutenant.",
+                "Therefore, based solely on the provided information and logical reasoning, the statement is not supported."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 6.123140811920166,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the husband of Alexander H",
+            "question": "Did the husband of Alexander Hamilton's granddaughter work with a lieutenant?",
+            "answerKey": true,
+            "cot_output": "Step 1: Alexander Hamilton’s family history is well documented, and it is known that his descendants include a granddaughter, though historical records do not emphasize her husband’s biographical details in relation to military or other formal collaborations.\nStep 2: Research into historical accounts and biographical records of Hamilton’s extended family does not reveal any notable association where the husband of his granddaughter is recorded as having “worked with a lieutenant.”\nStep 3: Since “working with a lieutenant” would typically be a detail mentioned in military or professional descriptions—and no reliable documentation or historic account confirms such a collaboration for Hamilton’s granddaughter’s husband—the claim lacks supporting evidence.\nStep 4: Without any clear, documented connection between the husband of Alexander Hamilton’s granddaughter and a lieutenant, the logical conclusion is that the statement is not true.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Alexander Hamilton’s family history is well documented, and it is known that his descendants include a granddaughter, though historical records do not emphasize her husband’s biographical details in relation to military or other formal collaborations.",
+                "Research into historical accounts and biographical records of Hamilton’s extended family does not reveal any notable association where the husband of his granddaughter is recorded as having “worked with a lieutenant.”",
+                "Since “working with a lieutenant” would typically be a detail mentioned in military or professional descriptions—and no reliable documentation or historic account confirms such a collaboration for Hamilton’s granddaughter’s husband—the claim lacks supporting evidence.",
+                "Without any clear, documented connection between the husband of Alexander Hamilton’s granddaughter and a lieutenant, the logical conclusion is that the statement is not true."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 9.546726942062378,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did the husband of Elizabeth H",
+            "question": "Did the husband of Elizabeth Hamilton work with a lieutenant?",
+            "answerKey": true,
+            "cot_output": "",
+            "cot_steps": [],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 17.96550488471985,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can you transport nine pounds ",
+            "question": "Can you transport nine pounds of weed in a bag?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that the question asks whether it is physically possible to carry nine pounds of a substance (weed) in a bag.  \nStep 2: Understand that nine pounds is a weight that can be supported by many types of bags, as it roughly equals 4 kilograms, which is within the carrying capacity of many everyday bags.  \nStep 3: Conclude that, from a physical or practical perspective, transporting nine pounds of almost any solid material in a bag is feasible.  \nStep 4: Therefore, it is logically consistent to answer that yes, you can transport nine pounds of weed in a bag.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the question asks whether it is physically possible to carry nine pounds of a substance (weed) in a bag.  ",
+                "Understand that nine pounds is a weight that can be supported by many types of bags, as it roughly equals 4 kilograms, which is within the carrying capacity of many everyday bags.  ",
+                "Conclude that, from a physical or practical perspective, transporting nine pounds of almost any solid material in a bag is feasible.  ",
+                "Therefore, it is logically consistent to answer that yes, you can transport nine pounds of weed in a bag.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.675935983657837,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did Japanese people win the Wa",
+            "question": "Did Japanese people win the War of the Bucket?",
+            "answerKey": null,
+            "cot_output": "Step 1: Recognize that the War of the Bucket was a medieval conflict involving Italian city-states (specifically between the cities of Modena and Bologna), not involving Japan.\nStep 2: Understand that Japanese people, being the subjects of Japan, are not related historically to this European conflict.\nStep 3: Conclude that because the War of the Bucket was unrelated to any involvement of Japanese people, the statement that \"Japanese people won the War of the Bucket\" is historically inaccurate.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that the War of the Bucket was a medieval conflict involving Italian city-states (specifically between the cities of Modena and Bologna), not involving Japan.",
+                "Understand that Japanese people, being the subjects of Japan, are not related historically to this European conflict.",
+                "Conclude that because the War of the Bucket was unrelated to any involvement of Japanese people, the statement that \"Japanese people won the War of the Bucket\" is historically inaccurate."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.452711820602417,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Is the Swastika a religious sy",
+            "question": "Is the Swastika a religious symbol?",
+            "answerKey": true,
+            "cot_output": "Step 1: Historically, the swastika is an ancient symbol that appears in artifacts and scriptures from various cultures, particularly in religions such as Hinduism, Buddhism, and Jainism.  \nStep 2: In these religions, the swastika holds significant spiritual meaning, symbolizing concepts like good fortune, well-being, and the eternal cyclic nature of life.  \nStep 3: The question asks if the swastika is a religious symbol, and given its deep association and usage in religious contexts across multiple traditions, it fulfills that criterion.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Historically, the swastika is an ancient symbol that appears in artifacts and scriptures from various cultures, particularly in religions such as Hinduism, Buddhism, and Jainism.  ",
+                "In these religions, the swastika holds significant spiritual meaning, symbolizing concepts like good fortune, well-being, and the eternal cyclic nature of life.  ",
+                "The question asks if the swastika is a religious symbol, and given its deep association and usage in religious contexts across multiple traditions, it fulfills that criterion.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 8.654174089431763,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can lizards survive temperatur",
+            "question": "Can lizards survive temperatures in far north New Brunswick?",
+            "answerKey": true,
+            "cot_output": "Step 1: Lizards are ectothermic animals, meaning they rely on external sources of heat to regulate their body temperature.\nStep 2: Far north New Brunswick experiences very cold winters and generally lower temperatures that are not conducive to the thermal needs of ectothermic animals.\nStep 3: Without sufficient warmth for necessary physiological processes, lizards would likely be unable to survive in an environment with such low temperatures.\nStep 4: Given that temperature is a critical factor for lizard survival and far north New Brunswick lacks the required warmth, it is unlikely that lizards can sustainably survive there.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Lizards are ectothermic animals, meaning they rely on external sources of heat to regulate their body temperature.",
+                "Far north New Brunswick experiences very cold winters and generally lower temperatures that are not conducive to the thermal needs of ectothermic animals.",
+                "Without sufficient warmth for necessary physiological processes, lizards would likely be unable to survive in an environment with such low temperatures.",
+                "Given that temperature is a critical factor for lizard survival and far north New Brunswick lacks the required warmth, it is unlikely that lizards can sustainably survive there."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.833054065704346,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Do lizards breed in far north ",
+            "question": "Do lizards breed in far north New Brunswick?",
+            "answerKey": true,
+            "cot_output": "Step 1: Far north New Brunswick is located in a cold, temperate region that experiences long winters and short, cool summers.\nStep 2: Lizards are ectothermic animals that require relatively warm temperatures for their metabolism and normal reproductive cycles.\nStep 3: The climate in far north New Brunswick is generally too cold for lizards to successfully mate, incubate, and raise offspring.\nStep 4: Since the environmental conditions necessary for lizard breeding are absent in that region, it is unlikely that lizards breed there.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Far north New Brunswick is located in a cold, temperate region that experiences long winters and short, cool summers.",
+                "Lizards are ectothermic animals that require relatively warm temperatures for their metabolism and normal reproductive cycles.",
+                "The climate in far north New Brunswick is generally too cold for lizards to successfully mate, incubate, and raise offspring.",
+                "Since the environmental conditions necessary for lizard breeding are absent in that region, it is unlikely that lizards breed there."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 5.622990131378174,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a person from Burundi orde",
+            "question": "Can a person from Burundi order food in their native language in New Brunswick?",
+            "answerKey": true,
+            "cot_output": "Step 1: Identify that a person from Burundi may speak Kirundi, French, or both as their native language.  \nStep 2: Recognize that New Brunswick (a province in Canada) does not legally restrict individuals from using their native language in public interactions, including ordering food.  \nStep 3: Conclude that there is no legal or customary barrier preventing a Burundian person from ordering food in their native language in New Brunswick.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that a person from Burundi may speak Kirundi, French, or both as their native language.  ",
+                "Recognize that New Brunswick (a province in Canada) does not legally restrict individuals from using their native language in public interactions, including ordering food.  ",
+                "Conclude that there is no legal or customary barrier preventing a Burundian person from ordering food in their native language in New Brunswick.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.423895835876465,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a person from Madagascar o",
+            "question": "Can a person from Madagascar order food in their native language in New Brunswick?",
+            "answerKey": true,
+            "cot_output": "Step 1: In New Brunswick, as in any place, there is generally no legal or practical restriction that prevents someone from speaking whatever language they prefer when ordering food.  \nStep 2: A person from Madagascar typically speaks Malagasy as their native language (and may also speak French), and speaking one’s native language is a personal choice.  \nStep 3: Restaurants and food vendors in New Brunswick are not mandated to require orders in only the region’s primary languages (English and French), so a person is free to order in their native language if they choose.  \nStep 4: Therefore, a person from Madagascar can indeed order food in their native language in New Brunswick.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "In New Brunswick, as in any place, there is generally no legal or practical restriction that prevents someone from speaking whatever language they prefer when ordering food.  ",
+                "A person from Madagascar typically speaks Malagasy as their native language (and may also speak French), and speaking one’s native language is a personal choice.  ",
+                "Restaurants and food vendors in New Brunswick are not mandated to require orders in only the region’s primary languages (English and French), so a person is free to order in their native language if they choose.  ",
+                "Therefore, a person from Madagascar can indeed order food in their native language in New Brunswick.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 10.42251992225647,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a person from New Brunswic",
+            "question": "Can a person from New Brunswick understand the speech of someone from Burundi?",
+            "answerKey": true,
+            "cot_output": "Step 1: People in New Brunswick commonly speak either English or French.  \nStep 2: In Burundi, one of the official languages is French (in addition to Kirundi and, more recently, English).  \nStep 3: If the person from Burundi is speaking French, a New Brunswick resident who speaks French can understand them.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "People in New Brunswick commonly speak either English or French.  ",
+                "In Burundi, one of the official languages is French (in addition to Kirundi and, more recently, English).  ",
+                "If the person from Burundi is speaking French, a New Brunswick resident who speaks French can understand them.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 7.689927339553833,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a person from New Brunswic",
+            "question": "Can a person from New Brunswick understand the language of someone from Burundi?",
+            "answerKey": true,
+            "cot_output": "Step 1: Recognize that New Brunswick is a bilingual province in Canada where many people speak either English or French.\nStep 2: Note that in Burundi, French is one of the official languages along with Kirundi and English.\nStep 3: Understand that if a person from New Brunswick is a French speaker, they have the capability to understand French as spoken by someone from Burundi.\nStep 4: Since French is a common language between at least some people from New Brunswick and many people from Burundi, the possibility of mutual understanding exists.\n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Recognize that New Brunswick is a bilingual province in Canada where many people speak either English or French.",
+                "Note that in Burundi, French is one of the official languages along with Kirundi and English.",
+                "Understand that if a person from New Brunswick is a French speaker, they have the capability to understand French as spoken by someone from Burundi.",
+                "Since French is a common language between at least some people from New Brunswick and many people from Burundi, the possibility of mutual understanding exists."
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 7.381494045257568,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did people listen to The Blues",
+            "question": "Did people listen to The Blues during World War I?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Blues is a music genre that originated in the late 19th and early 20th centuries within African-American communities in the United States.  \nStep 2: World War I occurred between 1914 and 1918, a time when the Blues was already emerging and being played in its communities.  \nStep 3: Despite the global conflict, people, especially within African-American communities, continued to listen to and develop Blues music during that era.  \nStep 4: Given that the Blues existed and was listened to during the time frame of World War I, it can be concluded that people did indeed listen to The Blues during World War I.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Blues is a music genre that originated in the late 19th and early 20th centuries within African-American communities in the United States.  ",
+                "World War I occurred between 1914 and 1918, a time when the Blues was already emerging and being played in its communities.  ",
+                "Despite the global conflict, people, especially within African-American communities, continued to listen to and develop Blues music during that era.  ",
+                "Given that the Blues existed and was listened to during the time frame of World War I, it can be concluded that people did indeed listen to The Blues during World War I.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 5.29236626625061,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Were there typewriters in the ",
+            "question": "Were there typewriters in the Empire of Japan?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Empire of Japan existed roughly from 1868 to 1947.  \nStep 2: Typewriters were invented in the 19th century and became widely used and adopted internationally in the early 20th century.  \nStep 3: As Japan rapidly industrialized and modernized during the Meiji Restoration and later, it embraced Western technologies, including the typewriter.  \nStep 4: Historical records indicate that typewriters were indeed present and used in Japan during the Empire period.  \nStep 5: Therefore, based on the established timeline and Japan’s adoption of modern technology during that era, there were typewriters in the Empire of Japan.  \n===FINAL_ANSWER_START===  \nConclusion: true  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Empire of Japan existed roughly from 1868 to 1947.  ",
+                "Typewriters were invented in the 19th century and became widely used and adopted internationally in the early 20th century.  ",
+                "As Japan rapidly industrialized and modernized during the Meiji Restoration and later, it embraced Western technologies, including the typewriter.  ",
+                "Historical records indicate that typewriters were indeed present and used in Japan during the Empire period.  ",
+                "Therefore, based on the established timeline and Japan’s adoption of modern technology during that era, there were typewriters in the Empire of Japan.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 6.520393133163452,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a Rabbi administer any of ",
+            "question": "Can a Rabbi administer any of the Christian Sacraments?",
+            "answerKey": true,
+            "cot_output": "Step 1: Christian Sacraments (such as Baptism and Eucharist) are specific religious rites with theological significance in Christianity.\nStep 2: These sacraments are traditionally administered by clergy who are ordained within the Christian tradition.\nStep 3: A Rabbi serves as a spiritual leader in Judaism, not in Christianity; therefore, they are not ordained or authorized under Christian doctrines to perform these rites.\nStep 4: Since the authority to administer Christian sacraments is limited to properly ordained Christian clergy, a Rabbi does not have this authority.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Christian Sacraments (such as Baptism and Eucharist) are specific religious rites with theological significance in Christianity.",
+                "These sacraments are traditionally administered by clergy who are ordained within the Christian tradition.",
+                "A Rabbi serves as a spiritual leader in Judaism, not in Christianity; therefore, they are not ordained or authorized under Christian doctrines to perform these rites.",
+                "Since the authority to administer Christian sacraments is limited to properly ordained Christian clergy, a Rabbi does not have this authority."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.62226939201355,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a Rabbi perform a Christia",
+            "question": "Can a Rabbi perform a Christian baptism?",
+            "answerKey": true,
+            "cot_output": "Step 1: In Christianity, baptism is considered a sacrament that requires authorization by a Christian denomination or its clergy.\nStep 2: A Rabbi is an ordained Jewish religious leader, not a member of any Christian ministry.\nStep 3: Since a Rabbi does not hold the Christian ecclesiastical authority needed to administer this sacrament, he cannot perform a Christian baptism.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "In Christianity, baptism is considered a sacrament that requires authorization by a Christian denomination or its clergy.",
+                "A Rabbi is an ordained Jewish religious leader, not a member of any Christian ministry.",
+                "Since a Rabbi does not hold the Christian ecclesiastical authority needed to administer this sacrament, he cannot perform a Christian baptism."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.6973958015441895,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can baptism be done by a rabbi",
+            "question": "Can baptism be done by a rabbi?",
+            "answerKey": true,
+            "cot_output": "Step 1: Baptism is recognized as a Christian sacrament typically performed by an ordained minister, priest, or pastor in Christian denominations.  \nStep 2: A rabbi is a religious teacher and leader in Judaism and is not ordained in any Christian tradition or authorized to perform Christian sacraments.  \nStep 3: Since baptism, as a Christian rite, involves specific theological and ritualistic roles that are not within the purview of a rabbi’s religious authority or training, it cannot be performed by a rabbi in the traditional context of Christian practice.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Baptism is recognized as a Christian sacrament typically performed by an ordained minister, priest, or pastor in Christian denominations.  ",
+                "A rabbi is a religious teacher and leader in Judaism and is not ordained in any Christian tradition or authorized to perform Christian sacraments.  ",
+                "Since baptism, as a Christian rite, involves specific theological and ritualistic roles that are not within the purview of a rabbi’s religious authority or training, it cannot be performed by a rabbi in the traditional context of Christian practice.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 5.299448013305664,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a rabbi perform any Christ",
+            "question": "Can a rabbi perform any Christian rituals?",
+            "answerKey": true,
+            "cot_output": "Step 1: Define the roles – A rabbi is a Jewish religious leader, while Christian rituals are conducted by Christian clergy based on Christian doctrines.  \nStep 2: Understand authority – In Christianity, performing rituals usually requires specific ordination and theological endorsement that a rabbi does not possess.  \nStep 3: Consider ritual differences – Most Christian rituals, especially sacraments (such as Eucharist or baptism), are tied to beliefs that fundamentally differ from those of Judaism.  \nStep 4: Conclude the possibility – Since a rabbi does not meet the criteria for conducting Christian rituals that require Christian credentials, the answer is that a rabbi cannot perform any Christian rituals.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Define the roles – A rabbi is a Jewish religious leader, while Christian rituals are conducted by Christian clergy based on Christian doctrines.  ",
+                "Understand authority – In Christianity, performing rituals usually requires specific ordination and theological endorsement that a rabbi does not possess.  ",
+                "Consider ritual differences – Most Christian rituals, especially sacraments (such as Eucharist or baptism), are tied to beliefs that fundamentally differ from those of Judaism.  ",
+                "Conclude the possibility – Since a rabbi does not meet the criteria for conducting Christian rituals that require Christian credentials, the answer is that a rabbi cannot perform any Christian rituals.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.909192323684692,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did members of the Silent Gene",
+            "question": "Did members of the Silent Generation use highways?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Silent Generation includes individuals born approximately between 1928 and 1945.  \nStep 2: The U.S. Interstate Highway System was established in the mid-1950s, and its use became widespread thereafter.  \nStep 3: Members of the Silent Generation, being young adults or older by the mid-20th century, would have had ample opportunity and need to use highways as a primary form of transportation.  \nStep 4: Given that highways are a fundamental part of modern transportation infrastructure, and that members of the Silent Generation were active during the period when highways became prevalent, it follows that they did indeed use highways.  \n===FINAL_ANSWER_START===  \nConclusion: true  \n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Silent Generation includes individuals born approximately between 1928 and 1945.  ",
+                "The U.S. Interstate Highway System was established in the mid-1950s, and its use became widespread thereafter.  ",
+                "Members of the Silent Generation, being young adults or older by the mid-20th century, would have had ample opportunity and need to use highways as a primary form of transportation.  ",
+                "Given that highways are a fundamental part of modern transportation infrastructure, and that members of the Silent Generation were active during the period when highways became prevalent, it follows that they did indeed use highways.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.3691017627716064,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Did cars travel on highways du",
+            "question": "Did cars travel on highways during the Silent Generation?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Silent Generation generally refers to people born between approximately 1928 and 1945.  \nStep 2: Highways, as modern infrastructure, were constructed before and during the formative years of the Silent Generation, with major developments such as the US Interstate Highway System starting in 1956.  \nStep 3: Automobiles were in widespread use by the time this generation was active, meaning cars were both available and commonly used for transportation.  \nStep 4: Since highways existed and cars were prevalent, it follows that cars did indeed travel on highways during the era of the Silent Generation.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Silent Generation generally refers to people born between approximately 1928 and 1945.  ",
+                "Highways, as modern infrastructure, were constructed before and during the formative years of the Silent Generation, with major developments such as the US Interstate Highway System starting in 1956.  ",
+                "Automobiles were in widespread use by the time this generation was active, meaning cars were both available and commonly used for transportation.  ",
+                "Since highways existed and cars were prevalent, it follows that cars did indeed travel on highways during the era of the Silent Generation.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.7628700733184814,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Were there highways during the",
+            "question": "Were there highways during the Silent Generation?",
+            "answerKey": true,
+            "cot_output": "Step 1: The Silent Generation generally refers to people born approximately between 1928 and 1945.  \nStep 2: Highways are major roads designed for fast, efficient transport using motor vehicles.  \nStep 3: Many highways, such as those in the U.S. and other countries, were constructed or already existed by the early 20th century, before and during the Silent Generation era.  \nStep 4: Therefore, highways did exist during the span of the Silent Generation.  \n===FINAL_ANSWER_START===\nConclusion: true\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Silent Generation generally refers to people born approximately between 1928 and 1945.  ",
+                "Highways are major roads designed for fast, efficient transport using motor vehicles.  ",
+                "Many highways, such as those in the U.S. and other countries, were constructed or already existed by the early 20th century, before and during the Silent Generation era.  ",
+                "Therefore, highways did exist during the span of the Silent Generation.  "
+            ],
+            "pred": "true",
+            "is_correct": true,
+            "elapsed_time": 4.916015148162842,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can Justin Bieber win the 2020",
+            "question": "Can Justin Bieber win the 2020 US Presidential election?",
+            "answerKey": null,
+            "cot_output": "Step 1: U.S. Presidential eligibility requires being a natural-born citizen, at least 35 years old, and having lived in the United States for 14 years.\nStep 2: Justin Bieber was born in Canada and, as a result, is not a natural-born citizen of the United States.\nStep 3: Additionally, Justin Bieber’s age is below 35, making him ineligible based on age requirements.\nStep 4: Since meeting all constitutional requirements is necessary to win or even run in a U.S. Presidential election, and Justin Bieber fails these criteria, he cannot win the 2020 U.S. Presidential election.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "U.S. Presidential eligibility requires being a natural-born citizen, at least 35 years old, and having lived in the United States for 14 years.",
+                "Justin Bieber was born in Canada and, as a result, is not a natural-born citizen of the United States.",
+                "Additionally, Justin Bieber’s age is below 35, making him ineligible based on age requirements.",
+                "Since meeting all constitutional requirements is necessary to win or even run in a U.S. Presidential election, and Justin Bieber fails these criteria, he cannot win the 2020 U.S. Presidential election."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 7.15504002571106,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Will Justin Bieber win the 202",
+            "question": "Will Justin Bieber win the 2020 US Presidential election?",
+            "answerKey": null,
+            "cot_output": "Step 1: Justin Bieber is primarily known as a musician and is not a declared candidate in any US Presidential race.\nStep 2: The 2020 US Presidential election was contested by established political figures, with no indication or mechanism for a celebrity like Justin Bieber to be a contender.\nStep 3: Based on eligibility criteria and historical political participation, it is clear that Justin Bieber would not win the US Presidential election.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Justin Bieber is primarily known as a musician and is not a declared candidate in any US Presidential race.",
+                "The 2020 US Presidential election was contested by established political figures, with no indication or mechanism for a celebrity like Justin Bieber to be a contender.",
+                "Based on eligibility criteria and historical political participation, it is clear that Justin Bieber would not win the US Presidential election."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.577255964279175,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Will Justin Bieber become US P",
+            "question": "Will Justin Bieber become US President in 2020?",
+            "answerKey": null,
+            "cot_output": "Step 1: The US Constitution requires that a president be a natural-born citizen and at least 35 years old.  \nStep 2: Justin Bieber was born in Canada, not in the United States, and in 2020 he would not meet the criteria of being a natural-born US citizen.  \nStep 3: Additionally, in 2020 Justin Bieber would have been about 26 years old, which is below the minimum required age of 35.  \nStep 4: Since he does not meet the constitutional requirements, it is impossible for Justin Bieber to become US President in 2020.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The US Constitution requires that a president be a natural-born citizen and at least 35 years old.  ",
+                "Justin Bieber was born in Canada, not in the United States, and in 2020 he would not meet the criteria of being a natural-born US citizen.  ",
+                "Additionally, in 2020 Justin Bieber would have been about 26 years old, which is below the minimum required age of 35.  ",
+                "Since he does not meet the constitutional requirements, it is impossible for Justin Bieber to become US President in 2020.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 8.715927124023438,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can Justin Bieber represent Ne",
+            "question": "Can Justin Bieber represent New York in Congress in 2020?",
+            "answerKey": null,
+            "cot_output": "Step 1: To represent New York in Congress (either in the House or Senate), a candidate must meet constitutional eligibility requirements, including being a U.S. citizen (for a specified number of years) and being an inhabitant (or resident) of the state from which they are elected.  \nStep 2: Justin Bieber was born in Canada. Although it is possible for a foreign-born individual to serve in Congress if properly naturalized and meeting the citizenship duration requirement (7 years for the House and 9 years for the Senate), there is no record that he has satisfied such requirements specifically for representing New York.  \nStep 3: Moreover, besides citizenship, a candidate must have a genuine residency connection (an “inhabitant” status) with the state they intend to represent. There is no indication that Justin Bieber has established legal residency in New York, which is a necessary condition.  \nStep 4: Given that, as of 2020, Justin Bieber did not meet the state",
+            "cot_steps": [
+                "To represent New York in Congress (either in the House or Senate), a candidate must meet constitutional eligibility requirements, including being a U.S. citizen (for a specified number of years) and being an inhabitant (or resident) of the state from which they are elected.  ",
+                "Justin Bieber was born in Canada. Although it is possible for a foreign-born individual to serve in Congress if properly naturalized and meeting the citizenship duration requirement (7 years for the House and 9 years for the Senate), there is no record that he has satisfied such requirements specifically for representing New York.  ",
+                "Moreover, besides citizenship, a candidate must have a genuine residency connection (an “inhabitant” status) with the state they intend to represent. There is no indication that Justin Bieber has established legal residency in New York, which is a necessary condition.  ",
+                "Given that, as of 2020, Justin Bieber did not meet the state"
+            ],
+            "pred": null,
+            "is_correct": false,
+            "elapsed_time": 17.10104489326477,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Will Justin Bieber be Trump's ",
+            "question": "Will Justin Bieber be Trump's running mate in 2020?",
+            "answerKey": null,
+            "cot_output": "Step 1: Trump has a history of selecting political figures or experienced individuals as his running mate for the 2020 election.\nStep 2: Justin Bieber is primarily known as a pop singer and entertainer, and he does not have a political background or experience in government.\nStep 3: There is no evidence or announcement from credible sources indicating that Justin Bieber will serve as a vice presidential candidate or running mate.\nStep 4: Given the established facts and roles in political campaigns, the statement that Justin Bieber will be Trump’s running mate in 2020 is inconsistent with historical and factual records.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Trump has a history of selecting political figures or experienced individuals as his running mate for the 2020 election.",
+                "Justin Bieber is primarily known as a pop singer and entertainer, and he does not have a political background or experience in government.",
+                "There is no evidence or announcement from credible sources indicating that Justin Bieber will serve as a vice presidential candidate or running mate.",
+                "Given the established facts and roles in political campaigns, the statement that Justin Bieber will be Trump’s running mate in 2020 is inconsistent with historical and factual records."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.890556812286377,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Will Justin Bieber replace Mik",
+            "question": "Will Justin Bieber replace Mike Pence in 2020?",
+            "answerKey": null,
+            "cot_output": "Step 1: Establish that Justin Bieber is a pop singer and entertainer, not a political figure.  \nStep 2: Recognize that Mike Pence is a career politician who served as the Vice President of the United States and has a history in political office.  \nStep 3: Understand that the question asks if a non-political celebrity (Justin Bieber) will replace an established political figure (Mike Pence) in a political role in 2020.  \nStep 4: Conclude that there is no known indication or credible evidence suggesting that Justin Bieber is entering politics or that he has plans to replace Mike Pence.  \nStep 5: Based on these deductions, it is logically false that Justin Bieber will replace Mike Pence in 2020.\n\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Establish that Justin Bieber is a pop singer and entertainer, not a political figure.  ",
+                "Recognize that Mike Pence is a career politician who served as the Vice President of the United States and has a history in political office.  ",
+                "Understand that the question asks if a non-political celebrity (Justin Bieber) will replace an established political figure (Mike Pence) in a political role in 2020.  ",
+                "Conclude that there is no known indication or credible evidence suggesting that Justin Bieber is entering politics or that he has plans to replace Mike Pence.  ",
+                "Based on these deductions, it is logically false that Justin Bieber will replace Mike Pence in 2020."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 5.718579053878784,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can every Prime Ministers of t",
+            "question": "Can every Prime Ministers of the United Kingdom since 1970 fill all the US Supreme Court positions?",
+            "answerKey": null,
+            "cot_output": "Step 1: Identify that the US Supreme Court positions are to be filled by nominees who must meet specific constitutional criteria, including being US citizens, which typically excludes non-US nationals.  \nStep 2: Recognize that Prime Ministers of the United Kingdom are typically British nationals and do not automatically meet the US constitutional requirements for Supreme Court nominations.  \nStep 3: Understand that the phrase \"can every Prime Ministers of the United Kingdom since 1970 fill all the US Supreme Court positions\" implies that all such prime ministers would be eligible to serve as Supreme Court justices, which is not possible due to citizenship and eligibility rules.  \nStep 4: Conclude that, by virtue of constitutional ineligibility, it is false that every UK Prime Minister since 1970 can fill all the US Supreme Court positions.  \n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Identify that the US Supreme Court positions are to be filled by nominees who must meet specific constitutional criteria, including being US citizens, which typically excludes non-US nationals.  ",
+                "Recognize that Prime Ministers of the United Kingdom are typically British nationals and do not automatically meet the US constitutional requirements for Supreme Court nominations.  ",
+                "Understand that the phrase \"can every Prime Ministers of the United Kingdom since 1970 fill all the US Supreme Court positions\" implies that all such prime ministers would be eligible to serve as Supreme Court justices, which is not possible due to citizenship and eligibility rules.  ",
+                "Conclude that, by virtue of constitutional ineligibility, it is false that every UK Prime Minister since 1970 can fill all the US Supreme Court positions.  "
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 6.929067850112915,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can every Prime Minister of th",
+            "question": "Can every Prime Minister of the United Kingdom since 1970 fill all the US Supreme Court chairs?",
+            "answerKey": null,
+            "cot_output": "Step 1: The United Kingdom Prime Minister is a political head of government in the UK, a role entirely separate from any functions within the US judiciary.\nStep 2: The US Supreme Court consists of multiple seats (nine chairs) that must be filled by individual justices; no one person can hold all these positions simultaneously.\nStep 3: Since UK Prime Ministers are distinct national leaders and not US citizens or judicial appointees, they are ineligible to serve as US Supreme Court justices.\nStep 4: Therefore, no UK Prime Minister, regardless of time period, can fill all or even any of the US Supreme Court chairs.\n\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The United Kingdom Prime Minister is a political head of government in the UK, a role entirely separate from any functions within the US judiciary.",
+                "The US Supreme Court consists of multiple seats (nine chairs) that must be filled by individual justices; no one person can hold all these positions simultaneously.",
+                "Since UK Prime Ministers are distinct national leaders and not US citizens or judicial appointees, they are ineligible to serve as US Supreme Court justices.",
+                "Therefore, no UK Prime Minister, regardless of time period, can fill all or even any of the US Supreme Court chairs."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.395228147506714,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Can a worm suffer a myocardial",
+            "question": "Can a worm suffer a myocardial infarction?",
+            "answerKey": true,
+            "cot_output": "Step 1: A myocardial infarction is defined as damage or death of heart muscle tissue due to inadequate blood supply.\nStep 2: Worms, such as earthworms, do not have a heart composed of myocardial tissue; rather, they use a different, simpler circulatory system.\nStep 3: Since worms lack the specific heart structure and coronary vasculature that is necessary for a myocardial infarction to occur in the typical medical sense, they cannot suffer this condition.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A myocardial infarction is defined as damage or death of heart muscle tissue due to inadequate blood supply.",
+                "Worms, such as earthworms, do not have a heart composed of myocardial tissue; rather, they use a different, simpler circulatory system.",
+                "Since worms lack the specific heart structure and coronary vasculature that is necessary for a myocardial infarction to occur in the typical medical sense, they cannot suffer this condition."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 4.480912208557129,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Are infants excluded from join",
+            "question": "Are infants excluded from joining the Supreme Court of the United States?",
+            "answerKey": null,
+            "cot_output": "Step 1: The U.S. Constitution sets the qualifications for Supreme Court justices through Article III, but it does not specify an age requirement for appointees.\nStep 2: Since there’s no legal age threshold mentioned in the Constitution for serving as a Supreme Court justice, being an infant is not explicitly disqualifying.\nStep 3: Therefore, infants are not constitutionally \"excluded\" from joining the Supreme Court based solely on age, even though practical considerations in nomination and confirmation processes make such an appointment highly unlikely.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The U.S. Constitution sets the qualifications for Supreme Court justices through Article III, but it does not specify an age requirement for appointees.",
+                "Since there’s no legal age threshold mentioned in the Constitution for serving as a Supreme Court justice, being an infant is not explicitly disqualifying.",
+                "Therefore, infants are not constitutionally \"excluded\" from joining the Supreme Court based solely on age, even though practical considerations in nomination and confirmation processes make such an appointment highly unlikely."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 8.431341886520386,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Has a Neanderthal ever served ",
+            "question": "Has a Neanderthal ever served on the Supreme Court of the United States?",
+            "answerKey": null,
+            "cot_output": "Step 1: The Supreme Court of the United States consists of human justices who are U.S. citizens, appointed based on legal qualifications and subject to constitutional prerequisites.\nStep 2: Neanderthals were an extinct species of hominids that are not classified as modern humans and were never part of any modern human institutions.\nStep 3: Since only modern humans can serve on the U.S. Supreme Court and Neanderthals are not modern humans, it is impossible for a Neanderthal to have served on the Court.\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The Supreme Court of the United States consists of human justices who are U.S. citizens, appointed based on legal qualifications and subject to constitutional prerequisites.",
+                "Neanderthals were an extinct species of hominids that are not classified as modern humans and were never part of any modern human institutions.",
+                "Since only modern humans can serve on the U.S. Supreme Court and Neanderthals are not modern humans, it is impossible for a Neanderthal to have served on the Court."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 3.541436195373535,
+            "tokens_used": null
+        },
+        {
+            "id": "local_Have any WWE champions outlast",
+            "question": "Have any WWE champions outlasted Kane's Royal Rumble record?",
+            "answerKey": true,
+            "cot_output": "Step 1: We first recognize that the question asks whether any wrestler who has held a WWE championship has ever lasted longer in the Royal Rumble match than Kane’s performance record (“outlasted Kane’s Royal Rumble record”).  \nStep 2: Research into the specific details behind Kane’s Royal Rumble performance shows that his record-setting entry (in terms of time survived or the completeness of his performance) stands as a benchmark in that match’s history.  \nStep 3: Reviewing historical Royal Rumble data reveals that, despite many WWE champions participating in the match over the years, none have managed to beat Kane’s established record duration.  \nStep 4: Therefore, no WWE champion has outlasted Kane’s Royal Rumble record, so the answer to the TRUE or FALSE question is false.\n\n===FINAL_ANSWER_START===\nConclusion: false\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "We first recognize that the question asks whether any wrestler who has held a WWE championship has ever lasted longer in the Royal Rumble match than Kane’s performance record (“outlasted Kane’s Royal Rumble record”).  ",
+                "Research into the specific details behind Kane’s Royal Rumble performance shows that his record-setting entry (in terms of time survived or the completeness of his performance) stands as a benchmark in that match’s history.  ",
+                "Reviewing historical Royal Rumble data reveals that, despite many WWE champions participating in the match over the years, none have managed to beat Kane’s established record duration.  ",
+                "Therefore, no WWE champion has outlasted Kane’s Royal Rumble record, so the answer to the TRUE or FALSE question is false."
+            ],
+            "pred": "false",
+            "is_correct": false,
+            "elapsed_time": 10.164891719818115,
+            "tokens_used": null
+        }
+    ]
+}
