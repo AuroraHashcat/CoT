@@ -1,0 +1,1690 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "88.00%",
+            "total_successful_pipelines": 88,
+            "avg_elapsed_time": 1.0560865950584413,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.88
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "gpqa_I am always very hungry before",
+            "question": "Question: I am always very hungry before I go to bed. I am\n\nChoices:\na. concerned that this is an illness.\nb. glad that I do not have a kitchen.\nc. fearful that there are monsters under my bed.\nd. tempted to snack when I feel this way.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Feeling very hungry before going to bed is a common occurrence for many people.\nStep 2: This feeling of hunger could be due to not eating enough throughout the day.\nStep 3: Not having a kitchen could limit access to food options before bed.\nStep 4: Therefore, feeling glad about not having a kitchen is not a valid response to feeling hungry before bed.\nStep 5: The feeling of hunger before bed is likely due to a lack of proper snacking or meal planning during the day.\nStep 6: Feeling tempted to snack when feeling hungry before bed is a natural response to the situation.\nConclusion: d. tempted to snack when I feel this way\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling very hungry before going to bed is a common occurrence for many people.",
+                "This feeling of hunger could be due to not eating enough throughout the day.",
+                "Not having a kitchen could limit access to food options before bed.",
+                "Therefore, feeling glad about not having a kitchen is not a valid response to feeling hungry before bed.",
+                "The feeling of hunger before bed is likely due to a lack of proper snacking or meal planning during the day.",
+                "Feeling tempted to snack when feeling hungry before bed is a natural response to the situation."
+            ],
+            "pred": "d. tempted to snack when I feel this way",
+            "is_correct": true,
+            "elapsed_time": 1.2872340679168701,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I am feeling nervous about my ",
+            "question": "Question: I am feeling nervous about my midterm tomorrow. I fear that\n\nChoices:\na. the professor will delay the midterm.\nb. I will doodle on my exam and receive points for it.\nc. my grandpa has diabetes.\nd. I will fail.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Feeling nervous about the midterm is causing anxiety.\nStep 2: Anxiety is often associated with fear of failure.\nStep 3: Therefore, the most likely fear is that I will fail.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling nervous about the midterm is causing anxiety.",
+                "Anxiety is often associated with fear of failure.",
+                "Therefore, the most likely fear is that I will fail."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.6151571273803711,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_My brother is very good at mat",
+            "question": "Question: My brother is very good at math. He\n\nChoices:\na. has a watermelon in his shirt.\nb. is flying out the window.\nc. looks like Billy Bob Buddle.\nd. won a math competition when he was 5.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Being good at math requires practice and skill.\nStep 2: Winning a math competition at a young age indicates natural talent and early interest in math.\nStep 3: Therefore, the most likely reason for my brother being good at math is that he won a math competition when he was 5.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Being good at math requires practice and skill.",
+                "Winning a math competition at a young age indicates natural talent and early interest in math.",
+                "Therefore, the most likely reason for my brother being good at math is that he won a math competition when he was 5."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.6873159408569336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I feel sickly. I think",
+            "question": "Question: I feel sickly. I think\n\nChoices:\na. I will have a great time.\nb. I will see my brother at the casino.\nc. I will fly out the window.\nd. I will not go to school today.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Feeling sickly often indicates that I am not feeling well physically.\nStep 2: When I am not feeling well physically, it is best to rest and take care of myself.\nStep 3: One way to rest and take care of myself is by not going to school.\nStep 4: Therefore, I will not go to school today.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling sickly often indicates that I am not feeling well physically.",
+                "When I am not feeling well physically, it is best to rest and take care of myself.",
+                "One way to rest and take care of myself is by not going to school.",
+                "Therefore, I will not go to school today."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.9165811538696289,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I am feeling hungry. I think I",
+            "question": "Question: I am feeling hungry. I think I will\n\nChoices:\na. call my mother.\nb. have some ravioli.\nc. fly out the window.\nd. go on a run outside.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Feeling hungry is a physiological need that requires food to satisfy.\nStep 2: Calling my mother is unlikely to directly address my hunger.\nStep 3: Flying out the window is not a practical or logical solution to hunger.\nStep 4: Going on a run outside may temporarily distract from hunger but will not satisfy it.\nStep 5: Having some ravioli is a direct and practical solution to hunger.\n===FINAL_ANSWER_START===\nConclusion: B. have some ravioli\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling hungry is a physiological need that requires food to satisfy.",
+                "Calling my mother is unlikely to directly address my hunger.",
+                "Flying out the window is not a practical or logical solution to hunger.",
+                "Going on a run outside may temporarily distract from hunger but will not satisfy it.",
+                "Having some ravioli is a direct and practical solution to hunger."
+            ],
+            "pred": "B. have some ravioli",
+            "is_correct": true,
+            "elapsed_time": 0.9261376857757568,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Today my classmate asked an in",
+            "question": "Question: Today my classmate asked an intriguing question. He\n\nChoices:\na. has a deep understanding of the material.\nb. is really good at soccer.\nc. is secretly the teacher.\nd. stood upside down.",
+            "answerKey": "a",
+            "cot_output": "Step 1: My classmate asked an intriguing question.\nStep 2: Asking an intriguing question does not necessarily mean having a deep understanding of the material.\nStep 3: It is unlikely that my classmate is really good at soccer since that is not relevant to asking an intriguing question.\nStep 4: It is highly unlikely that my classmate is secretly the teacher as that would be a significant revelation.\nStep 5: The most plausible explanation is that my classmate stood upside down to ask the intriguing question.\nConclusion: D. stood upside down\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "My classmate asked an intriguing question.",
+                "Asking an intriguing question does not necessarily mean having a deep understanding of the material.",
+                "It is unlikely that my classmate is really good at soccer since that is not relevant to asking an intriguing question.",
+                "It is highly unlikely that my classmate is secretly the teacher as that would be a significant revelation.",
+                "The most plausible explanation is that my classmate stood upside down to ask the intriguing question."
+            ],
+            "pred": "D. stood upside down",
+            "is_correct": false,
+            "elapsed_time": 0.9325180053710938,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I am feeling clumsy today. I t",
+            "question": "Question: I am feeling clumsy today. I think\n\nChoices:\na. it is the end of the world.\nb. I didn't get enough sleep.\nc. have a lot of troubles.\nd. I am secretly a panda.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Feeling clumsy can be a result of physical tiredness or lack of coordination.\nStep 2: Lack of coordination can be caused by not getting enough sleep.\nStep 3: Therefore, feeling clumsy today could be due to not getting enough sleep.\nStep 4: Option B states \"I didn't get enough sleep.\"\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling clumsy can be a result of physical tiredness or lack of coordination.",
+                "Lack of coordination can be caused by not getting enough sleep.",
+                "Therefore, feeling clumsy today could be due to not getting enough sleep.",
+                "Option B states \"I didn't get enough sleep.\""
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.6986219882965088,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The woman is now blow drying t",
+            "question": "Question: The woman is now blow drying the dog. The dog\n\nChoices:\na. is live tweeting the action.\nb. seems increasingly happy as his sogginess decreases.\nc. is preparing to take the GRE.\nd. isn't necessarily a professor of neuroscience.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The woman is blow drying the dog to dry him off.\nStep 2: As the dog gets dried off, he would likely feel more comfortable.\nStep 3: Therefore, the dog seems increasingly happy as his sogginess decreases.\nConclusion: B. seems increasingly happy as his sogginess decreases\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman is blow drying the dog to dry him off.",
+                "As the dog gets dried off, he would likely feel more comfortable.",
+                "Therefore, the dog seems increasingly happy as his sogginess decreases."
+            ],
+            "pred": "B. seems increasingly happy as his sogginess decreases",
+            "is_correct": true,
+            "elapsed_time": 0.8227269649505615,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Doug likes nachos.  He",
+            "question": "Question: Doug likes nachos.  He\n\nChoices:\na. keeps his coin collection inside.\nb. uses them as a missile defense system.\nc. pours milk all over them for crispiness.\nd. enjoys the chips and melted cheese.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Doug likes nachos because they are a popular snack choice.\nStep 2: Nachos are typically made with chips and melted cheese.\nStep 3: Doug enjoys the chips and melted cheese in nachos.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Doug likes nachos because they are a popular snack choice.",
+                "Nachos are typically made with chips and melted cheese.",
+                "Doug enjoys the chips and melted cheese in nachos."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.6611039638519287,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_My brother is three years youn",
+            "question": "Question: My brother is three years younger than me. I\n\nChoices:\na. feel jealous that I was always more successful than him.\nb. will be forty when he is thirty.\nc. wonder if his name is Henry.\nd. remember being an only child before he was born.",
+            "answerKey": "d",
+            "cot_output": "Step 1: If I am older than my brother, then I will reach milestones in life before he does.\nStep 2: Being three years older means I will reach milestones three years earlier than him.\nStep 3: This means when I turn forty, my brother will be thirty.\nStep 4: Therefore, the correct answer is B: will be forty when he is thirty.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If I am older than my brother, then I will reach milestones in life before he does.",
+                "Being three years older means I will reach milestones three years earlier than him.",
+                "This means when I turn forty, my brother will be thirty.",
+                "Therefore, the correct answer is B: will be forty when he is thirty."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.1489241123199463,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I have a younger brother. I",
+            "question": "Question: I have a younger brother. I\n\nChoices:\na. have flown farther than he has.\nb. will be forty when he is thirty.\nc. am a mother of three alpacas.\nd. will be thirty when he is forty.",
+            "answerKey": "b",
+            "cot_output": "Step 1: If I have a younger brother, then he is younger than me.\nStep 2: If I have flown farther than he has, it does not necessarily relate to the fact that he is younger than me.\nStep 3: If I will be forty when he is thirty, it implies that he is younger than me.\nStep 4: If I am a mother of three alpacas, it does not provide any information about the age relationship between me and my brother.\nStep 5: If I will be thirty when he is forty, it contradicts the fact that he is younger than me.\nConclusion: I will be forty when he is thirty, so the answer is B. \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If I have a younger brother, then he is younger than me.",
+                "If I have flown farther than he has, it does not necessarily relate to the fact that he is younger than me.",
+                "If I will be forty when he is thirty, it implies that he is younger than me.",
+                "If I am a mother of three alpacas, it does not provide any information about the age relationship between me and my brother.",
+                "If I will be thirty when he is forty, it contradicts the fact that he is younger than me."
+            ],
+            "pred": "I will be forty when he is thirty, so the answer is B.",
+            "is_correct": true,
+            "elapsed_time": 1.3780391216278076,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Paul was riding an elephant an",
+            "question": "Question: Paul was riding an elephant and accidentally fell off.  Paul\n\nChoices:\na. had a trunk and four legs.\nb. never left the elephant's back.\nc. vowed to never ride an elephant again.\nd. asked the elephant to order him two milkshakes.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Falling off an elephant can be a dangerous experience.\nStep 2: Paul may have gotten injured when he fell off the elephant.\nStep 3: If Paul got injured, he might have vowed to never ride an elephant again.\nStep 4: Therefore, Paul most likely vowed to never ride an elephant again.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Falling off an elephant can be a dangerous experience.",
+                "Paul may have gotten injured when he fell off the elephant.",
+                "If Paul got injured, he might have vowed to never ride an elephant again.",
+                "Therefore, Paul most likely vowed to never ride an elephant again."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 0.9982337951660156,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I go to Northwestern. I",
+            "question": "Question: I go to Northwestern. I\n\nChoices:\na. think the directions are north, then west.\nb. study computer science.\nc. dress warmly.\nd. say \"go cats\" first thing in the morning.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Northwestern is located in the northern part of the United States.\nStep 2: Being in the northern part of the US means it can get cold.\nStep 3: Therefore, students at Northwestern should dress warmly.\nStep 4: Choice C states \"dress warmly.\"\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Northwestern is located in the northern part of the United States.",
+                "Being in the northern part of the US means it can get cold.",
+                "Therefore, students at Northwestern should dress warmly.",
+                "Choice C states \"dress warmly.\""
+            ],
+            "pred": "C",
+            "is_correct": false,
+            "elapsed_time": 1.2080070972442627,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I have a cucumber and a cactus",
+            "question": "Question: I have a cucumber and a cactus. I will\n\nChoices:\na. sit on the cucumber.\nb. eat the cucumber.\nc. eat the cactus.\nd. sit on the cactus.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Cacti are not typically edible plants.\nStep 2: Cucumbers are commonly eaten as a vegetable.\nStep 3: Sitting on a cactus would be painful due to its spines.\nStep 4: Eating the cucumber is a reasonable and common choice.\nConclusion: b. eat the cucumber.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Cacti are not typically edible plants.",
+                "Cucumbers are commonly eaten as a vegetable.",
+                "Sitting on a cactus would be painful due to its spines.",
+                "Eating the cucumber is a reasonable and common choice."
+            ],
+            "pred": "b. eat the cucumber.",
+            "is_correct": true,
+            "elapsed_time": 0.82712721824646,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I have a strawberry, hammer, g",
+            "question": "Question: I have a strawberry, hammer, grass, and boyfriend. I will eat\n\nChoices:\na. the boyfriend.\nb. the strawberry.\nc. the hammer.\nd. the grass.",
+            "answerKey": "b",
+            "cot_output": "Step 1: I cannot eat the hammer or the grass because they are not edible.\nStep 2: I cannot eat my boyfriend because it is not appropriate or ethical.\nStep 3: The only edible item left is the strawberry.\nConclusion: B. the strawberry\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I cannot eat the hammer or the grass because they are not edible.",
+                "I cannot eat my boyfriend because it is not appropriate or ethical.",
+                "The only edible item left is the strawberry."
+            ],
+            "pred": "B. the strawberry",
+            "is_correct": true,
+            "elapsed_time": 0.6873750686645508,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man sits under an umbrella o",
+            "question": "Question: A man sits under an umbrella on the beach.  He\n\nChoices:\na. puts on his helmet and returns to the field.\nb. concludes his presentation with a Q and A session.\nc. reaches over and takes a sip of his pina colada.\nd. rows the oars aggressively.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The man is sitting under an umbrella on the beach, indicating he is likely relaxing or enjoying the sun.\nStep 2: Sitting under an umbrella on the beach is a common scenario for someone to drink a refreshing beverage.\nStep 3: Therefore, the man is likely to reach over and take a sip of his pina colada.\nConclusion: C. reaches over and takes a sip of his pina colada.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is sitting under an umbrella on the beach, indicating he is likely relaxing or enjoying the sun.",
+                "Sitting under an umbrella on the beach is a common scenario for someone to drink a refreshing beverage.",
+                "Therefore, the man is likely to reach over and take a sip of his pina colada."
+            ],
+            "pred": "C. reaches over and takes a sip of his pina colada.",
+            "is_correct": true,
+            "elapsed_time": 0.8523159027099609,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A woman is walking two dogs an",
+            "question": "Question: A woman is walking two dogs and carrying a cat on her way to her car.  She\n\nChoices:\na. puts all three animals in the back seat before driving off.\nb. puts all four animals in the back seat before driving off.\nc. puts both animals in the back seat before driving off.\nd. puts all nine animals in the back seat before driving off.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The woman is walking two dogs and carrying a cat, totaling three animals.\nStep 2: The woman can only put the animals she is carrying in her car.\nStep 3: The woman puts both animals in the back seat before driving off.\nConclusion: The woman puts both animals in the back seat before driving off.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman is walking two dogs and carrying a cat, totaling three animals.",
+                "The woman can only put the animals she is carrying in her car.",
+                "The woman puts both animals in the back seat before driving off."
+            ],
+            "pred": "The woman puts both animals in the back seat before driving off.",
+            "is_correct": true,
+            "elapsed_time": 1.1620759963989258,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Bach Goldberg Variations were ",
+            "question": "Question: Bach Goldberg Variations were playing in the room. The\n\nChoices:\na. music was pleasant to both heart and mind .\nb. clouds are usually in a variety of shapes .\nc. noise was unbearably loud .\nd. variations in play style of the athletes were interesting to observe .",
+            "answerKey": "a",
+            "cot_output": "Step 1: Bach Goldberg Variations are known for their intricate and beautiful melodies.\nStep 2: Music that is intricate and beautiful is often pleasant to both heart and mind.\nStep 3: Therefore, the music playing in the room was likely pleasant to both heart and mind.\nConclusion: A. music was pleasant to both heart and mind\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Bach Goldberg Variations are known for their intricate and beautiful melodies.",
+                "Music that is intricate and beautiful is often pleasant to both heart and mind.",
+                "Therefore, the music playing in the room was likely pleasant to both heart and mind."
+            ],
+            "pred": "A. music was pleasant to both heart and mind",
+            "is_correct": true,
+            "elapsed_time": 0.8939073085784912,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_It is a cold winter day. I wil",
+            "question": "Question: It is a cold winter day. I will\n\nChoices:\na. bask in the sun.\nb. wear a large down parka.\nc. have cereal for breakfast.\nd. imagine the infinite possibilities of the day.",
+            "answerKey": "b",
+            "cot_output": "Step 1: It is a cold winter day.\nStep 2: During cold winter days, it is important to stay warm.\nStep 3: Basking in the sun will not provide enough warmth.\nStep 4: Wearing a large down parka will help in staying warm.\nStep 5: Therefore, I will wear a large down parka.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "It is a cold winter day.",
+                "During cold winter days, it is important to stay warm.",
+                "Basking in the sun will not provide enough warmth.",
+                "Wearing a large down parka will help in staying warm.",
+                "Therefore, I will wear a large down parka."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.9139161109924316,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man is flying a dragon-shape",
+            "question": "Question: A man is flying a dragon-shaped kite.  He\n\nChoices:\na. draws his sword and begins to attack the dragon.\nb. puts mustard on the hot dog and hands it to the customer.\nc. finishes mowing and begins weeding the garden.\nd. works the lines to make the dragon do long loops through the air.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The man is flying a dragon-shaped kite.\nStep 2: Flying a kite requires working the lines to control its movement.\nStep 3: The man is likely working the lines to make the dragon-shaped kite do certain movements.\nStep 4: The man is not attacking the dragon because it is a kite and not a real dragon.\nStep 5: The man is not serving hot dogs to customers because there is no mention of hot dogs or customers in the scenario.\nStep 6: The man is not weeding the garden because he is currently flying a kite.\nStep 7: The most logical action for the man flying a dragon-shaped kite is to work the lines to make the dragon do long loops through the air.\n===FINAL_ANSWER_START===\nConclusion: d. works the lines to make the dragon do long loops through the air.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is flying a dragon-shaped kite.",
+                "Flying a kite requires working the lines to control its movement.",
+                "The man is likely working the lines to make the dragon-shaped kite do certain movements.",
+                "The man is not attacking the dragon because it is a kite and not a real dragon.",
+                "The man is not serving hot dogs to customers because there is no mention of hot dogs or customers in the scenario.",
+                "The man is not weeding the garden because he is currently flying a kite.",
+                "The most logical action for the man flying a dragon-shaped kite is to work the lines to make the dragon do long loops through the air."
+            ],
+            "pred": "d. works the lines to make the dragon do long loops through the air.",
+            "is_correct": true,
+            "elapsed_time": 1.6699798107147217,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A clown is fashioning animals ",
+            "question": "Question: A clown is fashioning animals from long balloons.  He\n\nChoices:\na. releases the animals into their natural habitat.\nb. makes a giraffe and hands it to a child.\nc. yells out for his second in command to pilot the battleship around the obstacle.\nd. releases the balloon and it flies high into the air.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The clown is fashioning animals from long balloons.\nStep 2: The purpose of making animals from long balloons is to give them to someone.\nStep 3: The clown hands the giraffe balloon to a child.\nStep 4: Therefore, the most likely choice is b. makes a giraffe and hands it to a child.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The clown is fashioning animals from long balloons.",
+                "The purpose of making animals from long balloons is to give them to someone.",
+                "The clown hands the giraffe balloon to a child.",
+                "Therefore, the most likely choice is b. makes a giraffe and hands it to a child."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7668588161468506,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man is speaking to a group o",
+            "question": "Question: A man is speaking to a group of executives in a boardroom.  He\n\nChoices:\na. makes balloon animals and gives them to each executive.\nb. gestures to a slide showing the change in sales over time.\nc. types rapidly on his laptop without saying a word.\nd. climbs into the treehouse.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The man is speaking to a group of executives in a boardroom, indicating a professional setting.\nStep 2: Making balloon animals is not appropriate for a professional setting, so option a can be eliminated.\nStep 3: Typing rapidly on his laptop without saying a word could indicate he is taking notes or preparing a presentation, making option c a plausible choice.\nStep 4: Gesturing to a slide showing the change in sales over time is a common practice in business presentations, reinforcing option b as a valid choice.\nStep 5: Climbing into a treehouse is completely unrelated to the professional setting of a boardroom, so option d can be eliminated.\nConclusion: The most likely action for the man to take in this scenario is to gesture to a slide showing the change in sales over time.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is speaking to a group of executives in a boardroom, indicating a professional setting.",
+                "Making balloon animals is not appropriate for a professional setting, so option a can be eliminated.",
+                "Typing rapidly on his laptop without saying a word could indicate he is taking notes or preparing a presentation, making option c a plausible choice.",
+                "Gesturing to a slide showing the change in sales over time is a common practice in business presentations, reinforcing option b as a valid choice.",
+                "Climbing into a treehouse is completely unrelated to the professional setting of a boardroom, so option d can be eliminated."
+            ],
+            "pred": "The most likely action for the man to take in this scenario is to gesture to a slide showing the change in sales over time.",
+            "is_correct": false,
+            "elapsed_time": 1.8855640888214111,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Paul cuts a piece of cake in h",
+            "question": "Question: Paul cuts a piece of cake in half.  He\n\nChoices:\na. is happy that he destroyed the piece of cake.\nb. gives a piece to each of his two kids.\nc. realizes the piece of cake is now useless.\nd. then merges the two halves into a whole piece indistinguishable from the one he started with.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Paul cuts a piece of cake in half.\nStep 2: Cutting a piece of cake in half results in two separate pieces.\nStep 3: Paul has two pieces of cake after cutting it in half.\nStep 4: Paul has two kids.\nStep 5: Paul gives a piece to each of his two kids.\nStep 6: Therefore, the most logical choice is b. gives a piece to each of his two kids.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Paul cuts a piece of cake in half.",
+                "Cutting a piece of cake in half results in two separate pieces.",
+                "Paul has two pieces of cake after cutting it in half.",
+                "Paul has two kids.",
+                "Paul gives a piece to each of his two kids.",
+                "Therefore, the most logical choice is b. gives a piece to each of his two kids."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.0453460216522217,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Typhoid fever ravaged the vill",
+            "question": "Question: Typhoid fever ravaged the village. The villagers\n\nChoices:\na. were feeling better than ever.\nb. recommended taking antibiotics and drinking the same fluids used for handwashing.\nc. responded by sarcastically mocking the naysayers.\nd. felt there was no hope.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Typhoid fever is a serious illness that can cause high fever, weakness, stomach pains, and in severe cases, death.\nStep 2: The fact that typhoid fever ravaged the village indicates that the villagers were likely experiencing symptoms of the illness.\nStep 3: Given the severity of typhoid fever, it is unlikely that the villagers were feeling better than ever.\nStep 4: It is important to seek medical treatment for typhoid fever, which often includes antibiotics.\nStep 5: The villagers recommending taking antibiotics and drinking the same fluids used for handwashing suggests a practical response to the outbreak.\nStep 6: Sarcastically mocking the naysayers would not be a productive or appropriate response to a serious illness like typhoid fever.\nStep 7: Feeling there was no hope would be a common reaction to a situation where a serious illness like typhoid fever is ravaging the village.\nConclusion: D. felt there was no hope. \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Typhoid fever is a serious illness that can cause high fever, weakness, stomach pains, and in severe cases, death.",
+                "The fact that typhoid fever ravaged the village indicates that the villagers were likely experiencing symptoms of the illness.",
+                "Given the severity of typhoid fever, it is unlikely that the villagers were feeling better than ever.",
+                "It is important to seek medical treatment for typhoid fever, which often includes antibiotics.",
+                "The villagers recommending taking antibiotics and drinking the same fluids used for handwashing suggests a practical response to the outbreak.",
+                "Sarcastically mocking the naysayers would not be a productive or appropriate response to a serious illness like typhoid fever.",
+                "Feeling there was no hope would be a common reaction to a situation where a serious illness like typhoid fever is ravaging the village."
+            ],
+            "pred": "D. felt there was no hope.",
+            "is_correct": true,
+            "elapsed_time": 1.7493700981140137,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I have a hard time making frie",
+            "question": "Question: I have a hard time making friends. I think it is because I\n\nChoices:\na. lack social skills.\nb. care about the environment.\nc. have a hard time finding dogs who share my personality.\nd. live in Chicago.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Having a hard time making friends could be due to a lack of social skills, as social skills are essential in forming and maintaining friendships.\nStep 2: If someone lacks social skills, they may struggle to initiate conversations, understand social cues, or build rapport with others.\nStep 3: Caring about the environment is not directly related to making friends, as it does not impact one's ability to socialize or connect with others.\nStep 4: Having a hard time finding dogs who share one's personality is not a common reason for difficulty in making human friends.\nStep 5: Living in Chicago may indirectly affect one's ability to make friends if the city's culture or social dynamics make it challenging to meet new people.\nStep 6: However, living in Chicago does not directly cause a lack of social skills, which is a more fundamental factor in making friends.\nConclusion: The reason for having a hard time making friends is likely due to lacking social skills, so the answer is (a) lack social skills.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Having a hard time making friends could be due to a lack of social skills, as social skills are essential in forming and maintaining friendships.",
+                "If someone lacks social skills, they may struggle to initiate conversations, understand social cues, or build rapport with others.",
+                "Caring about the environment is not directly related to making friends, as it does not impact one's ability to socialize or connect with others.",
+                "Having a hard time finding dogs who share one's personality is not a common reason for difficulty in making human friends.",
+                "Living in Chicago may indirectly affect one's ability to make friends if the city's culture or social dynamics make it challenging to meet new people.",
+                "However, living in Chicago does not directly cause a lack of social skills, which is a more fundamental factor in making friends."
+            ],
+            "pred": "The reason for having a hard time making friends is likely due to lacking social skills, so the answer is (a) lack social skills.",
+            "is_correct": true,
+            "elapsed_time": 1.7825648784637451,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Secret Hitler is my favorite b",
+            "question": "Question: Secret Hitler is my favorite board game. I\n\nChoices:\na. enjoy playing it with a group of 8-10 friends.\nb. don't like it as much as Avalon.\nc. am very left-leaning politically.\nd. visited Germany last summer.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Secret Hitler is my favorite board game.\nStep 2: Secret Hitler is a game that involves deception and hidden roles.\nStep 3: I enjoy playing games that involve strategy and social deduction.\nStep 4: I enjoy playing it with a group of 8-10 friends.\nStep 5: Playing Secret Hitler with a larger group enhances the gameplay experience.\nStep 6: Secret Hitler is a game that is best enjoyed with a larger group.\nStep 7: Secret Hitler is designed for 5-10 players.\nStep 8: I don't like it as much as Avalon.\nStep 9: Avalon is another game that involves deception and hidden roles.\nStep 10: I prefer the gameplay mechanics of Avalon over Secret Hitler.\nStep 11: I am very left-leaning politically.\nStep 12: Secret Hitler has a theme that involves political ideologies.\nStep 13: I am drawn to games that align with my political beliefs.\nStep 14: Secret Hitler's theme resonates with my left-leaning political views.\nStep 15: I visited Germany last summer.\nStep 16: Secret Hitler is set in Germany during the 1930s.\nStep 17: Visiting Germany may have sparked an interest in the historical context of the game.\nStep 18: Secret Hitler's setting may have intrigued me due to my recent visit to Germany.\nConclusion: a. enjoy playing it with a group of 8-10 friends. \n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Secret Hitler is my favorite board game.",
+                "Secret Hitler is a game that involves deception and hidden roles.",
+                "I enjoy playing games that involve strategy and social deduction.",
+                "I enjoy playing it with a group of 8-10 friends.",
+                "Playing Secret Hitler with a larger group enhances the gameplay experience.",
+                "Secret Hitler is a game that is best enjoyed with a larger group.",
+                "Secret Hitler is designed for 5-10 players.",
+                "I don't like it as much as Avalon.",
+                "Avalon is another game that involves deception and hidden roles.",
+                "I prefer the gameplay mechanics of Avalon over Secret Hitler.",
+                "I am very left-leaning politically.",
+                "Secret Hitler has a theme that involves political ideologies.",
+                "I am drawn to games that align with my political beliefs.",
+                "Secret Hitler's theme resonates with my left-leaning political views.",
+                "I visited Germany last summer.",
+                "Secret Hitler is set in Germany during the 1930s.",
+                "Visiting Germany may have sparked an interest in the historical context of the game.",
+                "Secret Hitler's setting may have intrigued me due to my recent visit to Germany."
+            ],
+            "pred": "a. enjoy playing it with a group of 8-10 friends.",
+            "is_correct": true,
+            "elapsed_time": 2.6669528484344482,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man is walking across the gr",
+            "question": "Question: A man is walking across the green toward his golf ball.  He\n\nChoices:\na. draws a diagram showing how the system will perform when deployed.\nb. throws the frisbee to his partner.\nc. squats down and tries to gauge the break on his putt.\nd. lays down on the green and tries to get some sleep.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The man is walking across the green toward his golf ball.\nStep 2: He is likely focused on playing golf.\nStep 3: Playing golf involves hitting the ball into the hole.\nStep 4: To hit the ball into the hole, he needs to putt.\nStep 5: Therefore, the man squats down and tries to gauge the break on his putt.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is walking across the green toward his golf ball.",
+                "He is likely focused on playing golf.",
+                "Playing golf involves hitting the ball into the hole.",
+                "To hit the ball into the hole, he needs to putt.",
+                "Therefore, the man squats down and tries to gauge the break on his putt."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 0.9849109649658203,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_George's car is the color of t",
+            "question": "Question: George's car is the color of the midday sky.  It's\n\nChoices:\na. a majestic shade of orange.\nb. a majestic shade of pink.\nc. a majestic shade of red.\nd. a majestic shade of blue.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The color of the midday sky is typically blue.\nStep 2: George's car is the color of the midday sky.\nStep 3: Therefore, George's car is most likely blue.\nConclusion: d. a majestic shade of blue.\n===FINAL_ANSWER_START===\nConclusion: d\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The color of the midday sky is typically blue.",
+                "George's car is the color of the midday sky.",
+                "Therefore, George's car is most likely blue."
+            ],
+            "pred": "d. a majestic shade of blue.",
+            "is_correct": true,
+            "elapsed_time": 0.8402509689331055,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_My favorite color is the color",
+            "question": "Question: My favorite color is the color of elephants. My favorite color is\n\nChoices:\na. gray\nb. blue\nc. black\nd. red",
+            "answerKey": "a",
+            "cot_output": "Step 1: Elephants are typically gray in color.\nStep 2: Therefore, my favorite color is gray.\n===FINAL_ANSWER_START===\nConclusion: a. gray\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Elephants are typically gray in color.",
+                "Therefore, my favorite color is gray."
+            ],
+            "pred": "a. gray",
+            "is_correct": true,
+            "elapsed_time": 0.5838360786437988,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_My favorite color is the color",
+            "question": "Question: My favorite color is the color of plants. My favorite color is\n\nChoices:\na. blue\nb. purple\nc. red\nd. green",
+            "answerKey": "d",
+            "cot_output": "Step 1: Plants are typically green in color.\nStep 2: The color of plants is associated with nature and growth.\nStep 3: Green is commonly associated with nature and growth.\nStep 4: Therefore, my favorite color, which is the color of plants, is most likely green.\n===FINAL_ANSWER_START===\nConclusion: d. green\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Plants are typically green in color.",
+                "The color of plants is associated with nature and growth.",
+                "Green is commonly associated with nature and growth.",
+                "Therefore, my favorite color, which is the color of plants, is most likely green."
+            ],
+            "pred": "d. green",
+            "is_correct": true,
+            "elapsed_time": 0.7600760459899902,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_My car shines with the same co",
+            "question": "Question: My car shines with the same color as the ocean. My car is\n\nChoices:\na. green\nb. blue\nc. orange\nd. purple",
+            "answerKey": "b",
+            "cot_output": "Step 1: The color of the ocean is commonly known to be blue.\nStep 2: The car shines with the same color as the ocean, which means it is also blue.\nConclusion: b. blue\n===FINAL_ANSWER_START===\nConclusion: b\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The color of the ocean is commonly known to be blue.",
+                "The car shines with the same color as the ocean, which means it is also blue."
+            ],
+            "pred": "b. blue",
+            "is_correct": true,
+            "elapsed_time": 0.7265820503234863,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The sky is",
+            "question": "Question: The sky is\n\nChoices:\na. red\nb. green\nc. blue\nd. orange",
+            "answerKey": "c",
+            "cot_output": "Step 1: The color of the sky during the day is primarily determined by the scattering of sunlight by the Earth's atmosphere.\nStep 2: The shortest wavelengths of visible light (blue and violet) are scattered more than the longer wavelengths (red, orange, yellow).\nStep 3: As a result of this scattering phenomenon, the sky appears blue to our eyes during the day.\nConclusion: C. blue\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The color of the sky during the day is primarily determined by the scattering of sunlight by the Earth's atmosphere.",
+                "The shortest wavelengths of visible light (blue and violet) are scattered more than the longer wavelengths (red, orange, yellow).",
+                "As a result of this scattering phenomenon, the sky appears blue to our eyes during the day."
+            ],
+            "pred": "C. blue",
+            "is_correct": true,
+            "elapsed_time": 0.8994259834289551,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_After studying all night, a gr",
+            "question": "Question: After studying all night, a group of students were preparing to\n\nChoices:\na. take a test\nb. join a cult\nc. sprint\nd. fly out the window",
+            "answerKey": "a",
+            "cot_output": "Step 1: Studying all night usually implies preparing for something important.\nStep 2: The most common reason for studying all night is to prepare for a test.\nStep 3: Therefore, the group of students is most likely preparing to take a test.\nConclusion: A. take a test\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Studying all night usually implies preparing for something important.",
+                "The most common reason for studying all night is to prepare for a test.",
+                "Therefore, the group of students is most likely preparing to take a test."
+            ],
+            "pred": "A. take a test",
+            "is_correct": true,
+            "elapsed_time": 0.8190290927886963,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I am falling behind in my clas",
+            "question": "Question: I am falling behind in my classes. I should\n\nChoices:\na. go to office hours.\nb. feel jealous of my success.\nc. practice on my balance beam.\nd. take a huge chug of vodka.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Falling behind in classes is a result of not understanding the material or not keeping up with assignments.\nStep 2: Going to office hours can help clarify any misunderstandings and catch up on missed material.\nStep 3: Feeling jealous of success is not a productive solution to falling behind in classes.\nStep 4: Practicing on a balance beam is unrelated to academic success.\nStep 5: Taking a huge chug of vodka will not help improve academic performance.\nConclusion: A. go to office hours.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Falling behind in classes is a result of not understanding the material or not keeping up with assignments.",
+                "Going to office hours can help clarify any misunderstandings and catch up on missed material.",
+                "Feeling jealous of success is not a productive solution to falling behind in classes.",
+                "Practicing on a balance beam is unrelated to academic success.",
+                "Taking a huge chug of vodka will not help improve academic performance."
+            ],
+            "pred": "A. go to office hours.",
+            "is_correct": true,
+            "elapsed_time": 1.0967531204223633,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_I feel conflicted between taki",
+            "question": "Question: I feel conflicted between taking my exam honestly and cheating on it. I should\n\nChoices:\na. root for the better team.\nb. consider the consequences of academic dishonesty.\nc. eat a big meal before the exam.\nd. tell the professor about my dilemma.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Cheating on the exam is a form of academic dishonesty.\nStep 2: Academic dishonesty can have serious consequences such as failing the course or being expelled from school.\nStep 3: Considering the consequences of academic dishonesty is important in making an ethical decision.\nStep 4: Telling the professor about the dilemma can help in finding a solution that does not involve cheating.\nStep 5: Therefore, the best course of action is to choose option d. tell the professor about my dilemma.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Cheating on the exam is a form of academic dishonesty.",
+                "Academic dishonesty can have serious consequences such as failing the course or being expelled from school.",
+                "Considering the consequences of academic dishonesty is important in making an ethical decision.",
+                "Telling the professor about the dilemma can help in finding a solution that does not involve cheating.",
+                "Therefore, the best course of action is to choose option d. tell the professor about my dilemma."
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 1.1486258506774902,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Today I was asked whether I wo",
+            "question": "Question: Today I was asked whether I would kill one man to save ten. I said\n\nChoices:\na. I would not kill the man, because he has been kind to me.\nb. I would kill the man, because poverty is a big problem in the world.\nc. I would not kill the man, because the ends do not justify the means.\nd. I would kill the man, because when life gives you lemons, make lemonade.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Killing one man to save ten is a moral dilemma.\nStep 2: Choosing to kill the man would be a utilitarian approach, sacrificing one for the greater good.\nStep 3: Choosing not to kill the man would prioritize individual rights and the value of human life.\nStep 4: Option a. states that the man has been kind, which is a personal reason not to kill him.\nStep 5: Option b. focuses on the greater good of addressing poverty, which is a utilitarian perspective.\nStep 6: Option c. emphasizes that the ends do not justify the means, reflecting a deontological ethical stance.\nStep 7: Option d. suggests making the best out of a difficult situation, which is a positive outlook.\nConclusion: C. I would not kill the man, because the ends do not justify the means. \n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Killing one man to save ten is a moral dilemma.",
+                "Choosing to kill the man would be a utilitarian approach, sacrificing one for the greater good.",
+                "Choosing not to kill the man would prioritize individual rights and the value of human life.",
+                "Option a. states that the man has been kind, which is a personal reason not to kill him.",
+                "Option b. focuses on the greater good of addressing poverty, which is a utilitarian perspective.",
+                "Option c. emphasizes that the ends do not justify the means, reflecting a deontological ethical stance.",
+                "Option d. suggests making the best out of a difficult situation, which is a positive outlook."
+            ],
+            "pred": "C. I would not kill the man, because the ends do not justify the means.",
+            "is_correct": true,
+            "elapsed_time": 1.535170078277588,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A boy is holding a pack of bas",
+            "question": "Question: A boy is holding a pack of baseball cards.  He\n\nChoices:\na. uses a microscope to investigate cultures on a slide.\nb. likes them because he enjoys following basketball.\nc. puts the pack into boiling water in order to preserve the quality of the cards.\nd. opens the pack and begins looking through the cards.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The boy is holding a pack of baseball cards.\nStep 2: Baseball cards are typically associated with the sport of baseball.\nStep 3: Therefore, the boy is likely interested in baseball.\nStep 4: The most logical action for someone interested in baseball cards is to open the pack and look through the cards.\nStep 5: Opening the pack and looking through the cards is the most reasonable next step for the boy.\nConclusion: D. opens the pack and begins looking through the cards. \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The boy is holding a pack of baseball cards.",
+                "Baseball cards are typically associated with the sport of baseball.",
+                "Therefore, the boy is likely interested in baseball.",
+                "The most logical action for someone interested in baseball cards is to open the pack and look through the cards.",
+                "Opening the pack and looking through the cards is the most reasonable next step for the boy."
+            ],
+            "pred": "D. opens the pack and begins looking through the cards.",
+            "is_correct": true,
+            "elapsed_time": 1.1260080337524414,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man is sitting on a park ben",
+            "question": "Question: A man is sitting on a park bench peeling a banana.  He\n\nChoices:\na. throws the peel hundreds of yards away.\nb. re-affixes the peel and returns the banana to the grocery store.\nc. tosses the peel into the trash can and begins eating.\nd. eats the peel and sets the banana on fire.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The man is peeling a banana, indicating he intends to eat it.\nStep 2: Since he is in a public park, it is likely he will dispose of the peel properly.\nStep 3: The most common and appropriate way to dispose of a banana peel is to toss it into a trash can.\nStep 4: Therefore, the man will most likely toss the peel into the trash can and begin eating.\nConclusion: C. tosses the peel into the trash can and begins eating.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is peeling a banana, indicating he intends to eat it.",
+                "Since he is in a public park, it is likely he will dispose of the peel properly.",
+                "The most common and appropriate way to dispose of a banana peel is to toss it into a trash can.",
+                "Therefore, the man will most likely toss the peel into the trash can and begin eating."
+            ],
+            "pred": "C. tosses the peel into the trash can and begins eating.",
+            "is_correct": true,
+            "elapsed_time": 0.9374258518218994,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man is buying large numbers ",
+            "question": "Question: A man is buying large numbers of bananas and pears.  He\n\nChoices:\na. throws the frisbee over the fence.\nb. is not buying fruit.\nc. puts exactly one banana and one pear into his cart and walks away.\nd. puts dozens of both kinds of fruit into his cart.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The man is buying large numbers of bananas and pears.\nStep 2: If he is buying large numbers of bananas and pears, it is unlikely that he is not buying fruit.\nStep 3: If he is buying large numbers of bananas and pears, he is more likely to put dozens of both kinds of fruit into his cart.\nStep 4: Therefore, the man puts dozens of both kinds of fruit into his cart.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is buying large numbers of bananas and pears.",
+                "If he is buying large numbers of bananas and pears, it is unlikely that he is not buying fruit.",
+                "If he is buying large numbers of bananas and pears, he is more likely to put dozens of both kinds of fruit into his cart.",
+                "Therefore, the man puts dozens of both kinds of fruit into his cart."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.8569979667663574,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A car has been completely crus",
+            "question": "Question: A car has been completely crushed by a large tree.  The car\n\nChoices:\na. still runs great.\nb. is more valuable than before.\nc. makes a complete stop at the stop sign, then accelerates away.\nd. may never drive again.",
+            "answerKey": "d",
+            "cot_output": "Step 1: A car that has been completely crushed by a large tree will likely have significant damage.\nStep 2: The structural integrity of the car would have been compromised by the impact of the tree.\nStep 3: The engine, transmission, and other essential components of the car may have been damaged beyond repair.\nStep 4: Due to the extensive damage, the car may never be able to function properly again.\nConclusion: d. may never drive again.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A car that has been completely crushed by a large tree will likely have significant damage.",
+                "The structural integrity of the car would have been compromised by the impact of the tree.",
+                "The engine, transmission, and other essential components of the car may have been damaged beyond repair.",
+                "Due to the extensive damage, the car may never be able to function properly again."
+            ],
+            "pred": "d. may never drive again.",
+            "is_correct": true,
+            "elapsed_time": 1.1609978675842285,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_John hates to see his patients",
+            "question": "Question: John hates to see his patients in pain during surgery. So, he\n\nChoices:\na. stitches them up hastily.\nb. murders them.\nc. gives them anesthetic.\nd. kisses them.",
+            "answerKey": "c",
+            "cot_output": "Step 1: John hates to see his patients in pain during surgery.\nStep 2: Therefore, he would want to alleviate their pain.\nStep 3: Giving them anesthetic is a common way to alleviate pain during surgery.\nStep 4: Therefore, John gives his patients anesthetic.\n===FINAL_ANSWER_START===\nConclusion: c. gives them anesthetic\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "John hates to see his patients in pain during surgery.",
+                "Therefore, he would want to alleviate their pain.",
+                "Giving them anesthetic is a common way to alleviate pain during surgery.",
+                "Therefore, John gives his patients anesthetic."
+            ],
+            "pred": "c. gives them anesthetic",
+            "is_correct": true,
+            "elapsed_time": 0.7912700176239014,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A jogger noticed someone calli",
+            "question": "Question: A jogger noticed someone calling for help on their daily workout. The Jogger\n\nChoices:\na. leaped into action, hoping to help.\nb. leaped into action, knowing the curse would ware off soon.\nc. leaped into action, dancing their problems away.\nd. leaped into action, running away.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The jogger noticed someone calling for help during their daily workout.\nStep 2: The jogger's natural response would be to assist the person in need.\nStep 3: Therefore, the jogger leaped into action, hoping to help.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The jogger noticed someone calling for help during their daily workout.",
+                "The jogger's natural response would be to assist the person in need.",
+                "Therefore, the jogger leaped into action, hoping to help."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.6641781330108643,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_Sarah is pretty ugly, so she d",
+            "question": "Question: Sarah is pretty ugly, so she decided to\n\nChoices:\na. put on more makeup.\nb. picked her nose.\nc. paint her water bottle a shade of pink.\nd. wash off her makeup.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Sarah is pretty ugly.\nStep 2: Sarah wants to improve her appearance.\nStep 3: Putting on more makeup can enhance her appearance.\nStep 4: Sarah decides to put on more makeup to look better.\nStep 5: The logical choice for Sarah is to choose option a. put on more makeup.\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Sarah is pretty ugly.",
+                "Sarah wants to improve her appearance.",
+                "Putting on more makeup can enhance her appearance.",
+                "Sarah decides to put on more makeup to look better.",
+                "The logical choice for Sarah is to choose option a. put on more makeup."
+            ],
+            "pred": "a",
+            "is_correct": true,
+            "elapsed_time": 0.8563530445098877,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The magician was ready to reve",
+            "question": "Question: The magician was ready to reveal their next illusion. The magician\n\nChoices:\na. through a series of events made an audience member vanish.\nb. read out loud peoples credit card info.\nc. knew that no one would care what they did.\nd. gazed upon the flowers on their suit.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The magician was ready to reveal their next illusion, indicating they had a planned trick to perform.\nStep 2: The magician through a series of events made an audience member vanish would be a planned trick and illusion.\nStep 3: Reading out loud people's credit card info or gazing upon the flowers on their suit does not align with the idea of revealing an illusion.\nStep 4: Therefore, the magician most likely made an audience member vanish as their next illusion.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The magician was ready to reveal their next illusion, indicating they had a planned trick to perform.",
+                "The magician through a series of events made an audience member vanish would be a planned trick and illusion.",
+                "Reading out loud people's credit card info or gazing upon the flowers on their suit does not align with the idea of revealing an illusion.",
+                "Therefore, the magician most likely made an audience member vanish as their next illusion."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.1675310134887695,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The student was looking for a ",
+            "question": "Question: The student was looking for a new way to help them fall asleep. The student\n\nChoices:\na. decided counting sheep was the way to go.\nb. failed their most recent midterm.\nc. was raised by a mathematician and a priest.\nd. graduated their classes with high honors.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The student is looking for a new way to help them fall asleep.\nStep 2: Falling asleep can be aided by calming activities or thoughts.\nStep 3: Counting sheep is a common method used to help people fall asleep.\nStep 4: The student decided counting sheep was the way to go.\nStep 5: Therefore, the student chose option a. decided counting sheep was the way to go.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The student is looking for a new way to help them fall asleep.",
+                "Falling asleep can be aided by calming activities or thoughts.",
+                "Counting sheep is a common method used to help people fall asleep.",
+                "The student decided counting sheep was the way to go.",
+                "Therefore, the student chose option a. decided counting sheep was the way to go."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9284579753875732,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_We realized that the paper thi",
+            "question": "Question: We realized that the paper this morning was full of old uninteresting news stories. We decided to\n\nChoices:\na. scrutinize it to every last detail.\nb. throw it away.\nc. frame it to the living room wall.\nd. fold it a few times.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The paper this morning was full of old uninteresting news stories.\nStep 2: We decided that there is no value in keeping the paper.\nStep 3: Therefore, we should get rid of it.\nStep 4: The best way to get rid of the paper is to throw it away.\nConclusion: B. throw it away.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The paper this morning was full of old uninteresting news stories.",
+                "We decided that there is no value in keeping the paper.",
+                "Therefore, we should get rid of it.",
+                "The best way to get rid of the paper is to throw it away."
+            ],
+            "pred": "B. throw it away.",
+            "is_correct": true,
+            "elapsed_time": 1.084585189819336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The farmer needed help with hi",
+            "question": "Question: The farmer needed help with his taxes. The farmer\n\nChoices:\na. decided to hire an accountant.\nb. fed his cows first, chickens second.\nc. really enjoyed his life on the farm, tending the livestock.\nd. ate corn and wheat products.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The farmer needed help with his taxes, indicating a need for financial assistance.\nStep 2: Hiring an accountant is a common solution for individuals who need help with taxes.\nStep 3: Therefore, the farmer decided to hire an accountant.\nConclusion: A. decided to hire an accountant.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The farmer needed help with his taxes, indicating a need for financial assistance.",
+                "Hiring an accountant is a common solution for individuals who need help with taxes.",
+                "Therefore, the farmer decided to hire an accountant."
+            ],
+            "pred": "A. decided to hire an accountant.",
+            "is_correct": true,
+            "elapsed_time": 0.9390418529510498,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_We needed a good estimate for ",
+            "question": "Question: We needed a good estimate for the height of the tree, so we\n\nChoices:\na. chopped it down.\nb. had a picnic under the tree instead.\nc. used a ruler to tap it a few times.\nd. measured the length of its shadow.",
+            "answerKey": "d",
+            "cot_output": "Step 1: In order to estimate the height of the tree, we need a method that does not involve cutting it down.\nStep 2: Chopping down the tree (choice A) is not a viable option as it would not provide an estimate but rather the exact height.\nStep 3: Having a picnic under the tree (choice B) is irrelevant to estimating the height of the tree.\nStep 4: Using a ruler to tap the tree a few times (choice C) is not a reliable method for estimating the height accurately.\nStep 5: Measuring the length of the tree's shadow (choice D) can help us estimate the height of the tree using trigonometry.\nConclusion: D. measured the length of its shadow. \n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "In order to estimate the height of the tree, we need a method that does not involve cutting it down.",
+                "Chopping down the tree (choice A) is not a viable option as it would not provide an estimate but rather the exact height.",
+                "Having a picnic under the tree (choice B) is irrelevant to estimating the height of the tree.",
+                "Using a ruler to tap the tree a few times (choice C) is not a reliable method for estimating the height accurately.",
+                "Measuring the length of the tree's shadow (choice D) can help us estimate the height of the tree using trigonometry."
+            ],
+            "pred": "D. measured the length of its shadow.",
+            "is_correct": true,
+            "elapsed_time": 1.4443702697753906,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The pirate needed a worthy ani",
+            "question": "Question: The pirate needed a worthy animal companion. The pirate\n\nChoices:\na. decided to give up his life of theft.\nb. was attacked by parrots.\nc. lost his favorite eye patch and yelled at the sea.\nd. took his gold doubloons, and bought a dog.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The pirate needed a worthy animal companion.\nStep 2: Pirates often have parrots as companions.\nStep 3: Parrots are known for their ability to mimic speech and provide entertainment.\nStep 4: Parrots are not the only option for animal companions.\nStep 5: Dogs are also popular animal companions for pirates.\nStep 6: Dogs are loyal and can provide protection.\nStep 7: The pirate decided to buy a dog as his animal companion.\nConclusion: D. took his gold doubloons, and bought a dog.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The pirate needed a worthy animal companion.",
+                "Pirates often have parrots as companions.",
+                "Parrots are known for their ability to mimic speech and provide entertainment.",
+                "Parrots are not the only option for animal companions.",
+                "Dogs are also popular animal companions for pirates.",
+                "Dogs are loyal and can provide protection.",
+                "The pirate decided to buy a dog as his animal companion."
+            ],
+            "pred": "D. took his gold doubloons, and bought a dog.",
+            "is_correct": true,
+            "elapsed_time": 1.4257452487945557,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The plumber started couples th",
+            "question": "Question: The plumber started couples therapy last month. The plumber\n\nChoices:\na. really wants things to work out with his life partner.\nb. fixed himself a nice gin and tonic.\nc. decided to go expand beyond plumbing and become an electrician.\nd. decided that he should shower more.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The plumber started couples therapy last month.\nStep 2: Couples therapy is typically sought when there are relationship issues.\nStep 3: Therefore, the plumber really wants things to work out with his life partner.\nStep 4: This implies that the plumber is committed to improving his relationship.\nStep 5: Therefore, the plumber did not fix himself a nice gin and tonic as a way to cope with relationship issues.\nStep 6: The plumber did not decide to go expand beyond plumbing and become an electrician as a way to address relationship issues.\nStep 7: The plumber did not decide that he should shower more as a way to address relationship issues.\n===FINAL_ANSWER_START===\nConclusion: A. really wants things to work out with his life partner.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The plumber started couples therapy last month.",
+                "Couples therapy is typically sought when there are relationship issues.",
+                "Therefore, the plumber really wants things to work out with his life partner.",
+                "This implies that the plumber is committed to improving his relationship.",
+                "Therefore, the plumber did not fix himself a nice gin and tonic as a way to cope with relationship issues.",
+                "The plumber did not decide to go expand beyond plumbing and become an electrician as a way to address relationship issues.",
+                "The plumber did not decide that he should shower more as a way to address relationship issues."
+            ],
+            "pred": "A. really wants things to work out with his life partner.",
+            "is_correct": true,
+            "elapsed_time": 1.273465633392334,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The politician really wanted t",
+            "question": "Question: The politician really wanted to win their campaign for governor. The politician\n\nChoices:\na. took bribes and attacked people physically.\nb. talked frankly and honestly about their love of financial meltdowns.\nc. took counsel from professional advisers. \nd. committed them self to helping other people steal from taxpayers.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Winning the campaign for governor requires a positive public image and support from voters.\nStep 2: Taking bribes and attacking people physically would tarnish the politician's image and decrease voter support.\nStep 3: Talking frankly and honestly about their love of financial meltdowns would also harm the politician's image and decrease voter support.\nStep 4: Taking counsel from professional advisers could help the politician strategize and improve their campaign.\nStep 5: Committing themselves to helping other people steal from taxpayers would further damage the politician's image and decrease voter support.\nStep 6: Therefore, the best course of action for the politician to win their campaign for governor is to take counsel from professional advisers.\n===FINAL_ANSWER_START===\nConclusion: C. took counsel from professional advisers\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Winning the campaign for governor requires a positive public image and support from voters.",
+                "Taking bribes and attacking people physically would tarnish the politician's image and decrease voter support.",
+                "Talking frankly and honestly about their love of financial meltdowns would also harm the politician's image and decrease voter support.",
+                "Taking counsel from professional advisers could help the politician strategize and improve their campaign.",
+                "Committing themselves to helping other people steal from taxpayers would further damage the politician's image and decrease voter support.",
+                "Therefore, the best course of action for the politician to win their campaign for governor is to take counsel from professional advisers."
+            ],
+            "pred": "C. took counsel from professional advisers",
+            "is_correct": true,
+            "elapsed_time": 1.3780460357666016,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The prisoner decided to make h",
+            "question": "Question: The prisoner decided to make his great escape. The prisoner\n\nChoices:\na. broke into a song and dance routine.\nb. disguised himself as a guard and fled the prison.\nc. took control of the prison and decided to rule it forever.\nd. waited until 9 months for his sentence to be over, then went home.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The prisoner wants to escape from the prison.\nStep 2: Breaking into a song and dance routine would not help the prisoner escape.\nStep 3: Taking control of the prison and ruling it forever is not a feasible escape plan.\nStep 4: Waiting for 9 months for the sentence to be over is not a practical escape plan.\nStep 5: Disguising himself as a guard and fleeing the prison would be a logical escape plan.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The prisoner wants to escape from the prison.",
+                "Breaking into a song and dance routine would not help the prisoner escape.",
+                "Taking control of the prison and ruling it forever is not a feasible escape plan.",
+                "Waiting for 9 months for the sentence to be over is not a practical escape plan.",
+                "Disguising himself as a guard and fleeing the prison would be a logical escape plan."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.8563539981842041,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The baker needed to decorate t",
+            "question": "Question: The baker needed to decorate their cake. The baker\n\nChoices:\na. knew the customer wanted a creative design.\nb. excelled at making bread and cupcakes.\nc. fought their sister over leftover pink frosting and chocolate.\nd. whipped up a batch of sugar cookies.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The baker needed to decorate their cake, indicating a desire to create a visually appealing design.\nStep 2: The fact that the baker needed to decorate the cake suggests that they were looking to fulfill a specific customer request.\nStep 3: The customer likely wanted a creative design, as most customers seek unique and visually appealing cakes for special occasions.\nStep 4: Therefore, the baker knew the customer wanted a creative design.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The baker needed to decorate their cake, indicating a desire to create a visually appealing design.",
+                "The fact that the baker needed to decorate the cake suggests that they were looking to fulfill a specific customer request.",
+                "The customer likely wanted a creative design, as most customers seek unique and visually appealing cakes for special occasions.",
+                "Therefore, the baker knew the customer wanted a creative design."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8291161060333252,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The florist needed to find a n",
+            "question": "Question: The florist needed to find a new supplier of daisies. The florist\n\nChoices:\na. picked sunflowers on their walk home.\nb. sold sophisticated floral arrangements  in her store.\nc. took a trip to Florida.\nd. used the phone book to find some new contact information.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The florist needed to find a new supplier of daisies to continue offering them in the store.\nStep 2: To find a new supplier, the florist would need to search for potential contacts or companies that supply daisies.\nStep 3: The most efficient way to search for new suppliers would be to use the phone book to find contact information.\nStep 4: Therefore, the florist used the phone book to find some new contact information.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The florist needed to find a new supplier of daisies to continue offering them in the store.",
+                "To find a new supplier, the florist would need to search for potential contacts or companies that supply daisies.",
+                "The most efficient way to search for new suppliers would be to use the phone book to find contact information.",
+                "Therefore, the florist used the phone book to find some new contact information."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 0.8694570064544678,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The cat needed some alone time",
+            "question": "Question: The cat needed some alone time from their owner. The cat\n\nChoices:\na. would meow constantly, begging for attention.\nb. enjoyed eating fish and smelling catnip.\nc. would hiss anytime a dog would pass by them.\nd. would leave any room their owner would enter.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Cats are known to be independent animals.\nStep 2: Independent animals may need alone time from their owners.\nStep 3: If a cat needs alone time, they might exhibit behaviors to avoid interaction.\nStep 4: Meowing constantly and begging for attention is not a behavior associated with wanting alone time.\nStep 5: Enjoying eating fish and smelling catnip does not necessarily indicate a need for alone time.\nStep 6: Hissing at dogs passing by is a defensive behavior, not necessarily related to needing alone time.\nStep 7: Leaving a room when the owner enters can be a way for the cat to have alone time.\nConclusion: D. would leave any room their owner would enter\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Cats are known to be independent animals.",
+                "Independent animals may need alone time from their owners.",
+                "If a cat needs alone time, they might exhibit behaviors to avoid interaction.",
+                "Meowing constantly and begging for attention is not a behavior associated with wanting alone time.",
+                "Enjoying eating fish and smelling catnip does not necessarily indicate a need for alone time.",
+                "Hissing at dogs passing by is a defensive behavior, not necessarily related to needing alone time.",
+                "Leaving a room when the owner enters can be a way for the cat to have alone time."
+            ],
+            "pred": "D. would leave any room their owner would enter",
+            "is_correct": true,
+            "elapsed_time": 1.4826838970184326,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The writer needed to find a qu",
+            "question": "Question: The writer needed to find a quiet place to work. The writer\n\nChoices:\na. loved playing hide and seek.\nb. knew they could collect their thoughts better in silence.\nc. wrote a lot of powerful tweets on twitter.\nd. enjoyed answering questions about their fiction.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The writer needed to find a quiet place to work.\nStep 2: Quiet places are conducive to concentration and focus.\nStep 3: Concentration and focus are essential for productive work.\nStep 4: Therefore, the writer knew they could collect their thoughts better in silence.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The writer needed to find a quiet place to work.",
+                "Quiet places are conducive to concentration and focus.",
+                "Concentration and focus are essential for productive work.",
+                "Therefore, the writer knew they could collect their thoughts better in silence."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7402160167694092,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The chef wanted to make a Than",
+            "question": "Question: The chef wanted to make a Thanksgiving feast. The Chef\n\nChoices:\na. hated making Thanksgiving foods, refusing to make Turkey or Pie.\nb. had a passion for killing turkeys.\nc. instead played the movie Ratatouille .\nd. worked very hard to prepare a meal his family would love.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The question mentions that the chef wanted to make a Thanksgiving feast.\nStep 2: Making a Thanksgiving feast typically involves making Turkey and Pie.\nStep 3: Option a states that the chef hated making Thanksgiving foods, refusing to make Turkey or Pie.\nStep 4: If the chef hated making Thanksgiving foods and refused to make Turkey or Pie, it is unlikely that he would want to make a Thanksgiving feast.\nStep 5: Therefore, option a is the most logical choice based on the information provided.\n\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The question mentions that the chef wanted to make a Thanksgiving feast.",
+                "Making a Thanksgiving feast typically involves making Turkey and Pie.",
+                "Option a states that the chef hated making Thanksgiving foods, refusing to make Turkey or Pie.",
+                "If the chef hated making Thanksgiving foods and refused to make Turkey or Pie, it is unlikely that he would want to make a Thanksgiving feast.",
+                "Therefore, option a is the most logical choice based on the information provided."
+            ],
+            "pred": "a",
+            "is_correct": false,
+            "elapsed_time": 0.9498910903930664,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The yoga instructor wanted to ",
+            "question": "Question: The yoga instructor wanted to increase attendance for their classes. The yoga instructor\n\nChoices:\na. offered free sessions to peak peoples interests.\nb. stopped teaching yoga.\nc. threw yoga balls at anyone who challenged her creative spirit.\nd. balanced work life with her personal life.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Offering free sessions can attract more people to try out the classes.\nStep 2: Increasing attendance can lead to more word-of-mouth referrals and potential long-term clients.\nStep 3: Stopping teaching yoga would not help in increasing attendance.\nStep 4: Throwing yoga balls at challengers would likely deter people from attending the classes.\nStep 5: Balancing work life with personal life may improve the instructor's well-being but may not directly increase attendance.\nConclusion: The yoga instructor should offer free sessions to peak people's interests.\n===FINAL_ANSWER_START===\nConclusion: a. offered free sessions to peak peoples interests.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Offering free sessions can attract more people to try out the classes.",
+                "Increasing attendance can lead to more word-of-mouth referrals and potential long-term clients.",
+                "Stopping teaching yoga would not help in increasing attendance.",
+                "Throwing yoga balls at challengers would likely deter people from attending the classes.",
+                "Balancing work life with personal life may improve the instructor's well-being but may not directly increase attendance."
+            ],
+            "pred": "The yoga instructor should offer free sessions to peak people's interests.",
+            "is_correct": true,
+            "elapsed_time": 1.0491600036621094,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The juggler knew that polyamor",
+            "question": "Question: The juggler knew that polyamory was not for them. The juggler\n\nChoices:\na. juggled frequently at a local circus.\nb. could no longer juggle three lovers.\nc. could juggle chainsaws.\nd. was also an acrobat.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The juggler knew that polyamory was not for them, indicating a preference for monogamy or a single partner.\nStep 2: Option b. could no longer juggle three lovers directly relates to the juggler's decision to not pursue polyamory.\nStep 3: Therefore, the juggler could no longer juggle three lovers because they preferred monogamy.\nStep 4: The juggler's inability to juggle three lovers does not necessarily mean they cannot juggle other objects like chainsaws or perform at a circus.\nStep 5: Thus, the most logical choice is b. could no longer juggle three lovers.\n===FINAL_ANSWER_START===\nConclusion: B. could no longer juggle three lovers\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The juggler knew that polyamory was not for them, indicating a preference for monogamy or a single partner.",
+                "Option b. could no longer juggle three lovers directly relates to the juggler's decision to not pursue polyamory.",
+                "Therefore, the juggler could no longer juggle three lovers because they preferred monogamy.",
+                "The juggler's inability to juggle three lovers does not necessarily mean they cannot juggle other objects like chainsaws or perform at a circus.",
+                "Thus, the most logical choice is b. could no longer juggle three lovers."
+            ],
+            "pred": "B. could no longer juggle three lovers",
+            "is_correct": true,
+            "elapsed_time": 1.422942876815796,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A pinata was hung outside for ",
+            "question": "Question: A pinata was hung outside for several kids to hit it with a stick. The pinata\n\nChoices:\na. was filled with all the candy the parents could find.\nb. could talk, amazing the children.\nc. was filled with bees, which stung the kids.\nd. was filled with pills, as a very sick joke.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The purpose of a pinata is typically to be filled with treats or toys for children to enjoy.\nStep 2: Therefore, it is unlikely that the pinata was filled with bees or pills, as those items would not bring joy to the children.\nStep 3: The most logical option is that the pinata was filled with candy, as it aligns with the traditional purpose of a pinata.\nStep 4: Therefore, the answer is:\n===FINAL_ANSWER_START===\nConclusion: a. was filled with all the candy the parents could find.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The purpose of a pinata is typically to be filled with treats or toys for children to enjoy.",
+                "Therefore, it is unlikely that the pinata was filled with bees or pills, as those items would not bring joy to the children.",
+                "The most logical option is that the pinata was filled with candy, as it aligns with the traditional purpose of a pinata.",
+                "Therefore, the answer is:"
+            ],
+            "pred": "a. was filled with all the candy the parents could find.",
+            "is_correct": true,
+            "elapsed_time": 0.9420690536499023,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A birthday card was left insid",
+            "question": "Question: A birthday card was left inside the man's cubicle. The birthday card\n\nChoices:\na. read \"wow, wasn't Happy Death Day an interesting movie? It's so good and entertaining\"\nb. read \"Happy Birthday John! Isn't funny how a year has passed and your still single? Anyway, your'e alone!\"\nc. read \"The company is making me to give you a Birthday Card, I hope your happy\"\nd. read \"Happy Birthday Casey! I really value our friendship!!\"",
+            "answerKey": "d",
+            "cot_output": "Step 1: The birthday card mentions the movie \"Happy Death Day.\"\nStep 2: The movie \"Happy Death Day\" is about a person reliving their birthday over and over again.\nStep 3: The mention of the movie \"Happy Death Day\" could be seen as a reference to the recipient's birthday.\nStep 4: The birthday card is likely related to the recipient's birthday.\nStep 5: The birthday card that mentions the movie \"Happy Death Day\" is the most relevant to the recipient's birthday.\nStep 6: Therefore, the birthday card read \"wow, wasn't Happy Death Day an interesting movie? It's so good and entertaining.\"\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The birthday card mentions the movie \"Happy Death Day.\"",
+                "The movie \"Happy Death Day\" is about a person reliving their birthday over and over again.",
+                "The mention of the movie \"Happy Death Day\" could be seen as a reference to the recipient's birthday.",
+                "The birthday card is likely related to the recipient's birthday.",
+                "The birthday card that mentions the movie \"Happy Death Day\" is the most relevant to the recipient's birthday.",
+                "Therefore, the birthday card read \"wow, wasn't Happy Death Day an interesting movie? It's so good and entertaining.\""
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 1.6870357990264893,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A hoarder through therapy real",
+            "question": "Question: A hoarder through therapy realized that they needed to change their lifestyle. The hoarder\n\nChoices:\na. continued hoarding because it was what was most natural to them.\nb. fixed themselves a good drink from their collection of 80's discontinued sodas.\nc. got rid of anything they did not need in their home.\nd. decided to set their house on fire for a fresh start.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The hoarder realized through therapy that they needed to change their lifestyle.\nStep 2: Realizing the need for change implies a desire to improve their living conditions.\nStep 3: The hoarder decided to take action based on the realization from therapy.\nStep 4: Getting rid of unnecessary items in their home is a common step towards improving living conditions.\nStep 5: Therefore, the hoarder most likely got rid of anything they did not need in their home.\nConclusion: C. got rid of anything they did not need in their home.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The hoarder realized through therapy that they needed to change their lifestyle.",
+                "Realizing the need for change implies a desire to improve their living conditions.",
+                "The hoarder decided to take action based on the realization from therapy.",
+                "Getting rid of unnecessary items in their home is a common step towards improving living conditions.",
+                "Therefore, the hoarder most likely got rid of anything they did not need in their home."
+            ],
+            "pred": "C. got rid of anything they did not need in their home.",
+            "is_correct": true,
+            "elapsed_time": 1.1837608814239502,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The librarian needed a way to ",
+            "question": "Question: The librarian needed a way to organize their books. The librarian\n\nChoices:\na. decided to use the dewey decimal system.\nb. pleaded with children in the library to be quiet.\nc. provided books to children at a school.\nd. read some of their favorite books for fun.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The librarian needed a way to organize their books, indicating a need for a systematic method.\nStep 2: Using the dewey decimal system is a well-known and widely used method for organizing books in libraries.\nStep 3: Therefore, the librarian decided to use the dewey decimal system.\nConclusion: A\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The librarian needed a way to organize their books, indicating a need for a systematic method.",
+                "Using the dewey decimal system is a well-known and widely used method for organizing books in libraries.",
+                "Therefore, the librarian decided to use the dewey decimal system."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.7549118995666504,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The printer had received sever",
+            "question": "Question: The printer had received several print commands but had completely run out of ink. The printer\n\nChoices:\na. was over three years old, with over 20,000 papers printed.\nb. had worked wonders in the past on massive printing requests and continued doing so now.\nc. needed to be attended to, if it was going to complete the requests sent to it.\nd. continued printing papers with vibrant color.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The printer had completely run out of ink.\nStep 2: Running out of ink means the printer cannot print anything.\nStep 3: If the printer cannot print anything, it cannot complete the print requests.\nStep 4: The printer needed to be attended to, if it was going to complete the requests sent to it.\nStep 5: Choice C states that the printer needed to be attended to in order to complete the requests.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The printer had completely run out of ink.",
+                "Running out of ink means the printer cannot print anything.",
+                "If the printer cannot print anything, it cannot complete the print requests.",
+                "The printer needed to be attended to, if it was going to complete the requests sent to it.",
+                "Choice C states that the printer needed to be attended to in order to complete the requests."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 0.9163839817047119,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The vegetarian decided cut off",
+            "question": "Question: The vegetarian decided cut off any animal products from their meals. The vegetarian\n\nChoices:\na. will continue to eat milk, cheese and eggs, however.\nb. can now be considered vegan.\nc. enjoys eating the occasional pulled pork sandwich.\nd. will regret their life choices as meat is very tasty.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The vegetarian decided to cut off any animal products from their meals.\nStep 2: Cutting off all animal products includes milk, cheese, and eggs, as they are derived from animals.\nStep 3: Therefore, the vegetarian will not continue to eat milk, cheese, and eggs.\nStep 4: The definition of veganism is abstaining from all animal products, including milk, cheese, and eggs.\nStep 5: Since the vegetarian has cut off all animal products from their meals, they can now be considered vegan.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The vegetarian decided to cut off any animal products from their meals.",
+                "Cutting off all animal products includes milk, cheese, and eggs, as they are derived from animals.",
+                "Therefore, the vegetarian will not continue to eat milk, cheese, and eggs.",
+                "The definition of veganism is abstaining from all animal products, including milk, cheese, and eggs.",
+                "Since the vegetarian has cut off all animal products from their meals, they can now be considered vegan."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.1111159324645996,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is planning a surprise",
+            "question": "Question: The man is planning a surprise party for his friend. He\n\nChoices:\na. will sleep for a long time\nb. will cook dinner and invite friends\nc. will take his dog for a walk\nd. will take his parents to temple.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The man is planning a surprise party for his friend.\nStep 2: In order to have a successful surprise party, the man needs to make arrangements and invite friends.\nStep 3: The best way to celebrate a surprise party is by cooking dinner and inviting friends.\nStep 4: Therefore, the man will cook dinner and invite friends.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is planning a surprise party for his friend.",
+                "In order to have a successful surprise party, the man needs to make arrangements and invite friends.",
+                "The best way to celebrate a surprise party is by cooking dinner and inviting friends.",
+                "Therefore, the man will cook dinner and invite friends."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.1342549324035645,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The cop found two students smo",
+            "question": "Question: The cop found two students smoking weed outside a school. The cop\n\nChoices:\na. ran away from them as fast has he could.\nb. sold them drugs, such as LSD and Heroine.\nc. had to give them a ticket and warned them of possible jail time.\nd. decided to light a cigarette with them.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Smoking weed outside a school is illegal and against the law.\nStep 2: The cop's duty is to enforce the law and maintain order.\nStep 3: The cop must take action against the students for breaking the law.\nStep 4: Running away from the situation or selling drugs to the students would be unethical and illegal.\nStep 5: Giving them a ticket and warning them of possible jail time is the appropriate course of action.\nStep 6: The cop would not engage in smoking with the students as it would be unprofessional and against the law.\nConclusion: c. had to give them a ticket and warned them of possible jail time.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Smoking weed outside a school is illegal and against the law.",
+                "The cop's duty is to enforce the law and maintain order.",
+                "The cop must take action against the students for breaking the law.",
+                "Running away from the situation or selling drugs to the students would be unethical and illegal.",
+                "Giving them a ticket and warning them of possible jail time is the appropriate course of action.",
+                "The cop would not engage in smoking with the students as it would be unprofessional and against the law."
+            ],
+            "pred": "c. had to give them a ticket and warned them of possible jail time.",
+            "is_correct": true,
+            "elapsed_time": 1.099271297454834,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The father denounced his son f",
+            "question": "Question: The father denounced his son for his misdeeds. The son\n\nChoices:\na. took his family out for dinner\nb. did not understand the probability theory\nc. apologized for his mistake\nd. lived happily ever after",
+            "answerKey": "c",
+            "cot_output": "Step 1: The father denounced his son for his misdeeds, indicating disapproval.\nStep 2: The son, feeling guilty for his actions, would likely want to make amends.\nStep 3: Apologizing for his mistake is a common way to make amends and seek forgiveness.\nStep 4: Therefore, the son most likely apologized for his mistake.\nConclusion: C. apologized for his mistake\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The father denounced his son for his misdeeds, indicating disapproval.",
+                "The son, feeling guilty for his actions, would likely want to make amends.",
+                "Apologizing for his mistake is a common way to make amends and seek forgiveness.",
+                "Therefore, the son most likely apologized for his mistake."
+            ],
+            "pred": "C. apologized for his mistake",
+            "is_correct": true,
+            "elapsed_time": 0.8218250274658203,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A tiger is walking excitedly w",
+            "question": "Question: A tiger is walking excitedly within a glass cage as people look on.  The tiger\n\nChoices:\na. is sound asleep.\nb. paces back and forth nearby the glass.\nc. turns left at the intersection.\nd. has bright red plumage.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Tigers are known to be active animals that pace back and forth in their natural habitat.\nStep 2: The tiger is walking excitedly within the glass cage, indicating it is not asleep.\nStep 3: The tiger is not turning left at an intersection as it is walking within a glass cage.\nStep 4: The description of the tiger's behavior matches with the characteristic of pacing back and forth.\nStep 5: Therefore, the tiger is most likely pacing back and forth nearby the glass.\n===FINAL_ANSWER_START===\nConclusion: B. paces back and forth nearby the glass\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Tigers are known to be active animals that pace back and forth in their natural habitat.",
+                "The tiger is walking excitedly within the glass cage, indicating it is not asleep.",
+                "The tiger is not turning left at an intersection as it is walking within a glass cage.",
+                "The description of the tiger's behavior matches with the characteristic of pacing back and forth.",
+                "Therefore, the tiger is most likely pacing back and forth nearby the glass."
+            ],
+            "pred": "B. paces back and forth nearby the glass",
+            "is_correct": true,
+            "elapsed_time": 1.0387279987335205,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The wheels of the airplane hit",
+            "question": "Question: The wheels of the airplane hit the ground with a jolt. The captain\n\nChoices:\na. sings a song\nb. says, “welcome to Atlanta”\nc. has landed the plane\nd. dies in the collision",
+            "answerKey": "c",
+            "cot_output": "Step 1: The wheels of the airplane hit the ground with a jolt, indicating that the plane has landed.\nStep 2: When the plane lands, the captain's primary responsibility is to ensure the safety of the passengers and crew.\nStep 3: It is unlikely for the captain to sing a song or say \"welcome to Atlanta\" immediately after a jolting landing.\nStep 4: The most logical action for the captain after a jolting landing is to announce that the plane has landed.\nStep 5: Therefore, the captain most likely says, \"welcome to Atlanta.\"\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The wheels of the airplane hit the ground with a jolt, indicating that the plane has landed.",
+                "When the plane lands, the captain's primary responsibility is to ensure the safety of the passengers and crew.",
+                "It is unlikely for the captain to sing a song or say \"welcome to Atlanta\" immediately after a jolting landing.",
+                "The most logical action for the captain after a jolting landing is to announce that the plane has landed.",
+                "Therefore, the captain most likely says, \"welcome to Atlanta.\""
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 0.9787211418151855,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_There is a cat sitting by the ",
+            "question": "Question: There is a cat sitting by the window. The cat\n\nChoices:\na. is bouncing up and down.\nb. is looking outside wistfully.\nc. smells terrible.\nd. morphs into a dog who looks outside.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Cats are known to be curious animals.\nStep 2: The cat is sitting by the window, indicating it may be interested in something outside.\nStep 3: Cats often look outside to observe their surroundings.\nStep 4: The cat is looking outside wistfully, as mentioned in choice b.\nConclusion: B. is looking outside wistfully.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Cats are known to be curious animals.",
+                "The cat is sitting by the window, indicating it may be interested in something outside.",
+                "Cats often look outside to observe their surroundings.",
+                "The cat is looking outside wistfully, as mentioned in choice b."
+            ],
+            "pred": "B. is looking outside wistfully.",
+            "is_correct": true,
+            "elapsed_time": 0.8383731842041016,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The dog eats a lot. The dog",
+            "question": "Question: The dog eats a lot. The dog\n\nChoices:\na. sleeps a lot.\nb. figures out where the bed is.\nc. cries a lot.\nd. has been gaining some weight.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Eating a lot can lead to weight gain in animals.\nStep 2: The dog eats a lot.\nStep 3: Therefore, the dog has been gaining some weight.\n===FINAL_ANSWER_START===\nConclusion: d. has been gaining some weight\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Eating a lot can lead to weight gain in animals.",
+                "The dog eats a lot.",
+                "Therefore, the dog has been gaining some weight."
+            ],
+            "pred": "d. has been gaining some weight",
+            "is_correct": true,
+            "elapsed_time": 0.5261352062225342,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_A man cutting cake for his dau",
+            "question": "Question: A man cutting cake for his daughter. The man\n\nChoices:\na. wishes his son a happy birthday.\nb. sits by the window.\nc. wishes his daughter a happy birthday.\nd. goes to the store to buy cake.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The man is cutting a cake for his daughter, indicating it is his daughter's birthday.\nStep 2: Therefore, the man would most likely wish his daughter a happy birthday.\nStep 3: The man is not cutting the cake for his son, so he would not wish his son a happy birthday.\nStep 4: The man is focused on his daughter's birthday celebration, so he is unlikely to sit by the window or go to the store to buy cake.\nConclusion: c. wishes his daughter a happy birthday.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is cutting a cake for his daughter, indicating it is his daughter's birthday.",
+                "Therefore, the man would most likely wish his daughter a happy birthday.",
+                "The man is not cutting the cake for his son, so he would not wish his son a happy birthday.",
+                "The man is focused on his daughter's birthday celebration, so he is unlikely to sit by the window or go to the store to buy cake."
+            ],
+            "pred": "c. wishes his daughter a happy birthday.",
+            "is_correct": true,
+            "elapsed_time": 1.025679111480713,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is at the podium of a ",
+            "question": "Question: The man is at the podium of a spelling  bee. The man\n\nChoices:\na. kills all the bees.\nb. presents the prize.\nc. gives honey to all the children.\nd. loves to eat honey.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The man is at the podium of a spelling bee, indicating that he is likely involved in the competition.\nStep 2: Since the spelling bee is a competition for spelling words, it is unlikely that the man would kill all the bees.\nStep 3: The man is likely to be the organizer or host of the spelling bee, which would involve presenting the prize.\nStep 4: Therefore, the man most likely presents the prize at the spelling bee.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is at the podium of a spelling bee, indicating that he is likely involved in the competition.",
+                "Since the spelling bee is a competition for spelling words, it is unlikely that the man would kill all the bees.",
+                "The man is likely to be the organizer or host of the spelling bee, which would involve presenting the prize.",
+                "Therefore, the man most likely presents the prize at the spelling bee."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.1828899383544922,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_There is a long line outside t",
+            "question": "Question: There is a long line outside the club. The bouncer\n\nChoices:\na. is completely inebriated.\nb. is waiting in line to enter the club.\nc. is sleeping very peacefully.\nd. is standing guard by the door.",
+            "answerKey": "d",
+            "cot_output": "Step 1: There is a long line outside the club, indicating that there is a crowd waiting to enter.\nStep 2: The bouncer's role is to manage the entrance and ensure only authorized individuals enter the club.\nStep 3: If the bouncer is completely inebriated, they would not be able to perform their duties effectively.\nStep 4: If the bouncer is waiting in line to enter the club, they are not fulfilling their role of managing the entrance.\nStep 5: If the bouncer is sleeping very peacefully, they are not fulfilling their role of managing the entrance.\nStep 6: The most likely scenario is that the bouncer is standing guard by the door to manage the entrance and control the crowd.\n===FINAL_ANSWER_START===\nConclusion: D. is standing guard by the door\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "There is a long line outside the club, indicating that there is a crowd waiting to enter.",
+                "The bouncer's role is to manage the entrance and ensure only authorized individuals enter the club.",
+                "If the bouncer is completely inebriated, they would not be able to perform their duties effectively.",
+                "If the bouncer is waiting in line to enter the club, they are not fulfilling their role of managing the entrance.",
+                "If the bouncer is sleeping very peacefully, they are not fulfilling their role of managing the entrance.",
+                "The most likely scenario is that the bouncer is standing guard by the door to manage the entrance and control the crowd."
+            ],
+            "pred": "D. is standing guard by the door",
+            "is_correct": true,
+            "elapsed_time": 1.6766917705535889,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_There is a line outside of bes",
+            "question": "Question: There is a line outside of best buy. The people\n\nChoices:\na. are trying to find the way home.\nb. are enjoying a nice steak that is on sale today.\nc. are waiting to shop for some sale items.\nd. are attending a lecture at school.",
+            "answerKey": "c",
+            "cot_output": "Step 1: There is a line outside of Best Buy.\nStep 2: People usually wait in line to enter a store for a specific reason, such as a sale or a limited-time offer.\nStep 3: The people in line are not trying to find their way home because they are already at a specific location.\nStep 4: The people are not enjoying a nice steak that is on sale today because Best Buy is an electronics store, not a steakhouse.\nStep 5: The people are not attending a lecture at school because they are outside of Best Buy, not a school.\nStep 6: Therefore, the most likely reason for the line outside of Best Buy is that the people are waiting to shop for some sale items.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "There is a line outside of Best Buy.",
+                "People usually wait in line to enter a store for a specific reason, such as a sale or a limited-time offer.",
+                "The people in line are not trying to find their way home because they are already at a specific location.",
+                "The people are not enjoying a nice steak that is on sale today because Best Buy is an electronics store, not a steakhouse.",
+                "The people are not attending a lecture at school because they are outside of Best Buy, not a school.",
+                "Therefore, the most likely reason for the line outside of Best Buy is that the people are waiting to shop for some sale items."
+            ],
+            "pred": "C",
+            "is_correct": true,
+            "elapsed_time": 1.6599328517913818,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The agent pulls out a gun. The",
+            "question": "Question: The agent pulls out a gun. The agent\n\nChoices:\na. shoots the transgressor. \nb. eats the gun.\nc. pulls out a rabbit out of his hat.\nd. shoots photos of his wife.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The agent pulls out a gun, which is typically used as a weapon for self-defense or aggression.\nStep 2: Pulling out a gun indicates a potential threat or intention to use it.\nStep 3: Therefore, the most likely action for the agent to take after pulling out a gun is to shoot the transgressor.\nConclusion: A. shoots the transgressor.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The agent pulls out a gun, which is typically used as a weapon for self-defense or aggression.",
+                "Pulling out a gun indicates a potential threat or intention to use it.",
+                "Therefore, the most likely action for the agent to take after pulling out a gun is to shoot the transgressor."
+            ],
+            "pred": "A. shoots the transgressor.",
+            "is_correct": true,
+            "elapsed_time": 0.8925411701202393,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man enter his house. The m",
+            "question": "Question: The man enter his house. The man\n\nChoices:\na. can't find the keys to unlock the door.\nb. goes to school at his university.\nc. eats the garbage.\nd. takes his shoes off.",
+            "answerKey": "d",
+            "cot_output": "Step 1: When a person enters their house, they typically engage in activities related to being at home.\nStep 2: One common action when entering a house is to take off shoes to keep the house clean.\nStep 3: Therefore, the man is likely to take his shoes off when he enters his house.\nConclusion: D. takes his shoes off\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a person enters their house, they typically engage in activities related to being at home.",
+                "One common action when entering a house is to take off shoes to keep the house clean.",
+                "Therefore, the man is likely to take his shoes off when he enters his house."
+            ],
+            "pred": "D. takes his shoes off",
+            "is_correct": true,
+            "elapsed_time": 1.021317958831787,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The magician is performing on ",
+            "question": "Question: The magician is performing on stage. The magician\n\nChoices:\na. attends school to learn magic.\nb. is training for a marathon in magicville.\nc. pulls the cat out of a bag.\nd. is eating dinner with his friend.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Magicians typically perform magic tricks on stage.\nStep 2: Performing magic tricks requires skills and knowledge in magic.\nStep 3: Attending school to learn magic would provide the necessary skills and knowledge.\nStep 4: Therefore, the magician is likely to attend school to learn magic.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Magicians typically perform magic tricks on stage.",
+                "Performing magic tricks requires skills and knowledge in magic.",
+                "Attending school to learn magic would provide the necessary skills and knowledge.",
+                "Therefore, the magician is likely to attend school to learn magic."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 0.8180532455444336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The rabbit is running from the",
+            "question": "Question: The rabbit is running from the fox. The fox\n\nChoices:\na. is sleeping in a cave.\nb. is trying to become friends with the rabbit.\nc. is being domesticated.\nd. is hunting.",
+            "answerKey": "d",
+            "cot_output": "Step 1: A rabbit running from a fox indicates a predator-prey relationship.\nStep 2: Foxes are known to be predators in the wild.\nStep 3: The natural behavior of a predator like a fox towards a prey like a rabbit is to hunt.\nStep 4: Therefore, the fox is most likely hunting.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "A rabbit running from a fox indicates a predator-prey relationship.",
+                "Foxes are known to be predators in the wild.",
+                "The natural behavior of a predator like a fox towards a prey like a rabbit is to hunt.",
+                "Therefore, the fox is most likely hunting."
+            ],
+            "pred": "D",
+            "is_correct": true,
+            "elapsed_time": 1.4277613162994385,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The men are attending a prayer",
+            "question": "Question: The men are attending a prayer. The men\n\nChoices:\na. are sitting at a mosque.\nb. studying about prayer at their school.\nc. are on the way to the party.\nd. eating together very happily.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The men are attending a prayer, indicating a religious or spiritual activity.\nStep 2: Men attending a prayer are likely to be at a mosque.\nStep 3: Therefore, the men are sitting at a mosque.\n===FINAL_ANSWER_START===\nConclusion: a\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The men are attending a prayer, indicating a religious or spiritual activity.",
+                "Men attending a prayer are likely to be at a mosque.",
+                "Therefore, the men are sitting at a mosque."
+            ],
+            "pred": "a",
+            "is_correct": true,
+            "elapsed_time": 0.7153182029724121,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is walking to the cine",
+            "question": "Question: The man is walking to the cinema. The man\n\nChoices:\na. dislikes movies.\nb. is eating with his data at home.\nc. is on a date. \nd. is learning to speak german.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The man is walking to the cinema.\nStep 2: People usually go to the cinema to watch movies.\nStep 3: Therefore, it is likely that the man is going to watch a movie.\nStep 4: If the man is going to watch a movie, he probably does not dislike movies.\nStep 5: If the man is going to watch a movie, he is not eating with his date at home.\nStep 6: If the man is going to watch a movie, he is not learning to speak German.\nStep 7: Therefore, the most likely scenario is that the man is on a date.\n===FINAL_ANSWER_START===\nConclusion: C. is on a date\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is walking to the cinema.",
+                "People usually go to the cinema to watch movies.",
+                "Therefore, it is likely that the man is going to watch a movie.",
+                "If the man is going to watch a movie, he probably does not dislike movies.",
+                "If the man is going to watch a movie, he is not eating with his date at home.",
+                "If the man is going to watch a movie, he is not learning to speak German.",
+                "Therefore, the most likely scenario is that the man is on a date."
+            ],
+            "pred": "C. is on a date",
+            "is_correct": true,
+            "elapsed_time": 1.2788748741149902,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The email account is being hac",
+            "question": "Question: The email account is being hacked. The account\n\nChoices:\na. has a weak password.\nb. hacks away at the man.\nc. coughs and hacks because it is sick.\nd. has lots of money stored in it.",
+            "answerKey": "a",
+            "cot_output": "Step 1: If an email account has a weak password, it is more vulnerable to hacking.\nStep 2: A weak password can be easily guessed or cracked by hackers.\nStep 3: Therefore, if the email account is being hacked, it is likely because it has a weak password.\nConclusion: A. has a weak password.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If an email account has a weak password, it is more vulnerable to hacking.",
+                "A weak password can be easily guessed or cracked by hackers.",
+                "Therefore, if the email account is being hacked, it is likely because it has a weak password."
+            ],
+            "pred": "A. has a weak password.",
+            "is_correct": true,
+            "elapsed_time": 0.7322518825531006,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The runner is running a race. ",
+            "question": "Question: The runner is running a race. The runner\n\nChoices:\na. is sleeping.\nb. looks at his medal with glee.\nc. is not doing so well.\nd. enjoys a nicely carbohydrate enriched breakfast.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The runner is participating in a race.\nStep 2: In order to perform well in a race, the runner needs to be awake and active.\nStep 3: If the runner is sleeping, they cannot be participating in the race.\nStep 4: Therefore, choice a. is not the correct answer.\nStep 5: Looking at a medal with glee is not relevant to the runner's current activity of running a race.\nStep 6: Therefore, choice b. is not the correct answer.\nStep 7: If the runner is not doing well in the race, it is possible that they are still running but struggling.\nStep 8: Therefore, choice c. is a possibility but not necessarily the correct answer.\nStep 9: Enjoying a nicely carbohydrate enriched breakfast can provide the runner with energy and fuel for the race.\nStep 10: Therefore, choice d. is the most likely correct answer based on the runner's activity of running a race.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The runner is participating in a race.",
+                "In order to perform well in a race, the runner needs to be awake and active.",
+                "If the runner is sleeping, they cannot be participating in the race.",
+                "Therefore, choice a. is not the correct answer.",
+                "Looking at a medal with glee is not relevant to the runner's current activity of running a race.",
+                "Therefore, choice b. is not the correct answer.",
+                "If the runner is not doing well in the race, it is possible that they are still running but struggling.",
+                "Therefore, choice c. is a possibility but not necessarily the correct answer.",
+                "Enjoying a nicely carbohydrate enriched breakfast can provide the runner with energy and fuel for the race.",
+                "Therefore, choice d. is the most likely correct answer based on the runner's activity of running a race."
+            ],
+            "pred": "D",
+            "is_correct": false,
+            "elapsed_time": 1.5590698719024658,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The dog is chasing the cat. Th",
+            "question": "Question: The dog is chasing the cat. The cat\n\nChoices:\na. is trying to find the cat food.\nb. is sharing a meal with the dog.\nc. is hunting a mouse.\nd. is terrified.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Dogs chase animals they perceive as prey.\nStep 2: The cat is running away from the dog.\nStep 3: Cats run away from animals that they see as threats.\nStep 4: The cat is not interacting with the dog in a friendly manner.\nStep 5: The cat is likely terrified of the dog.\nConclusion: D. is terrified.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Dogs chase animals they perceive as prey.",
+                "The cat is running away from the dog.",
+                "Cats run away from animals that they see as threats.",
+                "The cat is not interacting with the dog in a friendly manner.",
+                "The cat is likely terrified of the dog."
+            ],
+            "pred": "D. is terrified.",
+            "is_correct": true,
+            "elapsed_time": 0.8165230751037598,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is counting to three. ",
+            "question": "Question: The man is counting to three. The man\n\nChoices:\na. is at number 1.\nb. is at number 5.\nc. is at number 6.\nd. is at number 10.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The man is counting to three, which means he is counting in a sequence.\nStep 2: Since he is counting to three, he must be at number 3 next.\nStep 3: The man is not at number 1 or number 5 because he is counting to three, not to those numbers.\nStep 4: The man is not at number 10 because he is counting to three, not to that number.\nConclusion: The man is at number 3.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is counting to three, which means he is counting in a sequence.",
+                "Since he is counting to three, he must be at number 3 next.",
+                "The man is not at number 1 or number 5 because he is counting to three, not to those numbers.",
+                "The man is not at number 10 because he is counting to three, not to that number."
+            ],
+            "pred": "The man is at number 3.",
+            "is_correct": true,
+            "elapsed_time": 0.8617069721221924,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is sharing some pasta ",
+            "question": "Question: The man is sharing some pasta with his date. His date\n\nChoices:\na. stood him up.\nb. looks lovingly into his eyes.\nc. is not there.\nd. has to be postponed.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The man is sharing pasta with his date.\nStep 2: If the man is sharing pasta with his date, then his date must be present.\nStep 3: If his date must be present, then option a (stood him up) is incorrect.\nStep 4: If his date must be present, then option c (is not there) is incorrect.\nStep 5: If his date must be present, then option d (has to be postponed) is unlikely.\nStep 6: Therefore, the most likely scenario is that his date looks lovingly into his eyes.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is sharing pasta with his date.",
+                "If the man is sharing pasta with his date, then his date must be present.",
+                "If his date must be present, then option a (stood him up) is incorrect.",
+                "If his date must be present, then option c (is not there) is incorrect.",
+                "If his date must be present, then option d (has to be postponed) is unlikely.",
+                "Therefore, the most likely scenario is that his date looks lovingly into his eyes."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.0297739505767822,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man puts on his jacket. Th",
+            "question": "Question: The man puts on his jacket. The man\n\nChoices:\na. is looking for food in his fridge.\nb. pets his dog.\nc. is trying not to freeze.\nd. is playing frisbee with his mouth.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Putting on a jacket is typically done to stay warm in cold weather.\nStep 2: Therefore, the man is likely trying not to freeze.\nConclusion: C. is trying not to freeze\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Putting on a jacket is typically done to stay warm in cold weather.",
+                "Therefore, the man is likely trying not to freeze."
+            ],
+            "pred": "C. is trying not to freeze",
+            "is_correct": true,
+            "elapsed_time": 0.7044050693511963,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The child is learning how to w",
+            "question": "Question: The child is learning how to walk. The child\n\nChoices:\na. is sleeping.\nb. runs a marathon.\nc. figures out how to dance.\nd. breaks his fall with his face.",
+            "answerKey": "d",
+            "cot_output": "Step 1: Learning how to walk involves developing coordination and balance.\nStep 2: Developing coordination and balance requires practice and trial-and-error.\nStep 3: The child is in the process of learning how to walk, which means they are actively practicing and trying to balance.\nStep 4: Running a marathon requires a high level of endurance and training, which the child is unlikely to have at this stage.\nStep 5: Figuring out how to dance involves a level of coordination and rhythm that is more advanced than simply learning to walk.\nStep 6: Breaking a fall with the face is a common occurrence during the learning process of walking, as children often stumble and fall.\nConclusion: d. breaks his fall with his face\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Learning how to walk involves developing coordination and balance.",
+                "Developing coordination and balance requires practice and trial-and-error.",
+                "The child is in the process of learning how to walk, which means they are actively practicing and trying to balance.",
+                "Running a marathon requires a high level of endurance and training, which the child is unlikely to have at this stage.",
+                "Figuring out how to dance involves a level of coordination and rhythm that is more advanced than simply learning to walk.",
+                "Breaking a fall with the face is a common occurrence during the learning process of walking, as children often stumble and fall."
+            ],
+            "pred": "d. breaks his fall with his face",
+            "is_correct": true,
+            "elapsed_time": 1.277534008026123,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The teacher is teaching the ki",
+            "question": "Question: The teacher is teaching the kids calculus. The teacher\n\nChoices:\na. engages with the students well.\nb. is eating at her desk with headphones on.\nc. is arguing with her husband over the phone.\nd. is learning calculus.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Teaching calculus requires the teacher to actively engage with the students to explain complex concepts.\nStep 2: If the teacher is eating at her desk with headphones on, she is not actively engaging with the students.\nStep 3: Therefore, the teacher is not eating at her desk with headphones on while teaching calculus.\nStep 4: If the teacher is arguing with her husband over the phone, she is not actively engaging with the students.\nStep 5: Therefore, the teacher is not arguing with her husband over the phone while teaching calculus.\nStep 6: If the teacher is learning calculus, she would not be in a position to teach it to the kids.\nStep 7: Therefore, the teacher is engaging well with the students while teaching calculus.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Teaching calculus requires the teacher to actively engage with the students to explain complex concepts.",
+                "If the teacher is eating at her desk with headphones on, she is not actively engaging with the students.",
+                "Therefore, the teacher is not eating at her desk with headphones on while teaching calculus.",
+                "If the teacher is arguing with her husband over the phone, she is not actively engaging with the students.",
+                "Therefore, the teacher is not arguing with her husband over the phone while teaching calculus.",
+                "If the teacher is learning calculus, she would not be in a position to teach it to the kids.",
+                "Therefore, the teacher is engaging well with the students while teaching calculus."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.5279111862182617,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is listening to his he",
+            "question": "Question: The man is listening to his headphones. The man\n\nChoices:\na. is trying to study. \nb. is having a conversation with someone in front of him.\nc. is trying to teach students.\nd. is in the shower.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The man is listening to his headphones.\nStep 2: People usually listen to music or audio through headphones.\nStep 3: Listening to music or audio through headphones is a common activity for leisure or relaxation.\nStep 4: The man is not engaged in a conversation with someone in front of him because he is using headphones.\nStep 5: The man is not trying to teach students because he is using headphones for personal entertainment.\nStep 6: The man is not in the shower because it is not common to listen to headphones in the shower.\nConclusion: The man is trying to study.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is listening to his headphones.",
+                "People usually listen to music or audio through headphones.",
+                "Listening to music or audio through headphones is a common activity for leisure or relaxation.",
+                "The man is not engaged in a conversation with someone in front of him because he is using headphones.",
+                "The man is not trying to teach students because he is using headphones for personal entertainment.",
+                "The man is not in the shower because it is not common to listen to headphones in the shower."
+            ],
+            "pred": "The man is trying to study.",
+            "is_correct": true,
+            "elapsed_time": 1.2252490520477295,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The child is reading Harry Pot",
+            "question": "Question: The child is reading Harry Potter. The child\n\nChoices:\na. is at disney world.\nb. looks up a word.\nc. is eating at a restaurant.\nd. is at the cinema watching Harry Potter.",
+            "answerKey": "b",
+            "cot_output": "Step 1: Reading Harry Potter is an activity that can be done at home or in a quiet setting.\nStep 2: If the child is reading Harry Potter, it is unlikely that they are at Disney World, a place known for its attractions and rides.\nStep 3: It is possible for the child to look up a word while reading Harry Potter to understand its meaning.\nStep 4: If the child is reading Harry Potter and looking up a word, they are likely at home or in a quiet place, not at a restaurant.\nStep 5: The child could be at the cinema watching Harry Potter while reading the book.\nStep 6: If the child is reading Harry Potter and at the cinema, they are most likely watching the movie adaptation of the book.\nConclusion: The child is at the cinema watching Harry Potter.\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Reading Harry Potter is an activity that can be done at home or in a quiet setting.",
+                "If the child is reading Harry Potter, it is unlikely that they are at Disney World, a place known for its attractions and rides.",
+                "It is possible for the child to look up a word while reading Harry Potter to understand its meaning.",
+                "If the child is reading Harry Potter and looking up a word, they are likely at home or in a quiet place, not at a restaurant.",
+                "The child could be at the cinema watching Harry Potter while reading the book.",
+                "If the child is reading Harry Potter and at the cinema, they are most likely watching the movie adaptation of the book."
+            ],
+            "pred": "The child is at the cinema watching Harry Potter.",
+            "is_correct": false,
+            "elapsed_time": 1.5529041290283203,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The jacket is keeping the man ",
+            "question": "Question: The jacket is keeping the man warm. The man\n\nChoices:\na. is cold.\nb. is in the fridge.\nc. will be cold.\nd. was cold.",
+            "answerKey": "d",
+            "cot_output": "Step 1: The jacket is keeping the man warm.\nStep 2: If the jacket is keeping the man warm, then he is not cold.\nStep 3: If he is not cold, then he is not in the fridge.\nStep 4: If he is not cold and not in the fridge, then he will not be cold in the future.\nStep 5: Therefore, the man will not be cold.\n===FINAL_ANSWER_START===\nConclusion: c. will be cold.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The jacket is keeping the man warm.",
+                "If the jacket is keeping the man warm, then he is not cold.",
+                "If he is not cold, then he is not in the fridge.",
+                "If he is not cold and not in the fridge, then he will not be cold in the future.",
+                "Therefore, the man will not be cold."
+            ],
+            "pred": "c. will be cold.",
+            "is_correct": true,
+            "elapsed_time": 0.8018810749053955,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The carefully generated words ",
+            "question": "Question: The carefully generated words were classified incorrectly to the network. The network\n\nChoices:\na. eats dinner.\nb. ceases to be useful. \nc. is being used to call a classification expert.\nd. raises prices.",
+            "answerKey": "b",
+            "cot_output": "Step 1: The carefully generated words were classified incorrectly to the network, causing confusion.\nStep 2: The network may not be able to function properly with incorrect classifications.\nStep 3: If the network cannot function properly, it may cease to be useful.\nConclusion: The network ceases to be useful.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The carefully generated words were classified incorrectly to the network, causing confusion.",
+                "The network may not be able to function properly with incorrect classifications.",
+                "If the network cannot function properly, it may cease to be useful."
+            ],
+            "pred": "The network ceases to be useful.",
+            "is_correct": true,
+            "elapsed_time": 0.7570130825042725,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The man is sitting on a chair.",
+            "question": "Question: The man is sitting on a chair. The man\n\nChoices:\na. He is tired from standing. \nb. He is walking to a lecture.\nc. He is running a marathon.\nd. is playing soccer.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The man is sitting on a chair.\nStep 2: Sitting on a chair indicates a state of rest or relaxation.\nStep 3: If the man is sitting on a chair, he is not actively engaged in physical activity.\nStep 4: Therefore, the man is not running a marathon or playing soccer.\nStep 5: The man is not walking to a lecture because he is already seated.\nStep 6: The most likely reason for a man to sit on a chair is because he is tired from standing.\nConclusion: A. He is tired from standing.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man is sitting on a chair.",
+                "Sitting on a chair indicates a state of rest or relaxation.",
+                "If the man is sitting on a chair, he is not actively engaged in physical activity.",
+                "Therefore, the man is not running a marathon or playing soccer.",
+                "The man is not walking to a lecture because he is already seated.",
+                "The most likely reason for a man to sit on a chair is because he is tired from standing."
+            ],
+            "pred": "A. He is tired from standing.",
+            "is_correct": true,
+            "elapsed_time": 1.021056890487671,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The tired man drinks an energy",
+            "question": "Question: The tired man drinks an energy drink. The man\n\nChoices:\na. hopes to still be tired.\nb. hopes to sleep soon.\nc. has just finished a marathon.\nd. will be sleeping soon.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Energy drinks are typically consumed to increase alertness and combat tiredness.\nStep 2: Therefore, the tired man drinks an energy drink to feel more awake and alert.\nStep 3: Feeling more awake and alert usually does not lead to wanting to sleep soon.\nStep 4: The tired man is unlikely to have just finished a marathon as that would make him physically exhausted, not just tired.\nStep 5: The most logical outcome is that the tired man will be sleeping soon after drinking the energy drink.\nConclusion: D. will be sleeping soon\n===FINAL_ANSWER_START===\nConclusion: D\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Energy drinks are typically consumed to increase alertness and combat tiredness.",
+                "Therefore, the tired man drinks an energy drink to feel more awake and alert.",
+                "Feeling more awake and alert usually does not lead to wanting to sleep soon.",
+                "The tired man is unlikely to have just finished a marathon as that would make him physically exhausted, not just tired.",
+                "The most logical outcome is that the tired man will be sleeping soon after drinking the energy drink."
+            ],
+            "pred": "D. will be sleeping soon",
+            "is_correct": false,
+            "elapsed_time": 0.9516029357910156,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The scientist eats a banana. T",
+            "question": "Question: The scientist eats a banana. The scientist\n\nChoices:\na. is hungry.\nb. hates bananas.\nc. is trying to eat his lab equipment.\nd. is giving a lecture.",
+            "answerKey": "a",
+            "cot_output": "Step 1: Eating a banana is typically done when one is hungry.\nStep 2: The scientist is eating a banana.\nStep 3: Therefore, the scientist is likely hungry.\nConclusion: A. is hungry.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Eating a banana is typically done when one is hungry.",
+                "The scientist is eating a banana.",
+                "Therefore, the scientist is likely hungry."
+            ],
+            "pred": "A. is hungry.",
+            "is_correct": true,
+            "elapsed_time": 0.9099550247192383,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The artist is painting a banan",
+            "question": "Question: The artist is painting a banana. The artist\n\nChoices:\na. looks at the banana.\nb. is hungry.\nc. eats the banana.\nd. hates bananas.",
+            "answerKey": "a",
+            "cot_output": "Step 1: The artist is painting a banana.\nStep 2: To accurately paint the banana, the artist must look at it for reference.\nStep 3: Therefore, the artist looks at the banana.\nStep 4: Looking at the banana does not necessarily mean the artist is hungry.\nStep 5: Eating the banana is not required for painting it.\nStep 6: Hating bananas does not affect the artist's ability to paint one.\nConclusion: A. looks at the banana.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The artist is painting a banana.",
+                "To accurately paint the banana, the artist must look at it for reference.",
+                "Therefore, the artist looks at the banana.",
+                "Looking at the banana does not necessarily mean the artist is hungry.",
+                "Eating the banana is not required for painting it.",
+                "Hating bananas does not affect the artist's ability to paint one."
+            ],
+            "pred": "A. looks at the banana.",
+            "is_correct": true,
+            "elapsed_time": 1.0192251205444336,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The artist looks at the banana",
+            "question": "Question: The artist looks at the banana. The artist\n\nChoices:\na. paints a portrait of his father.\nb. paints a rhino.\nc. eats a banana.\nd. sketches a orange.",
+            "answerKey": "c",
+            "cot_output": "Step 1: The artist looks at the banana, which is a fruit.\nStep 2: Fruits are often eaten as a snack or meal.\nStep 3: Therefore, the artist is likely to eat the banana.\nConclusion: C. eats a banana.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The artist looks at the banana, which is a fruit.",
+                "Fruits are often eaten as a snack or meal.",
+                "Therefore, the artist is likely to eat the banana."
+            ],
+            "pred": "C. eats a banana.",
+            "is_correct": true,
+            "elapsed_time": 0.5697107315063477,
+            "tokens_used": null
+        },
+        {
+            "id": "gpqa_The forest is on fire. The for",
+            "question": "Question: The forest is on fire. The forest\n\nChoices:\na. won the lottery.\nb. is being flooded.\nc. is making the atmosphere black.\nd. is killing the fox.",
+            "answerKey": "c",
+            "cot_output": "Step 1: Forest fires typically result in the release of smoke and ash into the atmosphere.\nStep 2: Smoke and ash can darken the atmosphere and reduce visibility.\nStep 3: The forest fire is likely making the atmosphere black.\nConclusion: c. is making the atmosphere black.\n===FINAL_ANSWER_START===\nConclusion: C\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Forest fires typically result in the release of smoke and ash into the atmosphere.",
+                "Smoke and ash can darken the atmosphere and reduce visibility.",
+                "The forest fire is likely making the atmosphere black."
+            ],
+            "pred": "c. is making the atmosphere black.",
+            "is_correct": true,
+            "elapsed_time": 0.7463281154632568,
+            "tokens_used": null
+        }
+    ]
+}
