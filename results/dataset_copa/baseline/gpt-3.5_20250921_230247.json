@@ -1,0 +1,1623 @@
+{
+    "metrics": {
+        "overall_summary": {
+            "total_questions_evaluated": 100,
+            "final_accuracy": "95.00%",
+            "total_successful_pipelines": 95,
+            "avg_elapsed_time": 0.9124272251129151,
+            "avg_tokens_used": null
+        },
+        "detailed_metrics": {
+            "intervention_summary": {
+                "questions_with_intervention": "0/100",
+                "accuracy_with_intervention": 0.0,
+                "accuracy_without_intervention": 0.95
+            },
+            "causal_score_analysis": {},
+            "reflection_effectiveness_analysis": {}
+        }
+    },
+    "correction_rate": 0.0,
+    "results": [
+        {
+            "id": "1",
+            "question": "Context: My body cast a shadow over the grass.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The sun was rising.\nB. The grass was cut.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The casting of a shadow is caused by an object blocking the light source.\nStep 2: The sun is a common light source that causes shadows.\nStep 3: The sun rising in the sky would result in the casting of shadows.\nStep 4: The grass being cut does not directly relate to the casting of a shadow.\nConclusion: A. The sun was rising.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The casting of a shadow is caused by an object blocking the light source.",
+                "The sun is a common light source that causes shadows.",
+                "The sun rising in the sky would result in the casting of shadows.",
+                "The grass being cut does not directly relate to the casting of a shadow."
+            ],
+            "pred": "A. The sun was rising.",
+            "is_correct": true,
+            "elapsed_time": 0.9569592475891113,
+            "tokens_used": null
+        },
+        {
+            "id": "2",
+            "question": "Context: The woman tolerated her friend's difficult behavior.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The woman knew her friend was going through a hard time.\nB. The woman felt that her friend took advantage of her kindness.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman continued to tolerate her friend's difficult behavior.\nStep 2: This suggests that the woman did not immediately cut ties with her friend.\nStep 3: If the woman did not immediately cut ties, it implies she had a reason to continue the friendship.\nStep 4: The woman's reason could be that she knew her friend was going through a hard time.\nStep 5: Therefore, the cause of the woman tolerating her friend's difficult behavior was that she knew her friend was going through a hard time.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman continued to tolerate her friend's difficult behavior.",
+                "This suggests that the woman did not immediately cut ties with her friend.",
+                "If the woman did not immediately cut ties, it implies she had a reason to continue the friendship.",
+                "The woman's reason could be that she knew her friend was going through a hard time.",
+                "Therefore, the cause of the woman tolerating her friend's difficult behavior was that she knew her friend was going through a hard time."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9240550994873047,
+            "tokens_used": null
+        },
+        {
+            "id": "3",
+            "question": "Context: The women met for coffee.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The cafe reopened in a new location.\nB. They wanted to catch up with each other.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The women meeting for coffee implies a social gathering.\nStep 2: Social gatherings are usually for catching up with each other.\nStep 3: Therefore, the CAUSE of the women meeting for coffee was that they wanted to catch up with each other.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The women meeting for coffee implies a social gathering.",
+                "Social gatherings are usually for catching up with each other.",
+                "Therefore, the CAUSE of the women meeting for coffee was that they wanted to catch up with each other."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.5955049991607666,
+            "tokens_used": null
+        },
+        {
+            "id": "4",
+            "question": "Context: The runner wore shorts.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The forecast predicted high temperatures.\nB. She planned to run along the beach.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The runner wore shorts.\nStep 2: Wearing shorts is typically done in warm weather.\nStep 3: Therefore, the cause of the runner wearing shorts is likely related to the weather.\nStep 4: Option A states that the forecast predicted high temperatures.\nStep 5: High temperatures would be a direct cause for the runner to wear shorts.\nStep 6: Therefore, the most likely cause of the runner wearing shorts is that the forecast predicted high temperatures.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The runner wore shorts.",
+                "Wearing shorts is typically done in warm weather.",
+                "Therefore, the cause of the runner wearing shorts is likely related to the weather.",
+                "Option A states that the forecast predicted high temperatures.",
+                "High temperatures would be a direct cause for the runner to wear shorts.",
+                "Therefore, the most likely cause of the runner wearing shorts is that the forecast predicted high temperatures."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.126985788345337,
+            "tokens_used": null
+        },
+        {
+            "id": "5",
+            "question": "Context: The guests of the party hid behind the couch.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was a surprise party.\nB. It was a birthday party.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The guests hid behind the couch.\nStep 2: People usually hide when they want to surprise someone.\nStep 3: Therefore, the cause of the guests hiding behind the couch was that it was a surprise party.\nConclusion: A. It was a surprise party.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The guests hid behind the couch.",
+                "People usually hide when they want to surprise someone.",
+                "Therefore, the cause of the guests hiding behind the couch was that it was a surprise party."
+            ],
+            "pred": "A. It was a surprise party.",
+            "is_correct": true,
+            "elapsed_time": 0.7416257858276367,
+            "tokens_used": null
+        },
+        {
+            "id": "6",
+            "question": "Context: The politician lost the election.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He ran negative campaign ads.\nB. No one voted for him.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Running negative campaign ads can turn voters against the politician.\nStep 2: If voters are turned against the politician, they may choose not to vote for him.\nStep 3: The politician lost the election.\nConclusion: A. He ran negative campaign ads.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Running negative campaign ads can turn voters against the politician.",
+                "If voters are turned against the politician, they may choose not to vote for him.",
+                "The politician lost the election."
+            ],
+            "pred": "A. He ran negative campaign ads.",
+            "is_correct": false,
+            "elapsed_time": 0.691154956817627,
+            "tokens_used": null
+        },
+        {
+            "id": "7",
+            "question": "Context: The stain came out of the shirt.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I patched the shirt.\nB. I bleached the shirt.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The stain came out of the shirt.\nStep 2: Bleach is commonly used to remove stains from clothing.\nStep 3: Bleach is a known stain remover.\nStep 4: Therefore, the cause of the stain coming out of the shirt was most likely because I bleached the shirt.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The stain came out of the shirt.",
+                "Bleach is commonly used to remove stains from clothing.",
+                "Bleach is a known stain remover.",
+                "Therefore, the cause of the stain coming out of the shirt was most likely because I bleached the shirt."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.815964937210083,
+            "tokens_used": null
+        },
+        {
+            "id": "8",
+            "question": "Context: The man got a discount on his groceries.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He greeted the cashier.\nB. He used a coupon.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man received a discount on his groceries.\nStep 2: Discounts are typically given for specific reasons.\nStep 3: One common reason for a discount is using a coupon.\nStep 4: Therefore, the most likely cause of the discount was that the man used a coupon.\nConclusion: B\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man received a discount on his groceries.",
+                "Discounts are typically given for specific reasons.",
+                "One common reason for a discount is using a coupon.",
+                "Therefore, the most likely cause of the discount was that the man used a coupon."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.8190610408782959,
+            "tokens_used": null
+        },
+        {
+            "id": "9",
+            "question": "Context: The physician misdiagnosed the patient.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The patient filed a malpractice lawsuit against the physician.\nB. The patient disclosed confidential information to the physician.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The misdiagnosis led to the patient receiving incorrect treatment.\nStep 2: The incorrect treatment caused the patient's condition to worsen.\nStep 3: The worsening condition prompted the patient to seek a second opinion.\nStep 4: The second opinion revealed the misdiagnosis by the initial physician.\nStep 5: Feeling betrayed and harmed by the misdiagnosis, the patient decided to take legal action.\nConclusion: A. The patient filed a malpractice lawsuit against the physician.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The misdiagnosis led to the patient receiving incorrect treatment.",
+                "The incorrect treatment caused the patient's condition to worsen.",
+                "The worsening condition prompted the patient to seek a second opinion.",
+                "The second opinion revealed the misdiagnosis by the initial physician.",
+                "Feeling betrayed and harmed by the misdiagnosis, the patient decided to take legal action."
+            ],
+            "pred": "A. The patient filed a malpractice lawsuit against the physician.",
+            "is_correct": true,
+            "elapsed_time": 1.0206611156463623,
+            "tokens_used": null
+        },
+        {
+            "id": "10",
+            "question": "Context: The customer filed a complaint with the store manager.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The sales associate undercharged the customer.\nB. The sales associate acted rude to the customer.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The customer filed a complaint with the store manager.\nStep 2: Customers usually file complaints when they are dissatisfied with their experience.\nStep 3: The dissatisfaction could be due to a mistake made by the sales associate.\nStep 4: The mistake could be undercharging the customer or acting rude towards the customer.\nStep 5: If the sales associate undercharged the customer, the customer might not have received the correct pricing.\nStep 6: If the sales associate acted rude towards the customer, the customer might have felt disrespected.\nStep 7: Disrespectful behavior is more likely to lead to a complaint than a pricing error.\nStep 8: Therefore, the most likely cause of the complaint is that the sales associate acted rude to the customer.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The customer filed a complaint with the store manager.",
+                "Customers usually file complaints when they are dissatisfied with their experience.",
+                "The dissatisfaction could be due to a mistake made by the sales associate.",
+                "The mistake could be undercharging the customer or acting rude towards the customer.",
+                "If the sales associate undercharged the customer, the customer might not have received the correct pricing.",
+                "If the sales associate acted rude towards the customer, the customer might have felt disrespected.",
+                "Disrespectful behavior is more likely to lead to a complaint than a pricing error.",
+                "Therefore, the most likely cause of the complaint is that the sales associate acted rude to the customer."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.3298759460449219,
+            "tokens_used": null
+        },
+        {
+            "id": "11",
+            "question": "Context: The woman repaired her faucet.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The faucet was leaky.\nB. The faucet was turned off.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman repaired her faucet.\nStep 2: People usually repair things when they are broken or not functioning properly.\nStep 3: If the faucet was leaky, it would not be functioning properly.\nStep 4: Therefore, the cause of the woman repairing her faucet was that it was leaky.\nConclusion: A\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman repaired her faucet.",
+                "People usually repair things when they are broken or not functioning properly.",
+                "If the faucet was leaky, it would not be functioning properly.",
+                "Therefore, the cause of the woman repairing her faucet was that it was leaky."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.7494068145751953,
+            "tokens_used": null
+        },
+        {
+            "id": "12",
+            "question": "Context: The elderly woman suffered a stroke.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The woman's daughter came over to clean her house.\nB. The woman's daughter moved in to take care of her.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The elderly woman suffered a stroke, which may have left her unable to take care of herself.\nStep 2: Due to her inability to care for herself, the woman's daughter may have felt the need to step in and help.\nStep 3: The daughter may have decided to move in with her mother to provide constant care and support.\nConclusion: B. The woman's daughter moved in to take care of her.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The elderly woman suffered a stroke, which may have left her unable to take care of herself.",
+                "Due to her inability to care for herself, the woman's daughter may have felt the need to step in and help.",
+                "The daughter may have decided to move in with her mother to provide constant care and support."
+            ],
+            "pred": "B. The woman's daughter moved in to take care of her.",
+            "is_correct": true,
+            "elapsed_time": 0.8523199558258057,
+            "tokens_used": null
+        },
+        {
+            "id": "13",
+            "question": "Context: The pond froze over for the winter.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. People skated on the pond.\nB. People brought boats to the pond.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The pond froze over for the winter.\nStep 2: When a pond freezes over, it becomes a solid surface.\nStep 3: People can skate on a frozen pond because it is solid.\nStep 4: Therefore, the effect of the pond freezing over would be that people skated on the pond.\nConclusion: A. People skated on the pond.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The pond froze over for the winter.",
+                "When a pond freezes over, it becomes a solid surface.",
+                "People can skate on a frozen pond because it is solid.",
+                "Therefore, the effect of the pond freezing over would be that people skated on the pond."
+            ],
+            "pred": "A. People skated on the pond.",
+            "is_correct": true,
+            "elapsed_time": 0.9542410373687744,
+            "tokens_used": null
+        },
+        {
+            "id": "14",
+            "question": "Context: The offender violated parole.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She was sent back to jail.\nB. She stole money from a church.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Violating parole is a serious offense that can result in consequences.\nStep 2: One common consequence of violating parole is being sent back to jail.\nStep 3: Being sent back to jail is a direct effect of violating parole.\nConclusion: A. She was sent back to jail.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Violating parole is a serious offense that can result in consequences.",
+                "One common consequence of violating parole is being sent back to jail.",
+                "Being sent back to jail is a direct effect of violating parole."
+            ],
+            "pred": "A. She was sent back to jail.",
+            "is_correct": true,
+            "elapsed_time": 0.7120969295501709,
+            "tokens_used": null
+        },
+        {
+            "id": "15",
+            "question": "Context: I poured water on my sleeping friend.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. My friend awoke.\nB. My friend snored.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Water is a stimulus that can potentially wake someone up.\nStep 2: When a person is sleeping and water is poured on them, the sensation of wetness can disrupt their sleep.\nStep 3: The disruption caused by the water may lead to the person waking up.\nStep 4: Therefore, the effect of pouring water on my sleeping friend would most likely be that my friend awoke.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Water is a stimulus that can potentially wake someone up.",
+                "When a person is sleeping and water is poured on them, the sensation of wetness can disrupt their sleep.",
+                "The disruption caused by the water may lead to the person waking up.",
+                "Therefore, the effect of pouring water on my sleeping friend would most likely be that my friend awoke."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.0256550312042236,
+            "tokens_used": null
+        },
+        {
+            "id": "16",
+            "question": "Context: The girl gasped.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. Her friend stuck an ice cube down her back.\nB. Her friend gave her a pat on the back.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The girl gasped, indicating a sudden reaction to something.\nStep 2: A pat on the back is not typically a cause for gasping, as it is a common gesture of affection or encouragement.\nStep 3: Sticking an ice cube down someone's back can cause a sudden shock or cold sensation, leading to a gasp.\nStep 4: Therefore, the most likely cause of the girl's gasp is that her friend stuck an ice cube down her back.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The girl gasped, indicating a sudden reaction to something.",
+                "A pat on the back is not typically a cause for gasping, as it is a common gesture of affection or encouragement.",
+                "Sticking an ice cube down someone's back can cause a sudden shock or cold sensation, leading to a gasp.",
+                "Therefore, the most likely cause of the girl's gasp is that her friend stuck an ice cube down her back."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8410110473632812,
+            "tokens_used": null
+        },
+        {
+            "id": "17",
+            "question": "Context: The shirt shrunk.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I poured bleach on it.\nB. I put it in the dryer.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Shrinking of the shirt is a result of the fabric contracting.\nStep 2: Putting the shirt in the dryer can cause the fabric to contract due to the heat.\nStep 3: Bleach does not typically cause fabric to shrink.\nConclusion: The cause of the shirt shrinking was B. I put it in the dryer.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Shrinking of the shirt is a result of the fabric contracting.",
+                "Putting the shirt in the dryer can cause the fabric to contract due to the heat.",
+                "Bleach does not typically cause fabric to shrink."
+            ],
+            "pred": "The cause of the shirt shrinking was B. I put it in the dryer.",
+            "is_correct": true,
+            "elapsed_time": 0.7539269924163818,
+            "tokens_used": null
+        },
+        {
+            "id": "18",
+            "question": "Context: It got dark outside.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Snowflakes began to fall from the sky.\nB. The moon became visible in the sky.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When it gets dark outside, it means that the sun has set.\nStep 2: The absence of sunlight allows other celestial bodies to become visible in the sky.\nStep 3: The moon is a prominent celestial body that becomes visible in the sky when it gets dark.\nStep 4: Therefore, the effect of it getting dark outside would be that the moon became visible in the sky.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When it gets dark outside, it means that the sun has set.",
+                "The absence of sunlight allows other celestial bodies to become visible in the sky.",
+                "The moon is a prominent celestial body that becomes visible in the sky when it gets dark.",
+                "Therefore, the effect of it getting dark outside would be that the moon became visible in the sky."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.0644230842590332,
+            "tokens_used": null
+        },
+        {
+            "id": "19",
+            "question": "Context: I hung up the phone.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The caller said goodbye to me.\nB. The caller identified himself to me.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Hanging up the phone indicates the end of the conversation.\nStep 2: The end of the conversation could be due to the caller saying goodbye.\nStep 3: Therefore, the cause of hanging up the phone was the caller saying goodbye.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hanging up the phone indicates the end of the conversation.",
+                "The end of the conversation could be due to the caller saying goodbye.",
+                "Therefore, the cause of hanging up the phone was the caller saying goodbye."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.0185389518737793,
+            "tokens_used": null
+        },
+        {
+            "id": "20",
+            "question": "Context: The woman's ring slipped off in the shower.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The woman polished the ring.\nB. The ring went down the drain.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman's ring slipped off in the shower.\nStep 2: The ring is now wet and slippery.\nStep 3: The drain in the shower is open.\nStep 4: The ring could easily slide down the drain due to its wet and slippery state.\nStep 5: The most likely effect of the ring slipping off in the shower is that it went down the drain.\nConclusion: B. The ring went down the drain.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman's ring slipped off in the shower.",
+                "The ring is now wet and slippery.",
+                "The drain in the shower is open.",
+                "The ring could easily slide down the drain due to its wet and slippery state.",
+                "The most likely effect of the ring slipping off in the shower is that it went down the drain."
+            ],
+            "pred": "B. The ring went down the drain.",
+            "is_correct": true,
+            "elapsed_time": 0.819720983505249,
+            "tokens_used": null
+        },
+        {
+            "id": "21",
+            "question": "Context: The girl received a trophy.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She won a spelling bee.\nB. She made a new friend.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Winning a spelling bee is a common reason for receiving a trophy.\nStep 2: Making a new friend is not typically a reason for receiving a trophy.\nStep 3: The context mentions that the girl received a trophy.\nStep 4: Therefore, the most likely cause of the girl receiving a trophy is that she won a spelling bee.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Winning a spelling bee is a common reason for receiving a trophy.",
+                "Making a new friend is not typically a reason for receiving a trophy.",
+                "The context mentions that the girl received a trophy.",
+                "Therefore, the most likely cause of the girl receiving a trophy is that she won a spelling bee."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.804487943649292,
+            "tokens_used": null
+        },
+        {
+            "id": "22",
+            "question": "Context: The woman's date wanted to look like a gentleman.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He opened the door for her.\nB. He asked her if she liked sushi.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman's date wanted to look like a gentleman.\nStep 2: Looking like a gentleman often involves displaying polite and courteous behavior.\nStep 3: Opening the door for someone is a common gesture of politeness associated with being a gentleman.\nStep 4: Therefore, the effect of the woman's date wanting to look like a gentleman would likely be that he opened the door for her.\nConclusion: A. He opened the door for her.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman's date wanted to look like a gentleman.",
+                "Looking like a gentleman often involves displaying polite and courteous behavior.",
+                "Opening the door for someone is a common gesture of politeness associated with being a gentleman.",
+                "Therefore, the effect of the woman's date wanting to look like a gentleman would likely be that he opened the door for her."
+            ],
+            "pred": "A. He opened the door for her.",
+            "is_correct": true,
+            "elapsed_time": 0.9006891250610352,
+            "tokens_used": null
+        },
+        {
+            "id": "23",
+            "question": "Context: The farmland needed irrigation.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. A canal was constructed.\nB. A flood occurred.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Farmland needs irrigation to ensure crops receive enough water.\nStep 2: Lack of irrigation can lead to crop failure.\nStep 3: To provide water for irrigation, a canal was constructed.\nStep 4: The canal allowed water to be efficiently distributed to the farmland.\nStep 5: Therefore, the EFFECT of the farmland needing irrigation was that a canal was constructed.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Farmland needs irrigation to ensure crops receive enough water.",
+                "Lack of irrigation can lead to crop failure.",
+                "To provide water for irrigation, a canal was constructed.",
+                "The canal allowed water to be efficiently distributed to the farmland.",
+                "Therefore, the EFFECT of the farmland needing irrigation was that a canal was constructed."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9109911918640137,
+            "tokens_used": null
+        },
+        {
+            "id": "24",
+            "question": "Context: The host cancelled the party.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was certain she had the flu.\nB. She worried she would catch the flu.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The host cancelled the party.\nStep 2: The cancellation was due to health concerns.\nStep 3: The host was worried about getting sick.\nStep 4: The host was worried she would catch the flu.\nConclusion: B. She worried she would catch the flu.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The host cancelled the party.",
+                "The cancellation was due to health concerns.",
+                "The host was worried about getting sick.",
+                "The host was worried she would catch the flu."
+            ],
+            "pred": "B. She worried she would catch the flu.",
+            "is_correct": true,
+            "elapsed_time": 1.1708970069885254,
+            "tokens_used": null
+        },
+        {
+            "id": "25",
+            "question": "Context: The woman gave the man her phone number.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was attracted to him.\nB. She was repulsed by him.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman voluntarily gave her phone number to the man.\nStep 2: People typically give their phone numbers to others they are interested in.\nStep 3: Therefore, the cause of the woman giving her phone number to the man was that she was attracted to him.\nConclusion: A. She was attracted to him.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman voluntarily gave her phone number to the man.",
+                "People typically give their phone numbers to others they are interested in.",
+                "Therefore, the cause of the woman giving her phone number to the man was that she was attracted to him."
+            ],
+            "pred": "A. She was attracted to him.",
+            "is_correct": true,
+            "elapsed_time": 0.8591349124908447,
+            "tokens_used": null
+        },
+        {
+            "id": "26",
+            "question": "Context: The skydiver glided safely to the ground.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She opened her parachute.\nB. She jumped out of the plane.",
+            "answerKey": "A",
+            "cot_output": "Step 1: In order for the skydiver to glide safely to the ground, she must have deployed her parachute.\nStep 2: The act of opening the parachute is necessary for a safe landing.\nStep 3: Therefore, the CAUSE of the skydiver gliding safely to the ground was that she opened her parachute.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "In order for the skydiver to glide safely to the ground, she must have deployed her parachute.",
+                "The act of opening the parachute is necessary for a safe landing.",
+                "Therefore, the CAUSE of the skydiver gliding safely to the ground was that she opened her parachute."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.7319180965423584,
+            "tokens_used": null
+        },
+        {
+            "id": "27",
+            "question": "Context: The toddler became cranky.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Her mother put her down for a nap.\nB. Her mother fixed her hair into pigtails.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Toddlers often become cranky when they are tired.\nStep 2: When a toddler is tired, it is common for them to need a nap to rest.\nStep 3: Therefore, the effect of the toddler becoming cranky would likely be her mother putting her down for a nap.\nConclusion: A. Her mother put her down for a nap.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Toddlers often become cranky when they are tired.",
+                "When a toddler is tired, it is common for them to need a nap to rest.",
+                "Therefore, the effect of the toddler becoming cranky would likely be her mother putting her down for a nap."
+            ],
+            "pred": "A. Her mother put her down for a nap.",
+            "is_correct": true,
+            "elapsed_time": 0.7424960136413574,
+            "tokens_used": null
+        },
+        {
+            "id": "28",
+            "question": "Context: The child became immune to the disease.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He avoided exposure to the disease.\nB. He received the vaccine for the disease.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Becoming immune to a disease means the body has developed antibodies to fight off the disease.\nStep 2: The body can develop antibodies either by being exposed to the disease and recovering or by receiving a vaccine.\nStep 3: If the child avoided exposure to the disease, he would not have developed antibodies to become immune.\nStep 4: Therefore, the child must have received the vaccine for the disease.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Becoming immune to a disease means the body has developed antibodies to fight off the disease.",
+                "The body can develop antibodies either by being exposed to the disease and recovering or by receiving a vaccine.",
+                "If the child avoided exposure to the disease, he would not have developed antibodies to become immune.",
+                "Therefore, the child must have received the vaccine for the disease."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.80063796043396,
+            "tokens_used": null
+        },
+        {
+            "id": "29",
+            "question": "Context: The grape juice fermented.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The juice turned to wine.\nB. The juice evaporated.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Grape juice contains sugars that can be fermented by yeast.\nStep 2: Fermentation is a process where yeast converts sugars into alcohol and carbon dioxide.\nStep 3: The fermentation of grape juice results in the production of alcohol.\nStep 4: The production of alcohol changes the composition of the grape juice.\nStep 5: The change in composition from grape juice to alcohol signifies that the juice turned into wine.\nConclusion: A. The juice turned to wine.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Grape juice contains sugars that can be fermented by yeast.",
+                "Fermentation is a process where yeast converts sugars into alcohol and carbon dioxide.",
+                "The fermentation of grape juice results in the production of alcohol.",
+                "The production of alcohol changes the composition of the grape juice.",
+                "The change in composition from grape juice to alcohol signifies that the juice turned into wine."
+            ],
+            "pred": "A. The juice turned to wine.",
+            "is_correct": true,
+            "elapsed_time": 0.8632450103759766,
+            "tokens_used": null
+        },
+        {
+            "id": "30",
+            "question": "Context: The friends' debate dragged on interminably.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The friends saw eye to eye.\nB. The friends were splitting hairs.",
+            "answerKey": "B",
+            "cot_output": "Step 1: If the friends saw eye to eye, they would likely reach a quick agreement and not drag the debate on interminably.\nStep 2: The fact that the debate dragged on interminably suggests that the friends were not seeing eye to eye.\nStep 3: When people are not seeing eye to eye, they are likely disagreeing on small or insignificant details.\nStep 4: Disagreeing on small or insignificant details is synonymous with splitting hairs.\nStep 5: Therefore, the CAUSE of the debate dragging on interminably was that the friends were splitting hairs.\n===FINAL_ANSWER_START===\nConclusion: B. The friends were splitting hairs.\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "If the friends saw eye to eye, they would likely reach a quick agreement and not drag the debate on interminably.",
+                "The fact that the debate dragged on interminably suggests that the friends were not seeing eye to eye.",
+                "When people are not seeing eye to eye, they are likely disagreeing on small or insignificant details.",
+                "Disagreeing on small or insignificant details is synonymous with splitting hairs.",
+                "Therefore, the CAUSE of the debate dragging on interminably was that the friends were splitting hairs."
+            ],
+            "pred": "B. The friends were splitting hairs.",
+            "is_correct": true,
+            "elapsed_time": 1.0333309173583984,
+            "tokens_used": null
+        },
+        {
+            "id": "31",
+            "question": "Context: The woman hummed to herself.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She was nervous.\nB. She was in a good mood.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Humming is often associated with positive emotions and a good mood.\nStep 2: People tend to hum when they are happy or content.\nStep 3: It is less common for people to hum when they are nervous or anxious.\nStep 4: The woman was humming to herself.\nStep 5: Therefore, it is more likely that she was in a good mood rather than nervous.\nConclusion: B. She was in a good mood.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Humming is often associated with positive emotions and a good mood.",
+                "People tend to hum when they are happy or content.",
+                "It is less common for people to hum when they are nervous or anxious.",
+                "The woman was humming to herself.",
+                "Therefore, it is more likely that she was in a good mood rather than nervous."
+            ],
+            "pred": "B. She was in a good mood.",
+            "is_correct": true,
+            "elapsed_time": 1.0179219245910645,
+            "tokens_used": null
+        },
+        {
+            "id": "32",
+            "question": "Context: The man hated his new haircut.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He wore a hat.\nB. He grew a beard.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man hated his new haircut.\nStep 2: He wanted to hide his haircut from others.\nStep 3: Wearing a hat would help him cover his hair.\nStep 4: Therefore, the man wore a hat.\nConclusion: A. He wore a hat.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man hated his new haircut.",
+                "He wanted to hide his haircut from others.",
+                "Wearing a hat would help him cover his hair.",
+                "Therefore, the man wore a hat."
+            ],
+            "pred": "A. He wore a hat.",
+            "is_correct": true,
+            "elapsed_time": 0.8169422149658203,
+            "tokens_used": null
+        },
+        {
+            "id": "33",
+            "question": "Context: The police aimed their weapons at the fugitive.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The fugitive fell to the ground.\nB. The fugitive dropped his gun.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The police aimed their weapons at the fugitive, causing him to feel threatened.\nStep 2: Feeling threatened, the fugitive's fight or flight response was triggered.\nStep 3: The fight or flight response led the fugitive to drop his gun in an attempt to surrender.\nStep 4: Therefore, the EFFECT of the police aiming their weapons at the fugitive was that the fugitive dropped his gun.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The police aimed their weapons at the fugitive, causing him to feel threatened.",
+                "Feeling threatened, the fugitive's fight or flight response was triggered.",
+                "The fight or flight response led the fugitive to drop his gun in an attempt to surrender.",
+                "Therefore, the EFFECT of the police aiming their weapons at the fugitive was that the fugitive dropped his gun."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.18641996383667,
+            "tokens_used": null
+        },
+        {
+            "id": "34",
+            "question": "Context: The patient was dehydrated.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The nurse tested his reflexes.\nB. The nurse gave him an IV.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Dehydration can lead to a decrease in blood volume and blood pressure.\nStep 2: Low blood pressure can result in symptoms such as dizziness, confusion, and weakness.\nStep 3: The nurse may have observed these symptoms in the patient.\nStep 4: To address the low blood pressure and dehydration, the nurse may have decided to administer intravenous (IV) fluids to rehydrate the patient.\nConclusion: B. The nurse gave him an IV.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Dehydration can lead to a decrease in blood volume and blood pressure.",
+                "Low blood pressure can result in symptoms such as dizziness, confusion, and weakness.",
+                "The nurse may have observed these symptoms in the patient.",
+                "To address the low blood pressure and dehydration, the nurse may have decided to administer intravenous (IV) fluids to rehydrate the patient."
+            ],
+            "pred": "B. The nurse gave him an IV.",
+            "is_correct": true,
+            "elapsed_time": 0.9053249359130859,
+            "tokens_used": null
+        },
+        {
+            "id": "35",
+            "question": "Context: The girl found the missing puzzle piece.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She completed the puzzle.\nB. She took apart the puzzle.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Finding the missing puzzle piece allows the girl to complete the puzzle.\nStep 2: Completing the puzzle is the natural next step after finding the missing piece.\nStep 3: It is unlikely for the girl to take apart the puzzle after finding the missing piece.\nConclusion: A. She completed the puzzle.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Finding the missing puzzle piece allows the girl to complete the puzzle.",
+                "Completing the puzzle is the natural next step after finding the missing piece.",
+                "It is unlikely for the girl to take apart the puzzle after finding the missing piece."
+            ],
+            "pred": "A. She completed the puzzle.",
+            "is_correct": true,
+            "elapsed_time": 0.9175858497619629,
+            "tokens_used": null
+        },
+        {
+            "id": "36",
+            "question": "Context: The man urgently leaped out of bed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He wanted to shut off the alarm clock.\nB. He wanted to iron his pants before work.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man urgently leaped out of bed.\nStep 2: Leaping out of bed is usually a response to a sense of urgency or necessity.\nStep 3: The urgency could be due to a specific reason or goal.\nStep 4: Option A suggests that he wanted to shut off the alarm clock.\nStep 5: If the man leaped out of bed to shut off the alarm clock, it would explain the urgency.\nStep 6: Therefore, the cause of the man urgently leaping out of bed was likely to shut off the alarm clock.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man urgently leaped out of bed.",
+                "Leaping out of bed is usually a response to a sense of urgency or necessity.",
+                "The urgency could be due to a specific reason or goal.",
+                "Option A suggests that he wanted to shut off the alarm clock.",
+                "If the man leaped out of bed to shut off the alarm clock, it would explain the urgency.",
+                "Therefore, the cause of the man urgently leaping out of bed was likely to shut off the alarm clock."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.0878398418426514,
+            "tokens_used": null
+        },
+        {
+            "id": "37",
+            "question": "Context: The papers were disorganized.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I made photocopies of them.\nB. I put them into alphabetical order.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Disorganized papers can lead to difficulty in finding specific documents.\nStep 2: If I need to find a specific document, I may need to make photocopies of all the papers to ensure I have a copy of the needed information.\nStep 3: Therefore, the effect of disorganized papers could be the need to make photocopies.\nStep 4: Making photocopies is a logical consequence of disorganized papers.\nConclusion: A. I made photocopies of them.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Disorganized papers can lead to difficulty in finding specific documents.",
+                "If I need to find a specific document, I may need to make photocopies of all the papers to ensure I have a copy of the needed information.",
+                "Therefore, the effect of disorganized papers could be the need to make photocopies.",
+                "Making photocopies is a logical consequence of disorganized papers."
+            ],
+            "pred": "A. I made photocopies of them.",
+            "is_correct": false,
+            "elapsed_time": 0.9757058620452881,
+            "tokens_used": null
+        },
+        {
+            "id": "38",
+            "question": "Context: The woman won the lottery.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She bought a yacht.\nB. She joined a church.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Winning the lottery means she has a significant amount of money.\nStep 2: Having a significant amount of money may lead to increased spending on luxury items.\nStep 3: Buying a yacht is a common luxury purchase for individuals with a lot of money.\nStep 4: Therefore, the effect of winning the lottery could be that she bought a yacht.\nConclusion: A. She bought a yacht.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Winning the lottery means she has a significant amount of money.",
+                "Having a significant amount of money may lead to increased spending on luxury items.",
+                "Buying a yacht is a common luxury purchase for individuals with a lot of money.",
+                "Therefore, the effect of winning the lottery could be that she bought a yacht."
+            ],
+            "pred": "A. She bought a yacht.",
+            "is_correct": true,
+            "elapsed_time": 1.0227687358856201,
+            "tokens_used": null
+        },
+        {
+            "id": "39",
+            "question": "Context: The seamstress pushed the threaded needle into the fabric.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The thread wrapped around the needle.\nB. The thread went through the fabric.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When the seamstress pushed the threaded needle into the fabric, the needle pierced through the fabric.\nStep 2: The act of pushing the needle into the fabric causes the thread to follow the path of the needle.\nStep 3: Therefore, the thread went through the fabric.\nConclusion: B. The thread went through the fabric.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When the seamstress pushed the threaded needle into the fabric, the needle pierced through the fabric.",
+                "The act of pushing the needle into the fabric causes the thread to follow the path of the needle.",
+                "Therefore, the thread went through the fabric."
+            ],
+            "pred": "B. The thread went through the fabric.",
+            "is_correct": true,
+            "elapsed_time": 0.8157000541687012,
+            "tokens_used": null
+        },
+        {
+            "id": "40",
+            "question": "Context: The woman hired a lawyer.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She decided to sue her employer.\nB. She decided to run for office.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Hiring a lawyer is typically associated with legal matters that require professional representation.\nStep 2: Hiring a lawyer is a costly decision, indicating a serious issue at hand.\nStep 3: Running for office does not necessarily require hiring a lawyer, as it is a political decision.\nStep 4: Suing an employer often involves legal disputes that require legal representation.\nStep 5: Therefore, the cause of hiring a lawyer in this context is likely that she decided to sue her employer.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Hiring a lawyer is typically associated with legal matters that require professional representation.",
+                "Hiring a lawyer is a costly decision, indicating a serious issue at hand.",
+                "Running for office does not necessarily require hiring a lawyer, as it is a political decision.",
+                "Suing an employer often involves legal disputes that require legal representation.",
+                "Therefore, the cause of hiring a lawyer in this context is likely that she decided to sue her employer."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9952869415283203,
+            "tokens_used": null
+        },
+        {
+            "id": "41",
+            "question": "Context: The tenant misplaced his keys to his apartment.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His landlord unlocked the door.\nB. His landlord repaired the door.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The tenant misplaced his keys to his apartment, which means he cannot access his apartment.\nStep 2: The tenant contacts his landlord to inform him about the situation.\nStep 3: The landlord decides to unlock the door for the tenant since he cannot access it.\nConclusion: A. His landlord unlocked the door.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The tenant misplaced his keys to his apartment, which means he cannot access his apartment.",
+                "The tenant contacts his landlord to inform him about the situation.",
+                "The landlord decides to unlock the door for the tenant since he cannot access it."
+            ],
+            "pred": "A. His landlord unlocked the door.",
+            "is_correct": true,
+            "elapsed_time": 0.7109718322753906,
+            "tokens_used": null
+        },
+        {
+            "id": "42",
+            "question": "Context: My favorite song came on the radio.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I covered my ears.\nB. I sang along to it.",
+            "answerKey": "B",
+            "cot_output": "Step 1: My favorite song came on the radio, which is a positive and enjoyable experience for me.\nStep 2: Positive experiences often lead to a desire to engage with the source of that positivity.\nStep 3: Singing along to a favorite song is a common way to engage with it and express enjoyment.\nStep 4: Therefore, the most likely effect of my favorite song coming on the radio is that I sang along to it.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "My favorite song came on the radio, which is a positive and enjoyable experience for me.",
+                "Positive experiences often lead to a desire to engage with the source of that positivity.",
+                "Singing along to a favorite song is a common way to engage with it and express enjoyment.",
+                "Therefore, the most likely effect of my favorite song coming on the radio is that I sang along to it."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.1957340240478516,
+            "tokens_used": null
+        },
+        {
+            "id": "43",
+            "question": "Context: The executive decided not to hire the applicant.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The applicant failed a background check.\nB. The applicant had experience for the job.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The executive's decision not to hire the applicant was based on specific reasons.\nStep 2: One of the possible reasons could be related to the applicant's qualifications or background.\nStep 3: If the applicant failed a background check, it would be a valid reason for the executive's decision.\nStep 4: On the other hand, having experience for the job would not necessarily lead to the decision not to hire the applicant.\nConclusion: A. The applicant failed a background check.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The executive's decision not to hire the applicant was based on specific reasons.",
+                "One of the possible reasons could be related to the applicant's qualifications or background.",
+                "If the applicant failed a background check, it would be a valid reason for the executive's decision.",
+                "On the other hand, having experience for the job would not necessarily lead to the decision not to hire the applicant."
+            ],
+            "pred": "A. The applicant failed a background check.",
+            "is_correct": true,
+            "elapsed_time": 0.9389550685882568,
+            "tokens_used": null
+        },
+        {
+            "id": "44",
+            "question": "Context: The man's eye became infected.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He went blind.\nB. He put on glasses.",
+            "answerKey": "A",
+            "cot_output": "Step 1: An eye infection can lead to vision problems.\nStep 2: Vision problems can result in blindness.\nStep 3: The man's eye infection could potentially lead to blindness.\nStep 4: The effect of the man's eye infection was that he went blind.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "An eye infection can lead to vision problems.",
+                "Vision problems can result in blindness.",
+                "The man's eye infection could potentially lead to blindness.",
+                "The effect of the man's eye infection was that he went blind."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8545889854431152,
+            "tokens_used": null
+        },
+        {
+            "id": "45",
+            "question": "Context: The bird couldn't fly.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It migrated for the winter.\nB. It injured its wing.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The ability to fly is essential for birds to survive and thrive in their natural habitat.\nStep 2: If a bird is unable to fly, there must be a specific reason or cause for this limitation.\nStep 3: Option A, migrating for the winter, does not directly explain why the bird couldn't fly.\nStep 4: Option B, injuring its wing, is a plausible reason for the bird's inability to fly.\nStep 5: Injured wings can prevent birds from flying, as they rely on their wings for aerial mobility.\nConclusion: B. It injured its wing.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The ability to fly is essential for birds to survive and thrive in their natural habitat.",
+                "If a bird is unable to fly, there must be a specific reason or cause for this limitation.",
+                "Option A, migrating for the winter, does not directly explain why the bird couldn't fly.",
+                "Option B, injuring its wing, is a plausible reason for the bird's inability to fly.",
+                "Injured wings can prevent birds from flying, as they rely on their wings for aerial mobility."
+            ],
+            "pred": "B. It injured its wing.",
+            "is_correct": true,
+            "elapsed_time": 0.9777641296386719,
+            "tokens_used": null
+        },
+        {
+            "id": "46",
+            "question": "Context: The girl made a wish.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She saw a black cat.\nB. She saw a shooting star.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Seeing a black cat is often associated with superstitions and making wishes.\nStep 2: The girl made a wish after seeing something that is traditionally believed to bring luck.\nStep 3: The shooting star is also commonly associated with making wishes.\nStep 4: The girl made a wish after seeing a shooting star.\nConclusion: B. She saw a shooting star.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Seeing a black cat is often associated with superstitions and making wishes.",
+                "The girl made a wish after seeing something that is traditionally believed to bring luck.",
+                "The shooting star is also commonly associated with making wishes.",
+                "The girl made a wish after seeing a shooting star."
+            ],
+            "pred": "B. She saw a shooting star.",
+            "is_correct": true,
+            "elapsed_time": 0.8105180263519287,
+            "tokens_used": null
+        },
+        {
+            "id": "47",
+            "question": "Context: The woman shivered as she got out the pool.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She wrapped herself in a towel.\nB. She poured herself some lemonade.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman shivered as she got out of the pool because she was feeling cold due to the water evaporating from her skin.\nStep 2: Feeling cold is a natural response of the body to maintain its temperature.\nStep 3: Wrapping oneself in a towel is a common way to warm up and prevent further heat loss.\nConclusion: A. She wrapped herself in a towel.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman shivered as she got out of the pool because she was feeling cold due to the water evaporating from her skin.",
+                "Feeling cold is a natural response of the body to maintain its temperature.",
+                "Wrapping oneself in a towel is a common way to warm up and prevent further heat loss."
+            ],
+            "pred": "A. She wrapped herself in a towel.",
+            "is_correct": true,
+            "elapsed_time": 0.9834930896759033,
+            "tokens_used": null
+        },
+        {
+            "id": "48",
+            "question": "Context: The nurse prepared the needle for the patient's injection.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The patient bled.\nB. The patient tensed up.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The nurse prepared the needle for the patient's injection.\nStep 2: The act of preparing the needle indicates that the injection is about to be administered.\nStep 3: Patients often have a fear of needles and injections.\nStep 4: The anticipation of the injection can cause the patient to tense up.\nStep 5: Therefore, the effect of the nurse preparing the needle was that the patient tensed up.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The nurse prepared the needle for the patient's injection.",
+                "The act of preparing the needle indicates that the injection is about to be administered.",
+                "Patients often have a fear of needles and injections.",
+                "The anticipation of the injection can cause the patient to tense up.",
+                "Therefore, the effect of the nurse preparing the needle was that the patient tensed up."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.9022059440612793,
+            "tokens_used": null
+        },
+        {
+            "id": "49",
+            "question": "Context: The man threw out the bread.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was fresh.\nB. It was stale.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man threw out the bread because it was stale.\nStep 2: Stale bread is not enjoyable to eat.\nStep 3: The man likely did not want to consume something that was not enjoyable.\nStep 4: Therefore, the cause of the man throwing out the bread was that it was stale.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man threw out the bread because it was stale.",
+                "Stale bread is not enjoyable to eat.",
+                "The man likely did not want to consume something that was not enjoyable.",
+                "Therefore, the cause of the man throwing out the bread was that it was stale."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.0216491222381592,
+            "tokens_used": null
+        },
+        {
+            "id": "50",
+            "question": "Context: The children knocked over a lamp.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. They had a pillow fight.\nB. They jumped on the bed.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Children were engaging in physical activity.\nStep 2: They were either having a pillow fight or jumping on the bed.\nStep 3: Jumping on the bed is more likely to cause the lamp to fall over due to the impact.\nStep 4: Therefore, the cause of the lamp being knocked over was most likely that they jumped on the bed.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Children were engaging in physical activity.",
+                "They were either having a pillow fight or jumping on the bed.",
+                "Jumping on the bed is more likely to cause the lamp to fall over due to the impact.",
+                "Therefore, the cause of the lamp being knocked over was most likely that they jumped on the bed."
+            ],
+            "pred": "B",
+            "is_correct": false,
+            "elapsed_time": 1.166003942489624,
+            "tokens_used": null
+        },
+        {
+            "id": "51",
+            "question": "Context: I drank from the water fountain.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I was thirsty.\nB. I felt nauseous.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Drinking from the water fountain is usually done to quench thirst.\nStep 2: Therefore, the most likely cause of drinking from the water fountain is being thirsty.\nConclusion: A. I was thirsty.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Drinking from the water fountain is usually done to quench thirst.",
+                "Therefore, the most likely cause of drinking from the water fountain is being thirsty."
+            ],
+            "pred": "A. I was thirsty.",
+            "is_correct": true,
+            "elapsed_time": 0.5284018516540527,
+            "tokens_used": null
+        },
+        {
+            "id": "52",
+            "question": "Context: The homeowners disliked their nosy neighbors.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. They built a fence around their property.\nB. They hosted a barbeque in their backyard.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The homeowners disliked their nosy neighbors.\nStep 2: The nosy neighbors were likely peeking into their backyard.\nStep 3: The homeowners wanted to create privacy in their backyard.\nStep 4: Building a fence around their property would provide the desired privacy.\nConclusion: A. They built a fence around their property.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The homeowners disliked their nosy neighbors.",
+                "The nosy neighbors were likely peeking into their backyard.",
+                "The homeowners wanted to create privacy in their backyard.",
+                "Building a fence around their property would provide the desired privacy."
+            ],
+            "pred": "A. They built a fence around their property.",
+            "is_correct": true,
+            "elapsed_time": 1.5796518325805664,
+            "tokens_used": null
+        },
+        {
+            "id": "53",
+            "question": "Context: The bodybuilder lifted weights.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The gym closed.\nB. Her muscles became fatigued.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Lifting weights causes muscle fatigue.\nStep 2: Muscle fatigue is a common effect of weightlifting.\nStep 3: Therefore, the effect of the bodybuilder lifting weights is that her muscles became fatigued.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Lifting weights causes muscle fatigue.",
+                "Muscle fatigue is a common effect of weightlifting.",
+                "Therefore, the effect of the bodybuilder lifting weights is that her muscles became fatigued."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7165281772613525,
+            "tokens_used": null
+        },
+        {
+            "id": "54",
+            "question": "Context: The cook stirred the ingredients in the bowl.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The ingredients melted.\nB. The ingredients blended together.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When ingredients are stirred in a bowl, they are mixed together.\nStep 2: Mixing ingredients together is the purpose of stirring.\nStep 3: Therefore, the effect of stirring the ingredients in the bowl would be that the ingredients blended together.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When ingredients are stirred in a bowl, they are mixed together.",
+                "Mixing ingredients together is the purpose of stirring.",
+                "Therefore, the effect of stirring the ingredients in the bowl would be that the ingredients blended together."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.6301209926605225,
+            "tokens_used": null
+        },
+        {
+            "id": "55",
+            "question": "Context: The man signed the document.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The transaction was voided.\nB. The transaction became official.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Signing a document is a legal act that indicates agreement or consent.\nStep 2: By signing the document, the man acknowledged and accepted the terms outlined in it.\nStep 3: The act of signing the document made the transaction official, as it demonstrated the man's willingness to participate in it.\nStep 4: Therefore, the EFFECT of the man signing the document was that the transaction became official.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Signing a document is a legal act that indicates agreement or consent.",
+                "By signing the document, the man acknowledged and accepted the terms outlined in it.",
+                "The act of signing the document made the transaction official, as it demonstrated the man's willingness to participate in it.",
+                "Therefore, the EFFECT of the man signing the document was that the transaction became official."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7234182357788086,
+            "tokens_used": null
+        },
+        {
+            "id": "56",
+            "question": "Context: The police officer dropped the gun.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The gun recoiled.\nB. The gun went off.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When a gun is dropped, it can cause the trigger to be pulled unintentionally.\nStep 2: If the trigger is pulled unintentionally, the gun can go off.\nConclusion: B. The gun went off.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a gun is dropped, it can cause the trigger to be pulled unintentionally.",
+                "If the trigger is pulled unintentionally, the gun can go off."
+            ],
+            "pred": "B. The gun went off.",
+            "is_correct": true,
+            "elapsed_time": 0.6895749568939209,
+            "tokens_used": null
+        },
+        {
+            "id": "57",
+            "question": "Context: The woman felt compelled to help someone in need.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She donated blood.\nB. She wrote a poem.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman felt compelled to help someone in need.\nStep 2: Helping someone in need can evoke feelings of empathy and compassion.\nStep 3: Empathy and compassion can lead to actions that provide assistance or support.\nStep 4: The woman's empathy and compassion may drive her to take a tangible action to help.\nStep 5: Donating blood is a tangible action that directly helps those in need.\nStep 6: Therefore, the effect of the woman feeling compelled to help someone in need would be that she donated blood.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman felt compelled to help someone in need.",
+                "Helping someone in need can evoke feelings of empathy and compassion.",
+                "Empathy and compassion can lead to actions that provide assistance or support.",
+                "The woman's empathy and compassion may drive her to take a tangible action to help.",
+                "Donating blood is a tangible action that directly helps those in need.",
+                "Therefore, the effect of the woman feeling compelled to help someone in need would be that she donated blood."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8878011703491211,
+            "tokens_used": null
+        },
+        {
+            "id": "58",
+            "question": "Context: The woman felt lonely.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She renovated her kitchen.\nB. She adopted a cat.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Feeling lonely can lead to a desire for companionship.\nStep 2: A common form of companionship is having a pet.\nStep 3: The woman adopted a cat to alleviate her loneliness.\nConclusion: B. She adopted a cat.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Feeling lonely can lead to a desire for companionship.",
+                "A common form of companionship is having a pet.",
+                "The woman adopted a cat to alleviate her loneliness."
+            ],
+            "pred": "B. She adopted a cat.",
+            "is_correct": true,
+            "elapsed_time": 0.8840610980987549,
+            "tokens_used": null
+        },
+        {
+            "id": "59",
+            "question": "Context: I rubbed sandpaper on the wood.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The wood became smooth.\nB. The wood became sticky.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Rubbing sandpaper on wood causes friction between the sandpaper and the wood surface.\nStep 2: Friction from the sandpaper removes the rough outer layer of the wood.\nStep 3: The removal of the rough outer layer results in a smoother wood surface.\nConclusion: A. The wood became smooth.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Rubbing sandpaper on wood causes friction between the sandpaper and the wood surface.",
+                "Friction from the sandpaper removes the rough outer layer of the wood.",
+                "The removal of the rough outer layer results in a smoother wood surface."
+            ],
+            "pred": "A. The wood became smooth.",
+            "is_correct": true,
+            "elapsed_time": 0.7137260437011719,
+            "tokens_used": null
+        },
+        {
+            "id": "60",
+            "question": "Context: The crowd gave the band a standing ovation.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The band signed autographs.\nB. The band reappeared on the stage.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The crowd giving the band a standing ovation is a sign of appreciation for their performance.\nStep 2: The band would feel encouraged and appreciated by the standing ovation.\nStep 3: Feeling encouraged, the band may want to interact more with their fans.\nStep 4: The band signing autographs is a common way for them to interact with fans.\nStep 5: Therefore, the EFFECT of the crowd giving the band a standing ovation would be that the band signed autographs.\nConclusion: A. The band signed autographs.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The crowd giving the band a standing ovation is a sign of appreciation for their performance.",
+                "The band would feel encouraged and appreciated by the standing ovation.",
+                "Feeling encouraged, the band may want to interact more with their fans.",
+                "The band signing autographs is a common way for them to interact with fans.",
+                "Therefore, the EFFECT of the crowd giving the band a standing ovation would be that the band signed autographs."
+            ],
+            "pred": "A. The band signed autographs.",
+            "is_correct": true,
+            "elapsed_time": 1.1574468612670898,
+            "tokens_used": null
+        },
+        {
+            "id": "61",
+            "question": "Context: The man threw his empty can onto the street.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. He was jumped from behind.\nB. He was fined for littering.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man threw his empty can onto the street.\nStep 2: Littering is the act of leaving trash in a public place.\nStep 3: Littering is against the law in many places.\nStep 4: The man's action of throwing the can on the street constitutes littering.\nStep 5: Therefore, the EFFECT of this action would be that he was fined for littering.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man threw his empty can onto the street.",
+                "Littering is the act of leaving trash in a public place.",
+                "Littering is against the law in many places.",
+                "The man's action of throwing the can on the street constitutes littering.",
+                "Therefore, the EFFECT of this action would be that he was fined for littering."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 1.1352920532226562,
+            "tokens_used": null
+        },
+        {
+            "id": "62",
+            "question": "Context: My stomach growled.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I forgot to eat breakfast.\nB. I was full from breakfast.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Stomach growling is a sign of hunger.\nStep 2: Hunger is typically caused by not eating for a period of time.\nStep 3: If I forgot to eat breakfast, it means I did not consume any food in the morning.\nStep 4: Not eating breakfast would lead to hunger.\nStep 5: Therefore, the cause of my stomach growling was that I forgot to eat breakfast.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Stomach growling is a sign of hunger.",
+                "Hunger is typically caused by not eating for a period of time.",
+                "If I forgot to eat breakfast, it means I did not consume any food in the morning.",
+                "Not eating breakfast would lead to hunger.",
+                "Therefore, the cause of my stomach growling was that I forgot to eat breakfast."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.0369181632995605,
+            "tokens_used": null
+        },
+        {
+            "id": "63",
+            "question": "Context: The boaters set off a flare.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. Their boat drifted to shore.\nB. Their boat was rescued.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Setting off a flare is a distress signal used to attract attention in emergency situations.\nStep 2: The purpose of setting off a flare is to signal for help.\nStep 3: Boaters set off a flare to indicate that they are in need of assistance.\nStep 4: The logical consequence of setting off a flare to signal for help is that their boat was rescued.\nConclusion: B. Their boat was rescued.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Setting off a flare is a distress signal used to attract attention in emergency situations.",
+                "The purpose of setting off a flare is to signal for help.",
+                "Boaters set off a flare to indicate that they are in need of assistance.",
+                "The logical consequence of setting off a flare to signal for help is that their boat was rescued."
+            ],
+            "pred": "B. Their boat was rescued.",
+            "is_correct": true,
+            "elapsed_time": 0.7908363342285156,
+            "tokens_used": null
+        },
+        {
+            "id": "64",
+            "question": "Context: The man removed his coat.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He entered the house.\nB. He loosened his tie.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Removing a coat is typically done to adjust to a change in temperature or level of formality.\nStep 2: Loosening a tie is also typically done to adjust to a change in temperature or level of formality.\nStep 3: The man removed his coat, which suggests a change in temperature or formality.\nStep 4: Therefore, the most likely cause of the man removing his coat is that he entered the house, where the temperature is warmer and less formal.\nConclusion: A. He entered the house.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Removing a coat is typically done to adjust to a change in temperature or level of formality.",
+                "Loosening a tie is also typically done to adjust to a change in temperature or level of formality.",
+                "The man removed his coat, which suggests a change in temperature or formality.",
+                "Therefore, the most likely cause of the man removing his coat is that he entered the house, where the temperature is warmer and less formal."
+            ],
+            "pred": "A. He entered the house.",
+            "is_correct": true,
+            "elapsed_time": 0.9625139236450195,
+            "tokens_used": null
+        },
+        {
+            "id": "65",
+            "question": "Context: The family took their dog to the veterinarian.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The dog chewed on a bone.\nB. The dog injured his paw.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The family took their dog to the veterinarian.\nStep 2: Dogs are usually taken to the veterinarian when they have health issues or injuries.\nStep 3: The dog must have had a health issue or injury that prompted the visit to the veterinarian.\nStep 4: The possible health issues or injuries could be related to chewing on a bone or injuring his paw.\nStep 5: If the dog chewed on a bone, it could have caused digestive issues or mouth injuries.\nStep 6: If the dog injured his paw, it could have caused limping or visible signs of pain.\nStep 7: The family took the dog to the veterinarian because of a visible injury.\nStep 8: The most likely visible injury that would prompt a visit to the veterinarian is an injured paw.\nConclusion: B. The dog injured his paw. \n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The family took their dog to the veterinarian.",
+                "Dogs are usually taken to the veterinarian when they have health issues or injuries.",
+                "The dog must have had a health issue or injury that prompted the visit to the veterinarian.",
+                "The possible health issues or injuries could be related to chewing on a bone or injuring his paw.",
+                "If the dog chewed on a bone, it could have caused digestive issues or mouth injuries.",
+                "If the dog injured his paw, it could have caused limping or visible signs of pain.",
+                "The family took the dog to the veterinarian because of a visible injury.",
+                "The most likely visible injury that would prompt a visit to the veterinarian is an injured paw."
+            ],
+            "pred": "B. The dog injured his paw.",
+            "is_correct": true,
+            "elapsed_time": 1.4168899059295654,
+            "tokens_used": null
+        },
+        {
+            "id": "66",
+            "question": "Context: The woman dangled the biscuit above the dog.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The dog jumped up.\nB. The dog scratched its fur.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The woman dangled the biscuit above the dog, enticing it with the treat.\nStep 2: The dog's natural instinct is to try to reach for the biscuit.\nStep 3: The dog jumped up in an attempt to grab the biscuit.\nConclusion: A. The dog jumped up.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman dangled the biscuit above the dog, enticing it with the treat.",
+                "The dog's natural instinct is to try to reach for the biscuit.",
+                "The dog jumped up in an attempt to grab the biscuit."
+            ],
+            "pred": "A. The dog jumped up.",
+            "is_correct": true,
+            "elapsed_time": 0.8191471099853516,
+            "tokens_used": null
+        },
+        {
+            "id": "67",
+            "question": "Context: I learned how to play the board game.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. My friend explained the rules to me.\nB. My friend got the rules wrong.",
+            "answerKey": "A",
+            "cot_output": "Step 1: I learned how to play the board game.\nStep 2: The process of learning involved understanding the rules of the game.\nStep 3: The rules were explained to me by my friend.\nStep 4: Therefore, the CAUSE of me learning how to play the board game was that my friend explained the rules to me.\nConclusion: A",
+            "cot_steps": [
+                "I learned how to play the board game.",
+                "The process of learning involved understanding the rules of the game.",
+                "The rules were explained to me by my friend.",
+                "Therefore, the CAUSE of me learning how to play the board game was that my friend explained the rules to me."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 1.2513909339904785,
+            "tokens_used": null
+        },
+        {
+            "id": "68",
+            "question": "Context: The man went away for the weekend.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He wanted to relax.\nB. He felt content.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man went away for the weekend.\nStep 2: Going away for the weekend indicates a desire to take a break from routine.\nStep 3: Taking a break from routine is often done to relax and unwind.\nStep 4: Therefore, the CAUSE of the man going away for the weekend is that he wanted to relax.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man went away for the weekend.",
+                "Going away for the weekend indicates a desire to take a break from routine.",
+                "Taking a break from routine is often done to relax and unwind.",
+                "Therefore, the CAUSE of the man going away for the weekend is that he wanted to relax."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.7920489311218262,
+            "tokens_used": null
+        },
+        {
+            "id": "69",
+            "question": "Context: The shop was closed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The owner was helping customers.\nB. The shop was undergoing renovation.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The shop was closed.\nStep 2: If the shop was closed, there must be a reason for it.\nStep 3: The reason could be that the owner was helping customers or the shop was undergoing renovation.\nStep 4: If the shop was undergoing renovation, it would make sense for it to be closed.\nStep 5: Therefore, the most likely cause of the shop being closed is that the shop was undergoing renovation.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The shop was closed.",
+                "If the shop was closed, there must be a reason for it.",
+                "The reason could be that the owner was helping customers or the shop was undergoing renovation.",
+                "If the shop was undergoing renovation, it would make sense for it to be closed.",
+                "Therefore, the most likely cause of the shop being closed is that the shop was undergoing renovation."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7747857570648193,
+            "tokens_used": null
+        },
+        {
+            "id": "70",
+            "question": "Context: The boy tuned the radio.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The station was playing rock music.\nB. The station was coming in with static.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The boy tuned the radio because he wanted to listen to music.\nStep 2: The music being played on the station influenced his decision to tune the radio.\nStep 3: The station was playing rock music.\nStep 4: Therefore, the CAUSE of the boy tuning the radio was that the station was playing rock music.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The boy tuned the radio because he wanted to listen to music.",
+                "The music being played on the station influenced his decision to tune the radio.",
+                "The station was playing rock music.",
+                "Therefore, the CAUSE of the boy tuning the radio was that the station was playing rock music."
+            ],
+            "pred": "A",
+            "is_correct": false,
+            "elapsed_time": 0.7944681644439697,
+            "tokens_used": null
+        },
+        {
+            "id": "71",
+            "question": "Context: The terrorist set off the bomb.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The bomb exploded.\nB. The bomb was deactivated.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The terrorist set off the bomb.\nStep 2: When a bomb is set off, it typically explodes.\nStep 3: Therefore, the EFFECT of the terrorist setting off the bomb would be that the bomb exploded.\nConclusion: A\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The terrorist set off the bomb.",
+                "When a bomb is set off, it typically explodes.",
+                "Therefore, the EFFECT of the terrorist setting off the bomb would be that the bomb exploded."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.6747457981109619,
+            "tokens_used": null
+        },
+        {
+            "id": "72",
+            "question": "Context: The police handcuffed the suspect.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The police called for backup.\nB. The suspect resisted arrest.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The police handcuffed the suspect, which indicates that there was a reason for taking that action.\nStep 2: The handcuffing of a suspect is typically done to restrain them and prevent them from escaping or causing harm.\nStep 3: If the suspect had not resisted arrest, there would have been no need for the police to handcuff them.\nStep 4: Therefore, the CAUSE of the police handcuffing the suspect was that the suspect resisted arrest.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The police handcuffed the suspect, which indicates that there was a reason for taking that action.",
+                "The handcuffing of a suspect is typically done to restrain them and prevent them from escaping or causing harm.",
+                "If the suspect had not resisted arrest, there would have been no need for the police to handcuff them.",
+                "Therefore, the CAUSE of the police handcuffing the suspect was that the suspect resisted arrest."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.9077141284942627,
+            "tokens_used": null
+        },
+        {
+            "id": "73",
+            "question": "Context: The authorities vowed to protect the identity of the crime victim.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The victim struggled to recall details about the crime.\nB. They withheld the victim's name from the public.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Authorities vowed to protect the identity of the crime victim.\nStep 2: Protecting the victim's identity would involve withholding their name from the public.\nStep 3: Withholding the victim's name from the public would ensure their identity remains confidential.\nStep 4: The effect of this action would be that the victim's name is not disclosed to the public.\nConclusion: B. They withheld the victim's name from the public.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Authorities vowed to protect the identity of the crime victim.",
+                "Protecting the victim's identity would involve withholding their name from the public.",
+                "Withholding the victim's name from the public would ensure their identity remains confidential.",
+                "The effect of this action would be that the victim's name is not disclosed to the public."
+            ],
+            "pred": "B. They withheld the victim's name from the public.",
+            "is_correct": true,
+            "elapsed_time": 0.9343860149383545,
+            "tokens_used": null
+        },
+        {
+            "id": "74",
+            "question": "Context: The man's clothes fit loosely.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He bought them on sale.\nB. He lost weight.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Loose-fitting clothes are typically a result of the clothes being too big for the person wearing them.\nStep 2: If the clothes are too big, it could be because the person lost weight.\nConclusion: B. He lost weight\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Loose-fitting clothes are typically a result of the clothes being too big for the person wearing them.",
+                "If the clothes are too big, it could be because the person lost weight."
+            ],
+            "pred": "B. He lost weight",
+            "is_correct": true,
+            "elapsed_time": 0.7134790420532227,
+            "tokens_used": null
+        },
+        {
+            "id": "75",
+            "question": "Context: The clock stopped ticking.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I took extra time to get ready.\nB. The clock showed the wrong time.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The clock stopped ticking, which means it was not functioning properly.\nStep 2: If the clock was not functioning properly, it would not show the correct time.\nStep 3: Therefore, the effect of the clock stopping ticking would be that the clock showed the wrong time.\nConclusion: B\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The clock stopped ticking, which means it was not functioning properly.",
+                "If the clock was not functioning properly, it would not show the correct time.",
+                "Therefore, the effect of the clock stopping ticking would be that the clock showed the wrong time."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7499301433563232,
+            "tokens_used": null
+        },
+        {
+            "id": "76",
+            "question": "Context: The man closed the umbrella.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He got out of the car.\nB. He approached the building.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man was using the umbrella to shield himself from the rain.\nStep 2: The rain stopped.\nStep 3: The man no longer needed the umbrella.\nStep 4: The man closed the umbrella.\nConclusion: A. He got out of the car.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man was using the umbrella to shield himself from the rain.",
+                "The rain stopped.",
+                "The man no longer needed the umbrella.",
+                "The man closed the umbrella."
+            ],
+            "pred": "A. He got out of the car.",
+            "is_correct": false,
+            "elapsed_time": 0.8605039119720459,
+            "tokens_used": null
+        },
+        {
+            "id": "77",
+            "question": "Context: The man craved a cigarette.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. His family urged him to quit smoking.\nB. He was addicted to nicotine.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Nicotine is a highly addictive substance.\nStep 2: Addiction to nicotine can cause strong cravings for cigarettes.\nStep 3: The man craved a cigarette.\nStep 4: The cause of the man's craving for a cigarette was his addiction to nicotine.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Nicotine is a highly addictive substance.",
+                "Addiction to nicotine can cause strong cravings for cigarettes.",
+                "The man craved a cigarette.",
+                "The cause of the man's craving for a cigarette was his addiction to nicotine."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7427968978881836,
+            "tokens_used": null
+        },
+        {
+            "id": "78",
+            "question": "Context: The man dropped food on the floor.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His dog jumped up on him.\nB. His dog ran over to eat the food.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When food is dropped on the floor, it becomes accessible to the dog.\nStep 2: The dog is likely to be attracted to the food due to its smell and potential as a source of food.\nStep 3: The dog's natural instinct is to eat food that is within its reach.\nStep 4: Therefore, the most likely effect of the man dropping food on the floor is that his dog ran over to eat the food.\nConclusion: B. His dog ran over to eat the food\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When food is dropped on the floor, it becomes accessible to the dog.",
+                "The dog is likely to be attracted to the food due to its smell and potential as a source of food.",
+                "The dog's natural instinct is to eat food that is within its reach.",
+                "Therefore, the most likely effect of the man dropping food on the floor is that his dog ran over to eat the food."
+            ],
+            "pred": "B. His dog ran over to eat the food",
+            "is_correct": true,
+            "elapsed_time": 1.0192182064056396,
+            "tokens_used": null
+        },
+        {
+            "id": "79",
+            "question": "Context: The girl was angry with her friend.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The girl spread a rumor about her friend.\nB. The girl told a secret to her friend.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The girl was angry with her friend.\nStep 2: When people are angry, they may act impulsively or irrationally.\nStep 3: Anger can lead to a desire for revenge or retaliation.\nStep 4: Spreading a rumor about her friend would be a form of retaliation.\nStep 5: Therefore, the EFFECT of the girl being angry with her friend would be that she spread a rumor about her friend.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The girl was angry with her friend.",
+                "When people are angry, they may act impulsively or irrationally.",
+                "Anger can lead to a desire for revenge or retaliation.",
+                "Spreading a rumor about her friend would be a form of retaliation.",
+                "Therefore, the EFFECT of the girl being angry with her friend would be that she spread a rumor about her friend."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.9157660007476807,
+            "tokens_used": null
+        },
+        {
+            "id": "80",
+            "question": "Context: The fugitive hid from the police.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The police dropped the case.\nB. The fugitive remained at large.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The fugitive successfully avoided being caught by the police.\nStep 2: Since the fugitive was not caught, the police were unable to apprehend them.\nStep 3: The police were unable to gather enough evidence to make an arrest.\nStep 4: The case against the fugitive remained open.\nStep 5: The fugitive remained at large.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The fugitive successfully avoided being caught by the police.",
+                "Since the fugitive was not caught, the police were unable to apprehend them.",
+                "The police were unable to gather enough evidence to make an arrest.",
+                "The case against the fugitive remained open.",
+                "The fugitive remained at large."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7736201286315918,
+            "tokens_used": null
+        },
+        {
+            "id": "81",
+            "question": "Context: I tipped the bottle.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The liquid in the bottle froze.\nB. The liquid in the bottle poured out.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Tipping the bottle causes a change in the position of the liquid inside.\nStep 2: When the bottle is tipped, the liquid inside will move due to gravity.\nStep 3: If the bottle is tipped gently, the liquid may not pour out completely.\nStep 4: If the bottle is tipped forcefully, the liquid is likely to pour out.\nStep 5: The liquid freezing is not a direct effect of tipping the bottle.\nStep 6: The most immediate and direct effect of tipping the bottle is the liquid pouring out.\nConclusion: B. The liquid in the bottle poured out.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Tipping the bottle causes a change in the position of the liquid inside.",
+                "When the bottle is tipped, the liquid inside will move due to gravity.",
+                "If the bottle is tipped gently, the liquid may not pour out completely.",
+                "If the bottle is tipped forcefully, the liquid is likely to pour out.",
+                "The liquid freezing is not a direct effect of tipping the bottle.",
+                "The most immediate and direct effect of tipping the bottle is the liquid pouring out."
+            ],
+            "pred": "B. The liquid in the bottle poured out.",
+            "is_correct": true,
+            "elapsed_time": 1.0266752243041992,
+            "tokens_used": null
+        },
+        {
+            "id": "82",
+            "question": "Context: The woman spoke with a foreign accent.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She came from a wealthy family.\nB. She migrated from another country.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman spoke with a foreign accent.\nStep 2: Foreign accents are typically acquired from growing up in a country where that accent is common.\nStep 3: The most likely reason for the woman to have a foreign accent is if she migrated from another country.\nConclusion: B. She migrated from another country.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman spoke with a foreign accent.",
+                "Foreign accents are typically acquired from growing up in a country where that accent is common.",
+                "The most likely reason for the woman to have a foreign accent is if she migrated from another country."
+            ],
+            "pred": "B. She migrated from another country.",
+            "is_correct": true,
+            "elapsed_time": 0.9896528720855713,
+            "tokens_used": null
+        },
+        {
+            "id": "83",
+            "question": "Context: The boy's mouth stung.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He ate a pepper.\nB. He blew out the candle.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The boy's mouth stung.\nStep 2: Stinging sensation in the mouth is commonly associated with consuming something spicy.\nStep 3: Pepper is known to cause a burning sensation in the mouth when eaten.\nStep 4: Therefore, the cause of the boy's mouth stinging is likely that he ate a pepper.\nConclusion: A. He ate a pepper.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The boy's mouth stung.",
+                "Stinging sensation in the mouth is commonly associated with consuming something spicy.",
+                "Pepper is known to cause a burning sensation in the mouth when eaten.",
+                "Therefore, the cause of the boy's mouth stinging is likely that he ate a pepper."
+            ],
+            "pred": "A. He ate a pepper.",
+            "is_correct": true,
+            "elapsed_time": 0.9383997917175293,
+            "tokens_used": null
+        },
+        {
+            "id": "84",
+            "question": "Context: I finished a page of the book.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I ripped out the next page.\nB. I turned to the next page.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Finishing a page of the book typically leads to the natural progression of turning to the next page to continue reading.\nStep 2: Turning to the next page is the expected and logical action after finishing a page.\nStep 3: Therefore, the EFFECT of finishing a page of the book is most likely to turn to the next page.\nConclusion: B. I turned to the next page.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Finishing a page of the book typically leads to the natural progression of turning to the next page to continue reading.",
+                "Turning to the next page is the expected and logical action after finishing a page.",
+                "Therefore, the EFFECT of finishing a page of the book is most likely to turn to the next page."
+            ],
+            "pred": "B. I turned to the next page.",
+            "is_correct": true,
+            "elapsed_time": 0.9465508460998535,
+            "tokens_used": null
+        },
+        {
+            "id": "85",
+            "question": "Context: The service at the restaurant was slow.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. There were many empty tables.\nB. The restaurant was crowded.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Slow service is often caused by a high volume of customers.\nStep 2: A crowded restaurant typically leads to a high volume of customers.\nStep 3: Therefore, the cause of the slow service was that the restaurant was crowded.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Slow service is often caused by a high volume of customers.",
+                "A crowded restaurant typically leads to a high volume of customers.",
+                "Therefore, the cause of the slow service was that the restaurant was crowded."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.7501060962677002,
+            "tokens_used": null
+        },
+        {
+            "id": "86",
+            "question": "Context: I saw a woman getting robbed on the street.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I called 911.\nB. I hailed a cab.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Witnessing a woman getting robbed on the street caused me to feel a sense of urgency and concern for her safety.\nStep 2: Feeling a sense of urgency and concern for her safety led me to think about taking immediate action to help her.\nStep 3: The most appropriate immediate action to help the woman in danger is to call for emergency assistance.\nStep 4: Therefore, the effect of witnessing the woman getting robbed on the street was that I called 911.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Witnessing a woman getting robbed on the street caused me to feel a sense of urgency and concern for her safety.",
+                "Feeling a sense of urgency and concern for her safety led me to think about taking immediate action to help her.",
+                "The most appropriate immediate action to help the woman in danger is to call for emergency assistance.",
+                "Therefore, the effect of witnessing the woman getting robbed on the street was that I called 911."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8052198886871338,
+            "tokens_used": null
+        },
+        {
+            "id": "87",
+            "question": "Context: My stomach hurt.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I jogged on the treadmill.\nB. I ate birthday cake.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Eating birthday cake can sometimes cause stomach discomfort due to the high sugar and fat content.\nStep 2: Jogging on the treadmill can also cause stomach discomfort if done too vigorously or with improper form.\nStep 3: Since I did not mention any physical activity in the context, it is more likely that the cause of my stomach hurting was related to something I consumed.\nStep 4: Therefore, the most probable cause of my stomach hurting was eating birthday cake.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Eating birthday cake can sometimes cause stomach discomfort due to the high sugar and fat content.",
+                "Jogging on the treadmill can also cause stomach discomfort if done too vigorously or with improper form.",
+                "Since I did not mention any physical activity in the context, it is more likely that the cause of my stomach hurting was related to something I consumed.",
+                "Therefore, the most probable cause of my stomach hurting was eating birthday cake."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.915830135345459,
+            "tokens_used": null
+        },
+        {
+            "id": "88",
+            "question": "Context: I put my plate in the sink.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. I finished eating.\nB. I skipped dinner.",
+            "answerKey": "A",
+            "cot_output": "Step 1: Putting a plate in the sink is typically done after finishing a meal.\nStep 2: If I finished eating, it is likely that I put my plate in the sink.\nStep 3: Therefore, the cause of putting my plate in the sink was that I finished eating.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Putting a plate in the sink is typically done after finishing a meal.",
+                "If I finished eating, it is likely that I put my plate in the sink.",
+                "Therefore, the cause of putting my plate in the sink was that I finished eating."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8140428066253662,
+            "tokens_used": null
+        },
+        {
+            "id": "89",
+            "question": "Context: The man closed the book.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He finished reading it.\nB. It provoked him to think.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The man closed the book.\nStep 2: Closing a book is typically done after finishing reading it.\nStep 3: Therefore, the cause of the man closing the book is most likely that he finished reading it.\nConclusion: A. He finished reading it.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man closed the book.",
+                "Closing a book is typically done after finishing reading it.",
+                "Therefore, the cause of the man closing the book is most likely that he finished reading it."
+            ],
+            "pred": "A. He finished reading it.",
+            "is_correct": true,
+            "elapsed_time": 1.4343621730804443,
+            "tokens_used": null
+        },
+        {
+            "id": "90",
+            "question": "Context: The boy read the novel aloud to his grandfather.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. His grandfather was deaf.\nB. His grandfather was blind.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The boy read the novel aloud.\nStep 2: Reading aloud is typically done for someone who cannot read themselves.\nStep 3: The purpose of reading aloud is to allow the listener to hear the story.\nStep 4: If the grandfather was deaf, he would not be able to hear the story being read aloud.\nStep 5: Therefore, the most likely cause is that his grandfather was blind.\nConclusion: B. His grandfather was blind.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The boy read the novel aloud.",
+                "Reading aloud is typically done for someone who cannot read themselves.",
+                "The purpose of reading aloud is to allow the listener to hear the story.",
+                "If the grandfather was deaf, he would not be able to hear the story being read aloud.",
+                "Therefore, the most likely cause is that his grandfather was blind."
+            ],
+            "pred": "B. His grandfather was blind.",
+            "is_correct": true,
+            "elapsed_time": 0.8291380405426025,
+            "tokens_used": null
+        },
+        {
+            "id": "91",
+            "question": "Context: My foot went numb.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. I put my shoes on.\nB. I shook my foot.",
+            "answerKey": "B",
+            "cot_output": "Step 1: When a body part goes numb, it is often due to restricted blood flow or pressure on nerves.\nStep 2: Putting on shoes can sometimes restrict blood flow or put pressure on nerves in the foot.\nStep 3: Shaking the foot can help improve blood flow and relieve pressure on nerves.\nStep 4: Therefore, the most likely EFFECT of my foot going numb would be B. I shook my foot.\n===FINAL_ANSWER_START===\nConclusion: B. I shook my foot\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "When a body part goes numb, it is often due to restricted blood flow or pressure on nerves.",
+                "Putting on shoes can sometimes restrict blood flow or put pressure on nerves in the foot.",
+                "Shaking the foot can help improve blood flow and relieve pressure on nerves.",
+                "Therefore, the most likely EFFECT of my foot going numb would be B. I shook my foot."
+            ],
+            "pred": "B. I shook my foot",
+            "is_correct": true,
+            "elapsed_time": 1.1101818084716797,
+            "tokens_used": null
+        },
+        {
+            "id": "92",
+            "question": "Context: The photographer got the child to smile.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. The photographer quickly snapped the child's photo.\nB. The photographer quickly changed the child's pose.",
+            "answerKey": "A",
+            "cot_output": "Step 1: The photographer got the child to smile.\nStep 2: When a child smiles for a photo, it indicates that they are ready for the picture to be taken.\nStep 3: Therefore, the photographer quickly snapped the child's photo.\nConclusion: A\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The photographer got the child to smile.",
+                "When a child smiles for a photo, it indicates that they are ready for the picture to be taken.",
+                "Therefore, the photographer quickly snapped the child's photo."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.8293569087982178,
+            "tokens_used": null
+        },
+        {
+            "id": "93",
+            "question": "Context: The window was opaque.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The glass was stained.\nB. The blinds were open.",
+            "answerKey": "A",
+            "cot_output": "Step 1: An opaque window means that light cannot pass through it.\nStep 2: If the glass was stained, it could block the passage of light, causing the window to be opaque.\nStep 3: If the blinds were open, light would be able to pass through the window, making it transparent.\nConclusion: A. The glass was stained.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "An opaque window means that light cannot pass through it.",
+                "If the glass was stained, it could block the passage of light, causing the window to be opaque.",
+                "If the blinds were open, light would be able to pass through the window, making it transparent."
+            ],
+            "pred": "A. The glass was stained.",
+            "is_correct": true,
+            "elapsed_time": 0.8003921508789062,
+            "tokens_used": null
+        },
+        {
+            "id": "94",
+            "question": "Context: I slipped on the floor.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. The tile was wet.\nB. The tile was cracked.",
+            "answerKey": "A",
+            "cot_output": "Step 1: I slipped on the floor.\nStep 2: When I slipped, I lost my balance.\nStep 3: Losing balance can be caused by a slippery surface.\nStep 4: The tile being wet can make the surface slippery.\nStep 5: Therefore, the cause of me slipping was most likely that the tile was wet.\n===FINAL_ANSWER_START===\nConclusion: A\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "I slipped on the floor.",
+                "When I slipped, I lost my balance.",
+                "Losing balance can be caused by a slippery surface.",
+                "The tile being wet can make the surface slippery.",
+                "Therefore, the cause of me slipping was most likely that the tile was wet."
+            ],
+            "pred": "A",
+            "is_correct": true,
+            "elapsed_time": 0.7127969264984131,
+            "tokens_used": null
+        },
+        {
+            "id": "95",
+            "question": "Context: The man slid the razor across his chin.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. His stubble grew.\nB. His stubble disappeared.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The man slid the razor across his chin, which indicates he was shaving.\nStep 2: Shaving typically involves cutting the hair at the surface of the skin.\nStep 3: Therefore, the effect of the man sliding the razor across his chin would be that his stubble disappeared.\nConclusion: B. His stubble disappeared.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The man slid the razor across his chin, which indicates he was shaving.",
+                "Shaving typically involves cutting the hair at the surface of the skin.",
+                "Therefore, the effect of the man sliding the razor across his chin would be that his stubble disappeared."
+            ],
+            "pred": "B. His stubble disappeared.",
+            "is_correct": true,
+            "elapsed_time": 0.8078992366790771,
+            "tokens_used": null
+        },
+        {
+            "id": "96",
+            "question": "Context: The woman took her family on vacation.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. Her husband got laid off.\nB. She received a salary bonus.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman took her family on vacation.\nStep 2: People usually go on vacation when they have extra money.\nStep 3: The woman's husband getting laid off would likely result in financial strain.\nStep 4: Therefore, the woman most likely took her family on vacation because she received a salary bonus.\nConclusion: B. She received a salary bonus.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman took her family on vacation.",
+                "People usually go on vacation when they have extra money.",
+                "The woman's husband getting laid off would likely result in financial strain.",
+                "Therefore, the woman most likely took her family on vacation because she received a salary bonus."
+            ],
+            "pred": "B. She received a salary bonus.",
+            "is_correct": true,
+            "elapsed_time": 1.4791111946105957,
+            "tokens_used": null
+        },
+        {
+            "id": "97",
+            "question": "Context: The woman awakened.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. She took sleeping pills.\nB. Her husband was snoring.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman was awakened.\nStep 2: The most common reasons for being awakened from sleep are external disturbances or internal factors.\nStep 3: If the woman took sleeping pills, it would be unlikely for her to awaken easily.\nStep 4: If her husband was snoring loudly, it could have disturbed her sleep.\nStep 5: Therefore, the most likely cause of the woman being awakened is her husband snoring.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman was awakened.",
+                "The most common reasons for being awakened from sleep are external disturbances or internal factors.",
+                "If the woman took sleeping pills, it would be unlikely for her to awaken easily.",
+                "If her husband was snoring loudly, it could have disturbed her sleep.",
+                "Therefore, the most likely cause of the woman being awakened is her husband snoring."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.8758487701416016,
+            "tokens_used": null
+        },
+        {
+            "id": "98",
+            "question": "Context: The woman sensed a pleasant smell.\n\nWhat was the EFFECT of this?\n\nChoices:\nA. She remembered to take her medication.\nB. She was reminded of her childhood.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The woman sensed a pleasant smell, triggering her olfactory senses.\nStep 2: The olfactory senses are closely linked to memory recall.\nStep 3: The pleasant smell likely triggered a memory associated with the smell.\nStep 4: The most common memories triggered by pleasant smells are usually positive or nostalgic.\nStep 5: Therefore, the woman was reminded of her childhood.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The woman sensed a pleasant smell, triggering her olfactory senses.",
+                "The olfactory senses are closely linked to memory recall.",
+                "The pleasant smell likely triggered a memory associated with the smell.",
+                "The most common memories triggered by pleasant smells are usually positive or nostalgic.",
+                "Therefore, the woman was reminded of her childhood."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.9879581928253174,
+            "tokens_used": null
+        },
+        {
+            "id": "99",
+            "question": "Context: The bar closed.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. It was crowded.\nB. It was 3 AM.",
+            "answerKey": "B",
+            "cot_output": "Step 1: Bars typically close at a certain time.\nStep 2: The time when bars usually close is around 2 AM to 4 AM.\nStep 3: The bar closed because it was 3 AM.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "Bars typically close at a certain time.",
+                "The time when bars usually close is around 2 AM to 4 AM.",
+                "The bar closed because it was 3 AM."
+            ],
+            "pred": "B",
+            "is_correct": true,
+            "elapsed_time": 0.8478772640228271,
+            "tokens_used": null
+        },
+        {
+            "id": "100",
+            "question": "Context: The driver got pulled over by the police.\n\nWhat was the CAUSE of this?\n\nChoices:\nA. He was parking.\nB. He was speeding.",
+            "answerKey": "B",
+            "cot_output": "Step 1: The police pulled over the driver.\nStep 2: Police usually pull over drivers for breaking traffic laws.\nStep 3: The most common reason for getting pulled over is speeding.\nStep 4: Therefore, the cause of the driver getting pulled over was likely speeding.\nConclusion: B. He was speeding.\n===FINAL_ANSWER_START===\nConclusion: B\n===FINAL_ANSWER_END===",
+            "cot_steps": [
+                "The police pulled over the driver.",
+                "Police usually pull over drivers for breaking traffic laws.",
+                "The most common reason for getting pulled over is speeding.",
+                "Therefore, the cause of the driver getting pulled over was likely speeding."
+            ],
+            "pred": "B. He was speeding.",
+            "is_correct": true,
+            "elapsed_time": 0.8297410011291504,
+            "tokens_used": null
+        }
+    ]
+}
