@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 
 models=(
+    "configs/model/qwen2.5-7B.json"
+    "configs/model/llama-3.1-8B.json"
     "configs/model/claude-3.7-sonnet.json"
     "configs/model/claude-3.5-sonnet.json"
+    "configs/model/qwen2.5-72B.json"
+    "configs/model/llama-3.1-70B.json"
+    "configs/model/deepseek-r1.json"
 )
 datasets=(
-    "configs/dataset_strategyqa.json"
-    "configs/dataset_math.json"
-    "configs/dataset_copa.json"
-    "configs/dataset_causalnet.json"
+    "configs/dataset_hellaswag.json"
 )
+
 
 script="baseline_cot_inference.py"
 work_dir="/home/wuchenxi/projects/Causal-Cot2"

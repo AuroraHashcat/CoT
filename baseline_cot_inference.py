@@ -85,13 +85,17 @@ def get_cot_prompt(item, dataset_type=None):
 def extract_cot_and_answer(text: str) -> tuple[list[str], any]:
     import re
     steps = re.findall(r"Step \d+: (.*)", text)
-    # 只提取 Conclusion: 后的内容
+    # 先尝试 Conclusion: 提取
     conclusion = None
     match = re.search(r"Conclusion:\s*(.*?)(?:\n|===FINAL_ANSWER_END===|$)", text)
     if match:
         conclusion = match.group(1).strip()
-        # 去除多余符号
         conclusion = re.sub(r'[\*#]+', '', conclusion).strip()
+    else:
+        # 支持没有 Conclusion: 直接答案的情况
+        match2 = re.search(r"===FINAL_ANSWER_START===\s*([A-Ea-e0-9]+)\s*===FINAL_ANSWER_END===", text, re.DOTALL)
+        if match2:
+            conclusion = match2.group(1).strip()
     print(f"Extracted steps: {steps}")
     print(f"Extracted conclusion: {conclusion}")
     return steps, conclusion

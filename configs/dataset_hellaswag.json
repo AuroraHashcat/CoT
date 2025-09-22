@@ -1,0 +1,6 @@
+{
+    "dataset_name": "GPQA",
+    "hf_id": "/home/wuchenxi/projects/Causal-Cot2/configs/dataset/hellaswag.json",
+    "split": "local",
+    "num_samples": 100
+}

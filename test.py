@@ -308,32 +308,150 @@ def test(csv_path, json_path):
 # 用法示例
 # test('your_file.csv', 'output.json')
 
+# import json
+# import re
+
+# def add_pred_and_is_correct(json_path, output_path):
+#     import json
+#     import re
+
+#     with open(json_path, 'r', encoding='utf-8') as f:
+#         data = json.load(f)
+#     results = data['results'] if 'results' in data else data
+#     count = 0
+
+#     for item in results:
+#         cot_output = item.get('cot_output', '')
+#         match = re.search(r'===FINAL_ANSWER_START===\s*([A-Ea-e0-9]+)\s*===FINAL_ANSWER_END===', cot_output, re.DOTALL)
+#         pred = match.group(1).strip() if match else None
+#         item['pred'] = pred
+#         answer_key = item.get('answerKey', '').strip()
+#         is_correct = (pred is not None) and (pred.lower() == answer_key.lower())
+#         if is_correct:
+#             count += 1
+#         item['is_correct'] = is_correct
+
+#     total = len(results)
+#     acc = count / total if total > 0 else 0.0
+#     acc_str = f"{acc*100:.2f}%"
+
+#     # 写入 metrics
+#     if "metrics" in data and "overall_summary" in data["metrics"]:
+#         data["metrics"]["overall_summary"]["final_accuracy"] = acc_str
+#         data["metrics"]["overall_summary"]["total_questions_evaluated"] = total
+
+#     # print(f"总共 {total} 条数据，正确 {count} 条，准确率 {acc_str}")
+#     with open(output_path, 'w', encoding='utf-8') as f:
+#         json.dump(data, f, ensure_ascii=False, indent=2)
+
+# # 用法示例
+# # add_pred_and_is_correct('claude-3.5-sonnet_20250922_021218.json', 'claude-3.5-sonnet_20250922_021218_with_pred.json')、
+
+# # 用法示例
+# if __name__ == "__main__":
+#     add_pred_and_is_correct('results/dataset_causalnet/baseline/claude-3.7-sonnet_20250922_021217.json', 'results/dataset_causalnet/baseline/claude-3.7-sonnet_20250922_021217_new.json')
+#     add_pred_and_is_correct('results/dataset_codah/baseline/claude-3.5-sonnet_20250922_020911.json', 'results/dataset_codah/baseline/claude-3.5-sonnet_20250922_020911_new.json')
+#     add_pred_and_is_correct('results/dataset_codah/baseline/claude-3.7-sonnet_20250922_020911.json', 'results/dataset_codah/baseline/claude-3.7-sonnet_20250922_020911_new.json')
+
+import os
+import json
+import re
+
+def add_pred_and_is_correct(json_path, output_path):
+    import json
+    import re
+
+    def normalize_tf(val):
+        # 支持多种 true/false 表达
+        true_set = {'true', 't', 'yes', 'y', '1', 'correct'}
+        false_set = {'false', 'f', 'no', 'n', '0', 'incorrect'}
+        val = str(val).strip().lower()
+        if val in true_set:
+            return 'true'
+        elif val in false_set:
+            return 'false'
+        return val
+
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    results = data['results'] if 'results' in data else data
+    count = 0
+
+    for item in results:
+        cot_output = item.get('cot_output', '')
+        # 选择题答案
+        match = re.search(r'===FINAL_ANSWER_START===\s*([A-Ea-e0-9]+)\s*===FINAL_ANSWER_END===', cot_output, re.DOTALL)
+        pred = match.group(1).strip() if match else None
+        # 判断题答案
+        if not pred:
+            match_tf = re.search(r'===FINAL_ANSWER_START===\s*(true|false|True|False|1|0|yes|no|correct|incorrect)\s*===FINAL_ANSWER_END===', cot_output, re.IGNORECASE)
+            if match_tf:
+                pred = normalize_tf(match_tf.group(1))
+        item['pred'] = pred
+
+        answer_key = str(item.get('answerKey', '')).strip()
+        # 判断题宽松匹配
+        if pred in ['true', 'false'] or normalize_tf(answer_key) in ['true', 'false']:
+            is_correct = normalize_tf(pred) == normalize_tf(answer_key)
+        else:
+            is_correct = (pred is not None) and (pred.lower() == answer_key.lower())
+        if is_correct:
+            count += 1
+        item['is_correct'] = is_correct
+
+    total = len(results)
+    acc = count / total if total > 0 else 0.0
+    acc_str = f"{acc*100:.2f}%"
+
+    # 写入 metrics
+    if "metrics" in data and "overall_summary" in data["metrics"]:
+        data["metrics"]["overall_summary"]["final_accuracy"] = acc_str
+        data["metrics"]["overall_summary"]["total_questions_evaluated"] = total
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def batch_process_results():
+    base_dir = "results"
+    sub_dirs = ["dataset_strategyqa"]
+    models = ["claude-3.7-sonnet", "claude-3.5-sonnet"]
+
+    for sub in sub_dirs:
+        sub_path = os.path.join(base_dir, sub, "baseline")
+        if not os.path.exists(sub_path):
+            continue
+        for fname in os.listdir(sub_path):
+            for model in models:
+                if fname.startswith(model) and fname.endswith(".json"):
+                    in_file = os.path.join(sub_path, fname)
+                    out_file = os.path.join(sub_path, fname.replace(".json", "_new.json"))
+                    print(f"处理 {in_file} -> {out_file}")
+                    add_pred_and_is_correct(in_file, out_file)
+
+
+import json
+
+def convert_hellaswag(input_path, output_path):
+    label_map = ['a', 'b', 'c', 'd', 'e']
+    with open(input_path, 'r', encoding='utf-8') as fin:
+        data = [json.loads(line) for line in fin]
+    results = []
+    for item in data:
+        question = item.get('ctx', '')
+        choices = [f"{label_map[i]}. {ending}" for i, ending in enumerate(item.get('endings', []))]
+        # label为字符串数字，转为字母
+        label_idx = int(item.get('label', 0))
+        answerKey = label_map[label_idx]
+        results.append({
+            "question": question,
+            "choices": choices,
+            "answerKey": answerKey
+        })
+    with open(output_path, 'w', encoding='utf-8') as fout:
+        json.dump(results, fout, ensure_ascii=False, indent=2)
 
 # 用法示例
+# convert_hellaswag('hellaswag.json', 'hellaswag_formatted.json')
+
 if __name__ == "__main__":
-    # download_codah("codah.csv", "train")
-    test('codah.csv', 'codah.json')
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/qwen2.5-7B_20250921_002544.json",
-    #     "gpqa_qwen-7b.csv"
-    # )
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/gpt-3.5_20250921_103220.json",
-    #     "gpqa_gpt-3.5.csv"
-    # )
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/gpt-5_20250921_103220.json",
-    #     "gpqa_gpt-5.csv"
-    # )
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/llama-3.1-8B_20250921_002545.json",
-    #     "gpqa_llama-8b.csv"
-    # )
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/o3-mini_20250921_103220.json",
-    #     "gpqa_o3-mini.csv"
-    # )
-    # convert_mc_json_to_csv(
-    #     "results/dataset_gpqa/baseline/qwen2.5-72B_20250921_002544.json",
-    #     "gpqa_qwen-72b.csv"
-    # )
+    convert_hellaswag('hellaswag.json', 'hellaswag2.json')
